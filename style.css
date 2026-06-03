@@ -46,3 +46,17 @@ footer {
   background: #111827;
   color: white;
 }
+.card-link {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  text-align: center;
+  color: #222;
+  text-decoration: none;
+  display: block;
+}
+
+.card-link:hover {
+  transform: translateY(-3px);
+}
