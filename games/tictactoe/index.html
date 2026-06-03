@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe - Abhishek Muthyam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #111827, #1f2937);
+      color: white;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+    }
+
+    header a {
+      color: #93c5fd;
+      text-decoration: none;
+    }
+
+    .game {
+      margin: 30px auto;
+      max-width: 350px;
+      background: white;
+      color: #111827;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+    }
+
+    .board {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin: 20px 0;
+    }
+
+    .cell {
+      width: 90px;
+      height: 90px;
+      font-size: 40px;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      background: #e5e7eb;
+      cursor: pointer;
+    }
+
+    .cell:hover {
+      background: #d1d5db;
+    }
+
+    .reset {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      background: #2563eb;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .reset:hover {
+      background: #1d4ed8;
+    }
+
+    #status {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    footer {
+      padding: 20px;
+      color: #d1d5db;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <a href="../">← Back to Games</a>
+</header>
+
+<div class="game">
+  <h1>Tic Tac Toe</h1>
+  <p id="status">Player X's turn</p>
+
+  <div class="board">
+    <button class="cell" onclick="play(0)"></button>
+    <button class="cell" onclick="play(1)"></button>
+    <button class="cell" onclick="play(2)"></button>
+    <button class="cell" onclick="play(3)"></button>
+    <button class="cell" onclick="play(4)"></button>
+    <button class="cell" onclick="play(5)"></button>
+    <button class="cell" onclick="play(6)"></button>
+    <button class="cell" onclick="play(7)"></button>
+    <button class="cell" onclick="play(8)"></button>
+  </div>
+
+  <button class="reset" onclick="resetGame()">Reset Game</button>
+</div>
+
+<footer>
+  © 2026 Abhishek Muthyam
+</footer>
+
+<script>
+  let board = ["", "", "", "", "", "", "", "", ""];
+  let currentPlayer = "X";
+  let gameActive = true;
+
+  const winningPatterns = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6]
+  ];
+
+  function play(index) {
+    if (board[index] !== "" || !gameActive) {
+      return;
+    }
+
+    board[index] = currentPlayer;
+    document.getElementsByClassName("cell")[index].innerText = currentPlayer;
+
+    if (checkWinner()) {
+      document.getElementById("status").innerText = "Player " + currentPlayer + " wins!";
+      gameActive = false;
+      return;
+    }
+
+    if (!board.includes("")) {
+      document.getElementById("status").innerText = "It's a draw!";
+      gameActive = false;
+      return;
+    }
+
+    currentPlayer = currentPlayer === "X" ? "O" : "X";
+    document.getElementById("status").innerText = "Player " + currentPlayer + "'s turn";
+  }
+
+  function checkWinner() {
+    return winningPatterns.some(pattern => {
+      return pattern.every(index => board[index] === currentPlayer);
+    });
+  }
+
+  function resetGame() {
+    board = ["", "", "", "", "", "", "", "", ""];
+    currentPlayer = "X";
+    gameActive = true;
+    document.getElementById("status").innerText = "Player X's turn";
+
+    const cells = document.getElementsByClassName("cell");
+    for (let i = 0; i < cells.length; i++) {
+      cells[i].innerText = "";
+    }
+  }
+</script>
+
+</body>
+</html>
