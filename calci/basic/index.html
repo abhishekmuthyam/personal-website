@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Basic Calculator - Abhishek Muthyam</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Calculator - Abhishek Muthyam</title>
 
   <style>
     body {
@@ -36,10 +37,10 @@
 
     .calculator {
       width: 320px;
-      background: #ffffff;
+      background: white;
       color: #111827;
       padding: 20px;
-      border-radius: 22px;
+      border-radius: 20px;
       box-shadow: 0 20px 40px rgba(0,0,0,0.35);
     }
 
@@ -56,7 +57,7 @@
       padding: 10px;
       margin-bottom: 15px;
       border: none;
-      border-radius: 12px;
+      border-radius: 10px;
       background: #f3f4f6;
       box-sizing: border-box;
     }
@@ -69,12 +70,11 @@
 
     button {
       height: 60px;
-      font-size: 22px;
       border: none;
-      border-radius: 14px;
+      border-radius: 12px;
+      font-size: 22px;
       cursor: pointer;
       background: #e5e7eb;
-      color: #111827;
     }
 
     button:hover {
@@ -125,16 +125,18 @@
 <body>
 
 <header>
-  <a href="/calci">← Back to Calculator Tools</a>
+  <a href="../">← Back to Calculator Tools</a>
 </header>
 
 <div class="container">
   <div class="calculator">
+
     <h2>Basic Calculator</h2>
 
     <input type="text" id="display" readonly>
 
     <div class="buttons">
+
       <button class="clear" onclick="clearDisplay()">C</button>
       <button onclick="deleteLast()">⌫</button>
       <button onclick="append('%')">%</button>
@@ -158,7 +160,9 @@
       <button class="zero" onclick="append('0')">0</button>
       <button onclick="append('.')">.</button>
       <button class="equal" onclick="calculate()">=</button>
+
     </div>
+
   </div>
 </div>
 
@@ -189,7 +193,7 @@
       }
 
       display.value = eval(display.value);
-    } catch {
+    } catch (error) {
       display.value = "Error";
     }
   }
