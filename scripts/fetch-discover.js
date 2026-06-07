@@ -26,11 +26,11 @@ async function main() {
     fetchCompanies()
   ]);
 
-  const items = feedResults
+  const rawItems = feedResults
     .flatMap(result => result.items)
     .sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0))
-    .slice(0, 80)
-    .map(item => ({ id: createId(item), ...item }));
+    .slice(0, 120);
+  const items = await enrichWithGoogleSources(clusterItems(rawItems).slice(0, 80));
 
   const data = {
     updatedAt: new Date().toISOString(),
@@ -60,6 +60,58 @@ async function fetchSource(source) {
   } catch (error) {
     console.log(`${source.name} failed: ${error.message}`);
     return { name: source.name, category: source.category, ok: false, count: 0, error: error.message, items: [] };
+  }
+}
+
+async function enrichWithGoogleSources(items) {
+  const enriched = [];
+
+  for (const item of items) {
+    if (enriched.length < 24) {
+      enriched.push(await addGoogleSources(item));
+    } else {
+      enriched.push(item);
+    }
+  }
+
+  return enriched.sort((a, b) => {
+    const sourceDiff = (b.sourceCount || 1) - (a.sourceCount || 1);
+    if (sourceDiff !== 0 && Math.abs(sourceDiff) > 1) return sourceDiff;
+    return new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0);
+  });
+}
+
+async function addGoogleSources(item) {
+  try {
+    const query = item.title.split(/\s+/).slice(0, 10).join(" ");
+    const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-IN&gl=IN&ceid=IN:en`;
+    const response = await fetchWithTimeout(url, {
+      headers: { "User-Agent": "abhishekmuthyam.com discover updater" }
+    });
+    if (!response.ok) return item;
+
+    const xml = await response.text();
+    const googleItems = parseFeed(xml, {
+      name: "Google News Search",
+      category: item.category,
+      categoryLabel: item.categoryLabel
+    }).slice(0, 8);
+    const fingerprint = getFingerprint(item.title);
+
+    for (const result of googleItems) {
+      if (similarity(fingerprint, getFingerprint(result.title)) < 0.46) continue;
+      const duplicate = item.sources.some(source => source.link === result.link || source.name === result.source);
+      if (!duplicate) {
+        item.sources.push(toSource(result));
+      }
+      if (!item.image && result.image) item.image = result.image;
+    }
+
+    item.sourceCount = item.sources.length;
+    item.source = item.sources[0] ? item.sources[0].name : item.source;
+    return item;
+  } catch (error) {
+    return item;
   }
 }
 
@@ -147,16 +199,16 @@ async function fetchWithTimeout(url, options = {}) {
 function parseFeed(xml, source) {
   const entries = getBlocks(xml, "item").length ? getBlocks(xml, "item") : getBlocks(xml, "entry");
   return entries.map(entry => {
-    const title = cleanText(getTag(entry, "title"));
+    const parsedTitle = parseTitle(cleanText(getTag(entry, "title")), source);
     const link = getLink(entry);
     const summary = cleanText(getTag(entry, "description") || getTag(entry, "summary") || getTag(entry, "content"));
     const publishedAt = cleanText(getTag(entry, "pubDate") || getTag(entry, "published") || getTag(entry, "updated"));
     return {
-      title,
+      title: parsedTitle.title,
       link,
       summary: truncate(summary, 240),
       image: getImage(entry),
-      source: source.name,
+      source: parsedTitle.publisher || source.name,
       category: source.category,
       categoryLabel: source.categoryLabel,
       publishedAt: publishedAt ? safeDate(publishedAt) : null
@@ -226,12 +278,114 @@ function safeDate(value) {
 }
 
 function createId(item) {
-  return `${item.source}-${item.title}-${item.publishedAt || item.link}`
+  return `${item.title}-${item.category}-${item.publishedAt || item.link}`
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
     .slice(0, 100)
     .replace(/^-+|-+$/g, "");
+}
+
+function parseTitle(title, source) {
+  if (!source.name.startsWith("Google ")) {
+    return { title, publisher: source.name };
+  }
+
+  const parts = title.split(" - ");
+  if (parts.length < 2) {
+    return { title, publisher: source.name };
+  }
+
+  const publisher = parts.pop().trim();
+  return {
+    title: parts.join(" - ").trim(),
+    publisher: publisher || source.name
+  };
+}
+
+function clusterItems(items) {
+  const clusters = [];
+
+  for (const item of items) {
+    const fingerprint = getFingerprint(item.title);
+    const match = clusters.find(cluster => {
+      const score = similarity(cluster.fingerprint, fingerprint);
+      return score >= 0.74 || (cluster.category === item.category && score >= 0.52);
+    });
+
+    if (match) {
+      const hasSource = match.sources.some(source => source.link === item.link);
+      if (!hasSource) {
+        match.sources.push(toSource(item));
+      }
+      if (!match.image && item.image) match.image = item.image;
+      if (new Date(item.publishedAt || 0) > new Date(match.publishedAt || 0)) {
+        match.publishedAt = item.publishedAt;
+      }
+      if (item.summary && item.summary.length > (match.summary || "").length) {
+        match.summary = item.summary;
+      }
+      continue;
+    }
+
+    clusters.push({
+      id: createId(item),
+      title: item.title,
+      link: item.link,
+      summary: item.summary,
+      image: item.image,
+      source: item.source,
+      category: item.category,
+      categoryLabel: item.categoryLabel,
+      publishedAt: item.publishedAt,
+      fingerprint,
+      sources: [toSource(item)]
+    });
+  }
+
+  return clusters
+    .map(({ fingerprint, ...item }) => ({
+      ...item,
+      sourceCount: item.sources.length,
+      source: item.sources[0] ? item.sources[0].name : item.source
+    }))
+    .sort((a, b) => {
+      const sourceDiff = (b.sourceCount || 1) - (a.sourceCount || 1);
+      if (sourceDiff !== 0 && Math.abs(sourceDiff) > 1) return sourceDiff;
+      return new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0);
+    });
+}
+
+function toSource(item) {
+  return {
+    name: item.source,
+    link: item.link,
+    summary: item.summary,
+    publishedAt: item.publishedAt
+  };
+}
+
+function getFingerprint(title) {
+  const stopWords = new Set([
+    "the", "and", "for", "with", "from", "that", "this", "are", "was", "were", "has", "have", "into",
+    "over", "after", "before", "live", "latest", "updates", "news", "says", "said", "will", "amid",
+    "google", "news", "bbc", "espn"
+  ]);
+  return new Set(String(title || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ")
+    .split(/\s+/)
+    .filter(word => word.length > 2 && !stopWords.has(word))
+    .slice(0, 12));
+}
+
+function similarity(a, b) {
+  if (!a.size || !b.size) return 0;
+  let intersection = 0;
+  for (const word of a) {
+    if (b.has(word)) intersection += 1;
+  }
+  return intersection / Math.min(a.size, b.size);
 }
 
 function weatherLabel(code) {

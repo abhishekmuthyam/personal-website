@@ -159,7 +159,7 @@
           <div class="story-meta">
             <span>${formatDate(lead.publishedAt)}</span>
             <span>${escapeHtml(lead.source)}</span>
-            <span>1 source</span>
+            <span>${getSourceCountLabel(lead)}</span>
           </div>
         </div>
         <a class="lead-visual" href="${getArticleUrl(lead)}" aria-label="Open lead story">${renderVisual(lead)}</a>
@@ -173,7 +173,7 @@
             <h3><a href="${getArticleUrl(item)}">${escapeHtml(item.title)}</a></h3>
             <div class="story-meta">
               <span>${escapeHtml(item.source)}</span>
-              <span>1 source</span>
+              <span>${getSourceCountLabel(item)}</span>
             </div>
           </div>
         </article>
@@ -189,7 +189,7 @@
             <div class="story-meta">
               <span>${formatDate(item.publishedAt)}</span>
               <span>${escapeHtml(item.source)}</span>
-              <span>1 source</span>
+              <span>${getSourceCountLabel(item)}</span>
             </div>
           </div>
         </article>
@@ -255,6 +255,11 @@
     function renderVisual(item) {
       if (item.image && item.image.startsWith("http")) return `<img src="${escapeAttribute(item.image)}" alt="">`;
       return `<span>${getSourceInitials(item.source)}</span>`;
+    }
+
+    function getSourceCountLabel(item) {
+      const count = item.sourceCount || (Array.isArray(item.sources) ? item.sources.length : 1);
+      return count + (count === 1 ? " source" : " sources");
     }
 
     function formatDate(value) {

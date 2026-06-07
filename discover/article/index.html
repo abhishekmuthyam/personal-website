@@ -83,7 +83,7 @@
         <div class="story-meta article-meta">
           <span>Published ${formatDate(item.publishedAt)}</span>
           <span>${escapeHtml(item.source)}</span>
-          <span>1 source</span>
+          <span>${getSourceCountLabel(item)}</span>
         </div>
         ${renderHeroVisual(item)}
         ${sections.map(section => `
@@ -98,9 +98,10 @@
 
     function buildSections(item) {
       const summary = item.summary || "The source article contains the full details for this story.";
+      const sourceCount = getSources(item).length;
       return [
         { title: "What happened", body: summary },
-        { title: "Why it matters", body: "This story is part of the " + (item.categoryLabel || item.category) + " stream and may affect readers following current events, markets, sports, entertainment, or technology." },
+        { title: "Why it matters", body: "This story is part of the " + (item.categoryLabel || item.category) + " stream and is currently backed by " + sourceCount + (sourceCount === 1 ? " source." : " sources.") },
         { title: "What to read next", body: "Open the original source to verify details, read the complete reporting, and check for updates as the story develops." }
       ];
     }
@@ -111,7 +112,13 @@
     }
 
     function renderSources(item) {
-      sourcesElement.innerHTML = `<a class="source-pill" href="${escapeAttribute(item.link)}" target="_blank" rel="noopener"><span>${escapeHtml(item.source)}</span><strong>Open source</strong></a>`;
+      const sources = getSources(item);
+      sourcesElement.innerHTML = sources.map(source => `
+        <a class="source-pill" href="${escapeAttribute(source.link)}" target="_blank" rel="noopener">
+          <span>${escapeHtml(source.name)}</span>
+          <strong>Open source</strong>
+        </a>
+      `).join("");
     }
 
     function renderRelated(item, items) {
@@ -134,6 +141,19 @@
 
     function getSourceInitials(source) {
       return String(source || "News").split(/\s+/).slice(0, 2).map(part => part.charAt(0).toUpperCase()).join("");
+    }
+
+    function getSources(item) {
+      if (Array.isArray(item.sources) && item.sources.length) {
+        return item.sources;
+      }
+
+      return [{ name: item.source, link: item.link, summary: item.summary, publishedAt: item.publishedAt }];
+    }
+
+    function getSourceCountLabel(item) {
+      const count = getSources(item).length;
+      return count + (count === 1 ? " source" : " sources");
     }
 
     function escapeHtml(value) {
