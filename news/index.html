@@ -20,7 +20,7 @@
   <section>
     <div class="news-topline">
       <p id="newsStatus">Loading latest technical news...</p>
-      <p id="newsUpdated">Updated automatically by GitHub Actions.</p>
+      <p id="newsUpdated">Updated about every 10 minutes by GitHub Actions.</p>
     </div>
 
     <div class="news-toolbar" aria-label="News topic filters">
@@ -41,9 +41,12 @@
             <li>Inside Java</li>
             <li>Spring Blog</li>
             <li>AWS What's New</li>
+            <li>Google Cloud Blog</li>
             <li>OpenAI News</li>
             <li>GitHub Blog</li>
             <li>Hacker News</li>
+            <li>InfoQ</li>
+            <li>The Register</li>
           </ul>
         </section>
 
@@ -136,7 +139,7 @@
 
     function renderUpdated(updatedAt) {
       if (!updatedAt) {
-        updatedElement.innerText = "Updated automatically by GitHub Actions.";
+        updatedElement.innerText = "Updated about every 10 minutes by GitHub Actions.";
         return;
       }
 

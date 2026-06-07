@@ -21,10 +21,10 @@ const sources = [
     url: "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
   },
   {
-    name: "AWS News Blog",
+    name: "Google Cloud Blog",
     topic: "cloud",
     topicLabel: "Cloud",
-    url: "https://aws.amazon.com/blogs/aws/feed/"
+    url: "https://cloudblog.withgoogle.com/rss/"
   },
   {
     name: "OpenAI News",
@@ -49,6 +49,18 @@ const sources = [
     topic: "devtools",
     topicLabel: "Dev Tools",
     url: "https://news.ycombinator.com/rss"
+  },
+  {
+    name: "InfoQ",
+    topic: "devtools",
+    topicLabel: "Dev Tools",
+    url: "https://feed.infoq.com/"
+  },
+  {
+    name: "The Register",
+    topic: "devtools",
+    topicLabel: "Dev Tools",
+    url: "https://www.theregister.com/software/headlines.atom"
   }
 ];
 
