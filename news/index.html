@@ -3,89 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech News - Abhishek Muthyam</title>
+  <title>Tech Discover - Abhishek Muthyam</title>
   <meta name="description" content="Real-time technical news discovery for Java, cloud, AI, developer tools, and software engineering.">
   <link rel="stylesheet" href="../style.css">
 </head>
-<body>
-  <section class="hero news-hero">
-    <p class="eyebrow">Live Tech Discovery</p>
-    <h1>Real-time technical news for builders.</h1>
-    <p>
-      Fresh Java, cloud, AI, developer-tool, and software engineering updates collected
-      from trusted feeds and refreshed automatically.
-    </p>
-  </section>
+<body class="discover-body">
+  <div class="discover-shell">
+    <aside class="discover-rail" aria-label="Discover navigation">
+      <a class="rail-brand" href="/" aria-label="Home">AM</a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/projects">Projects</a>
+        <a class="active" href="/news">Discover</a>
+        <a href="/blog">Blog</a>
+        <a href="/games">Games</a>
+      </nav>
+      <div class="rail-foot">Live tech feed</div>
+    </aside>
 
-  <section>
-    <div class="news-topline">
-      <p id="newsStatus">Loading latest technical news...</p>
-      <p id="newsUpdated">Updated about every 10 minutes by GitHub Actions.</p>
-    </div>
+    <main class="discover-main">
+      <header class="discover-header">
+        <div>
+          <p class="eyebrow">Live Tech Discover</p>
+          <h1>Discover</h1>
+        </div>
+        <div class="discover-tabs" aria-label="News views">
+          <button class="discover-tab active" type="button" data-filter="all">Top</button>
+          <button class="discover-tab" type="button" data-filter="java">Java</button>
+          <button class="discover-tab" type="button" data-filter="cloud">Cloud</button>
+          <button class="discover-tab" type="button" data-filter="ai">AI</button>
+          <button class="discover-tab" type="button" data-filter="devtools">Dev Tools</button>
+        </div>
+      </header>
 
-    <div class="news-toolbar" aria-label="News topic filters">
-      <button class="filter-button active" type="button" data-filter="all">All</button>
-      <button class="filter-button" type="button" data-filter="java">Java</button>
-      <button class="filter-button" type="button" data-filter="cloud">Cloud</button>
-      <button class="filter-button" type="button" data-filter="ai">AI</button>
-      <button class="filter-button" type="button" data-filter="devtools">Dev Tools</button>
-    </div>
+      <section id="leadStory" class="discover-lead" aria-label="Top story">
+        <p>Loading latest technical news...</p>
+      </section>
 
-    <div class="news-layout">
-      <main id="newsFeed" class="news-feed" aria-label="Latest technical news"></main>
+      <section id="spotlightGrid" class="spotlight-grid" aria-label="Spotlight stories"></section>
 
-      <aside class="news-side">
-        <section class="note-card">
-          <h2>Live Sources</h2>
-          <ul id="sourceList">
-            <li>Inside Java</li>
-            <li>Spring Blog</li>
-            <li>AWS What's New</li>
-            <li>Google Cloud Blog</li>
-            <li>OpenAI News</li>
-            <li>GitHub Blog</li>
-            <li>Hacker News</li>
-            <li>InfoQ</li>
-            <li>The Register</li>
-          </ul>
-        </section>
+      <section>
+        <div class="feed-heading">
+          <h2>Latest</h2>
+          <p id="newsUpdated">Updated about every 10 minutes by GitHub Actions.</p>
+        </div>
+        <div id="storyList" class="story-list" aria-label="Latest technical news"></div>
+      </section>
+    </main>
 
-        <section class="note-card">
-          <h2>Watch Topics</h2>
-          <div class="tags">
-            <span>Java</span>
-            <span>Spring Boot</span>
-            <span>AWS</span>
-            <span>AI Coding</span>
-            <span>APIs</span>
-            <span>Security</span>
-          </div>
-        </section>
-      </aside>
-    </div>
+    <aside class="discover-side" aria-label="Personalization">
+      <section class="personalize-card">
+        <div class="side-card-title">
+          <h2>Make it yours</h2>
+          <button id="clearTopics" type="button" aria-label="Clear selected topics">Clear</button>
+        </div>
+        <p>Select topics and interests to customize your Discover experience.</p>
+        <div class="interest-grid">
+          <button type="button" data-interest="java">Java</button>
+          <button type="button" data-interest="cloud">Cloud</button>
+          <button type="button" data-interest="ai">AI</button>
+          <button type="button" data-interest="devtools">Dev Tools</button>
+        </div>
+        <button id="saveTopics" class="save-interests" type="button">Save Interests</button>
+      </section>
 
-    <p style="margin-top:30px;">
-      <a href="/">&larr; Back to Home</a>
-    </p>
-  </section>
-
-  <footer>
-    &copy; 2026 Abhishek Muthyam. Built for learning and experiments.
-  </footer>
+      <section class="personalize-card compact">
+        <h2>Sources</h2>
+        <ul id="sourceList" class="source-list">
+          <li>Loading sources...</li>
+        </ul>
+      </section>
+    </aside>
+  </div>
 
   <script>
-    const buttons = document.querySelectorAll(".filter-button");
-    const feedElement = document.getElementById("newsFeed");
-    const statusElement = document.getElementById("newsStatus");
+    const topicLabels = {
+      all: "Top",
+      java: "Java",
+      cloud: "Cloud",
+      ai: "AI",
+      devtools: "Dev Tools"
+    };
+
+    const tabButtons = document.querySelectorAll(".discover-tab");
+    const interestButtons = document.querySelectorAll("[data-interest]");
+    const leadElement = document.getElementById("leadStory");
+    const spotlightElement = document.getElementById("spotlightGrid");
+    const storyListElement = document.getElementById("storyList");
     const updatedElement = document.getElementById("newsUpdated");
     const sourceListElement = document.getElementById("sourceList");
+    const clearTopicsButton = document.getElementById("clearTopics");
+    const saveTopicsButton = document.getElementById("saveTopics");
+
     let allItems = [];
-    let activeFilter = "all";
+    let activeFilter = localStorage.getItem("discoverTopic") || "all";
+    let selectedInterests = new Set(JSON.parse(localStorage.getItem("discoverInterests") || "[]"));
 
     async function loadNews() {
       try {
         const response = await fetch("./news-data.json?v=" + Date.now());
-
         if (!response.ok) {
           throw new Error("News data unavailable");
         }
@@ -94,46 +110,97 @@
         allItems = Array.isArray(data.items) ? data.items : [];
         renderSources(data.sources || []);
         renderUpdated(data.updatedAt);
-        renderNews();
+        syncControls();
+        renderDiscover();
       } catch (error) {
-        statusElement.innerText = "Live news could not load right now. Showing source links soon.";
-        updatedElement.innerText = "Try refreshing after the next scheduled update.";
-        feedElement.innerHTML = "";
+        leadElement.innerHTML = "<p>Live news could not load right now. Please refresh after the next scheduled update.</p>";
+        spotlightElement.innerHTML = "";
+        storyListElement.innerHTML = "";
       }
     }
 
-    function renderNews() {
-      const visibleItems = activeFilter === "all"
-        ? allItems
-        : allItems.filter(item => item.topic === activeFilter);
+    function renderDiscover() {
+      const visibleItems = getVisibleItems();
+      const lead = visibleItems[0];
+      const spotlight = visibleItems.slice(1, 4);
+      const list = visibleItems.slice(4);
 
-      statusElement.innerText = visibleItems.length
-        ? visibleItems.length + " updates found"
-        : "No updates found for this topic yet.";
+      if (!lead) {
+        leadElement.innerHTML = `<p>No updates found for ${escapeHtml(topicLabels[activeFilter] || "this topic")}.</p>`;
+        spotlightElement.innerHTML = "";
+        storyListElement.innerHTML = "";
+        return;
+      }
 
-      feedElement.innerHTML = visibleItems.map(item => `
-        <article class="news-card" data-topic="${escapeHtml(item.topic)}">
-          <div class="news-card-header">
-            <span class="card-kicker">${escapeHtml(item.topicLabel || item.topic)}</span>
-            <span class="news-source">${escapeHtml(item.source)}</span>
+      leadElement.innerHTML = `
+        <div>
+          <span class="story-topic">${escapeHtml(lead.topicLabel || lead.topic)}</span>
+          <h2><a href="${escapeAttribute(lead.link)}" target="_blank" rel="noopener">${escapeHtml(lead.title)}</a></h2>
+          <p>${escapeHtml(lead.summary || "Open the source to read the full update.")}</p>
+          <div class="story-meta">
+            <span>${formatDate(lead.publishedAt)}</span>
+            <span>${escapeHtml(lead.source)}</span>
+            <span>1 source</span>
           </div>
-          <h2><a href="${escapeAttribute(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h2>
-          <p>${escapeHtml(item.summary || "Open the source to read the full update.")}</p>
-          <div class="source-row">
-            <span>${formatDate(item.publishedAt)}</span>
-            <a class="post-link" href="${escapeAttribute(item.link)}" target="_blank" rel="noopener">Read source</a>
+        </div>
+        <a class="lead-visual" href="${escapeAttribute(lead.link)}" target="_blank" rel="noopener" aria-label="Open lead story">
+          ${getSourceInitials(lead.source)}
+        </a>
+      `;
+
+      spotlightElement.innerHTML = spotlight.map(item => `
+        <article class="spotlight-card">
+          <a class="spotlight-visual" href="${escapeAttribute(item.link)}" target="_blank" rel="noopener">${getSourceInitials(item.source)}</a>
+          <div>
+            <span class="story-topic">${escapeHtml(item.topicLabel || item.topic)}</span>
+            <h3><a href="${escapeAttribute(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
+            <div class="story-meta">
+              <span>${escapeHtml(item.source)}</span>
+              <span>1 source</span>
+            </div>
+          </div>
+        </article>
+      `).join("");
+
+      storyListElement.innerHTML = list.map(item => `
+        <article class="story-row">
+          <div class="story-dot">${getSourceInitials(item.source)}</div>
+          <div>
+            <span class="story-topic">${escapeHtml(item.topicLabel || item.topic)}</span>
+            <h3><a href="${escapeAttribute(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
+            <p>${escapeHtml(item.summary || "Open the source to read the full update.")}</p>
+            <div class="story-meta">
+              <span>${formatDate(item.publishedAt)}</span>
+              <span>${escapeHtml(item.source)}</span>
+              <span>1 source</span>
+            </div>
           </div>
         </article>
       `).join("");
     }
 
+    function getVisibleItems() {
+      if (activeFilter !== "all") {
+        return allItems.filter(item => item.topic === activeFilter);
+      }
+
+      if (selectedInterests.size) {
+        const preferred = allItems.filter(item => selectedInterests.has(item.topic));
+        const rest = allItems.filter(item => !selectedInterests.has(item.topic));
+        return [...preferred, ...rest];
+      }
+
+      return allItems;
+    }
+
     function renderSources(sources) {
       if (!sources.length) {
+        sourceListElement.innerHTML = "<li>No source data yet.</li>";
         return;
       }
 
       sourceListElement.innerHTML = sources
-        .map(source => `<li>${escapeHtml(source.name)}${source.ok ? "" : " (retry later)"}</li>`)
+        .map(source => `<li><span>${escapeHtml(source.name)}</span><strong>${source.ok ? source.count : "Retry"}</strong></li>`)
         .join("");
     }
 
@@ -143,8 +210,17 @@
         return;
       }
 
-      const updatedDate = new Date(updatedAt);
-      updatedElement.innerText = "Last refreshed " + updatedDate.toLocaleString();
+      updatedElement.innerText = "Last refreshed " + new Date(updatedAt).toLocaleString();
+    }
+
+    function syncControls() {
+      tabButtons.forEach(button => {
+        button.classList.toggle("active", button.dataset.filter === activeFilter);
+      });
+
+      interestButtons.forEach(button => {
+        button.classList.toggle("selected", selectedInterests.has(button.dataset.interest));
+      });
     }
 
     function formatDate(value) {
@@ -162,6 +238,14 @@
         day: "numeric",
         year: "numeric"
       });
+    }
+
+    function getSourceInitials(source) {
+      return String(source || "Tech")
+        .split(/\s+/)
+        .slice(0, 2)
+        .map(part => part.charAt(0).toUpperCase())
+        .join("");
     }
 
     function escapeHtml(value) {
@@ -182,13 +266,42 @@
       return escapeHtml(text);
     }
 
-    buttons.forEach(button => {
+    tabButtons.forEach(button => {
       button.addEventListener("click", () => {
         activeFilter = button.dataset.filter;
-        buttons.forEach(item => item.classList.remove("active"));
-        button.classList.add("active");
-        renderNews();
+        localStorage.setItem("discoverTopic", activeFilter);
+        syncControls();
+        renderDiscover();
       });
+    });
+
+    interestButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        const interest = button.dataset.interest;
+        if (selectedInterests.has(interest)) {
+          selectedInterests.delete(interest);
+        } else {
+          selectedInterests.add(interest);
+        }
+        syncControls();
+      });
+    });
+
+    saveTopicsButton.addEventListener("click", () => {
+      localStorage.setItem("discoverInterests", JSON.stringify([...selectedInterests]));
+      activeFilter = "all";
+      localStorage.setItem("discoverTopic", activeFilter);
+      syncControls();
+      renderDiscover();
+    });
+
+    clearTopicsButton.addEventListener("click", () => {
+      selectedInterests = new Set();
+      localStorage.removeItem("discoverInterests");
+      activeFilter = "all";
+      localStorage.setItem("discoverTopic", activeFilter);
+      syncControls();
+      renderDiscover();
     });
 
     loadNews();
