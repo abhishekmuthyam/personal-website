@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech News - Abhishek Muthyam</title>
+  <meta name="description" content="A simple technical news discovery dashboard with curated sources for Java, cloud, AI, developer tools, and software engineering.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <section class="hero news-hero">
+    <p class="eyebrow">Tech Discovery</p>
+    <h1>Technical news worth checking.</h1>
+    <p>
+      A lightweight discovery page for backend, cloud, AI, Java, and developer-tool updates.
+      It points to trusted sources instead of pretending static content is live news.
+    </p>
+  </section>
+
+  <section>
+    <div class="news-toolbar" aria-label="News topic filters">
+      <button class="filter-button active" type="button" data-filter="all">All</button>
+      <button class="filter-button" type="button" data-filter="java">Java</button>
+      <button class="filter-button" type="button" data-filter="cloud">Cloud</button>
+      <button class="filter-button" type="button" data-filter="ai">AI</button>
+      <button class="filter-button" type="button" data-filter="devtools">Dev Tools</button>
+    </div>
+
+    <div class="news-layout">
+      <main class="news-feed" aria-label="Curated tech sources">
+        <article class="news-card" data-topic="java">
+          <span class="card-kicker">Java</span>
+          <h2>Java and JVM Updates</h2>
+          <p>Track language updates, release notes, performance work, and ecosystem announcements.</p>
+          <div class="source-row">
+            <a class="post-link" href="https://inside.java/" target="_blank" rel="noopener">Inside Java</a>
+            <a class="post-link" href="https://spring.io/blog" target="_blank" rel="noopener">Spring Blog</a>
+          </div>
+        </article>
+
+        <article class="news-card" data-topic="cloud">
+          <span class="card-kicker">Cloud</span>
+          <h2>AWS and Cloud Engineering</h2>
+          <p>Watch service launches, architecture notes, deployment patterns, and cloud operations updates.</p>
+          <div class="source-row">
+            <a class="post-link" href="https://aws.amazon.com/new/" target="_blank" rel="noopener">AWS What's New</a>
+            <a class="post-link" href="https://aws.amazon.com/blogs/aws/" target="_blank" rel="noopener">AWS News Blog</a>
+          </div>
+        </article>
+
+        <article class="news-card" data-topic="ai">
+          <span class="card-kicker">AI</span>
+          <h2>AI Tools and Model Updates</h2>
+          <p>Follow practical AI product updates, developer APIs, coding workflows, and model improvements.</p>
+          <div class="source-row">
+            <a class="post-link" href="https://openai.com/news/" target="_blank" rel="noopener">OpenAI News</a>
+            <a class="post-link" href="https://huggingface.co/blog" target="_blank" rel="noopener">Hugging Face Blog</a>
+          </div>
+        </article>
+
+        <article class="news-card" data-topic="devtools">
+          <span class="card-kicker">Dev Tools</span>
+          <h2>Developer Tools and GitHub</h2>
+          <p>Keep an eye on GitHub features, CLI tools, automation, security, and developer productivity.</p>
+          <div class="source-row">
+            <a class="post-link" href="https://github.blog/" target="_blank" rel="noopener">GitHub Blog</a>
+            <a class="post-link" href="https://news.ycombinator.com/" target="_blank" rel="noopener">Hacker News</a>
+          </div>
+        </article>
+
+        <article class="news-card" data-topic="devtools">
+          <span class="card-kicker">Engineering</span>
+          <h2>Software Engineering Trends</h2>
+          <p>Read deeper engineering articles on architecture, reliability, databases, and engineering culture.</p>
+          <div class="source-row">
+            <a class="post-link" href="https://martinfowler.com/" target="_blank" rel="noopener">Martin Fowler</a>
+            <a class="post-link" href="https://www.infoq.com/" target="_blank" rel="noopener">InfoQ</a>
+          </div>
+        </article>
+      </main>
+
+      <aside class="news-side">
+        <section class="note-card">
+          <h2>Reading Routine</h2>
+          <ul>
+            <li>Check official sources first.</li>
+            <li>Save useful ideas as blog notes.</li>
+            <li>Turn interesting updates into small experiments.</li>
+          </ul>
+        </section>
+
+        <section class="note-card">
+          <h2>Watch Topics</h2>
+          <div class="tags">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>AWS</span>
+            <span>AI Coding</span>
+            <span>APIs</span>
+            <span>Security</span>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <p style="margin-top:30px;">
+      <a href="/">&larr; Back to Home</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2026 Abhishek Muthyam. Built for learning and experiments.
+  </footer>
+
+  <script>
+    const buttons = document.querySelectorAll(".filter-button");
+    const cards = document.querySelectorAll(".news-card");
+
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        const filter = button.dataset.filter;
+
+        buttons.forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
+
+        cards.forEach(card => {
+          const shouldShow = filter === "all" || card.dataset.topic === filter;
+          card.hidden = !shouldShow;
+        });
+      });
+    });
+  </script>
+</body>
+</html>
