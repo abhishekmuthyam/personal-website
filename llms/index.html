@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM & Agentic Systems Hub - Abhishek Muthyam</title>
+  <meta name="description" content="A comprehensive reference for Large Language Models (LLMs), AI Agent architectures, tool integration, and the Model Context Protocol (MCP).">
+  <!-- Import Outfit and Inter Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  
+  <style>
+    /* Premium visual styles for LLM Hub */
+    :root {
+      --llm-bg: #090d16;
+      --llm-panel: rgba(17, 24, 39, 0.7);
+      --llm-border: rgba(99, 102, 241, 0.15);
+      --llm-text: #f1f5f9;
+      --llm-muted: #94a3b8;
+      --llm-accent-indigo: #6366f1;
+      --llm-accent-teal: #14b8a6;
+      --llm-accent-purple: #a855f7;
+      --llm-glow: 0 8px 32px 0 rgba(99, 102, 241, 0.15);
+    }
+
+    body.llm-theme {
+      background-color: var(--llm-bg);
+      color: var(--llm-text);
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    .llm-theme h1, .llm-theme h2, .llm-theme h3, .llm-theme h4 {
+      font-family: 'Outfit', sans-serif;
+      color: #ffffff;
+    }
+
+    /* Hero Styling */
+    .llm-hero {
+      background: linear-gradient(135deg, #0f1123 0%, #1a103c 50%, #052636 100%);
+      border-bottom: 1px solid var(--llm-border);
+      padding: 100px 20px 80px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .llm-hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .llm-hero h1 {
+      font-size: clamp(38px, 6vw, 60px);
+      font-weight: 800;
+      margin: 0 0 16px;
+      background: linear-gradient(to right, #ffffff, #a855f7, #6366f1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1.1;
+    }
+
+    .llm-hero p {
+      max-width: 760px;
+      margin: 0 auto;
+      font-size: 19px;
+      color: var(--llm-muted);
+      line-height: 1.6;
+    }
+
+    /* Navigation overrides */
+    .llm-nav-header {
+      background: rgba(9, 13, 22, 0.85) !important;
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .llm-nav-header .brand {
+      color: #ffffff !important;
+      font-family: 'Outfit', sans-serif;
+      font-size: 20px;
+    }
+
+    .llm-nav-header .nav-links a {
+      color: var(--llm-muted) !important;
+      transition: color 0.2s ease;
+    }
+
+    .llm-nav-header .nav-links a:hover,
+    .llm-nav-header .nav-links a.active {
+      color: var(--llm-accent-indigo) !important;
+    }
+
+    /* Interactive Tab Menu */
+    .hub-tabs-container {
+      max-width: 1100px;
+      margin: -30px auto 40px;
+      padding: 0 20px;
+      position: relative;
+      z-index: 5;
+    }
+
+    .hub-tabs {
+      background: rgba(17, 24, 39, 0.9);
+      border: 1px solid var(--llm-border);
+      border-radius: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 6px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--llm-muted);
+      padding: 14px 24px;
+      border-radius: 12px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      flex: 1 1 auto;
+      text-align: center;
+      transition: all 0.2s ease;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .tab-btn:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .tab-btn.active {
+      background: var(--llm-accent-indigo);
+      color: #ffffff;
+      box-shadow: 0 4px 20px rgba(99, 102, 241, 0.4);
+    }
+
+    /* Tab Contents styling */
+    .tab-pane {
+      display: none;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+      animation: fadeIn 0.4s ease forwards;
+    }
+
+    .tab-pane.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Glass Panels */
+    .panel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      margin-top: 30px;
+    }
+
+    .llm-panel {
+      background: var(--llm-panel);
+      border: 1px solid var(--llm-border);
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: var(--llm-glow);
+      backdrop-filter: blur(12px);
+      transition: all 0.3s ease;
+    }
+
+    .llm-panel:hover {
+      border-color: rgba(99, 102, 241, 0.4);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(99, 102, 241, 0.25);
+    }
+
+    .panel-full {
+      grid-column: 1 / -1;
+    }
+
+    .panel-header {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .panel-header h2 {
+      margin: 0;
+      font-size: 26px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .panel-badge {
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      padding: 4px 10px;
+      border-radius: 99px;
+      background: rgba(99, 102, 241, 0.15);
+      color: var(--llm-accent-indigo);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+    }
+
+    /* Timelines */
+    .timeline {
+      position: relative;
+      padding-left: 30px;
+      border-left: 2px solid rgba(99, 102, 241, 0.2);
+      margin: 20px 0;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -37px;
+      top: 6px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--llm-accent-teal);
+      border: 4px solid var(--llm-bg);
+      box-shadow: 0 0 10px rgba(20, 184, 166, 0.8);
+    }
+
+    .timeline-item:nth-child(even)::before {
+      background: var(--llm-accent-purple);
+      box-shadow: 0 0 10px rgba(168, 85, 247, 0.8);
+    }
+
+    .timeline-date {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      color: var(--llm-accent-teal);
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+    }
+
+    .timeline-title {
+      font-size: 18px;
+      margin: 0 0 8px;
+      color: #ffffff;
+    }
+
+    /* Tables */
+    .llm-table-container {
+      overflow-x: auto;
+      margin-top: 15px;
+    }
+
+    .llm-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    .llm-table th, .llm-table td {
+      padding: 14px 18px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .llm-table th {
+      background: rgba(255, 255, 255, 0.02);
+      color: #ffffff;
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .llm-table td {
+      font-size: 14px;
+      color: #e2e8f0;
+    }
+
+    .llm-table tr:hover {
+      background: rgba(255, 255, 255, 0.01);
+    }
+
+    /* Interactive Comparison Controls */
+    .table-filters {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+
+    .filter-pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--llm-muted);
+      border-radius: 99px;
+      padding: 6px 16px;
+      font-size: 13px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .filter-pill.active, .filter-pill:hover {
+      background: rgba(20, 184, 166, 0.15);
+      border-color: var(--llm-accent-teal);
+      color: var(--llm-accent-teal);
+    }
+
+    .search-input {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 99px;
+      padding: 6px 18px;
+      color: #ffffff;
+      font-size: 13px;
+      width: 240px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--llm-accent-indigo);
+    }
+
+    /* Diagram Styling */
+    .diagram-container {
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+      border: 1px dashed rgba(255, 255, 255, 0.08);
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Code Blocks */
+    pre {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 10px;
+      padding: 16px;
+      overflow-x: auto;
+      margin: 18px 0;
+    }
+
+    code {
+      font-family: 'Courier New', Courier, monospace;
+      color: #34d399;
+      font-size: 14px;
+    }
+
+    .inline-code {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #f43f5e;
+      font-size: 13px;
+      font-family: monospace;
+    }
+
+    /* Interactive ReAct simulator */
+    .react-simulator {
+      background: #020617;
+      border-radius: 12px;
+      border: 1px solid var(--llm-border);
+      padding: 20px;
+      margin-top: 25px;
+    }
+
+    .sim-step {
+      border-left: 2px solid var(--llm-accent-teal);
+      padding-left: 16px;
+      margin-bottom: 20px;
+      opacity: 0.3;
+      transition: opacity 0.5s ease;
+    }
+
+    .sim-step.active {
+      opacity: 1;
+    }
+
+    .sim-type {
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: var(--llm-accent-teal);
+    }
+
+    .sim-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      margin: 2px 0 6px;
+      color: #ffffff;
+    }
+
+    .sim-content {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #cbd5e1;
+    }
+
+    .sim-controls {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .sim-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #ffffff;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .sim-btn:hover {
+      background: var(--llm-accent-indigo);
+      border-color: var(--llm-accent-indigo);
+    }
+
+    /* List styling */
+    .llm-list {
+      margin-left: 0;
+      padding-left: 0;
+      list-style-type: none;
+    }
+
+    .llm-list li {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 12px;
+      line-height: 1.6;
+    }
+
+    .llm-list li::before {
+      content: "✦";
+      position: absolute;
+      left: 0;
+      color: var(--llm-accent-teal);
+    }
+
+    /* Back link */
+    .back-home {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--llm-muted);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 15px;
+      transition: color 0.2s;
+      margin-top: 40px;
+    }
+
+    .back-home:hover {
+      color: var(--llm-accent-indigo);
+    }
+
+    footer {
+      background: #020617 !important;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+  </style>
+</head>
+<body class="llm-theme">
+
+  <!-- Header -->
+  <header class="site-header llm-nav-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/">Abhishek Muthyam</a>
+      <div class="nav-links">
+        <a href="/discover">Discover</a>
+        <a href="/blog">Blog</a>
+        <a href="/news">News</a>
+        <a href="/java-interview-prep">Java Prep</a>
+        <a href="/aws-notes">AWS Notes</a>
+        <a href="/ai-experiments">AI</a>
+        <a href="/llms" class="active">LLMs</a>
+        <a href="/projects">Projects</a>
+        <a href="/games">Games</a>
+        <a href="/calci">Tools</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="llm-hero">
+    <p class="eyebrow" style="color: var(--llm-accent-teal)">Knowledge & Tech Radar</p>
+    <h1>LLMs & Agentic Systems</h1>
+    <p>
+      An interactive static hub exploring the architecture, mechanisms, and models powering 
+      the next generation of artificial intelligence, from core language models to autonomous tool-using agents.
+    </p>
+  </section>
+
+  <!-- Navigation Tabs -->
+  <div class="hub-tabs-container">
+    <div class="hub-tabs" role="tablist">
+      <button class="tab-btn active" role="tab" aria-selected="true" data-tab="stories">LLM Stories & Evolution</button>
+      <button class="tab-btn" role="tab" aria-selected="false" data-tab="models">Frontier Models</button>
+      <button class="tab-btn" role="tab" aria-selected="false" data-tab="agents">AI Agents</button>
+      <button class="tab-btn" role="tab" aria-selected="false" data-tab="tools">Tools & Skills</button>
+      <button class="tab-btn" role="tab" aria-selected="false" data-tab="mcp">Model Context Protocol (MCP)</button>
+    </div>
+  </div>
+
+  <!-- TAB CONTENT 1: STORIES -->
+  <div id="pane-stories" class="tab-pane active" role="tabpanel">
+    <div class="panel-grid">
+      <div class="llm-panel panel-full">
+        <div class="panel-header">
+          <h2>LLM Stories & Evolution</h2>
+          <span class="panel-badge">Timeline</span>
+        </div>
+        <p>
+          The transition from simple statistical language models to modern general-purpose cognitive layers has been defined by key architectural breakthroughs and massive compute scaling. Here is the chronological story of how LLMs evolved.
+        </p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">June 2017</div>
+            <h3 class="timeline-title">The Attention Paper ("Attention Is All You Need")</h3>
+            <p>
+              Google researchers publish the landmark paper introducing the **Transformer architecture**. By replacing recurrence (RNNs/LSTMs) with self-attention mechanism, the architecture allows parallelized sequence training. This single design laid the foundation for every modern LLM.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2018 - 2019</div>
+            <h3 class="timeline-title">The Bifurcation: BERT vs GPT</h3>
+            <p>
+              The industry splits into two main paths:
+              <br>• **Encoder-only (BERT by Google)**: Ideal for understanding, classification, and extraction.
+              <br>• **Decoder-only (GPT-1 & GPT-2 by OpenAI)**: Autoregressive generators trained on language modeling tasks (predicting the next token). GPT-2 proved that zero-shot capabilities emerge simply by scaling up text datasets.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">June 2020</div>
+            <h3 class="timeline-title">GPT-3 & Scaling Laws</h3>
+            <p>
+              OpenAI introduces **GPT-3** with 175 billion parameters. It establishes the "Scaling Laws"—which state that model performance increases predictably with compute, dataset size, and parameter count. Few-shot in-context learning becomes standard.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">November 2022</div>
+            <h3 class="timeline-title">InstructGPT, RLHF & ChatGPT</h3>
+            <p>
+              By applying **Reinforcement Learning from Human Feedback (RLHF)**, developers align raw completion models (GPT-3) into conversational assistants that understand and fulfill user instructions. ChatGPT launches, triggering a global AI acceleration.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2023 - 2024</div>
+            <h3 class="timeline-title">The Rise of Open Weights & Multimodality</h3>
+            <p>
+              Meta releases **LLaMA**, democratizing top-tier models and fostering a massive open-source development ecosystem. Simultaneously, models evolve to natively accept multiple inputs (text, images, audio, video) like GPT-4o, Gemini 1.5 Pro (featuring a massive 1M+ context window), and Claude 3.5 Sonnet.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2025 - Present</div>
+            <h3 class="timeline-title">Reasoning Models (System 2 Thinking)</h3>
+            <p>
+              Models shift from quick intuitive outputs (System 1) to deliberate step-by-step reasoning (System 2) during inference. Reinforcement-learned chain-of-thought models (like OpenAI's o1/o3 and DeepSeek-R1) spend time "thinking" before replying, solving complex math, coding, and logical puzzles with near-expert human reliability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB CONTENT 2: MODELS -->
+  <div id="pane-models" class="tab-pane" role="tabpanel">
+    <div class="panel-grid">
+      <div class="llm-panel panel-full">
+        <div class="panel-header">
+          <h2>Frontier Models Comparison</h2>
+          <span class="panel-badge">Active Radar</span>
+        </div>
+        <p>
+          The modern LLM landscape is characterized by a balance between proprietary API-only models and highly capable open-weights models that can be self-hosted.
+        </p>
+
+        <!-- Filter Controls -->
+        <div class="table-filters">
+          <button class="filter-pill active" onclick="filterModels('all')">All Models</button>
+          <button class="filter-pill" onclick="filterModels('proprietary')">Proprietary APIs</button>
+          <button class="filter-pill" onclick="filterModels('open')">Open Weights</button>
+          <button class="filter-pill" onclick="filterModels('reasoning')">Reasoning/CoT</button>
+          <input type="text" class="search-input" placeholder="Search models by name..." onkeyup="searchModels(this.value)">
+        </div>
+
+        <div class="llm-table-container">
+          <table class="llm-table" id="modelsTable">
+            <thead>
+              <tr>
+                <th>Model Name</th>
+                <th>Provider</th>
+                <th>Access Type</th>
+                <th>Context Length</th>
+                <th>Key Strengths & Use Cases</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-type="proprietary">
+                <td><strong>Claude 3.5 Sonnet</strong></td>
+                <td>Anthropic</td>
+                <td><span class="panel-badge" style="background:rgba(239,68,68,0.1); color:#ef4444; border-color:rgba(239,68,68,0.2);">Proprietary</span></td>
+                <td>200k tokens</td>
+                <td>Industry-leading code generation, logical reasoning, and agent tool execution. Excellent nuances in writing.</td>
+              </tr>
+              <tr data-type="proprietary reasoning">
+                <td><strong>OpenAI o1 / o3-mini</strong></td>
+                <td>OpenAI</td>
+                <td><span class="panel-badge" style="background:rgba(239,68,68,0.1); color:#ef4444; border-color:rgba(239,68,68,0.2);">Proprietary</span></td>
+                <td>200k tokens</td>
+                <td>Advanced reasoning, reinforcement learning chain-of-thought, complex mathematics, and science logic.</td>
+              </tr>
+              <tr data-type="proprietary">
+                <td><strong>Gemini 2.0 Flash / Pro</strong></td>
+                <td>Google</td>
+                <td><span class="panel-badge" style="background:rgba(239,68,68,0.1); color:#ef4444; border-color:rgba(239,68,68,0.2);">Proprietary</span></td>
+                <td>1M - 2M tokens</td>
+                <td>Massive context window, native multimodal processing (audio, video, text), fast speed, and low latency.</td>
+              </tr>
+              <tr data-type="open">
+                <td><strong>Llama 3.3 (70B)</strong></td>
+                <td>Meta</td>
+                <td><span class="panel-badge" style="background:rgba(20,184,166,0.1); color:#14b8a6; border-color:rgba(20,184,166,0.2);">Open Weights</span></td>
+                <td>128k tokens</td>
+                <td>State-of-the-art open model, excellent generalist capabilities, and easily deployable for enterprise use.</td>
+              </tr>
+              <tr data-type="open reasoning">
+                <td><strong>DeepSeek-R1</strong></td>
+                <td>DeepSeek</td>
+                <td><span class="panel-badge" style="background:rgba(20,184,166,0.1); color:#14b8a6; border-color:rgba(20,184,166,0.2);">Open Weights</span></td>
+                <td>64k - 128k tokens</td>
+                <td>Open reasoning model matching proprietary models on math, coding, and logic via advanced cold-start reinforcement learning.</td>
+              </tr>
+              <tr data-type="open">
+                <td><strong>Qwen 2.5 Coder (32B)</strong></td>
+                <td>Alibaba Cloud</td>
+                <td><span class="panel-badge" style="background:rgba(20,184,166,0.1); color:#14b8a6; border-color:rgba(20,184,166,0.2);">Open Weights</span></td>
+                <td>128k tokens</td>
+                <td>Highly specialized coding model designed for code generation, bug fixing, and local agent tools.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB CONTENT 3: AGENTS -->
+  <div id="pane-agents" class="tab-pane" role="tabpanel">
+    <div class="panel-grid">
+      <div class="llm-panel">
+        <div class="panel-header">
+          <h2>AI Agent Architecture</h2>
+          <span class="panel-badge">Systems Design</span>
+        </div>
+        <p>
+          While an **LLM** operates as a passive text processor (taking a prompt and returning a completion), an **AI Agent** is an active system wrapper that leverages the LLM as its "brain" to orchestrate sequences of actions to accomplish complex goals.
+        </p>
+        <p>
+          Agents rely on four fundamental pillars:
+        </p>
+        <ul class="llm-list">
+          <li><strong>Planning</strong>: Breaking down large tasks into smaller sub-tasks. Goal-directed search and reflection.</li>
+          <li><strong>Memory</strong>: Short-term memory (in-context dialogue history) and Long-term memory (vector databases, semantic lookups).</li>
+          <li><strong>Tools</strong>: External APIs, calculators, search engines, databases, and code compilation environments.</li>
+          <li><strong>Action Loop</strong>: Executing actions, observing results, and correcting courses dynamically.</li>
+        </ul>
+      </div>
+
+      <div class="llm-panel">
+        <div class="panel-header">
+          <h2>Agent Execution Flow</h2>
+          <span class="panel-badge">Diagram</span>
+        </div>
+        <p>
+          The autonomous system cycle alternates between **thinking** (using the LLM), **acting** (calling a tool), and **observing** (evaluating the environment output).
+        </p>
+        <div class="diagram-container">
+          <!-- SVG Agent Loop Diagram -->
+          <svg width="400" height="220" viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+            <!-- Background Glow -->
+            <defs>
+              <linearGradient id="indigoTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#6366f1" />
+                <stop offset="100%" stop-color="#14b8a6" />
+              </linearGradient>
+            </defs>
+            <!-- Agent Node -->
+            <rect x="150" y="20" width="100" height="50" rx="8" fill="url(#indigoTeal)" />
+            <text x="200" y="50" fill="#ffffff" font-family="'Outfit', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Agent (LLM)</text>
+            
+            <!-- Tool Node -->
+            <rect x="270" y="120" width="100" height="50" rx="8" fill="#1e293b" stroke="#334155" stroke-width="2" />
+            <text x="320" y="150" fill="#cbd5e1" font-family="'Outfit', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Tool Call</text>
+
+            <!-- Env Node -->
+            <rect x="30" y="120" width="100" height="50" rx="8" fill="#1e293b" stroke="#334155" stroke-width="2" />
+            <text x="80" y="150" fill="#cbd5e1" font-family="'Outfit', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Environment</text>
+
+            <!-- Arrows -->
+            <!-- Agent -> Tool (Action) -->
+            <path d="M 230 70 L 290 120" fill="none" stroke="#6366f1" stroke-width="2.5" marker-end="url(#arrow)" />
+            <text x="280" y="90" fill="#94a3b8" font-size="10" text-anchor="middle">1. Action</text>
+
+            <!-- Tool -> Env (Execution) -->
+            <path d="M 270 145 L 140 145" fill="none" stroke="#94a3b8" stroke-dasharray="4" stroke-width="2" />
+            <text x="200" y="140" fill="#94a3b8" font-size="10" text-anchor="middle">2. Run Tool</text>
+
+            <!-- Env -> Agent (Observation) -->
+            <path d="M 80 120 L 170 70" fill="none" stroke="#14b8a6" stroke-width="2.5" />
+            <text x="110" y="90" fill="#94a3b8" font-size="10" text-anchor="middle">3. Observe</text>
+
+            <circle cx="230" cy="70" r="3" fill="#6366f1" />
+            <circle cx="290" cy="120" r="3" fill="#6366f1" />
+            <circle cx="80" cy="120" r="3" fill="#14b8a6" />
+            <circle cx="170" cy="70" r="3" fill="#14b8a6" />
+          </svg>
+        </div>
+      </div>
+
+      <div class="llm-panel panel-full">
+        <div class="panel-header">
+          <h2>Interactive ReAct Simulator</h2>
+          <span class="panel-badge">Simulation</span>
+        </div>
+        <p>
+          The **ReAct (Reasoning + Acting)** pattern is the primary model prompt paradigm. The model generates thoughts, executes actions, and digests observations sequentially.
+        </p>
+
+        <!-- Interactive Loop Simulation -->
+        <div class="react-simulator">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+            <strong style="color: #ffffff;">Task: "Find the age of Abhishek Muthyam's personal website brand."</strong>
+            <span id="step-counter" style="color:var(--llm-accent-teal); font-weight:bold;">Step 1 of 4</span>
+          </div>
+
+          <div id="sim-step-1" class="sim-step active">
+            <span class="sim-type">Thought 1</span>
+            <h4 class="sim-title">Analyze user intent and formulate search criteria</h4>
+            <p class="sim-content">
+              "The user wants to find the age of Abhishek Muthyam's website brand. I need to query Google Search or a local database to look up his domain purchase date or developer history."
+            </p>
+          </div>
+
+          <div id="sim-step-2" class="sim-step">
+            <span class="sim-type">Action 1</span>
+            <h4 class="sim-title">Execute tool lookup: WebSearch</h4>
+            <p class="sim-content">
+              Calling tool: <code class="inline-code">search_web(query="Abhishek Muthyam website domain creation registration date")</code>
+            </p>
+          </div>
+
+          <div id="sim-step-3" class="sim-step">
+            <span class="sim-type">Observation 1</span>
+            <h4 class="sim-title">Interpret tool results</h4>
+            <p class="sim-content">
+              **Tool output:** `[{ "title": "Abhishek Muthyam Personal Site", "snippet": "Abhishek Muthyam registered the domain abhishekmuthyam.com in February 2024 and launched the learning portal." }]`
+            </p>
+          </div>
+
+          <div id="sim-step-4" class="sim-step">
+            <span class="sim-type">Final Answer</span>
+            <h4 class="sim-title">Formulate output response</h4>
+            <p class="sim-content">
+              "Based on web searches, Abhishek Muthyam registered his personal website brand domain in **February 2024**. Therefore, the brand is approximately 2 years and 4 months old."
+            </p>
+          </div>
+
+          <div class="sim-controls">
+            <button class="sim-btn" onclick="prevSimStep()">Previous Step</button>
+            <button class="sim-btn" onclick="nextSimStep()" style="background:var(--llm-accent-indigo); border-color:var(--llm-accent-indigo)">Next Step</button>
+            <button class="sim-btn" onclick="resetSim()">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB CONTENT 4: TOOLS -->
+  <div id="pane-tools" class="tab-pane" role="tabpanel">
+    <div class="panel-grid">
+      <div class="llm-panel panel-full">
+        <div class="panel-header">
+          <h2>Tools & Skills: Extending Model Capabilities</h2>
+          <span class="panel-badge">Function Calling</span>
+        </div>
+        <p>
+          By default, LLMs cannot access the internet, run code, or view databases. To resolve this, developers provide models with **tools** (schemas detailing functions the model can request to execute).
+        </p>
+        
+        <h3>1. Function Calling Protocol</h3>
+        <p>
+          Instead of returning conversational text, the model returns a **structured JSON payload** specifying the function name and its required parameters.
+        </p>
+        
+        <pre><code>{
+  "name": "calculate_mortgage",
+  "arguments": {
+    "principal": 350000,
+    "interestRate": 4.5,
+    "termYears": 30
+  }
+}</code></pre>
+
+        <h3>2. What is a "Skill"?</h3>
+        <p>
+          In agent frameworks, a **Skill** is a specialized tool wrapper comprising:
+          <br>• **Declarative Metadata**: Explaining when and why to use the tool.
+          <br>• **Execution Script**: The sandboxed code running the real API calls.
+          <br>• **Output Handlers**: Parsing raw outputs into clean text for the LLM to process.
+        </p>
+        <p>
+          For example, the <span class="inline-code">android-cli</span> skill in this IDE permits an AI agent to build and deploy Android builds directly by issuing structured terminal instructions automatically.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB CONTENT 5: MCP -->
+  <div id="pane-mcp" class="tab-pane" role="tabpanel">
+    <div class="panel-grid">
+      <div class="llm-panel">
+        <div class="panel-header">
+          <h2>Model Context Protocol (MCP)</h2>
+          <span class="panel-badge">Open Standard</span>
+        </div>
+        <p>
+          The **Model Context Protocol (MCP)**, developed by Anthropic, is an open standard designed to replace proprietary, ad-hoc integrations for AI tools.
+        </p>
+        <p>
+          Before MCP, every IDE, chat app, and AI assistant required custom code to hook into a database, read git logs, or compile code. MCP solves this by introducing a standardized architecture:
+        </p>
+        
+        <h3>The Three Pillars of MCP</h3>
+        <ul class="llm-list">
+          <li><strong>MCP Host</strong>: The consumer application (like an IDE or an AI desktop app) that wants to leverage AI capabilities.</li>
+          <li><strong>MCP Client</strong>: The interface running inside the host that coordinates tool requests and sessions.</li>
+          <li><strong>MCP Server</strong>: Lightweight, specialized connectors exposing **Resources** (data/files), **Prompts** (predefined instructions), and **Tools** (executable actions).</li>
+        </ul>
+      </div>
+
+      <div class="llm-panel">
+        <div class="panel-header">
+          <h2>MCP Architecture</h2>
+          <span class="panel-badge">Protocol Flow</span>
+        </div>
+        <p>
+          Instead of integrating a model directly with tools, MCP decouples the host client from the tool server.
+        </p>
+        <div class="diagram-container" style="padding: 10px 20px;">
+          <svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="gradientTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#14b8a6" />
+                <stop offset="100%" stop-color="#0d9488" />
+              </linearGradient>
+              <linearGradient id="gradientIndigo" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#6366f1" />
+                <stop offset="100%" stop-color="#4f46e5" />
+              </linearGradient>
+            </defs>
+            <!-- Host (IDE) -->
+            <rect x="20" y="60" width="100" height="80" rx="8" fill="#1e293b" stroke="#334155" stroke-width="2" />
+            <text x="70" y="95" fill="#ffffff" font-family="'Outfit', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">MCP Host</text>
+            <text x="70" y="115" fill="#94a3b8" font-size="11" text-anchor="middle">(Cursor/IDE)</text>
+
+            <!-- Client Connector -->
+            <path d="M 120 100 L 160 100" stroke="#6366f1" stroke-width="3" />
+            
+            <!-- MCP Client/Server Tunnel -->
+            <rect x="160" y="60" width="100" height="80" rx="8" fill="url(#gradientIndigo)" />
+            <text x="210" y="105" fill="#ffffff" font-family="'Outfit', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Protocol</text>
+            <text x="210" y="120" fill="#e0e7ff" font-size="10" text-anchor="middle">(JSON-RPC)</text>
+
+            <!-- Server Connector -->
+            <path d="M 260 100 L 300 100" stroke="#14b8a6" stroke-width="3" />
+
+            <!-- MCP Server -->
+            <rect x="300" y="60" width="80" height="80" rx="8" fill="url(#gradientTeal)" />
+            <text x="340" y="95" fill="#ffffff" font-family="'Outfit', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">MCP Server</text>
+            <text x="340" y="115" fill="#ccfbf1" font-size="10" text-anchor="middle">(GitHub/SQL)</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Link -->
+  <div style="max-width: 1100px; margin: 20px auto; padding: 0 20px;">
+    <a href="/" class="back-home">&larr; Back to Home</a>
+  </div>
+
+  <!-- Global Footer -->
+  <footer>
+    &copy; 2026 Abhishek Muthyam. Built for learning and experiments.
+  </footer>
+
+  <script>
+    // Tab switching logic
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+
+    tabButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Deactivate all buttons
+        tabButtons.forEach(b => {
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
+        });
+        // Deactivate all panes
+        tabPanes.forEach(p => p.classList.remove('active'));
+
+        // Activate clicked button
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+
+        // Activate corresponding pane
+        const tabName = btn.getAttribute('data-tab');
+        document.getElementById(`pane-${tabName}`).classList.add('active');
+      });
+    });
+
+    // Model filtering logic
+    function filterModels(type) {
+      // Update filter pills style
+      const pills = document.querySelectorAll('.filter-pill');
+      pills.forEach(p => p.classList.remove('active'));
+      
+      // Select correct pill
+      const targetPill = Array.from(pills).find(p => p.textContent.toLowerCase().includes(type.replace('all', 'all models')));
+      if (targetPill) targetPill.classList.add('active');
+
+      const rows = document.querySelectorAll('#modelsTable tbody tr');
+      rows.forEach(row => {
+        const rowTypes = row.getAttribute('data-type');
+        if (type === 'all' || rowTypes.includes(type)) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    }
+
+    // Search model logic
+    function searchModels(query) {
+      const rows = document.querySelectorAll('#modelsTable tbody tr');
+      rows.forEach(row => {
+        const text = row.innerText.toLowerCase();
+        if (text.includes(query.toLowerCase())) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    }
+
+    // ReAct Simulator Logic
+    let currentSimStep = 1;
+    const totalSimSteps = 4;
+
+    function updateSim() {
+      // Reset active state for all steps
+      for (let i = 1; i <= totalSimSteps; i++) {
+        document.getElementById(`sim-step-${i}`).classList.toggle('active', i <= currentSimStep);
+      }
+      document.getElementById('step-counter').innerText = `Step ${currentSimStep} of ${totalSimSteps}`;
+    }
+
+    function nextSimStep() {
+      if (currentSimStep < totalSimSteps) {
+        currentSimStep++;
+        updateSim();
+      }
+    }
+
+    // Initialize Simulator at the first step
+    function prevSimStep() {
+      if (currentSimStep > 1) {
+        currentSimStep--;
+        updateSim();
+      }
+    }
+
+    function resetSim() {
+      currentSimStep = 1;
+      updateSim();
+    }
+  </script>
+</body>
+</html>
