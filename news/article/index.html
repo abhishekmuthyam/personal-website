@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Article - Abhishek Muthyam</title>
+  <meta name="description" content="Read a technical news story with summary, source link, and related updates.">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body class="discover-body">
+  <div class="article-shell">
+    <aside class="discover-rail" aria-label="Article navigation">
+      <a class="rail-brand" href="/" aria-label="Home">AM</a>
+      <nav>
+        <a href="/">Home</a>
+        <a class="active" href="/news">Discover</a>
+        <a href="/projects">Projects</a>
+        <a href="/blog">Blog</a>
+      </nav>
+      <div class="rail-foot">Article view</div>
+    </aside>
+
+    <main class="article-main">
+      <header class="article-topbar">
+        <a href="/news">&larr; Back to Discover</a>
+        <a id="shareLink" href="/news">Share</a>
+      </header>
+
+      <article id="articleContent" class="article-content">
+        <p>Loading article...</p>
+      </article>
+
+      <section class="discover-more">
+        <h2>Discover more</h2>
+        <div id="relatedStories" class="related-grid"></div>
+      </section>
+    </main>
+
+    <aside class="article-side">
+      <section class="personalize-card">
+        <h2>Sources</h2>
+        <div id="articleSources" class="article-sources"></div>
+      </section>
+      <section class="personalize-card">
+        <h2>Follow-up</h2>
+        <p>Use the source link to read the full original article and verify details.</p>
+      </section>
+    </aside>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const articleId = params.get("id");
+    const articleElement = document.getElementById("articleContent");
+    const sourcesElement = document.getElementById("articleSources");
+    const relatedElement = document.getElementById("relatedStories");
+    const shareLink = document.getElementById("shareLink");
+
+    async function loadArticle() {
+      try {
+        const response = await fetch("../news-data.json?v=" + Date.now());
+        if (!response.ok) {
+          throw new Error("News data unavailable");
+        }
+
+        const data = await response.json();
+        const items = Array.isArray(data.items) ? data.items : [];
+        const item = items.find(story => story.id === articleId) || items[0];
+
+        if (!item) {
+          throw new Error("Article not found");
+        }
+
+        document.title = item.title + " - Tech Discover";
+        shareLink.href = window.location.href;
+        renderArticle(item);
+        renderSources(item);
+        renderRelated(item, items);
+      } catch (error) {
+        articleElement.innerHTML = "<p>This article could not load right now. Please go back to Discover and try another story.</p>";
+      }
+    }
+
+    function renderArticle(item) {
+      const sections = buildSections(item);
+      articleElement.innerHTML = `
+        <span class="story-topic">${escapeHtml(item.topicLabel || item.topic)}</span>
+        <h1>${escapeHtml(item.title)}</h1>
+        <p class="article-summary">${escapeHtml(item.summary || "Open the original source to read the full update.")}</p>
+        <div class="story-meta article-meta">
+          <span>Published ${formatDate(item.publishedAt)}</span>
+          <span>${escapeHtml(item.source)}</span>
+          <span>1 source</span>
+        </div>
+        ${renderHeroVisual(item)}
+        ${sections.map(section => `
+          <section class="article-section">
+            <h2>${escapeHtml(section.title)}</h2>
+            <p>${escapeHtml(section.body)}</p>
+            <a href="${escapeAttribute(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.source)}</a>
+          </section>
+        `).join("")}
+      `;
+    }
+
+    function buildSections(item) {
+      const summary = item.summary || "The source article has the full details for this update.";
+      return [
+        {
+          title: "What happened",
+          body: summary
+        },
+        {
+          title: "Why it matters",
+          body: "This update is relevant for developers tracking " + (item.topicLabel || item.topic) + " changes, tooling decisions, and practical engineering trends."
+        },
+        {
+          title: "What to read next",
+          body: "Open the original source for the complete article, deeper context, and any official announcements or technical details."
+        }
+      ];
+    }
+
+    function renderHeroVisual(item) {
+      if (item.image && item.image.startsWith("http")) {
+        return `<img class="article-image" src="${escapeAttribute(item.image)}" alt="">`;
+      }
+
+      return `<div class="article-image placeholder">${getSourceInitials(item.source)}</div>`;
+    }
+
+    function renderSources(item) {
+      sourcesElement.innerHTML = `
+        <a class="source-pill" href="${escapeAttribute(item.link)}" target="_blank" rel="noopener">
+          <span>${escapeHtml(item.source)}</span>
+          <strong>Open source</strong>
+        </a>
+      `;
+    }
+
+    function renderRelated(item, items) {
+      const related = items
+        .filter(story => story.id !== item.id && story.topic === item.topic)
+        .slice(0, 4);
+
+      relatedElement.innerHTML = related.map(story => `
+        <a class="related-card" href="./?id=${encodeURIComponent(story.id)}">
+          <span class="story-topic">${escapeHtml(story.topicLabel || story.topic)}</span>
+          <h3>${escapeHtml(story.title)}</h3>
+          <p>${escapeHtml(story.summary || "Open this related update.")}</p>
+        </a>
+      `).join("");
+    }
+
+    function formatDate(value) {
+      if (!value) {
+        return "recently";
+      }
+
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) {
+        return "recently";
+      }
+
+      return date.toLocaleDateString(undefined, {
+        month: "short",
+        day: "numeric",
+        year: "numeric"
+      });
+    }
+
+    function getSourceInitials(source) {
+      return String(source || "Tech")
+        .split(/\s+/)
+        .slice(0, 2)
+        .map(part => part.charAt(0).toUpperCase())
+        .join("");
+    }
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function escapeAttribute(value) {
+      const text = String(value || "#");
+      if (!text.startsWith("http://") && !text.startsWith("https://")) {
+        return "#";
+      }
+
+      return escapeHtml(text);
+    }
+
+    loadArticle();
+  </script>
+</body>
+</html>

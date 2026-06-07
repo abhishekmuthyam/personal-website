@@ -135,7 +135,7 @@
       leadElement.innerHTML = `
         <div>
           <span class="story-topic">${escapeHtml(lead.topicLabel || lead.topic)}</span>
-          <h2><a href="${escapeAttribute(lead.link)}" target="_blank" rel="noopener">${escapeHtml(lead.title)}</a></h2>
+          <h2><a href="${getArticleUrl(lead)}">${escapeHtml(lead.title)}</a></h2>
           <p>${escapeHtml(lead.summary || "Open the source to read the full update.")}</p>
           <div class="story-meta">
             <span>${formatDate(lead.publishedAt)}</span>
@@ -143,17 +143,17 @@
             <span>1 source</span>
           </div>
         </div>
-        <a class="lead-visual" href="${escapeAttribute(lead.link)}" target="_blank" rel="noopener" aria-label="Open lead story">
-          ${getSourceInitials(lead.source)}
+        <a class="lead-visual" href="${getArticleUrl(lead)}" aria-label="Open lead story">
+          ${renderVisual(lead)}
         </a>
       `;
 
       spotlightElement.innerHTML = spotlight.map(item => `
         <article class="spotlight-card">
-          <a class="spotlight-visual" href="${escapeAttribute(item.link)}" target="_blank" rel="noopener">${getSourceInitials(item.source)}</a>
+          <a class="spotlight-visual" href="${getArticleUrl(item)}">${renderVisual(item)}</a>
           <div>
             <span class="story-topic">${escapeHtml(item.topicLabel || item.topic)}</span>
-            <h3><a href="${escapeAttribute(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
+            <h3><a href="${getArticleUrl(item)}">${escapeHtml(item.title)}</a></h3>
             <div class="story-meta">
               <span>${escapeHtml(item.source)}</span>
               <span>1 source</span>
@@ -167,7 +167,7 @@
           <div class="story-dot">${getSourceInitials(item.source)}</div>
           <div>
             <span class="story-topic">${escapeHtml(item.topicLabel || item.topic)}</span>
-            <h3><a href="${escapeAttribute(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
+            <h3><a href="${getArticleUrl(item)}">${escapeHtml(item.title)}</a></h3>
             <p>${escapeHtml(item.summary || "Open the source to read the full update.")}</p>
             <div class="story-meta">
               <span>${formatDate(item.publishedAt)}</span>
@@ -246,6 +246,18 @@
         .slice(0, 2)
         .map(part => part.charAt(0).toUpperCase())
         .join("");
+    }
+
+    function getArticleUrl(item) {
+      return "./article/?id=" + encodeURIComponent(item.id || "");
+    }
+
+    function renderVisual(item) {
+      if (item.image && item.image.startsWith("http")) {
+        return `<img src="${escapeAttribute(item.image)}" alt="">`;
+      }
+
+      return `<span>${getSourceInitials(item.source)}</span>`;
     }
 
     function escapeHtml(value) {

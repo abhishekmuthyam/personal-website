@@ -71,7 +71,11 @@ async function main() {
   const items = results
     .flatMap(result => result.items)
     .sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0))
-    .slice(0, 50);
+    .slice(0, 50)
+    .map(item => ({
+      id: createId(item),
+      ...item
+    }));
 
   const data = {
     updatedAt: new Date().toISOString(),
@@ -130,11 +134,13 @@ function parseFeed(xml, source) {
       const link = getLink(entry);
       const summary = cleanText(getTag(entry, "description") || getTag(entry, "summary") || getTag(entry, "content"));
       const publishedAt = cleanText(getTag(entry, "pubDate") || getTag(entry, "published") || getTag(entry, "updated"));
+      const image = getImage(entry);
 
       return {
         title,
         link,
         summary: truncate(summary, 220),
+        image,
         source: source.name,
         topic: source.topic,
         topicLabel: source.topicLabel,
@@ -164,6 +170,30 @@ function getLink(entry) {
   return cleanText(getTag(entry, "link"));
 }
 
+function getImage(entry) {
+  const mediaContent = entry.match(/<media:content\b[^>]*url=["']([^"']+)["'][^>]*>/i);
+  if (mediaContent) {
+    return decodeEntities(mediaContent[1]);
+  }
+
+  const mediaThumbnail = entry.match(/<media:thumbnail\b[^>]*url=["']([^"']+)["'][^>]*>/i);
+  if (mediaThumbnail) {
+    return decodeEntities(mediaThumbnail[1]);
+  }
+
+  const enclosure = entry.match(/<enclosure\b[^>]*url=["']([^"']+)["'][^>]*(type=["']image\/[^"']+["'])[^>]*>/i);
+  if (enclosure) {
+    return decodeEntities(enclosure[1]);
+  }
+
+  const htmlImage = entry.match(/<img\b[^>]*src=["']([^"']+)["'][^>]*>/i);
+  if (htmlImage) {
+    return decodeEntities(htmlImage[1]);
+  }
+
+  return "";
+}
+
 function cleanText(value) {
   return decodeEntities(String(value || ""))
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
@@ -190,6 +220,15 @@ function truncate(value, maxLength) {
   }
 
   return value.slice(0, maxLength - 1).trim() + "...";
+}
+
+function createId(item) {
+  const base = `${item.source}-${item.title}-${item.publishedAt || item.link}`;
+  return base
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 90);
 }
 
 main().catch(error => {
