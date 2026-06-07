@@ -804,6 +804,77 @@ footer {
   color: #f4efe5;
 }
 
+.weather-panel {
+  color: #c9c2b6;
+}
+
+.weather-current strong {
+  color: #f4efe5;
+  display: block;
+  font-size: 42px;
+  line-height: 1;
+}
+
+.weather-current span,
+.weather-current small {
+  display: block;
+  margin-top: 6px;
+}
+
+.weather-days {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.weather-days span {
+  background: #232220;
+  border-radius: 8px;
+  color: #a8a39a;
+  display: grid;
+  gap: 4px;
+  padding: 8px;
+  text-align: center;
+}
+
+.weather-days strong {
+  color: #f4efe5;
+}
+
+.market-list {
+  display: grid;
+  gap: 10px;
+}
+
+.market-row {
+  align-items: center;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+}
+
+.market-row span {
+  color: #c9c2b6;
+}
+
+.market-row strong {
+  color: #f4efe5;
+}
+
+.market-row em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.market-row em.positive {
+  color: #6bd0bf;
+}
+
+.market-row em.negative {
+  color: #ff8d8d;
+}
+
 .article-shell {
   display: grid;
   grid-template-columns: 200px minmax(0, 820px) 300px;

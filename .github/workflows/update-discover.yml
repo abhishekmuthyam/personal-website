@@ -1,0 +1,37 @@
+name: Update discover feed
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-discover:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch latest discover data
+        run: node scripts/fetch-discover.js
+
+      - name: Commit updated discover data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add discover/discover-data.json
+          if git diff --cached --quiet; then
+            echo "No discover changes to commit."
+          else
+            git commit -m "Update discover feed"
+            git push
+          fi

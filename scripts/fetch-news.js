@@ -228,7 +228,8 @@ function createId(item) {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
-    .slice(0, 90);
+    .slice(0, 90)
+    .replace(/^-+|-+$/g, "");
 }
 
 main().catch(error => {

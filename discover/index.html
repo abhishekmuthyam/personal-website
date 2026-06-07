@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover - Abhishek Muthyam</title>
+  <meta name="description" content="Broad real-time discovery feed covering general news, politics, India, world, business, entertainment, sports, tech, weather, markets, and trending companies.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="discover-body">
+  <div class="discover-shell">
+    <aside class="discover-rail" aria-label="Discover navigation">
+      <a class="rail-brand" href="/" aria-label="Home">AM</a>
+      <nav>
+        <a href="/">Home</a>
+        <a class="active" href="/discover">Discover</a>
+        <a href="/news">Tech News</a>
+        <a href="/projects">Projects</a>
+        <a href="/blog">Blog</a>
+      </nav>
+      <div class="rail-foot">General discovery</div>
+    </aside>
+
+    <main class="discover-main">
+      <header class="discover-header">
+        <div>
+          <p class="eyebrow">Live Broad Discover</p>
+          <h1>Discover</h1>
+        </div>
+        <div class="discover-tabs" aria-label="Discover categories">
+          <button class="discover-tab active" type="button" data-filter="all">Top</button>
+          <button class="discover-tab" type="button" data-filter="general">General</button>
+          <button class="discover-tab" type="button" data-filter="politics">Politics</button>
+          <button class="discover-tab" type="button" data-filter="india">India</button>
+          <button class="discover-tab" type="button" data-filter="world">World</button>
+          <button class="discover-tab" type="button" data-filter="business">Business</button>
+          <button class="discover-tab" type="button" data-filter="entertainment">Entertainment</button>
+          <button class="discover-tab" type="button" data-filter="sports">Sports</button>
+          <button class="discover-tab" type="button" data-filter="tech">Tech & Science</button>
+        </div>
+      </header>
+
+      <section id="leadStory" class="discover-lead" aria-label="Top story">
+        <p>Loading latest discover feed...</p>
+      </section>
+
+      <section id="spotlightGrid" class="spotlight-grid" aria-label="Spotlight stories"></section>
+
+      <section>
+        <div class="feed-heading">
+          <h2>Latest</h2>
+          <p id="discoverUpdated">Updated about every 10 minutes by GitHub Actions.</p>
+        </div>
+        <div id="storyList" class="story-list" aria-label="Latest discover stories"></div>
+      </section>
+    </main>
+
+    <aside class="discover-side" aria-label="Discover side panels">
+      <section class="personalize-card">
+        <div class="side-card-title">
+          <h2>Make it yours</h2>
+          <button id="clearTopics" type="button">Clear</button>
+        </div>
+        <p>Select topics and interests to customize your Discover experience.</p>
+        <div class="interest-grid">
+          <button type="button" data-interest="general">General</button>
+          <button type="button" data-interest="politics">Politics</button>
+          <button type="button" data-interest="india">India</button>
+          <button type="button" data-interest="world">World</button>
+          <button type="button" data-interest="business">Business</button>
+          <button type="button" data-interest="entertainment">Entertainment</button>
+          <button type="button" data-interest="sports">Sports</button>
+          <button type="button" data-interest="tech">Tech & Science</button>
+        </div>
+        <button id="saveTopics" class="save-interests" type="button">Save Interests</button>
+      </section>
+
+      <section class="personalize-card compact">
+        <h2>Weather</h2>
+        <div id="weatherPanel" class="weather-panel">Loading weather...</div>
+      </section>
+
+      <section class="personalize-card compact">
+        <h2>Market Outlook</h2>
+        <div id="marketPanel" class="market-list">Loading markets...</div>
+      </section>
+
+      <section class="personalize-card compact">
+        <h2>Trending Companies</h2>
+        <div id="companyPanel" class="market-list">Loading companies...</div>
+      </section>
+    </aside>
+  </div>
+
+  <script>
+    const categoryLabels = {
+      all: "Top",
+      general: "General",
+      politics: "Politics",
+      india: "India",
+      world: "World",
+      business: "Business",
+      entertainment: "Entertainment",
+      sports: "Sports",
+      tech: "Tech & Science"
+    };
+
+    const tabButtons = document.querySelectorAll(".discover-tab");
+    const interestButtons = document.querySelectorAll("[data-interest]");
+    const leadElement = document.getElementById("leadStory");
+    const spotlightElement = document.getElementById("spotlightGrid");
+    const storyListElement = document.getElementById("storyList");
+    const updatedElement = document.getElementById("discoverUpdated");
+    const weatherPanel = document.getElementById("weatherPanel");
+    const marketPanel = document.getElementById("marketPanel");
+    const companyPanel = document.getElementById("companyPanel");
+    const clearTopicsButton = document.getElementById("clearTopics");
+    const saveTopicsButton = document.getElementById("saveTopics");
+
+    let allItems = [];
+    let activeFilter = localStorage.getItem("broadDiscoverTopic") || "all";
+    let selectedInterests = new Set(JSON.parse(localStorage.getItem("broadDiscoverInterests") || "[]"));
+
+    async function loadDiscover() {
+      try {
+        const response = await fetch("./discover-data.json?v=" + Date.now());
+        if (!response.ok) throw new Error("Discover data unavailable");
+        const data = await response.json();
+        allItems = Array.isArray(data.items) ? data.items : [];
+        renderUpdated(data.updatedAt);
+        renderWeather(data.weather);
+        renderMarkets(data.markets, marketPanel);
+        renderMarkets(data.companies, companyPanel);
+        syncControls();
+        renderDiscover();
+      } catch (error) {
+        leadElement.innerHTML = "<p>Discover could not load right now. Please refresh after the next scheduled update.</p>";
+      }
+    }
+
+    function renderDiscover() {
+      const visibleItems = getVisibleItems();
+      const lead = visibleItems[0];
+      const spotlight = visibleItems.slice(1, 4);
+      const list = visibleItems.slice(4);
+
+      if (!lead) {
+        leadElement.innerHTML = `<p>No updates found for ${escapeHtml(categoryLabels[activeFilter] || "this category")}.</p>`;
+        spotlightElement.innerHTML = "";
+        storyListElement.innerHTML = "";
+        return;
+      }
+
+      leadElement.innerHTML = `
+        <div>
+          <span class="story-topic">${escapeHtml(lead.categoryLabel || lead.category)}</span>
+          <h2><a href="${getArticleUrl(lead)}">${escapeHtml(lead.title)}</a></h2>
+          <p>${escapeHtml(lead.summary || "Open the story to read more.")}</p>
+          <div class="story-meta">
+            <span>${formatDate(lead.publishedAt)}</span>
+            <span>${escapeHtml(lead.source)}</span>
+            <span>1 source</span>
+          </div>
+        </div>
+        <a class="lead-visual" href="${getArticleUrl(lead)}" aria-label="Open lead story">${renderVisual(lead)}</a>
+      `;
+
+      spotlightElement.innerHTML = spotlight.map(item => `
+        <article class="spotlight-card">
+          <a class="spotlight-visual" href="${getArticleUrl(item)}">${renderVisual(item)}</a>
+          <div>
+            <span class="story-topic">${escapeHtml(item.categoryLabel || item.category)}</span>
+            <h3><a href="${getArticleUrl(item)}">${escapeHtml(item.title)}</a></h3>
+            <div class="story-meta">
+              <span>${escapeHtml(item.source)}</span>
+              <span>1 source</span>
+            </div>
+          </div>
+        </article>
+      `).join("");
+
+      storyListElement.innerHTML = list.map(item => `
+        <article class="story-row">
+          <div class="story-dot">${getSourceInitials(item.source)}</div>
+          <div>
+            <span class="story-topic">${escapeHtml(item.categoryLabel || item.category)}</span>
+            <h3><a href="${getArticleUrl(item)}">${escapeHtml(item.title)}</a></h3>
+            <p>${escapeHtml(item.summary || "Open this story to read more.")}</p>
+            <div class="story-meta">
+              <span>${formatDate(item.publishedAt)}</span>
+              <span>${escapeHtml(item.source)}</span>
+              <span>1 source</span>
+            </div>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function getVisibleItems() {
+      if (activeFilter !== "all") return allItems.filter(item => item.category === activeFilter);
+      if (selectedInterests.size) {
+        const preferred = allItems.filter(item => selectedInterests.has(item.category));
+        const rest = allItems.filter(item => !selectedInterests.has(item.category));
+        return [...preferred, ...rest];
+      }
+      return allItems;
+    }
+
+    function renderWeather(weather) {
+      if (!weather || weather.error) {
+        weatherPanel.innerHTML = "<p>Weather will refresh soon.</p>";
+        return;
+      }
+      weatherPanel.innerHTML = `
+        <div class="weather-current">
+          <strong>${escapeHtml(weather.temperature)}°</strong>
+          <span>${escapeHtml(weather.condition)}</span>
+          <small>${escapeHtml(weather.location)}</small>
+        </div>
+        <div class="weather-days">
+          ${(weather.daily || []).map(day => `<span>${new Date(day.date).toLocaleDateString(undefined, { weekday: "short" })}<strong>${day.high}°</strong></span>`).join("")}
+        </div>
+      `;
+    }
+
+    function renderMarkets(items, element) {
+      if (!items || !items.length) {
+        element.innerHTML = "<p>Market data will refresh soon.</p>";
+        return;
+      }
+      element.innerHTML = items.map(item => `
+        <div class="market-row">
+          <span>${escapeHtml(item.label || item.name || item.symbol)}</span>
+          <strong>${item.price ? escapeHtml(item.price) : "Retry"}</strong>
+          <em class="${Number(item.changePercent) >= 0 ? "positive" : "negative"}">${item.changePercent ? item.changePercent + "%" : ""}</em>
+        </div>
+      `).join("");
+    }
+
+    function renderUpdated(updatedAt) {
+      updatedElement.innerText = updatedAt
+        ? "Last refreshed " + new Date(updatedAt).toLocaleString()
+        : "Updated about every 10 minutes by GitHub Actions.";
+    }
+
+    function syncControls() {
+      tabButtons.forEach(button => button.classList.toggle("active", button.dataset.filter === activeFilter));
+      interestButtons.forEach(button => button.classList.toggle("selected", selectedInterests.has(button.dataset.interest)));
+    }
+
+    function getArticleUrl(item) {
+      return "./article/?id=" + encodeURIComponent(item.id || "");
+    }
+
+    function renderVisual(item) {
+      if (item.image && item.image.startsWith("http")) return `<img src="${escapeAttribute(item.image)}" alt="">`;
+      return `<span>${getSourceInitials(item.source)}</span>`;
+    }
+
+    function formatDate(value) {
+      if (!value) return "Recent";
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return "Recent";
+      return date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+    }
+
+    function getSourceInitials(source) {
+      return String(source || "News").split(/\s+/).slice(0, 2).map(part => part.charAt(0).toUpperCase()).join("");
+    }
+
+    function escapeHtml(value) {
+      return String(value || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+    }
+
+    function escapeAttribute(value) {
+      const text = String(value || "#");
+      if (!text.startsWith("http://") && !text.startsWith("https://")) return "#";
+      return escapeHtml(text);
+    }
+
+    tabButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        activeFilter = button.dataset.filter;
+        localStorage.setItem("broadDiscoverTopic", activeFilter);
+        syncControls();
+        renderDiscover();
+      });
+    });
+
+    interestButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        const interest = button.dataset.interest;
+        if (selectedInterests.has(interest)) selectedInterests.delete(interest);
+        else selectedInterests.add(interest);
+        syncControls();
+      });
+    });
+
+    saveTopicsButton.addEventListener("click", () => {
+      localStorage.setItem("broadDiscoverInterests", JSON.stringify([...selectedInterests]));
+      activeFilter = "all";
+      localStorage.setItem("broadDiscoverTopic", activeFilter);
+      syncControls();
+      renderDiscover();
+    });
+
+    clearTopicsButton.addEventListener("click", () => {
+      selectedInterests = new Set();
+      localStorage.removeItem("broadDiscoverInterests");
+      activeFilter = "all";
+      localStorage.setItem("broadDiscoverTopic", activeFilter);
+      syncControls();
+      renderDiscover();
+    });
+
+    loadDiscover();
+  </script>
+</body>
+</html>
