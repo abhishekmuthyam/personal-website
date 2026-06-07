@@ -4,20 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech News - Abhishek Muthyam</title>
-  <meta name="description" content="A simple technical news discovery dashboard with curated sources for Java, cloud, AI, developer tools, and software engineering.">
+  <meta name="description" content="Real-time technical news discovery for Java, cloud, AI, developer tools, and software engineering.">
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <section class="hero news-hero">
-    <p class="eyebrow">Tech Discovery</p>
-    <h1>Technical news worth checking.</h1>
+    <p class="eyebrow">Live Tech Discovery</p>
+    <h1>Real-time technical news for builders.</h1>
     <p>
-      A lightweight discovery page for backend, cloud, AI, Java, and developer-tool updates.
-      It points to trusted sources instead of pretending static content is live news.
+      Fresh Java, cloud, AI, developer-tool, and software engineering updates collected
+      from trusted feeds and refreshed automatically.
     </p>
   </section>
 
   <section>
+    <div class="news-topline">
+      <p id="newsStatus">Loading latest technical news...</p>
+      <p id="newsUpdated">Updated automatically by GitHub Actions.</p>
+    </div>
+
     <div class="news-toolbar" aria-label="News topic filters">
       <button class="filter-button active" type="button" data-filter="all">All</button>
       <button class="filter-button" type="button" data-filter="java">Java</button>
@@ -27,65 +32,18 @@
     </div>
 
     <div class="news-layout">
-      <main class="news-feed" aria-label="Curated tech sources">
-        <article class="news-card" data-topic="java">
-          <span class="card-kicker">Java</span>
-          <h2>Java and JVM Updates</h2>
-          <p>Track language updates, release notes, performance work, and ecosystem announcements.</p>
-          <div class="source-row">
-            <a class="post-link" href="https://inside.java/" target="_blank" rel="noopener">Inside Java</a>
-            <a class="post-link" href="https://spring.io/blog" target="_blank" rel="noopener">Spring Blog</a>
-          </div>
-        </article>
-
-        <article class="news-card" data-topic="cloud">
-          <span class="card-kicker">Cloud</span>
-          <h2>AWS and Cloud Engineering</h2>
-          <p>Watch service launches, architecture notes, deployment patterns, and cloud operations updates.</p>
-          <div class="source-row">
-            <a class="post-link" href="https://aws.amazon.com/new/" target="_blank" rel="noopener">AWS What's New</a>
-            <a class="post-link" href="https://aws.amazon.com/blogs/aws/" target="_blank" rel="noopener">AWS News Blog</a>
-          </div>
-        </article>
-
-        <article class="news-card" data-topic="ai">
-          <span class="card-kicker">AI</span>
-          <h2>AI Tools and Model Updates</h2>
-          <p>Follow practical AI product updates, developer APIs, coding workflows, and model improvements.</p>
-          <div class="source-row">
-            <a class="post-link" href="https://openai.com/news/" target="_blank" rel="noopener">OpenAI News</a>
-            <a class="post-link" href="https://huggingface.co/blog" target="_blank" rel="noopener">Hugging Face Blog</a>
-          </div>
-        </article>
-
-        <article class="news-card" data-topic="devtools">
-          <span class="card-kicker">Dev Tools</span>
-          <h2>Developer Tools and GitHub</h2>
-          <p>Keep an eye on GitHub features, CLI tools, automation, security, and developer productivity.</p>
-          <div class="source-row">
-            <a class="post-link" href="https://github.blog/" target="_blank" rel="noopener">GitHub Blog</a>
-            <a class="post-link" href="https://news.ycombinator.com/" target="_blank" rel="noopener">Hacker News</a>
-          </div>
-        </article>
-
-        <article class="news-card" data-topic="devtools">
-          <span class="card-kicker">Engineering</span>
-          <h2>Software Engineering Trends</h2>
-          <p>Read deeper engineering articles on architecture, reliability, databases, and engineering culture.</p>
-          <div class="source-row">
-            <a class="post-link" href="https://martinfowler.com/" target="_blank" rel="noopener">Martin Fowler</a>
-            <a class="post-link" href="https://www.infoq.com/" target="_blank" rel="noopener">InfoQ</a>
-          </div>
-        </article>
-      </main>
+      <main id="newsFeed" class="news-feed" aria-label="Latest technical news"></main>
 
       <aside class="news-side">
         <section class="note-card">
-          <h2>Reading Routine</h2>
-          <ul>
-            <li>Check official sources first.</li>
-            <li>Save useful ideas as blog notes.</li>
-            <li>Turn interesting updates into small experiments.</li>
+          <h2>Live Sources</h2>
+          <ul id="sourceList">
+            <li>Inside Java</li>
+            <li>Spring Blog</li>
+            <li>AWS What's New</li>
+            <li>OpenAI News</li>
+            <li>GitHub Blog</li>
+            <li>Hacker News</li>
           </ul>
         </section>
 
@@ -114,21 +72,123 @@
 
   <script>
     const buttons = document.querySelectorAll(".filter-button");
-    const cards = document.querySelectorAll(".news-card");
+    const feedElement = document.getElementById("newsFeed");
+    const statusElement = document.getElementById("newsStatus");
+    const updatedElement = document.getElementById("newsUpdated");
+    const sourceListElement = document.getElementById("sourceList");
+    let allItems = [];
+    let activeFilter = "all";
+
+    async function loadNews() {
+      try {
+        const response = await fetch("./news-data.json?v=" + Date.now());
+
+        if (!response.ok) {
+          throw new Error("News data unavailable");
+        }
+
+        const data = await response.json();
+        allItems = Array.isArray(data.items) ? data.items : [];
+        renderSources(data.sources || []);
+        renderUpdated(data.updatedAt);
+        renderNews();
+      } catch (error) {
+        statusElement.innerText = "Live news could not load right now. Showing source links soon.";
+        updatedElement.innerText = "Try refreshing after the next scheduled update.";
+        feedElement.innerHTML = "";
+      }
+    }
+
+    function renderNews() {
+      const visibleItems = activeFilter === "all"
+        ? allItems
+        : allItems.filter(item => item.topic === activeFilter);
+
+      statusElement.innerText = visibleItems.length
+        ? visibleItems.length + " updates found"
+        : "No updates found for this topic yet.";
+
+      feedElement.innerHTML = visibleItems.map(item => `
+        <article class="news-card" data-topic="${escapeHtml(item.topic)}">
+          <div class="news-card-header">
+            <span class="card-kicker">${escapeHtml(item.topicLabel || item.topic)}</span>
+            <span class="news-source">${escapeHtml(item.source)}</span>
+          </div>
+          <h2><a href="${escapeAttribute(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h2>
+          <p>${escapeHtml(item.summary || "Open the source to read the full update.")}</p>
+          <div class="source-row">
+            <span>${formatDate(item.publishedAt)}</span>
+            <a class="post-link" href="${escapeAttribute(item.link)}" target="_blank" rel="noopener">Read source</a>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function renderSources(sources) {
+      if (!sources.length) {
+        return;
+      }
+
+      sourceListElement.innerHTML = sources
+        .map(source => `<li>${escapeHtml(source.name)}${source.ok ? "" : " (retry later)"}</li>`)
+        .join("");
+    }
+
+    function renderUpdated(updatedAt) {
+      if (!updatedAt) {
+        updatedElement.innerText = "Updated automatically by GitHub Actions.";
+        return;
+      }
+
+      const updatedDate = new Date(updatedAt);
+      updatedElement.innerText = "Last refreshed " + updatedDate.toLocaleString();
+    }
+
+    function formatDate(value) {
+      if (!value) {
+        return "Recent";
+      }
+
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) {
+        return "Recent";
+      }
+
+      return date.toLocaleDateString(undefined, {
+        month: "short",
+        day: "numeric",
+        year: "numeric"
+      });
+    }
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function escapeAttribute(value) {
+      const text = String(value || "#");
+      if (!text.startsWith("http://") && !text.startsWith("https://")) {
+        return "#";
+      }
+
+      return escapeHtml(text);
+    }
 
     buttons.forEach(button => {
       button.addEventListener("click", () => {
-        const filter = button.dataset.filter;
-
+        activeFilter = button.dataset.filter;
         buttons.forEach(item => item.classList.remove("active"));
         button.classList.add("active");
-
-        cards.forEach(card => {
-          const shouldShow = filter === "all" || card.dataset.topic === filter;
-          card.hidden = !shouldShow;
-        });
+        renderNews();
       });
     });
+
+    loadNews();
   </script>
 </body>
 </html>

@@ -1,0 +1,505 @@
+{
+  "updatedAt": "2026-06-07T10:00:11.191Z",
+  "sources": [
+    {
+      "name": "Inside Java",
+      "topic": "java",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "name": "Spring Blog",
+      "topic": "java",
+      "ok": true,
+      "count": 4
+    },
+    {
+      "name": "AWS What's New",
+      "topic": "cloud",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "name": "AWS News Blog",
+      "topic": "cloud",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "name": "OpenAI News",
+      "topic": "ai",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "name": "Hugging Face Blog",
+      "topic": "ai",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "name": "GitHub Blog",
+      "topic": "devtools",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "name": "Hacker News",
+      "topic": "devtools",
+      "ok": true,
+      "count": 8
+    }
+  ],
+  "items": [
+    {
+      "title": "The 29th International Obfuscated C Code Contest (IOCCC) 2025 Winners",
+      "link": "https://www.ioccc.org/2025/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-07T05:47:54.000Z"
+    },
+    {
+      "title": "I design with Claude more than Figma now",
+      "link": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-07T05:04:24.000Z"
+    },
+    {
+      "title": "Valve P2P networking broken for more than 2 months",
+      "link": "https://github.com/ValveSoftware/GameNetworkingSockets/issues/398",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-07T03:21:52.000Z"
+    },
+    {
+      "title": "Field of clones: How horse replicas came to dominate polo",
+      "link": "https://knowablemagazine.org/content/article/technology/2026/cloned-polo-horses",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-07T02:46:37.000Z"
+    },
+    {
+      "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
+      "link": "https://arxiv.org/abs/2601.14470",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-07T01:37:11.000Z"
+    },
+    {
+      "title": "Five labs, five minds: building a multi-model finance drama on small models",
+      "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-06T19:02:33.000Z"
+    },
+    {
+      "title": "Spring AI 2.0.0-RC1 Available Now",
+      "link": "https://spring.io/blog/2026/06/06/spring-ai-2-0-0-RC1-available-now",
+      "summary": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-06-06T00:00:00.000Z"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
+      "summary": "Amazon Bedrock AgentCore Runtime now supports interactive shells through a new InvokeAgentRuntimeCommandShell API, opening a persistent, PTY-backed terminal directly into a running agent session over WebSocket. This com...",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-05T22:25:00.000Z"
+    },
+    {
+      "title": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views are now available in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/",
+      "summary": "AWS Glue Data Catalog now supports AWS IAM-based authorization for Amazon S3 Tables and Apache Iceberg materialized views. With IAM-based authorization, you can define all necessary permissions across storage, catalog,...",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-05T21:11:00.000Z"
+    },
+    {
+      "title": "Amazon OpenSearch UI is now available in GovCloud regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ui-govcloud-region",
+      "summary": "Amazon OpenSearch Service expands its modernized operational analytics experience to GovCloud regions, including AWS GovCloud (US-East) and AWS GovCloud (US-West), enabling users to gain insights across data spanning ma...",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-05T20:40:00.000Z"
+    },
+    {
+      "title": "Try the new console experience in Amazon Bedrock, optimized for Anthropic- and OpenAI-compatible APIs",
+      "link": "https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/",
+      "summary": "You can use the new console experience on Amazon Bedrock to browse and compare the latest AI models side by side, organize work into projects with streamlined evaluation workflows, and access project-aware live document...",
+      "source": "AWS News Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-05T19:15:11.000Z"
+    },
+    {
+      "title": "Symbolica 2.0: Programmable Symbols for Python and Rust",
+      "link": "https://symbolica.io/posts/symbolica_2_0_release/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-05T17:13:59.000Z"
+    },
+    {
+      "title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) with AWS Fargate now supports 32vCPU compute configurations, enabling customers to run more demanding applications with greater flexibility and performance. AWS Fargate offe...",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-05T15:00:00.000Z"
+    },
+    {
+      "title": "Win16 Memory Management",
+      "link": "http://www.os2museum.com/wp/win16-memory-management/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-05T11:16:47.000Z"
+    },
+    {
+      "title": "The AWS MCP Server now supports cross-account and cross-role access",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
+      "summary": "Today, AWS announced cross-account and cross-role access for the AWS Model Context Protocol (MCP) Server, part of the Agent Toolkit for AWS . This feature allows developers using AI coding agents like Kiro, Claude Code,...",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-05T07:00:00.000Z"
+    },
+    {
+      "title": "JEP targeted to JDK 27: 538: PEM Encodings of Cryptographic Objects (3rd Preview)",
+      "link": "https://inside.java/2026/06/05/jep538-target-jdk27/",
+      "summary": "The following JEP is targeted to JDK 27: 538: PEM Encodings of Cryptographic Objects (Third Preview)",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-06-05T00:00:00.000Z"
+    },
+    {
+      "title": "Amazon SageMaker Data Agent integrates business context into conversations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent-bdc/",
+      "summary": "Amazon SageMaker Data Agent now integrates with SageMaker Catalog business context and metadata, enabling data practitioners to discover datasets and generate more accurate SQL and Python code using business terminology...",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-04T21:51:00.000Z"
+    },
+    {
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-04T18:57:45.000Z"
+    },
+    {
+      "title": "Amazon Cognito now supports multi-Region replication",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "summary": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a secondary user pool in a s...",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-04T17:00:00.000Z"
+    },
+    {
+      "title": "AWS Databases on Vercel now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "summary": "Amazon Aurora PostgreSQL , Amazon Aurora DSQL , and Amazon DynamoDB serverless databases are now available on Vercel Marketplace and v0 by Vercel in additional AWS Regions, offering you more flexibility to build applica...",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-04T17:00:00.000Z"
+    },
+    {
+      "title": "GitHub Universe is back: All together now, in the agentic era",
+      "link": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/",
+      "summary": "GitHub Universe is back: returning to the historic Fort Mason Center in San Francisco on October 28–29, 2026. The post GitHub Universe is back: All together now, in the agentic era appeared first on The GitHub Blog .",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-04T16:00:00.000Z"
+    },
+    {
+      "title": "Speculative KV coding: losslessly compressing KV cache by up to ~4×",
+      "link": "https://fergusfinn.com/blog/kv-entropy-coder/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-04T15:29:53.000Z"
+    },
+    {
+      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-04T12:24:58.000Z"
+    },
+    {
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "link": "https://openai.com/index/endava-frontiers",
+      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-04T12:00:00.000Z"
+    },
+    {
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "link": "https://openai.com/index/chatgpt-memory-dreaming",
+      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-04T09:00:00.000Z"
+    },
+    {
+      "title": "A Bootiful Podcast: JetBrains' Marit van Dijk",
+      "link": "https://spring.io/blog/2026/06/04/a-bootiful-podcast-marit-van-dijk",
+      "summary": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-06-04T00:00:00.000Z"
+    },
+    {
+      "title": "Biodefense in the Intelligence Age",
+      "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "summary": "An action plan for AI-powered biological resilience",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-04T00:00:00.000Z"
+    },
+    {
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "link": "https://huggingface.co/blog/hf-cli-for-agents",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-04T00:00:00.000Z"
+    },
+    {
+      "title": "Improve your application resilience with Amazon Cognito multi-Region replication",
+      "link": "https://aws.amazon.com/blogs/aws/improve-your-application-resilience-with-amazon-cognito-multi-region-replication/",
+      "summary": "Amazon Cognito now offers multi-Region replication that automatically synchronizes user data, credentials, and pool configurations to a secondary AWS Region, enabling uninterrupted authentication during regional failove...",
+      "source": "AWS News Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-03T22:37:29.000Z"
+    },
+    {
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-03T13:15:00.000Z"
+    },
+    {
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "link": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-03T12:55:11.000Z"
+    },
+    {
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "link": "https://openai.com/index/wasmer",
+      "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-03T12:00:00.000Z"
+    },
+    {
+      "title": "A blueprint for democratic governance of frontier AI",
+      "link": "https://openai.com/index/frontier-safety-blueprint",
+      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-03T10:00:00.000Z"
+    },
+    {
+      "title": "OpenAI public policy agenda",
+      "link": "https://openai.com/index/public-policy-agenda",
+      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-03T10:00:00.000Z"
+    },
+    {
+      "title": "Adding MCP Tools to Reachy Mini",
+      "link": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-03T00:00:00.000Z"
+    },
+    {
+      "title": "GitHub Copilot app: The agent-native desktop experience",
+      "link": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+      "summary": "At Microsoft Build 2026, GitHub introduced new tools, updates, and surfaces so agents can work the way you already work. The post GitHub Copilot app: The agent-native desktop experience appeared first on The GitHub Blog...",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-02T17:30:03.000Z"
+    },
+    {
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "link": "https://huggingface.co/blog/Hcompany/holo31",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-02T14:13:23.000Z"
+    },
+    {
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "link": "https://openai.com/index/travelers",
+      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-02T12:00:00.000Z"
+    },
+    {
+      "title": "Intelligent JVM Monitoring: Combining JDK Flight Recorder with AI",
+      "link": "https://inside.java/2026/06/02/jfr-ai-monitor/",
+      "summary": "JFR simplifies troubleshooting and profiling by capturing detailed JVM event data—and with the JFR Streaming API, you can access those insights in real time. But what if you could go further and stream live JFR data str...",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "title": "This Week in Spring - June 2nd, 2026",
+      "link": "https://spring.io/blog/2026/06/02/this-week-in-spring-june-2-2026",
+      "summary": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "title": "Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock/",
+      "summary": "OpenAI frontier models GPT-5.5 and GPT-5.4, and Codex, the OpenAI coding agent, are now generally available on Amazon Bedrock. Deploy frontier models on Bedrock's high performance inference engine with built-in security...",
+      "source": "AWS News Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-01T21:33:28.000Z"
+    },
+    {
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "summary": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-01T15:45:17.000Z"
+    },
+    {
+      "title": "AWS Weekly Roundup: Claude Opus 4.8 on AWS, Aurora MySQL with Kiro Powers, and more (June 1, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-8-on-aws-aurora-mysql-with-kiro-powers-and-more-june-1-2026/",
+      "summary": "In my last Week in Review post, I shared what I’d been hearing from customers in the AI-Driven Development Lifecycle (AI-DLC) workshops I’ve been delivering. Last week I was back at it, this time in Denver for a two-day...",
+      "source": "AWS News Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-01T14:25:33.000Z"
+    },
+    {
+      "title": "Spring and Security In The Times Of AI",
+      "link": "https://spring.io/blog/2026/06/01/spring_and_security_in_the_times_of_ai",
+      "summary": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-06-01T00:00:00.000Z"
+    },
+    {
+      "title": "Introducing the next generation of AWS Resilience Hub for generative AI-based SRE resilience journey",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey/",
+      "summary": "AWS launches the next generation of AWS Resilience Hub with a significantly expanded experience that brings together a new application model, dependency discovery assessment, generative AI-powered failure mode analysis,...",
+      "source": "AWS News Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-05-28T19:29:55.000Z"
+    },
+    {
+      "title": "Introducing the next generation of Amazon OpenSearch Serverless for building your agentic AI applications",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/",
+      "summary": "AWS rebuilt Amazon OpenSearch Serverless from the ground up for agentic AI and dynamic workloads. Get instant autoscaling and up to 60% cost savings.",
+      "source": "AWS News Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-05-28T18:26:16.000Z"
+    },
+    {
+      "title": "Still a developer. Just outside. Our latest GitHub Shop collection is here.",
+      "link": "https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here/",
+      "summary": "The ESC collection lets you escape the confines of your desk and get out into the sun where good ideas are bound to happen. The post Still a developer. Just outside. Our latest GitHub Shop collection is here. appeared f...",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-05-28T18:18:43.000Z"
+    },
+    {
+      "title": "Episode 59 “Java *is* Memory Efficient” [AtA]",
+      "link": "https://inside.java/2026/05/28/podcast-059/",
+      "summary": "Java's use of memory, often chided for being excessive, is actually a strength as it trades more memory use for fewer CPU cycles, a tradeoff it can only make due to its moving garbage collectors.",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-05-28T00:00:00.000Z"
+    },
+    {
+      "title": "Meet Our Newest AWS Heroes – May 2026",
+      "link": "https://aws.amazon.com/blogs/aws/meet-our-newest-aws-heroes-may-2026/",
+      "summary": "We’re excited to welcome four outstanding community leaders as our newest AWS Heroes. These individuals embody the spirit of collaboration and knowledge sharing that makes the AWS community thrive. From building AI-powe...",
+      "source": "AWS News Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-05-27T16:15:05.000Z"
+    },
+    {
+      "title": "JEP targeted to JDK 27: 523: Make G1 the Default Garbage Collector in All Environments",
+      "link": "https://inside.java/2026/05/26/jep523-target-jdk27/",
+      "summary": "The following JEP is targeted to JDK 27: 523: Make G1 the Default Garbage Collector in All Environments",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-05-26T00:00:00.000Z"
+    }
+  ]
+}
