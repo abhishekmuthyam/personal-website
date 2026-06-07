@@ -160,6 +160,40 @@ h3 {
   gap: 24px;
 }
 
+.snapshot-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  padding: 0;
+}
+
+.snapshot-strip div {
+  padding: 20px;
+  border-right: 1px solid var(--line);
+}
+
+.snapshot-strip div:last-child {
+  border-right: none;
+}
+
+.snapshot-strip strong {
+  color: var(--brand-dark);
+  display: block;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.snapshot-strip span {
+  color: var(--muted);
+  display: block;
+  margin-top: 8px;
+}
+
 .focus-panel {
   background: var(--panel);
   border: 1px solid var(--line);
@@ -306,6 +340,33 @@ footer {
   padding-left: 20px;
 }
 
+.project-list {
+  display: grid;
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.project-card {
+  align-items: center;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding: 24px;
+}
+
+.project-card h3 {
+  margin-top: 6px;
+}
+
+.project-card p {
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
 @media (max-width: 760px) {
   .nav {
     align-items: flex-start;
@@ -319,6 +380,22 @@ footer {
   }
 
   .profile-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .snapshot-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .snapshot-strip div:nth-child(2) {
+    border-right: none;
+  }
+
+  .snapshot-strip div:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .project-card {
     grid-template-columns: 1fr;
   }
 
