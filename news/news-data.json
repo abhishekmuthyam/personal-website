@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T02:01:43.762Z",
+  "updatedAt": "2026-06-14T06:53:26.137Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -34,8 +34,9 @@
     {
       "name": "Hugging Face Blog",
       "topic": "ai",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "name": "GitHub Blog",
@@ -64,26 +65,70 @@
   ],
   "items": [
     {
-      "id": "hacker-news-4-things-to-know-about-the-new-sunscreen-ingredient-the-fda-approved-2026-06-1",
-      "title": "4 things to know about the new sunscreen ingredient the FDA approved",
-      "link": "https://www.npr.org/2026/06/13/nx-s1-5856385/sunscreen-skin-protection-bemotrizinol",
+      "id": "hacker-news-tribblix-the-retro-illumos-distribution-2026-06-14t05-23-12-000z",
+      "title": "Tribblix: The retro Illumos distribution",
+      "link": "http://tribblix.org/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-14T01:10:46.000Z"
+      "publishedAt": "2026-06-14T05:23:12.000Z"
     },
     {
-      "id": "hacker-news-reactos-foss-windows-achieves-3d-accelerated-half-life-on-real-hardware-2026-0",
-      "title": "ReactOS (FOSS \"Windows\") achieves 3D-accelerated Half-Life on real hardware",
-      "link": "https://www.phoronix.com/news/ReactOS-Running-Half-Life",
+      "id": "infoq-aws-introduces-durable-storage-option-for-elasticache-for-valkey-2026-06-14t05-13-00",
+      "title": "AWS Introduces Durable Storage Option for ElastiCache for Valkey",
+      "link": "https://www.infoq.com/news/2026/06/elasticache-valkey-durability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has recently introduced durability for Amazon ElastiCache for Valkey, enabling reliable data retention across failures and expanding support beyond caching to persistent workloads. The feature offers new options tha...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-14T05:13:00.000Z"
+    },
+    {
+      "id": "hacker-news-pac-man-but-you-re-the-ghost-2026-06-14t04-18-45-000z",
+      "title": "Pac-Man, but you're the ghost",
+      "link": "https://garrit.xyz/posts/2026-06-13-pac-man-but-you-re-the-ghost",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-13T23:22:05.000Z"
+      "publishedAt": "2026-06-14T04:18:45.000Z"
+    },
+    {
+      "id": "hacker-news-free-sql-er-diagram-tool-runs-in-the-browser-nothing-uploaded-2026-06-14t03-43",
+      "title": "Free SQL→ER diagram tool, runs in the browser, nothing uploaded",
+      "link": "https://sqltoerdiagram.com/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-14T03:43:30.000Z"
+    },
+    {
+      "id": "hacker-news-building-a-serial-and-vga-everything-console-2026-06-14t02-31-15-000z",
+      "title": "Building a serial and VGA \"everything console\"",
+      "link": "http://oldvcr.blogspot.com/2026/06/building-serial-and-vga-everything.html",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-14T02:31:15.000Z"
+    },
+    {
+      "id": "hacker-news-honda-civics-and-the-evil-valet-2026-06-14t00-49-46-000z",
+      "title": "Honda Civics and the Evil Valet",
+      "link": "https://juniperspring.org/posts/honda-evil-valet/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-14T00:49:46.000Z"
     },
     {
       "id": "infoq-terraform-mcp-server-enables-ai-assistants-to-interact-with-terraform-infrastructure",
@@ -117,17 +162,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-13T13:54:56.000Z"
-    },
-    {
-      "id": "hacker-news-treating-pancreatic-tumours-may-have-revealed-cancer-s-master-switch-2026-06-1",
-      "title": "Treating pancreatic tumours may have revealed cancer's master switch",
-      "link": "https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-13T13:34:00.000Z"
     },
     {
       "id": "hacker-news-every-frame-perfect-2026-06-13t11-40-20-000z",
@@ -251,17 +285,6 @@
       "publishedAt": "2026-06-12T16:00:00.000Z"
     },
     {
-      "id": "hugging-face-blog-olmo-eval-an-evaluation-workbench-for-the-model-development-loop-2026-06",
-      "title": "olmo-eval: An evaluation workbench for the model development loop",
-      "link": "https://huggingface.co/blog/allenai/olmo-eval",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-12T15:56:10.000Z"
-    },
-    {
       "id": "infoq-slack-eliminates-ssh-in-emr-pipelines-migrates-700-jobs-to-rest-based-architecture-2",
       "title": "Slack Eliminates SSH in EMR Pipelines, Migrates 700+ Jobs to Rest-Based Architecture",
       "link": "https://www.infoq.com/news/2026/06/slack-ssh-rest-quarry-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -315,17 +338,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-12T12:00:00.000Z"
-    },
-    {
-      "id": "infoq-run-untrusted-ai-agent-code-safely-with-azure-container-apps-sandboxes-2026-06-12t11",
-      "title": "Run Untrusted AI Agent Code Safely with Azure Container Apps Sandboxes",
-      "link": "https://www.infoq.com/news/2026/06/untrusted-ai-agents-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Microsoft has announced the public preview of Azure Container Apps Sandboxes. This new ARM resource type is Microsoft.App/SandboxGroups, runs untrusted code generated by agents in hardware-isolated environments. Each sa...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-12T11:00:00.000Z"
     },
     {
       "id": "openai-news-new-openai-academy-courses-for-the-next-era-of-work-2026-06-12t10-00-00-000z",
@@ -460,17 +472,6 @@
       "publishedAt": "2026-06-11T16:00:00.000Z"
     },
     {
-      "id": "hacker-news-freeoberon-open-source-cross-platform-free-pascal-turbo-pascal-like-language-2",
-      "title": "FreeOberon – Open-Source, Cross-Platform, Free Pascal/Turbo Pascal-Like Language",
-      "link": "https://github.com/kekcleader/FreeOberon",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-11T14:34:46.000Z"
-    },
-    {
       "id": "google-cloud-blog-shinyhunters-targets-education-sector-with-oracle-peoplesoft-exploit-202",
       "title": "ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
@@ -526,10 +527,10 @@
       "publishedAt": "2026-06-11T00:00:00.000Z"
     },
     {
-      "id": "openai-news-supporting-europe-s-work-in-ensuring-a-trustworthy-ai-ecosystem-2026-06-11t00",
-      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "id": "openai-news-bbva-puts-ai-at-the-core-of-banking-with-openai-2026-06-11t00-00-00-000z",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "link": "https://openai.com/index/bbva",
+      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
       "image": "",
       "source": "OpenAI News",
       "topic": "ai",
@@ -537,10 +538,10 @@
       "publishedAt": "2026-06-11T00:00:00.000Z"
     },
     {
-      "id": "openai-news-bbva-puts-ai-at-the-core-of-banking-with-openai-2026-06-11t00-00-00-000z",
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "link": "https://openai.com/index/bbva",
-      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "id": "openai-news-supporting-europe-s-work-in-ensuring-a-trustworthy-ai-ecosystem-2026-06-11t00",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
       "image": "",
       "source": "OpenAI News",
       "topic": "ai",
@@ -565,17 +566,6 @@
       "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
       "image": "",
       "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-11T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-profiling-in-pytorch-part-2-from-nn-linear-to-a-fused-mlp-2026-06-11t00",
-      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-      "link": "https://huggingface.co/blog/torch-mlp-fusion",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-11T00:00:00.000Z"
@@ -612,6 +602,17 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-06-10T17:00:00.000Z"
+    },
+    {
+      "id": "github-blog-give-github-copilot-cli-real-code-intelligence-with-language-servers-2026-06-1",
+      "title": "Give GitHub Copilot CLI real code intelligence with language servers",
+      "link": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
+      "summary": "Install and configure LSP servers for GitHub Copilot CLI, replacing brute-force grep/decompile with real code intelligence. The post Give GitHub Copilot CLI real code intelligence with language servers appeared first on...",
+      "image": "",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-10T16:00:00.000Z"
     }
   ]
 }
