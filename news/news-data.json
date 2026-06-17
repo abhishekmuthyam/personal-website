@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T23:11:04.591Z",
+  "updatedAt": "2026-06-17T01:41:58.434Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -34,8 +34,9 @@
     {
       "name": "Hugging Face Blog",
       "topic": "ai",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "name": "GitHub Blog",
@@ -64,6 +65,39 @@
   ],
   "items": [
     {
+      "id": "hacker-news-wolfram-language-and-mathematica-version-15-ai-assistant-symbolic-music-more-2",
+      "title": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More",
+      "link": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-16T23:15:44.000Z"
+    },
+    {
+      "id": "hacker-news-humiliating-iis-servers-for-fun-and-jail-time-2026-06-16t22-53-34-000z",
+      "title": "Humiliating IIS servers for fun and jail time",
+      "link": "https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-16T22:53:34.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-bedrock-guardrails-announces-a-new-api-targeting-agentic-ai-workflow",
+      "title": "Amazon Bedrock Guardrails announces a new API targeting agentic AI workflows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-api-ai/",
+      "summary": "Amazon Bedrock Guardrails now offers the InvokeGuardrailChecks API, a new resourceless API that lets you apply individual safeguards at any point in your agentic AI applications without creating guardrail resources. The...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-16T22:53:00.000Z"
+    },
+    {
       "id": "aws-what-s-new-aws-transform-now-supports-model-to-model-migration-assessment-for-generati",
       "title": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments",
@@ -73,6 +107,17 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-06-16T21:55:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-s3-vectors-now-supports-up-to-10-000-similarity-search-results-per-q",
+      "title": "Amazon S3 Vectors now supports up to 10,000 similarity search results per query",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-supports-10000-search-results-per-query",
+      "summary": "Amazon S3 Vectors can now return up to 10,000 similarity search results per query, a 100x increase from the previous limit.&nbsp;The higher result limit helps you retrieve a larger, more comprehensive set of candidates...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-16T21:22:00.000Z"
     },
     {
       "id": "github-blog-what-are-git-worktrees-and-why-should-i-use-them-2026-06-16t20-58-54-000z",
@@ -97,8 +142,8 @@
       "publishedAt": "2026-06-16T20:47:37.000Z"
     },
     {
-      "id": "hacker-news-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
-      "title": "GrapheneOS has been ported to Android 17 and official releases are coming soon",
+      "id": "hacker-news-grapheneos-has-been-ported-to-android-17-2026-06-16t20-34-35-000z",
+      "title": "GrapheneOS has been ported to Android 17",
       "link": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
       "summary": "Comments",
       "image": "",
@@ -119,17 +164,6 @@
       "publishedAt": "2026-06-16T18:29:00.000Z"
     },
     {
-      "id": "hacker-news-gpt-nl-a-sovereign-language-model-for-the-netherlands-2026-06-16t17-54-02-000z",
-      "title": "GPT‑NL: a sovereign language model for the Netherlands",
-      "link": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-16T17:54:02.000Z"
-    },
-    {
       "id": "google-cloud-blog-google-named-a-leader-in-idc-marketscape-siem-2026-vendor-assessment-202",
       "title": "Google named a Leader in IDC MarketScape SIEM 2026 Vendor Assessment",
       "link": "https://cloud.google.com/blog/products/identity-security/google-named-a-leader-in-idc-marketscape-siem-2026-vendor-assessment/",
@@ -139,17 +173,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-06-16T17:30:00.000Z"
-    },
-    {
-      "id": "hacker-news-stop-using-jwts-2026-06-16t16-49-46-000z",
-      "title": "Stop Using JWTs",
-      "link": "https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-16T16:49:46.000Z"
     },
     {
       "id": "hacker-news-til-you-can-make-http-requests-without-curl-using-bash-dev-tcp-2026-06-16t16-4",
@@ -293,28 +316,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-06-16T13:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-cloudwatch-introduces-native-opentelemetry-metrics-with-promql-query",
-      "title": "Amazon CloudWatch introduces native OpenTelemetry metrics with PromQL querying and per-GB pricing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-metrics/",
-      "summary": "Amazon CloudWatch now natively supports OpenTelemetry metrics. You can send metrics via the OpenTelemetry Protocol (OTLP) and query them using Prometheus Query Language (PromQL), with per-GB ingestion pricing and 15 mon...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-06-16T12:44:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-marketplace-announces-ai-assisted-product-listing-2026-06-16t12-30-00-0",
-      "title": "AWS Marketplace announces AI-assisted product listing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ai-assisted-product-listing/",
-      "summary": "Today, AWS Marketplace announces AI-assisted product listing in Partner Assistant chat, helping Independent Software Vendors (ISVs) and Consulting Partners create high-quality product listings on AWS Marketplace using t...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-06-16T12:30:00.000Z"
     },
     {
       "id": "infoq-coinbase-postmortem-reveals-how-a-localized-aws-failure-triggered-a-multi-hour-tradi",
@@ -603,15 +604,15 @@
       "publishedAt": "2026-06-12T19:10:33.000Z"
     },
     {
-      "id": "hugging-face-blog-olmo-eval-an-evaluation-workbench-for-the-model-development-loop-2026-06",
-      "title": "olmo-eval: An evaluation workbench for the model development loop",
-      "link": "https://huggingface.co/blog/allenai/olmo-eval",
-      "summary": "",
+      "id": "openai-news-new-openai-academy-courses-for-the-next-era-of-work-2026-06-12t10-00-00-000z",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
       "image": "",
-      "source": "Hugging Face Blog",
+      "source": "OpenAI News",
       "topic": "ai",
       "topicLabel": "AI",
-      "publishedAt": "2026-06-12T15:56:10.000Z"
+      "publishedAt": "2026-06-12T10:00:00.000Z"
     }
   ]
 }
