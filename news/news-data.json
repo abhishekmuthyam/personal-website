@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T22:32:42.856Z",
+  "updatedAt": "2026-06-19T23:43:05.642Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,21 +58,22 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
     {
-      "id": "hacker-news-the-uk-s-new-under-16-social-media-ban-will-cause-more-harm-than-it-prevents-2",
-      "title": "The UK's New Under-16 Social Media Ban Will Cause More Harm Than It Prevents",
-      "link": "https://www.eff.org/deeplinks/2026/06/uks-new-under-16-social-media-ban-will-cause-more-harm-it-prevents",
+      "id": "hacker-news-americans-express-unease-over-spacex-s-influence-on-retirement-savings-2026-06",
+      "title": "Americans express unease over SpaceX's influence on retirement savings",
+      "link": "https://www.theguardian.com/science/2026/jun/19/spacex-retirement-savings-elon-musk",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T21:58:22.000Z"
+      "publishedAt": "2026-06-19T22:45:20.000Z"
     },
     {
       "id": "hacker-news-surprising-economics-of-load-balanced-systems-2026-06-19t20-30-59-000z",
@@ -84,6 +85,28 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-19T20:30:59.000Z"
+    },
+    {
+      "id": "hacker-news-think-of-the-children-how-to-force-real-id-for-all-internet-traffic-2023-2026",
+      "title": "Think of the Children: How to Force Real ID for All Internet Traffic (2023)",
+      "link": "https://nochan.net/b/Internet-Crap/20230829-Think-Of-The-Children/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-19T20:19:57.000Z"
+    },
+    {
+      "id": "hacker-news-bobby-prince-composer-for-doom-wolfenstein-3d-and-duke-nukem-3d-has-died-2026",
+      "title": "Bobby Prince, composer for Doom, Wolfenstein 3D, and Duke Nukem 3D, has died",
+      "link": "https://www.legacy.com/legacy/robert-bobby-prince-lll",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-19T19:35:15.000Z"
     },
     {
       "id": "hacker-news-hyundai-buys-boston-dynamics-2026-06-19t16-28-20-000z",
@@ -150,28 +173,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-19T14:47:00.000Z"
-    },
-    {
-      "id": "the-register-bcachefs-exits-experimental-status-in-new-performance-release-2026-06-19t14-4",
-      "title": "Bcachefs exits experimental status in new 'performance release'",
-      "link": "https://www.theregister.com/software/2026/06/19/bcachefs-exits-experimental-status-in-new-performance-release/5258801",
-      "summary": "More Rust, but more trouble with AI slop, too",
-      "image": "https://image.theregister.com/?imageId=230365&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T14:47:00.000Z"
-    },
-    {
-      "id": "hacker-news-how-many-of-the-170k-english-words-do-you-know-2026-06-19t13-51-36-000z",
-      "title": "How many of the 170k English words do you know?",
-      "link": "https://vocabowl-870366514258.us-west1.run.app/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T13:51:36.000Z"
     },
     {
       "id": "infoq-presentation-ai-agents-to-make-sense-of-data-at-openai-2026-06-19t12-02-00-000z",
@@ -249,17 +250,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-19T08:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-project-valhalla-explained-how-a-decade-of-work-arrives-in-jdk-28-2026-06-19t0",
-      "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
-      "link": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T06:35:57.000Z"
     },
     {
       "id": "aws-what-s-new-announcing-the-general-availability-of-a-new-aws-local-zone-in-hanoi-vietna",
@@ -416,17 +406,6 @@
       "publishedAt": "2026-06-18T11:00:00.000Z"
     },
     {
-      "id": "the-register-oracle-support-timelines-for-fusion-middleware-tighter-than-expected-2026-06",
-      "title": "Oracle support timelines for Fusion Middleware tighter than expected",
-      "link": "https://www.theregister.com/software/2026/06/18/oracle-support-timelines-for-fusion-middleware-tighter-than-expected/5257698",
-      "summary": "Big Red drops ominous mention of 'Market Driven Support' beyond 2027 - but there's good news for AIX users",
-      "image": "https://image.theregister.com/?imageId=1684268&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-18T09:15:00.000Z"
-    },
-    {
       "id": "openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting-children",
       "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
       "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
@@ -493,17 +472,6 @@
       "publishedAt": "2026-06-18T00:00:00.000Z"
     },
     {
-      "id": "the-register-git-good-with-epic-games-new-open-source-vcs-lore-2026-06-17t20-49-00-000z",
-      "title": "Git good with Epic Games' new open source VCS, Lore",
-      "link": "https://www.theregister.com/devops/2026/06/17/git-good-with-epic-games-new-open-source-vcs-lore/5257978",
-      "summary": "Got big binaries? Tired of other version control systems that treat them like inferior files? Lore might be worth a look",
-      "image": "https://image.theregister.com/?imageId=5258032&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-17T20:49:00.000Z"
-    },
-    {
       "id": "github-blog-getting-more-from-each-token-how-copilot-improves-context-handling-and-model-r",
       "title": "Getting more from each token: How Copilot improves context handling and model routing",
       "link": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
@@ -535,17 +503,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-17T15:26:44.000Z"
-    },
-    {
-      "id": "the-register-apple-s-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-say",
-      "title": "Apple's WebKit performance tax leaves iOS browsers stuck in the slow lane, says Microsoft",
-      "link": "https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384",
-      "summary": "Rival rendering engines could make pages load almost 30% faster on iPhones, Redmond claims",
-      "image": "https://image.theregister.com/?imageId=248852&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-17T13:02:56.000Z"
     },
     {
       "id": "hugging-face-blog-from-the-hugging-face-hub-to-robot-hardware-with-strands-agents-and-lero",
@@ -612,6 +569,50 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-agentic-resource-discovery-let-agents-search-2026-06-17t00-00-00-000z",
+      "title": "Agentic Resource Discovery: Let agents search",
+      "link": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "github-blog-what-are-git-worktrees-and-why-should-i-use-them-2026-06-16t20-58-54-000z",
+      "title": "What are git worktrees, and why should I use them?",
+      "link": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+      "summary": "Git worktrees have been around since 2015, but it wasn't until recently they became popular. Learn what they are, how to use them, and why you might. The post What are git worktrees, and why should I use them? appeared...",
+      "image": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-1.35.20-PM.png?resize=924%2C819",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-16T20:58:54.000Z"
+    },
+    {
+      "id": "spring-blog-this-week-in-spring-june-16th-2026-2026-06-16t00-00-00-000z",
+      "title": "This Week in Spring - June 16th, 2026",
+      "link": "https://spring.io/blog/2026/06/16/this-week-in-spring-june-16-2026",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "openai-news-predicting-model-behavior-before-release-by-simulating-deployment-2026-06-16t0",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "link": "https://openai.com/index/deployment-simulation",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-16T00:00:00.000Z"
     }
   ]
 }
