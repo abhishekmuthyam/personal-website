@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T14:22:14.917Z",
+  "updatedAt": "2026-06-19T16:44:06.656Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,15 +64,37 @@
   ],
   "items": [
     {
-      "id": "hacker-news-leave-a-trace-2026-06-19t12-45-11-000z",
-      "title": "Leave a Trace",
-      "link": "https://www.jakeworth.com/posts/leave-a-trace",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
+      "id": "github-blog-how-we-built-an-internal-data-analytics-agent-2026-06-19t16-00-00-000z",
+      "title": "How we built an internal data analytics agent",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "summary": "Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language. Here's what we learned as we built it. The post How we built an internal data analytics...",
+      "image": "https://github.blog/wp-content/uploads/2026/06/architecture.png?resize=1024%2C753",
+      "source": "GitHub Blog",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T12:45:11.000Z"
+      "publishedAt": "2026-06-19T16:00:00.000Z"
+    },
+    {
+      "id": "infoq-behind-the-scenes-block-450-jvm-repositories-into-monorepo-to-reduce-dependency-drif",
+      "title": "Behind the Scenes: Block 450 JVM Repositories Into Monorepo to Reduce Dependency Drift",
+      "link": "https://www.infoq.com/news/2026/06/block-450-jvm-monorepo-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Block, Inc. describes migrating ~450 JVM repositories into a monorepo across Cash App and Square engineering to reduce dependency drift and coordination overhead. The system supports ~8,800 weekly builds with ~10 min p9...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-19T14:47:00.000Z"
+    },
+    {
+      "id": "the-register-bcachefs-exits-experimental-status-in-new-performance-release-2026-06-19t14-4",
+      "title": "Bcachefs exits experimental status in new 'performance release'",
+      "link": "https://www.theregister.com/software/2026/06/19/bcachefs-exits-experimental-status-in-new-performance-release/5258801",
+      "summary": "More Rust, but more trouble with AI slop, too",
+      "image": "https://image.theregister.com/?imageId=230365&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-19T14:47:00.000Z"
     },
     {
       "id": "infoq-presentation-ai-agents-to-make-sense-of-data-at-openai-2026-06-19t12-02-00-000z",
@@ -152,17 +174,6 @@
       "publishedAt": "2026-06-19T08:00:00.000Z"
     },
     {
-      "id": "infoq-net-11-preview-5-brings-file-based-app-improvements-new-c-features-and-a-blazor-vali",
-      "title": ".NET 11 Preview 5: Brings File-Based App Improvements, New C# Features, and a Blazor Validation Wave",
-      "link": "https://www.infoq.com/news/2026/06/dotnet-11-preview-5/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Microsoft has released the fifth preview of .NET 11, with updates across the SDK, C#, ASP.NET Core, .NET MAUI, and EF Core. Highlights include file-based app improvements, new C# closed classes and unions, a Blazor vali...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T08:00:00.000Z"
-    },
-    {
       "id": "hacker-news-project-valhalla-explained-how-a-decade-of-work-arrives-in-jdk-28-2026-06-19t0",
       "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
       "link": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
@@ -174,17 +185,6 @@
       "publishedAt": "2026-06-19T06:35:57.000Z"
     },
     {
-      "id": "hacker-news-so-you-want-to-define-a-well-known-uri-2026-06-19t06-05-01-000z",
-      "title": "So You Want to Define a Well-Known URI",
-      "link": "https://mnot.net/blog/2026/well_known_uris",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T06:05:01.000Z"
-    },
-    {
       "id": "aws-what-s-new-announcing-the-general-availability-of-a-new-aws-local-zone-in-hanoi-vietna",
       "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
@@ -194,6 +194,17 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-06-19T01:00:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-cloudwatch-synthetics-now-supports-multilocation-canaries-2026-06-18",
+      "title": "Amazon CloudWatch Synthetics now supports multilocation canaries",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-synthetics-multilocation/",
+      "summary": "Today, Amazon CloudWatch Synthetics announces support for multilocation canaries, allowing developers and site reliability engineers to run the same canary across multiple AWS Regions simultaneously from a single point...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-18T22:41:00.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-msk-express-brokers-now-support-intelligent-rebalancing-on-existing",
@@ -260,17 +271,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-06-18T18:35:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-all-minilm-l12-v2-for-semantic-search-and-sentence-similarity-is-now-availa",
-      "title": "all-MiniLM-L12-v2 for semantic search and sentence similarity is now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/all-minilm-l12-v2-on-sagemaker-jumpstart/",
-      "summary": "Today, AWS announced the availability of all-MiniLM-L12-v2 in Amazon SageMaker JumpStart, expanding the portfolio of models available to AWS customers. This model from Sentence Transformers maps sentences and paragraphs...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-06-18T18:30:00.000Z"
     },
     {
       "id": "hugging-face-blog-mosaicleaks-can-your-research-agent-keep-a-secret-2026-06-18t18-13-13-00",
