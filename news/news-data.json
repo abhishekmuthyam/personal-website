@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T11:31:50.100Z",
+  "updatedAt": "2026-06-20T13:09:12.701Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,11 +58,23 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
+    {
+      "id": "hacker-news-16-year-old-sata-ii-ssd-survives-1-petabyte-of-writes-25x-the-drive-s-rating-2",
+      "title": "16-year-old SATA II SSD survives 1 petabyte of writes, 25x the drive's rating",
+      "link": "https://www.tomshardware.com/pc-components/ssds/16-year-old-sata-ii-ssd-survives-1-petabyte-of-writes-25x-over-the-drives-tbw-rating",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-20T11:43:29.000Z"
+    },
     {
       "id": "infoq-apple-launches-core-ai-for-apple-silicon-optimized-on-device-generative-ai-2026-06-2",
       "title": "Apple Launches Core AI for Apple-Silicon Optimized On-Device Generative AI",
@@ -73,6 +85,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-20T11:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-cssquake-2026-06-20t10-49-53-000z",
+      "title": "CSSQuake",
+      "link": "https://cssquake.com/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-20T10:49:53.000Z"
     },
     {
       "id": "infoq-claude-fable-5-on-bedrock-requires-sharing-inference-data-with-anthropic-2026-06-20t",
@@ -119,28 +142,6 @@
       "publishedAt": "2026-06-20T03:36:49.000Z"
     },
     {
-      "id": "hacker-news-surprising-economics-of-load-balanced-systems-2026-06-19t20-30-59-000z",
-      "title": "Surprising economics of load-balanced systems",
-      "link": "https://brooker.co.za/blog/2020/08/06/erlang.html",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T20:30:59.000Z"
-    },
-    {
-      "id": "hacker-news-gpt-5-5-hallucinates-3x-more-than-mit-licensed-glm-5-2-2026-06-19t16-11-25-000",
-      "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
-      "link": "https://arrowtsx.dev/bigger-models/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T16:11:25.000Z"
-    },
-    {
       "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-06-19t16-00-00-000z",
       "title": "What’s new with Google Cloud",
       "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
@@ -180,17 +181,6 @@
       "summary": "Block, Inc. describes migrating ~450 JVM repositories into a monorepo across Cash App and Square engineering to reduce dependency drift and coordination overhead. The system supports ~8,800 weekly builds with ~10 min p9...",
       "image": "",
       "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T14:47:00.000Z"
-    },
-    {
-      "id": "the-register-bcachefs-exits-experimental-status-in-new-performance-release-2026-06-19t14-4",
-      "title": "Bcachefs exits experimental status in new 'performance release'",
-      "link": "https://www.theregister.com/software/2026/06/19/bcachefs-exits-experimental-status-in-new-performance-release/5258801",
-      "summary": "More Rust, but more trouble with AI slop, too",
-      "image": "https://image.theregister.com/?imageId=230365&width=800",
-      "source": "The Register",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-19T14:47:00.000Z"
@@ -394,17 +384,6 @@
       "publishedAt": "2026-06-18T11:00:00.000Z"
     },
     {
-      "id": "the-register-oracle-support-timelines-for-fusion-middleware-tighter-than-expected-2026-06",
-      "title": "Oracle support timelines for Fusion Middleware tighter than expected",
-      "link": "https://www.theregister.com/software/2026/06/18/oracle-support-timelines-for-fusion-middleware-tighter-than-expected/5257698",
-      "summary": "Big Red drops ominous mention of 'Market Driven Support' beyond 2027 - but there's good news for AIX users",
-      "image": "https://image.theregister.com/?imageId=1684268&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-18T09:15:00.000Z"
-    },
-    {
       "id": "hacker-news-can-you-see-three-trees-2026-06-18t08-16-20-000z",
       "title": "Can you see three trees?",
       "link": "https://www.not-ship.com/can-you-see-three-trees/",
@@ -482,17 +461,6 @@
       "publishedAt": "2026-06-18T00:00:00.000Z"
     },
     {
-      "id": "the-register-git-good-with-epic-games-new-open-source-vcs-lore-2026-06-17t20-49-00-000z",
-      "title": "Git good with Epic Games' new open source VCS, Lore",
-      "link": "https://www.theregister.com/devops/2026/06/17/git-good-with-epic-games-new-open-source-vcs-lore/5257978",
-      "summary": "Got big binaries? Tired of other version control systems that treat them like inferior files? Lore might be worth a look",
-      "image": "https://image.theregister.com/?imageId=5258032&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-17T20:49:00.000Z"
-    },
-    {
       "id": "github-blog-getting-more-from-each-token-how-copilot-improves-context-handling-and-model-r",
       "title": "Getting more from each token: How Copilot improves context handling and model routing",
       "link": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
@@ -524,28 +492,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-17T15:26:44.000Z"
-    },
-    {
-      "id": "the-register-apple-s-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-say",
-      "title": "Apple's WebKit performance tax leaves iOS browsers stuck in the slow lane, says Microsoft",
-      "link": "https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384",
-      "summary": "Rival rendering engines could make pages load almost 30% faster on iPhones, Redmond claims",
-      "image": "https://image.theregister.com/?imageId=248852&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-17T13:02:56.000Z"
-    },
-    {
-      "id": "hacker-news-the-discovery-that-changed-how-scientists-think-about-memory-2026-06-17t11-09",
-      "title": "The discovery that changed how scientists think about memory",
-      "link": "https://www.ibm.com/think/news/discovery-changed-how-scientists-think-about-memory-kavli-prize",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-17T11:09:29.000Z"
     },
     {
       "id": "hugging-face-blog-from-the-hugging-face-hub-to-robot-hardware-with-strands-agents-and-lero",
@@ -603,6 +549,17 @@
       "publishedAt": "2026-06-17T08:00:00.000Z"
     },
     {
+      "id": "hacker-news-the-cold-war-s-accidental-whale-observatory-2026-06-17t01-06-12-000z",
+      "title": "The Cold War's Accidental Whale Observatory",
+      "link": "https://thereader.mitpress.mit.edu/the-cold-wars-accidental-whale-observatory/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-17T01:06:12.000Z"
+    },
+    {
       "id": "openai-news-introducing-lifescibench-2026-06-17t00-00-00-000z",
       "title": "Introducing LifeSciBench",
       "link": "https://openai.com/index/introducing-life-sci-bench",
@@ -612,6 +569,50 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-agentic-resource-discovery-let-agents-search-2026-06-17t00-00-00-000z",
+      "title": "Agentic Resource Discovery: Let agents search",
+      "link": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-data-compression-explained-2012-2026-06-16t21-51-57-000z",
+      "title": "Data Compression Explained (2012)",
+      "link": "https://mattmahoney.net/dc/dce.html",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-16T21:51:57.000Z"
+    },
+    {
+      "id": "github-blog-what-are-git-worktrees-and-why-should-i-use-them-2026-06-16t20-58-54-000z",
+      "title": "What are git worktrees, and why should I use them?",
+      "link": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+      "summary": "Git worktrees have been around since 2015, but it wasn't until recently they became popular. Learn what they are, how to use them, and why you might. The post What are git worktrees, and why should I use them? appeared...",
+      "image": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-1.35.20-PM.png?resize=924%2C819",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-16T20:58:54.000Z"
+    },
+    {
+      "id": "spring-blog-this-week-in-spring-june-16th-2026-2026-06-16t00-00-00-000z",
+      "title": "This Week in Spring - June 16th, 2026",
+      "link": "https://spring.io/blog/2026/06/16/this-week-in-spring-june-16-2026",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-06-16T00:00:00.000Z"
     }
   ]
 }
