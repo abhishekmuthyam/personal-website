@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T06:09:54.782Z",
+  "updatedAt": "2026-06-20T09:36:30.423Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,12 +58,33 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "count": 8
     }
   ],
   "items": [
+    {
+      "id": "infoq-claude-fable-5-on-bedrock-requires-sharing-inference-data-with-anthropic-2026-06-20t",
+      "title": "Claude Fable 5 on Bedrock Requires Sharing Inference Data with Anthropic",
+      "link": "https://www.infoq.com/news/2026/06/bedrock-fable-5-data-sharing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Using Claude Fable 5 or Mythos 5 on Amazon Bedrock requires opting into provider_data_share, sending prompts and outputs to Anthropic for 30-day retention with human review. Previous Bedrock models kept inference data i...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-20T09:03:00.000Z"
+    },
+    {
+      "id": "infoq-aws-adds-multi-region-replication-to-amazon-cognito-identity-service-2026-06-20t07-4",
+      "title": "AWS Adds Multi-Region Replication to Amazon Cognito Identity Service",
+      "link": "https://www.infoq.com/news/2026/06/cognito-replication-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently introduced Amazon Cognito multi-region replication, which automatically replicates user identities and user pool configurations from a primary region to a secondary one. This enables applications to continu...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-20T07:40:00.000Z"
+    },
     {
       "id": "hacker-news-i-stored-a-website-in-a-favicon-2026-06-20t05-33-59-000z",
       "title": "I Stored a Website in a Favicon",
@@ -74,6 +95,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-20T05:33:59.000Z"
+    },
+    {
+      "id": "hacker-news-where-to-find-the-colors-your-screen-can-t-show-you-2026-06-20t03-36-49-000z",
+      "title": "Where to Find the Colors Your Screen Can't Show You",
+      "link": "https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-20T03:36:49.000Z"
     },
     {
       "id": "hacker-news-surprising-economics-of-load-balanced-systems-2026-06-19t20-30-59-000z",
@@ -96,17 +128,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-19T16:28:20.000Z"
-    },
-    {
-      "id": "hacker-news-norway-imposes-near-ban-on-ai-in-elementary-school-2026-06-19t16-03-15-000z",
-      "title": "Norway imposes near ban on AI in elementary school",
-      "link": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T16:03:15.000Z"
     },
     {
       "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-06-19t16-00-00-000z",
@@ -148,6 +169,17 @@
       "summary": "Block, Inc. describes migrating ~450 JVM repositories into a monorepo across Cash App and Square engineering to reduce dependency drift and coordination overhead. The system supports ~8,800 weekly builds with ~10 min p9...",
       "image": "",
       "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-19T14:47:00.000Z"
+    },
+    {
+      "id": "the-register-bcachefs-exits-experimental-status-in-new-performance-release-2026-06-19t14-4",
+      "title": "Bcachefs exits experimental status in new 'performance release'",
+      "link": "https://www.theregister.com/software/2026/06/19/bcachefs-exits-experimental-status-in-new-performance-release/5258801",
+      "summary": "More Rust, but more trouble with AI slop, too",
+      "image": "https://image.theregister.com/?imageId=230365&width=800",
+      "source": "The Register",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-19T14:47:00.000Z"
@@ -206,28 +238,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-19T08:57:00.000Z"
-    },
-    {
-      "id": "infoq-windows-platform-security-and-the-race-to-secure-ai-agents-2026-06-19t08-00-00-000z",
-      "title": "Windows Platform Security and the Race to Secure AI Agents",
-      "link": "https://www.infoq.com/news/2026/06/windows-security-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "In a new Windows Developer Blog post titled \"Windows platform security for AI agents\", Microsoft positions Windows as the trustworthy operating system for autonomous agents and introduces the Microsoft Execution Contain...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T08:00:00.000Z"
-    },
-    {
-      "id": "infoq-gitlab-19-0-embeds-agentic-ai-in-secrets-merge-requests-and-supply-chain-security-20",
-      "title": "GitLab 19.0 Embeds Agentic AI in Secrets, Merge Requests, and Supply Chain Security",
-      "link": "https://www.infoq.com/news/2026/06/gitlab-19-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "GitLab 19.0 extends agentic AI beyond code generation into securing credentials, reviewing and merging changes, and scanning dependencies, adding a public beta Secrets Manager, a full merge request Developer Flow, usage...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T08:00:00.000Z"
     },
     {
       "id": "aws-what-s-new-announcing-the-general-availability-of-a-new-aws-local-zone-in-hanoi-vietna",
@@ -384,6 +394,28 @@
       "publishedAt": "2026-06-18T11:00:00.000Z"
     },
     {
+      "id": "the-register-oracle-support-timelines-for-fusion-middleware-tighter-than-expected-2026-06",
+      "title": "Oracle support timelines for Fusion Middleware tighter than expected",
+      "link": "https://www.theregister.com/software/2026/06/18/oracle-support-timelines-for-fusion-middleware-tighter-than-expected/5257698",
+      "summary": "Big Red drops ominous mention of 'Market Driven Support' beyond 2027 - but there's good news for AIX users",
+      "image": "https://image.theregister.com/?imageId=1684268&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-18T09:15:00.000Z"
+    },
+    {
+      "id": "hacker-news-can-you-see-three-trees-2026-06-18t08-16-20-000z",
+      "title": "Can you see three trees?",
+      "link": "https://www.not-ship.com/can-you-see-three-trees/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-18T08:16:20.000Z"
+    },
+    {
       "id": "openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting-children",
       "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
       "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
@@ -450,6 +482,17 @@
       "publishedAt": "2026-06-18T00:00:00.000Z"
     },
     {
+      "id": "the-register-git-good-with-epic-games-new-open-source-vcs-lore-2026-06-17t20-49-00-000z",
+      "title": "Git good with Epic Games' new open source VCS, Lore",
+      "link": "https://www.theregister.com/devops/2026/06/17/git-good-with-epic-games-new-open-source-vcs-lore/5257978",
+      "summary": "Got big binaries? Tired of other version control systems that treat them like inferior files? Lore might be worth a look",
+      "image": "https://image.theregister.com/?imageId=5258032&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-17T20:49:00.000Z"
+    },
+    {
       "id": "github-blog-getting-more-from-each-token-how-copilot-improves-context-handling-and-model-r",
       "title": "Getting more from each token: How Copilot improves context handling and model routing",
       "link": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
@@ -483,19 +526,19 @@
       "publishedAt": "2026-06-17T15:26:44.000Z"
     },
     {
-      "id": "hacker-news-snap-smart-glasses-2026-06-17t12-02-02-000z",
-      "title": "Snap Smart Glasses",
-      "link": "https://www.specs.com/smart-glasses/specs-27",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
+      "id": "the-register-apple-s-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-say",
+      "title": "Apple's WebKit performance tax leaves iOS browsers stuck in the slow lane, says Microsoft",
+      "link": "https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384",
+      "summary": "Rival rendering engines could make pages load almost 30% faster on iPhones, Redmond claims",
+      "image": "https://image.theregister.com/?imageId=248852&width=800",
+      "source": "The Register",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-17T12:02:02.000Z"
+      "publishedAt": "2026-06-17T13:02:56.000Z"
     },
     {
-      "id": "hacker-news-the-discovery-that-changed-how-scientists-think-about-memory-ibm-2026-06-17t11",
-      "title": "The discovery that changed how scientists think about memory – IBM",
+      "id": "hacker-news-the-discovery-that-changed-how-scientists-think-about-memory-2026-06-17t11-09",
+      "title": "The discovery that changed how scientists think about memory",
       "link": "https://www.ibm.com/think/news/discovery-changed-how-scientists-think-about-memory-kavli-prize",
       "summary": "Comments",
       "image": "",
@@ -569,50 +612,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-17T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-agentic-resource-discovery-let-agents-search-2026-06-17t00-00-00-000z",
-      "title": "Agentic Resource Discovery: Let agents search",
-      "link": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-17T00:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-data-compression-explained-2012-2026-06-16t21-51-57-000z",
-      "title": "Data Compression Explained (2012)",
-      "link": "https://mattmahoney.net/dc/dce.html",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-16T21:51:57.000Z"
-    },
-    {
-      "id": "github-blog-what-are-git-worktrees-and-why-should-i-use-them-2026-06-16t20-58-54-000z",
-      "title": "What are git worktrees, and why should I use them?",
-      "link": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
-      "summary": "Git worktrees have been around since 2015, but it wasn't until recently they became popular. Learn what they are, how to use them, and why you might. The post What are git worktrees, and why should I use them? appeared...",
-      "image": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-1.35.20-PM.png?resize=924%2C819",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-16T20:58:54.000Z"
-    },
-    {
-      "id": "spring-blog-this-week-in-spring-june-16th-2026-2026-06-16t00-00-00-000z",
-      "title": "This Week in Spring - June 16th, 2026",
-      "link": "https://spring.io/blog/2026/06/16/this-week-in-spring-june-16-2026",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-06-16T00:00:00.000Z"
     }
   ]
 }
