@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T10:39:21.311Z",
+  "updatedAt": "2026-06-21T12:28:12.140Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,11 +58,23 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
+    {
+      "id": "hacker-news-the-case-against-geometric-algebra-2026-06-21t11-06-55-000z",
+      "title": "The case against geometric algebra",
+      "link": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-21T11:06:55.000Z"
+    },
     {
       "id": "hacker-news-google-hits-50-ipv6-2026-06-21t08-21-22-000z",
       "title": "Google Hits 50% IPv6",
@@ -86,26 +98,26 @@
       "publishedAt": "2026-06-21T08:04:54.000Z"
     },
     {
-      "id": "hacker-news-developers-don-t-understand-cors-2019-2026-06-21t01-35-40-000z",
-      "title": "Developers don't understand CORS (2019)",
-      "link": "https://fosterelli.co/developers-dont-understand-cors",
+      "id": "hacker-news-windows-ui-evolution-clicking-an-unassociated-file-2026-06-21t06-24-52-000z",
+      "title": "Windows UI evolution: Clicking an unassociated file",
+      "link": "https://movq.de/blog/postings/2026-06-20/0/POSTING-en.html",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-21T01:35:40.000Z"
+      "publishedAt": "2026-06-21T06:24:52.000Z"
     },
     {
-      "id": "hacker-news-epoll-vs-io-uring-in-linux-2026-06-20t23-07-09-000z",
-      "title": "Epoll vs. io_uring in Linux",
-      "link": "https://sibexi.co/posts/epoll-vs-io_uring/",
-      "summary": "Comments",
+      "id": "spring-blog-mongodb-backed-spring-batch-jobs-and-more-in-spring-boot-4-1-2026-06-21t00-00",
+      "title": "MongoDB-backed Spring Batch jobs and more in Spring Boot 4.1",
+      "link": "https://spring.io/blog/2026/06/21/spring-boot-41-and-spring-batch",
+      "summary": "",
       "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-20T23:07:09.000Z"
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-06-21T00:00:00.000Z"
     },
     {
       "id": "hacker-news-renting-a-sewing-machine-from-the-library-2026-06-20t22-54-11-000z",
@@ -213,17 +225,6 @@
       "summary": "Block, Inc. describes migrating ~450 JVM repositories into a monorepo across Cash App and Square engineering to reduce dependency drift and coordination overhead. The system supports ~8,800 weekly builds with ~10 min p9...",
       "image": "",
       "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T14:47:00.000Z"
-    },
-    {
-      "id": "the-register-bcachefs-exits-experimental-status-in-new-performance-release-2026-06-19t14-4",
-      "title": "Bcachefs exits experimental status in new 'performance release'",
-      "link": "https://www.theregister.com/software/2026/06/19/bcachefs-exits-experimental-status-in-new-performance-release/5258801",
-      "summary": "More Rust, but more trouble with AI slop, too",
-      "image": "https://image.theregister.com/?imageId=230365&width=800",
-      "source": "The Register",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-19T14:47:00.000Z"
@@ -416,17 +417,6 @@
       "publishedAt": "2026-06-18T11:00:00.000Z"
     },
     {
-      "id": "the-register-oracle-support-timelines-for-fusion-middleware-tighter-than-expected-2026-06",
-      "title": "Oracle support timelines for Fusion Middleware tighter than expected",
-      "link": "https://www.theregister.com/software/2026/06/18/oracle-support-timelines-for-fusion-middleware-tighter-than-expected/5257698",
-      "summary": "Big Red drops ominous mention of 'Market Driven Support' beyond 2027 - but there's good news for AIX users",
-      "image": "https://image.theregister.com/?imageId=1684268&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-18T09:15:00.000Z"
-    },
-    {
       "id": "openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting-children",
       "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
       "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
@@ -493,17 +483,6 @@
       "publishedAt": "2026-06-18T00:00:00.000Z"
     },
     {
-      "id": "the-register-git-good-with-epic-games-new-open-source-vcs-lore-2026-06-17t20-49-00-000z",
-      "title": "Git good with Epic Games' new open source VCS, Lore",
-      "link": "https://www.theregister.com/devops/2026/06/17/git-good-with-epic-games-new-open-source-vcs-lore/5257978",
-      "summary": "Got big binaries? Tired of other version control systems that treat them like inferior files? Lore might be worth a look",
-      "image": "https://image.theregister.com/?imageId=5258032&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-17T20:49:00.000Z"
-    },
-    {
       "id": "github-blog-getting-more-from-each-token-how-copilot-improves-context-handling-and-model-r",
       "title": "Getting more from each token: How Copilot improves context handling and model routing",
       "link": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
@@ -548,17 +527,6 @@
       "publishedAt": "2026-06-17T15:26:44.000Z"
     },
     {
-      "id": "the-register-apple-s-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-say",
-      "title": "Apple's WebKit performance tax leaves iOS browsers stuck in the slow lane, says Microsoft",
-      "link": "https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384",
-      "summary": "Rival rendering engines could make pages load almost 30% faster on iPhones, Redmond claims",
-      "image": "https://image.theregister.com/?imageId=248852&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-17T13:02:56.000Z"
-    },
-    {
       "id": "hugging-face-blog-from-the-hugging-face-hub-to-robot-hardware-with-strands-agents-and-lero",
       "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
       "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
@@ -592,6 +560,17 @@
       "publishedAt": "2026-06-17T09:01:25.000Z"
     },
     {
+      "id": "google-cloud-blog-how-growing-uk-midsize-businesses-are-building-in-the-ai-era-2026-06-17t",
+      "title": "How growing UK midsize businesses are building in the AI era",
+      "link": "https://cloud.google.com/blog/topics/startups/london-summit-2026-smb-sme-ai-innovation/",
+      "summary": "The UK’s 5-million-plus small and midsize businesses and enterprises (SMBs) are the backbone of our economy. Today, we’re seeing these critical businesses begin to put AI to work, to operate more efficiently, move faste...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_dCBAMyR.max-600x600.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-17T08:00:00.000Z"
+    },
+    {
       "id": "google-cloud-blog-from-ai-potential-to-agentic-reality-driving-the-uk-s-next-chapter-2026",
       "title": "From AI potential to agentic reality: Driving the UK’s next chapter",
       "link": "https://cloud.google.com/blog/topics/inside-google-cloud/london-summit-2026-uk-leads-agentic-enterprise-ai-infrastructure-data-cloud/",
@@ -603,15 +582,37 @@
       "publishedAt": "2026-06-17T08:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-how-growing-uk-midsize-businesses-are-building-in-the-ai-era-2026-06-17t",
-      "title": "How growing UK midsize businesses are building in the AI era",
-      "link": "https://cloud.google.com/blog/topics/startups/london-summit-2026-smb-sme-ai-innovation/",
-      "summary": "The UK’s 5-million-plus small and midsize businesses and enterprises (SMBs) are the backbone of our economy. Today, we’re seeing these critical businesses begin to put AI to work, to operate more efficiently, move faste...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_dCBAMyR.max-600x600.png",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-06-17T08:00:00.000Z"
+      "id": "openai-news-introducing-lifescibench-2026-06-17t00-00-00-000z",
+      "title": "Introducing LifeSciBench",
+      "link": "https://openai.com/index/introducing-life-sci-bench",
+      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-agentic-resource-discovery-let-agents-search-2026-06-17t00-00-00-000z",
+      "title": "Agentic Resource Discovery: Let agents search",
+      "link": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "id": "github-blog-what-are-git-worktrees-and-why-should-i-use-them-2026-06-16t20-58-54-000z",
+      "title": "What are git worktrees, and why should I use them?",
+      "link": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+      "summary": "Git worktrees have been around since 2015, but it wasn't until recently they became popular. Learn what they are, how to use them, and why you might. The post What are git worktrees, and why should I use them? appeared...",
+      "image": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-1.35.20-PM.png?resize=924%2C819",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-16T20:58:54.000Z"
     }
   ]
 }
