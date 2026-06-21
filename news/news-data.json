@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T16:21:02.954Z",
+  "updatedAt": "2026-06-21T18:00:34.863Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,15 +58,69 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "count": 8
     }
   ],
   "items": [
     {
-      "id": "hacker-news-how-to-write-a-lisp-interpreter-in-python-2026-06-21t15-36-33-000z",
-      "title": "(How to Write a (Lisp) Interpreter (In Python))",
+      "id": "hacker-news-wildcard-yc-w25-is-hiring-an-applied-ml-engineer-2026-06-21t17-00-28-000z",
+      "title": "Wildcard (YC W25) is hiring an applied ML engineer",
+      "link": "https://www.ycombinator.com/companies/wildcard/jobs/SEmo4di-founding-applied-ml-engineer",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-21T17:00:28.000Z"
+    },
+    {
+      "id": "hacker-news-burnout-is-real-in-the-oss-world-says-john-david-dalton-creator-of-lodash-2026",
+      "title": "Burnout Is Real in the OSS World, Says John-David Dalton, Creator of Lodash",
+      "link": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-21T16:56:18.000Z"
+    },
+    {
+      "id": "infoq-anthropic-reports-claude-now-handles-95-of-internal-analytics-queries-2026-06-21t16",
+      "title": "Anthropic Reports Claude Now Handles 95% of Internal Analytics Queries",
+      "link": "https://www.infoq.com/news/2026/06/anthropic-claude-analytics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Anthropic recently reported that Claude now handles around 95% of its internal analytics requests, letting employees query business data independently instead of relying on data teams. The company attributes this result...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-21T16:47:00.000Z"
+    },
+    {
+      "id": "hacker-news-the-minimum-viable-unit-of-saleable-software-2026-06-21t16-41-21-000z",
+      "title": "The Minimum Viable Unit of Saleable Software",
+      "link": "https://brandur.org/minimum-viable-unit",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-21T16:41:21.000Z"
+    },
+    {
+      "id": "hacker-news-code-duplication-is-far-cheaper-than-the-wrong-abstraction-2016-2026-06-21t16",
+      "title": "Code duplication is far cheaper than the wrong abstraction (2016)",
+      "link": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-21T16:08:23.000Z"
+    },
+    {
+      "id": "hacker-news-how-to-write-a-lisp-interpreter-in-python-2010-2026-06-21t15-36-33-000z",
+      "title": "(How to Write a (Lisp) Interpreter (In Python)) (2010)",
       "link": "https://norvig.com/lispy.html",
       "summary": "Comments",
       "image": "",
@@ -76,8 +130,8 @@
       "publishedAt": "2026-06-21T15:36:33.000Z"
     },
     {
-      "id": "hacker-news-who-owns-your-atproto-identity-hint-it-s-probably-not-you-2026-06-21t14-09-07",
-      "title": "Who Owns Your ATProto Identity? Hint: It's Probably Not You",
+      "id": "hacker-news-who-owns-your-atproto-identity-2026-06-21t14-09-07-000z",
+      "title": "Who owns your ATProto identity?",
       "link": "https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you",
       "summary": "Comments",
       "image": "",
@@ -96,39 +150,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-21T11:38:01.000Z"
-    },
-    {
-      "id": "hacker-news-the-case-against-geometric-algebra-2024-2026-06-21t11-06-55-000z",
-      "title": "The case against geometric algebra (2024)",
-      "link": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-21T11:06:55.000Z"
-    },
-    {
-      "id": "hacker-news-google-hits-50-ipv6-2026-06-21t08-21-22-000z",
-      "title": "Google Hits 50% IPv6",
-      "link": "https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-21T08:21:22.000Z"
-    },
-    {
-      "id": "hacker-news-a-3d-voxel-game-engine-written-in-apl-2026-06-21t08-04-54-000z",
-      "title": "A 3D voxel game engine written in APL",
-      "link": "https://github.com/namgyaaal/avoxelgame",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-21T08:04:54.000Z"
     },
     {
       "id": "spring-blog-mongodb-backed-spring-batch-jobs-and-more-in-spring-boot-4-1-2026-06-21t00-00",
@@ -151,17 +172,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-20T14:21:00.000Z"
-    },
-    {
-      "id": "hacker-news-loupe-a-ios-app-that-raises-awareness-about-what-native-apps-can-see-2026-06-2",
-      "title": "Loupe – A iOS app that raises awareness about what native apps can see",
-      "link": "https://github.com/mysk-research/loupe",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-20T12:08:23.000Z"
     },
     {
       "id": "infoq-apple-launches-core-ai-for-apple-silicon-optimized-on-device-generative-ai-2026-06-2",
@@ -230,6 +240,17 @@
       "publishedAt": "2026-06-19T14:47:00.000Z"
     },
     {
+      "id": "the-register-bcachefs-exits-experimental-status-in-new-performance-release-2026-06-19t14-4",
+      "title": "Bcachefs exits experimental status in new 'performance release'",
+      "link": "https://www.theregister.com/software/2026/06/19/bcachefs-exits-experimental-status-in-new-performance-release/5258801",
+      "summary": "More Rust, but more trouble with AI slop, too",
+      "image": "https://image.theregister.com/?imageId=230365&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-19T14:47:00.000Z"
+    },
+    {
       "id": "infoq-presentation-ai-agents-to-make-sense-of-data-at-openai-2026-06-19t12-02-00-000z",
       "title": "Presentation: AI Agents to Make Sense of Data at OpenAI",
       "link": "https://www.infoq.com/presentations/data-aware-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -250,17 +271,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-19T12:00:00.000Z"
-    },
-    {
-      "id": "infoq-tsrx-a-framework-agnostic-alternative-to-jsx-2026-06-19t11-49-00-000z",
-      "title": "TSRX: A Framework-Agnostic Alternative to JSX",
-      "link": "https://www.infoq.com/news/2026/06/tsrx-alternative-jsx/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "TSRX is a TypeScript language extension developed by Dominic Gannaway, designed to build declarative user interfaces in a framework-agnostic manner. It compiles single .tsrx files to various runtime targets and supports...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T11:49:00.000Z"
     },
     {
       "id": "aws-what-s-new-announcing-the-general-availability-of-a-new-aws-local-zone-in-hanoi-vietna",
@@ -428,6 +438,17 @@
       "publishedAt": "2026-06-18T11:00:00.000Z"
     },
     {
+      "id": "the-register-oracle-support-timelines-for-fusion-middleware-tighter-than-expected-2026-06",
+      "title": "Oracle support timelines for Fusion Middleware tighter than expected",
+      "link": "https://www.theregister.com/software/2026/06/18/oracle-support-timelines-for-fusion-middleware-tighter-than-expected/5257698",
+      "summary": "Big Red drops ominous mention of 'Market Driven Support' beyond 2027 - but there's good news for AIX users",
+      "image": "https://image.theregister.com/?imageId=1684268&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-18T09:15:00.000Z"
+    },
+    {
       "id": "openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting-children",
       "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
       "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
@@ -494,6 +515,17 @@
       "publishedAt": "2026-06-18T00:00:00.000Z"
     },
     {
+      "id": "the-register-git-good-with-epic-games-new-open-source-vcs-lore-2026-06-17t20-49-00-000z",
+      "title": "Git good with Epic Games' new open source VCS, Lore",
+      "link": "https://www.theregister.com/devops/2026/06/17/git-good-with-epic-games-new-open-source-vcs-lore/5257978",
+      "summary": "Got big binaries? Tired of other version control systems that treat them like inferior files? Lore might be worth a look",
+      "image": "https://image.theregister.com/?imageId=5258032&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-17T20:49:00.000Z"
+    },
+    {
       "id": "github-blog-getting-more-from-each-token-how-copilot-improves-context-handling-and-model-r",
       "title": "Getting more from each token: How Copilot improves context handling and model routing",
       "link": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
@@ -525,6 +557,17 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-17T15:26:44.000Z"
+    },
+    {
+      "id": "the-register-apple-s-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-say",
+      "title": "Apple's WebKit performance tax leaves iOS browsers stuck in the slow lane, says Microsoft",
+      "link": "https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384",
+      "summary": "Rival rendering engines could make pages load almost 30% faster on iPhones, Redmond claims",
+      "image": "https://image.theregister.com/?imageId=248852&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-17T13:02:56.000Z"
     },
     {
       "id": "hugging-face-blog-from-the-hugging-face-hub-to-robot-hardware-with-strands-agents-and-lero",
@@ -560,17 +603,6 @@
       "publishedAt": "2026-06-17T09:01:25.000Z"
     },
     {
-      "id": "google-cloud-blog-how-growing-uk-midsize-businesses-are-building-in-the-ai-era-2026-06-17t",
-      "title": "How growing UK midsize businesses are building in the AI era",
-      "link": "https://cloud.google.com/blog/topics/startups/london-summit-2026-smb-sme-ai-innovation/",
-      "summary": "The UK’s 5-million-plus small and midsize businesses and enterprises (SMBs) are the backbone of our economy. Today, we’re seeing these critical businesses begin to put AI to work, to operate more efficiently, move faste...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_dCBAMyR.max-600x600.png",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-06-17T08:00:00.000Z"
-    },
-    {
       "id": "google-cloud-blog-from-ai-potential-to-agentic-reality-driving-the-uk-s-next-chapter-2026",
       "title": "From AI potential to agentic reality: Driving the UK’s next chapter",
       "link": "https://cloud.google.com/blog/topics/inside-google-cloud/london-summit-2026-uk-leads-agentic-enterprise-ai-infrastructure-data-cloud/",
@@ -580,39 +612,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-06-17T08:00:00.000Z"
-    },
-    {
-      "id": "openai-news-introducing-lifescibench-2026-06-17t00-00-00-000z",
-      "title": "Introducing LifeSciBench",
-      "link": "https://openai.com/index/introducing-life-sci-bench",
-      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-17T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-agentic-resource-discovery-let-agents-search-2026-06-17t00-00-00-000z",
-      "title": "Agentic Resource Discovery: Let agents search",
-      "link": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-17T00:00:00.000Z"
-    },
-    {
-      "id": "github-blog-what-are-git-worktrees-and-why-should-i-use-them-2026-06-16t20-58-54-000z",
-      "title": "What are git worktrees, and why should I use them?",
-      "link": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
-      "summary": "Git worktrees have been around since 2015, but it wasn't until recently they became popular. Learn what they are, how to use them, and why you might. The post What are git worktrees, and why should I use them? appeared...",
-      "image": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-1.35.20-PM.png?resize=924%2C819",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-16T20:58:54.000Z"
     }
   ]
 }
