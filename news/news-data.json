@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T19:57:34.362Z",
+  "updatedAt": "2026-06-21T21:10:48.534Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,12 +58,33 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "count": 8
     }
   ],
   "items": [
+    {
+      "id": "hacker-news-ask-for-no-don-t-ask-for-yes-2022-2026-06-21t20-17-48-000z",
+      "title": "Ask for no, don't ask for yes (2022)",
+      "link": "https://www.mooreds.com/wordpress/archives/3518",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-21T20:17:48.000Z"
+    },
+    {
+      "id": "hacker-news-show-hn-clevercrow-give-tokens-to-your-favorite-projects-2026-06-21t19-06-07-0",
+      "title": "Show HN: CleverCrow: give tokens to your favorite projects",
+      "link": "https://clevercrow.io",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-21T19:06:07.000Z"
+    },
     {
       "id": "hacker-news-json-ld-explained-for-personal-websites-2026-06-21t18-51-47-000z",
       "title": "JSON-LD Explained for Personal Websites",
@@ -209,11 +230,22 @@
     },
     {
       "id": "infoq-behind-the-scenes-block-450-jvm-repositories-into-monorepo-to-reduce-dependency-drif",
-      "title": "Behind the Scenes: Block 450 JVM Repositories Into Monorepo to Reduce Dependency Drift",
+      "title": "Behind the Scenes: Block 450 JVM Repositories into Monorepo to Reduce Dependency Drift",
       "link": "https://www.infoq.com/news/2026/06/block-450-jvm-monorepo-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "summary": "Block, Inc. describes migrating ~450 JVM repositories into a monorepo across Cash App and Square engineering to reduce dependency drift and coordination overhead. The system supports ~8,800 weekly builds with ~10 min p9...",
       "image": "",
       "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-19T14:47:00.000Z"
+    },
+    {
+      "id": "the-register-bcachefs-exits-experimental-status-in-new-performance-release-2026-06-19t14-4",
+      "title": "Bcachefs exits experimental status in new 'performance release'",
+      "link": "https://www.theregister.com/software/2026/06/19/bcachefs-exits-experimental-status-in-new-performance-release/5258801",
+      "summary": "More Rust, but more trouble with AI slop, too",
+      "image": "https://image.theregister.com/?imageId=230365&width=800",
+      "source": "The Register",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-19T14:47:00.000Z"
@@ -231,9 +263,9 @@
     },
     {
       "id": "infoq-circleci-introduces-chunk-sidecars-to-bring-ci-validation-directly-into-ai-coding-wo",
-      "title": "CircleCI Introduces Chunk Sidecars to Bring CI Validation Directly Into AI Coding Workflows",
+      "title": "CircleCI Introduces Chunk Sidecars to Bring CI Validation Directly into AI Coding Workflows",
       "link": "https://www.infoq.com/news/2026/06/circleci-chunk-sidecars/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "CircleCI has launched Chunk Sidecars, a new capability designed to bring CI-style validation directly into an AI coding agent's inner development loop By Craig Risi",
+      "summary": "CircleCI has launched Chunk Sidecars, a new capability designed to bring CI-style validation directly into an AI coding agent's inner development loop. By Craig Risi",
       "image": "",
       "source": "InfoQ",
       "topic": "devtools",
@@ -242,7 +274,7 @@
     },
     {
       "id": "infoq-tsrx-a-framework-agnostic-alternative-to-jsx-2026-06-19t11-49-00-000z",
-      "title": "TSRX: A Framework-Agnostic Alternative to JSX",
+      "title": "TSRX: a Framework-Agnostic Alternative to JSX",
       "link": "https://www.infoq.com/news/2026/06/tsrx-alternative-jsx/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "summary": "TSRX is a TypeScript language extension developed by Dominic Gannaway, designed to build declarative user interfaces in a framework-agnostic manner. It compiles single .tsrx files to various runtime targets and supports...",
       "image": "",
@@ -250,17 +282,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-19T11:49:00.000Z"
-    },
-    {
-      "id": "hacker-news-an-embedded-linux-on-a-single-floppy-2026-06-19t02-10-16-000z",
-      "title": "An Embedded Linux on a Single Floppy",
-      "link": "https://github.com/w84death/floppinux",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-19T02:10:16.000Z"
     },
     {
       "id": "aws-what-s-new-announcing-the-general-availability-of-a-new-aws-local-zone-in-hanoi-vietna",
@@ -417,6 +438,17 @@
       "publishedAt": "2026-06-18T11:00:00.000Z"
     },
     {
+      "id": "the-register-oracle-support-timelines-for-fusion-middleware-tighter-than-expected-2026-06",
+      "title": "Oracle support timelines for Fusion Middleware tighter than expected",
+      "link": "https://www.theregister.com/software/2026/06/18/oracle-support-timelines-for-fusion-middleware-tighter-than-expected/5257698",
+      "summary": "Big Red drops ominous mention of 'Market Driven Support' beyond 2027 - but there's good news for AIX users",
+      "image": "https://image.theregister.com/?imageId=1684268&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-18T09:15:00.000Z"
+    },
+    {
       "id": "openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting-children",
       "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
       "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
@@ -483,6 +515,17 @@
       "publishedAt": "2026-06-18T00:00:00.000Z"
     },
     {
+      "id": "the-register-git-good-with-epic-games-new-open-source-vcs-lore-2026-06-17t20-49-00-000z",
+      "title": "Git good with Epic Games' new open source VCS, Lore",
+      "link": "https://www.theregister.com/devops/2026/06/17/git-good-with-epic-games-new-open-source-vcs-lore/5257978",
+      "summary": "Got big binaries? Tired of other version control systems that treat them like inferior files? Lore might be worth a look",
+      "image": "https://image.theregister.com/?imageId=5258032&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-17T20:49:00.000Z"
+    },
+    {
       "id": "github-blog-getting-more-from-each-token-how-copilot-improves-context-handling-and-model-r",
       "title": "Getting more from each token: How Copilot improves context handling and model routing",
       "link": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
@@ -516,15 +559,15 @@
       "publishedAt": "2026-06-17T15:26:44.000Z"
     },
     {
-      "id": "hacker-news-occupancy-math-on-the-amd-mi355x-a-from-first-principles-guide-2026-06-17t14-3",
-      "title": "Occupancy Math on the AMD MI355X: A From-First-Principles Guide",
-      "link": "https://indianspeedster.github.io/blog/occupancy-math-mi355x/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
+      "id": "the-register-apple-s-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-say",
+      "title": "Apple's WebKit performance tax leaves iOS browsers stuck in the slow lane, says Microsoft",
+      "link": "https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384",
+      "summary": "Rival rendering engines could make pages load almost 30% faster on iPhones, Redmond claims",
+      "image": "https://image.theregister.com/?imageId=248852&width=800",
+      "source": "The Register",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-17T14:35:23.000Z"
+      "publishedAt": "2026-06-17T13:02:56.000Z"
     },
     {
       "id": "hugging-face-blog-from-the-hugging-face-hub-to-robot-hardware-with-strands-agents-and-lero",
@@ -569,50 +612,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-06-17T08:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-from-ai-potential-to-agentic-reality-driving-the-uk-s-next-chapter-2026",
-      "title": "From AI potential to agentic reality: Driving the UK’s next chapter",
-      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/london-summit-2026-uk-leads-agentic-enterprise-ai-infrastructure-data-cloud/",
-      "summary": "The United Kingdom, and London in particular, continues to be one of the great hubs for AI development in Europe and the world. We’re home to Google DeepMind, of course, as well as significant AI unicorns — and Google C...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_LmjIDy5.max-600x600.jpg",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-06-17T08:00:00.000Z"
-    },
-    {
-      "id": "openai-news-introducing-lifescibench-2026-06-17t00-00-00-000z",
-      "title": "Introducing LifeSciBench",
-      "link": "https://openai.com/index/introducing-life-sci-bench",
-      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-17T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-agentic-resource-discovery-let-agents-search-2026-06-17t00-00-00-000z",
-      "title": "Agentic Resource Discovery: Let agents search",
-      "link": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-17T00:00:00.000Z"
-    },
-    {
-      "id": "github-blog-what-are-git-worktrees-and-why-should-i-use-them-2026-06-16t20-58-54-000z",
-      "title": "What are git worktrees, and why should I use them?",
-      "link": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
-      "summary": "Git worktrees have been around since 2015, but it wasn't until recently they became popular. Learn what they are, how to use them, and why you might. The post What are git worktrees, and why should I use them? appeared...",
-      "image": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-1.35.20-PM.png?resize=924%2C819",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-16T20:58:54.000Z"
     }
   ]
 }
