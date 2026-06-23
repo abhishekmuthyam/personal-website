@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T21:54:07.936Z",
+  "updatedAt": "2026-06-23T22:58:40.526Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,32 +58,33 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
     {
-      "id": "hacker-news-german-rail-service-suspended-due-to-radio-interference-2026-06-23t21-19-44-00",
-      "title": "German Rail Service Suspended Due to Radio Interference",
-      "link": "https://www.bluewin.ch/en/news/german-rail-service-suspended-due-to-radio-interference-li.3295297",
+      "id": "hacker-news-california-ab-2047-makes-3d-printers-off-limits-to-students-educators-business",
+      "title": "California AB 2047 makes 3d printers off-limits to students, educators, business",
+      "link": "https://www.the3dprintingnerd.com/ab2047",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-23T21:19:44.000Z"
+      "publishedAt": "2026-06-23T22:12:18.000Z"
     },
     {
-      "id": "hacker-news-all-train-services-in-germany-halted-after-train-radio-communications-disrupti",
-      "title": "All train services in Germany halted after train radio communications disruption",
-      "link": "https://english.news.cn/20260624/65f1b6192cd947e28849776a5aef05c6/c.html",
+      "id": "hacker-news-united-wizards-of-the-coast-recognized-by-nlrb-2026-06-23t21-57-32-000z",
+      "title": "United Wizards of the Coast recognized by NLRB",
+      "link": "https://unitedwizardsofthecoast.com/news/2026-06-23-we-have-a-union",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-23T21:14:08.000Z"
+      "publishedAt": "2026-06-23T21:57:32.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-cloudwatch-logs-supports-managed-syslog-ingestion-2026-06-23t20-30-0",
@@ -174,6 +175,17 @@
       "publishedAt": "2026-06-23T17:15:00.000Z"
     },
     {
+      "id": "aws-what-s-new-amazon-cognito-now-supports-customer-managed-key-for-encryption-at-rest-202",
+      "title": "Amazon Cognito now supports customer managed key for encryption at rest",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-customer-managed-key",
+      "summary": "Amazon Cognito now supports customer managed keys in AWS Key Management Service (KMS) for encrypting user pool data at rest. While AWS owned keys are used by default to protect your data, customer managed keys give you...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-23T17:00:46.000Z"
+    },
+    {
       "id": "openai-news-how-gpt-5-helped-immunologist-derya-unutmaz-solve-a-3-year-old-mystery-2026-06",
       "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
       "link": "https://openai.com/index/gpt-5-immunology-mystery",
@@ -183,6 +195,17 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-23T17:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-the-worthlessness-of-vitamin-d-is-mildly-exaggerated-2026-06-23t16-30-18-000z",
+      "title": "The worthlessness of Vitamin D is mildly exaggerated",
+      "link": "https://dynomight.net/vitamin-d/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-23T16:30:18.000Z"
     },
     {
       "id": "aws-what-s-new-automated-reasoning-checks-in-amazon-bedrock-guardrails-add-new-policy-refi",
@@ -240,15 +263,15 @@
       "publishedAt": "2026-06-23T15:48:00.000Z"
     },
     {
-      "id": "hacker-news-show-hn-tikz-editor-wysiwyg-editor-for-figures-in-latex-2026-06-23t14-24-21-00",
-      "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
-      "link": "https://tikz.dev/editor/",
-      "summary": "Comments",
+      "id": "aws-what-s-new-amazon-cloudwatch-launches-otel-container-insights-for-amazon-eks-2026-06-2",
+      "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-amazon-eks/",
+      "summary": "CloudWatch OTel Container Insights for Amazon EKS collects infrastructure metrics at 30-second granularity using open-source receivers including cAdvisor, Kube State Metrics, and NVIDIA DCGM. Each metric carries OpenTel...",
       "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-23T14:24:21.000Z"
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-23T15:12:00.000Z"
     },
     {
       "id": "infoq-lucide-releases-version-1-0-removing-brand-icons-and-cutting-bundle-size-for-million",
@@ -339,17 +362,6 @@
       "publishedAt": "2026-06-23T03:30:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-sagemaker-studio-notebooks-now-support-g7e-instance-types-2026-06-23",
-      "title": "Amazon SageMaker Studio notebooks now support G7e instance types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/g7e-new-launch-sagemaker-studio-notebooks/",
-      "summary": "Amazon G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, with 96 GB of memory per GPU, and 5th Generation Intel Xeon processors. They support up to 192 virtual CPUs (vCPUs) and up to 1600...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-06-23T01:02:00.000Z"
-    },
-    {
       "id": "spring-blog-self-correcting-structured-output-in-spring-ai-2-0-2026-06-23t00-00-00-000z",
       "title": "Self-Correcting Structured Output in Spring AI 2.0",
       "link": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
@@ -403,17 +415,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-23T00:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-healthomics-now-supports-nextflow-profiles-2026-06-22t22-00-00-000z",
-      "title": "AWS HealthOmics now supports Nextflow profiles",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-profiles/",
-      "summary": "AWS HealthOmics now supports Nextflow profiles, enabling customers to activate predefined execution settings at run time. Nextflow profiles allow customers to define reusable settings and select them at the point of exe...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-06-22T22:00:00.000Z"
     },
     {
       "id": "github-blog-from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem-2026-0",
