@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T20:53:02.186Z",
+  "updatedAt": "2026-06-24T22:06:34.563Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -59,10 +59,21 @@
       "name": "The Register",
       "topic": "devtools",
       "ok": true,
-      "count": 0
+      "count": 8
     }
   ],
   "items": [
+    {
+      "id": "aws-what-s-new-amazon-ec2-announces-ami-watermarks-for-improved-ami-governance-2026-06-24t",
+      "title": "Amazon EC2 announces AMI Watermarks for improved AMI governance",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
+      "summary": "Amazon EC2 introduces AMI watermarks, letting you embed custom identifiers in your private AMIs. Once applied, a watermark automatically carries forward to every AMI derived from the original, whether you copy it across...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-24T20:00:00.000Z"
+    },
     {
       "id": "aws-what-s-new-amazon-emr-serverless-now-supports-live-configuration-updates-without-appli",
       "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
@@ -75,26 +86,15 @@
       "publishedAt": "2026-06-24T19:21:00.000Z"
     },
     {
-      "id": "hacker-news-thomann-takes-legal-action-against-fender-2026-06-24t19-08-22-000z",
-      "title": "Thomann takes legal action against Fender",
-      "link": "https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender/",
-      "summary": "Comments",
+      "id": "aws-what-s-new-aws-iot-device-sdk-for-swift-is-now-generally-available-2026-06-24t18-48-00",
+      "title": "AWS IoT Device SDK for Swift is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-device-sdk-swift/",
+      "summary": "The AWS IoT Device SDK for Swift is now generally available, enabling Swift developers to build secure, scalable IoT applications natively on Apple platforms including macOS, iOS, and tvOS, as well as Linux. This SDK ad...",
       "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-24T19:08:22.000Z"
-    },
-    {
-      "id": "hacker-news-wikipedia-workers-to-seek-union-recognition-2026-06-24t18-27-16-000z",
-      "title": "Wikipedia Workers to Seek Union Recognition",
-      "link": "https://www.cwu.org/press_release/wikipedia-workers-to-seek-union-recognition/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-24T18:27:16.000Z"
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-24T18:48:00.000Z"
     },
     {
       "id": "infoq-google-openrl-is-an-experimental-self-hosted-api-for-llm-post-training-fine-tuning-2",
@@ -119,6 +119,17 @@
       "publishedAt": "2026-06-24T17:47:00.000Z"
     },
     {
+      "id": "hacker-news-computer-use-in-gemini-3-5-flash-2026-06-24t17-21-34-000z",
+      "title": "Computer use in Gemini 3.5 Flash",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-24T17:21:34.000Z"
+    },
+    {
       "id": "google-cloud-blog-enhanced-data-resilience-with-cross-region-backups-in-backup-and-dr-serv",
       "title": "Enhanced data resilience with cross-region backups in Backup and DR Service",
       "link": "https://cloud.google.com/blog/products/storage-data-transfer/backup-and-dr-service-adds-cross-region-backups/",
@@ -130,15 +141,15 @@
       "publishedAt": "2026-06-24T17:00:00.000Z"
     },
     {
-      "id": "hacker-news-big-ai-labs-are-hiring-philosophers-2026-06-24t16-40-13-000z",
-      "title": "Big AI labs are hiring philosophers",
-      "link": "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers",
+      "id": "hacker-news-the-xteink-x4-e-ink-reader-2026-06-24t16-35-56-000z",
+      "title": "The Xteink X4 E-Ink Reader",
+      "link": "https://blog.omgmog.net/post/xteink-x4-e-ink-reader/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-24T16:40:13.000Z"
+      "publishedAt": "2026-06-24T16:35:56.000Z"
     },
     {
       "id": "hugging-face-blog-accelerating-transformers-fine-tuning-with-nvidia-nemo-automodel-2026-06",
@@ -152,15 +163,15 @@
       "publishedAt": "2026-06-24T16:00:13.000Z"
     },
     {
-      "id": "hacker-news-there-are-a-few-things-that-i-look-back-on-as-my-mistakes-in-the-early-days-20",
-      "title": "There are a few things that I look back on as my mistakes in the early days",
-      "link": "https://twitter.com/ID_AA_Carmack/status/2069799283369345247",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
+      "id": "the-register-deno-project-is-going-to-add-cross-platform-desktop-apps-in-next-major-update",
+      "title": "Deno project is going to add cross-platform desktop apps in next major update",
+      "link": "https://www.theregister.com/software/2026/06/24/deno-project-is-going-to-add-cross-platform-desktop-apps-in-next-major-update/5261388",
+      "summary": "Feature is not yet stable, but will offer easy conversion of web applications",
+      "image": "https://image.theregister.com/?imageId=1683195&width=800",
+      "source": "The Register",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-24T15:56:19.000Z"
+      "publishedAt": "2026-06-24T15:32:00.000Z"
     },
     {
       "id": "infoq-ai-is-moving-up-the-software-lifecycle-from-code-review-to-prd-governance-2026-06-24",
@@ -196,6 +207,17 @@
       "publishedAt": "2026-06-24T14:32:12.000Z"
     },
     {
+      "id": "hacker-news-qualcomm-to-acquire-modular-2026-06-24t13-49-16-000z",
+      "title": "Qualcomm to Acquire Modular",
+      "link": "https://www.reuters.com/business/qualcomm-buy-ai-startup-modular-2026-06-24/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-24T13:49:16.000Z"
+    },
+    {
       "id": "aws-what-s-new-amazon-neptune-now-supports-aws-cloudformation-for-global-databases-2026-06",
       "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/",
@@ -216,6 +238,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-24T11:25:00.000Z"
+    },
+    {
+      "id": "the-register-microsoft-rivals-line-up-to-tell-uk-watchdog-where-the-software-behemoth-hurt",
+      "title": "Microsoft rivals line up to tell UK watchdog where the software behemoth hurt them",
+      "link": "https://www.theregister.com/saas/2026/06/24/microsoft-rivals-line-up-to-tell-uk-watchdog-where-the-software-behemoth-hurt-them/5260875",
+      "summary": "Browsers, cloud challengers, and Killinghall Parish Council all accuse Redmond of locking in customers, hobbling competition",
+      "image": "https://image.theregister.com/?imageId=1683010&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-24T11:09:27.000Z"
     },
     {
       "id": "google-cloud-blog-zero-day-exploitation-of-vulnerability-cve-2026-20245-in-cisco-catalyst",
@@ -317,6 +350,17 @@
       "publishedAt": "2026-06-23T20:30:00.000Z"
     },
     {
+      "id": "the-register-anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker-20",
+      "title": "Anthropic reimagines Claude in Slack as nosy, always-on agentic AI coworker",
+      "link": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422",
+      "summary": "The Claude in Slack app is dead, long live Claude in Slack",
+      "image": "https://image.theregister.com/?imageId=231367&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-23T20:16:34.000Z"
+    },
+    {
       "id": "aws-what-s-new-amazon-guardduty-ai-powered-investigations-accelerate-threat-response-previ",
       "title": "Amazon GuardDuty AI-powered investigations accelerate threat response (Preview)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-guardduty/",
@@ -326,28 +370,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-06-23T19:49:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-sagemaker-notebook-instances-now-support-g6e-instance-types-2026-06-23t18-1",
-      "title": "SageMaker Notebook Instances now support G6e instance types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6e-new-launch-sagemaker-notebook-instances/",
-      "summary": "We are pleased to announce general availability of Amazon EC2 G6e instances on SageMaker notebook instances. Amazon EC2 G6e instances are powered by up to 8 NVIDIA L40s Tensor Core GPUs with 48 GB of memory per GPU and...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-06-23T18:14:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-bedrock-agentcore-memory-now-supports-cross-account-access-2026-06-2",
-      "title": "Amazon Bedrock AgentCore Memory now supports cross-account access",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-memory-cross-account-access",
-      "summary": "Amazon Bedrock AgentCore Memory now enables cross-account access, allowing you to build multi-account architectures where memory resources and consuming agents span multiple AWS accounts. You can grant principals in one...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-06-23T17:20:00.000Z"
     },
     {
       "id": "openai-news-how-gpt-5-helped-immunologist-derya-unutmaz-solve-a-3-year-old-mystery-2026-06",
@@ -471,6 +493,17 @@
       "publishedAt": "2026-06-23T12:00:00.000Z"
     },
     {
+      "id": "the-register-blast-from-the-past-as-gimp-0-54-is-revived-in-flatpak-form-2026-06-23t10-45",
+      "title": "Blast from the past as GIMP 0.54 is revived in Flatpak form",
+      "link": "https://www.theregister.com/software/2026/06/23/blast-from-the-past-as-gimp-054-is-revived-in-flatpak-form/5259651",
+      "summary": "Retro-computing fun for the nostalgic with first (and last) release to use Motif instead of GTK",
+      "image": "https://image.theregister.com/?imageId=5259663&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-23T10:45:00.000Z"
+    },
+    {
       "id": "infoq-aws-launches-blocks-an-open-source-typescript-framework-designed-for-ai-agents-to-bu",
       "title": "AWS Launches Blocks, an Open-Source TypeScript Framework Designed for AI Agents to Build Backends",
       "link": "https://www.infoq.com/news/2026/06/aws-blocks-framework-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -537,6 +570,17 @@
       "publishedAt": "2026-06-23T00:00:00.000Z"
     },
     {
+      "id": "the-register-cloudflare-teams-up-with-big-browsers-to-help-websites-tell-welcome-from-unwe",
+      "title": "Cloudflare teams up with big browsers to help websites tell welcome from unwelcome visitors",
+      "link": "https://www.theregister.com/software/2026/06/22/cloudflare-teams-up-with-big-browsers-to-help-websites-tell-welcome-from-unwelcome-visitors/5259782",
+      "summary": "Makers of Chrome, Edge, Firefox back bot-fraud defense called Private Access Control Tokens",
+      "image": "https://image.theregister.com/?imageId=5259833&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-22T20:02:52.000Z"
+    },
+    {
       "id": "github-blog-from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem-2026-0",
       "title": "From pledge to practice: Building a more inclusive open source ecosystem",
       "link": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
@@ -568,50 +612,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-06-22T14:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-pp-ocrv6-on-hugging-face-50-language-ocr-from-1-5m-to-34-5m-parameters-2",
-      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-      "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-22T13:18:56.000Z"
-    },
-    {
-      "id": "openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-maintainers-2026",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "link": "https://openai.com/index/patch-the-planet",
-      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-22T10:00:00.000Z"
-    },
-    {
-      "id": "openai-news-daybreak-tools-for-securing-every-organization-in-the-world-2026-06-22t10-00-0",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-22T10:00:00.000Z"
-    },
-    {
-      "id": "openai-news-codex-maxxing-for-long-running-work-2026-06-22t00-00-00-000z",
-      "title": "Codex-maxxing for long-running work",
-      "link": "https://openai.com/index/codex-maxxing-long-running-work",
-      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-22T00:00:00.000Z"
     }
   ]
 }
