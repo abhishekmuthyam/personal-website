@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T18:22:12.079Z",
+  "updatedAt": "2026-06-25T20:27:44.081Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,6 +64,17 @@
   ],
   "items": [
     {
+      "id": "infoq-how-cloudflare-solved-a-congestion-bug-in-quiche-2026-06-25t19-00-00-000z",
+      "title": "How Cloudflare Solved a Congestion Bug in quiche",
+      "link": "https://www.infoq.com/news/2026/06/cloudflare-bug-quiche/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has recently shared how they uncovered an issue in their Rust implementation of CUBIC, a congestion controller algorithm, which prevented it from recovering from a scenario of heavy packet loss at the start o...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-25T19:00:00.000Z"
+    },
+    {
       "id": "aws-what-s-new-amazon-redshift-adds-reserved-instance-upfront-pricing-options-for-rg-insta",
       "title": "Amazon Redshift adds Reserved Instance upfront pricing options for RG instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-ri-upfront-pricing-rg-instances",
@@ -86,8 +97,19 @@
       "publishedAt": "2026-06-25T16:11:42.000Z"
     },
     {
-      "id": "hacker-news-a-herculaneum-scroll-has-been-read-for-the-first-time-2026-06-25t15-48-07-000z",
-      "title": "A Herculaneum scroll has been read for the first time",
+      "id": "hacker-news-show-hn-openknowledge-open-source-ai-first-alternative-to-obsidian-notion-2026",
+      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "link": "https://github.com/inkeep/open-knowledge",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-25T16:04:46.000Z"
+    },
+    {
+      "id": "hacker-news-an-entire-herculaneum-scroll-has-been-read-for-the-first-time-2026-06-25t15-48",
+      "title": "An entire Herculaneum scroll has been read for the first time",
       "link": "https://scrollprize.org/firstscroll",
       "summary": "Comments",
       "image": "",
@@ -240,6 +262,17 @@
       "publishedAt": "2026-06-25T02:00:00.000Z"
     },
     {
+      "id": "aws-what-s-new-amazon-opensearch-ingestion-now-available-in-aws-europe-paris-region-2026-0",
+      "title": "Amazon OpenSearch Ingestion now available in AWS Europe (Paris) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ingestion-europe-paris-region-availability",
+      "summary": "Starting today, customers can use Amazon OpenSearch Ingestion in the Europe (Paris) Region (eu-west-3) for ingesting data into their Amazon OpenSearch Service managed clusters or serverless collections. Amazon OpenSearc...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-06-25T01:32:00.000Z"
+    },
+    {
       "id": "inside-java-episode-60-how-jeps-drive-java-s-evolution-ata-2026-06-25t00-00-00-000z",
       "title": "Episode 60 “How JEPs Drive Java's Evolution” [AtA]",
       "link": "https://inside.java/2026/06/25/podcast-060/",
@@ -372,17 +405,6 @@
       "publishedAt": "2026-06-24T15:32:00.000Z"
     },
     {
-      "id": "infoq-ai-is-moving-up-the-software-lifecycle-from-code-review-to-prd-governance-2026-06-24",
-      "title": "AI Is Moving up the Software Lifecycle: From Code Review to PRD Governance",
-      "link": "https://www.infoq.com/news/2026/06/ai-prd-code-review-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Technology companies are extending AI beyond code generation into earlier stages of the software lifecycle, including PRD validation, design inputs, and code review. Initiatives from Uber, DoorDash, and Cloudflare highl...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-24T14:57:00.000Z"
-    },
-    {
       "id": "aws-what-s-new-amazon-neptune-now-supports-aws-cloudformation-for-global-databases-2026-06",
       "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/",
@@ -416,17 +438,6 @@
       "publishedAt": "2026-06-24T11:00:00.000Z"
     },
     {
-      "id": "hacker-news-you-can-t-unit-test-for-taste-2026-06-24t08-54-12-000z",
-      "title": "You can't unit test for taste",
-      "link": "https://dev.karltryggvason.com/you-cant-unit-test-for-taste/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-24T08:54:12.000Z"
-    },
-    {
       "id": "aws-what-s-new-amazon-cloudwatch-now-supports-tags-on-dashboards-2026-06-24t08-00-00-000z",
       "title": "Amazon CloudWatch now supports tags on dashboards",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
@@ -447,17 +458,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-24T06:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-ec2-high-memory-u7in-24tb-instances-now-available-in-aws-asia-pacifi",
-      "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Asia Pacific (Seoul) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7in-24tb-aws-seoul/",
-      "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Asia Pacific (Seoul) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel X...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-06-24T01:00:00.000Z"
     },
     {
       "id": "spring-blog-spring-data-2025-0-13-released-2026-06-24t00-00-00-000z",
@@ -592,17 +592,6 @@
       "publishedAt": "2026-06-23T10:45:00.000Z"
     },
     {
-      "id": "hacker-news-i-built-a-gpu-back-end-for-emacs-2026-06-23t09-38-45-000z",
-      "title": "I built a GPU back end for Emacs",
-      "link": "https://en.andros.dev/blog/4b707a03/how-i-built-a-gpu-backend-for-emacs/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-23T09:38:45.000Z"
-    },
-    {
       "id": "spring-blog-self-correcting-structured-output-in-spring-ai-2-0-2026-06-23t00-00-00-000z",
       "title": "Self-Correcting Structured Output in Spring AI 2.0",
       "link": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
@@ -611,6 +600,17 @@
       "source": "Spring Blog",
       "topic": "java",
       "topicLabel": "Java",
+      "publishedAt": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "id": "openai-news-how-omio-is-building-the-future-of-conversational-travel-2026-06-23t00-00-00-0",
+      "title": "How Omio is building the future of conversational travel",
+      "link": "https://openai.com/index/omio",
+      "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
       "publishedAt": "2026-06-23T00:00:00.000Z"
     }
   ]
