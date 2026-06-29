@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T22:43:12.334Z",
+  "updatedAt": "2026-06-29T23:44:58.918Z",
   "sources": [
     {
       "name": "Google News Top",
@@ -110,60 +110,87 @@
     {
       "label": "S&P 500",
       "symbol": "^GSPC",
-      "error": "HTTP 429"
+      "name": "S&P 500",
+      "price": 7440.43,
+      "change": 0,
+      "changePercent": 0
     },
     {
       "label": "NASDAQ",
       "symbol": "^IXIC",
-      "error": "HTTP 429"
+      "name": "NASDAQ Composite",
+      "price": 25820.15,
+      "change": 0,
+      "changePercent": 0
     },
     {
       "label": "Bitcoin",
       "symbol": "BTC-USD",
-      "error": "HTTP 429"
+      "name": "Bitcoin USD",
+      "price": 60161.96,
+      "change": 0,
+      "changePercent": 0
     },
     {
       "label": "VIX",
       "symbol": "^VIX",
-      "error": "HTTP 429"
+      "name": "CBOE Volatility Index",
+      "price": 17.65,
+      "change": 0,
+      "changePercent": 0
     }
   ],
   "companies": [
     {
       "symbol": "NVDA",
-      "error": "HTTP 429"
+      "name": "NVIDIA Corporation",
+      "price": 194.97,
+      "change": 0,
+      "changePercent": 0
     },
     {
       "symbol": "MSFT",
-      "error": "HTTP 429"
+      "name": "Microsoft Corporation",
+      "price": 368.57,
+      "change": 0,
+      "changePercent": 0
     },
     {
       "symbol": "AAPL",
-      "error": "HTTP 429"
+      "name": "Apple Inc.",
+      "price": 281.74,
+      "change": 0,
+      "changePercent": 0
     },
     {
       "symbol": "GOOGL",
-      "error": "HTTP 429"
+      "name": "Alphabet Inc.",
+      "price": 353.65,
+      "change": 0,
+      "changePercent": 0
     },
     {
       "symbol": "AMZN",
-      "error": "HTTP 429"
+      "name": "Amazon.com, Inc.",
+      "price": 240.14,
+      "change": 0,
+      "changePercent": 0
     }
   ],
   "items": [
     {
-      "id": "lilo-stitch-star-daveigh-chase-s-cause-of-death-was-aids-general-2026-06-29t21-21-15-000z",
+      "id": "lilo-stitch-star-daveigh-chase-s-cause-of-death-was-aids-world-2026-06-29t21-21-15-000z",
       "title": "Lilo & Stitch star Daveigh Chase's cause of death was Aids",
       "link": "https://www.bbc.co.uk/news/articles/cx2xyx1qjnyo?at_medium=RSS&at_campaign=rss",
       "summary": "The actress, who also crawled out of a TV in horror film The Ring, passed away in LA this month, aged 35.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b82/live/5f90c060-7400-11f1-b7f4-61de2d88420d.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
       "publishedAt": "2026-06-29T21:21:15.000Z",
       "sources": [
         {
-          "name": "BBC News",
+          "name": "BBC World",
           "link": "https://www.bbc.co.uk/news/articles/cx2xyx1qjnyo?at_medium=RSS&at_campaign=rss",
           "summary": "The actress, who also crawled out of a TV in horror film The Ring, passed away in LA this month, aged 35.",
           "publishedAt": "2026-06-29T21:21:15.000Z"
@@ -175,15 +202,9 @@
           "publishedAt": "2026-06-29T17:38:45.000Z"
         },
         {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CeVhEakpiUDJWSXRCTHRNdm9kcDB4dnpLNFVBQjdza3RMNHg1VmpzMXpiNmN4UHlQVkNvSFROZnB3dTJENlMzMG1fNzlwT0QxZEZZS1V3LXVxUQ?oc=5",
-          "summary": "The Ring and Lilo & Stitch actress Daveigh Chase died of Aids &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-06-29T20:21:03.000Z"
-        },
-        {
-          "name": "livemint.com",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSlhLbFR5bHRBWTVHeHZ3cVJSX25zellLR1FOOWV3dXlGRThTWUJHaWxWcGIxYTdVdDl5V1g4LVNqTlpYLUFJU203OVQzQ19KOG0zVDFHckQtck4yVUJvX05kWm5TVXdpSkJBYTdBZWlNRFJpb19xbmtlUFhWQk5jNFpyZEhkV0lQa293U2tyRlRNQjJDYk1DU29RUF9WSXBTT21yY3ZrbTZHMWZ1ZUlLbmZDRExRZTVvNHA3eWZZOEthTnPSAcMBQVVfeXFMT0pYS2xUeWx0QVk1R3h2d3FSUl9uc3pZS0dRTjlld3V5RkU4U1lCR2lsVnBiMWE3VXQ5eVdYOC1Tak5aWC1BSVNtNzlUM0NfSjhtM1QxR3JELXJOMlVCb19OZFpuU1V3aUpCQWE3QWVpTURSaW9fcW5rZVBYVkJOYzRacmRIZFdJUGtvd1NrckZUTUIyQ2JNQ1NvUVBfVklwU09tcmN2a202RzFmdWVJS25mQ0RMUWU1bzRwN3lmWThLYU5z?oc=5",
-          "summary": "Daveigh Chase cause of death: How did ‘Lilo & Stitch’ star die at 35? &nbsp;&nbsp; livemint.com",
+          "name": "Mint",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVHpwaWwtdWR4MnFhWFlScDEweGlFM2pzZmpQMVF2aE9feWp6amthc19IMktKMndaVVAwMUkwdEo5STc3OTZ3REJiclo2Zk9SOFhySVBaTUlJelZHVjJ3WGRUcEM4cGpWTFlXWFNNbGlXalJLX2l5TUxHeUthd1h4OHdLbjI2YkVFaHJIZHV2SFNrQ3ZfSjZ1cUYyaHlvd1dfaUJsYlMxWmpaaUN1VkJ2RnE3bEpUdFZJSXUzS0RR0gHDAUFVX3lxTE9KWEtsVHlsdEFZNUd4dndxUlJfbnN6WUtHUU45ZXd1eUZFOFNZQkdpbFZwYjFhN1V0OXlXWDgtU2pOWlgtQUlTbTc5VDNDX0o4bTNUMUdyRC1yTjJVQm9fTmRablNVd2lKQkFhN0FlaU1EUmlvX3Fua2VQWFZCTmM0WnJkSGRXSVBrb3dTa3JGVE1CMkNiTUNTb1FQX1ZJcFNPbXJjdmttNkcxZnVlSUtuZkNETFFlNW80cDd5Zlk4S2FOcw?oc=5",
+          "summary": "Daveigh Chase cause of death: How did ‘Lilo & Stitch’ star die at 35? &nbsp;&nbsp; Mint",
           "publishedAt": "2026-06-29T21:41:15.000Z"
         },
         {
@@ -193,10 +214,16 @@
           "publishedAt": "2026-06-29T18:04:15.000Z"
         },
         {
-          "name": "USA Today",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaDEtQ2tjVkt4cjhPWTlkcEpVT1pfSmRpQmd0VE1fODRnV0pLRk56UVJVb0dDSHhWZU9hVlQ2SVI0TDRuSFp2ZHdLdmNMbHZPUVNzbDRPVGpDUzMycW1ycnNSSmdOc0xTOGlLSk1RWHlRWXZWNlR3RFpHRHZTLXZlTWJOWkhGeWpiM3o3Y01KTUpmYlRuLTBXRU9tUTFYcE45YjZsX2V6REEyd2d3d1E?oc=5",
-          "summary": "'The Ring' star Daveigh Chase's cause of death revealed &nbsp;&nbsp; USA Today",
-          "publishedAt": "2026-06-29T21:00:00.000Z"
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNU3FpQXJyQkZiN0VYa19PRk1lZzRQWGtYeF9sQmZDVkdYZVc2UmtYbUNpTHdyY19LdWhtc1M5Mm1iMDQyUERMTVd6UmpOUmw1c0FoRHRJRVdyZnhrUVBiSjViQlhpcm90NmNRcmVBYjhIUkpsSU40ZlgzOXg0Vzh4ZWd0cjJzQmYxRFVqSUpudGU3S0ZyYktRMS1rTnZMOUtsN2gzVldnNEp0eW1WczNDY2VZNlJWY2JpcER5MFQ5MlRiMnlXMjN3enI4RUsxcVA2MzR4UjVsUzlMckNQcVc2N3ZfaDhuT2N3T0hGcGtlOHRMenBaX0kybks2TlBYNzh1dlRMOXJIVkJqcE0?oc=5",
+          "summary": "Daveigh Chase's cause of death revealed; voice of Lilo in 'Lilo & Stitch' died of AIDS &nbsp;&nbsp; The Times of India",
+          "publishedAt": "2026-06-29T23:11:00.000Z"
+        },
+        {
+          "name": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB0VE5iSkFaN2NBUnR0M210R1VWR0RpNnNRR0xmcVo1UElYUzREdGh1cDdBUWdiRlJ0SzltVkUwSlhSb0s1ZHJfVnYwaFdvQmtvS2tKQy1LcWJuM1Zj?oc=5",
+          "summary": "Lilo & Stitch star Daveigh Chase's cause of death was Aids &nbsp;&nbsp; BBC",
+          "publishedAt": "2026-06-29T20:21:03.000Z"
         },
         {
           "name": "Hindustan Times",
@@ -205,16 +232,16 @@
           "publishedAt": "2026-06-29T21:27:32.000Z"
         },
         {
-          "name": "Variety",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMzNfaUFvLW5MX3VxREpuSXFES3VBQ2thc2pwTTA3UlBiYW1ieEd0a0R5YjZuX0VfVmV2WjBuY25pemZqYWxTdm15dFlocVh4N2l4WDhnMlppVzdRcEI1UERzQkhYZU10VW8yMG5URThCVzFINEY1eFdHNUs3VEY3QWdEbGM3VDFpZ1pfVkxR?oc=5",
-          "summary": "Daveigh Chase, Voice of Lilo in ‘Lilo & Stitch,’ Died of AIDS &nbsp;&nbsp; Variety",
-          "publishedAt": "2026-06-29T18:15:00.000Z"
-        },
-        {
           "name": "People.com",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RZzdILXhGbDhjVGNSRmhVS29XUWxqaHdHdWtNaFUwWXdYMThXSkVXRVExNE9nMDdzbjNVQVhBSUZhOU5UQlBuZlQ1UjR0bi0tRDk4TkNXYWgzeUVXeFdOSEh6djRVd01HaUV3RjdVRGFRYlU?oc=5",
           "summary": "'The Ring' Star Daveigh Chase's Cause of Death Revealed &nbsp;&nbsp; People.com",
           "publishedAt": "2026-06-29T20:12:00.000Z"
+        },
+        {
+          "name": "Variety",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMzNfaUFvLW5MX3VxREpuSXFES3VBQ2thc2pwTTA3UlBiYW1ieEd0a0R5YjZuX0VfVmV2WjBuY25pemZqYWxTdm15dFlocVh4N2l4WDhnMlppVzdRcEI1UERzQkhYZU10VW8yMG5URThCVzFINEY1eFdHNUs3VEY3QWdEbGM3VDFpZ1pfVkxR?oc=5",
+          "summary": "Daveigh Chase, Voice of Lilo in ‘Lilo & Stitch,’ Died of AIDS &nbsp;&nbsp; Variety",
+          "publishedAt": "2026-06-29T18:15:00.000Z"
         }
       ],
       "sourceCount": 9
@@ -261,6 +288,12 @@
           "publishedAt": "2026-06-29T14:45:28.000Z"
         },
         {
+          "name": "MSN",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxONHl2VlIyc1J6YW5FZEJleUp5eEFXWjIyV25tcHk3UnF4YlRET1Z3VTFQbTlCNTFZWjJ5Y0Fvc0NzMWNCTGNRXzdGUHV6YnRIczBHOUpyOHdPVWJINjRqdGJ0Zml6elg3eUlNMjNNSmpjYU9UZTZCWHJvSnJoZkwzbW1Jb05oY1lqYnhZclQ0RXpxdWhnYmtCblJRaGhrb25DLTZYeG5kUkNoZEJOdzZGZ2p1Q2paczl1dUxqTi1XVUlKcFhIWGgyREFBX0MzVW0yUzh6OWlHMHUwTGFWN0xzR3JmM2J1NlUxZzNlWjln?oc=5",
+          "summary": "Police raid homes of eight in Ram temple donation case &nbsp;&nbsp; MSN",
+          "publishedAt": "2026-06-29T17:32:14.000Z"
+        },
+        {
           "name": "PGurus",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR1FvVDA5SGtpRUh2Q0Uzck54Y3lRTjJTQWFjWjRfa1ZndzJ2d1RodlZ4eVVSR3ZZX2hGOENWalRpV3Zpamh0eWdKVk1EQmNiNTRPdmVmcEJWWHp4MUJlSUdWTEN2aXNkX0loQ3lmTGhiTFJQbFRTZWVMLUp2Q0FUZWdyUFFCOXYzWTNJbFk0bWtHLVJtZlUyNjJBMFpfMW9xMlItc1FjUnlwVEREQ2NsRkJPb3VjT19WcVZpYl9zVU8?oc=5",
           "summary": "Ayodhya Ram Temple donation case: Court remands 8 accused to judicial custody &nbsp;&nbsp; PGurus",
@@ -277,15 +310,121 @@
           "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPd0c3MU82TG1ET2Vad1VNVWxFM0ZFQl9fSjdOaFQ0YnpfX0xlbk5UOVRJbTc2dmNpLVJtZTVQVGgwNTdDUmhIbV9fZjVacko5M1lkZ3F0OEU5a3BaMzNENFVfVmkwV0FDM0loSFhHdExMTGRmUlcxSVMyUC1tZERYcG9rSWpkZEN1elVpazFDdi1zWU4tRXZ5bVg3WGRXNHFMSFgtRjhqcnRhOEdxbHV2c1BoUFRkQzlqSHpLWUJzVURJLTVqa3FueTlsems5VGNsNE45cG5kX25QQzF5eFhPcjNzRW9yd9IB5gFBVV95cUxPd0c3MU82TG1ET2Vad1VNVWxFM0ZFQl9fSjdOaFQ0YnpfX0xlbk5UOVRJbTc2dmNpLVJtZTVQVGgwNTdDUmhIbV9fZjVacko5M1lkZ3F0OEU5a3BaMzNENFVfVmkwV0FDM0loSFhHdExMTGRmUlcxSVMyUC1tZERYcG9rSWpkZEN1elVpazFDdi1zWU4tRXZ5bVg3WGRXNHFMSFgtRjhqcnRhOEdxbHV2c1BoUFRkQzlqSHpLWUJzVURJLTVqa3FueTlsems5VGNsNE45cG5kX25QQzF5eFhPcjNzRW9ydw?oc=5",
           "summary": "Ram temple donations case: All eight accused sent to 14-day judicial custody &nbsp;&nbsp; The New Indian Express",
           "publishedAt": "2026-06-29T12:29:00.000Z"
-        },
-        {
-          "name": "Deccan Chronicle",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUjV6OXcwVTVXRU00c29iaHo2UWxWY1Z4dFdFY2ZSVjU4ZFRkTmwtUGd2Qk9DZ05jT2R3ejRzdkwxOUJfYVVDMVptUXdJQ1ZCTGhSUUpMeEs3MzhPQ0ZtSHdvWlhRb3NoNGt4ZklLYW9MTjNzbV9oSVgxZHZaSDR3dGRDZ3U5VjFSYUZQWF9SZ2U0QS1HN1Z6bXNSYkZUbk9QOEQzbWNNWlNZZ0ZJZWtnVGY3cnNOdUZTUUJDS01xN1bSAcYBQVVfeXFMUGswZ0UxRHZ0bE50TnlobEhCUzI0bURPNkJ3XzBBZHFZSnhqNjlCNVpUN09pUkpNTEtCRW11dTNtM2NZSXRnekVOYnVpV2xvQmEyVEZxWFdOS2FFZnlJOE92aUVvYnIyOTczTk9zbkhobEp6MExpNVZ6ak1LQUZwUnltdG15Qm84MzY2bE4tcjY2UlEyYVpuY1JOWFJsNXhBZTdfS0diRjNLb3hQeUgxbVhYa3BSYlpBM3FnQ2FPRzdiQ0J0STF3?oc=5",
-          "summary": "Ram Temple Donations Case: All Eight Accused Sent to 14 Days Judicial Custody &nbsp;&nbsp; Deccan Chronicle",
-          "publishedAt": "2026-06-29T10:50:04.000Z"
         }
       ],
       "sourceCount": 9
+    },
+    {
+      "id": "cbse-relaxes-three-language-policy-for-class-7-8-9-allows-two-foreign-language-options-india-2026-06",
+      "title": "CBSE relaxes three-language policy for Class 7, 8, 9; allows two foreign language options",
+      "link": "https://www.thehindu.com/education/cbse-relaxes-three-language-policy-for-class-7-8-9-allows-two-foreign-language-options/article71160650.ece",
+      "summary": "The current batch of Class 10 will not have to follow the new language policy, the education board stated",
+      "image": "https://th-i.thgim.com/public/incoming/d0tolo/article71160648.ece/alternates/LANDSCAPE_1200/NKV-CBSE",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-06-29T20:00:56.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/education/cbse-relaxes-three-language-policy-for-class-7-8-9-allows-two-foreign-language-options/article71160650.ece",
+          "summary": "The current batch of Class 10 will not have to follow the new language policy, the education board stated",
+          "publishedAt": "2026-06-29T20:00:56.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbURHY1IzYU5xZ3RvbkwyTjZnSFVIdlBhSWVPTXIyT1hIMlFDODZZTVFTOTNJb0RYaHNDWjExU2xvaHFzNVRURG94YktjdXVsaHhNMlVLWFg3V3FxbmNCOUt0TFozeWRDYkhOUmJPUG00Q0xuQnlFTnFFakZSU2Q5c3NSV2VwMmg3ZGZXTkw5MG1kT2pPbXg1OUlSRUZiUWtnV1h0TmdINHpXWTk2MkVCMzQ3VXV1VUlVRXYwWjdXLXo0VWs2dTBSU2hSeGFiWGhxV3JJNXJoaFbSAd8BQVVfeXFMTVR1REpqUnd2NDNPY0dPNllxSlpXS1N1N1U5Q1Z5QVduVVB6czItbFhDZ0hVUEJMaXZuLXdzUnUwWDhBZTh1aUt5NFFqUjR1bm1TUldlVS16SzBydjRpU25zcVlOdDJnZmV3TkpLNWk0b19oNGp5WXJBdmFDNkNEcTlnY213RzZmenJNWUp4WGpBNTl6VWFGY2ZPaS1VM2prbkV6VzczSDdnSlB6UE5TZUVkaE9BUnpkUllSRXhCUHE5cTVxc1cxdmw0NWpHSnBaSnFBQTlEU2M3Y01hbDQ2WQ?oc=5",
+          "summary": "CBSE relaxes three-language policy for Class 7, 8, 9; allows two foreign language options &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-06-29T08:40:10.000Z"
+        },
+        {
+          "name": "Rediff",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaEhKeVNYSEs5UjRZR3I0Q0psSUlIejItWmNyaWpaQUwyZGJKdVRHMGhCcHh6SlBlb3lwel9vVUpFNnYybk1OMENwTjk3eEw2QzR1TDhOVUJIeUw0bXVBU3ZuQ0ZnMWdMZFBwcnRjZ2lpbk5nU3U5UEhpUFZZUFRRNUxscWpGbGQ0Ny1uLVpQVWEwOGZTZmpTVnRNbEZfeXZBNGFpc1ZXMNIBqgFBVV95cUxONkt5blJpVXp3blZwQ1FHaWtrdWhRWG5YcmFNN1VtclNrR1FnNm5abFItLTZ0c2c4eHMyRFVXQUQ1RmVnOVRmS3plZXhhcVRsVnlWSktIQnFUZ08wNWRWeVlnN0dVQnNUcXlmd1F5NGFweG8zNFRrYW9idEFHUDVucHAtOThPM1NLTU9JSFFfSU1OaUt4SzhDWGFDajJVOWY2Wm1OX2V3OHpQUQ?oc=5",
+          "summary": "Relief for Class 7, 8, 9 as CBSE relaxes 3-language policy &nbsp;&nbsp; Rediff",
+          "publishedAt": "2026-06-29T10:41:36.000Z"
+        },
+        {
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdjM1bFpKVmplZjFYVWpvT3BlaWdlMEh5MDhOU2w2RHVmY21EbE42TUpBd0h2RTI2SjUtcUlPQkItT29KZ1dSZlJ0TEVoTkZyMi1UQTAydlVlM2VRTV90MTlQZWRhNVRJTUZFdGJBS2ZjUkNBcEdYSFVHMXFfQXRPX2M5Y3FoaERqaGdpUDVwbENHXzVvMzkyNmY0TGYtUW4xX1VmUHNCWkZzUXR0b1pUdG5kXzQ3YlZxYzZSNHprdmtPRnozTVFYVEZqeUszdw?oc=5",
+          "summary": "CBSE eases 3-language policy, exempts current Class 10 batch &nbsp;&nbsp; The Times of India",
+          "publishedAt": "2026-06-29T19:29:00.000Z"
+        },
+        {
+          "name": "India Today NE",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbTRGVzRCUFVQSndmVFRpTkVsT1lKVlFFRFJVYVZSY1FQb1Q5RGp4RTNlUGRwUDZFeUtDTWtWVkZWaEE2aUFfbnV1NHA4WlN0TzVMdUNpRVV0MTFvMXNhZnRWM2FjNXpaRXZUeEFMbmZPRU82bm53QXVVSy1CTllIbVdkU3FiREp4Qk1Ock85MkRvWW9wZjRkcmlIakV0bjlkSkdkOFI3NmdWRHlzeTJRSUFuZVhMYWZlYmJVUGFWOVJ1RHpXeXpFSHl0OE9LYWdCRXZuR1kzbWF0Z28ybkJEQklsOC1ibXdac1VRaWRuSUkyMzlnYUNWUGllbTB2alNiSkHSAYcCQVVfeXFMTW9YNkpsYVZBbVF5TWo5dHhYdnFjX0oycnZJU25sS0VfRHlaUVRJWU9jeW00bEZuX2hYQklNcDR5TVN0cTV1VDFuN3FLZGVPanZKcUljQzBhRGVNM0lQekplcG5WZHJzU3JqM2hpNWFHeEp6emFEVklIQUZCYi1KWXQ2elFnUlFWZ1VudThmdEJvcEZFNmJwMlJ2T2RTWEpqTF9pYWl0Qnp3SjJING1zeU9SUUNfUXc2cFNmRTI3Z1NRUnFOSzBwaWdEOTlwcEE4NWZvNFgyUkloak0xZWUzaTgtS0pYX0xfTUs1Zk9OazdMdTVxR1JmMHJCTFdsbDV6N3YyQ3dsVEU?oc=5",
+          "summary": "CBSE exempts current Class 10 batch from three-language policy; grants one-time relaxation for Class 9 students &nbsp;&nbsp; India Today NE",
+          "publishedAt": "2026-06-29T10:19:40.000Z"
+        },
+        {
+          "name": "The Tribune",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZFljMmdLYkNRTmFlV2kxdXYxUG5qTU84VG83WXlDeVYzUUlFLWNFb3JmeXVFVHpiS2xzZjBoN1d6Y1VLcEVIQ1h6T2xnVGx2alhXNjB4SEZXX3ZBalhfRzRhbWxUWXpkNWM1MUxmN0Q2Z0pVa0swVHRQMy1Cb0tOODVkVzZkakZxYmVwc3RNSdIBkwFBVV95cUxQamtrTzhpdHlXdFJUWUtUTnBySnZ5VVY4dkxiTHdvb2pYODZfRXJuT1NnTlB2RkdtY3V2QnhET3RLVXdORTB0WFhSbjM5bGl6V25hTk5NRnhVNGtpOFdNYTA1NGRScEl1eXRqRkZMcEFWQTREWkpvMXVnZGo3emNtbDVjYmYtRGJjbTJFdWhGMDBfMlk?oc=5",
+          "summary": "Current Class X batch exempted from CBSE’s 3-language policy &nbsp;&nbsp; The Tribune",
+          "publishedAt": "2026-06-29T18:10:39.000Z"
+        },
+        {
+          "name": "pragativadi.com",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaG5xb2lUamtVVkhydHliRVI4ckxTeEhNLUhhemtrUUVueXdUTFBkV0lodDJJeDlJb1Fud2pMWGhpNW1GbGU3bEVXM3NVaXFHanpVcVNvQ0I2UVlQSExmaENzcnRvQ2M0c0g1UDBvanYwS2lweHBxQy1BU0o2eXQ4OU1oRDEtdnpDLXBRclNfdVg4VE8xc3lxaUdNeHlnUV9ua0gtS2Jrd2M3UXdxcUhEeW15OVRHY185cE1oY2EyR3Jub1hoNkFMNnp3dw?oc=5",
+          "summary": "CBSE Exempts Current Class 10 Students from Revised Three-Language Policy; Class 9 Gets One-Time Relaxation &nbsp;&nbsp; pragativadi.com",
+          "publishedAt": "2026-06-29T20:37:52.000Z"
+        },
+        {
+          "name": "IBTimes India",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb0lSQUtFc0ktQ3hBaXk1SUdYamdNZTNIM0JBbUtDdks5b0pzdm9hNVJoNDVyOUNLWThtSVhBMHNqRjNPWGkyeHJ6U2VlbHdKMWFfcVA3djljb0wwMEc4S3FDVVFHQ2xROXRBVFFyYTBrUmVEMnN6QjEtWjlyZHA4YXRrUzE1U0kyMEwwWGluTHlEak5EMUhXdWxqLXpIUWdoVGl1dkQxNU11bHlrZmFVYldrejhsQ1pWOVYtd2xtZWRvWkpr?oc=5",
+          "summary": "CBSE Releases Class-Wise Guidelines On Three-Language Policy; Current Class 10, 9, 8 & 7 Students Get Special Relaxation &nbsp;&nbsp; IBTimes India",
+          "publishedAt": "2026-06-29T14:13:11.000Z"
+        }
+      ],
+      "sourceCount": 8
+    },
+    {
+      "id": "martinelli-scores-late-as-brazil-beat-japan-2-1-into-world-cup-last-16-sports-2026-06-29t21-55-42-00",
+      "title": "Martinelli scores late as Brazil beat Japan 2-1, into World Cup last 16",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZEJyTy1NR1h6OUlLZnQzb2RDd0tJMDNMN2phRnFNbkFHZUxqV2U5aURVQ1hTMmoyQ1AyM1oyWTZzVzBCUm1ydnVzRHNuMmNBc1BaZFdmdU1aLUY3ek9Qd2pjOUttbmhYVXdPTGttb21aUXcta3ZRZERvaUFacjF0T0NIMkRWcWQ4UUNhcFFVOV9ZTmNOOFRoOWZnVllsdzZzOFBYOGJPTEZDQkZ1YmdVeFd3SzfSAboBQVVfeXFMTVdiZ3BnUmNycWlER3JKdEJ2dGFrNW1mMHBDTWotVkg1SXdhQ3gxcUNWRk9SSGNicWNnRVo0NGVrMFVWNE1ZRVNGd2pMZldyOWNPazc5OVd2SGVDVTNzV3M2a2dWQ1VwU0hYMlRPLUwtXzVUS3hDQllTeU51bnNJSm5ianhUR2tzQ2VWN2hvTHBTN0dkWmRrLWNHZXVHVWtFZkYzMDJlZWFzaWotNGltNHlIOFVSQ0RqOXFR?oc=5",
+      "summary": "Martinelli scores late as Brazil beat Japan 2-1, into World Cup last 16 &nbsp;&nbsp; Al Jazeera Brazil 2-1 Japan: Gabriel Martinelli scores 96th minute comeback winner to send five-time champions through - as it happened &nbsp;&nbsp; ESPN...",
+      "image": "",
+      "source": "Al Jazeera",
+      "category": "sports",
+      "categoryLabel": "Sports",
+      "publishedAt": "2026-06-29T21:55:42.000Z",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZEJyTy1NR1h6OUlLZnQzb2RDd0tJMDNMN2phRnFNbkFHZUxqV2U5aURVQ1hTMmoyQ1AyM1oyWTZzVzBCUm1ydnVzRHNuMmNBc1BaZFdmdU1aLUY3ek9Qd2pjOUttbmhYVXdPTGttb21aUXcta3ZRZERvaUFacjF0T0NIMkRWcWQ4UUNhcFFVOV9ZTmNOOFRoOWZnVllsdzZzOFBYOGJPTEZDQkZ1YmdVeFd3SzfSAboBQVVfeXFMTVdiZ3BnUmNycWlER3JKdEJ2dGFrNW1mMHBDTWotVkg1SXdhQ3gxcUNWRk9SSGNicWNnRVo0NGVrMFVWNE1ZRVNGd2pMZldyOWNPazc5OVd2SGVDVTNzV3M2a2dWQ1VwU0hYMlRPLUwtXzVUS3hDQllTeU51bnNJSm5ianhUR2tzQ2VWN2hvTHBTN0dkWmRrLWNHZXVHVWtFZkYzMDJlZWFzaWotNGltNHlIOFVSQ0RqOXFR?oc=5",
+          "summary": "Martinelli scores late as Brazil beat Japan 2-1, into World Cup last 16 &nbsp;&nbsp; Al Jazeera Brazil 2-1 Japan: Gabriel Martinelli scores 96th minute comeback winner to send five-time champions through - as it happened &nbsp;&nbsp; ESPN...",
+          "publishedAt": "2026-06-29T21:55:42.000Z"
+        },
+        {
+          "name": "France 24",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTkdiM1U1YTl5cG9pZ045cTd0dHdIYUE1Q3dFRHNyeF9FNEVnOGI1dVZIWGkxMTJFanl3eUVma3BrNEtxa2JlaFMxZ1k2bHJaNzdNVVIzVC1iRXpDZ1pwUWJmVkxlTVFQMVFfOXdYdmV3N0xkcTVNREhLM2xrdjlBZVFnR1hXZktHOXZSZTN0TzlfaVJqaE9SUFpXLXZyUWtnV0FvajFXc3N0UVFDbWNPOENHNnRMWTVuZ3BxckR0c3c?oc=5",
+          "summary": "World Cup 2026: Brazil down Japan with last-gasp Martinelli goal to reach last 16 &nbsp;&nbsp; France 24",
+          "publishedAt": "2026-06-29T19:07:39.000Z"
+        },
+        {
+          "name": "Open Magazine",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORm8yME9nU29ScVNDODl0NjZ5REFHWGhyZ0plb2tDekRWMDc1RG04RWZnU2ZodGc3TVBuRGFUOERWQjEtY2RXVlREbWwyUmViamZYMWJjZENmRGtRb3Z1SVNHNDdRR29zV3d1YjBTZHQxc25QN0RSTDY5bHZGVlBkR09GSVZmZTV0U2NkWURIcVo3M3pNdjhxMkI3ODZfUG9nZ1h2dHVqZl9IUkhtRTBRSDZfdk1nM00?oc=5",
+          "summary": "FIFA World Cup 2026: Late Martinelli Goal Sends Brazil Past Japan Into Round of 16 &nbsp;&nbsp; Open Magazine",
+          "publishedAt": "2026-06-29T19:53:05.000Z"
+        },
+        {
+          "name": "olympics.com",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN1lvS0J6NTdDZEViLUNHajBkb0RoaS14N21aU0tFSW55OUxlZ0FfSzV3STdQUHl1NU5QZ2pUTS1wZXFMYVNLbmF2LVk2ZTJObnRRQmhFTUZ2Z0NTbU00eS1jaFRTV1N5aGdrNEFfdEdlTkJZLW9nZXpvb0FSWXhIdUdMNkdHcmdZNVZnOHUtNTFlV3Y4RDRBZw?oc=5",
+          "summary": "FIFA World Cup 2026, Round of 32: Brazil put on late show to beat Japan 2-1 – as it happened &nbsp;&nbsp; olympics.com",
+          "publishedAt": "2026-06-29T19:09:00.000Z"
+        },
+        {
+          "name": "Xinhua News",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lVDVNUHJvSlQ1d0xaaEQ3VzQ1ZVdoZ2VjNU4xTTNONi13MEdMbVZxc1Bwa3pyWTlsdUlXTU1yOW4zOXpOQm4xNklRdHhLanlGdlM5X3JzVXctS2hScjBIdHhudGhGb0NIWjBIS0RmVWVucC1XTjl6Y1gzT0o?oc=5",
+          "summary": "Martinelli scores late winner as Brazil edges Japan 2-1 to reach World Cup last 16 &nbsp;&nbsp; Xinhua News",
+          "publishedAt": "2026-06-29T21:24:16.000Z"
+        },
+        {
+          "name": "ESPN",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX0ZEaUJJcm5vYjlSRF9WSURGOHNhZkdOUzM1ZDF2aDRiWjJWdngtTmZqampCem91X25uQ19oQzgwZjRfNnA1Zlk1QmhlNU5PWVF6TnpkMUJJamxOUzROUjZGRFJRbTNVZ0IwUUJwMUFndDFVa2dQVC13ckN2dk1Fb2FEYWp5NXJHVUNyTGMwMDRXd251U1ZuLW83TnpGWUY5azVoZzBlVWM1SmFsZ0E?oc=5",
+          "summary": "Brazil avoid World Cup shock with late win vs. Japan to reach round of 16 &nbsp;&nbsp; ESPN",
+          "publishedAt": "2026-06-29T19:30:00.000Z"
+        }
+      ],
+      "sourceCount": 6
     },
     {
       "id": "surveillance-boost-army-to-raise-baaz-battalions-india-2026-06-29t21-12-38-000z",
@@ -344,66 +483,42 @@
       "sourceCount": 7
     },
     {
-      "id": "cbse-relaxes-three-language-policy-for-class-7-8-9-allows-two-foreign-language-options-india-2026-06",
-      "title": "CBSE relaxes three-language policy for Class 7, 8, 9; allows two foreign language options",
-      "link": "https://www.thehindu.com/education/cbse-relaxes-three-language-policy-for-class-7-8-9-allows-two-foreign-language-options/article71160650.ece",
-      "summary": "The current batch of Class 10 will not have to follow the new language policy, the education board stated",
-      "image": "https://th-i.thgim.com/public/incoming/d0tolo/article71160648.ece/alternates/LANDSCAPE_1200/NKV-CBSE",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-06-29T20:00:56.000Z",
+      "id": "another-uk-heatwave-could-be-on-the-way-general-2026-06-29t23-03-06-000z",
+      "title": "Another UK heatwave could be on the way",
+      "link": "https://www.bbc.co.uk/weather/articles/cql14kwex2wo?at_medium=RSS&at_campaign=rss",
+      "summary": "As parts of Europe continue to swelter in record temperatures, higher temperatures could develop again across the UK later this week, as Simon King explains.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea51/live/c8409a50-73c3-11f1-aaa1-3f07d3ad2c35.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-06-29T23:03:06.000Z",
       "sources": [
         {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/education/cbse-relaxes-three-language-policy-for-class-7-8-9-allows-two-foreign-language-options/article71160650.ece",
-          "summary": "The current batch of Class 10 will not have to follow the new language policy, the education board stated",
-          "publishedAt": "2026-06-29T20:00:56.000Z"
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/weather/articles/cql14kwex2wo?at_medium=RSS&at_campaign=rss",
+          "summary": "As parts of Europe continue to swelter in record temperatures, higher temperatures could develop again across the UK later this week, as Simon King explains.",
+          "publishedAt": "2026-06-29T23:03:06.000Z"
         },
         {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbURHY1IzYU5xZ3RvbkwyTjZnSFVIdlBhSWVPTXIyT1hIMlFDODZZTVFTOTNJb0RYaHNDWjExU2xvaHFzNVRURG94YktjdXVsaHhNMlVLWFg3V3FxbmNCOUt0TFozeWRDYkhOUmJPUG00Q0xuQnlFTnFFakZSU2Q5c3NSV2VwMmg3ZGZXTkw5MG1kT2pPbXg1OUlSRUZiUWtnV1h0TmdINHpXWTk2MkVCMzQ3VXV1VUlVRXYwWjdXLXo0VWs2dTBSU2hSeGFiWGhxV3JJNXJoaFbSAd8BQVVfeXFMTVR1REpqUnd2NDNPY0dPNllxSlpXS1N1N1U5Q1Z5QVduVVB6czItbFhDZ0hVUEJMaXZuLXdzUnUwWDhBZTh1aUt5NFFqUjR1bm1TUldlVS16SzBydjRpU25zcVlOdDJnZmV3TkpLNWk0b19oNGp5WXJBdmFDNkNEcTlnY213RzZmenJNWUp4WGpBNTl6VWFGY2ZPaS1VM2prbkV6VzczSDdnSlB6UE5TZUVkaE9BUnpkUllSRXhCUHE5cTVxc1cxdmw0NWpHSnBaSnFBQTlEU2M3Y01hbDQ2WQ?oc=5",
-          "summary": "CBSE relaxes three-language policy for Class 7, 8, 9; allows two foreign language options &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-06-29T08:40:10.000Z"
+          "name": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82NzVlZjJKcTVNdWlHYVlrMDgtM0pnYkNQNVNPMXU0TEdDNWVlZ3dHNFlxb1d6UGN4MFVaTGZMSWNWelcyNF85cUV1NmxEbS1VVG1UX0RJc3YydHpveGRTUg?oc=5",
+          "summary": "Another UK heatwave could be on the way &nbsp;&nbsp; BBC",
+          "publishedAt": "2026-06-29T23:03:06.000Z"
         },
         {
-          "name": "Rediff",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaEhKeVNYSEs5UjRZR3I0Q0psSUlIejItWmNyaWpaQUwyZGJKdVRHMGhCcHh6SlBlb3lwel9vVUpFNnYybk1OMENwTjk3eEw2QzR1TDhOVUJIeUw0bXVBU3ZuQ0ZnMWdMZFBwcnRjZ2lpbk5nU3U5UEhpUFZZUFRRNUxscWpGbGQ0Ny1uLVpQVWEwOGZTZmpTVnRNbEZfeXZBNGFpc1ZXMNIBqgFBVV95cUxONkt5blJpVXp3blZwQ1FHaWtrdWhRWG5YcmFNN1VtclNrR1FnNm5abFItLTZ0c2c4eHMyRFVXQUQ1RmVnOVRmS3plZXhhcVRsVnlWSktIQnFUZ08wNWRWeVlnN0dVQnNUcXlmd1F5NGFweG8zNFRrYW9idEFHUDVucHAtOThPM1NLTU9JSFFfSU1OaUt4SzhDWGFDajJVOWY2Wm1OX2V3OHpQUQ?oc=5",
-          "summary": "Relief for Class 7, 8, 9 as CBSE relaxes 3-language policy &nbsp;&nbsp; Rediff",
-          "publishedAt": "2026-06-29T10:41:36.000Z"
+          "name": "lbc.co.uk",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPN1QzdUhoeVFCeGJQZ0lXZHZSRWlUVnhDbGhnTVN2WlJaX0cyZVNjeFZTaTJJai15R3ZiNWhhREI3TGhkbjZBVWszLU1iU0hwbDc2MmIxSUxLRTdoSmZPWVo5RFdlU0xWWGNsa045TXgwcTdNLUFiMzRoYllSUEZuejF4blJwQXM?oc=5",
+          "summary": "Could another heatwave be on the way? Temperatures to cool this week but could surge again &nbsp;&nbsp; lbc.co.uk",
+          "publishedAt": "2026-06-29T07:15:35.000Z"
         },
         {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdjM1bFpKVmplZjFYVWpvT3BlaWdlMEh5MDhOU2w2RHVmY21EbE42TUpBd0h2RTI2SjUtcUlPQkItT29KZ1dSZlJ0TEVoTkZyMi1UQTAydlVlM2VRTV90MTlQZWRhNVRJTUZFdGJBS2ZjUkNBcEdYSFVHMXFfQXRPX2M5Y3FoaERqaGdpUDVwbENHXzVvMzkyNmY0TGYtUW4xX1VmUHNCWkZzUXR0b1pUdG5kXzQ3YlZxYzZSNHprdmtPRnozTVFYVEZqeUszdw?oc=5",
-          "summary": "CBSE eases 3-language policy, exempts current Class 10 batch &nbsp;&nbsp; The Times of India",
-          "publishedAt": "2026-06-29T19:29:00.000Z"
-        },
-        {
-          "name": "India Today NE",
-          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbTRGVzRCUFVQSndmVFRpTkVsT1lKVlFFRFJVYVZSY1FQb1Q5RGp4RTNlUGRwUDZFeUtDTWtWVkZWaEE2aUFfbnV1NHA4WlN0TzVMdUNpRVV0MTFvMXNhZnRWM2FjNXpaRXZUeEFMbmZPRU82bm53QXVVSy1CTllIbVdkU3FiREp4Qk1Ock85MkRvWW9wZjRkcmlIakV0bjlkSkdkOFI3NmdWRHlzeTJRSUFuZVhMYWZlYmJVUGFWOVJ1RHpXeXpFSHl0OE9LYWdCRXZuR1kzbWF0Z28ybkJEQklsOC1ibXdac1VRaWRuSUkyMzlnYUNWUGllbTB2alNiSkHSAYcCQVVfeXFMTW9YNkpsYVZBbVF5TWo5dHhYdnFjX0oycnZJU25sS0VfRHlaUVRJWU9jeW00bEZuX2hYQklNcDR5TVN0cTV1VDFuN3FLZGVPanZKcUljQzBhRGVNM0lQekplcG5WZHJzU3JqM2hpNWFHeEp6emFEVklIQUZCYi1KWXQ2elFnUlFWZ1VudThmdEJvcEZFNmJwMlJ2T2RTWEpqTF9pYWl0Qnp3SjJING1zeU9SUUNfUXc2cFNmRTI3Z1NRUnFOSzBwaWdEOTlwcEE4NWZvNFgyUkloak0xZWUzaTgtS0pYX0xfTUs1Zk9OazdMdTVxR1JmMHJCTFdsbDV6N3YyQ3dsVEU?oc=5",
-          "summary": "CBSE exempts current Class 10 batch from three-language policy; grants one-time relaxation for Class 9 students &nbsp;&nbsp; India Today NE",
-          "publishedAt": "2026-06-29T10:19:40.000Z"
-        },
-        {
-          "name": "The Tribune",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZFljMmdLYkNRTmFlV2kxdXYxUG5qTU84VG83WXlDeVYzUUlFLWNFb3JmeXVFVHpiS2xzZjBoN1d6Y1VLcEVIQ1h6T2xnVGx2alhXNjB4SEZXX3ZBalhfRzRhbWxUWXpkNWM1MUxmN0Q2Z0pVa0swVHRQMy1Cb0tOODVkVzZkakZxYmVwc3RNSdIBkwFBVV95cUxQamtrTzhpdHlXdFJUWUtUTnBySnZ5VVY4dkxiTHdvb2pYODZfRXJuT1NnTlB2RkdtY3V2QnhET3RLVXdORTB0WFhSbjM5bGl6V25hTk5NRnhVNGtpOFdNYTA1NGRScEl1eXRqRkZMcEFWQTREWkpvMXVnZGo3emNtbDVjYmYtRGJjbTJFdWhGMDBfMlk?oc=5",
-          "summary": "Current Class X batch exempted from CBSE’s 3-language policy &nbsp;&nbsp; The Tribune",
-          "publishedAt": "2026-06-29T18:10:39.000Z"
-        },
-        {
-          "name": "Pragativadi",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaG5xb2lUamtVVkhydHliRVI4ckxTeEhNLUhhemtrUUVueXdUTFBkV0lodDJJeDlJb1Fud2pMWGhpNW1GbGU3bEVXM3NVaXFHanpVcVNvQ0I2UVlQSExmaENzcnRvQ2M0c0g1UDBvanYwS2lweHBxQy1BU0o2eXQ4OU1oRDEtdnpDLXBRclNfdVg4VE8xc3lxaUdNeHlnUV9ua0gtS2Jrd2M3UXdxcUhEeW15OVRHY185cE1oY2EyR3Jub1hoNkFMNnp3dw?oc=5",
-          "summary": "CBSE Exempts Current Class 10 Students from Revised Three-Language Policy; Class 9 Gets One-Time Relaxation &nbsp;&nbsp; Pragativadi",
-          "publishedAt": "2026-06-29T20:37:52.000Z"
-        },
-        {
-          "name": "IBTimes India",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb0lSQUtFc0ktQ3hBaXk1SUdYamdNZTNIM0JBbUtDdks5b0pzdm9hNVJoNDVyOUNLWThtSVhBMHNqRjNPWGkyeHJ6U2VlbHdKMWFfcVA3djljb0wwMEc4S3FDVVFHQ2xROXRBVFFyYTBrUmVEMnN6QjEtWjlyZHA4YXRrUzE1U0kyMEwwWGluTHlEak5EMUhXdWxqLXpIUWdoVGl1dkQxNU11bHlrZmFVYldrejhsQ1pWOVYtd2xtZWRvWkpr?oc=5",
-          "summary": "CBSE Releases Class-Wise Guidelines On Three-Language Policy; Current Class 10, 9, 8 & 7 Students Get Special Relaxation &nbsp;&nbsp; IBTimes India",
-          "publishedAt": "2026-06-29T14:13:11.000Z"
+          "name": "The Independent",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOazlraTZGMlEtMmd2S0tRUVlEWmhEUVo1LURGYzBKUWdNZGJ1V1c5WERsZjY2MF9HbjN5R0MxY3RuNHJpSW9xWGxMeVpLMDI2WnVFV0tmOThCNW1NXzhkdjYyV09yVHJPSlEzWEF5WHZIYzJMcnlLU0tmSVlnZk1OLWZwVVZXZkwxenN6eVY1dDNuOUtWTTVhdE5VaW51UQ?oc=5",
+          "summary": "Could there be another UK heatwave on the way? Here’s what the Met Office says &nbsp;&nbsp; The Independent",
+          "publishedAt": "2026-06-08T07:00:00.000Z"
         }
       ],
-      "sourceCount": 8
+      "sourceCount": 4
     },
     {
       "id": "three-people-injured-after-explosion-in-monaco-french-media-report-general-2026-06-29t21-59-56-000z",
@@ -424,21 +539,21 @@
         },
         {
           "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnaHphVXFzUW45LVNtdzVIcmR1Z1FoaGtldUliSUtBZWRTV3FXOGN0Q2EwYVF1MF82ZXlXSld2T09nVUtvYmtteFhaZ19aRnRJRFBKa05nQ3NLdw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1FOEVHQW5EY3JHaUlleS15TTRMdVVVTkcycTdwdGVmc0p1Mng4bHFhWkxqWldpYnl3dzZGenNKY1Zac2YzUlFBY1VqWE4xaW5HakY1TnQ5bUdUN1Zk?oc=5",
           "summary": "Three people injured after explosion in Monaco, French media report &nbsp;&nbsp; BBC",
           "publishedAt": "2026-06-29T21:59:56.000Z"
-        },
-        {
-          "name": "News18",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSnBsTzZKeHljcFFHQkhfSTQ3YV9jSlRtSy1ZdVJsTXlkMmZVVWJ3VzMyTWdhdk5yOEdHZFZUZDh2LUlLZDlkRVNBMkN0VmxMaHdBX2U3M1lZMXZQWFpXaTBVRjFSeXJFV1lNdGNmWDY4QTV0Nmw0bnd1YmhiVUpGRUpfaEtYWFp5U0JjZmpmRTVrVmZFQ2lVSVdBSVV2b3JqUXpjcEprdmpndmExQW5KSXVGSVpmX2N0aVVJeTBfNl9rN1JESUHSAcsBQVVfeXFMTWUwa252dy1GclhLc01iV0xSc0VROGZScXU5YkhmYzhwZGRMcEFGS2lqRkRWRjlhUFNzMjVGLU82Wm1GdjR0ZnJtQXlsSndaOC1BUGZJQjJ0X0pyTXNPSV9KNTZiczJuWDZMb1dEQTNBVVBhVXVfQUtjN1BpN1M2Q2RncVhXVldoN3VlazRzTXpadXo2QlF1S1FpeG5iTkt1a1FFM0xTNzBQYXlJVEVCR2dJeEpNXzN1RjdsOXcxZ2doc1RWcVd5cVR5ZFk?oc=5",
-          "summary": "Three Injured In Monaco House Explosion, Officials Call Blast ‘Very Likely Attack’ &nbsp;&nbsp; News18",
-          "publishedAt": "2026-06-29T22:24:49.000Z"
         },
         {
           "name": "Allora! Italian Australian News",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcUpyaGVTTHBWZDdWMW5OQmxoOVBxODF5dGNwSDZ3R1B1ejNzaWtYMXBZYzEwam85VWNUUmdGQlJyQ0xGUEFIMi1rdWVqT1Vka3FpYThlQUJpeU90NzVNMXFwTzN2NzBPbDBNTmp5M29KTU5yWUgxN3puRHc1OHpTRUtRWEZUc2pKTjRFSmlOdXVFdDd1MUJfUE0yTy1jbDhzZHlrNE50VjRGSjNLNEVYOTlZSExJYk0?oc=5",
           "summary": "BREAKING NEWS — MONACO EXPLOSION “VERY LIKELY A DELIBERATE ATTACK”, THREE PEOPLE INJURED &nbsp;&nbsp; Allora! Italian Australian News",
           "publishedAt": "2026-06-29T22:34:25.000Z"
+        },
+        {
+          "name": "Українські Національні Новини (УНН)",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSUlmX3BlQVFRLU1mdV8tOGd5WFMwMmk0YmpjeTUtVmV2eEtrRktid2xSZDc0RmRkcjBUUkJsdDA2Z0VVRVI0LVdWZkFWRlFZSlJOOGNrb0hTQlpsNGo3UVoxRFNrWDF6TUNyRXU2dWROR082SksxM1VjTGxqRXBKc2JaR3FxYWdvNkppVU5zenBDSnZpYjg1clRMV0JiaTBQQUtmZi1IVGx1VzR1bUFZ0gGuAUFVX3lxTE43TUF4STc3ZllBLUhENHA2c09xT0tWRjBBeW1tWXZoazlCQ1psUzhrRDhLWHpqdktmNE1rVTNrVnFqdkRBSXVwNWxNVEtxeEllNzA1QVg5NTRKMlBuQlEwaktCRm4wMjdEZ1RhY2lidVloand3ck9wZFJTd1Atdnk2d0ZOa1Vab1pOT2llbG02dmsxc0xvWFpWYk1Vc2RMZUVMWmNmZklfN0tOM3FoUQ?oc=5",
+          "summary": "Explosion in Monaco: Media report that the likely target was a former Ukrainian oligarch &nbsp;&nbsp; Українські Національні Новини (УНН)",
+          "publishedAt": "2026-06-29T22:05:42.000Z"
         }
       ],
       "sourceCount": 4
@@ -506,7 +621,7 @@
         },
         {
           "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1tYVlrZVlidGFKbmhHUTZGSVlzbzd6SDhNY3BralhyM2NfRGZSNHcxdlVYYnVxS3ZVVzR1aWRzLWFoMzROemhtaVBsTkNfWEFQZ1AxdXlqa3pzc25f?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZYlJhQi0xdjQ1VTFxS0JGVC1uWkdYMWx0QTRMZkRwdnJsUGI0R2w1Y1VQTHBnQnAycDhNMXFiSVNHdy1qU0dmbWJWa3FILUo5Q2ZYdGg2MDFsUQ?oc=5",
           "summary": "Refugees will be told to repay around £10,000 under new asylum rules &nbsp;&nbsp; BBC",
           "publishedAt": "2026-06-29T21:31:48.000Z"
         },
@@ -521,138 +636,6 @@
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yTXY2V3VaU1NuZWpZdVRiZHZsT1d0Z3dfNjdRREp2MVNUeEhLTHZNSk9Xd2JxR2JJdzRKaEF5SVRqYV9RYzJlcElfdWRvYTEyUEp3TU5EbTdQNHBkQWdoUTZSdTlfTUdOQ3RlaVVoeWpfajNPVVE?oc=5",
           "summary": "Refugees will be told to repay £10,000 under new asylum rules &nbsp;&nbsp; Yahoo News Canada",
           "publishedAt": "2026-06-29T21:31:53.000Z"
-        }
-      ],
-      "sourceCount": 4
-    },
-    {
-      "id": "long-delayed-defence-spending-plan-to-be-published-on-tuesday-with-focus-on-drone-warfare-general-20",
-      "title": "Long-delayed defence spending plan to be published on Tuesday, with focus on drone warfare",
-      "link": "https://www.bbc.co.uk/news/articles/cwy0rw5dx1ko?at_medium=RSS&at_campaign=rss",
-      "summary": "The defence investment plan will set out how billions will be spent on equipping the UK Armed Forces.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e963/live/252a69a0-73fe-11f1-958a-899f98f625e2.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-06-29T21:30:01.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/cwy0rw5dx1ko?at_medium=RSS&at_campaign=rss",
-          "summary": "The defence investment plan will set out how billions will be spent on equipping the UK Armed Forces.",
-          "publishedAt": "2026-06-29T21:30:01.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5TUdnSFVrX092eXJ1WHJhRmJ6bkh5c0NvRnc1Zkk0WjUydVBpZDR6Y2IxUVduV2wzaktlUGJJd29FbXhKN3Z4eFA2SEpWczY4MS1GdUJ0Z3Axcnlh?oc=5",
-          "summary": "Long-delayed defence spending plan to be published on Tuesday &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-06-29T21:30:01.000Z"
-        },
-        {
-          "name": "The Independent",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMTdsT2FPekNJdDh6LS1SNllYUzhfc1g4S2NmNHBuaDB0ZnFHay1HSnJucTlCRGFuc2dpQzF4S0dnb1RQcDdJRkZ5UlM1UC1LOHNqWVNxSEdrWTM3YmRlQ2tXektHMFVwbi14a0czNXdXSGNlRXlWX0NfUlJrNGRsTm1wRll0djltaEhoSzhkUWlkRzFnbVEyVFh1czJQQTE5TG9BWm15NERSb0hrdno4?oc=5",
-          "summary": "Starmer finds an extra £1bn for defence as long-delayed spending plan finally revealed &nbsp;&nbsp; The Independent",
-          "publishedAt": "2026-06-29T21:30:00.000Z"
-        },
-        {
-          "name": "Belfast Telegraph",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcFpjRjcwZnZhVjhVdnpDVGFVQUszRjZyMkhaQzQyQWlqMTVTdzQ5NzhMQXJfNGRleENxblFROERoRWdXeDhxVHNUcWR0S2hVd05hbW1od3lZVjBvUEhRekpHV1pYbWc1SHh5Zl9LZGZ4OUswOFBveVB6THkyWDVWbDVCQUViUGsyRTk1cXlBekl3dTlmcm9QMUxJT3QtR0NmN3piRFBRRXpvNDFFbnN3Q3pmNmZKSmtSektEZnRvMmlFQmNJOWNCZkxpb0ZhaHdKOU5z?oc=5",
-          "summary": "Long-delayed defence plan will safeguard Britain ‘into the future’, Starmer says &nbsp;&nbsp; Belfast Telegraph",
-          "publishedAt": "2026-06-29T21:42:47.000Z"
-        },
-        {
-          "name": "Euractiv",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQazBCUVpsdDZTRjRUUHBEekZQUHdTWlhQX0ctNnF1VEN3dHB4ZnYwY0JFZFhibk9rQ29TMnhIQzBCQlNJS08taXhtZGI1X0ZsbTdNNGlTUkpWNzFDNnNlcnUzbDFGLWdMYzd2UEdBZ0tpblBWTmZ0aldsRUcyMHdRcWgwYjZ4R3dZaHdWX08xWWo1WUhVdnFkR3VteEg?oc=5",
-          "summary": "UK unveils long-delayed defence plan with €5.8bn drone investment &nbsp;&nbsp; Euractiv",
-          "publishedAt": "2026-06-29T21:33:16.000Z"
-        }
-      ],
-      "sourceCount": 5
-    },
-    {
-      "id": "bengal-passes-preventive-detention-legal-curbs-bill-india-2026-06-29t19-56-01-000z",
-      "title": "Bengal passes preventive detention, legal curbs Bill",
-      "link": "https://www.thehindu.com/news/national/west-bengal/bengal-brings-bill-on-year-long-detention-restricting-legal-access/article71162236.ece",
-      "summary": "Govt. can detain a person to prevent anti-social activity for a year; CM Suvendu Adhikari says State “will not misuse (law)... for political vendetta”; law won’t stand legal scrutiny, says Trinamool MLA",
-      "image": "https://th-i.thgim.com/public/incoming/dfhgvf/article71162913.ece/alternates/LANDSCAPE_1200/20260622094L.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-06-29T19:56:01.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/west-bengal/bengal-brings-bill-on-year-long-detention-restricting-legal-access/article71162236.ece",
-          "summary": "Govt. can detain a person to prevent anti-social activity for a year; CM Suvendu Adhikari says State “will not misuse (law)... for political vendetta”; law won’t stand legal scrutiny, says Trinamool MLA",
-          "publishedAt": "2026-06-29T19:56:01.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNEVjaUFVRHVMcENFNWw1dTVwcUMzM1cwcEgyeFc1NHVkYVRZQ1BJZHBDU1k2MFM4WXBIQmpEX3FndkttVWg5R2tGbkh3ZnF2NXBmQ0lESTVMTXh0OXl1ektBemF4ajQyZFIxWXhCYjFtUlBlZWk5bEdqSG4tTTI0T0tjdVFLaGI1RmJMZllVYURidkhRbFVUYTNjRzNlOFVMdFBqTGFzV2tOR0ZJMDQ5M3NfSEoyTEx0VFFtS3RmMFlncTl2bHN2bkxUdkJYVkFHdjJR0gHaAUFVX3lxTE1Rd0tTLXpva004Q0xieHVhbkFDZXlaOFk4Wi16NEY3RHQ2VUc5czBRb29KbjhNTGhQVlliUHRKNjhHRmhoNkktVEctNC1zRzBORG1uTHJ3MGhQOF9qN0EyQ3BnMEw5UExWZWZfcGpkOTBHX2s5UjVfYzVKN1psQlRyYmNvZ2J4RGdnQXdaOHZ3YWZKdlJUY1JOX2JBT29xdTlXNXU1aHlMV3JVWnNzaC1ObndPOUIxbGJRU08xRzBFcmFMNU5WNGFQcG1fN28zTXhaOVBVU3JLTlpB?oc=5",
-          "summary": "Bengal passes preventive detention, legal curbs Bill &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-06-29T17:37:02.000Z"
-        },
-        {
-          "name": "The New Indian Express",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQekZIMHlHM0dmQ2hSa3ctVjFmSWhmNzl4RWlGQkRMR1l2a21VRlllRTlORlp2bVRyUW93dWhUMHhJRkNKblgtM2gyanRaekl5NGRZZk9fVFdXZFFQYldIaVBBclBTSTM1Rm5GYlNrZkpzUGV4NGtVT0JmRnlMNEpSMTJnYW5mTUd4VlNvaXpmR0trTV85OEVneGtiUVlCX1Y3bW1uZkZhQUoyNENzQkg4SUNydzJRSGU5S2UyZkpjaG1vWW8wSmxIR240Ykt3Y1d5UGpldklpSnlVV1JuclBocTUxcE02RmtSc0xoS2FpWmZmRWfSAYACQVVfeXFMTUpoV05KZkhXUllpckN4RExPdC1PSjhyYnRsME92MVB5ZjlZQTRTQUYwSUFITExJS2U3M3NtYUtIWWZzVmxFQkdoYmFvTFo3d25iaWt1RWhhMjU5UExmRUtISXpFTXY4UElBZjljWkRpNDhMbzI1dlFaYzhINGxWZGppY29jSzJtNnk2bDFwc1pvMlhDN3pYYTRONlVLYlpFb3lGUnA1TjBrVDRSQ0JZS1g3ZzdYcHRJWjNLRjljN1NaR0YxVjRVNV95RVRvOEswTS0wRlFtbWIzNGxnV0RmT2xPcDVFbF9lbXFfQnQzVm0zaTcyQnM5UlhnWThrVnFVTw?oc=5",
-          "summary": "WB Assembly passes Bill allowing preventive detention of 'goondas' for up to one year without trial &nbsp;&nbsp; The New Indian Express",
-          "publishedAt": "2026-06-29T15:06:33.000Z"
-        },
-        {
-          "name": "The Economic Times",
-          "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOOVNSYUU1MnhoZnk4bzZXN1NDdlVoLXVIT1ZxQ0diSGhNeE16U0s4aVR0emFGRVpYRER6TzNUTVNZVHFPdERtdUNIcnNfc2xLYWNZamZZTG90SHVrNDBFS1k5WWFDMUI0d2ZtelY1N0JoUDZqdnFQWWJzZDNPS25OcUV5RW1lOGJ5Q1R3TGZNNlJMbzVJWGE4TTR5RkhSY2VMaFBVUTFKZGhUTkotSXBpYjBmRU0xaWE2UkRvelBDdG5Xa0ZHWWhUSFNYRU9sV3E5ZmUxa241ZjFta0Z2dk5UMC1CQVhGUVE5amllZ0swdGxLMnF4VlRObkRpcjhnd3BfYllkSERHUGx4WkxXb1ZkbXRXUzl1dVVSQ2tIVdIBogJBVV95cUxNS09MQ0IwQ3pBY3QwS29zUVZiUGpjN25FVEp2X1RwQkkxcHFWQ3ZJNUJrNTNIcjV5WjZvX2hPUUZYdkRkbzZjU0dsRHVKelhKNVRwU3lCa21VVUdwQWFXcmhTYVBnVjViNlJHNGt5b2ZSOHh4b3ktYU9yVUlRTkRQVnI0cHV6cUZnOFNlVnN4YnNrS2hWM1F5YUtGeWFtZGdwclhpUDRHN1ZzVVpOcV9rbFJlVkVZaTlsLXIwOWJDWW8wZmx2cVN5YzVZMGFzVVFpY25PQjVjWWFnM21SZk9SYmEwQTBzWXBzZlF4SWZMNXFibGJ0SVA0QmwybE1FeERibjd1cFJrY0NlQmtIb1h3LUVhbFpUN3YzRlFQMjFSVG54UQ?oc=5",
-          "summary": "Bengal assembly passes bill proposing preventive detention of anti-socials for up to 12 months &nbsp;&nbsp; The Economic Times",
-          "publishedAt": "2026-06-29T12:21:35.000Z"
-        },
-        {
-          "name": "ThePrint",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQVdhY20yeENkUzg4LUFvbkc4LU04bVFRTjlHX1lKd2R6cV92N01fWmVFQ1B4c0NEWG5zdFBPOHF5YmNjS1NxaU1XQ2xUSFZHQmNoRDBUR1o4YV9PUFNyeFpoTjFmdmZ3aDcxS2xnTUZaYmRwcDBvV2h6T3g1bkU5aHJqMVI1dzZ6NGlEY05mQ0lJR01wSV9Od1FsdC1LX0JWeHRjZk9reEIyZ2lFcldvdkdnYkpfcEJpZjdZaVluSDBmR1ZvWER6SNIBzgFBVV95cUxOVG1wWjJ0S2VCU1ZQMDBVLVFCQkV3Q3F4aUgtS0JvLTR3TTJaRjBkbkRlUWZFNjlvMGxWSFJWUWtlLU5MdGVfX0p6alN0WDB3aXpBc0ptNzJPa3QxdDZoNE5mbG85VDhvV1VTVHJTQ3Nhd3RrWmt2UU5OZWpzWjJ6RTVWWFA4eWNrRFpTSnpQNjhvelBYdUJnOTdITmFuMzBxSVltYWJLMUozcDNMRGtQcWFOMGZsUVZjN19qa25CYmkwWU5wdmExWlZRaHNXQQ?oc=5",
-          "summary": "Bengal assembly passes bill proposing preventive detention of anti-socials for up to 12 months &nbsp;&nbsp; ThePrint",
-          "publishedAt": "2026-06-29T11:46:00.000Z"
-        },
-        {
-          "name": "MillenniumPost",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPU05CYjRSRnZCVXZ0T1BBVEh0dF9zU1l3bTNPbzJWdjNEZjRvemc0R2pTZGdJQjJJYUNlXzJpeWxmNm83UjRZQU5VWjhPY0paRXlqTC1ManFNRm14XzlFS0M2NHZPWTZ2SEtqMmJPQVlOQ1lteXNzSno4MFdMUmlyX0RrcXh4SEViWXlhbnZGZ3QyaTJaLUpRUGd6RXZqeXp4S0NQUEFuam9YSkNFOGtkdVNlY1NMUE9GQ1pSQkE3bmRhRlo0LV81OXBFRkk4YmZXRm9mSExidHNlWlJRMVpPdU9R0gHnAUFVX3lxTE1pM2l4X0RkRVFHWW92dWxGODY5ZnJGejh5am1rdGJyNkRSejJQVWxWY3JJNHRvQjB6ek1uZXNRVDBJdzNLY2RVS2NNM1pnb2tpWXpwZnpfdUt6aG9uMEJEN3dQclNNUnVYTVdfcHhwemxTU1NldUlnYVpNWUZ4MGJWblgtc2hvRzZkVTZhTFJ5R3JXbzR4blNnTjVKNVJqQVhlVm5oNEl5OUMzNVV4ek4yZjdfem9lMFVrXzQ1dnVuTTRpR2xqcnFReXV4andvUnB3MmNvVXBQdzJUUGFhMGRidmtMc0dQOA?oc=5",
-          "summary": "Bengal assembly passes anti-goonda bills with preventive detention clause; Suvendu assures no misuse &nbsp;&nbsp; MillenniumPost",
-          "publishedAt": "2026-06-29T14:35:32.000Z"
-        }
-      ],
-      "sourceCount": 6
-    },
-    {
-      "id": "i-b-ministry-sets-up-panel-to-boost-film-industry-india-2026-06-29t21-18-10-000z",
-      "title": "I&B Ministry sets up panel to boost film industry",
-      "link": "https://www.thehindu.com/news/national/ib-ministry-sets-up-panel-to-boost-film-industry/article71162702.ece",
-      "summary": "Prasoon Joshi will chair this Group; Ministry has also prepared model State Cinema Regulations for adoption by States",
-      "image": "https://th-i.thgim.com/public/incoming/uorxqt/article71163188.ece/alternates/LANDSCAPE_1200/CABINET%20PC%20%20DELHI%202026_10_06_20.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-06-29T21:18:10.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/ib-ministry-sets-up-panel-to-boost-film-industry/article71162702.ece",
-          "summary": "Prasoon Joshi will chair this Group; Ministry has also prepared model State Cinema Regulations for adoption by States",
-          "publishedAt": "2026-06-29T21:18:10.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNnRWbFA0WXVGZTFBTFhaakViNVV1N1BEZFlrNHlzXzZxcHJzQ1ZLZjJGbjhReWtmU25aWGYwbVFyWXl5bHdZNzdmQkFBOFBaUldYNm5aTFFZMm12d0h4aEFFbWRlcGZ6Z3ZxT1RqOUlZVm5BcERIOWpqeXZnVGYxS09Pd3BQcDFlMEc1cnoxZUZHb0lEZmRTZ1RjcHgyMU5UZHF3V0ZxN0VUWkHSAbIBQVVfeXFMTkpzVGJkUWhoWk85MGdhZXJwVzRvNVdUQWFaLXB5ZTc2S0FCQmo5dVhrdUFVQjc3Y3ptMjNpdC1FeEdqc214OTdjWWhkSDNTLV9LYXI0NjlIWWNhRzNRMjNYT3hqWnA5RlJNcnFHLVNkdi13VHNsbHE0VzBIdUliNURTc0lvaXduSDhHOUluQ1d4d3gwVXFyMkc4OUxwN1R2SGo1VXlFU21kb09pcUdUYkVOQQ?oc=5",
-          "summary": "I&B Ministry sets up panel to boost film industry &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-06-29T22:02:00.000Z"
-        },
-        {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMGxZNm9fYks2dzZ2a3ZmQWRnMFY4STNUeFk1dkNuakdVQklsblRsQ1hUOUZwWHpEUlFJdG1FZXU5ck83RkN1SHJDb1dJSWNBel9JY3BjVkU1UHBua3M3MVgxM2EwUmZwRWhzOXl4NzVjXzN3ZlZRcVZqNlNKNFI1WkkwWXdnbW5kNnMwX1p6T2lVQjN2dDV3bGZGNm15am9BbzZPWUtmd0VEenlaLUNKcExRZWdSOVU0WlRXRTFVdkZ3Q1nSAcgBQVVfeXFMT1lSaWtLY09Ta2FkMFgyTWtMaWt4eU5uR2k2N0NSdXF2VUtyemx0SVRJX20tOTRNVHdsMkRBNG1yejA0Tm1kMjQ2UDFtdXFITVhqQUVJZ0tPeFR0ZGxDTFZtYkdla2E3YkRTNVhzSlhteGdGUmc2aGFVRWJ4cVlGRUM1aWVzS09McTdNZFRTTklXRl82dnJDeS1aYXUwbkFKLVd5ZEYwLW1yUHkzMkxwUWU0aGFIblJjYS1MS2daSkhwSUlpUGJKQ1o?oc=5",
-          "summary": "Centre sets up panel on PU retirement age boost &nbsp;&nbsp; The Times of India",
-          "publishedAt": "2026-02-27T08:00:00.000Z"
-        },
-        {
-          "name": "Asianet Newsable",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSXMxTnJ6dXFDWm1NbkZ4NWkzYnVNS3ZlR0ozNEQySTdhbGNjenRtQmI1Q0xDbXRrQlhDczRzeUNQbENuckotYXhhSzM2N3RhWF9UVFdHai0yYUFkS3pjTURmLU9pYTNlTFhuOHF6cFl4blJnWjQ3dW9vRW04dzZib3M2Mm1hZGJOQWZQbU45TFozUlRHR1ZCVHBIbkQtOHc3X0luRF9Ua3ViUzdaVnltd0NLQ3lhbW5fRDRub0lNY1lPcjBJV1RFdXdNdWU2SjjSAdQBQVVfeXFMUDJidjZqbklCZGRwS0dmbXRKakUzY2J4NTV3ZlA3Si1HVlJNTWVaeTFXczN2ZGEtaVh5d2lhTzc3cTRYbS1qTmVPYk5sNzk3VUNWVUxmMXZZMEh4bzlHSzFKemljNEc2Rk5QSmZHX0hTdWVCWFVYamo0LW1WYk52a1R6dEY1V2ItTGhSaXlkX0dIcEFlWlA4T1c1bUl6UWFGMF9aMExYNkZUa3oyR0d6a21XaER6YjcwbjNzM195ZjFsd3R2M2ROTzd0SmhvbkRlbnhhcWc?oc=5",
-          "summary": "Ashwini Vaishnaw chairs meet, sets up panel to bolster film industry &nbsp;&nbsp; Asianet Newsable",
-          "publishedAt": "2026-06-29T16:30:26.000Z"
         }
       ],
       "sourceCount": 4
@@ -682,7 +665,7 @@
         },
         {
           "name": "Moneycontrol.com",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObFBPN1FZX1l6SVoyaGFkQWo5N2tTT1MzdDk4V3VGY04yc2FobkgxenFRSTdIRTk1Q3JLbXV2dEttSlhNZE9QS3hYODVGcVJKRzlWcDU1VXh2NUJHTkhvMjdCNWtPbW1FdzEyQWk4cE41TzZRTGx2TE1CVE1MME81Q0hGSlMzelNzY1RTZ1NRdUUtZ0Jjb3NJTjVjaXZKOEZ4M2hzZW5DQXZLZFRsQWtPUWZ3THV5R2xnaE16OEI1TmJ1UzJoVEo5eGJiNmt6eXd5aVp3d3Q4dGhRbG15ZW9CdmFYMWFFaUp5TU50T9IB8gFBVV95cUxQOG1IdHVISDdXUURLNkFpbzRqMEREZkVrbzhqLTdmbG1YS3pvaW1fUmVJR2YzVjFGWjRIbFBzXzJtM1lwNXB6MUVkWlNJd04zUXczYjBWV0IwREV2cGRsWkNsdEpnOHo0WEFZcmNGLWpqbHNZMUxNai1mZG9uT2pTbzJmNTlldlc5Y0dIUENYbXlHeFZYQVUxSHJ3d3pVR2RvbFFWdTkybkFUcTJ0aXF2eFpxWnFTclMzMnY2bzlnWk5aZmgxVW9hOTgza1V0cGpmYloyQ0I2b3BxOElKQ0pTZy03SW9ReU01Z1czalZhbk5IZw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQOG1IdHVISDdXUURLNkFpbzRqMEREZkVrbzhqLTdmbG1YS3pvaW1fUmVJR2YzVjFGWjRIbFBzXzJtM1lwNXB6MUVkWlNJd04zUXczYjBWV0IwREV2cGRsWkNsdEpnOHo0WEFZcmNGLWpqbHNZMUxNai1mZG9uT2pTbzJmNTlldlc5Y0dIUENYbXlHeFZYQVUxSHJ3d3pVR2RvbFFWdTkybkFUcTJ0aXF2eFpxWnFTclMzMnY2bzlnWk5aZmgxVW9hOTgza1V0cGpmYloyQ0I2b3BxOElKQ0pTZy03SW9ReU01Z1czalZhbk5IZ9IB8gFBVV95cUxQOG1IdHVISDdXUURLNkFpbzRqMEREZkVrbzhqLTdmbG1YS3pvaW1fUmVJR2YzVjFGWjRIbFBzXzJtM1lwNXB6MUVkWlNJd04zUXczYjBWV0IwREV2cGRsWkNsdEpnOHo0WEFZcmNGLWpqbHNZMUxNai1mZG9uT2pTbzJmNTlldlc5Y0dIUENYbXlHeFZYQVUxSHJ3d3pVR2RvbFFWdTkybkFUcTJ0aXF2eFpxWnFTclMzMnY2bzlnWk5aZmgxVW9hOTgza1V0cGpmYloyQ0I2b3BxOElKQ0pTZy03SW9ReU01Z1czalZhbk5IZw?oc=5",
           "summary": "UP Congress chief Ajay Rai alleges house arrest ahead of Ayodhya visit, says BJP 'afraid of Ram devotees' &nbsp;&nbsp; Moneycontrol.com",
           "publishedAt": "2026-06-29T21:33:49.000Z"
         },
@@ -694,7 +677,7 @@
         },
         {
           "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNLUJIX2lER3pLU002S29GMFRCMGxhelhHS2FJcm8xUTg2aUZYdHAyZjNBcmM5eWlVaW45S2g1XzFkcXI3VkhSdTRLejNEQUljQ1pyeGxkdXVyalIwcm9XVEJxWmhmOC01UmhLMjRPZWhrdzljemI0ODJ0ME8zR2NtX2h2eVNER1dZZmRlS2I2V0ZXSU5qT256NGxMaG1UTGc4UmQ4WkFWQ2xpVXg4alM2bkI2dU55bVRIaXFxbWZqOXhrNE0xNDBuOENkd1B0d9IB0wFBVV95cUxPQ0VMM3VYaGEtLXpRWGxSaFRHNThia1BwZTVZYVdDTmM2czlyeWxJLUxjOVRMbXdFZHRYQlV0Q0p5Zi1UdHZ6NFlQRXlBYkg1aW04RWd0WTNWM05qX3ltRkZuYXdvbUFuVWxSQWlHbkNqQmpvUnltTXZTSG4ydG9USTNRdWtvWTMtaEFVcl9xbV9YWGEyZkxYaUJvSnoyY3hrMHlzMHpNeUFXY0hwVWFTWmRPT2l3NDYzVDFES0lTWXI3YnNid09DQUFTM2dOaEgyZ0Fv?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQ0VMM3VYaGEtLXpRWGxSaFRHNThia1BwZTVZYVdDTmM2czlyeWxJLUxjOVRMbXdFZHRYQlV0Q0p5Zi1UdHZ6NFlQRXlBYkg1aW04RWd0WTNWM05qX3ltRkZuYXdvbUFuVWxSQWlHbkNqQmpvUnltTXZTSG4ydG9USTNRdWtvWTMtaEFVcl9xbV9YWGEyZkxYaUJvSnoyY3hrMHlzMHpNeUFXY0hwVWFTWmRPT2l3NDYzVDFES0lTWXI3YnNid09DQUFTM2dOaEgyZ0Fv0gHTAUFVX3lxTE9DRUwzdVhoYS0telFYbFJoVEc1OGJrUHBlNVlhV0NOYzZzOXJ5bEktTGM5VExtd0VkdFhCVXRDSnlmLVR0dno0WVBFeUFiSDVpbThFZ3RZM1YzTmpfeW1GRm5hd29tQW5VbFJBaUduQ2pCam9SeW1NdlNIbjJ0b1RJM1F1a29ZMy1oQVVyX3FtX1hYYTJmTFhpQm9KejJjeGsweXMwek15QVdjSHBVYVNaZE9PaXc0NjNUMURLSVNZcjdic2J3T0NBQVMzZ05oSDJnQW8?oc=5",
           "summary": "UPCC chief placed under house arrest ahead of temple visit &nbsp;&nbsp; The Times of India",
           "publishedAt": "2026-06-29T19:40:00.000Z"
         }
@@ -702,42 +685,88 @@
       "sourceCount": 5
     },
     {
-      "id": "jklf-chief-yasin-malik-among-five-named-in-charge-sheet-in-1990-sarla-bhat-killing-case-india-2026-0",
-      "title": "JKLF chief Yasin Malik among five named in charge sheet in 1990 Sarla Bhat killing case",
-      "link": "https://www.thehindu.com/news/national/jklf-chief-yasin-malik-among-5-named-in-chargesheet-in-1990-sarla-bhat-killing-case/article71161164.ece",
-      "summary": "The State Investigation Agency revealed the involvement of Malik, then JKLF chief commander; Khurshid Ahmad Chalkoo; Abdul Hamid Sheikh; Mohammad Yousuf Sofi alias Idrees and Ghulam Mohammad Taploo ‘in planning and executing the abduction...",
-      "image": "https://th-i.thgim.com/public/incoming/ek023t/article71161200.ece/alternates/LANDSCAPE_1200/IMG_Delhi_High_Court_iss_2_1_S2BH0I00.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-06-29T20:14:54.000Z",
+      "id": "homes-harder-to-sell-as-high-mortgage-rates-frustrate-buyers-general-2026-06-29t23-08-44-000z",
+      "title": "Homes harder to sell as high mortgage rates frustrate buyers",
+      "link": "https://www.bbc.co.uk/news/articles/cdr4env2v14o?at_medium=RSS&at_campaign=rss",
+      "summary": "Three in five homes listed for sale since January remain on the market, says property portal Zoopla.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3821/live/5bbec4e0-73c0-11f1-aaa1-3f07d3ad2c35.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-06-29T23:08:44.000Z",
       "sources": [
         {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/jklf-chief-yasin-malik-among-5-named-in-chargesheet-in-1990-sarla-bhat-killing-case/article71161164.ece",
-          "summary": "The State Investigation Agency revealed the involvement of Malik, then JKLF chief commander; Khurshid Ahmad Chalkoo; Abdul Hamid Sheikh; Mohammad Yousuf Sofi alias Idrees and Ghulam Mohammad Taploo ‘in planning and executing the abduction...",
-          "publishedAt": "2026-06-29T20:14:54.000Z"
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cdr4env2v14o?at_medium=RSS&at_campaign=rss",
+          "summary": "Three in five homes listed for sale since January remain on the market, says property portal Zoopla.",
+          "publishedAt": "2026-06-29T23:08:44.000Z"
         },
         {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTW1uZWs3bXNQQnNsNk1mMHBqWHhMaG9teDB6bTB4T3g0MVkzT2l3bFhSVWhIMnBVd1lwVE1QR1I0NnF1bllJeXI1NUFJZGNVWExtWm1OdFY1Q2tXTlFHUHY1VzU0TFhIcWRQWGpXQVplSDdYRGt4cy1DOTM2cExZUTBWd1Vqczl4UmNkTmc5S2NjUW5ROHdyUm1tWk43U05Pak5uU1E2Vm93UkdxMTRJSmQ2aDVVdHprcWltNGt2N0ZRWUNEcXJHT1VKa0RucDlXZ3REMFFvSDZiUnlIV05NeNIB4AFBVV95cUxPTW1uZWs3bXNQQnNsNk1mMHBqWHhMaG9teDB6bTB4T3g0MVkzT2l3bFhSVWhIMnBVd1lwVE1QR1I0NnF1bllJeXI1NUFJZGNVWExtWm1OdFY1Q2tXTlFHUHY1VzU0TFhIcWRQWGpXQVplSDdYRGt4cy1DOTM2cExZUTBWd1Vqczl4UmNkTmc5S2NjUW5ROHdyUm1tWk43U05Pak5uU1E2Vm93UkdxMTRJSmQ2aDVVdHprcWltNGt2N0ZRWUNEcXJHT1VKa0RucDlXZ3REMFFvSDZiUnlIV05NeA?oc=5",
-          "summary": "JKLF chief Yasin Malik among 5 named in chargesheet in 1990 Sarla Bhat killing case &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-06-29T12:20:47.000Z"
-        },
-        {
-          "name": "The News Mill",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS1BkUkV1SnFzMGEtN0VCQTR0NHRVQTF1SVpIODNVa0Q0LXUzek1JZ0FHYlU5djNiZGJWVVM1NGVGY2ZkUlFVM1E5RUVENk5tUHZxYmt0eGZvUUpYSkFIcUdCUW9qa01DLVlVY25MM2xqNDFiNHhqbEVJTHdXQlA1MkZYQkJGYzVUMm1EdmtwOUYxcmVMTmVYOVl5Y3R3Q2dVYTBZcE53?oc=5",
-          "summary": "Yasin Malik accused in Sarla Bhat murder chargesheet in Kashmir &nbsp;&nbsp; The News Mill",
-          "publishedAt": "2026-06-29T14:58:48.000Z"
-        },
-        {
-          "name": "KNS News",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUFhZaS15RGNLalU4Q2RZY3pDcmNyeGxkcGZrekh5STEzZ3NPdFpnX2tRT2FPZ19TR05tQkpTX0hNZkpVWVNFOXZGRklwYTYyc0ktUE8xdVRYUk1xZmd3V1BjTi1Nb1dBVFc0S3haYm96Z2I3bFBVd1JWNGx6WThqc3dZZDUtZUJVU0xoVzdKWk80eS1vejdERW8tYjJscXZaSEd3T3JB?oc=5",
-          "summary": "SIA Names Five, Including Yasin Malik, in 1990 Sarla Bhat Murder Case &nbsp;&nbsp; KNS News",
-          "publishedAt": "2026-06-29T10:51:41.000Z"
+          "name": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBS0lxcERqM3lFMjZUZkplaXE4MUV6SDZZOVo1SmxrN1BjYU9rM211SUpxcVdndDZTMWlEdUt1dGRmT3M4LTJ4VHpOUGRlbGhOQzJyX3R5UGhOODFU?oc=5",
+          "summary": "Homes harder to sell as high mortgage rates frustrate buyers &nbsp;&nbsp; BBC",
+          "publishedAt": "2026-06-29T23:08:44.000Z"
         }
       ],
-      "sourceCount": 4
+      "sourceCount": 2
+    },
+    {
+      "id": "we-can-t-continue-like-this-inquiry-demands-nhs-maternity-overhaul-general-2026-06-29t23-02-44-000z",
+      "title": "'We can't continue like this': Inquiry demands NHS maternity overhaul",
+      "link": "https://www.bbc.co.uk/news/articles/cddlgqpg7mzo?at_medium=RSS&at_campaign=rss",
+      "summary": "An independent inquiry into England's maternity services has found \"unacceptable racism and discrimination\" is affecting patient safety.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d02b/live/fc11ca60-73e7-11f1-bb9e-33cb2da512b5.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-06-29T23:02:44.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cddlgqpg7mzo?at_medium=RSS&at_campaign=rss",
+          "summary": "An independent inquiry into England's maternity services has found \"unacceptable racism and discrimination\" is affecting patient safety.",
+          "publishedAt": "2026-06-29T23:02:44.000Z"
+        },
+        {
+          "name": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1tVGN0bHJDVThaLWhQX3V5alI1M1hwems4V2N2SU1yTk1FYWg0cVJNZ0xwVVB2ZnZORmpRZ3M5aHEyMTZITFZ4dngyVVZrbVloZ2YzUVZzODdRbVlv?oc=5",
+          "summary": "'We can't continue like this': Inquiry demands NHS maternity overhaul &nbsp;&nbsp; BBC",
+          "publishedAt": "2026-06-29T23:02:44.000Z"
+        }
+      ],
+      "sourceCount": 2
+    },
+    {
+      "id": "long-delayed-defence-spending-plan-to-be-published-on-tuesday-with-focus-on-drone-warfare-general-20",
+      "title": "Long-delayed defence spending plan to be published on Tuesday, with focus on drone warfare",
+      "link": "https://www.bbc.co.uk/news/articles/cwy0rw5dx1ko?at_medium=RSS&at_campaign=rss",
+      "summary": "The defence investment plan will set out how billions will be spent on equipping the UK Armed Forces.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e963/live/252a69a0-73fe-11f1-958a-899f98f625e2.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-06-29T21:30:01.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cwy0rw5dx1ko?at_medium=RSS&at_campaign=rss",
+          "summary": "The defence investment plan will set out how billions will be spent on equipping the UK Armed Forces.",
+          "publishedAt": "2026-06-29T21:30:01.000Z"
+        },
+        {
+          "name": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5TUdnSFVrX092eXJ1WHJhRmJ6bkh5c0NvRnc1Zkk0WjUydVBpZDR6Y2IxUVduV2wzaktlUGJJd29FbXhKN3Z4eFA2SEpWczY4MS1GdUJ0Z3Axcnlh?oc=5",
+          "summary": "Long-delayed defence spending plan to be published on Tuesday &nbsp;&nbsp; BBC",
+          "publishedAt": "2026-06-29T21:30:01.000Z"
+        },
+        {
+          "name": "The Independent",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMTdsT2FPekNJdDh6LS1SNllYUzhfc1g4S2NmNHBuaDB0ZnFHay1HSnJucTlCRGFuc2dpQzF4S0dnb1RQcDdJRkZ5UlM1UC1LOHNqWVNxSEdrWTM3YmRlQ2tXektHMFVwbi14a0czNXdXSGNlRXlWX0NfUlJrNGRsTm1wRll0djltaEhoSzhkUWlkRzFnbVEyVFh1czJQQTE5TG9BWm15NERSb0hrdno4?oc=5",
+          "summary": "Starmer finds an extra £1bn for defence as long-delayed spending plan finally revealed &nbsp;&nbsp; The Independent",
+          "publishedAt": "2026-06-29T21:30:00.000Z"
+        }
+      ],
+      "sourceCount": 3
     },
     {
       "id": "domestic-killers-could-face-extra-10-years-in-prison-under-new-plans-general-2026-06-29t21-37-09-000",
@@ -786,18 +815,82 @@
       "sourceCount": 2
     },
     {
-      "id": "osaka-pays-love-and-respect-to-japan-in-wimbledon-kimono-general-2026-06-29t21-11-04-000z",
-      "title": "Osaka 'pays love and respect to Japan' in Wimbledon kimono",
+      "id": "i-b-ministry-sets-up-panel-to-boost-film-industry-india-2026-06-29t21-18-10-000z",
+      "title": "I&B Ministry sets up panel to boost film industry",
+      "link": "https://www.thehindu.com/news/national/ib-ministry-sets-up-panel-to-boost-film-industry/article71162702.ece",
+      "summary": "Prasoon Joshi will chair this Group; Ministry has also prepared model State Cinema Regulations for adoption by States",
+      "image": "https://th-i.thgim.com/public/incoming/uorxqt/article71163188.ece/alternates/LANDSCAPE_1200/CABINET%20PC%20%20DELHI%202026_10_06_20.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-06-29T21:18:10.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/ib-ministry-sets-up-panel-to-boost-film-industry/article71162702.ece",
+          "summary": "Prasoon Joshi will chair this Group; Ministry has also prepared model State Cinema Regulations for adoption by States",
+          "publishedAt": "2026-06-29T21:18:10.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNnRWbFA0WXVGZTFBTFhaakViNVV1N1BEZFlrNHlzXzZxcHJzQ1ZLZjJGbjhReWtmU25aWGYwbVFyWXl5bHdZNzdmQkFBOFBaUldYNm5aTFFZMm12d0h4aEFFbWRlcGZ6Z3ZxT1RqOUlZVm5BcERIOWpqeXZnVGYxS09Pd3BQcDFlMEc1cnoxZUZHb0lEZmRTZ1RjcHgyMU5UZHF3V0ZxN0VUWkHSAbIBQVVfeXFMTkpzVGJkUWhoWk85MGdhZXJwVzRvNVdUQWFaLXB5ZTc2S0FCQmo5dVhrdUFVQjc3Y3ptMjNpdC1FeEdqc214OTdjWWhkSDNTLV9LYXI0NjlIWWNhRzNRMjNYT3hqWnA5RlJNcnFHLVNkdi13VHNsbHE0VzBIdUliNURTc0lvaXduSDhHOUluQ1d4d3gwVXFyMkc4OUxwN1R2SGo1VXlFU21kb09pcUdUYkVOQQ?oc=5",
+          "summary": "I&B Ministry sets up panel to boost film industry &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-06-29T22:02:00.000Z"
+        },
+        {
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMGxZNm9fYks2dzZ2a3ZmQWRnMFY4STNUeFk1dkNuakdVQklsblRsQ1hUOUZwWHpEUlFJdG1FZXU5ck83RkN1SHJDb1dJSWNBel9JY3BjVkU1UHBua3M3MVgxM2EwUmZwRWhzOXl4NzVjXzN3ZlZRcVZqNlNKNFI1WkkwWXdnbW5kNnMwX1p6T2lVQjN2dDV3bGZGNm15am9BbzZPWUtmd0VEenlaLUNKcExRZWdSOVU0WlRXRTFVdkZ3Q1nSAcgBQVVfeXFMT1lSaWtLY09Ta2FkMFgyTWtMaWt4eU5uR2k2N0NSdXF2VUtyemx0SVRJX20tOTRNVHdsMkRBNG1yejA0Tm1kMjQ2UDFtdXFITVhqQUVJZ0tPeFR0ZGxDTFZtYkdla2E3YkRTNVhzSlhteGdGUmc2aGFVRWJ4cVlGRUM1aWVzS09McTdNZFRTTklXRl82dnJDeS1aYXUwbkFKLVd5ZEYwLW1yUHkzMkxwUWU0aGFIblJjYS1MS2daSkhwSUlpUGJKQ1o?oc=5",
+          "summary": "Centre sets up panel on PU retirement age boost &nbsp;&nbsp; The Times of India",
+          "publishedAt": "2026-02-27T08:00:00.000Z"
+        }
+      ],
+      "sourceCount": 3
+    },
+    {
+      "id": "jklf-chief-yasin-malik-among-five-named-in-charge-sheet-in-1990-sarla-bhat-killing-case-india-2026-0",
+      "title": "JKLF chief Yasin Malik among five named in charge sheet in 1990 Sarla Bhat killing case",
+      "link": "https://www.thehindu.com/news/national/jklf-chief-yasin-malik-among-5-named-in-chargesheet-in-1990-sarla-bhat-killing-case/article71161164.ece",
+      "summary": "The State Investigation Agency revealed the involvement of Malik, then JKLF chief commander; Khurshid Ahmad Chalkoo; Abdul Hamid Sheikh; Mohammad Yousuf Sofi alias Idrees and Ghulam Mohammad Taploo ‘in planning and executing the abduction...",
+      "image": "https://th-i.thgim.com/public/incoming/ek023t/article71161200.ece/alternates/LANDSCAPE_1200/IMG_Delhi_High_Court_iss_2_1_S2BH0I00.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-06-29T20:14:54.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/jklf-chief-yasin-malik-among-5-named-in-chargesheet-in-1990-sarla-bhat-killing-case/article71161164.ece",
+          "summary": "The State Investigation Agency revealed the involvement of Malik, then JKLF chief commander; Khurshid Ahmad Chalkoo; Abdul Hamid Sheikh; Mohammad Yousuf Sofi alias Idrees and Ghulam Mohammad Taploo ‘in planning and executing the abduction...",
+          "publishedAt": "2026-06-29T20:14:54.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTW1uZWs3bXNQQnNsNk1mMHBqWHhMaG9teDB6bTB4T3g0MVkzT2l3bFhSVWhIMnBVd1lwVE1QR1I0NnF1bllJeXI1NUFJZGNVWExtWm1OdFY1Q2tXTlFHUHY1VzU0TFhIcWRQWGpXQVplSDdYRGt4cy1DOTM2cExZUTBWd1Vqczl4UmNkTmc5S2NjUW5ROHdyUm1tWk43U05Pak5uU1E2Vm93UkdxMTRJSmQ2aDVVdHprcWltNGt2N0ZRWUNEcXJHT1VKa0RucDlXZ3REMFFvSDZiUnlIV05NeNIB4AFBVV95cUxPTW1uZWs3bXNQQnNsNk1mMHBqWHhMaG9teDB6bTB4T3g0MVkzT2l3bFhSVWhIMnBVd1lwVE1QR1I0NnF1bllJeXI1NUFJZGNVWExtWm1OdFY1Q2tXTlFHUHY1VzU0TFhIcWRQWGpXQVplSDdYRGt4cy1DOTM2cExZUTBWd1Vqczl4UmNkTmc5S2NjUW5ROHdyUm1tWk43U05Pak5uU1E2Vm93UkdxMTRJSmQ2aDVVdHprcWltNGt2N0ZRWUNEcXJHT1VKa0RucDlXZ3REMFFvSDZiUnlIV05NeA?oc=5",
+          "summary": "JKLF chief Yasin Malik among 5 named in chargesheet in 1990 Sarla Bhat killing case &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-06-29T12:20:47.000Z"
+        },
+        {
+          "name": "The News Mill",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS1BkUkV1SnFzMGEtN0VCQTR0NHRVQTF1SVpIODNVa0Q0LXUzek1JZ0FHYlU5djNiZGJWVVM1NGVGY2ZkUlFVM1E5RUVENk5tUHZxYmt0eGZvUUpYSkFIcUdCUW9qa01DLVlVY25MM2xqNDFiNHhqbEVJTHdXQlA1MkZYQkJGYzVUMm1EdmtwOUYxcmVMTmVYOVl5Y3R3Q2dVYTBZcE53?oc=5",
+          "summary": "Yasin Malik accused in Sarla Bhat murder chargesheet in Kashmir &nbsp;&nbsp; The News Mill",
+          "publishedAt": "2026-06-29T14:58:48.000Z"
+        }
+      ],
+      "sourceCount": 3
+    },
+    {
+      "id": "osaka-pays-love-and-respect-to-japan-in-wimbledon-kimono-world-2026-06-29t21-11-04-000z",
+      "title": "Osaka pays 'love and respect to Japan' in Wimbledon kimono",
       "link": "https://www.bbc.co.uk/sport/tennis/articles/cd0mymk9d70o?at_medium=RSS&at_campaign=rss",
       "summary": "Naomi Osaka has long been renowned for dazzling crowds with her on-court outfits - but making that compatible with Wimbledon's all-white dress code required special inspiration.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9efa/live/44f81e60-73f1-11f1-bb7f-e5226e63ffb3.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
       "publishedAt": "2026-06-29T21:11:04.000Z",
       "sources": [
         {
-          "name": "BBC News",
+          "name": "BBC World",
           "link": "https://www.bbc.co.uk/sport/tennis/articles/cd0mymk9d70o?at_medium=RSS&at_campaign=rss",
           "summary": "Naomi Osaka has long been renowned for dazzling crowds with her on-court outfits - but making that compatible with Wimbledon's all-white dress code required special inspiration.",
           "publishedAt": "2026-06-29T21:11:04.000Z"
@@ -901,7 +994,7 @@
       "id": "galaxy-z-fold-8-ultra-could-get-a-big-camera-upgrade-while-flip-8-may-miss-out-tech-2026-06-29t20-08",
       "title": "Galaxy Z Fold 8 Ultra could get a big camera upgrade, while Flip 8 may miss out",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUkFJTmkzZG5rNmNINXVLVHRfdERna1FEV3M1TldXQXJOb0gzbkltTVhQSEZvQmJ3NFRvbGl6N1pzaWl0WUFCSnVWY3E2TGhQaUFSX3pqNlBBZlZFeHFPcWp6ZktrQnJyS3EtNUVlN1pCeVJRNm9fZ3RWeWpjNFF3cTdDaw?oc=5",
-      "summary": "Galaxy Z Fold 8 Ultra could get a big camera upgrade, while Flip 8 may miss out &nbsp;&nbsp; Android Authority Samsung Galaxy Z Fold 8 Wide Gets New Confirmation Before Release &nbsp;&nbsp; Forbes Samsung adds more camera suppliers for Gal...",
+      "summary": "Galaxy Z Fold 8 Ultra could get a big camera upgrade, while Flip 8 may miss out &nbsp;&nbsp; Android Authority Samsung Galaxy Z Fold 8 Wide Gets New Confirmation Before Release &nbsp;&nbsp; Forbes Samsung’s confusing ‘Galaxy Z Fold 8 Ultra...",
       "image": "",
       "source": "Android Authority",
       "category": "tech",
@@ -911,7 +1004,7 @@
         {
           "name": "Android Authority",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUkFJTmkzZG5rNmNINXVLVHRfdERna1FEV3M1TldXQXJOb0gzbkltTVhQSEZvQmJ3NFRvbGl6N1pzaWl0WUFCSnVWY3E2TGhQaUFSX3pqNlBBZlZFeHFPcWp6ZktrQnJyS3EtNUVlN1pCeVJRNm9fZ3RWeWpjNFF3cTdDaw?oc=5",
-          "summary": "Galaxy Z Fold 8 Ultra could get a big camera upgrade, while Flip 8 may miss out &nbsp;&nbsp; Android Authority Samsung Galaxy Z Fold 8 Wide Gets New Confirmation Before Release &nbsp;&nbsp; Forbes Samsung adds more camera suppliers for Gal...",
+          "summary": "Galaxy Z Fold 8 Ultra could get a big camera upgrade, while Flip 8 may miss out &nbsp;&nbsp; Android Authority Samsung Galaxy Z Fold 8 Wide Gets New Confirmation Before Release &nbsp;&nbsp; Forbes Samsung’s confusing ‘Galaxy Z Fold 8 Ultra...",
           "publishedAt": "2026-06-29T20:08:44.000Z"
         },
         {
@@ -965,21 +1058,15 @@
           "link": "https://www.bbc.co.uk/news/articles/cqj1210rj0yo?at_medium=RSS&at_campaign=rss",
           "summary": "In areas devastated by the twin earthquakes, people are using crowbars, pickaxes and their bare hands to try to reach survivors.",
           "publishedAt": "2026-06-29T20:00:44.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xRmNYYlBhSHpwOFhvS1JXUDMtdGI5X1lIYWZXZ3QxZ3ZWTy1ZWkhMRGlCeHMwWlk0WmdTMzV6d2otZWJIX2w0OUY1OGVtb3Jvd01Ec055SDJfUW1t?oc=5",
-          "summary": "Aftershock frays nerves as many Venezuelans left to fend for themselves &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-06-29T20:00:44.000Z"
         }
       ],
-      "sourceCount": 2
+      "sourceCount": 1
     },
     {
       "id": "watch-2-nasa-astronauts-fix-iss-huge-robotic-arm-during-june-30-spacewalk-tech-2026-06-29t20-00-00-0",
       "title": "Watch 2 NASA astronauts fix ISS' huge robotic arm during June 30 spacewalk",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU3JoWGpJOE1Rbmpld3AtSjFhanVQWnZOS0FfX2hSdmp3dnBHNFhhX19xU2FMUnJtdjM2S2Q1UWo3d2UtaGhZcm1tanNZUkh1bVhjVDJ4OUJ5OVZZSmNwVnFmOFVsT1FpQktxLUZaM0NqeTgza0N2Ti1hTlU4d0duWTY4eFVKMEhjWnhiSUkydFhsMXB5SDhNcXpvQm1pUUhyV3NyMXNVWVR0WXEyYWpONzYtYXdQeXp2MF8xOW51SUN4VVlnYno1MVRYbmJpWHBPY2IzVkJ4VlI?oc=5",
-      "summary": "Watch 2 NASA astronauts fix ISS' huge robotic arm during June 30 spacewalk &nbsp;&nbsp; Space NASA to Cover US Spacewalk 95, Host Preview News Conference &nbsp;&nbsp; NASA (.gov) NASA astronauts to conduct 7-hr spacewalk to fix broken ISS...",
+      "summary": "Watch 2 NASA astronauts fix ISS' huge robotic arm during June 30 spacewalk &nbsp;&nbsp; Space NASA to Cover US Spacewalk 95, Host Preview News Conference &nbsp;&nbsp; NASA (.gov) Netflix to stream next NASA spacewalk outside ISS. Watch liv...",
       "image": "",
       "source": "Space",
       "category": "tech",
@@ -989,17 +1076,31 @@
         {
           "name": "Space",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU3JoWGpJOE1Rbmpld3AtSjFhanVQWnZOS0FfX2hSdmp3dnBHNFhhX19xU2FMUnJtdjM2S2Q1UWo3d2UtaGhZcm1tanNZUkh1bVhjVDJ4OUJ5OVZZSmNwVnFmOFVsT1FpQktxLUZaM0NqeTgza0N2Ti1hTlU4d0duWTY4eFVKMEhjWnhiSUkydFhsMXB5SDhNcXpvQm1pUUhyV3NyMXNVWVR0WXEyYWpONzYtYXdQeXp2MF8xOW51SUN4VVlnYno1MVRYbmJpWHBPY2IzVkJ4VlI?oc=5",
-          "summary": "Watch 2 NASA astronauts fix ISS' huge robotic arm during June 30 spacewalk &nbsp;&nbsp; Space NASA to Cover US Spacewalk 95, Host Preview News Conference &nbsp;&nbsp; NASA (.gov) NASA astronauts to conduct 7-hr spacewalk to fix broken ISS...",
+          "summary": "Watch 2 NASA astronauts fix ISS' huge robotic arm during June 30 spacewalk &nbsp;&nbsp; Space NASA to Cover US Spacewalk 95, Host Preview News Conference &nbsp;&nbsp; NASA (.gov) Netflix to stream next NASA spacewalk outside ISS. Watch liv...",
           "publishedAt": "2026-06-29T20:00:00.000Z"
-        },
-        {
-          "name": "India Today",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONUFucVktRXRXSzRUUERyX2ZkX3c1ai1VRXdIWkVIVGxNUjFJUEQtMVFpdTJoY0g1RE9BajkxMFVKb0UzTmtWd1dNRGw4SDNUUVZyMFlaSnU0clFidl94Qk51OFdjbHBWU01jNUZWWEN6cVA5NUFoY3piWFBITTU2ZERPQjBiU2ppZV9hV2pUXzRRV0xuUHFOdVhkRFZYUWtELTQ4ckxGVnBuQnVEelVXUnFNX00zRGUzSkcyVDZGUjNrVFFpSVc1UTU5MNIB0AFBVV95cUxObUlqSHFfd19qX3Q5cVpqR0VUb2pFNkhEVk1fLU5XQksyNFRITHBHd2ZOT2J5di1DUzRfQ0pIQ2JaYWNSN3Z2dzEzbGlXMlNoQl95R2tLdzdReTE5U1ZDXzFKUnZNSjNHOGlnSXloX3FyWFpHRDlwNmpwSlVvaDJNZl9Ubjd3ME5QZmcwQVpERFB4alQzR0xMOWtzMDlTX2ZMOWF0ZWFyVFNfZlRJdVhULWRpeG1RNDJlRTk4bXhyTjZRUWQwd3RKZno2MVN2c2FJ?oc=5",
-          "summary": "Two Nasa astronauts to conduct seven-hour-long spacewalk to fix broken robotic arm &nbsp;&nbsp; India Today",
-          "publishedAt": "2026-06-24T13:17:11.000Z"
         }
       ],
-      "sourceCount": 2
+      "sourceCount": 1
+    },
+    {
+      "id": "bengal-passes-preventive-detention-legal-curbs-bill-india-2026-06-29t19-56-01-000z",
+      "title": "Bengal passes preventive detention, legal curbs Bill",
+      "link": "https://www.thehindu.com/news/national/west-bengal/bengal-brings-bill-on-year-long-detention-restricting-legal-access/article71162236.ece",
+      "summary": "Govt. can detain a person to prevent anti-social activity for a year; CM Suvendu Adhikari says State “will not misuse (law)... for political vendetta”; law won’t stand legal scrutiny, says Trinamool MLA",
+      "image": "https://th-i.thgim.com/public/incoming/dfhgvf/article71162913.ece/alternates/LANDSCAPE_1200/20260622094L.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-06-29T19:56:01.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/west-bengal/bengal-brings-bill-on-year-long-detention-restricting-legal-access/article71162236.ece",
+          "summary": "Govt. can detain a person to prevent anti-social activity for a year; CM Suvendu Adhikari says State “will not misuse (law)... for political vendetta”; law won’t stand legal scrutiny, says Trinamool MLA",
+          "publishedAt": "2026-06-29T19:56:01.000Z"
+        }
+      ],
+      "sourceCount": 1
     },
     {
       "id": "vellayil-to-get-a-facelift-with-two-major-projects-india-2026-06-29t19-55-43-000z",
@@ -1062,21 +1163,21 @@
       "sourceCount": 1
     },
     {
-      "id": "martinelli-scores-late-as-brazil-beat-japan-2-1-into-world-cup-last-16-sports-2026-06-29t19-36-24-00",
-      "title": "Martinelli scores late as Brazil beat Japan 2-1, into World Cup last 16",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZEJyTy1NR1h6OUlLZnQzb2RDd0tJMDNMN2phRnFNbkFHZUxqV2U5aURVQ1hTMmoyQ1AyM1oyWTZzVzBCUm1ydnVzRHNuMmNBc1BaZFdmdU1aLUY3ek9Qd2pjOUttbmhYVXdPTGttb21aUXcta3ZRZERvaUFacjF0T0NIMkRWcWQ4UUNhcFFVOV9ZTmNOOFRoOWZnVllsdzZzOFBYOGJPTEZDQkZ1YmdVeFd3SzfSAboBQVVfeXFMTVdiZ3BnUmNycWlER3JKdEJ2dGFrNW1mMHBDTWotVkg1SXdhQ3gxcUNWRk9SSGNicWNnRVo0NGVrMFVWNE1ZRVNGd2pMZldyOWNPazc5OVd2SGVDVTNzV3M2a2dWQ1VwU0hYMlRPLUwtXzVUS3hDQllTeU51bnNJSm5ianhUR2tzQ2VWN2hvTHBTN0dkWmRrLWNHZXVHVWtFZkYzMDJlZWFzaWotNGltNHlIOFVSQ0RqOXFR?oc=5",
-      "summary": "Martinelli scores late as Brazil beat Japan 2-1, into World Cup last 16 &nbsp;&nbsp; Al Jazeera Casemiro: 'Calm,' 'patience' key to Brazil win over Japan at World Cup &nbsp;&nbsp; ESPN India 45 minutes from Brazil humiliation - but 'Crafty...",
+      "id": "no-negotiation-at-any-level-iran-refutes-donald-trump-s-claim-of-planned-us-talks-in-doha-general-20",
+      "title": "'No negotiation at any level': Iran refutes Donald Trump's claim of planned US talks in Doha",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNYnZDMWJweVc4UWNGWUl6TV84Z0wtSU1LeXVOQWpSa2g5ai02YVJJS1hLUURtR1FFZlJzOU5HbzFnaG9NMnBFSW1sVmZrVU85STVadGVWY25Wb2tDVmdkb3Q3WmRydm5UaXhyVjg4YkZrR1haYzhCVnZIMXdZd3ZBQzBjdGItRXJ6dElyXzZLeE8xZjJiNHNDeWUyVURTbVBLOTVqTVhlSWRhMzc5Z3RRb3lNZDZZV3VWX3I2SG5rempxa3hxWDVaNW9UaWF3Tzc2VUpHZG5uT240UTVpbXlGWFUzMmlQNVVpVUZiZkV4b25XVFpuOWs4VmVOd3E?oc=5",
+      "summary": "'No negotiation at any level': Iran refutes Donald Trump's claim of planned US talks in Doha &nbsp;&nbsp; The Times of India Trump claims Iran has agreed to hold peace talks in Doha after recent clashes &nbsp;&nbsp; The Guardian Trump says...",
       "image": "",
-      "source": "Al Jazeera",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-06-29T19:36:24.000Z",
+      "source": "The Times of India",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-06-29T19:45:00.000Z",
       "sources": [
         {
-          "name": "Al Jazeera",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZEJyTy1NR1h6OUlLZnQzb2RDd0tJMDNMN2phRnFNbkFHZUxqV2U5aURVQ1hTMmoyQ1AyM1oyWTZzVzBCUm1ydnVzRHNuMmNBc1BaZFdmdU1aLUY3ek9Qd2pjOUttbmhYVXdPTGttb21aUXcta3ZRZERvaUFacjF0T0NIMkRWcWQ4UUNhcFFVOV9ZTmNOOFRoOWZnVllsdzZzOFBYOGJPTEZDQkZ1YmdVeFd3SzfSAboBQVVfeXFMTVdiZ3BnUmNycWlER3JKdEJ2dGFrNW1mMHBDTWotVkg1SXdhQ3gxcUNWRk9SSGNicWNnRVo0NGVrMFVWNE1ZRVNGd2pMZldyOWNPazc5OVd2SGVDVTNzV3M2a2dWQ1VwU0hYMlRPLUwtXzVUS3hDQllTeU51bnNJSm5ianhUR2tzQ2VWN2hvTHBTN0dkWmRrLWNHZXVHVWtFZkYzMDJlZWFzaWotNGltNHlIOFVSQ0RqOXFR?oc=5",
-          "summary": "Martinelli scores late as Brazil beat Japan 2-1, into World Cup last 16 &nbsp;&nbsp; Al Jazeera Casemiro: 'Calm,' 'patience' key to Brazil win over Japan at World Cup &nbsp;&nbsp; ESPN India 45 minutes from Brazil humiliation - but 'Crafty...",
-          "publishedAt": "2026-06-29T19:36:24.000Z"
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNYnZDMWJweVc4UWNGWUl6TV84Z0wtSU1LeXVOQWpSa2g5ai02YVJJS1hLUURtR1FFZlJzOU5HbzFnaG9NMnBFSW1sVmZrVU85STVadGVWY25Wb2tDVmdkb3Q3WmRydm5UaXhyVjg4YkZrR1haYzhCVnZIMXdZd3ZBQzBjdGItRXJ6dElyXzZLeE8xZjJiNHNDeWUyVURTbVBLOTVqTVhlSWRhMzc5Z3RRb3lNZDZZV3VWX3I2SG5rempxa3hxWDVaNW9UaWF3Tzc2VUpHZG5uT240UTVpbXlGWFUzMmlQNVVpVUZiZkV4b25XVFpuOWs4VmVOd3E?oc=5",
+          "summary": "'No negotiation at any level': Iran refutes Donald Trump's claim of planned US talks in Doha &nbsp;&nbsp; The Times of India Trump claims Iran has agreed to hold peace talks in Doha after recent clashes &nbsp;&nbsp; The Guardian Trump says...",
+          "publishedAt": "2026-06-29T19:45:00.000Z"
         }
       ],
       "sourceCount": 1
@@ -1097,26 +1198,6 @@
           "link": "https://www.bbc.co.uk/news/articles/c5yz4x9ew49o?at_medium=RSS&at_campaign=rss",
           "summary": "BBC Verify has looked at what impact further devolution could be expected to have on the UK.",
           "publishedAt": "2026-06-29T19:33:26.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "latest-on-us-iran-live-iranian-media-reports-no-talks-despite-trump-s-update-on-qatar-meet-world-new",
-      "title": "Latest on US, Iran LIVE: Iranian media reports 'no talks' despite Trump's update on Qatar meet | World News",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPcWRkSnIwd254ZjBTakU4RHgyS2NKTHJ6TEM4aXk0TjN1b0toWkwyZkt6WkxKWGFqaTFRbmd4V095ekZBdE0zMFM2bk1mY0tMbi1FUTJKWjVSVjJOQWFVY3haTUtDSVBOdG1OcTlxWk1ld1NZZkdjQ0dJTlVZOWxNR0NXbVFYMlJ5b3QySVRtSDBRUXZhcVc3QV8zQ0pyVF90M2lETHRnUzFTc0JsWkVnZ1JMMnFnSGNkQWxOSk92RFBJbURhekI2bHJSM1VPc3lFeFQ2alBwY3lDdEVVa2xTemxJcXg5cmRVaXNxMkgwS0xiTGx3Z3hRUUoyai1QZlBrSEQ4eUxlazR0dEHSAZACQVVfeXFMT3JjeDBjNmxDLWx5STZaeTNqM2ExR1ByV2pvaUZWUmFhM1lHa1NKVFdyX2pBSWJoYkRLcDB4NG9XZlk3Z3ZfNlQ4Tko0dWQ1NjdWWWEyNkNPNXh5djVRM1hQaF9fZF9UR3RIY3FINVNiYjVIMElkaDBoNXRmZllZeEZvR2F5R0hNM0hSdEg4ZnNxeGc0dUpJQ2phSW5KWmdmMnJoZnBtbnA5SzZVNkNkeGVUendfLTFKVDFzY0NMcUNtV2ZHd05BQ1dhaXl4djZSZW9Jd3JOQ2Nnb0F4Q2VERGx6QTU0UDB2cng2aEtDcmthZEZvNFZjX3VLOFhzdGM0U0RLaS1EYnNSeTFCREtQWXk?oc=5",
-      "summary": "Latest on US, Iran LIVE: Iranian media reports 'no talks' despite Trump's update on Qatar meet | World News &nbsp;&nbsp; Hindustan Times Trump says U.S.-Iran meeting to take place in Qatar as Tehran denies any sit-down in coming days &nbsp...",
-      "image": "",
-      "source": "Hindustan Times",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-06-29T19:18:01.000Z",
-      "sources": [
-        {
-          "name": "Hindustan Times",
-          "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPcWRkSnIwd254ZjBTakU4RHgyS2NKTHJ6TEM4aXk0TjN1b0toWkwyZkt6WkxKWGFqaTFRbmd4V095ekZBdE0zMFM2bk1mY0tMbi1FUTJKWjVSVjJOQWFVY3haTUtDSVBOdG1OcTlxWk1ld1NZZkdjQ0dJTlVZOWxNR0NXbVFYMlJ5b3QySVRtSDBRUXZhcVc3QV8zQ0pyVF90M2lETHRnUzFTc0JsWkVnZ1JMMnFnSGNkQWxOSk92RFBJbURhekI2bHJSM1VPc3lFeFQ2alBwY3lDdEVVa2xTemxJcXg5cmRVaXNxMkgwS0xiTGx3Z3hRUUoyai1QZlBrSEQ4eUxlazR0dEHSAZACQVVfeXFMT3JjeDBjNmxDLWx5STZaeTNqM2ExR1ByV2pvaUZWUmFhM1lHa1NKVFdyX2pBSWJoYkRLcDB4NG9XZlk3Z3ZfNlQ4Tko0dWQ1NjdWWWEyNkNPNXh5djVRM1hQaF9fZF9UR3RIY3FINVNiYjVIMElkaDBoNXRmZllZeEZvR2F5R0hNM0hSdEg4ZnNxeGc0dUpJQ2phSW5KWmdmMnJoZnBtbnA5SzZVNkNkeGVUendfLTFKVDFzY0NMcUNtV2ZHd05BQ1dhaXl4djZSZW9Jd3JOQ2Nnb0F4Q2VERGx6QTU0UDB2cng2aEtDcmthZEZvNFZjX3VLOFhzdGM0U0RLaS1EYnNSeTFCREtQWXk?oc=5",
-          "summary": "Latest on US, Iran LIVE: Iranian media reports 'no talks' despite Trump's update on Qatar meet | World News &nbsp;&nbsp; Hindustan Times Trump says U.S.-Iran meeting to take place in Qatar as Tehran denies any sit-down in coming days &nbsp...",
-          "publishedAt": "2026-06-29T19:18:01.000Z"
         }
       ],
       "sourceCount": 1
@@ -1162,10 +1243,10 @@
       "sourceCount": 1
     },
     {
-      "id": "germany-vs-paraguay-live-2026-world-cup-round-of-32-updates-sports-2026-06-29t19-07-48-000z",
-      "title": "Germany vs Paraguay LIVE: 2026 World Cup round-of-32 updates",
+      "id": "germany-vs-paraguay-live-world-cup-2026-updates-as-round-of-32-clash-goes-into-extra-time-sports-202",
+      "title": "Germany vs Paraguay LIVE: World Cup 2026 updates as round of 32 clash goes into extra time",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ29ETXFLT1J5QXNqeDZwXzZqUlcwZkJqYnJqMXd3MTNiNnBuMnhZdU16OVlTdDJIYkptN011R0NmN3l4UjJYZHVvQTU3b0U3Y2pFeDhxOERFeHVlTVZYWGphOGZmQzA2U3hhWlhTa1pucHRrYXNtZWZmNjZTd2tRMmtVSTZjVEVmcDh6d05kOVF1LWFjM3ozRTFfMWttQUpCYV85akpob08?oc=5",
-      "summary": "Germany vs Paraguay LIVE: 2026 World Cup round-of-32 updates &nbsp;&nbsp; ESPN India Germany vs Paraguay, FIFA World Cup LIVE updates: Third Round of 32 clash under way &nbsp;&nbsp; The Hindu Germany vs Paraguay Stats: 2026 World Cup Round...",
+      "summary": "Germany vs Paraguay LIVE: World Cup 2026 updates as round of 32 clash goes into extra time &nbsp;&nbsp; ESPN India Paraguay beat Germany on penalties to reach last 16 of World Cup 2026 – live reaction &nbsp;&nbsp; The Guardian Germany vs P...",
       "image": "",
       "source": "ESPN India",
       "category": "sports",
@@ -1175,7 +1256,7 @@
         {
           "name": "ESPN India",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ29ETXFLT1J5QXNqeDZwXzZqUlcwZkJqYnJqMXd3MTNiNnBuMnhZdU16OVlTdDJIYkptN011R0NmN3l4UjJYZHVvQTU3b0U3Y2pFeDhxOERFeHVlTVZYWGphOGZmQzA2U3hhWlhTa1pucHRrYXNtZWZmNjZTd2tRMmtVSTZjVEVmcDh6d05kOVF1LWFjM3ozRTFfMWttQUpCYV85akpob08?oc=5",
-          "summary": "Germany vs Paraguay LIVE: 2026 World Cup round-of-32 updates &nbsp;&nbsp; ESPN India Germany vs Paraguay, FIFA World Cup LIVE updates: Third Round of 32 clash under way &nbsp;&nbsp; The Hindu Germany vs Paraguay Stats: 2026 World Cup Round...",
+          "summary": "Germany vs Paraguay LIVE: World Cup 2026 updates as round of 32 clash goes into extra time &nbsp;&nbsp; ESPN India Paraguay beat Germany on penalties to reach last 16 of World Cup 2026 – live reaction &nbsp;&nbsp; The Guardian Germany vs P...",
           "publishedAt": "2026-06-29T19:07:48.000Z"
         }
       ],
@@ -1245,7 +1326,7 @@
       "id": "what-is-sinner-s-record-in-five-set-matches-sports-2026-06-29t17-51-27-000z",
       "title": "What is Sinner's record in five-set matches?",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMU1FTnU4V0YyOFV6d09oODRnbTZvYXZJa3VEMXhreDY0SFpQbHdDd2lLbUZqeDlYNDdkWUFoU25keGFOeHpIdUtHaFNLOFJ3T2tXcER6QmsyTXNnUmRtdUFkbXh3dWpaSFBhalRQX1RBemdOajJhNEtJc2RnT1FtNGNqdw?oc=5",
-      "summary": "What is Sinner's record in five-set matches? &nbsp;&nbsp; ATP Tour Wimbledon 2026 results: Jannik Sinner survives five-set scare against Miomir Kecmanovic &nbsp;&nbsp; BBC Bloodied But Unbowed: Jannik Sinner Avoids Shock Exit At Wimbledon...",
+      "summary": "What is Sinner's record in five-set matches? &nbsp;&nbsp; ATP Tour Wimbledon 2026 results: Jannik Sinner survives five-set scare against Miomir Kecmanovic &nbsp;&nbsp; BBC 'Nervy' Sinner on opening Centre Court play & R1 fightback &nbsp;&n...",
       "image": "",
       "source": "ATP Tour",
       "category": "sports",
@@ -1255,7 +1336,7 @@
         {
           "name": "ATP Tour",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMU1FTnU4V0YyOFV6d09oODRnbTZvYXZJa3VEMXhreDY0SFpQbHdDd2lLbUZqeDlYNDdkWUFoU25keGFOeHpIdUtHaFNLOFJ3T2tXcER6QmsyTXNnUmRtdUFkbXh3dWpaSFBhalRQX1RBemdOajJhNEtJc2RnT1FtNGNqdw?oc=5",
-          "summary": "What is Sinner's record in five-set matches? &nbsp;&nbsp; ATP Tour Wimbledon 2026 results: Jannik Sinner survives five-set scare against Miomir Kecmanovic &nbsp;&nbsp; BBC Bloodied But Unbowed: Jannik Sinner Avoids Shock Exit At Wimbledon...",
+          "summary": "What is Sinner's record in five-set matches? &nbsp;&nbsp; ATP Tour Wimbledon 2026 results: Jannik Sinner survives five-set scare against Miomir Kecmanovic &nbsp;&nbsp; BBC 'Nervy' Sinner on opening Centre Court play & R1 fightback &nbsp;&n...",
           "publishedAt": "2026-06-29T17:51:27.000Z"
         }
       ],
@@ -1368,26 +1449,6 @@
       "sourceCount": 1
     },
     {
-      "id": "resident-doctors-in-england-accept-pay-deal-and-end-strikes-general-2026-06-29t16-45-16-000z",
-      "title": "Resident doctors in England accept pay deal and end strikes",
-      "link": "https://www.bbc.co.uk/news/articles/cwy01n5z48qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Doctors have been locked in a three-year dispute with the government, resulting in several rounds of strikes.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe6b/live/46c456b0-73a0-11f1-a8fc-c51d60fec73b.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-06-29T16:45:16.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/cwy01n5z48qo?at_medium=RSS&at_campaign=rss",
-          "summary": "Doctors have been locked in a three-year dispute with the government, resulting in several rounds of strikes.",
-          "publishedAt": "2026-06-29T16:45:16.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "the-best-july-4th-sales-we-found-so-far-tech-2026-06-29t16-42-48-000z",
       "title": "The best July 4th sales we found so far",
       "link": "https://www.theverge.com/gadgets/958906/best-july-4th-tech-deal-sale",
@@ -1431,7 +1492,7 @@
       "id": "catching-up-on-border-infrastructure-says-kiren-rijiju-after-tribal-group-claims-land-grab-by-china",
       "title": "Catching up on border infrastructure, says Kiren Rijiju after tribal group claims land grab by China",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNTlOTTUwQlNnQzMxYlFRVlVMYk5GLWxRWXNXTEc2RlV0aDc2bGV3bmp3SEg3dmFGTkZTUTNZTkxVM1A0bmx6UlU1dHlOUjZCTjhyeFN2OUNIam9BZjd4N2w3YzNfRFRLWU1SS2pnZ09OdXhQTWZTSFBkeFYtemFzb0NlOFRSY0ZOOEdlVTZlQVRfMGJyc2NsSTZMZV9xSkdpbnpReEFTb3lnSm16c281eEZFbVFOdkZGYW00bVpXbU04OHVDT2VJY29JaXJ2ZmJhVlFDSFRMdVc0aFBDR0l0enNhemJjYktLTG45aUZKa9IB9gFBVV95cUxOSjhOVHBnZkZfajd6WTFTMEpqekQ4aGFzZTZJd1NWV0VnNl9rZFZBNEZpVmlwTGp3QTBYeDZIczlab19BcGR0YzJrYmZsNzM3NUhQYzNBTEMyc2VKWTItY1pZLUNCVFljVjR5ZmVfZmk4OU1qeVhzQ3hBNGxsTTBRSi1iT2J0MmhZTWgtLUZjR2s0ZGlWV3NlYjZGLThBTHIxb0M2X2J0VHlpdEpHMUFxYUNMTmdDRG5vYWhXancwQnhKcDZ0WXJHNVlJT3F2aHBndkNpMGVvUzU2LUVNeElCTy1fQlhGbDc0RE1mbk43dmd4aDE0T1E?oc=5",
-      "summary": "Catching up on border infrastructure, says Kiren Rijiju after tribal group claims land grab by China &nbsp;&nbsp; The Hindu Nah tribe alleges Chinese PLA occupation of Arunachal land &nbsp;&nbsp; MSN ‘China encroaching on ancestral land’:...",
+      "summary": "Catching up on border infrastructure, says Kiren Rijiju after tribal group claims land grab by China &nbsp;&nbsp; The Hindu PLA set up camps allegedly inside Taksing area | Terming ‘encroachment’, NWS seeks GoAP-GoI intervention &nbsp;&nbs...",
       "image": "",
       "source": "The Hindu",
       "category": "general",
@@ -1441,28 +1502,8 @@
         {
           "name": "The Hindu",
           "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNTlOTTUwQlNnQzMxYlFRVlVMYk5GLWxRWXNXTEc2RlV0aDc2bGV3bmp3SEg3dmFGTkZTUTNZTkxVM1A0bmx6UlU1dHlOUjZCTjhyeFN2OUNIam9BZjd4N2w3YzNfRFRLWU1SS2pnZ09OdXhQTWZTSFBkeFYtemFzb0NlOFRSY0ZOOEdlVTZlQVRfMGJyc2NsSTZMZV9xSkdpbnpReEFTb3lnSm16c281eEZFbVFOdkZGYW00bVpXbU04OHVDT2VJY29JaXJ2ZmJhVlFDSFRMdVc0aFBDR0l0enNhemJjYktLTG45aUZKa9IB9gFBVV95cUxOSjhOVHBnZkZfajd6WTFTMEpqekQ4aGFzZTZJd1NWV0VnNl9rZFZBNEZpVmlwTGp3QTBYeDZIczlab19BcGR0YzJrYmZsNzM3NUhQYzNBTEMyc2VKWTItY1pZLUNCVFljVjR5ZmVfZmk4OU1qeVhzQ3hBNGxsTTBRSi1iT2J0MmhZTWgtLUZjR2s0ZGlWV3NlYjZGLThBTHIxb0M2X2J0VHlpdEpHMUFxYUNMTmdDRG5vYWhXancwQnhKcDZ0WXJHNVlJT3F2aHBndkNpMGVvUzU2LUVNeElCTy1fQlhGbDc0RE1mbk43dmd4aDE0T1E?oc=5",
-          "summary": "Catching up on border infrastructure, says Kiren Rijiju after tribal group claims land grab by China &nbsp;&nbsp; The Hindu Nah tribe alleges Chinese PLA occupation of Arunachal land &nbsp;&nbsp; MSN ‘China encroaching on ancestral land’:...",
+          "summary": "Catching up on border infrastructure, says Kiren Rijiju after tribal group claims land grab by China &nbsp;&nbsp; The Hindu PLA set up camps allegedly inside Taksing area | Terming ‘encroachment’, NWS seeks GoAP-GoI intervention &nbsp;&nbs...",
           "publishedAt": "2026-06-29T16:33:47.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "who-was-sarla-bhat-kashmiri-pandit-nurse-s-rape-murder-case-back-in-focus-after-36-years-general-202",
-      "title": "Who Was Sarla Bhat? Kashmiri Pandit Nurse's Rape-Murder Case Back In Focus After 36 Years",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTHdWU3NBU1doSWhYcUFfZHF2bnNmYTdGeEw2cnRCQ05TTGNVamx6S0xpamdHTTJsUmlualJQOXhKWDA1R1NqVGRGVmFQa291LWoyZFM2V2R6Tk95azh0YkR2N01hMGZpMFNkM0FvSTdMT2xzWDQ4cDYwX3Uyc1Y4WkxuYkV1NjRSYk1iNDVKcWhlZTVySTFHUVZXeWgwOTZwZml3ZnBTV1dPcVBOLXVya2hOUWs0RDE2WEdTZXJucTk4cGk5LWsyS1ROU0dDTW1U0gHWAUFVX3lxTE1YQ2YyWklwc21Ncy02bUMyVHc2bE9ic0w5TzgtZmtFUmJiSUpfd082RXpsRFhxbmhCOEQ3bWVQby1Ddk1kMTh6cHBheng4MVNDMllNZ3hHZU5USFVxUlRCLUtDVnRKOUx5UGNmSG5CVVJwdnZ3Mk5FYUFKbjA4aFBnLWtBVzBzYmNVWU01Wi1aWklyZzhENjk2N1BGcmtuTHNUX3hmeGtKaUVMZVhjLUlwY3AxSURaRlU3Rll5VDYzZHpnZWM1NUVnSlZvaGYyVldRSVd6VGc?oc=5",
-      "summary": "Who Was Sarla Bhat? Kashmiri Pandit Nurse's Rape-Murder Case Back In Focus After 36 Years &nbsp;&nbsp; News18 JKLF chief Yasin Malik among five named in charge-sheet in 1990 Sarla Bhat killing case &nbsp;&nbsp; The Hindu Yasin Malik Named...",
-      "image": "",
-      "source": "News18",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-06-29T16:09:10.000Z",
-      "sources": [
-        {
-          "name": "News18",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTHdWU3NBU1doSWhYcUFfZHF2bnNmYTdGeEw2cnRCQ05TTGNVamx6S0xpamdHTTJsUmlualJQOXhKWDA1R1NqVGRGVmFQa291LWoyZFM2V2R6Tk95azh0YkR2N01hMGZpMFNkM0FvSTdMT2xzWDQ4cDYwX3Uyc1Y4WkxuYkV1NjRSYk1iNDVKcWhlZTVySTFHUVZXeWgwOTZwZml3ZnBTV1dPcVBOLXVya2hOUWs0RDE2WEdTZXJucTk4cGk5LWsyS1ROU0dDTW1U0gHWAUFVX3lxTE1YQ2YyWklwc21Ncy02bUMyVHc2bE9ic0w5TzgtZmtFUmJiSUpfd082RXpsRFhxbmhCOEQ3bWVQby1Ddk1kMTh6cHBheng4MVNDMllNZ3hHZU5USFVxUlRCLUtDVnRKOUx5UGNmSG5CVVJwdnZ3Mk5FYUFKbjA4aFBnLWtBVzBzYmNVWU01Wi1aWklyZzhENjk2N1BGcmtuTHNUX3hmeGtKaUVMZVhjLUlwY3AxSURaRlU3Rll5VDYzZHpnZWM1NUVnSlZvaGYyVldRSVd6VGc?oc=5",
-          "summary": "Who Was Sarla Bhat? Kashmiri Pandit Nurse's Rape-Murder Case Back In Focus After 36 Years &nbsp;&nbsp; News18 JKLF chief Yasin Malik among five named in charge-sheet in 1990 Sarla Bhat killing case &nbsp;&nbsp; The Hindu Yasin Malik Named...",
-          "publishedAt": "2026-06-29T16:09:10.000Z"
         }
       ],
       "sourceCount": 1
@@ -1508,26 +1549,6 @@
       "sourceCount": 1
     },
     {
-      "id": "flipkart-goat-sale-2026-iphone-17-pro-max-iphone-air-iphone-15-and-more-to-get-major-discounts-from",
-      "title": "Flipkart GOAT Sale 2026 - iPhone 17 Pro Max, iPhone Air, iPhone 15 and More to Get Major Discounts from July 4",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbS11QjI0a19UMWdUb1p0eFRuX2V5U1RoNWZvd1pwZ3ZhZEYzZWZMMnd4S1dYenBXVnl6dzZPbjdLcUZmXzBFdlYyYUNSMkc4YnBEYk9CZTRQZ2RMYWxXWUEtc0thWlBnTjRlOGlCbzFPMEQxZWFaczlnYnpQd1o1MTExWVNodEFqYnpKaUNCc3dZSnZVa0NoYm5BZEhqMGJpSThfLThXTnh0cFlRTHdZVjk1bDZBLUFrc1pkU2VwTzRlQW42WWNNQ0liYnB5WVprUVhN?oc=5",
-      "summary": "Flipkart GOAT Sale 2026 - iPhone 17 Pro Max, iPhone Air, iPhone 15 and More to Get Major Discounts from July 4 &nbsp;&nbsp; My Mobile India iPhone deals for Flipkart GOAT sale revealed; iPhone 17 to be sold at Rs 70,990, iPhone 17 Pro at R...",
-      "image": "",
-      "source": "My Mobile India",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-06-29T15:51:54.000Z",
-      "sources": [
-        {
-          "name": "My Mobile India",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbS11QjI0a19UMWdUb1p0eFRuX2V5U1RoNWZvd1pwZ3ZhZEYzZWZMMnd4S1dYenBXVnl6dzZPbjdLcUZmXzBFdlYyYUNSMkc4YnBEYk9CZTRQZ2RMYWxXWUEtc0thWlBnTjRlOGlCbzFPMEQxZWFaczlnYnpQd1o1MTExWVNodEFqYnpKaUNCc3dZSnZVa0NoYm5BZEhqMGJpSThfLThXTnh0cFlRTHdZVjk1bDZBLUFrc1pkU2VwTzRlQW42WWNNQ0liYnB5WVprUVhN?oc=5",
-          "summary": "Flipkart GOAT Sale 2026 - iPhone 17 Pro Max, iPhone Air, iPhone 15 and More to Get Major Discounts from July 4 &nbsp;&nbsp; My Mobile India iPhone deals for Flipkart GOAT sale revealed; iPhone 17 to be sold at Rs 70,990, iPhone 17 Pro at R...",
-          "publishedAt": "2026-06-29T15:51:54.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "pakistani-strikes-kill-at-least-28-civilians-in-afghanistan-un-says-world-2026-06-29t15-46-50-000z",
       "title": "Pakistani strikes kill at least 28 civilians in Afghanistan, UN says",
       "link": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
@@ -1568,26 +1589,6 @@
       "sourceCount": 1
     },
     {
-      "id": "nasa-seeks-industry-help-to-speed-lunar-tech-tech-2026-06-29t15-08-00-000z",
-      "title": "NASA Seeks Industry Help To Speed Lunar Tech",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNFMxOVRVZEJubW4waVFFaXZlMDlaTktGTXcyLV9DVlg1SDk2Qnpta0FXTWFxODVlMmxtdTA5R2YyU0dpM25JeTZRSURxN2NBTFlPTjI0VlJEOFRtOU5GMEhhUV9heC02UEc1dXdLWGdBbERBSWFuM0N3Q2FyaC11YXNmZ1Nid2s?oc=5",
-      "summary": "NASA Seeks Industry Help To Speed Lunar Tech &nbsp;&nbsp; Mirage News NextSTEP-3 A: Lunar Enabling Technology &nbsp;&nbsp; NASA (.gov) NASA Unveils 41 Awardees for 2025 Announcement of Collaboration Opportunity &nbsp;&nbsp; ExecutiveGov NA...",
-      "image": "",
-      "source": "Mirage News",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-06-29T15:08:00.000Z",
-      "sources": [
-        {
-          "name": "Mirage News",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNFMxOVRVZEJubW4waVFFaXZlMDlaTktGTXcyLV9DVlg1SDk2Qnpta0FXTWFxODVlMmxtdTA5R2YyU0dpM25JeTZRSURxN2NBTFlPTjI0VlJEOFRtOU5GMEhhUV9heC02UEc1dXdLWGdBbERBSWFuM0N3Q2FyaC11YXNmZ1Nid2s?oc=5",
-          "summary": "NASA Seeks Industry Help To Speed Lunar Tech &nbsp;&nbsp; Mirage News NextSTEP-3 A: Lunar Enabling Technology &nbsp;&nbsp; NASA (.gov) NASA Unveils 41 Awardees for 2025 Announcement of Collaboration Opportunity &nbsp;&nbsp; ExecutiveGov NA...",
-          "publishedAt": "2026-06-29T15:08:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "hdfc-bank-appoints-former-finance-secretary-rajiv-kumar-as-part-time-chairman-for-three-years-busine",
       "title": "HDFC Bank appoints former Finance Secretary Rajiv Kumar as part-time chairman for three years",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTGlRUURud0c5alpvTmlKbnU3bFNjMXJWcExacjAxSFhST3Z3V1NlYmNzM2FfZWo2YWR2ZDFPMmFHcGFUb0NxWHFwRmlNbHNCMHpaLW16SmpQVHIySHlmeFFHTnlCTERVN0w0QU1VSGplcVAxSGVRTGptaVFSX1h0bV92UlRubHZLOEJCMGZtdEJFaHREbDgyaC1fMWNYVUNCYWlPX1ZpMW5VTGtHQ1ZpX3hQUVRkMy02aExCNVlLNnZIZ1B6am9ScGppV1YxaUVoUkNOS9IB2gFBVV95cUxPQy1mYW9nc1JOMFVwX0EwNVdSWjh6UlBBeDQ2UzBqNEx5RXRjOXB5WGstVXp6T0xKNHVySVZjYzVYSGprQ01lVENJd3hlRTRzV3RHWDlMMW95emZxM05qaDYybnVPdWFEZnRhMXJMempXeWNuWkVxbGhOcXBBRzB6Z3diN08wM3JRMGtSS19abGlXUXdtZ21UcUtUY1ZGMzg2ZGFFZHVSUW9MeWhmVzNXLTZHbkRZQkhRZjd6ZVdtOExkQXE2VEdSWHhQZ3pOeFNhLWlick53Vk14dw?oc=5",
@@ -1623,6 +1624,26 @@
           "link": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss",
           "summary": "A series of strikes over the weekend saw the US and Iran accuse each other of violating the ceasefire agreement.",
           "publishedAt": "2026-06-29T14:52:10.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "amazon-prime-day-2026-iphone-17-pro-price-drops-to-rs-1-12-900-with-bank-offers-tech-2026-06-29t14-4",
+      "title": "Amazon Prime Day 2026: iPhone 17 Pro price drops to Rs 1,12,900 with bank offers",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWjBsbGlnQ2c5dkxuYnhmYUhaZnloa3hoOUlMc0pNWE9xVjV0NjdZSDBQWTZiM3ROcWpfTzQtU1I4SjZXZjlkOHBFMmdyZzVTRlFZQUhwN3lBMUhxYlFYSktlQVloOHpwcjBCM2o5MjhBVTZSWmtfTDZBaXZNRXludFJjVVp2S0lUNEpRWkZyUFU2U0JSa0FYSHAzbzlXa3AycGs5TXRMREQ5NGttLTlEVmxwbno5WG8xd2RSVW9rN1pwLWQ2TFBGc285MDNYb0o2MEk0VXJFV2rSAd4BQVVfeXFMTTA4XzNiREhJSlBvYUxSbW14bC1KWlNFS1JLR2dyQVRMVHFhRmkzY3hwY1lFVzBxbkVpZktlbkJsX0U1dUVnSzJDVkNYRW1pbnloZEdpdklPQmxwQXI3eEtsZ0pmNDRaV0lFY1E4Q0x0QktKV2QyT2FMaTZZSmViZWpqTURDOHJEZFF1UmY2dUJtVm1ORTV4SFlzX0RPczVYZDZ5NDdkMjBENU1ka3hfTFZjamZ0azhacWZOZGVZWndXSlpCbjdiNWZLSnpIZXZyLXc1WE02UzFGSm5CSHBR?oc=5",
+      "summary": "Amazon Prime Day 2026: iPhone 17 Pro price drops to Rs 1,12,900 with bank offers &nbsp;&nbsp; Moneycontrol.com iPhone deals for Flipkart GOAT sale revealed; iPhone 17 to be sold at Rs 70,990, iPhone 17 Pro at Rs 1,12,900 &nbsp;&nbsp; 91mob...",
+      "image": "",
+      "source": "Moneycontrol.com",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-06-29T14:46:57.000Z",
+      "sources": [
+        {
+          "name": "Moneycontrol.com",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWjBsbGlnQ2c5dkxuYnhmYUhaZnloa3hoOUlMc0pNWE9xVjV0NjdZSDBQWTZiM3ROcWpfTzQtU1I4SjZXZjlkOHBFMmdyZzVTRlFZQUhwN3lBMUhxYlFYSktlQVloOHpwcjBCM2o5MjhBVTZSWmtfTDZBaXZNRXludFJjVVp2S0lUNEpRWkZyUFU2U0JSa0FYSHAzbzlXa3AycGs5TXRMREQ5NGttLTlEVmxwbno5WG8xd2RSVW9rN1pwLWQ2TFBGc285MDNYb0o2MEk0VXJFV2rSAd4BQVVfeXFMTTA4XzNiREhJSlBvYUxSbW14bC1KWlNFS1JLR2dyQVRMVHFhRmkzY3hwY1lFVzBxbkVpZktlbkJsX0U1dUVnSzJDVkNYRW1pbnloZEdpdklPQmxwQXI3eEtsZ0pmNDRaV0lFY1E4Q0x0QktKV2QyT2FMaTZZSmViZWpqTURDOHJEZFF1UmY2dUJtVm1ORTV4SFlzX0RPczVYZDZ5NDdkMjBENU1ka3hfTFZjamZ0azhacWZOZGVZWndXSlpCbjdiNWZLSnpIZXZyLXc1WE02UzFGSm5CSHBR?oc=5",
+          "summary": "Amazon Prime Day 2026: iPhone 17 Pro price drops to Rs 1,12,900 with bank offers &nbsp;&nbsp; Moneycontrol.com iPhone deals for Flipkart GOAT sale revealed; iPhone 17 to be sold at Rs 70,990, iPhone 17 Pro at Rs 1,12,900 &nbsp;&nbsp; 91mob...",
+          "publishedAt": "2026-06-29T14:46:57.000Z"
         }
       ],
       "sourceCount": 1
@@ -1691,7 +1712,7 @@
       "id": "ikka-trailer-sunny-deol-brings-back-his-dhai-kilo-ka-haath-to-save-akshaye-khanna-entertainment-2026",
       "title": "Ikka Trailer: Sunny Deol Brings Back His Dhai Kilo Ka Haath To Save Akshaye Khanna",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSFBMTGZkWEwtZnViVHVNM3BYNE5XRmpZSEszTmRQM2ZVWHhoRXh1dHVKRzItWEJ6cUxyTEsyUVQweEljRktiV3ZuOXlmLTNQOVViR09XN2tuN0Z1dHFZektCUi1FZEhpYUlTd2l3U0RKSUlKRFdWT3FXeUZWTkRER2NtYnlsT3VmWVo0czNmWkV5Z2hwWmR0R2xfWVVSczk3cDZaQWxQWVNBNHBWWU1pREcyTVB3UWwzc2hQSlJlYmdfRzjSAcsBQVVfeXFMTk1pZ0RZcHlFdmtYd0hmSlh5Ty1USnVmTEFjLTFrVFRIeWhEZ1VZVWNPbU1weDVRMllkOE1VWDloRlJaLV9OTVo2R3FObjBITjM0RHpYUjZlN2xBSWFIZ3FrX0otQXFkYTNwSnQzOGNTN0J4WHJ5Y1NHeWh6RC1oUnQwMXZVeWo0cjc1RUZOV2tDcjlBZFc4SWNuazVZcmk1MVR3b2dOMVhQTGlnYzFOQ1ItYnNHRk9VRm9WQm1KVkZQQnpkZTB6aDRIQmM?oc=5",
-      "summary": "Ikka Trailer: Sunny Deol Brings Back His Dhai Kilo Ka Haath To Save Akshaye Khanna &nbsp;&nbsp; NDTV ‘Ikka’ trailer: Sunny Deol and Akshaye Khanna face each other in high-stakes courtroom-drama &nbsp;&nbsp; The Hindu Sunny Deol Reacts To A...",
+      "summary": "Ikka Trailer: Sunny Deol Brings Back His Dhai Kilo Ka Haath To Save Akshaye Khanna &nbsp;&nbsp; NDTV Sunny Deol Reacts To Akshaye Khanna's Dhurandhar Success: 'It's High Time' &nbsp;&nbsp; NDTV ‘Ikka’ trailer: Sunny Deol and Akshaye Khanna...",
       "image": "",
       "source": "NDTV",
       "category": "entertainment",
@@ -1701,7 +1722,7 @@
         {
           "name": "NDTV",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSFBMTGZkWEwtZnViVHVNM3BYNE5XRmpZSEszTmRQM2ZVWHhoRXh1dHVKRzItWEJ6cUxyTEsyUVQweEljRktiV3ZuOXlmLTNQOVViR09XN2tuN0Z1dHFZektCUi1FZEhpYUlTd2l3U0RKSUlKRFdWT3FXeUZWTkRER2NtYnlsT3VmWVo0czNmWkV5Z2hwWmR0R2xfWVVSczk3cDZaQWxQWVNBNHBWWU1pREcyTVB3UWwzc2hQSlJlYmdfRzjSAcsBQVVfeXFMTk1pZ0RZcHlFdmtYd0hmSlh5Ty1USnVmTEFjLTFrVFRIeWhEZ1VZVWNPbU1weDVRMllkOE1VWDloRlJaLV9OTVo2R3FObjBITjM0RHpYUjZlN2xBSWFIZ3FrX0otQXFkYTNwSnQzOGNTN0J4WHJ5Y1NHeWh6RC1oUnQwMXZVeWo0cjc1RUZOV2tDcjlBZFc4SWNuazVZcmk1MVR3b2dOMVhQTGlnYzFOQ1ItYnNHRk9VRm9WQm1KVkZQQnpkZTB6aDRIQmM?oc=5",
-          "summary": "Ikka Trailer: Sunny Deol Brings Back His Dhai Kilo Ka Haath To Save Akshaye Khanna &nbsp;&nbsp; NDTV ‘Ikka’ trailer: Sunny Deol and Akshaye Khanna face each other in high-stakes courtroom-drama &nbsp;&nbsp; The Hindu Sunny Deol Reacts To A...",
+          "summary": "Ikka Trailer: Sunny Deol Brings Back His Dhai Kilo Ka Haath To Save Akshaye Khanna &nbsp;&nbsp; NDTV Sunny Deol Reacts To Akshaye Khanna's Dhurandhar Success: 'It's High Time' &nbsp;&nbsp; NDTV ‘Ikka’ trailer: Sunny Deol and Akshaye Khanna...",
           "publishedAt": "2026-06-29T14:09:54.000Z"
         }
       ],
@@ -1768,21 +1789,21 @@
       "sourceCount": 1
     },
     {
-      "id": "why-did-god-do-this-to-me-karnataka-physiotherapist-found-dead-engineer-boyfriend-unconscious-family",
-      "title": "‘Why did god do this to me’: Karnataka physiotherapist found dead, engineer boyfriend unconscious; family",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQelBjeWVLSlEzQXZVeTVXQ3VHb0I0NlVuMmNPM2tNdzlMYTk5NktiYzBsVHRyTWJQRmJJZlNwRy0tN2dKemQ3d2RKNUlETUk2eTRUY3NUaWNMMW9zRWtpNFVGdDhqQll2YU9UR2RxVG5JZWdDNE91WWhzNmpmVE5zMTItUzNEMVdiNjNqWnZ4aXBNMl9sdmkxNTVNaGNXTkpwYTZIYVo3RVdWeUc1UjVHUGxhMUs1RVB4QS11X2dpZ2dPbXNGMzBSUElJZllfaUR0Z1Zwc3UxNFFueF9tWlJHVG9UR212Q0dOOWxZbWFVWUFlcjNSLVJvZkVvV3RCbzAtQW5wbGlhWXhUc1NWUnNaQWJ3ZnFOdUsyYy04NDBvd9IBpAJBVV95cUxQTDBXT2R1Wnc4MUIwNlFwcDlFNWFwd1UxZS1nZFFpeTF2VGhwZm1zd1NHNkd6YXBNTUtyMDRISmhwZ1UwVzQ1Z2hLcmd2TXIxb0VCT1RxYXZBRWNKLVJ0Y0VKS3BnRjAwamN4X08wOVpzaGtzT3VUcDRGMFR3TU1NSElhM09kZWhHZUtIcV8xX25YT3RJWEpvM250OWFNZEJrZk9Ocy1NWGcxdDRDV281bkFiS1N0aEl3Tnh3Y3MtWUN2ck9Oc05FckVTYlVBOUg4ek8wY0JUM21kbXMybVEyYV9EZXRPVW9LaGZraXoyZ2dOM0dUZTV6elRkQ25fbU5RQnNxYWZFNWc3MFFsVG51aHVHandzclZZV2lLNE1LaGhtZmNL?oc=5",
-      "summary": "‘Why did god do this to me’: Karnataka physiotherapist found dead, engineer boyfriend unconscious; family &nbsp;&nbsp; The Times of India Woman found dead at Nandi Hills homestay; male friend hospitalised &nbsp;&nbsp; The Hindu Woman Found...",
+      "id": "raped-killed-branded-an-informant-yasin-malik-is-key-accused-as-sarla-bhat-s-case-reaches-court-afte",
+      "title": "Raped, killed, branded an 'informant': Yasin Malik is key accused as Sarla Bhat's case reaches court after 36 years | India News",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPdmpqNlY5cHNrNlVzTEEydmlRNXB2Q2k5NVBQRy1JLWRFOTVnOTdiVDBaV3lrdnJoZnQtcFFyS2gzRWZ5eXVqSGcydUpzTzhYOWYySktTT3U5OG9RSklCTmREcUk1N2lrTUxRYlZReGoxWWVYUWt0Y0dLX3hkcWhNajBnZnFtcWFJeU8zdkdKS1NEaTZLWE42ZUotWXFnV0VjUE5sdnhiUE9FdXo2MFY4S1JDUXhJZkVCNmxBRzlSX0xPLVhDbEZ2SzF4R0k0M0o4Y09nUTIwY1FWMnRjcUpRSDRRREJnWGFRcG14ZV9DQTRpbjJLdFJTOWhtUDNtVnZxNGc?oc=5",
+      "summary": "Raped, killed, branded an 'informant': Yasin Malik is key accused as Sarla Bhat's case reaches court after 36 years | India News &nbsp;&nbsp; Hindustan Times JKLF chief Yasin Malik among five named in charge-sheet in 1990 Sarla Bhat killin...",
       "image": "",
-      "source": "The Times of India",
+      "source": "Hindustan Times",
       "category": "general",
       "categoryLabel": "General",
-      "publishedAt": "2026-06-29T13:35:00.000Z",
+      "publishedAt": "2026-06-29T12:56:14.000Z",
       "sources": [
         {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQelBjeWVLSlEzQXZVeTVXQ3VHb0I0NlVuMmNPM2tNdzlMYTk5NktiYzBsVHRyTWJQRmJJZlNwRy0tN2dKemQ3d2RKNUlETUk2eTRUY3NUaWNMMW9zRWtpNFVGdDhqQll2YU9UR2RxVG5JZWdDNE91WWhzNmpmVE5zMTItUzNEMVdiNjNqWnZ4aXBNMl9sdmkxNTVNaGNXTkpwYTZIYVo3RVdWeUc1UjVHUGxhMUs1RVB4QS11X2dpZ2dPbXNGMzBSUElJZllfaUR0Z1Zwc3UxNFFueF9tWlJHVG9UR212Q0dOOWxZbWFVWUFlcjNSLVJvZkVvV3RCbzAtQW5wbGlhWXhUc1NWUnNaQWJ3ZnFOdUsyYy04NDBvd9IBpAJBVV95cUxQTDBXT2R1Wnc4MUIwNlFwcDlFNWFwd1UxZS1nZFFpeTF2VGhwZm1zd1NHNkd6YXBNTUtyMDRISmhwZ1UwVzQ1Z2hLcmd2TXIxb0VCT1RxYXZBRWNKLVJ0Y0VKS3BnRjAwamN4X08wOVpzaGtzT3VUcDRGMFR3TU1NSElhM09kZWhHZUtIcV8xX25YT3RJWEpvM250OWFNZEJrZk9Ocy1NWGcxdDRDV281bkFiS1N0aEl3Tnh3Y3MtWUN2ck9Oc05FckVTYlVBOUg4ek8wY0JUM21kbXMybVEyYV9EZXRPVW9LaGZraXoyZ2dOM0dUZTV6elRkQ25fbU5RQnNxYWZFNWc3MFFsVG51aHVHandzclZZV2lLNE1LaGhtZmNL?oc=5",
-          "summary": "‘Why did god do this to me’: Karnataka physiotherapist found dead, engineer boyfriend unconscious; family &nbsp;&nbsp; The Times of India Woman found dead at Nandi Hills homestay; male friend hospitalised &nbsp;&nbsp; The Hindu Woman Found...",
-          "publishedAt": "2026-06-29T13:35:00.000Z"
+          "name": "Hindustan Times",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPdmpqNlY5cHNrNlVzTEEydmlRNXB2Q2k5NVBQRy1JLWRFOTVnOTdiVDBaV3lrdnJoZnQtcFFyS2gzRWZ5eXVqSGcydUpzTzhYOWYySktTT3U5OG9RSklCTmREcUk1N2lrTUxRYlZReGoxWWVYUWt0Y0dLX3hkcWhNajBnZnFtcWFJeU8zdkdKS1NEaTZLWE42ZUotWXFnV0VjUE5sdnhiUE9FdXo2MFY4S1JDUXhJZkVCNmxBRzlSX0xPLVhDbEZ2SzF4R0k0M0o4Y09nUTIwY1FWMnRjcUpRSDRRREJnWGFRcG14ZV9DQTRpbjJLdFJTOWhtUDNtVnZxNGc?oc=5",
+          "summary": "Raped, killed, branded an 'informant': Yasin Malik is key accused as Sarla Bhat's case reaches court after 36 years | India News &nbsp;&nbsp; Hindustan Times JKLF chief Yasin Malik among five named in charge-sheet in 1990 Sarla Bhat killin...",
+          "publishedAt": "2026-06-29T12:56:14.000Z"
         }
       ],
       "sourceCount": 1
@@ -1828,21 +1849,21 @@
       "sourceCount": 1
     },
     {
-      "id": "mount-etna-erupted-twice-but-each-eruption-came-from-a-completely-different-underground-route-tech-2",
-      "title": "Mount Etna erupted twice but each eruption came from a completely different underground route",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPc2FVTEdjWmN3TXJMaG1BQ1RzM256S1NOZ292ZEJKd0dtbUNhSUF6cEFIa3Rlbno5aExvM1NBS3RwRENNeFhycGdYenZWM0I5dDQwLVlFZ1VkRTJPNFBZdXJHUXlnVzdEM1VfUzB2Uk1WMjVlTkpzSlJZbWlkYkJvcVoyUE5XRmNiYmstazEwTDAwT19nWDQyb3RJQlJDVkhENjE5U2l6d1BfLW5HS2pLTGk0TVo5TjdZZDRxZHV3Q0sybkJla0Z6bUN3Q0RKTFBGRUdLei1Jbmt2Q1BqZ19JcTYzRGFrZFF2NnVMb3ZtUUJPN0FFWEHSAfsBQVVfeXFMT2Q5QWt1YmRzV2JFb2hUU2Y1NnBINThrbnVuWmdvNVpNNWl3U0pGbzZKcGpiTnl4R2ZkWnI1QjNJRHhlTGNHclh0YnpGLUhJQVBETUdXbFVWV2NjZGdySC1OUEpIWWpid3VRUGc0U2pHa01OTDJ3cWIzTXZoR0oteDVKOG5kTUZkaldZMEpTalV5UDRtdk9LSDFNbTk4QThmMlc1Y0FSSTZXYXJoYTJpRUxHeng1M3NUSGltUHRaYzRWV2VIOWljd3BQQUk2Q3k3TzRnOC1QOGFhZmNHWnF4V2hFSi1GSnpoa1ZNYTBZX1VqbEZSZkNrLTk1MzA?oc=5",
-      "summary": "Mount Etna erupted twice but each eruption came from a completely different underground route &nbsp;&nbsp; The Times of India Scientists stunned by the mechanism that formed Europe’s most active volcano &nbsp;&nbsp; Futura, le média qui ex...",
+      "id": "iss-risk-margin-alarming-as-nasa-nears-2030-extension-date-tech-2026-06-29t12-36-58-000z",
+      "title": "ISS Risk Margin ‘Alarming’ As NASA Nears 2030 Extension Date",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUE9ncGNQbTN4TmF6Y1ZZOGlydFo5YkpiNXB6d1ZPa0hhem5rMlF4eFlhTG9aQ29mcDM5ZWwyWmhIWkNXR2g1a1A0RHhtUlNzMXVwZkNmVXk3V2FWM3FfQ0JMX1BIUUR2aE5mRWhFTUYybm1zTzNfbTk4bV9SdWhOZjc1VlNtZU5WRFFWTw?oc=5",
+      "summary": "ISS Risk Margin ‘Alarming’ As NASA Nears 2030 Extension Date &nbsp;&nbsp; Payload Space NASA wants to dump the ISS in the sea. Experts say the plan 'raises serious concerns for ocean health' &nbsp;&nbsp; Space NASA plans to crash the ISS i...",
       "image": "",
-      "source": "The Times of India",
+      "source": "Payload Space",
       "category": "tech",
       "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-06-29T12:30:00.000Z",
+      "publishedAt": "2026-06-29T12:36:58.000Z",
       "sources": [
         {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPc2FVTEdjWmN3TXJMaG1BQ1RzM256S1NOZ292ZEJKd0dtbUNhSUF6cEFIa3Rlbno5aExvM1NBS3RwRENNeFhycGdYenZWM0I5dDQwLVlFZ1VkRTJPNFBZdXJHUXlnVzdEM1VfUzB2Uk1WMjVlTkpzSlJZbWlkYkJvcVoyUE5XRmNiYmstazEwTDAwT19nWDQyb3RJQlJDVkhENjE5U2l6d1BfLW5HS2pLTGk0TVo5TjdZZDRxZHV3Q0sybkJla0Z6bUN3Q0RKTFBGRUdLei1Jbmt2Q1BqZ19JcTYzRGFrZFF2NnVMb3ZtUUJPN0FFWEHSAfsBQVVfeXFMT2Q5QWt1YmRzV2JFb2hUU2Y1NnBINThrbnVuWmdvNVpNNWl3U0pGbzZKcGpiTnl4R2ZkWnI1QjNJRHhlTGNHclh0YnpGLUhJQVBETUdXbFVWV2NjZGdySC1OUEpIWWpid3VRUGc0U2pHa01OTDJ3cWIzTXZoR0oteDVKOG5kTUZkaldZMEpTalV5UDRtdk9LSDFNbTk4QThmMlc1Y0FSSTZXYXJoYTJpRUxHeng1M3NUSGltUHRaYzRWV2VIOWljd3BQQUk2Q3k3TzRnOC1QOGFhZmNHWnF4V2hFSi1GSnpoa1ZNYTBZX1VqbEZSZkNrLTk1MzA?oc=5",
-          "summary": "Mount Etna erupted twice but each eruption came from a completely different underground route &nbsp;&nbsp; The Times of India Scientists stunned by the mechanism that formed Europe’s most active volcano &nbsp;&nbsp; Futura, le média qui ex...",
-          "publishedAt": "2026-06-29T12:30:00.000Z"
+          "name": "Payload Space",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUE9ncGNQbTN4TmF6Y1ZZOGlydFo5YkpiNXB6d1ZPa0hhem5rMlF4eFlhTG9aQ29mcDM5ZWwyWmhIWkNXR2g1a1A0RHhtUlNzMXVwZkNmVXk3V2FWM3FfQ0JMX1BIUUR2aE5mRWhFTUYybm1zTzNfbTk4bV9SdWhOZjc1VlNtZU5WRFFWTw?oc=5",
+          "summary": "ISS Risk Margin ‘Alarming’ As NASA Nears 2030 Extension Date &nbsp;&nbsp; Payload Space NASA wants to dump the ISS in the sea. Experts say the plan 'raises serious concerns for ocean health' &nbsp;&nbsp; Space NASA plans to crash the ISS i...",
+          "publishedAt": "2026-06-29T12:36:58.000Z"
         }
       ],
       "sourceCount": 1
@@ -1911,7 +1932,7 @@
       "id": "india-s-industrial-output-grows-5-1-in-may-as-manufacturing-drives-momentum-business-2026-06-29t10-5",
       "title": "India's industrial output grows 5.1% in May as manufacturing drives momentum",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOHh5clNKWWY5eFpIU3lkQnMwcEtCa2EzQm9yMzBWb0ZoT0JsalZreW1malotZEtOYUhtWUh3cVAxZEk1VHZEaWpMV2hNOGpDc0E1bGVScVpTR2NUc1ZxUmxTVkZoSlZYZTF5WlJCY1FxN3RCazlTWXJ2NUV5cjdHOE1UTlktaWlSc3hEZWluV2hMVXYwdjJIUU80TW5MVW41cnNfNTFVRWFic2RJWFVneDBJeXFwcmIzMFNiQ0piTG9PU3NseFQxSlktTUF6eThVQnlIctIB2gFBVV95cUxQMF9iUkwyV3VNRXJMaWVFb2xJNWlsQnpxZENtV3VFckJpV09GbEt4SExrNzVoZk1GU2VNeHdaeVZqWWl4cHdFS0g0TmY4bmYzQmdpUGtLdENOcFhPQ0E3eW53S0ltSndFNnphOEFCWjcteGFLdGQtdmM1RGZfUEFhS2ZOemRaVmpIbmw2OHRNdTBac1g3WnN6NnZ1bGwtcndUZ2xLeHNxd1l2N05PUm9MRlkzQ09nbWtNemU2QXdfVG55YlBkM0tteUhIS2s0YWp0eHR2WXoxQ3ZQZw?oc=5",
-      "summary": "India's industrial output grows 5.1% in May as manufacturing drives momentum &nbsp;&nbsp; Moneycontrol.com India's May industrial output grows 5.1% y/y on higher electricity output &nbsp;&nbsp; Reuters IIP growth quickens to five-month hig...",
+      "summary": "India's industrial output grows 5.1% in May as manufacturing drives momentum &nbsp;&nbsp; Moneycontrol.com IIP growth quickens to five-month high of 5.1% on cross-sector improvements &nbsp;&nbsp; The Hindu India's May industrial output gro...",
       "image": "",
       "source": "Moneycontrol.com",
       "category": "business",
@@ -1921,7 +1942,7 @@
         {
           "name": "Moneycontrol.com",
           "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOHh5clNKWWY5eFpIU3lkQnMwcEtCa2EzQm9yMzBWb0ZoT0JsalZreW1malotZEtOYUhtWUh3cVAxZEk1VHZEaWpMV2hNOGpDc0E1bGVScVpTR2NUc1ZxUmxTVkZoSlZYZTF5WlJCY1FxN3RCazlTWXJ2NUV5cjdHOE1UTlktaWlSc3hEZWluV2hMVXYwdjJIUU80TW5MVW41cnNfNTFVRWFic2RJWFVneDBJeXFwcmIzMFNiQ0piTG9PU3NseFQxSlktTUF6eThVQnlIctIB2gFBVV95cUxQMF9iUkwyV3VNRXJMaWVFb2xJNWlsQnpxZENtV3VFckJpV09GbEt4SExrNzVoZk1GU2VNeHdaeVZqWWl4cHdFS0g0TmY4bmYzQmdpUGtLdENOcFhPQ0E3eW53S0ltSndFNnphOEFCWjcteGFLdGQtdmM1RGZfUEFhS2ZOemRaVmpIbmw2OHRNdTBac1g3WnN6NnZ1bGwtcndUZ2xLeHNxd1l2N05PUm9MRlkzQ09nbWtNemU2QXdfVG55YlBkM0tteUhIS2s0YWp0eHR2WXoxQ3ZQZw?oc=5",
-          "summary": "India's industrial output grows 5.1% in May as manufacturing drives momentum &nbsp;&nbsp; Moneycontrol.com India's May industrial output grows 5.1% y/y on higher electricity output &nbsp;&nbsp; Reuters IIP growth quickens to five-month hig...",
+          "summary": "India's industrial output grows 5.1% in May as manufacturing drives momentum &nbsp;&nbsp; Moneycontrol.com IIP growth quickens to five-month high of 5.1% on cross-sector improvements &nbsp;&nbsp; The Hindu India's May industrial output gro...",
           "publishedAt": "2026-06-29T10:56:03.000Z"
         }
       ],
@@ -1948,21 +1969,21 @@
       "sourceCount": 1
     },
     {
-      "id": "delhi-cabinet-approves-new-ev-policy-with-a-15-000-crore-budget-general-2026-06-29t10-25-09-000z",
-      "title": "Delhi Cabinet approves new EV policy with a ₹15,000-crore budget",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcHBOYU5LQWVEZzdnWGdva2ZQWFVYdmVTcTZiOG9MUWI5NFBpM2s2SV9NVDdIUU5hZjRTS1l4Z2ZNZDNTMWpkSFM1TG9OVHRFa0hPV2VfLUhQdUdwRG84NEZpNHA1LWwxc2VpSXY3MHhpN1VZX2E4T0docGJkNWxDRnhlNjgyTVVreWxWMFhlRlM2MUlTaTBDNHJsaldzbnIxYTNURkcwV2hzM0VndVlXOWJB0gG4AUFVX3lxTFBEaW95ZEdKQmNiLTZrdG51TzdrM0RjRklqN01sOG9qMm5hS1RreDlLakdja0xvcTVjdFVYN0ZBTlgzcGVTem0wd0N3X1ppOFhPOEVkTlU2VUFaSTNhSHVISFZOQUc2RmUzeGI4enI2RWVzR0NrUjRyeFpsdjRGMHk1TW5HdGoyU3B1ZUxObTJmTEYyS3FJdnRleXRqSHBJSmZfZTZobHp6WXkzeXpMRTQzcnFwaThXTVU?oc=5",
-      "summary": "Delhi Cabinet approves new EV policy with a ₹15,000-crore budget &nbsp;&nbsp; The Hindu Delhi EV Policy 2026: Subsidies, Zero Road Tax, End Of Petrol Two-Wheelers By 2028 &nbsp;&nbsp; NDTV Only electric two-wheelers to ply on Delhi roads f...",
+      "id": "gold-price-crash-why-indian-households-are-rushing-to-sell-their-old-gold-jewellery-business-2026-06",
+      "title": "Gold price crash: Why Indian households are rushing to sell their old gold jewellery",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOeXpETjBBOUIyTWNvVFNwZnZpNFlrVEV0XzU3YUZJa2F2bG9JWEJYTFowek9rVHk3OW9KRzVYZk1WdmJqTkdlN2c5dmNfVWxieGNGTFZvbVRWQXBvYi1CQmZsVlNnVnhTTElaSmFKakF2NTl6b29FSzBzb0Npc1BkRU00Ul9kcnlCc3dHYmpSNjhnQXR2R051QkhWb2RsYm1NNThmMmNqNlRXLTh2WlJ0WkZlZHJ1dENTNnlobV9Fal9CakFHdDg3cXF6eHNQUjlvX2tValUwOTJJT3hvTVdRTDdzYjNEdkRVdWo4ZUJaWGMyZXV3N3VZaDVicDFwUQ?oc=5",
+      "summary": "Gold price crash: Why Indian households are rushing to sell their old gold jewellery &nbsp;&nbsp; The Times of India Gold prices fall: Indians sell old jewellery as fears of deeper correction grow &nbsp;&nbsp; India Today Households rush t...",
       "image": "",
-      "source": "The Hindu",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-06-29T10:25:09.000Z",
+      "source": "The Times of India",
+      "category": "business",
+      "categoryLabel": "Business",
+      "publishedAt": "2026-06-29T10:28:00.000Z",
       "sources": [
         {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcHBOYU5LQWVEZzdnWGdva2ZQWFVYdmVTcTZiOG9MUWI5NFBpM2s2SV9NVDdIUU5hZjRTS1l4Z2ZNZDNTMWpkSFM1TG9OVHRFa0hPV2VfLUhQdUdwRG84NEZpNHA1LWwxc2VpSXY3MHhpN1VZX2E4T0docGJkNWxDRnhlNjgyTVVreWxWMFhlRlM2MUlTaTBDNHJsaldzbnIxYTNURkcwV2hzM0VndVlXOWJB0gG4AUFVX3lxTFBEaW95ZEdKQmNiLTZrdG51TzdrM0RjRklqN01sOG9qMm5hS1RreDlLakdja0xvcTVjdFVYN0ZBTlgzcGVTem0wd0N3X1ppOFhPOEVkTlU2VUFaSTNhSHVISFZOQUc2RmUzeGI4enI2RWVzR0NrUjRyeFpsdjRGMHk1TW5HdGoyU3B1ZUxObTJmTEYyS3FJdnRleXRqSHBJSmZfZTZobHp6WXkzeXpMRTQzcnFwaThXTVU?oc=5",
-          "summary": "Delhi Cabinet approves new EV policy with a ₹15,000-crore budget &nbsp;&nbsp; The Hindu Delhi EV Policy 2026: Subsidies, Zero Road Tax, End Of Petrol Two-Wheelers By 2028 &nbsp;&nbsp; NDTV Only electric two-wheelers to ply on Delhi roads f...",
-          "publishedAt": "2026-06-29T10:25:09.000Z"
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOeXpETjBBOUIyTWNvVFNwZnZpNFlrVEV0XzU3YUZJa2F2bG9JWEJYTFowek9rVHk3OW9KRzVYZk1WdmJqTkdlN2c5dmNfVWxieGNGTFZvbVRWQXBvYi1CQmZsVlNnVnhTTElaSmFKakF2NTl6b29FSzBzb0Npc1BkRU00Ul9kcnlCc3dHYmpSNjhnQXR2R051QkhWb2RsYm1NNThmMmNqNlRXLTh2WlJ0WkZlZHJ1dENTNnlobV9Fal9CakFHdDg3cXF6eHNQUjlvX2tValUwOTJJT3hvTVdRTDdzYjNEdkRVdWo4ZUJaWGMyZXV3N3VZaDVicDFwUQ?oc=5",
+          "summary": "Gold price crash: Why Indian households are rushing to sell their old gold jewellery &nbsp;&nbsp; The Times of India Gold prices fall: Indians sell old jewellery as fears of deeper correction grow &nbsp;&nbsp; India Today Households rush t...",
+          "publishedAt": "2026-06-29T10:28:00.000Z"
         }
       ],
       "sourceCount": 1
@@ -1983,6 +2004,26 @@
           "link": "https://indianexpress.com/article/political-pulse/why-dmk-has-hit-the-streets-over-tvk-ministers-two-yer-old-video-10762807/",
           "summary": "",
           "publishedAt": "2026-06-29T09:49:07.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "lt-gen-dhiraj-seth-to-take-charge-as-army-chief-air-marshal-dixit-to-be-iaf-vice-chief-general-2026",
+      "title": "Lt Gen Dhiraj Seth to take charge as Army chief, Air Marshal Dixit to be IAF vice chief",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRW5lcjYxVFVfM0FUTERhQzl0SDRBRDl4WUlHclJsOUVSemowaFUybUM4bng4UjJOSmZ5bC00ZnAzSml5UkNHVXA2blNMdS1MaUVRVGZzRTNQZVZvVm94TF9NdFVjR0JnTUZQUjdRN1FOS3lGd0tQaktHeGZfRF8wUkxaSGJYTjViNlhtRWFTR1RwNnEyaVFxYUF3Tl9hbmo5TzRWbU1aYWtDQnRNcllhcFZySWwyNk5yemFPYzhmNUNUQjFRTTZLM1B4ei1laUtyUm04UzFNWmNGZGpVSXBwY2FYYnNKTEZobUM4cG5qWXAyU3pWQ1ZZeFBrUlptZ9IBggJBVV95cUxNZU1sYW05bDJPV2tWOWtDUFE3Z3dGSmJMNXF5MnRhN25RSWZnZHR0dDRKMVR1Qy1lcDRXOGZBaDVYZUN4YnFJb1kzcGZpVzd5RGNBZ3VtUmdSRWZZblJMNWhfX0dQeXlhX05aU0ZaWGJsMllUSFhHbXc3Q1RtZTJpWTdjS3ZZWG96eWdDWktORy00ZkxFaW4tbnZMal90S182WmtiZ3NtMEJ2SjZJTFZwdGE1OThmcHlRMklvSmpzOFJMbVpES2RwT2E4TXJwSUV0YXBrd050UFg1N2NwYkktQUtPaGg0TWVlVUZhX2lCc1B3d0FWYzJHSlU0MjU2SmZTNXc?oc=5",
+      "summary": "Lt Gen Dhiraj Seth to take charge as Army chief, Air Marshal Dixit to be IAF vice chief &nbsp;&nbsp; The Tribune Who Is Lt General Dhiraj Seth? India's Next Army Chief &nbsp;&nbsp; NDTV Gen Seth to assume charge as army chief &nbsp;&nbsp;...",
+      "image": "",
+      "source": "The Tribune",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-06-29T09:30:06.000Z",
+      "sources": [
+        {
+          "name": "The Tribune",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRW5lcjYxVFVfM0FUTERhQzl0SDRBRDl4WUlHclJsOUVSemowaFUybUM4bng4UjJOSmZ5bC00ZnAzSml5UkNHVXA2blNMdS1MaUVRVGZzRTNQZVZvVm94TF9NdFVjR0JnTUZQUjdRN1FOS3lGd0tQaktHeGZfRF8wUkxaSGJYTjViNlhtRWFTR1RwNnEyaVFxYUF3Tl9hbmo5TzRWbU1aYWtDQnRNcllhcFZySWwyNk5yemFPYzhmNUNUQjFRTTZLM1B4ei1laUtyUm04UzFNWmNGZGpVSXBwY2FYYnNKTEZobUM4cG5qWXAyU3pWQ1ZZeFBrUlptZ9IBggJBVV95cUxNZU1sYW05bDJPV2tWOWtDUFE3Z3dGSmJMNXF5MnRhN25RSWZnZHR0dDRKMVR1Qy1lcDRXOGZBaDVYZUN4YnFJb1kzcGZpVzd5RGNBZ3VtUmdSRWZZblJMNWhfX0dQeXlhX05aU0ZaWGJsMllUSFhHbXc3Q1RtZTJpWTdjS3ZZWG96eWdDWktORy00ZkxFaW4tbnZMal90S182WmtiZ3NtMEJ2SjZJTFZwdGE1OThmcHlRMklvSmpzOFJMbVpES2RwT2E4TXJwSUV0YXBrd050UFg1N2NwYkktQUtPaGg0TWVlVUZhX2lCc1B3d0FWYzJHSlU0MjU2SmZTNXc?oc=5",
+          "summary": "Lt Gen Dhiraj Seth to take charge as Army chief, Air Marshal Dixit to be IAF vice chief &nbsp;&nbsp; The Tribune Who Is Lt General Dhiraj Seth? India's Next Army Chief &nbsp;&nbsp; NDTV Gen Seth to assume charge as army chief &nbsp;&nbsp;...",
+          "publishedAt": "2026-06-29T09:30:06.000Z"
         }
       ],
       "sourceCount": 1
@@ -2011,7 +2052,7 @@
       "id": "fifa-world-cup-round-of-32-schedule-predictions-and-latest-news-sports-2026-06-29t09-10-29-000z",
       "title": "FIFA World Cup: Round of 32 schedule, predictions and latest news",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLVBtdDdJblp4T0dibDI1RFlXTXloRWFRTDZDZkdzNEJHWTRtSnB3Y0tVOGltNENfYmhPV210aW5OU2swRU9jejVyejNhdGE4Wjkxd3pWRmVCaEpKOGVZa29VOFlJdmx5YU5nRzF2MVNONWtMVHg3bGdxbTU3UmhoQ2gzMUhQcWprdVpsdXlKamxqRm9kT2hJVDZRb1E5VTJlYm5ERVY2aUlYZ9IBrwFBVV95cUxOQUU4aF9ZUWM5SEk5aGlrOUtXMTlPVWRKbWRHTkZyNktjOEh2ME1SRkRhazRuTkFqQl9LbU04S1F5SWVQWU5xa2xsT3Y0UGxoaGFldE5HenNmZzZCa2Q4UDBabWx0RjRUS1ZQLUpDY2toeDBKOElDcDAtbklqUjdGdW5aNHRMOS1hLTB3bkdBc0Vja3c4QzB3b1A1WGFRcldaOVdqNFVqdWV4LXhGNGtN?oc=5",
-      "summary": "FIFA World Cup: Round of 32 schedule, predictions and latest news &nbsp;&nbsp; Al Jazeera World Cup 2026 today: Live updates and news as Brazil and Japan prep for knockout clash - June 29 &nbsp;&nbsp; ESPN Brazil, Germany, Netherlands Read...",
+      "summary": "FIFA World Cup: Round of 32 schedule, predictions and latest news &nbsp;&nbsp; Al Jazeera World Cup Round of 32 live updates: Follow Germany vs. Paraguay; Brazil topples Japan in knockout opener &nbsp;&nbsp; Yahoo Sports World Cup 2026 tod...",
       "image": "",
       "source": "Al Jazeera",
       "category": "sports",
@@ -2021,7 +2062,7 @@
         {
           "name": "Al Jazeera",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLVBtdDdJblp4T0dibDI1RFlXTXloRWFRTDZDZkdzNEJHWTRtSnB3Y0tVOGltNENfYmhPV210aW5OU2swRU9jejVyejNhdGE4Wjkxd3pWRmVCaEpKOGVZa29VOFlJdmx5YU5nRzF2MVNONWtMVHg3bGdxbTU3UmhoQ2gzMUhQcWprdVpsdXlKamxqRm9kT2hJVDZRb1E5VTJlYm5ERVY2aUlYZ9IBrwFBVV95cUxOQUU4aF9ZUWM5SEk5aGlrOUtXMTlPVWRKbWRHTkZyNktjOEh2ME1SRkRhazRuTkFqQl9LbU04S1F5SWVQWU5xa2xsT3Y0UGxoaGFldE5HenNmZzZCa2Q4UDBabWx0RjRUS1ZQLUpDY2toeDBKOElDcDAtbklqUjdGdW5aNHRMOS1hLTB3bkdBc0Vja3c4QzB3b1A1WGFRcldaOVdqNFVqdWV4LXhGNGtN?oc=5",
-          "summary": "FIFA World Cup: Round of 32 schedule, predictions and latest news &nbsp;&nbsp; Al Jazeera World Cup 2026 today: Live updates and news as Brazil and Japan prep for knockout clash - June 29 &nbsp;&nbsp; ESPN Brazil, Germany, Netherlands Read...",
+          "summary": "FIFA World Cup: Round of 32 schedule, predictions and latest news &nbsp;&nbsp; Al Jazeera World Cup Round of 32 live updates: Follow Germany vs. Paraguay; Brazil topples Japan in knockout opener &nbsp;&nbsp; Yahoo Sports World Cup 2026 tod...",
           "publishedAt": "2026-06-29T09:10:29.000Z"
         }
       ],
@@ -2088,6 +2129,26 @@
       "sourceCount": 1
     },
     {
+      "id": "cricket-qualification-system-approved-for-la28-sports-2026-06-29t08-30-20-000z",
+      "title": "Cricket qualification system approved for LA28",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUksxcVFJMlBNZUdKaTJUeGF6YU4ta1NOZmxDdWZnWWtMUUNzbFYxVmFiMGJ6ME9KeW95S1puSm5zcVpkLXAtQnNCUm5wQ2VvZEx5MmhKcmlrMjUxdTJJU19DVVE4X0pyWS1CVU9JOWthOG4taFhyM1dwOWdPZk1GMW80NGY5OWM?oc=5",
+      "summary": "Cricket qualification system approved for LA28 &nbsp;&nbsp; olympics.com Qualifying pathway confirmed for Cricket's Olympic Games return &nbsp;&nbsp; ICC ICC confirms qualification pathway for cricket's LA28 Olympic return &nbsp;&nbsp; Cri...",
+      "image": "",
+      "source": "olympics.com",
+      "category": "sports",
+      "categoryLabel": "Sports",
+      "publishedAt": "2026-06-29T08:30:20.000Z",
+      "sources": [
+        {
+          "name": "olympics.com",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUksxcVFJMlBNZUdKaTJUeGF6YU4ta1NOZmxDdWZnWWtMUUNzbFYxVmFiMGJ6ME9KeW95S1puSm5zcVpkLXAtQnNCUm5wQ2VvZEx5MmhKcmlrMjUxdTJJU19DVVE4X0pyWS1CVU9JOWthOG4taFhyM1dwOWdPZk1GMW80NGY5OWM?oc=5",
+          "summary": "Cricket qualification system approved for LA28 &nbsp;&nbsp; olympics.com Qualifying pathway confirmed for Cricket's Olympic Games return &nbsp;&nbsp; ICC ICC confirms qualification pathway for cricket's LA28 Olympic return &nbsp;&nbsp; Cri...",
+          "publishedAt": "2026-06-29T08:30:20.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
       "id": "samsung-galaxy-m47-goes-official-with-sd-6-gen-3-and-6-000mah-battery-gsmarena-com-news-tech-2026-06",
       "title": "Samsung Galaxy M47 goes official with SD 6 Gen 3 and 6,000mAh battery - GSMArena.com news",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR2FBcGUwNXFtSXFQTU14cHZHSF9NaC1YUWRja3Zra0o1UTRXUzREXzBTR3NfZHRVWXJ2djY4SkZpVmFQX3AtcHdfckhLdFI5ZXRHV3drYWZ5cFZ6NGk2N1JOTTR6X0ZMekprMUp1WU5WbHVYeV9nYWVlSklrb25DVnVNRzRLbS1yRUdXbzQ5Y3lzUWRHNEVwZFk4eHlWSU44NXM4ckE4U2lpQ0hzWWfSAaoBQVVfeXFMTkpHNGtpUEZfN2haYWdJQWNSVjdJMzNLcGxNdFViZlNKenJTUmpycm5FVkdtR1N4Qldoa3lJcmd4aXUtbmNPM3BDYTQ2UFljcTFPZFZWaXVFT1otUUNMeG9fcGs5czhWVFpuNmNua0ZLVmVIdmpVV09VWFF6d0pEUkw0WVZlQWFBZGF2QThVUkFudTFhdVhfTnp0V2lrOWV2cWFNOFdFajZmdVE?oc=5",
@@ -2103,46 +2164,6 @@
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR2FBcGUwNXFtSXFQTU14cHZHSF9NaC1YUWRja3Zra0o1UTRXUzREXzBTR3NfZHRVWXJ2djY4SkZpVmFQX3AtcHdfckhLdFI5ZXRHV3drYWZ5cFZ6NGk2N1JOTTR6X0ZMekprMUp1WU5WbHVYeV9nYWVlSklrb25DVnVNRzRLbS1yRUdXbzQ5Y3lzUWRHNEVwZFk4eHlWSU44NXM4ckE4U2lpQ0hzWWfSAaoBQVVfeXFMTkpHNGtpUEZfN2haYWdJQWNSVjdJMzNLcGxNdFViZlNKenJTUmpycm5FVkdtR1N4Qldoa3lJcmd4aXUtbmNPM3BDYTQ2UFljcTFPZFZWaXVFT1otUUNMeG9fcGs5czhWVFpuNmNua0ZLVmVIdmpVV09VWFF6d0pEUkw0WVZlQWFBZGF2QThVUkFudTFhdVhfTnp0V2lrOWV2cWFNOFdFajZmdVE?oc=5",
           "summary": "Samsung Galaxy M47 goes official with SD 6 Gen 3 and 6,000mAh battery - GSMArena.com news &nbsp;&nbsp; GSMArena.com The Galaxy S26 Ultra gets humiliated by a new Samsung phone that's $1,000 cheaper and has a bigger battery &nbsp;&nbsp; Pho...",
           "publishedAt": "2026-06-29T08:24:02.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "bhagyaraj-s-mourning-turned-into-a-circus-radikaa-sarathkumar-criticises-media-calls-for-action-ente",
-      "title": "‘Bhagyaraj’s mourning turned into a circus’: Radikaa Sarathkumar criticises media, calls for action",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSGNPakZ0M3RzSUwtTTR5VVVTQ2VxV01qODR5cDhaemtWaEp0OHVMNnhXOW5GTERUQWNOeURWNEVBN0VEU1dsM3oxM0lEUV9uRlBJcnNadWlDWTJoNjI0Qno4UHkxS3JjdW9JeVR3MS1hczRQV2g1aks4RzlvN2FQTWNVNWxyZ2JGNXpCR0dhU3Z5TjZDNkNJWkVzZTdQVWtoZU9CV0x4QmJFVm5DT2FodUxuNzA0MW9ERW9VWmNFSUxrclZBU1dQbGdsZ25QS3Jjb3BvRVBlX1ZvTnJkM2RqUU1DdmgyRkwyUFJHNmNWcnM5Z9IB-AFBVV95cUxPQ25oX0YyRTRJTk5pQ0d2WmhKUXVULXU4ZGowMldmZHVwSFR2UnJPRlpnZmM5Q0hUOXRWUU15VjJfT1hGcGZNaXIxTFcyY3diZ25Lck13ak1TdWdxSU12dkNxMUVjYVdQSVJ2cHhVZFNCUEc0RGd3Sl9ZVUdzMDBMdnlkTU11Q0VXWkx4UnM1Mm1EYkY4amVTX0FYWFpBRF9MbGxYOWl6cUN6QlczVnFZQ1F3R0xoZW1PSHRZMjlsbVR2VV8zV3R1cXRGVzV4WnVmRWV3Y0gybTYwOENqOGVGU1NWRWM4VGNVamN1V2thQ0hzUWdDM0ZJSg?oc=5",
-      "summary": "‘Bhagyaraj’s mourning turned into a circus’: Radikaa Sarathkumar criticises media, calls for action &nbsp;&nbsp; The Hindu Fans, family bid a tearful farewell to Tamil movie director Bhagyaraj &nbsp;&nbsp; The Hindu Radikaa Sarathkumar Hit...",
-      "image": "",
-      "source": "The Hindu",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-06-29T07:59:34.000Z",
-      "sources": [
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSGNPakZ0M3RzSUwtTTR5VVVTQ2VxV01qODR5cDhaemtWaEp0OHVMNnhXOW5GTERUQWNOeURWNEVBN0VEU1dsM3oxM0lEUV9uRlBJcnNadWlDWTJoNjI0Qno4UHkxS3JjdW9JeVR3MS1hczRQV2g1aks4RzlvN2FQTWNVNWxyZ2JGNXpCR0dhU3Z5TjZDNkNJWkVzZTdQVWtoZU9CV0x4QmJFVm5DT2FodUxuNzA0MW9ERW9VWmNFSUxrclZBU1dQbGdsZ25QS3Jjb3BvRVBlX1ZvTnJkM2RqUU1DdmgyRkwyUFJHNmNWcnM5Z9IB-AFBVV95cUxPQ25oX0YyRTRJTk5pQ0d2WmhKUXVULXU4ZGowMldmZHVwSFR2UnJPRlpnZmM5Q0hUOXRWUU15VjJfT1hGcGZNaXIxTFcyY3diZ25Lck13ak1TdWdxSU12dkNxMUVjYVdQSVJ2cHhVZFNCUEc0RGd3Sl9ZVUdzMDBMdnlkTU11Q0VXWkx4UnM1Mm1EYkY4amVTX0FYWFpBRF9MbGxYOWl6cUN6QlczVnFZQ1F3R0xoZW1PSHRZMjlsbVR2VV8zV3R1cXRGVzV4WnVmRWV3Y0gybTYwOENqOGVGU1NWRWM4VGNVamN1V2thQ0hzUWdDM0ZJSg?oc=5",
-          "summary": "‘Bhagyaraj’s mourning turned into a circus’: Radikaa Sarathkumar criticises media, calls for action &nbsp;&nbsp; The Hindu Fans, family bid a tearful farewell to Tamil movie director Bhagyaraj &nbsp;&nbsp; The Hindu Radikaa Sarathkumar Hit...",
-          "publishedAt": "2026-06-29T07:59:34.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "prime-day-2026-up-to-80-off-across-electronics-fashion-and-more-tech-2026-06-29t07-52-07-000z",
-      "title": "Prime Day 2026: Up to 80% off across electronics, fashion and more",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jc2d5c0t1UFlRbjBOSTZWWjdYZjhzYVIwc1JqbzgzN09xUkZhTkcyTUhqaG83WGR4N3g1NmF1bzYwVHNicDNBdW5ZNWlveTZndGxtUnluMG1XZXZHSGM3RHJaZ1FVVnhQQ2ZOdURQbHh1WG8?oc=5",
-      "summary": "Prime Day 2026: Up to 80% off across electronics, fashion and more &nbsp;&nbsp; About Amazon India Deals: Prime Day shopping is over, here are the best Galaxy S26 and Pixel 10 series deals - GSMArena.com news &nbsp;&nbsp; GSMArena.com Sams...",
-      "image": "",
-      "source": "About Amazon India",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-06-29T07:52:07.000Z",
-      "sources": [
-        {
-          "name": "About Amazon India",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jc2d5c0t1UFlRbjBOSTZWWjdYZjhzYVIwc1JqbzgzN09xUkZhTkcyTUhqaG83WGR4N3g1NmF1bzYwVHNicDNBdW5ZNWlveTZndGxtUnluMG1XZXZHSGM3RHJaZ1FVVnhQQ2ZOdURQbHh1WG8?oc=5",
-          "summary": "Prime Day 2026: Up to 80% off across electronics, fashion and more &nbsp;&nbsp; About Amazon India Deals: Prime Day shopping is over, here are the best Galaxy S26 and Pixel 10 series deals - GSMArena.com news &nbsp;&nbsp; GSMArena.com Sams...",
-          "publishedAt": "2026-06-29T07:52:07.000Z"
         }
       ],
       "sourceCount": 1
