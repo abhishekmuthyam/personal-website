@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T23:17:47.579Z",
+  "updatedAt": "2026-06-30T01:26:58.781Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -34,8 +34,9 @@
     {
       "name": "Hugging Face Blog",
       "topic": "ai",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "name": "GitHub Blog",
@@ -58,11 +59,56 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
+    {
+      "id": "hacker-news-exploring-pdp-1-lisp-1960-2026-06-30t00-56-42-000z",
+      "title": "Exploring PDP-1 Lisp (1960)",
+      "link": "https://obsolescence.dev/pdp1-lisp-introduction.html",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-30T00:56:42.000Z"
+    },
+    {
+      "id": "hacker-news-memory-safe-context-switching-longjmp-setjmp-in-fil-c-2026-06-30t00-38-19-000z",
+      "title": "Memory Safe Context Switching (longjmp, setjmp) in Fil-C",
+      "link": "https://fil-c.org/context_switches",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-30T00:38:19.000Z"
+    },
+    {
+      "id": "spring-blog-this-week-in-spring-june-30th-2026-2026-06-30t00-00-00-000z",
+      "title": "This Week in Spring - June 30th, 2026",
+      "link": "https://spring.io/blog/2026/06/30/this-week-in-spring-june-30-2026",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "infoq-java-news-roundup-hardwood-1-0-endive-1-0-azul-payara-quarkus-wildfly-langchain4j-os",
+      "title": "Java News Roundup: Hardwood 1.0, Endive 1.0, Azul Payara, Quarkus, WildFly, LangChain4j, OSSI",
+      "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun22-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for June 22nd, 2026, features news highlighting: the GA releases of Hardwood 1.0 and Endive 1.0; the June 2026 edition of Azul Payara; point releases of Quarkus, LangChain4j; the first beta rele...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-29T23:30:00.000Z"
+    },
     {
       "id": "google-cloud-blog-supercharging-the-agentic-era-with-spanner-s-multi-model-architecture-20",
       "title": "Supercharging the agentic era with Spanner’s multi-model architecture",
@@ -106,17 +152,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-29T19:49:28.000Z"
-    },
-    {
-      "id": "hugging-face-blog-discoformer-one-transformer-for-density-and-score-across-distributions-2",
-      "title": "DiScoFormer: One transformer for density and score, across distributions",
-      "link": "https://huggingface.co/blog/allenai/discoformer",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-29T18:02:48.000Z"
     },
     {
       "id": "github-blog-highlights-from-git-2-55-2026-06-29t17-25-25-000z",
@@ -205,28 +240,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-06-29T16:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-a-native-graphical-shell-for-ssh-2026-06-29t15-42-17-000z",
-      "title": "A native graphical shell for SSH",
-      "link": "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-29T15:42:17.000Z"
-    },
-    {
-      "id": "hacker-news-wataboy-jit-ing-game-boy-instructions-to-wasm-beats-a-native-interpreter-2026",
-      "title": "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter",
-      "link": "https://humphri.es/blog/WATaBoy/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-29T15:02:00.000Z"
     },
     {
       "id": "infoq-eliya-25-brings-a-jvm-level-diagnostic-profile-to-openjdk-25-lts-2026-06-29t14-50-00",
@@ -372,17 +385,6 @@
       "publishedAt": "2026-06-28T08:00:00.000Z"
     },
     {
-      "id": "infoq-aws-previews-finops-agent-for-cost-analysis-and-optimization-2026-06-28t05-55-00-000",
-      "title": "AWS Previews FinOps Agent for Cost Analysis and Optimization",
-      "link": "https://www.infoq.com/news/2026/06/aws-finops-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Amazon has released AWS FinOps Agent in public preview, a managed service that automates several common FinOps workflows. The agent can investigate cost anomalies, correlate spend changes with AWS activity data, and int...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-28T05:55:00.000Z"
-    },
-    {
       "id": "hacker-news-free-the-icons-2026-06-27t15-05-17-000z",
       "title": "Free the Icons",
       "link": "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/",
@@ -438,17 +440,6 @@
       "publishedAt": "2026-06-26T15:00:00.000Z"
     },
     {
-      "id": "the-register-one-man-two-kernels-and-a-lot-of-risc-v-2026-06-26t13-46-00-000z",
-      "title": "One man, two kernels, and a lot of RISC-V",
-      "link": "https://www.theregister.com/software/2026/06/26/one-man-two-kernels-and-a-lot-of-risc-v/5262858",
-      "summary": "A homebrew PC and mini-mainframe were only the warm-up for Yuri Zaporozhets' latest operating system",
-      "image": "https://image.theregister.com/?imageId=5262971&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-26T13:46:00.000Z"
-    },
-    {
       "id": "github-blog-transitioning-as-a-hubber-2026-06-26t12-00-00-000z",
       "title": "Transitioning as a Hubber",
       "link": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
@@ -469,28 +460,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-26T10:00:00.000Z"
-    },
-    {
-      "id": "the-register-three-foss-projects-for-developers-procrastinators-and-media-wranglers-2026-0",
-      "title": "Three FOSS projects for developers, procrastinators, and media wranglers",
-      "link": "https://www.theregister.com/software/2026/06/26/three-foss-projects-for-developers-procrastinators-and-media-wranglers/5261631",
-      "summary": "Prism tracks AI emissions, Super Productivity keeps tasks local, and TAMOSS brings the BBC's media API to Kubernetes",
-      "image": "https://image.theregister.com/?imageId=5261648&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-26T09:15:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-run-a-vllm-server-on-hf-jobs-in-one-command-2026-06-26t00-00-00-000z",
-      "title": "Run a vLLM Server on HF Jobs in One Command",
-      "link": "https://huggingface.co/blog/vllm-jobs",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-26T00:00:00.000Z"
     },
     {
       "id": "github-blog-evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-ac",
@@ -548,28 +517,6 @@
       "publishedAt": "2026-06-25T20:18:00.000Z"
     },
     {
-      "id": "the-register-apple-takes-over-swift-package-index-vows-to-remove-github-dependency-2026-06",
-      "title": "Apple takes over Swift Package Index, vows to remove GitHub dependency",
-      "link": "https://www.theregister.com/software/2026/06/25/apple-takes-over-swift-package-index-vows-to-remove-github-dependency/5262048",
-      "summary": "SPI co-creator Dave Verwer joins Apple, says 'We will be moving away from that model completely'",
-      "image": "https://image.theregister.com/?imageId=263127&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-25T14:01:00.000Z"
-    },
-    {
-      "id": "the-register-collabora-releases-code-26-04-as-rivalry-between-foss-cloudy-office-suites-he",
-      "title": "Collabora releases CODE 26.04 as rivalry between FOSS cloudy office suites heats up",
-      "link": "https://www.theregister.com/applications/2026/06/25/collabora-releases-code-2604-as-rivalry-between-foss-cloudy-office-suites-heats-up/5261468",
-      "summary": "Now with Markdown support and smarter formula error handling – plus integrated AI, though it's off by default",
-      "image": "https://image.theregister.com/?imageId=5227671&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-25T11:47:00.000Z"
-    },
-    {
       "id": "openai-news-how-agents-are-transforming-work-2026-06-25t02-00-00-000z",
       "title": "How agents are transforming work",
       "link": "https://openai.com/index/how-agents-are-transforming-work",
@@ -612,6 +559,61 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-06-25T00:00:00.000Z"
+    },
+    {
+      "id": "openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip-2026-06-24t06-00-00-00",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-24T06:00:00.000Z"
+    },
+    {
+      "id": "spring-blog-spring-data-2025-0-13-released-2026-06-24t00-00-00-000z",
+      "title": "Spring Data 2025.0.13 released",
+      "link": "https://spring.io/blog/2026/06/24/spring-data-2025-0-13-released",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-06-24T00:00:00.000Z"
+    },
+    {
+      "id": "openai-news-how-gpt-5-helped-immunologist-derya-unutmaz-solve-a-3-year-old-mystery-2026-06",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "link": "https://openai.com/index/gpt-5-immunology-mystery",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-23T17:00:00.000Z"
+    },
+    {
+      "id": "github-blog-i-automated-my-job-and-it-made-me-a-better-leader-2026-06-23t16-00-00-000z",
+      "title": "I automated my job (and it made me a better leader)",
+      "link": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/",
+      "summary": "Explore how my day as a senior leader looks now that I use 40 automations to help, and learn more about some of my favorites. The post I automated my job (and it made me a better leader) appeared first on The GitHub Blo...",
+      "image": "",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-23T16:00:00.000Z"
+    },
+    {
+      "id": "github-blog-github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act",
+      "title": "GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source",
+      "link": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
+      "summary": "We’re calling for targeted amendments to resolve conflicts with open source licensing and align with international transparency frameworks while preserving regulatory intent. The post GitHub joins coalition advocating f...",
+      "image": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-23-at-10.41.24-AM.png?resize=906%2C974",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-23T15:48:00.000Z"
     }
   ]
 }
