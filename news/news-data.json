@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T20:07:30.897Z",
+  "updatedAt": "2026-07-01T21:44:37.861Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,21 +58,44 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
     {
-      "id": "hacker-news-fable-5-is-back-2026-07-01t19-35-57-000z",
-      "title": "Fable 5 Is Back",
-      "link": "https://twitter.com/claudeai/status/2072402636813607381",
+      "id": "hacker-news-proliferate-yc-s25-is-hiring-2026-07-01t21-00-14-000z",
+      "title": "Proliferate (YC S25) Is Hiring",
+      "link": "https://www.ycombinator.com/companies/proliferate/jobs/mMHvKR9-founding-product-engineer",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-01T19:35:57.000Z"
+      "publishedAt": "2026-07-01T21:00:14.000Z"
+    },
+    {
+      "id": "hacker-news-show-hn-searchable-directory-of-22k-products-from-worker-owned-co-ops-2026-07",
+      "title": "Show HN: Searchable directory of 22k+ products from worker-owned co-ops",
+      "link": "https://www.workerowned.info/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-01T20:47:41.000Z"
+    },
+    {
+      "id": "aws-what-s-new-aws-artifact-now-includes-assurance-assistant-for-compliance-inquiries-2026",
+      "title": "AWS Artifact now includes Assurance Assistant for compliance inquiries",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/",
+      "summary": "AWS Artifact now includes Assurance Assistant, an AI-powered capability that generates citation-backed responses to security and compliance questions about AWS services. AWS Artifact is the service through which AWS pro...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-01T20:01:00.000Z"
     },
     {
       "id": "hacker-news-zcode-claude-code-from-the-makers-of-glm-2026-07-01t19-11-38-000z",
@@ -120,7 +143,7 @@
     },
     {
       "id": "hacker-news-what-to-learn-to-be-a-graphics-programmer-2026-07-01t17-53-44-000z",
-      "title": "What to Learn to Be a Graphics Programmer",
+      "title": "What to learn to be a graphics programmer",
       "link": "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/",
       "summary": "Comments",
       "image": "",
@@ -128,6 +151,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-01T17:53:44.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-rds-announces-cross-region-automated-backups-in-four-additional-aws",
+      "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
+      "summary": "Cross-Region Automated Backup replication for Amazon RDS is now available in four additional AWS Regions. This launch allows you to setup automated backup replication between Mexico (Central) and Europe (Ireland) or US...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-01T17:00:00.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-bedrock-agentcore-now-available-in-four-additional-aws-regions-2026",
@@ -141,15 +175,15 @@
       "publishedAt": "2026-07-01T17:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-rds-announces-cross-region-automated-backups-in-four-additional-aws",
-      "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
-      "summary": "Cross-Region Automated Backup replication for Amazon RDS is now available in four additional AWS Regions. This launch allows you to setup automated backup replication between Mexico (Central) and Europe (Ireland) or US...",
+      "id": "aws-what-s-new-amazon-guardduty-adds-sensitive-file-modification-threat-detections-2026-07",
+      "title": "Amazon GuardDuty adds sensitive file modification threat detections",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-sfm/",
+      "summary": "Amazon GuardDuty Runtime Monitoring now includes three new threat detections that alert security teams when sensitive files are modified on Amazon EC2 instances and container workloads running on Amazon EKS or Amazon EC...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
       "topicLabel": "Cloud",
-      "publishedAt": "2026-07-01T17:00:00.000Z"
+      "publishedAt": "2026-07-01T16:58:00.000Z"
     },
     {
       "id": "aws-what-s-new-aws-appconfig-launches-managed-experimentation-tools-for-a-b-testing-2026-0",
@@ -251,26 +285,15 @@
       "publishedAt": "2026-07-01T15:43:00.000Z"
     },
     {
-      "id": "hacker-news-how-we-made-ipfs-content-publishing-10x-faster-2026-07-01t15-30-35-000z",
-      "title": "How We Made IPFS Content Publishing 10x Faster",
-      "link": "https://probelab.io/blog/optimistic-provide/",
+      "id": "hacker-news-ask-hn-who-is-hiring-july-2026-2026-07-01t15-01-21-000z",
+      "title": "Ask HN: Who is hiring? (July 2026)",
+      "link": "https://news.ycombinator.com/item?id=48747976",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-01T15:30:35.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-security-agent-now-available-in-asia-pacific-mumbai-asia-pacific-singap",
-      "title": "AWS Security Agent now available in Asia Pacific (Mumbai), Asia Pacific (Singapore), and South America (São Paulo)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-agent-asia-pacific/",
-      "summary": "Starting today, AWS Security Agent (now part of AWS Continuum ) is available in three additional AWS Regions: Asia Pacific (Mumbai), Asia Pacific (Singapore), and South America (São Paulo). Customers in these Regions ca...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-01T15:26:00.000Z"
+      "publishedAt": "2026-07-01T15:01:21.000Z"
     },
     {
       "id": "hacker-news-for-first-time-a-cell-built-from-scratch-grows-and-divides-2026-07-01t14-20-52",
@@ -339,17 +362,6 @@
       "publishedAt": "2026-07-01T12:13:34.000Z"
     },
     {
-      "id": "hacker-news-box3d-an-open-source-3d-physics-engine-2026-07-01t12-12-17-000z",
-      "title": "Box3D, an open source 3D physics engine",
-      "link": "https://box2d.org/posts/2026/06/announcing-box3d/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-01T12:12:17.000Z"
-    },
-    {
       "id": "infoq-presentation-the-infrastructure-challenge-behind-production-ai-2026-07-01t11-00-00-0",
       "title": "Presentation: The Infrastructure Challenge Behind Production AI",
       "link": "https://www.infoq.com/presentations/ai-infrastructure-scaling-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -370,17 +382,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-07-01T07:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-opensearch-service-optimized-for-log-analytics-2026-07-01t02-30-00-0",
-      "title": "Amazon OpenSearch Service optimized for log analytics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-optimized-log-analytics",
-      "summary": "Today, Amazon OpenSearch Service introduces a new engine purpose-built for log analytics workloads, delivering up to 4x better price-performance on internal benchmarks. It combines this efficiency with the full-text sea...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-01T02:30:00.000Z"
     },
     {
       "id": "hugging-face-blog-hugging-face-and-cerebras-bring-gemma-4-to-real-time-voice-ai-2026-07-01",
@@ -460,17 +461,6 @@
       "publishedAt": "2026-06-30T12:00:00.000Z"
     },
     {
-      "id": "the-register-no-more-java-refills-for-intel-macs-after-jdk-27-says-oracle-2026-06-30t10-00",
-      "title": "No more Java refills for Intel Macs after JDK 27, says Oracle",
-      "link": "https://www.theregister.com/software/2026/06/30/no-more-java-refills-for-intel-macs-after-jdk-27-says-oracle/5263667",
-      "summary": "Apple's final break with Chipzilla leaves another platform preparing to wind down support",
-      "image": "https://image.theregister.com/?imageId=251786&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-30T10:00:00.000Z"
-    },
-    {
       "id": "infoq-aws-launches-lambda-microvms-for-isolated-agent-and-user-code-execution-2026-06-30t0",
       "title": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution",
       "link": "https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -491,17 +481,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-30T09:00:00.000Z"
-    },
-    {
-      "id": "the-register-microsoft-builds-a-bouncer-to-keep-bots-out-of-teams-meetings-2026-06-30t06-1",
-      "title": "Microsoft builds a bouncer to keep bots out of Teams meetings",
-      "link": "https://www.theregister.com/software/2026/06/30/microsoft-builds-a-bouncer-to-keep-bots-out-of-teams-meetings/5264199",
-      "summary": "Allows ISVs to put their names on the door so desirable bots always get in",
-      "image": "https://image.theregister.com/?imageId=5225031&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-30T06:11:03.000Z"
     },
     {
       "id": "inside-java-zgc-a-decade-of-redefining-java-performance-2026-06-30t00-00-00-000z",
@@ -612,6 +591,28 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-29T07:00:00.000Z"
+    },
+    {
+      "id": "openai-news-hp-inc-launches-frontier-strategic-partnership-with-openai-2026-06-28t17-00-00",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "link": "https://openai.com/index/hp-frontier-partnership",
+      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-28T17:00:00.000Z"
+    },
+    {
+      "id": "github-blog-github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-s",
+      "title": "GitHub and UNDP team up to advance development priorities in Ghana with open source",
+      "link": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
+      "summary": "GitHub joined the United Nations Development Programme in Ghana to explore how open source governance can support one of West Africa's most ambitious digital reform efforts. The post GitHub and UNDP team up to advance d...",
+      "image": "https://github.blog/wp-content/uploads/2026/06/image006.jpg?resize=800%2C533",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-26T16:53:57.000Z"
     }
   ]
 }
