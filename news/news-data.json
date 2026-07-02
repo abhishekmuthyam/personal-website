@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T07:44:35.610Z",
+  "updatedAt": "2026-07-02T10:20:42.514Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -59,20 +59,53 @@
       "name": "The Register",
       "topic": "devtools",
       "ok": true,
-      "count": 0
+      "count": 8
     }
   ],
   "items": [
     {
-      "id": "hacker-news-cursorbench-3-1-2026-07-02t05-19-34-000z",
-      "title": "CursorBench 3.1",
-      "link": "https://cursor.com/evals",
+      "id": "infoq-apple-extends-private-cloud-compute-to-google-cloud-for-the-first-time-2026-07-02t10",
+      "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time",
+      "link": "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Apple chose Google Cloud to run Private Cloud Compute outside its own data centers for the first time, using NVIDIA Blackwell GPUs, Intel TDX, and Google's Titan chip. Apple maintains an independent append-only hardware...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-02T10:04:00.000Z"
+    },
+    {
+      "id": "infoq-presentation-enhancing-reliability-using-service-level-prioritized-load-shedding-at",
+      "title": "Presentation: Enhancing Reliability Using Service-Level Prioritized Load Shedding at Netflix",
+      "link": "https://www.infoq.com/presentations/service-level-prioritized-load-shedding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The speakers discuss Netflix’s architecture for surviving extreme traffic spikes. They explain the mechanics of prioritized load shedding embedded in their Envoy sidecar proxy, allowing user-initiated requests to steal...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-02T09:20:00.000Z"
+    },
+    {
+      "id": "hacker-news-google-loses-fight-over-record-4-7b-eu-antitrust-fine-2026-07-02t08-34-13-000z",
+      "title": "Google loses fight over record $4.7B EU antitrust fine",
+      "link": "https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-02T05:19:34.000Z"
+      "publishedAt": "2026-07-02T08:34:13.000Z"
+    },
+    {
+      "id": "hacker-news-the-fall-of-the-theorem-economy-2026-07-02t08-01-15-000z",
+      "title": "The Fall of the Theorem Economy",
+      "link": "https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-02T08:01:15.000Z"
     },
     {
       "id": "hacker-news-kimi-k2-7-code-is-generally-available-in-github-copilot-2026-07-02t04-32-41-00",
@@ -130,17 +163,6 @@
       "publishedAt": "2026-07-02T00:00:00.000Z"
     },
     {
-      "id": "hacker-news-opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance",
-      "title": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
-      "link": "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-01T22:27:47.000Z"
-    },
-    {
       "id": "hacker-news-zcode-harness-for-glm-5-2-2026-07-01t22-03-36-000z",
       "title": "ZCode – Harness for GLM-5.2",
       "link": "https://zcode.z.ai/en",
@@ -196,6 +218,17 @@
       "publishedAt": "2026-07-01T20:48:00.000Z"
     },
     {
+      "id": "the-register-godot-says-bye-bye-ai-bans-vibe-coded-contributions-2026-07-01t20-29-07-000z",
+      "title": "Godot says bye bye AI, bans vibe-coded contributions",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344",
+      "summary": "'We can’t trust heavy users of AI to understand their code enough to fix it,' say maintainers who previously called the flood of vibe-coded pull requests 'demoralizing'",
+      "image": "https://image.theregister.com/?imageId=257171&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-01T20:29:07.000Z"
+    },
+    {
       "id": "aws-what-s-new-aws-artifact-now-includes-assurance-assistant-for-compliance-inquiries-2026",
       "title": "AWS Artifact now includes Assurance Assistant for compliance inquiries",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/",
@@ -238,17 +271,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-07-01T18:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-what-to-learn-to-be-a-graphics-programmer-2026-07-01t17-53-44-000z",
-      "title": "What to learn to be a graphics programmer",
-      "link": "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-01T17:53:44.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-rds-announces-cross-region-automated-backups-in-four-additional-aws",
@@ -460,26 +482,15 @@
       "publishedAt": "2026-06-30T13:00:00.000Z"
     },
     {
-      "id": "infoq-microsoft-brings-ai-powered-vulnerability-remediation-to-azure-devops-with-copilot-a",
-      "title": "Microsoft Brings AI-Powered Vulnerability Remediation to Azure DevOps with Copilot Autofix",
-      "link": "https://www.infoq.com/news/2026/06/azuredevops-copilot-autofix/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Microsoft has announced the limited public preview of Copilot Autofix for GitHub Advanced Security for Azure DevOps, extending AI-powered vulnerability remediation to teams using Azure Repos. By Craig Risi",
-      "image": "",
-      "source": "InfoQ",
+      "id": "the-register-no-more-java-refills-for-intel-macs-after-jdk-27-says-oracle-2026-06-30t10-00",
+      "title": "No more Java refills for Intel Macs after JDK 27, says Oracle",
+      "link": "https://www.theregister.com/software/2026/06/30/no-more-java-refills-for-intel-macs-after-jdk-27-says-oracle/5263667",
+      "summary": "Apple's final break with Chipzilla leaves another platform preparing to wind down support",
+      "image": "https://image.theregister.com/?imageId=251786&width=800",
+      "source": "The Register",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-30T12:00:00.000Z"
-    },
-    {
-      "id": "infoq-aws-launches-lambda-microvms-for-isolated-agent-and-user-code-execution-2026-06-30t0",
-      "title": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution",
-      "link": "https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "AWS launched Lambda MicroVMs, a new serverless compute primitive that runs each user session or AI agent in its own Firecracker virtual machine with hardware-level isolation, snapshot-based rapid launch, and state prese...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-30T09:09:00.000Z"
+      "publishedAt": "2026-06-30T10:00:00.000Z"
     },
     {
       "id": "openai-news-how-chatgpt-adoption-has-expanded-2026-06-30t09-00-00-000z",
@@ -491,6 +502,17 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-30T09:00:00.000Z"
+    },
+    {
+      "id": "the-register-microsoft-builds-a-bouncer-to-keep-bots-out-of-teams-meetings-2026-06-30t06-1",
+      "title": "Microsoft builds a bouncer to keep bots out of Teams meetings",
+      "link": "https://www.theregister.com/software/2026/06/30/microsoft-builds-a-bouncer-to-keep-bots-out-of-teams-meetings/5264199",
+      "summary": "Allows ISVs to put their names on the door so desirable bots always get in",
+      "image": "https://image.theregister.com/?imageId=5225031&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-30T06:11:03.000Z"
     },
     {
       "id": "inside-java-zgc-a-decade-of-redefining-java-performance-2026-06-30t00-00-00-000z",
@@ -559,6 +581,17 @@
       "publishedAt": "2026-06-30T00:00:00.000Z"
     },
     {
+      "id": "hacker-news-asymmetric-quantization-near-lossless-retrieval-with-97-storage-reduction-2026",
+      "title": "Asymmetric Quantization: Near-Lossless Retrieval with 97% Storage Reduction",
+      "link": "https://www.mixedbread.com/blog/asymmetric-quant",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-29T19:42:15.000Z"
+    },
+    {
       "id": "hugging-face-blog-discoformer-one-transformer-for-density-and-score-across-distributions-2",
       "title": "DiScoFormer: One transformer for density and score, across distributions",
       "link": "https://huggingface.co/blog/allenai/discoformer",
@@ -579,39 +612,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-29T17:25:25.000Z"
-    },
-    {
-      "id": "github-blog-inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks",
-      "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
-      "link": "https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/",
-      "summary": "The GitHub Advisory Database is processing more vulnerability reports than ever before. Here's what's driving the surge, how we're responding, and how the community can help. The post Inside the Advisory Database and wh...",
-      "image": "https://github.blog/wp-content/uploads/2026/06/613839791-af0d8e48-215f-48c7-8f0c-16ef531592f7.png?resize=1024%2C640",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-29T16:10:20.000Z"
-    },
-    {
-      "id": "openai-news-mapping-europe-s-ai-workforce-opportunity-2026-06-29t07-00-00-000z",
-      "title": "Mapping Europe’s AI Workforce Opportunity",
-      "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-29T07:00:00.000Z"
-    },
-    {
-      "id": "openai-news-hp-inc-launches-frontier-strategic-partnership-with-openai-2026-06-28t17-00-00",
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "link": "https://openai.com/index/hp-frontier-partnership",
-      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-28T17:00:00.000Z"
     }
   ]
 }
