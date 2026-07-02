@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T10:20:42.514Z",
+  "updatedAt": "2026-07-02T12:24:48.612Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,11 +58,56 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
+    {
+      "id": "hacker-news-ask-hn-who-is-quitting-july-2026-2026-07-02t11-58-28-000z",
+      "title": "Ask HN: Who is quitting? (July 2026)",
+      "link": "https://news.ycombinator.com/item?id=48760048",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-02T11:58:28.000Z"
+    },
+    {
+      "id": "hacker-news-vite-beta-2026-07-02t11-30-01-000z",
+      "title": "Vite+ Beta",
+      "link": "https://voidzero.dev/posts/announcing-vite-plus-beta",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-02T11:30:01.000Z"
+    },
+    {
+      "id": "infoq-shifting-platform-development-from-projects-to-products-2026-07-02t11-27-00-000z",
+      "title": "Shifting Platform Development from Projects to Products",
+      "link": "https://www.infoq.com/news/2026/07/platform-projects-products/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "A company shifted from project- to product-thinking after their platform outgrew single-team use. The limitations that they felt with their platform were one-off deliveries, lack of product vision, and weak feedback loo...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-02T11:27:00.000Z"
+    },
+    {
+      "id": "hacker-news-openai-in-early-talks-to-give-5-stake-to-us-government-2026-07-02t11-16-31-000",
+      "title": "OpenAI: In early talks to give 5% stake to US Government",
+      "link": "https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-02T11:16:31.000Z"
+    },
     {
       "id": "infoq-apple-extends-private-cloud-compute-to-google-cloud-for-the-first-time-2026-07-02t10",
       "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time",
@@ -84,17 +129,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-02T09:20:00.000Z"
-    },
-    {
-      "id": "hacker-news-google-loses-fight-over-record-4-7b-eu-antitrust-fine-2026-07-02t08-34-13-000z",
-      "title": "Google loses fight over record $4.7B EU antitrust fine",
-      "link": "https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-02T08:34:13.000Z"
     },
     {
       "id": "hacker-news-the-fall-of-the-theorem-economy-2026-07-02t08-01-15-000z",
@@ -119,8 +153,8 @@
       "publishedAt": "2026-07-02T04:32:41.000Z"
     },
     {
-      "id": "hacker-news-a-new-android-malware-from-google-2026-07-02t03-00-15-000z",
-      "title": "A new Android malware from Google",
+      "id": "hacker-news-android-developer-verification-threat-masquerading-as-protection-2026-07-02t03",
+      "title": "Android Developer Verification: Threat masquerading as Protection",
       "link": "https://f-droid.org/2026/07/01/adv-malware.html",
       "summary": "Comments",
       "image": "",
@@ -128,17 +162,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-02T03:00:15.000Z"
-    },
-    {
-      "id": "hacker-news-bring-back-crappy-forums-2026-07-02t02-30-16-000z",
-      "title": "Bring back crappy forums",
-      "link": "https://tedium.co/2026/07/01/online-web-forums-retrospective/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-02T02:30:16.000Z"
     },
     {
       "id": "hacker-news-oomwoo-an-open-source-robot-vacuum-you-build-yourself-2026-07-02t00-48-01-000z",
@@ -150,6 +173,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-02T00:48:01.000Z"
+    },
+    {
+      "id": "inside-java-simd-vectors-in-the-hotspot-jvm-auto-vectorization-and-the-vector-api-2026-07",
+      "title": "SIMD Vectors in the HotSpot JVM - Auto Vectorization and the Vector API",
+      "link": "https://inside.java/2026/07/02/simd-vectors-hotspot-jvm/",
+      "summary": "Explore the latest work on the HotSpot JVM, with a focus on auto-vectorization and the Vector API.",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-07-02T00:00:00.000Z"
     },
     {
       "id": "spring-blog-a-bootiful-podcast-s-bastien-deleuze-on-the-latest-and-greatest-in-spring-ai-a",
@@ -216,17 +250,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-07-01T20:48:00.000Z"
-    },
-    {
-      "id": "the-register-godot-says-bye-bye-ai-bans-vibe-coded-contributions-2026-07-01t20-29-07-000z",
-      "title": "Godot says bye bye AI, bans vibe-coded contributions",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344",
-      "summary": "'We can’t trust heavy users of AI to understand their code enough to fix it,' say maintainers who previously called the flood of vibe-coded pull requests 'demoralizing'",
-      "image": "https://image.theregister.com/?imageId=257171&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-01T20:29:07.000Z"
     },
     {
       "id": "aws-what-s-new-aws-artifact-now-includes-assurance-assistant-for-compliance-inquiries-2026",
@@ -471,28 +494,6 @@
       "publishedAt": "2026-06-30T14:35:00.000Z"
     },
     {
-      "id": "infoq-elastic-open-sources-atlas-agent-memory-based-on-cognitive-science-2026-06-30t13-00",
-      "title": "Elastic Open-Sources Atlas Agent Memory Based on Cognitive Science",
-      "link": "https://www.infoq.com/news/2026/06/elastic-atlas-agent-memory/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Elastic open-sourced Atlas, a system built on Elasticsearch that maintains three categories of memory for agents. Atlas integrates with agents via MCP and maintains per-user isolation of memories. When evaluated on ques...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-30T13:00:00.000Z"
-    },
-    {
-      "id": "the-register-no-more-java-refills-for-intel-macs-after-jdk-27-says-oracle-2026-06-30t10-00",
-      "title": "No more Java refills for Intel Macs after JDK 27, says Oracle",
-      "link": "https://www.theregister.com/software/2026/06/30/no-more-java-refills-for-intel-macs-after-jdk-27-says-oracle/5263667",
-      "summary": "Apple's final break with Chipzilla leaves another platform preparing to wind down support",
-      "image": "https://image.theregister.com/?imageId=251786&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-30T10:00:00.000Z"
-    },
-    {
       "id": "openai-news-how-chatgpt-adoption-has-expanded-2026-06-30t09-00-00-000z",
       "title": "How ChatGPT adoption has expanded",
       "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
@@ -502,17 +503,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-06-30T09:00:00.000Z"
-    },
-    {
-      "id": "the-register-microsoft-builds-a-bouncer-to-keep-bots-out-of-teams-meetings-2026-06-30t06-1",
-      "title": "Microsoft builds a bouncer to keep bots out of Teams meetings",
-      "link": "https://www.theregister.com/software/2026/06/30/microsoft-builds-a-bouncer-to-keep-bots-out-of-teams-meetings/5264199",
-      "summary": "Allows ISVs to put their names on the door so desirable bots always get in",
-      "image": "https://image.theregister.com/?imageId=5225031&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-30T06:11:03.000Z"
     },
     {
       "id": "inside-java-zgc-a-decade-of-redefining-java-performance-2026-06-30t00-00-00-000z",
@@ -581,17 +571,6 @@
       "publishedAt": "2026-06-30T00:00:00.000Z"
     },
     {
-      "id": "hacker-news-asymmetric-quantization-near-lossless-retrieval-with-97-storage-reduction-2026",
-      "title": "Asymmetric Quantization: Near-Lossless Retrieval with 97% Storage Reduction",
-      "link": "https://www.mixedbread.com/blog/asymmetric-quant",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-29T19:42:15.000Z"
-    },
-    {
       "id": "hugging-face-blog-discoformer-one-transformer-for-density-and-score-across-distributions-2",
       "title": "DiScoFormer: One transformer for density and score, across distributions",
       "link": "https://huggingface.co/blog/allenai/discoformer",
@@ -612,6 +591,28 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-06-29T17:25:25.000Z"
+    },
+    {
+      "id": "github-blog-inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks",
+      "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
+      "link": "https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/",
+      "summary": "The GitHub Advisory Database is processing more vulnerability reports than ever before. Here's what's driving the surge, how we're responding, and how the community can help. The post Inside the Advisory Database and wh...",
+      "image": "https://github.blog/wp-content/uploads/2026/06/613839791-af0d8e48-215f-48c7-8f0c-16ef531592f7.png?resize=1024%2C640",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-29T16:10:20.000Z"
+    },
+    {
+      "id": "openai-news-mapping-europe-s-ai-workforce-opportunity-2026-06-29t07-00-00-000z",
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-29T07:00:00.000Z"
     }
   ]
 }
