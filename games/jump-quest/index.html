@@ -153,6 +153,7 @@
     <div class="actions">
       <button onclick="startGame()">Start Game</button>
       <button onclick="resetGame()">Reset</button>
+      <button id="muteBtn" onclick="toggleMusic()">🔊 Music</button>
     </div>
 
     <div class="controls" aria-label="Mobile controls">
@@ -182,6 +183,97 @@
 
     let bestCoins = Number(localStorage.getItem("jumpQuestBestCoins")) || 0;
     bestCoinsElement.innerText = bestCoins;
+
+    let audioCtx;
+    let musicEnabled = localStorage.getItem("jumpQuestMusic") !== "off";
+    let musicTimer;
+    let musicStep = 0;
+    const muteBtn = document.getElementById("muteBtn");
+    muteBtn.innerText = musicEnabled ? "🔊 Music" : "🔇 Music";
+    const melody = [261.63, 293.66, 329.63, 261.63, 329.63, 392.0, 329.63, 293.66];
+
+    function ensureAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === "suspended") {
+        audioCtx.resume();
+      }
+    }
+
+    function beep(freq, duration, type, volume, delay) {
+      if (!audioCtx) {
+        return;
+      }
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.type = type || "square";
+      osc.frequency.value = freq;
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      const startTime = audioCtx.currentTime + (delay || 0);
+      const vol = volume || 0.15;
+      gain.gain.setValueAtTime(vol, startTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, startTime + duration);
+      osc.start(startTime);
+      osc.stop(startTime + duration);
+    }
+
+    function playJumpSound() {
+      beep(600, 0.12, "square", 0.12);
+      beep(900, 0.08, "square", 0.1, 0.05);
+    }
+
+    function playCoinSound() {
+      beep(988, 0.08, "square", 0.15);
+      beep(1319, 0.12, "square", 0.15, 0.08);
+    }
+
+    function playStompSound() {
+      beep(150, 0.15, "sawtooth", 0.2);
+    }
+
+    function playHurtSound() {
+      beep(120, 0.3, "sawtooth", 0.2);
+    }
+
+    function playWinSound() {
+      [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => beep(f, 0.18, "square", 0.15, i * 0.15));
+    }
+
+    function playGameOverSound() {
+      [400, 350, 300, 250].forEach((f, i) => beep(f, 0.25, "sawtooth", 0.15, i * 0.2));
+    }
+
+    function startMusic() {
+      stopMusic();
+      if (!musicEnabled || !audioCtx) {
+        return;
+      }
+      musicStep = 0;
+      musicTimer = setInterval(() => {
+        beep(melody[musicStep % melody.length], 0.18, "triangle", 0.05);
+        musicStep++;
+      }, 220);
+    }
+
+    function stopMusic() {
+      clearInterval(musicTimer);
+    }
+
+    function toggleMusic() {
+      musicEnabled = !musicEnabled;
+      localStorage.setItem("jumpQuestMusic", musicEnabled ? "on" : "off");
+      muteBtn.innerText = musicEnabled ? "🔊 Music" : "🔇 Music";
+      if (musicEnabled) {
+        ensureAudio();
+        if (running) {
+          startMusic();
+        }
+      } else {
+        stopMusic();
+      }
+    }
 
     let player;
     let platforms;
@@ -263,6 +355,8 @@
       }
       running = true;
       messageElement.innerText = "Go!";
+      ensureAudio();
+      startMusic();
       rafId = requestAnimationFrame(loop);
     }
 
@@ -299,6 +393,7 @@
       if (jumpQueued && player.onGround) {
         player.vy = JUMP_FORCE;
         player.onGround = false;
+        playJumpSound();
       }
       jumpQueued = false;
 
@@ -338,6 +433,7 @@
             bestCoins = coinCount;
             localStorage.setItem("jumpQuestBestCoins", String(bestCoins));
           }
+          playCoinSound();
           updateHud();
         }
       });
@@ -351,6 +447,7 @@
           if (player.vy > 0 && player.y + player.h - player.vy <= e.y) {
             e.x = e.minX - 9999;
             player.vy = JUMP_FORCE / 2;
+            playStompSound();
           } else {
             loseLife();
           }
@@ -369,10 +466,13 @@
       updateHud();
       if (lives <= 0) {
         running = false;
+        stopMusic();
+        playGameOverSound();
         cancelAnimationFrame(rafId);
         messageElement.innerText = "Game over! Press Start to try again.";
         return;
       }
+      playHurtSound();
       resetPlayer();
       messageElement.innerText = "Ouch! Lives left: " + lives;
     }
@@ -380,6 +480,8 @@
     function winGame() {
       running = false;
       won = true;
+      stopMusic();
+      playWinSound();
       cancelAnimationFrame(rafId);
       messageElement.innerText = "You reached the flag! Coins: " + coinCount;
     }
