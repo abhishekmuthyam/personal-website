@@ -93,7 +93,7 @@
     }
 
     .controls {
-      grid-template-columns: repeat(3, 74px);
+      grid-template-columns: repeat(4, 64px);
       margin-top: 16px;
     }
 
@@ -107,16 +107,21 @@
       background: #374151;
     }
 
-    .controls .jump {
-      grid-column: 2;
+    .controls .run {
+      grid-column: 1;
+      background: #7c2d12;
     }
 
     .controls .left {
-      grid-column: 1;
+      grid-column: 2;
+    }
+
+    .controls .jump {
+      grid-column: 3;
     }
 
     .controls .right {
-      grid-column: 3;
+      grid-column: 4;
     }
 
     .hint {
@@ -141,6 +146,7 @@
     <p>Run, jump over gaps, dodge the enemy, collect coins, and reach the flag.</p>
 
     <div class="score-row">
+      <span>Level: <span id="levelNum">1</span>/<span id="levelTotal">3</span></span>
       <span>Coins: <span id="coins">0</span></span>
       <span>Best: <span id="bestCoins">0</span></span>
       <span>Lives: <span id="lives">3</span></span>
@@ -148,7 +154,7 @@
 
     <canvas id="board" width="640" height="360" aria-label="Jump Quest game board"></canvas>
     <p id="message">Press Start to play.</p>
-    <p class="hint">Arrow keys / A-D to move, Space or Up to jump.</p>
+    <p class="hint">Arrow keys / A-D to move, Space or Up to jump, hold Shift to run. Grab the mushroom for a life or the star for invincibility.</p>
 
     <div class="actions">
       <button onclick="startGame()">Start Game</button>
@@ -157,8 +163,9 @@
     </div>
 
     <div class="controls" aria-label="Mobile controls">
-      <button class="jump" onclick="pressJump()">Jump</button>
+      <button class="run" onmousedown="setRunning(true)" onmouseup="setRunning(false)" ontouchstart="setRunning(true)" ontouchend="setRunning(false)">Run</button>
       <button class="left" onmousedown="setMove(-1)" onmouseup="setMove(0)" ontouchstart="setMove(-1)" ontouchend="setMove(0)">Left</button>
+      <button class="jump" onclick="pressJump()">Jump</button>
       <button class="right" onmousedown="setMove(1)" onmouseup="setMove(0)" ontouchstart="setMove(1)" ontouchend="setMove(0)">Right</button>
     </div>
   </main>
@@ -178,8 +185,129 @@
     const GRAVITY = 0.6;
     const JUMP_FORCE = -11.5;
     const MOVE_SPEED = 3.2;
+    const RUN_MULTIPLIER = 1.6;
     const GROUND_Y = 300;
-    const WORLD_WIDTH = 2200;
+    const TOTAL_LEVELS = 3;
+    const INVINCIBLE_FRAMES = 420;
+
+    const levelNumElement = document.getElementById("levelNum");
+    document.getElementById("levelTotal").innerText = TOTAL_LEVELS;
+
+    const LEVEL_BUILDERS = [
+      () => ({
+        worldWidth: 1750,
+        platforms: [
+          { x: 0, y: GROUND_Y, w: 500, h: 60 },
+          { x: 600, y: GROUND_Y, w: 300, h: 60 },
+          { x: 1000, y: GROUND_Y, w: 200, h: 60 },
+          { x: 1300, y: GROUND_Y, w: 400, h: 60 },
+          { x: 780, y: 220, w: 100, h: 20 }
+        ],
+        coins: [
+          { x: 260, y: 260, taken: false },
+          { x: 650, y: 260, taken: false },
+          { x: 820, y: 180, taken: false },
+          { x: 1120, y: 260, taken: false },
+          { x: 1550, y: 260, taken: false }
+        ],
+        enemies: [
+          { x: 650, y: GROUND_Y - 24, w: 26, h: 24, minX: 610, maxX: 870, dir: 1, speed: 1.3 }
+        ],
+        powerups: [
+          { x: 950, y: 260, type: "mushroom", taken: false }
+        ],
+        flag: { x: 1600, y: 180, w: 20, h: 120 }
+      }),
+      () => ({
+        worldWidth: 2200,
+        platforms: [
+          { x: 0, y: GROUND_Y, w: 500, h: 60 },
+          { x: 600, y: GROUND_Y, w: 300, h: 60 },
+          { x: 1000, y: GROUND_Y, w: 200, h: 60 },
+          { x: 1300, y: GROUND_Y, w: 500, h: 60 },
+          { x: 1900, y: GROUND_Y, w: 300, h: 60 },
+          { x: 780, y: 220, w: 100, h: 20 },
+          { x: 1080, y: 200, w: 100, h: 20 },
+          { x: 1500, y: 230, w: 120, h: 20 },
+          { x: 1700, y: 170, w: 100, h: 20 }
+        ],
+        coins: [
+          { x: 260, y: 260, taken: false },
+          { x: 650, y: 260, taken: false },
+          { x: 820, y: 180, taken: false },
+          { x: 1120, y: 160, taken: false },
+          { x: 1350, y: 260, taken: false },
+          { x: 1550, y: 190, taken: false },
+          { x: 1750, y: 130, taken: false },
+          { x: 1950, y: 260, taken: false }
+        ],
+        enemies: [
+          { x: 650, y: GROUND_Y - 24, w: 26, h: 24, minX: 610, maxX: 870, dir: 1, speed: 1.3 },
+          { x: 1350, y: GROUND_Y - 24, w: 26, h: 24, minX: 1310, maxX: 1600, dir: 1, speed: 1.5 },
+          { x: 1950, y: GROUND_Y - 24, w: 26, h: 24, minX: 1910, maxX: 2150, dir: -1, speed: 1.4 }
+        ],
+        powerups: [
+          { x: 1150, y: 150, type: "star", taken: false },
+          { x: 1820, y: 260, type: "mushroom", taken: false }
+        ],
+        flag: { x: 2120, y: 180, w: 20, h: 120 }
+      }),
+      () => ({
+        worldWidth: 3900,
+        platforms: [
+          { x: 0, y: GROUND_Y, w: 500, h: 60 },
+          { x: 600, y: GROUND_Y, w: 300, h: 60 },
+          { x: 1000, y: GROUND_Y, w: 200, h: 60 },
+          { x: 1300, y: GROUND_Y, w: 500, h: 60 },
+          { x: 1900, y: GROUND_Y, w: 300, h: 60 },
+          { x: 780, y: 220, w: 100, h: 20 },
+          { x: 1080, y: 200, w: 100, h: 20 },
+          { x: 1500, y: 230, w: 120, h: 20 },
+          { x: 1700, y: 170, w: 100, h: 20 },
+          { x: 2200, y: GROUND_Y, w: 300, h: 60 },
+          { x: 2600, y: GROUND_Y, w: 200, h: 60 },
+          { x: 2900, y: GROUND_Y, w: 500, h: 60 },
+          { x: 3500, y: GROUND_Y, w: 300, h: 60 },
+          { x: 2380, y: 220, w: 100, h: 20 },
+          { x: 2680, y: 200, w: 100, h: 20 },
+          { x: 3100, y: 230, w: 120, h: 20 },
+          { x: 3300, y: 170, w: 100, h: 20 }
+        ],
+        coins: [
+          { x: 260, y: 260, taken: false },
+          { x: 650, y: 260, taken: false },
+          { x: 820, y: 180, taken: false },
+          { x: 1120, y: 160, taken: false },
+          { x: 1350, y: 260, taken: false },
+          { x: 1550, y: 190, taken: false },
+          { x: 1750, y: 130, taken: false },
+          { x: 1950, y: 260, taken: false },
+          { x: 2250, y: 260, taken: false },
+          { x: 2420, y: 260, taken: false },
+          { x: 2720, y: 160, taken: false },
+          { x: 2950, y: 260, taken: false },
+          { x: 3150, y: 190, taken: false },
+          { x: 3350, y: 130, taken: false },
+          { x: 3550, y: 260, taken: false }
+        ],
+        enemies: [
+          { x: 650, y: GROUND_Y - 24, w: 26, h: 24, minX: 610, maxX: 870, dir: 1, speed: 1.4 },
+          { x: 1350, y: GROUND_Y - 24, w: 26, h: 24, minX: 1310, maxX: 1600, dir: 1, speed: 1.6 },
+          { x: 1950, y: GROUND_Y - 24, w: 26, h: 24, minX: 1910, maxX: 2150, dir: -1, speed: 1.5 },
+          { x: 2250, y: GROUND_Y - 24, w: 26, h: 24, minX: 2210, maxX: 2470, dir: 1, speed: 1.5 },
+          { x: 2950, y: GROUND_Y - 24, w: 26, h: 24, minX: 2910, maxX: 3200, dir: 1, speed: 1.7 },
+          { x: 3550, y: GROUND_Y - 24, w: 26, h: 24, minX: 3510, maxX: 3750, dir: -1, speed: 1.6 }
+        ],
+        powerups: [
+          { x: 300, y: 260, type: "mushroom", taken: false },
+          { x: 1600, y: 150, type: "star", taken: false },
+          { x: 3000, y: 260, type: "star", taken: false }
+        ],
+        flag: { x: 3720, y: 180, w: 20, h: 120 }
+      })
+    ];
+
+    let WORLD_WIDTH = 2200;
 
     let bestCoins = Number(localStorage.getItem("jumpQuestBestCoins")) || 0;
     bestCoinsElement.innerText = bestCoins;
@@ -245,6 +373,18 @@
       [400, 350, 300, 250].forEach((f, i) => beep(f, 0.25, "sawtooth", 0.15, i * 0.2));
     }
 
+    function playPowerupSound() {
+      [392.0, 523.25, 659.25].forEach((f, i) => beep(f, 0.14, "square", 0.16, i * 0.1));
+    }
+
+    function playStarSound() {
+      [659.25, 783.99, 987.77, 1318.5].forEach((f, i) => beep(f, 0.12, "triangle", 0.16, i * 0.08));
+    }
+
+    function playLevelCompleteSound() {
+      [523.25, 659.25, 783.99].forEach((f, i) => beep(f, 0.16, "square", 0.15, i * 0.12));
+    }
+
     function startMusic() {
       stopMusic();
       if (!musicEnabled || !audioCtx) {
@@ -279,47 +419,28 @@
     let platforms;
     let coins;
     let enemies;
+    let powerups;
     let flag;
     let camera;
     let moveDir = 0;
+    let isRunning = false;
     let jumpQueued = false;
     let coinCount = 0;
     let lives = 3;
     let running = false;
     let won = false;
     let rafId;
+    let currentLevelIndex = 0;
+    let invincibleTimer = 0;
 
-    function buildLevel() {
-      platforms = [
-        { x: 0, y: GROUND_Y, w: 500, h: 60 },
-        { x: 600, y: GROUND_Y, w: 300, h: 60 },
-        { x: 1000, y: GROUND_Y, w: 200, h: 60 },
-        { x: 1300, y: GROUND_Y, w: 500, h: 60 },
-        { x: 1900, y: GROUND_Y, w: 300, h: 60 },
-        { x: 780, y: 220, w: 100, h: 20 },
-        { x: 1080, y: 200, w: 100, h: 20 },
-        { x: 1500, y: 230, w: 120, h: 20 },
-        { x: 1700, y: 170, w: 100, h: 20 }
-      ];
-
-      coins = [
-        { x: 260, y: 260, taken: false },
-        { x: 650, y: 260, taken: false },
-        { x: 820, y: 180, taken: false },
-        { x: 1120, y: 160, taken: false },
-        { x: 1350, y: 260, taken: false },
-        { x: 1550, y: 190, taken: false },
-        { x: 1750, y: 130, taken: false },
-        { x: 1950, y: 260, taken: false }
-      ];
-
-      enemies = [
-        { x: 650, y: GROUND_Y - 24, w: 26, h: 24, minX: 610, maxX: 870, dir: 1, speed: 1.3 },
-        { x: 1350, y: GROUND_Y - 24, w: 26, h: 24, minX: 1310, maxX: 1600, dir: 1, speed: 1.5 },
-        { x: 1950, y: GROUND_Y - 24, w: 26, h: 24, minX: 1910, maxX: 2150, dir: -1, speed: 1.4 }
-      ];
-
-      flag = { x: 2120, y: 180, w: 20, h: 120 };
+    function buildLevel(index) {
+      const level = LEVEL_BUILDERS[index]();
+      platforms = level.platforms;
+      coins = level.coins;
+      enemies = level.enemies;
+      powerups = level.powerups;
+      flag = level.flag;
+      WORLD_WIDTH = level.worldWidth;
     }
 
     function resetPlayer() {
@@ -329,7 +450,9 @@
 
     function resetGame() {
       cancelAnimationFrame(rafId);
-      buildLevel();
+      currentLevelIndex = 0;
+      invincibleTimer = 0;
+      buildLevel(currentLevelIndex);
       resetPlayer();
       coinCount = 0;
       lives = 3;
@@ -346,7 +469,9 @@
         return;
       }
       if (won || lives <= 0) {
-        buildLevel();
+        currentLevelIndex = 0;
+        invincibleTimer = 0;
+        buildLevel(currentLevelIndex);
         resetPlayer();
         coinCount = 0;
         lives = 3;
@@ -369,10 +494,15 @@
       moveDir = dir;
     }
 
+    function setRunning(value) {
+      isRunning = value;
+    }
+
     function updateHud() {
       coinsElement.innerText = coinCount;
       livesElement.innerText = lives;
       bestCoinsElement.innerText = bestCoins;
+      levelNumElement.innerText = currentLevelIndex + 1;
     }
 
     function rectsOverlap(a, b) {
@@ -388,7 +518,11 @@
     }
 
     function update() {
-      player.vx = moveDir * MOVE_SPEED;
+      if (invincibleTimer > 0) {
+        invincibleTimer -= 1;
+      }
+
+      player.vx = moveDir * MOVE_SPEED * (isRunning ? RUN_MULTIPLIER : 1);
 
       if (jumpQueued && player.onGround) {
         player.vy = JUMP_FORCE;
@@ -438,13 +572,30 @@
         }
       });
 
+      powerups.forEach(p => {
+        if (!p.taken && rectsOverlap(player, { x: p.x - 12, y: p.y - 12, w: 24, h: 24 })) {
+          p.taken = true;
+          if (p.type === "mushroom") {
+            lives = Math.min(lives + 1, 5);
+            playPowerupSound();
+          } else if (p.type === "star") {
+            invincibleTimer = INVINCIBLE_FRAMES;
+            playStarSound();
+          }
+          updateHud();
+        }
+      });
+
       enemies.forEach(e => {
         e.x += e.dir * e.speed;
         if (e.x < e.minX || e.x > e.maxX) {
           e.dir *= -1;
         }
         if (rectsOverlap(player, e)) {
-          if (player.vy > 0 && player.y + player.h - player.vy <= e.y) {
+          if (invincibleTimer > 0) {
+            e.x = e.minX - 9999;
+            playStompSound();
+          } else if (player.vy > 0 && player.y + player.h - player.vy <= e.y) {
             e.x = e.minX - 9999;
             player.vy = JUMP_FORCE / 2;
             playStompSound();
@@ -463,6 +614,7 @@
 
     function loseLife() {
       lives -= 1;
+      invincibleTimer = 0;
       updateHud();
       if (lives <= 0) {
         running = false;
@@ -478,12 +630,23 @@
     }
 
     function winGame() {
+      if (currentLevelIndex < TOTAL_LEVELS - 1) {
+        currentLevelIndex += 1;
+        invincibleTimer = 0;
+        buildLevel(currentLevelIndex);
+        resetPlayer();
+        updateHud();
+        playLevelCompleteSound();
+        messageElement.innerText = "Level " + currentLevelIndex + " complete! Onward to level " + (currentLevelIndex + 1) + ".";
+        return;
+      }
+
       running = false;
       won = true;
       stopMusic();
       playWinSound();
       cancelAnimationFrame(rafId);
-      messageElement.innerText = "You reached the flag! Coins: " + coinCount;
+      messageElement.innerText = "You beat all levels! Coins: " + coinCount;
     }
 
     function draw() {
@@ -506,6 +669,27 @@
         }
       });
 
+      powerups.forEach(p => {
+        if (p.taken) {
+          return;
+        }
+        if (p.type === "mushroom") {
+          ctx.fillStyle = "#b91c1c";
+          ctx.beginPath();
+          ctx.arc(p.x, p.y - 4, 11, Math.PI, 0);
+          ctx.fill();
+          ctx.fillStyle = "#fde68a";
+          ctx.fillRect(p.x - 7, p.y - 4, 14, 10);
+          ctx.fillStyle = "white";
+          ctx.beginPath();
+          ctx.arc(p.x - 5, p.y - 6, 2.5, 0, Math.PI * 2);
+          ctx.arc(p.x + 5, p.y - 6, 2.5, 0, Math.PI * 2);
+          ctx.fill();
+        } else {
+          drawStar(p.x, p.y, 11);
+        }
+      });
+
       ctx.fillStyle = "#7f1d1d";
       enemies.forEach(e => {
         if (e.x > -1000) {
@@ -523,7 +707,11 @@
       ctx.closePath();
       ctx.fill();
 
-      ctx.fillStyle = "#1d4ed8";
+      if (invincibleTimer > 0 && Math.floor(invincibleTimer / 4) % 2 === 0) {
+        ctx.fillStyle = "#f59e0b";
+      } else {
+        ctx.fillStyle = "#1d4ed8";
+      }
       ctx.fillRect(player.x, player.y, player.w, player.h);
       ctx.fillStyle = "#fde68a";
       ctx.fillRect(player.x + 6, player.y + 6, player.w - 12, 10);
@@ -531,11 +719,31 @@
       ctx.restore();
     }
 
+    function drawStar(cx, cy, radius) {
+      ctx.fillStyle = "#facc15";
+      ctx.beginPath();
+      for (let i = 0; i < 10; i++) {
+        const angle = (Math.PI / 5) * i - Math.PI / 2;
+        const r = i % 2 === 0 ? radius : radius / 2.3;
+        const px = cx + Math.cos(angle) * r;
+        const py = cy + Math.sin(angle) * r;
+        if (i === 0) {
+          ctx.moveTo(px, py);
+        } else {
+          ctx.lineTo(px, py);
+        }
+      }
+      ctx.closePath();
+      ctx.fill();
+    }
+
     document.addEventListener("keydown", event => {
       if (["ArrowLeft", "a", "A"].includes(event.key)) {
         moveDir = -1;
       } else if (["ArrowRight", "d", "D"].includes(event.key)) {
         moveDir = 1;
+      } else if (event.key === "Shift") {
+        isRunning = true;
       } else if ([" ", "ArrowUp", "w", "W"].includes(event.key)) {
         event.preventDefault();
         jumpQueued = true;
@@ -546,6 +754,8 @@
     document.addEventListener("keyup", event => {
       if (["ArrowLeft", "a", "A", "ArrowRight", "d", "D"].includes(event.key)) {
         moveDir = 0;
+      } else if (event.key === "Shift") {
+        isRunning = false;
       }
     });
 
