@@ -1425,3 +1425,28 @@ footer {
   padding: 12px 8px;
   white-space: nowrap;
 }
+
+.article-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 9px 18px;
+  cursor: pointer;
+  margin: 22px 0 0;
+  box-shadow: none;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.article-back:hover {
+  color: #ffffff;
+  background: rgba(99, 102, 241, 0.2);
+  border-color: rgba(99, 102, 241, 0.5);
+  transform: none;
+  box-shadow: none;
+}
