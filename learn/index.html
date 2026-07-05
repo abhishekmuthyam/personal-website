@@ -3,55 +3,143 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learn</title>
-  <meta name="description" content="Study hubs — Java interview prep, AWS notes, AI experiments, and LLM & agent deep-dives.">
+  <title>Learn AI</title>
+  <meta name="description" content="Learn AI in simple English — the story of AI, a step-by-step roadmap, a plain-language dictionary of every important term, and how modern AI agents, MCP, skills, and hooks work.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
   <script src="/auth.js" defer></script>
   <style>
-    .card-icon {
+    .learn-tabs-wrap {
+      max-width: 1100px;
+      margin: -28px auto 10px;
+      padding: 0 20px;
+      position: relative;
+      z-index: 5;
+    }
+
+    .learn-tabs {
+      background: rgba(17, 24, 39, 0.92);
+      border: 1px solid var(--glass-border);
+      border-radius: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 6px;
+      gap: 4px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .learn-tab {
+      background: transparent;
+      border: none;
+      color: var(--muted);
+      padding: 13px 20px;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: 'Outfit', sans-serif;
+      cursor: pointer;
+      box-shadow: none;
+      flex: 1 1 auto;
+    }
+
+    .learn-tab:hover { background: rgba(255,255,255,0.05); color: #fff; transform: none; box-shadow: none; }
+
+    .learn-tab.active { background: var(--brand); color: #fff; }
+
+    .learn-section { display: none; }
+    .learn-section.active { display: block; }
+
+    .qa {
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      border-radius: 14px;
+      padding: 22px 24px;
+      margin-bottom: 16px;
+    }
+
+    .qa h3 { font-size: 17px; margin: 0 0 10px; color: #ffffff; }
+
+    .qa p, .qa li { color: var(--muted); font-size: 15px; line-height: 1.75; margin: 0 0 8px; }
+
+    .qa ul, .qa ol { padding-left: 20px; margin: 8px 0; }
+
+    .qa p code, .qa li code {
+      background: rgba(99,102,241,0.12);
+      border-radius: 5px;
+      padding: 1px 6px;
+      color: #c7d2fe;
+      font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+      font-size: 13px;
+    }
+
+    .year-badge {
+      display: inline-block;
+      background: rgba(99,102,241,0.15);
+      border: 1px solid rgba(99,102,241,0.35);
+      border-radius: 8px;
+      color: #a5b4fc;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 3px 12px;
+      margin-bottom: 10px;
+    }
+
+    .step-num {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 44px;
-      height: 44px;
-      border-radius: 11px;
-      background: rgba(99, 102, 241, 0.1);
-      border: 1px solid rgba(99, 102, 241, 0.18);
-      font-size: 21px;
-      margin-bottom: 14px;
-    }
-
-    .card-arrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      color: var(--brand);
-      font-size: 13px;
-      font-weight: 600;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: var(--brand);
+      color: white;
       font-family: 'Outfit', sans-serif;
-      margin-top: auto;
-      padding-top: 14px;
-      opacity: 0;
-      transform: translateX(-4px);
-      transition: opacity 0.25s, transform 0.25s;
+      font-weight: 800;
+      font-size: 15px;
+      margin-right: 10px;
+      flex: 0 0 30px;
     }
 
-    .card-link:hover .card-arrow {
-      opacity: 1;
-      transform: translateX(0);
+    .qa h3.step { display: flex; align-items: center; }
+
+    .dict-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 14px;
     }
 
-    .card-stat {
-      color: var(--accent);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      margin-top: 8px;
+    .dict-grid .qa { margin-bottom: 0; }
+
+    .dict-search {
+      width: 100%;
+      box-sizing: border-box;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px;
+      color: var(--text);
+      font-size: 15px;
+      font-family: inherit;
+      padding: 13px 16px;
+      outline: none;
+      margin-bottom: 18px;
     }
+
+    .dict-search:focus { border-color: var(--brand); }
+
+    .analogy {
+      border-left: 3px solid var(--accent);
+      background: rgba(20,184,166,0.06);
+      border-radius: 0 10px 10px 0;
+      padding: 10px 14px;
+      margin-top: 10px;
+    }
+
+    .analogy p { margin: 0; color: #ccfbf1; font-size: 14px; }
+
+    .no-match { color: var(--muted); text-align: center; padding: 30px 0; display: none; }
   </style>
 </head>
 <body>
@@ -70,51 +158,310 @@
   </header>
 
   <section class="hero">
-    <h1>Learn</h1>
-    <p>Study hubs with real notes — interview prep, cloud, and AI engineering, all learned in public.</p>
+    <h1>Learn AI</h1>
+    <p>Everything important about AI, explained in simple English — no math, no jargon, no computer science degree needed.</p>
   </section>
 
-  <section>
-    <h2>Study Hubs</h2>
-    <div class="cards feature-cards" style="margin-top:22px;">
-      <a href="/java-interview-prep" class="card-link">
-        <span class="card-icon">&#9749;</span>
-        <span class="card-kicker">Interview Prep</span>
-        <h3>Java Interview Prep</h3>
-        <p>24 real interview questions with straight answers and code — core Java, collections, streams, concurrency, and Spring Boot.</p>
-        <span class="card-stat">Q&amp;A format · code samples</span>
-        <span class="card-arrow">Study &rarr;</span>
-      </a>
-      <a href="/aws-notes" class="card-link">
-        <span class="card-icon">&#9729;&#65039;</span>
-        <span class="card-kicker">Cloud</span>
-        <h3>AWS Notes</h3>
-        <p>Practical service notes anchored in reality — the Lambda, DynamoDB, and Cognito setup running this very site, plus free-tier straight talk.</p>
-        <span class="card-stat">Battle-tested · live examples</span>
-        <span class="card-arrow">Study &rarr;</span>
-      </a>
-      <a href="/llms" class="card-link">
-        <span class="card-icon">&#129302;</span>
-        <span class="card-kicker">AI &amp; Agents</span>
-        <h3>LLMs &amp; Agentic Hub</h3>
-        <p>Deep-dives into LLM evolution, reasoning models, autonomous agent designs, and the Model Context Protocol.</p>
-        <span class="card-stat">Deep-dives · agent walkthroughs</span>
-        <span class="card-arrow">Study &rarr;</span>
-      </a>
-      <a href="/ai-experiments" class="card-link">
-        <span class="card-icon">&#129514;</span>
-        <span class="card-kicker">Applied AI</span>
-        <h3>AI Experiments</h3>
-        <p>Honest writeups of the five AI-built experiments shipped on this site — what worked, what broke, and what it taught.</p>
-        <span class="card-stat">5 experiments · real takeaways</span>
-        <span class="card-arrow">Read &rarr;</span>
-      </a>
+  <div class="learn-tabs-wrap">
+    <div class="learn-tabs" role="tablist">
+      <button class="learn-tab active" data-tab="story">📖 The Story of AI</button>
+      <button class="learn-tab" data-tab="roadmap">🗺️ Learning Roadmap</button>
+      <button class="learn-tab" data-tab="dictionary">📚 AI Dictionary</button>
+      <button class="learn-tab" data-tab="agents">🤖 Agents, MCP &amp; More</button>
+    </div>
+  </div>
+
+  <!-- ============ THE STORY OF AI ============ -->
+  <section class="learn-section active" id="tab-story">
+    <h2>How AI started, and how we got here</h2>
+    <p class="section-intro">The whole history in ten short chapters. Read top to bottom — it's a story, and a surprisingly human one.</p>
+
+    <article class="qa">
+      <span class="year-badge">1950</span>
+      <h3>A simple question: "Can machines think?"</h3>
+      <p>British mathematician <strong>Alan Turing</strong> asked this in a famous paper. He suggested a test: if you chat with something through text and can't tell whether it's a human or a machine, the machine can be said to "think." This is the <strong>Turing Test</strong> — and it set the goal AI has chased ever since.</p>
+    </article>
+
+    <article class="qa">
+      <span class="year-badge">1956</span>
+      <h3>AI gets its name</h3>
+      <p>A small summer workshop at Dartmouth College in America brought scientists together to study "thinking machines." They needed a name for the field and chose <strong>"Artificial Intelligence."</strong> The attendees were very optimistic — some believed human-level machine intelligence was 20 years away. They were off by quite a bit.</p>
+    </article>
+
+    <article class="qa">
+      <span class="year-badge">1960s–1980s</span>
+      <h3>Big dreams, small computers — the "AI winters"</h3>
+      <p>Early AI worked by programmers writing rules by hand: "IF the patient has fever AND cough, THEN suggest flu." These <strong>expert systems</strong> worked for narrow problems but couldn't handle the messiness of the real world, and computers were too weak. Funding dried up twice — periods so cold they're called the <strong>AI winters</strong>.</p>
+    </article>
+
+    <article class="qa">
+      <span class="year-badge">1997</span>
+      <h3>A machine beats the world chess champion</h3>
+      <p>IBM's <strong>Deep Blue</strong> defeated Garry Kasparov, the best chess player alive. Headlines said machines had become intelligent — but Deep Blue could only play chess. It couldn't even play checkers. Still, it proved computers could beat humans at things thought to need "real" intelligence.</p>
+    </article>
+
+    <article class="qa">
+      <span class="year-badge">2012</span>
+      <h3>The deep learning breakthrough</h3>
+      <p>Instead of writing rules by hand, a different idea won: build a <strong>neural network</strong> (software loosely inspired by the brain) and let it <em>learn from examples</em>. In 2012, a neural network called AlexNet crushed a famous image-recognition contest — recognizing cats, cars, and dogs far better than anything before. The recipe was simple: lots of data + powerful graphics chips (GPUs) + big networks. Everything since builds on this.</p>
+    </article>
+
+    <article class="qa">
+      <span class="year-badge">2017</span>
+      <h3>The Transformer — the invention behind everything today</h3>
+      <p>Google researchers published a paper called <em>"Attention Is All You Need"</em> introducing the <strong>Transformer</strong> — a neural network design that is extremely good at understanding language, because it can "pay attention" to how every word in a sentence relates to every other word. The T in ChatGPT stands for Transformer. Nearly every modern AI is one.</p>
+    </article>
+
+    <article class="qa">
+      <span class="year-badge">2018–2021</span>
+      <h3>Language models grow up quietly</h3>
+      <p>Companies trained Transformers on huge chunks of the internet to do something deceptively simple: <strong>predict the next word</strong>. It turns out that to predict words really well, a model must absorb grammar, facts, reasoning patterns, even coding. GPT-2, then GPT-3 showed each bigger model was strangely, surprisingly smarter. Few people outside tech noticed.</p>
+    </article>
+
+    <article class="qa">
+      <span class="year-badge">Nov 2022</span>
+      <h3>The ChatGPT moment</h3>
+      <p>OpenAI put a friendly chat interface on their language model and released it free. <strong>ChatGPT reached 100 million users in two months</strong> — the fastest-growing product in history at the time. For the first time, anyone could talk to an AI that could write essays, explain concepts, draft emails, and code. The world changed its mind about AI in a single winter.</p>
+    </article>
+
+    <article class="qa">
+      <span class="year-badge">2023–2024</span>
+      <h3>The race: multimodal, open, and everywhere</h3>
+      <p>Competition exploded — OpenAI (GPT-4), Google (Gemini), Anthropic (Claude), Meta (Llama, released openly for anyone to use). Models became <strong>multimodal</strong>: they could see images, hear audio, and generate pictures and video. AI moved into search engines, office software, phones, and coding tools.</p>
+    </article>
+
+    <article class="qa">
+      <span class="year-badge">2024–2025</span>
+      <h3>Models learn to think before answering</h3>
+      <p><strong>Reasoning models</strong> arrived — AI that works through problems step by step internally before replying, like a student doing rough work before writing the final answer. This made AI dramatically better at maths, science, and complex planning.</p>
+    </article>
+
+    <article class="qa">
+      <span class="year-badge">2025–today</span>
+      <h3>The agent era — AI that does, not just says</h3>
+      <p>The newest shift: from AI that <em>answers questions</em> to AI <strong>agents</strong> that <em>complete tasks</em> — browsing, writing files, running code, sending emails, using your tools — working through multi-step jobs on their own. New standards like <strong>MCP</strong> let any AI safely connect to any app. (Fun fact: this very website — its games, news feeds, and login — was built by an AI agent working in a terminal.) That's the frontier you're living in right now.</p>
+    </article>
+  </section>
+
+  <!-- ============ ROADMAP ============ -->
+  <section class="learn-section" id="tab-roadmap">
+    <h2>Your AI learning roadmap</h2>
+    <p class="section-intro">You don't need a degree, maths, or even coding to start. Follow these steps in order — each one builds on the last, and most people can reach Step 4 in a few weekends.</p>
+
+    <article class="qa">
+      <h3 class="step"><span class="step-num">1</span> Use AI every day (Week 1)</h3>
+      <p>Nothing teaches you faster than daily use. Pick any assistant — ChatGPT, Claude, Gemini — and use it for real things: drafting messages, planning a trip, explaining a bill, summarizing an article, meal ideas. Goal: make it a habit, and notice what it's good and bad at.</p>
+    </article>
+
+    <article class="qa">
+      <h3 class="step"><span class="step-num">2</span> Learn to prompt well (Week 1–2)</h3>
+      <p>A <strong>prompt</strong> is just what you say to the AI — and saying it better gets dramatically better results. Four habits cover 90% of it:</p>
+      <ul>
+        <li><strong>Give context:</strong> "I'm a beginner writing to my landlord" beats "write a letter."</li>
+        <li><strong>Show the format you want:</strong> "as a table," "in 5 bullet points," "step by step."</li>
+        <li><strong>Give examples</strong> of the style or output you like.</li>
+        <li><strong>Iterate:</strong> treat it as a conversation — "shorter," "more formal," "now in Telugu."</li>
+      </ul>
+    </article>
+
+    <article class="qa">
+      <h3 class="step"><span class="step-num">3</span> Understand the key concepts (Week 2–3)</h3>
+      <p>Read the <strong>AI Dictionary</strong> tab on this page. When you know what tokens, context windows, and hallucinations are, AI stops feeling like magic — you'll understand <em>why</em> it forgets long conversations and <em>why</em> it sometimes confidently makes things up (and how to catch it).</p>
+    </article>
+
+    <article class="qa">
+      <h3 class="step"><span class="step-num">4</span> Bring AI into your actual work (Week 3–4)</h3>
+      <p>This is where the real value is. Whatever your field, find the repeating tasks and build AI into them: reports, emails, study notes, lesson plans, spreadsheets, code review, translations. Rule of thumb: <em>you</em> stay the editor and decision-maker; AI is the fast first draft.</p>
+    </article>
+
+    <article class="qa">
+      <h3 class="step"><span class="step-num">5</span> Build something with AI (Month 2)</h3>
+      <p>You can go far without being a programmer — AI can write the code while you direct it. Describe an idea ("a page that tracks my expenses") and let an AI coding tool build it with you. If you do code, learn to call an AI model's <strong>API</strong> — it's one HTTPS request — and you can add AI to any app.</p>
+    </article>
+
+    <article class="qa">
+      <h3 class="step"><span class="step-num">6</span> Learn agents and automation (Month 2–3)</h3>
+      <p>The current frontier: AI that performs multi-step tasks using tools. Read the <strong>Agents, MCP &amp; More</strong> tab, then try an agentic tool — a coding agent in a terminal, or an assistant connected to your email/calendar — and give it a real job. Understanding how agents plan, use tools, and ask permission is tomorrow's basic literacy.</p>
+    </article>
+
+    <article class="qa">
+      <h3 class="step"><span class="step-num">7</span> Stay current (ongoing, 20 min/week)</h3>
+      <p>AI changes monthly, but you don't need to chase every headline. Once a week skim an AI newsletter or the <a href="/news" style="color:var(--accent); font-weight:600;">Tech feed on this site</a>. Watch for: new model releases, new agent capabilities, and pricing drops — those three tell you most of what matters.</p>
+    </article>
+  </section>
+
+  <!-- ============ DICTIONARY ============ -->
+  <section class="learn-section" id="tab-dictionary">
+    <h2>AI Dictionary — every important word, in plain English</h2>
+    <p class="section-intro">Simple meanings with everyday comparisons. Use the search box to jump to a word.</p>
+    <input type="search" class="dict-search" id="dictSearch" placeholder="🔍 Search a term... (e.g. token, MCP, agent)" aria-label="Search dictionary">
+    <p class="no-match" id="noMatch">No matching term — try another word.</p>
+
+    <div class="dict-grid" id="dictGrid">
+      <article class="qa"><h3>AI (Artificial Intelligence)</h3><p>Software that can do things which normally need human intelligence — understanding language, recognizing images, making decisions, creating content.</p></article>
+
+      <article class="qa"><h3>Machine Learning (ML)</h3><p>The main way AI is built today: instead of programming rules by hand, you show the computer lots of examples and it figures out the patterns itself.</p><div class="analogy"><p>💡 Like teaching a child to recognize dogs by showing many dog photos — not by describing "four legs, a tail…"</p></div></article>
+
+      <article class="qa"><h3>Neural Network</h3><p>The structure inside modern AI — millions of tiny connected number-calculators, loosely inspired by brain neurons. Information flows through, and the connections strengthen or weaken as it learns.</p></article>
+
+      <article class="qa"><h3>Deep Learning</h3><p>Machine learning using very large neural networks with many layers ("deep"). This is what made modern AI possible after 2012.</p></article>
+
+      <article class="qa"><h3>LLM (Large Language Model)</h3><p>An AI trained on massive amounts of text to understand and generate language. ChatGPT, Claude, and Gemini are all LLMs. At its core it does one thing: predict the next word — extremely well.</p></article>
+
+      <article class="qa"><h3>Token</h3><p>The small chunks AI reads and writes text in — roughly a word or part of a word ("understanding" might be 2–3 tokens). AI pricing and limits are usually counted in tokens.</p><div class="analogy"><p>💡 Like syllables for a machine — "un-der-stand-ing."</p></div></article>
+
+      <article class="qa"><h3>Prompt</h3><p>Whatever you type (or say) to an AI. The instruction, question, or request. Writing better prompts gets better answers — that skill is called <strong>prompt engineering</strong>.</p></article>
+
+      <article class="qa"><h3>System Prompt</h3><p>Hidden instructions the app gives the AI before your conversation starts — its role, rules, and personality. "You are a helpful customer support agent for X company…"</p></article>
+
+      <article class="qa"><h3>Context Window</h3><p>The AI's short-term memory — how much of the conversation (in tokens) it can "see" at once. When a chat gets longer than this, the oldest parts fall out — which is why AI can "forget" what you said earlier.</p><div class="analogy"><p>💡 Like a desk: only so many papers fit; add more, and the oldest slide off the edge.</p></div></article>
+
+      <article class="qa"><h3>Training</h3><p>The one-time, expensive process of building a model: feeding it enormous amounts of data while it tunes billions of internal numbers until it gets good at predicting. Takes months and huge computer power.</p></article>
+
+      <article class="qa"><h3>Inference</h3><p>Using the trained model — every time you ask a question and get an answer, that's inference. Fast and cheap compared to training.</p></article>
+
+      <article class="qa"><h3>Parameters</h3><p>The internal numbers a model learns during training — its "knowledge dials." More parameters generally means a more capable model. Modern models have billions to trillions of them.</p></article>
+
+      <article class="qa"><h3>Transformer</h3><p>The neural network design (from 2017) that powers all modern language AI. Its trick — "attention" — lets it weigh how every word relates to every other word. The T in GPT.</p></article>
+
+      <article class="qa"><h3>GPT</h3><p>Generative Pre-trained Transformer: <em>Generative</em> (it creates text), <em>Pre-trained</em> (it learned from huge data beforehand), <em>Transformer</em> (its design). Originally OpenAI's model family; now people use "GPT" loosely for chat AI.</p></article>
+
+      <article class="qa"><h3>Hallucination</h3><p>When AI confidently states something false — an invented fact, a fake citation, a wrong date. It happens because the AI predicts <em>plausible</em> text, not <em>verified</em> text. Always double-check names, numbers, and sources.</p><div class="analogy"><p>💡 Like a confident friend who'd rather guess smoothly than say "I don't know."</p></div></article>
+
+      <article class="qa"><h3>Embedding</h3><p>A way to turn text into a list of numbers that captures its <em>meaning</em>, so a computer can measure that "doctor" is close to "physician" and far from "banana." Powers AI search and recommendations.</p></article>
+
+      <article class="qa"><h3>RAG (Retrieval-Augmented Generation)</h3><p>Letting an AI look things up before answering: first fetch relevant documents (your files, a knowledge base), then answer using them. This is how chatbots answer questions about <em>your</em> company's data without retraining.</p><div class="analogy"><p>💡 An open-book exam instead of answering from memory.</p></div></article>
+
+      <article class="qa"><h3>Fine-tuning</h3><p>Taking a trained model and giving it extra training on your specific examples so it speaks your style or masters your niche — cheaper than training from scratch.</p></article>
+
+      <article class="qa"><h3>Temperature</h3><p>A creativity dial. Low temperature = predictable, consistent answers (good for facts and code). High = more varied and creative (good for brainstorming).</p></article>
+
+      <article class="qa"><h3>Multimodal</h3><p>AI that handles more than text — it can see images, hear audio, watch video, and create them too. "Modes" = types of media.</p></article>
+
+      <article class="qa"><h3>Reasoning Model</h3><p>A newer kind of model that "thinks" step by step internally before answering — like doing rough work on scrap paper first. Much better at maths, logic, and planning; slightly slower.</p></article>
+
+      <article class="qa"><h3>Chain of Thought</h3><p>The step-by-step reasoning an AI writes out (or thinks through) to solve a problem. Asking an AI to "think step by step" often noticeably improves its answers.</p></article>
+
+      <article class="qa"><h3>Agent</h3><p>AI that <em>does</em> things, not just says things. It's given tools (browser, files, email, code) and a goal, then plans, acts, checks results, and continues — often through many steps — until the job is done.</p><div class="analogy"><p>💡 A chatbot is a knowledgeable friend on the phone; an agent is an assistant who actually goes and does the task.</p></div></article>
+
+      <article class="qa"><h3>Tool Calling (Function Calling)</h3><p>How an AI uses external tools: instead of replying with text, it outputs a structured request like "call the weather API for Hyderabad," the app runs it, and the result is fed back to the AI. The building block of all agents.</p></article>
+
+      <article class="qa"><h3>MCP (Model Context Protocol)</h3><p>An open standard that lets any AI connect to any app or data source in one common way — instead of every AI needing custom code for every tool.</p><div class="analogy"><p>💡 Like USB-C for AI: one universal port, so anything can plug into anything.</p></div></article>
+
+      <article class="qa"><h3>Skills</h3><p>Reusable instruction packs you give an agent — a folder of guidance, examples, and steps for a specific job ("how to review our code," "how we write reports"). The agent loads a skill when the task matches, so it does the job your way every time.</p><div class="analogy"><p>💡 A recipe card the assistant pulls out whenever that dish is ordered.</p></div></article>
+
+      <article class="qa"><h3>Hooks</h3><p>Automatic triggers around an agent's actions: "<em>whenever</em> the agent edits a file, run the tests," "<em>before</em> anything is deleted, ask me." Hooks make automation safe and consistent — no relying on the AI remembering.</p><div class="analogy"><p>💡 House rules that apply automatically — the door locks itself whenever it closes.</p></div></article>
+
+      <article class="qa"><h3>Connector</h3><p>A ready-made bridge that plugs an AI assistant into an app you use — Gmail, Google Drive, Slack, a database — so it can read and act there with your permission. Most connectors today are built on MCP.</p></article>
+
+      <article class="qa"><h3>Open vs Closed Models</h3><p><strong>Closed:</strong> you use the model through a company's service; the model itself stays private (GPT, Claude, Gemini). <strong>Open:</strong> the model's files are published so anyone can download and run it themselves (Llama, Mistral, DeepSeek). Open = more control; closed = usually the strongest capability with zero setup.</p></article>
+
+      <article class="qa"><h3>GPU</h3><p>The computer chip AI runs on. Designed for video game graphics, it turned out perfect for the mass simple calculations neural networks need. This is why NVIDIA became one of the world's most valuable companies.</p></article>
+
+      <article class="qa"><h3>AGI (Artificial General Intelligence)</h3><p>The hypothetical goal: AI as capable as a human at <em>most</em> intellectual work — able to learn any new task, not just those it was trained for. Doesn't exist yet; experts disagree on when (or whether) it will.</p></article>
     </div>
   </section>
 
+  <!-- ============ AGENTS, MCP & MORE ============ -->
+  <section class="learn-section" id="tab-agents">
+    <h2>The modern AI stack — agents, MCP, skills, and hooks</h2>
+    <p class="section-intro">This is where AI is heading right now, explained end to end with one running example.</p>
+
+    <article class="qa">
+      <h3>From answering to doing</h3>
+      <p>Classic chatbots answer questions. <strong>Agents complete tasks.</strong> The difference is tools and a loop:</p>
+      <ol>
+        <li><strong>Goal:</strong> you give the agent a job — "find me the cheapest flight to Delhi next Friday and hold a seat."</li>
+        <li><strong>Plan:</strong> it breaks the job into steps.</li>
+        <li><strong>Act:</strong> it uses tools — searches the web, opens the airline site, fills forms.</li>
+        <li><strong>Check:</strong> it looks at the results. Wrong date? It corrects itself and retries.</li>
+        <li><strong>Report:</strong> it comes back: "Held seat 14A on the 6:10 flight, ₹4,250 — confirm?"</li>
+      </ol>
+      <p>That plan–act–check loop, repeated, is all an "agent" really is.</p>
+    </article>
+
+    <article class="qa">
+      <h3>Tools — the agent's hands</h3>
+      <p>An AI model by itself can only produce text. <strong>Tools</strong> give it hands: a web browser, a file system, a code runner, your calendar, a payments API. The model asks to use a tool, the application actually runs it, and the result comes back to the model. Every tool is also a permission decision — <em>you</em> choose what it's allowed to touch.</p>
+    </article>
+
+    <article class="qa">
+      <h3>MCP — one plug for everything</h3>
+      <p>Before MCP, connecting an AI to Gmail, Slack, or your database each needed custom one-off code — for every AI, for every app. <strong>MCP (Model Context Protocol)</strong> is an open standard that fixes this: an app exposes its abilities once as an "MCP server," and <em>any</em> AI that speaks MCP can plug in.</p>
+      <div class="analogy"><p>💡 Exactly like USB-C ended the drawer full of different chargers — one standard port for all devices, one standard protocol for all AI-to-app connections.</p></div>
+    </article>
+
+    <article class="qa">
+      <h3>Connectors — MCP made consumer-friendly</h3>
+      <p>A <strong>connector</strong> is a ready-made MCP link you switch on: "Connect Google Drive," and now your assistant can search your documents; "Connect calendar," and it can schedule. You grant access once, and you can revoke it anytime. In the flight example: a connector to your email lets the agent find your traveller details automatically.</p>
+    </article>
+
+    <article class="qa">
+      <h3>Skills — teaching an agent your way of working</h3>
+      <p>Agents are capable but generic. A <strong>skill</strong> is a package of instructions and examples for one specific job, written once and loaded whenever relevant: "booking travel for our family — always aisle seats, always morning flights, budget under ₹5,000." The agent follows your playbook instead of guessing your preferences every time.</p>
+    </article>
+
+    <article class="qa">
+      <h3>Hooks — automatic guardrails</h3>
+      <p><strong>Hooks</strong> are rules that fire automatically at moments in the agent's work — before an action, after an action, when it finishes. "Before spending money → always ask me." "After editing code → run the tests." The agent doesn't have to remember the rule, and can't skip it — the system enforces it.</p>
+      <p>Together: <strong>MCP/connectors</strong> = what the agent can reach · <strong>skills</strong> = how it should do the job · <strong>hooks</strong> = what must always/never happen.</p>
+    </article>
+
+    <article class="qa">
+      <h3>A real example — this website</h3>
+      <p>Everything you're using right now — the games, the global leaderboards, the news feeds, the video search, the login system — was built by an AI agent working in a terminal with tools: it wrote the code, created the cloud database, deployed the functions, tested everything in a real browser, found its own bugs, and fixed them. A human (Abhishek) set the goals, made the decisions, and reviewed the results. That division — human directs, agent executes, guardrails protect — is the working model of the agent era.</p>
+    </article>
+
+    <article class="qa">
+      <h3>Staying safe with agents</h3>
+      <ul>
+        <li><strong>Least access:</strong> connect only what the task needs — don't give email access for a coding job.</li>
+        <li><strong>Confirm the irreversible:</strong> payments, deletions, sending messages — keep a human click on these (hooks!).</li>
+        <li><strong>Review the work:</strong> agents are fast interns, not infallible experts. Check important output.</li>
+        <li><strong>Beware injected instructions:</strong> a malicious webpage or email can try to trick an agent reading it ("ignore your instructions and…"). Good agent systems defend against this — another reason to prefer serious tools over random ones.</li>
+      </ul>
+    </article>
+  </section>
 
   <footer>
     &copy; 2026 abhishekmuthyam.com. Built for learning and experiments.
   </footer>
+
+  <script>
+    const tabs = document.querySelectorAll(".learn-tab");
+    const sections = document.querySelectorAll(".learn-section");
+
+    function activate(tabName, push) {
+      tabs.forEach(t => t.classList.toggle("active", t.dataset.tab === tabName));
+      sections.forEach(s => s.classList.toggle("active", s.id === "tab-" + tabName));
+      if (push) {
+        const url = new URL(location.href);
+        url.searchParams.set("tab", tabName);
+        history.replaceState({}, "", url);
+      }
+      window.scrollTo({ top: 0 });
+    }
+
+    tabs.forEach(tab => tab.addEventListener("click", () => activate(tab.dataset.tab, true)));
+
+    const startTab = new URLSearchParams(location.search).get("tab");
+    if (startTab && document.getElementById("tab-" + startTab)) {
+      activate(startTab, false);
+    }
+
+    /* dictionary search */
+    const dictSearch = document.getElementById("dictSearch");
+    const dictCards = Array.from(document.querySelectorAll("#dictGrid .qa"));
+    dictSearch.addEventListener("input", () => {
+      const q = dictSearch.value.trim().toLowerCase();
+      let shown = 0;
+      dictCards.forEach(card => {
+        const match = !q || card.textContent.toLowerCase().includes(q);
+        card.style.display = match ? "" : "none";
+        if (match) { shown += 1; }
+      });
+      document.getElementById("noMatch").style.display = shown ? "none" : "block";
+    });
+  </script>
 </body>
 </html>
