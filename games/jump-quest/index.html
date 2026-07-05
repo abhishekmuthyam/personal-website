@@ -134,6 +134,44 @@
       padding: 20px;
       color: #dbeafe;
     }
+
+    .leaderboard {
+      margin-top: 22px;
+      text-align: left;
+    }
+
+    .leaderboard h2 {
+      font-size: 18px;
+      margin: 0 0 10px;
+      text-align: center;
+    }
+
+    .leaderboard ol {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      color: #374151;
+      font-size: 15px;
+    }
+
+    .leaderboard li {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 5px 2px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .leaderboard li span:last-child {
+      font-weight: bold;
+    }
+
+    .lb-note {
+      color: #6b7280;
+      font-size: 13px;
+      text-align: center;
+      margin: 8px 0 0;
+    }
   </style>
 </head>
 <body>
@@ -167,6 +205,12 @@
       <button class="left" onmousedown="setMove(-1)" onmouseup="setMove(0)" ontouchstart="setMove(-1)" ontouchend="setMove(0)">Left</button>
       <button class="jump" onclick="pressJump()">Jump</button>
       <button class="right" onmousedown="setMove(1)" onmouseup="setMove(0)" ontouchstart="setMove(1)" ontouchend="setMove(0)">Right</button>
+    </div>
+
+    <div class="leaderboard">
+      <h2>🌍 Global Top 10</h2>
+      <ol id="lbList"><li><span>Loading...</span><span></span></li></ol>
+      <p class="lb-note" id="lbNote"></p>
     </div>
   </main>
 
@@ -311,6 +355,57 @@
 
     let bestCoins = Number(localStorage.getItem("jumpQuestBestCoins")) || 0;
     bestCoinsElement.innerText = bestCoins;
+
+    const LEADERBOARD_URL = "https://zsxujdnvqodtnhxwxbvbucsp7q0gqpbg.lambda-url.ap-south-1.on.aws/";
+    const GAME_ID = "jump-quest";
+
+    async function loadLeaderboard() {
+      const list = document.getElementById("lbList");
+      try {
+        const res = await fetch(LEADERBOARD_URL + "?game=" + GAME_ID);
+        const data = await res.json();
+        if (!data.top || data.top.length === 0) {
+          list.innerHTML = "<li><span>No scores yet — be the first!</span><span></span></li>";
+          return;
+        }
+        list.innerHTML = data.top
+          .map((entry, i) => {
+            const safeName = entry.name.replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+            return "<li><span>" + (i + 1) + ". " + safeName + "</span><span>" + entry.score + "</span></li>";
+          })
+          .join("");
+      } catch {
+        list.innerHTML = "<li><span>Leaderboard unavailable</span><span></span></li>";
+      }
+    }
+
+    async function submitScore(score) {
+      if (score <= 0) {
+        return;
+      }
+      let playerName = localStorage.getItem("playerName");
+      if (!playerName) {
+        playerName = (prompt("Enter your name for the global leaderboard:") || "").trim().slice(0, 20);
+        if (!playerName) {
+          return;
+        }
+        localStorage.setItem("playerName", playerName);
+      }
+      const note = document.getElementById("lbNote");
+      try {
+        await fetch(LEADERBOARD_URL, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ game: GAME_ID, name: playerName, score })
+        });
+        note.innerText = "Score submitted as " + playerName + "!";
+        loadLeaderboard();
+      } catch {
+        note.innerText = "Could not submit score (offline?)";
+      }
+    }
+
+    loadLeaderboard();
 
     let audioCtx;
     let musicEnabled = localStorage.getItem("jumpQuestMusic") !== "off";
@@ -622,6 +717,7 @@
         playGameOverSound();
         cancelAnimationFrame(rafId);
         messageElement.innerText = "Game over! Press Start to try again.";
+        submitScore(coinCount);
         return;
       }
       playHurtSound();
@@ -647,6 +743,7 @@
       playWinSound();
       cancelAnimationFrame(rafId);
       messageElement.innerText = "You beat all levels! Coins: " + coinCount;
+      submitScore(coinCount);
     }
 
     function draw() {
