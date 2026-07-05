@@ -9,6 +9,223 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Homepage-scoped enhancements on top of the global design system */
+    .home-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      position: relative;
+    }
+
+    .home-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
+      background-size: 44px 44px;
+      mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, black 30%, transparent 75%);
+      -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, black 30%, transparent 75%);
+      pointer-events: none;
+    }
+
+    .home-hero > * {
+      position: relative;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(20, 184, 166, 0.08);
+      border: 1px solid rgba(20, 184, 166, 0.25);
+      border-radius: 99px;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 14px;
+      margin-bottom: 22px;
+      width: fit-content;
+    }
+
+    .status-pill::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 0 rgba(20, 184, 166, 0.6);
+      animation: pulse 2.2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(20, 184, 166, 0.5); }
+      70% { box-shadow: 0 0 0 9px rgba(20, 184, 166, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(20, 184, 166, 0); }
+    }
+
+    .hero-sub {
+      max-width: 640px !important;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .home-hero .hero-sub {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .tech-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 28px;
+    }
+
+    .tech-chips span {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 500;
+      padding: 6px 12px;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .tech-chips span:hover {
+      border-color: rgba(99, 102, 241, 0.45);
+      color: var(--text);
+    }
+
+    .button.ghost-icon {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #ffffff;
+      gap: 8px;
+    }
+
+    .button.ghost-icon:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-2px);
+    }
+
+    .button svg {
+      width: 17px;
+      height: 17px;
+      fill: currentColor;
+    }
+
+    .group-heading {
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
+      border-top: 1px solid var(--line);
+      padding-top: 34px;
+      margin-top: 44px;
+    }
+
+    .group-heading h2 {
+      margin: 0 0 4px;
+    }
+
+    .group-heading .group-note {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .card-arrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--brand);
+      font-size: 13px;
+      font-weight: 600;
+      font-family: 'Outfit', sans-serif;
+      margin-top: 14px;
+      opacity: 0;
+      transform: translateX(-4px);
+      transition: opacity 0.25s, transform 0.25s;
+    }
+
+    .card-link:hover .card-arrow {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .card-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 11px;
+      background: rgba(99, 102, 241, 0.1);
+      border: 1px solid rgba(99, 102, 241, 0.18);
+      font-size: 20px;
+      margin-bottom: 14px;
+    }
+
+    /* Scroll reveal */
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+      }
+      .status-pill::before {
+        animation: none;
+      }
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      text-align: left;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .footer-links a {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .footer-links a:hover {
+      color: var(--text);
+    }
+
+    @media (max-width: 760px) {
+      .footer-inner {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -31,44 +248,60 @@
 
   <main>
     <section class="hero home-hero">
-      <p class="eyebrow">Software Engineer</p>
-      <h1>Building backend systems and learning in public.</h1>
-      <p>
-        I work with Java, Spring Boot, AWS, APIs, and practical AI tools. This site is
-        where I publish notes, experiments, interview prep, calculators, and small games.
+      <span class="status-pill">Actively building &amp; learning in public</span>
+      <p class="eyebrow">Software Engineer &middot; Backend &amp; Cloud</p>
+      <h1>Hi, I'm Abhishek Muthyam.</h1>
+      <p class="hero-sub">
+        I build backend systems with Java, Spring Boot, and AWS — and use this site to
+        publish engineering notes, AI experiments, live news dashboards, tools, and
+        small browser games.
       </p>
       <div class="hero-actions">
         <a class="button primary" href="/projects">View Projects</a>
         <a class="button secondary" href="/blog">Read Blog</a>
+        <a class="button ghost-icon" href="https://github.com/abhishekmuthyam" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+      </div>
+      <div class="tech-chips" aria-label="Technology stack">
+        <span>Java</span>
+        <span>Spring Boot</span>
+        <span>AWS</span>
+        <span>REST APIs</span>
+        <span>SQL</span>
+        <span>LLMs &amp; Agents</span>
+        <span>JavaScript</span>
       </div>
     </section>
 
-    <section class="snapshot-strip" aria-label="Site snapshot">
+    <section class="snapshot-strip reveal" aria-label="Site snapshot">
       <div>
-        <strong>3</strong>
+        <strong>5</strong>
         <span>Playable games</span>
-      </div>
-      <div>
-        <strong>2</strong>
-        <span>Calculator tools</span>
       </div>
       <div>
         <strong>4</strong>
         <span>Learning hubs</span>
       </div>
       <div>
-        <strong>1</strong>
-        <span>Tech radar</span>
+        <strong>2</strong>
+        <span>Live news feeds</span>
+      </div>
+      <div>
+        <strong>2</strong>
+        <span>Calculator tools</span>
       </div>
     </section>
 
-    <section class="profile-grid">
+    <section class="profile-grid reveal">
       <div>
         <h2>About Me</h2>
         <p>
           I am a software engineer focused on backend development, cloud-based systems,
           and steady hands-on learning. I like turning technical topics into small,
-          useful notes and projects that are easy to revisit.
+          useful notes and projects that are easy to revisit — everything on this site
+          is built from scratch with plain HTML, CSS, and JavaScript.
         </p>
       </div>
       <div class="focus-panel">
@@ -76,75 +309,132 @@
         <ul>
           <li>Java and Spring Boot backend development</li>
           <li>AWS services for production-style applications</li>
-          <li>AI experiments that support real engineering work</li>
+          <li>LLMs, agents, and AI tools for real engineering work</li>
         </ul>
       </div>
     </section>
 
-    <section>
-      <h2>Explore</h2>
-      <p class="section-intro">
-        Pick a section based on what you want to learn, use, or try. I will keep improving
-        these areas with notes, examples, and small projects.
-      </p>
-
-      <div class="cards feature-cards">
+    <section class="reveal">
+      <div class="group-heading" style="border-top:none; padding-top:0; margin-top:0;">
+        <h2>Learn</h2>
+        <span class="group-note">Notes and deep-dives I keep updated</span>
+      </div>
+      <div class="cards feature-cards" style="margin-top:22px;">
         <a href="/java-interview-prep" class="card-link">
+          <span class="card-icon">&#9749;</span>
           <span class="card-kicker">Prep</span>
           <h3>Java Interview Prep</h3>
           <p>Core Java, OOP, collections, streams, exceptions, and backend interview notes.</p>
+          <span class="card-arrow">Open &rarr;</span>
         </a>
         <a href="/aws-notes" class="card-link">
+          <span class="card-icon">&#9729;&#65039;</span>
           <span class="card-kicker">Cloud</span>
           <h3>AWS Notes</h3>
           <p>Quick notes on EC2, S3, RDS, Lambda, IAM, CloudWatch, and deployment basics.</p>
+          <span class="card-arrow">Open &rarr;</span>
         </a>
         <a href="/ai-experiments" class="card-link">
+          <span class="card-icon">&#129514;</span>
           <span class="card-kicker">AI</span>
           <h3>AI Experiments</h3>
           <p>Small experiments using AI for productivity, learning, and coding workflows.</p>
+          <span class="card-arrow">Open &rarr;</span>
         </a>
         <a href="/llms" class="card-link">
-          <span class="card-kicker">AI & Agents</span>
-          <h3>LLMs & Agentic Hub</h3>
-          <p>Deep-dives into LLM evolution, reasoning models, autonomous agent designs, and the Model Context Protocol.</p>
+          <span class="card-icon">&#129302;</span>
+          <span class="card-kicker">AI &amp; Agents</span>
+          <h3>LLMs &amp; Agentic Hub</h3>
+          <p>Deep-dives into LLM evolution, reasoning models, agent designs, and MCP.</p>
+          <span class="card-arrow">Open &rarr;</span>
         </a>
-        <a href="/projects" class="card-link">
-          <span class="card-kicker">Portfolio</span>
-          <h3>Projects</h3>
-          <p>A clean view of the website features, tools, games, and learning work.</p>
-        </a>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <div class="group-heading">
+        <h2>Stay Updated</h2>
+        <span class="group-note">Live feeds and writing</span>
+      </div>
+      <div class="cards feature-cards" style="margin-top:22px;">
         <a href="/discover" class="card-link">
+          <span class="card-icon">&#127758;</span>
           <span class="card-kicker">Broad Discover</span>
           <h3>Discover</h3>
           <p>General news, politics, India, world, business, movies, sports, weather, and markets.</p>
+          <span class="card-arrow">Open &rarr;</span>
         </a>
         <a href="/news" class="card-link">
-          <span class="card-kicker">Discover</span>
+          <span class="card-icon">&#128225;</span>
+          <span class="card-kicker">Tech Feed</span>
           <h3>Tech News</h3>
-          <p>A simple technical news dashboard with trusted sources and topic filters.</p>
+          <p>A technical news dashboard with trusted sources and topic filters.</p>
+          <span class="card-arrow">Open &rarr;</span>
         </a>
         <a href="/blog" class="card-link">
+          <span class="card-icon">&#9997;&#65039;</span>
           <span class="card-kicker">Writing</span>
           <h3>Blog</h3>
           <p>Practical posts about Java, Spring Boot, AWS, APIs, and engineering practice.</p>
+          <span class="card-arrow">Open &rarr;</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <div class="group-heading">
+        <h2>Build &amp; Play</h2>
+        <span class="group-note">Things you can try right now</span>
+      </div>
+      <div class="cards feature-cards" style="margin-top:22px;">
+        <a href="/projects" class="card-link">
+          <span class="card-icon">&#128736;&#65039;</span>
+          <span class="card-kicker">Portfolio</span>
+          <h3>Projects</h3>
+          <p>A clean view of the website features, tools, games, and learning work.</p>
+          <span class="card-arrow">Open &rarr;</span>
+        </a>
+        <a href="/games" class="card-link">
+          <span class="card-icon">&#127918;</span>
+          <span class="card-kicker">Fun</span>
+          <h3>Games</h3>
+          <p>Five browser games — Jump Quest platformer, Snake, Memory, Tic Tac Toe, and more.</p>
+          <span class="card-arrow">Play &rarr;</span>
         </a>
         <a href="/calci" class="card-link">
+          <span class="card-icon">&#129518;</span>
           <span class="card-kicker">Tools</span>
           <h3>Calculator Tools</h3>
           <p>Simple calculators built while practicing HTML, CSS, and JavaScript.</p>
-        </a>
-        <a href="/games" class="card-link">
-          <span class="card-kicker">Fun</span>
-          <h3>Games</h3>
-          <p>Small browser games including Tic Tac Toe, Snake, and Memory.</p>
+          <span class="card-arrow">Open &rarr;</span>
         </a>
       </div>
     </section>
   </main>
 
   <footer>
-    &copy; 2026 Abhishek Muthyam. Built for learning and experiments.
+    <div class="footer-inner">
+      <span>&copy; 2026 Abhishek Muthyam. Built for learning and experiments.</span>
+      <div class="footer-links">
+        <a href="https://github.com/abhishekmuthyam" target="_blank" rel="noopener">GitHub</a>
+        <a href="/projects">Projects</a>
+        <a href="/blog">Blog</a>
+        <a href="/games">Games</a>
+      </div>
+    </div>
   </footer>
+
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>
