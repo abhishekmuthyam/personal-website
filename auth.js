@@ -102,6 +102,13 @@
     .auth-close { position: absolute; background: none; border: none; color: #64748b; font-size: 22px;
       cursor: pointer; margin: -12px 0 0 316px; box-shadow: none; padding: 4px; }
     .auth-close:hover { color: #ffffff; background: none; transform: none; box-shadow: none; }
+    .site-back { position: fixed; bottom: 22px; left: 22px; z-index: 900; display: inline-flex;
+      align-items: center; gap: 7px; background: rgba(13,18,34,0.92); border: 1px solid rgba(99,102,241,0.4);
+      border-radius: 99px; color: #c7d2fe; font-size: 14px; font-weight: 600; padding: 10px 18px;
+      cursor: pointer; font-family: 'Inter', system-ui, sans-serif; box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+      backdrop-filter: blur(8px); transition: all 0.2s; }
+    .site-back:hover { background: rgba(99,102,241,0.25); color: #ffffff; transform: translateY(-2px); }
+    @media (max-width: 760px) { .site-back { bottom: 14px; left: 14px; padding: 9px 15px; } }
   `;
 
   let overlay = null;
@@ -248,6 +255,25 @@
 
   window.siteAuth = { currentUser, showLogin: () => showModal("login"), signOut };
 
+  function renderBackButton() {
+    const path = location.pathname.replace(/index\.html$/, "");
+    if (path === "/" || document.querySelector(".site-back")) { return; }
+    const btn = document.createElement("button");
+    btn.className = "site-back";
+    btn.innerHTML = "&larr; Back";
+    btn.setAttribute("aria-label", "Go back to previous page");
+    btn.onclick = () => {
+      let sameOrigin = false;
+      try { sameOrigin = !!document.referrer && new URL(document.referrer).origin === location.origin; } catch {}
+      if (sameOrigin && history.length > 1) {
+        history.back();
+      } else {
+        location.href = "/";
+      }
+    };
+    document.body.appendChild(btn);
+  }
+
   function init() {
     const style = document.createElement("style");
     style.textContent = css;
@@ -257,6 +283,7 @@
       tryRefresh().then(renderNav);
     }
     renderNav();
+    renderBackButton();
   }
 
   if (document.readyState === "loading") {
