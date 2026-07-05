@@ -488,7 +488,9 @@ button:hover {
 
 .discover-shell {
   display: grid;
-  grid-template-columns: 220px minmax(0, 1fr) 340px;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  max-width: 1300px;
+  margin: 0 auto;
   min-height: 100vh;
 }
 
@@ -558,7 +560,7 @@ button:hover {
   justify-content: space-between;
   min-height: 80px;
   position: sticky;
-  top: 0;
+  top: 70px;
   z-index: 50;
   background: rgba(6, 9, 19, 0.85);
   backdrop-filter: blur(12px);
@@ -756,10 +758,10 @@ button:hover {
   display: grid;
   gap: 24px;
   align-content: start;
-  min-height: 100vh;
-  padding: 90px 24px 28px;
+  min-height: calc(100vh - 70px);
+  padding: 34px 24px 28px;
   position: sticky;
-  top: 0;
+  top: 70px;
   background: rgba(13, 18, 34, 0.3);
   backdrop-filter: blur(12px);
 }
@@ -1029,7 +1031,10 @@ button:hover {
 /* Article Shell Details */
 .article-shell {
   display: grid;
-  grid-template-columns: 220px minmax(0, 840px) 320px;
+  grid-template-columns: minmax(0, 840px) 320px;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
   min-height: 100vh;
 }
 
@@ -1045,7 +1050,7 @@ button:hover {
   justify-content: space-between;
   min-height: 80px;
   position: sticky;
-  top: 0;
+  top: 70px;
   z-index: 50;
   backdrop-filter: blur(12px);
 }
@@ -1135,10 +1140,10 @@ button:hover {
   display: grid;
   align-content: start;
   gap: 20px;
-  min-height: 100vh;
-  padding: 90px 24px 28px;
+  min-height: calc(100vh - 70px);
+  padding: 34px 24px 28px;
   position: sticky;
-  top: 0;
+  top: 70px;
   background: rgba(13, 18, 34, 0.3);
   backdrop-filter: blur(12px);
 }
