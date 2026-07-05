@@ -13,7 +13,12 @@ const sources = [
   { name: "Google Sports", category: "sports", categoryLabel: "Sports", url: "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=en-IN&gl=IN&ceid=IN:en" },
   { name: "Google Technology", category: "tech", categoryLabel: "Tech & Science", url: "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-IN&gl=IN&ceid=IN:en" },
   { name: "Google Science", category: "tech", categoryLabel: "Tech & Science", url: "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=en-IN&gl=IN&ceid=IN:en" },
-  { name: "The Verge", category: "tech", categoryLabel: "Tech & Science", url: "https://www.theverge.com/rss/index.xml" }
+  { name: "The Verge", category: "tech", categoryLabel: "Tech & Science", url: "https://www.theverge.com/rss/index.xml" },
+  { name: "OpenAI", category: "ai", categoryLabel: "AI", url: "https://openai.com/news/rss.xml" },
+  { name: "Google AI", category: "ai", categoryLabel: "AI", url: "https://blog.google/technology/ai/rss/" },
+  { name: "The Verge AI", category: "ai", categoryLabel: "AI", url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" },
+  { name: "VentureBeat AI", category: "ai", categoryLabel: "AI", url: "https://venturebeat.com/category/ai/feed/" },
+  { name: "Hugging Face", category: "ai", categoryLabel: "AI", url: "https://huggingface.co/blog/feed.xml" }
 ];
 
 const outputPath = path.join(__dirname, "..", "discover", "discover-data.json");
@@ -26,11 +31,15 @@ async function main() {
     fetchCompanies()
   ]);
 
-  const rawItems = feedResults
+  const allRaw = feedResults
     .flatMap(result => result.items)
-    .sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0))
-    .slice(0, 120);
-  const items = await enrichWithGoogleSources(clusterItems(rawItems).slice(0, 80));
+    .sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0));
+  const aiRaw = allRaw.filter(item => item.category === "ai").slice(0, 25);
+  const otherRaw = allRaw.filter(item => item.category !== "ai").slice(0, 120);
+  const merged = clusterItems(otherRaw).slice(0, 65)
+    .concat(clusterItems(aiRaw).slice(0, 15))
+    .sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0));
+  const items = await enrichWithGoogleSources(merged);
 
   const data = {
     updatedAt: new Date().toISOString(),
