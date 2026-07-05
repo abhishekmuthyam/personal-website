@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Calculator Tools</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tools</title>
+  <meta name="description" content="Free everyday tools — EMI, SIP and BMI calculators, JSON formatter, password generator, unit converter, and word counter.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
   <script src="/auth.js" defer></script>
+  <style>
+    .card-icon {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 44px; height: 44px; border-radius: 11px;
+      background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.18);
+      font-size: 20px; margin-bottom: 14px; font-family: 'Outfit', sans-serif; font-weight: 700; color: #a5b4fc;
+    }
+    .card-arrow {
+      display: inline-flex; align-items: center; gap: 6px; color: var(--brand);
+      font-size: 13px; font-weight: 600; font-family: 'Outfit', sans-serif;
+      margin-top: auto; padding-top: 14px; opacity: 0; transform: translateX(-4px);
+      transition: opacity 0.25s, transform 0.25s;
+    }
+    .card-link:hover .card-arrow { opacity: 1; transform: translateX(0); }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -21,54 +39,69 @@
       </div>
     </nav>
   </header>
+
   <section class="hero">
-    <h1>Calculator Tools</h1>
-    <p>Simple calculators built for learning HTML, CSS, and JavaScript.</p>
+    <h1>Tools</h1>
+    <p>Free, fast, and private — everything runs in your browser, nothing is uploaded anywhere.</p>
   </section>
 
   <section>
-    <h2>Available Calculators</h2>
-
-    <div class="cards">
-
-      <div>
-  <h3>Basic Calculator</h3>
-  <p>Perform addition, subtraction, multiplication and division.</p>
-  <a href="/calci/basic">
-    <button>Open</button>
-  </a>
-</div>
-
-      
-      
-      <div>
-        <h3>Age Calculator</h3>
-        <p>Calculate your age from date of birth.</p>
-        <a href="/calci/age"><button>Open</button></a>        
-      </div>
-
-      <div>
-        <h3>BMI Calculator</h3>
-        <p>Check your Body Mass Index.</p>
-        <button onclick="alert('Coming soon')">Open</button>
-      </div>
-
-      <div>
+    <h2>All Tools</h2>
+    <div class="cards feature-cards" style="margin-top:22px;">
+      <a href="/calci/emi" class="card-link">
+        <span class="card-icon">&#128176;</span>
+        <span class="card-kicker">Finance</span>
         <h3>EMI Calculator</h3>
-        <p>Calculate monthly loan EMI.</p>
-        <button onclick="alert('Coming soon')">Open</button>
-      </div>
-
-      <div>
+        <p>Monthly loan EMI, total interest, and total payment — instantly as you type.</p>
+        <span class="card-arrow">Open &rarr;</span>
+      </a>
+      <a href="/calci/sip" class="card-link">
+        <span class="card-icon">&#128200;</span>
+        <span class="card-kicker">Finance</span>
         <h3>SIP Calculator</h3>
-        <p>Estimate your mutual fund SIP returns.</p>
-        <button onclick="alert('Coming soon')">Open</button>
-      </div>
+        <p>See what a monthly investment could grow into over the years.</p>
+        <span class="card-arrow">Open &rarr;</span>
+      </a>
+      <a href="/calci/bmi" class="card-link">
+        <span class="card-icon">&#9878;&#65039;</span>
+        <span class="card-kicker">Health</span>
+        <h3>BMI Calculator</h3>
+        <p>Your Body Mass Index, category, and healthy weight range.</p>
+        <span class="card-arrow">Open &rarr;</span>
+      </a>
+      <a href="/calci/json" class="card-link">
+        <span class="card-icon">&#123;&#125;</span>
+        <span class="card-kicker">Developer</span>
+        <h3>JSON Formatter</h3>
+        <p>Validate, pretty-print, or minify JSON right in the browser.</p>
+        <span class="card-arrow">Open &rarr;</span>
+      </a>
+      <a href="/calci/password" class="card-link">
+        <span class="card-icon">&#128273;</span>
+        <span class="card-kicker">Security</span>
+        <h3>Password Generator</h3>
+        <p>Strong random passwords generated securely on your device.</p>
+        <span class="card-arrow">Open &rarr;</span>
+      </a>
+      <a href="/calci/convert" class="card-link">
+        <span class="card-icon">&#128207;</span>
+        <span class="card-kicker">Everyday</span>
+        <h3>Unit Converter</h3>
+        <p>Length, weight, temperature, and data sizes — converted live.</p>
+        <span class="card-arrow">Open &rarr;</span>
+      </a>
+      <a href="/calci/words" class="card-link">
+        <span class="card-icon">&#128221;</span>
+        <span class="card-kicker">Writing</span>
+        <h3>Word Counter</h3>
+        <p>Words, characters, sentences, plus reading and speaking time.</p>
+        <span class="card-arrow">Open &rarr;</span>
+      </a>
     </div>
   </section>
 
   <footer>
-    © 2026 abhishekmuthyam.com. Built for learning and experiments.
+    &copy; 2026 abhishekmuthyam.com. Built for learning and experiments.
   </footer>
 </body>
 </html>

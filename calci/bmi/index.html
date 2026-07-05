@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator</title>
+  <meta name="description" content="Check your Body Mass Index and what range it falls in.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+  <script src="/auth.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true" style="flex:0 0 auto;"><path d="M12 3.1 2.6 11.5h2.9V21h5v-5.5h3V21h5v-9.5h2.9L12 3.1z"/></svg> Home</a>
+      <div class="nav-links">
+        <a href="/watch">Watch</a>
+        <a href="/discover">News</a>
+        <a href="/games">Games</a>
+        <a href="/calci" class="active">Tools</a>
+        <a href="/learn">Learn</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>BMI Calculator</h1>
+    <p>Check your Body Mass Index and what range it falls in.</p>
+  </section>
+
+  <section style="margin: 24px auto -22px;">
+    <a class="article-back" href="/calci">&larr; All Tools</a>
+  </section>
+
+  <section>
+    <div class="tool-card">
+
+      <label class="tool-label">Height (cm)</label>
+      <input class="tool-input" type="number" id="height" value="170" min="50" max="250">
+      <label class="tool-label">Weight (kg)</label>
+      <input class="tool-input" type="number" id="weight" value="65" min="10" max="300">
+      <div class="tool-stats">
+        <div><span>Your BMI</span><strong id="bmi">—</strong></div>
+        <div><span>Category</span><strong id="cat">—</strong></div>
+        <div><span>Healthy range</span><strong id="range">—</strong></div>
+      </div>
+      <p class="tool-note">BMI is a rough screening number, not a diagnosis — muscle, age, and body type all matter.</p>
+
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 abhishekmuthyam.com. Built for learning and experiments.
+  </footer>
+
+  <script>
+
+    function calc() {
+      const h = (Number(document.getElementById("height").value) || 0) / 100;
+      const w = Number(document.getElementById("weight").value) || 0;
+      if (h <= 0 || w <= 0) { return; }
+      const bmi = w / (h * h);
+      const cat = bmi < 18.5 ? "Underweight" : bmi < 25 ? "Healthy" : bmi < 30 ? "Overweight" : "Obese";
+      document.getElementById("bmi").innerText = bmi.toFixed(1);
+      document.getElementById("cat").innerText = cat;
+      document.getElementById("range").innerText = (18.5 * h * h).toFixed(0) + "–" + (24.9 * h * h).toFixed(0) + " kg";
+    }
+    document.querySelectorAll(".tool-input").forEach(el => el.addEventListener("input", calc));
+    calc();
+
+  </script>
+</body>
+</html>

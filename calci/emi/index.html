@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EMI Calculator</title>
+  <meta name="description" content="Work out your monthly loan EMI, total interest, and total payment instantly.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+  <script src="/auth.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true" style="flex:0 0 auto;"><path d="M12 3.1 2.6 11.5h2.9V21h5v-5.5h3V21h5v-9.5h2.9L12 3.1z"/></svg> Home</a>
+      <div class="nav-links">
+        <a href="/watch">Watch</a>
+        <a href="/discover">News</a>
+        <a href="/games">Games</a>
+        <a href="/calci" class="active">Tools</a>
+        <a href="/learn">Learn</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>EMI Calculator</h1>
+    <p>Work out your monthly loan EMI, total interest, and total payment instantly.</p>
+  </section>
+
+  <section style="margin: 24px auto -22px;">
+    <a class="article-back" href="/calci">&larr; All Tools</a>
+  </section>
+
+  <section>
+    <div class="tool-card">
+
+      <label class="tool-label">Loan amount (₹)</label>
+      <input class="tool-input" type="number" id="amount" value="1000000" min="0">
+      <label class="tool-label">Interest rate (% per year)</label>
+      <input class="tool-input" type="number" id="rate" value="8.5" step="0.1" min="0">
+      <label class="tool-label">Tenure (years)</label>
+      <input class="tool-input" type="number" id="years" value="20" min="1" max="40">
+      <div class="tool-stats">
+        <div><span>Monthly EMI</span><strong id="emi">—</strong></div>
+        <div><span>Total interest</span><strong id="interest">—</strong></div>
+        <div><span>Total payment</span><strong id="total">—</strong></div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 abhishekmuthyam.com. Built for learning and experiments.
+  </footer>
+
+  <script>
+
+    const fmt = n => "₹" + Math.round(n).toLocaleString("en-IN");
+    function calc() {
+      const P = Number(document.getElementById("amount").value) || 0;
+      const annual = Number(document.getElementById("rate").value) || 0;
+      const n = (Number(document.getElementById("years").value) || 0) * 12;
+      const r = annual / 12 / 100;
+      if (P <= 0 || n <= 0) { return; }
+      const emi = r === 0 ? P / n : P * r * Math.pow(1 + r, n) / (Math.pow(1 + r, n) - 1);
+      document.getElementById("emi").innerText = fmt(emi);
+      document.getElementById("total").innerText = fmt(emi * n);
+      document.getElementById("interest").innerText = fmt(emi * n - P);
+    }
+    document.querySelectorAll(".tool-input").forEach(i => i.addEventListener("input", calc));
+    calc();
+
+  </script>
+</body>
+</html>

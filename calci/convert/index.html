@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <meta name="description" content="Convert length, weight, temperature, and data sizes instantly.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+  <script src="/auth.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true" style="flex:0 0 auto;"><path d="M12 3.1 2.6 11.5h2.9V21h5v-5.5h3V21h5v-9.5h2.9L12 3.1z"/></svg> Home</a>
+      <div class="nav-links">
+        <a href="/watch">Watch</a>
+        <a href="/discover">News</a>
+        <a href="/games">Games</a>
+        <a href="/calci" class="active">Tools</a>
+        <a href="/learn">Learn</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Unit Converter</h1>
+    <p>Convert length, weight, temperature, and data sizes instantly.</p>
+  </section>
+
+  <section style="margin: 24px auto -22px;">
+    <a class="article-back" href="/calci">&larr; All Tools</a>
+  </section>
+
+  <section>
+    <div class="tool-card">
+
+      <label class="tool-label">Category</label>
+      <select class="tool-input" id="category">
+        <option value="length">Length</option>
+        <option value="weight">Weight</option>
+        <option value="temp">Temperature</option>
+        <option value="data">Data size</option>
+      </select>
+      <div class="tool-row">
+        <input class="tool-input" type="number" id="value" value="1" style="flex:1;">
+        <select class="tool-input" id="from" style="flex:1;"></select>
+        <span style="color:var(--muted); align-self:center;">→</span>
+        <select class="tool-input" id="to" style="flex:1;"></select>
+      </div>
+      <div class="tool-result" id="result">—</div>
+
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 abhishekmuthyam.com. Built for learning and experiments.
+  </footer>
+
+  <script>
+
+    const units = {
+      length: { m: 1, km: 1000, cm: 0.01, mm: 0.001, inch: 0.0254, ft: 0.3048, yard: 0.9144, mile: 1609.34 },
+      weight: { kg: 1, g: 0.001, mg: 0.000001, tonne: 1000, lb: 0.453592, oz: 0.0283495 },
+      data: { MB: 1, KB: 0.001, GB: 1000, TB: 1000000, B: 0.000001 },
+      temp: { "°C": "c", "°F": "f", K: "k" }
+    };
+    const cat = document.getElementById("category");
+    const from = document.getElementById("from");
+    const to = document.getElementById("to");
+    function fillUnits() {
+      const keys = Object.keys(units[cat.value]);
+      from.innerHTML = keys.map(k => "<option>" + k + "</option>").join("");
+      to.innerHTML = from.innerHTML;
+      to.selectedIndex = 1;
+      convert();
+    }
+    function convert() {
+      const v = Number(document.getElementById("value").value);
+      if (isNaN(v)) { return; }
+      let out;
+      if (cat.value === "temp") {
+        let c = from.value === "°C" ? v : from.value === "°F" ? (v - 32) * 5 / 9 : v - 273.15;
+        out = to.value === "°C" ? c : to.value === "°F" ? c * 9 / 5 + 32 : c + 273.15;
+      } else {
+        out = v * units[cat.value][from.value] / units[cat.value][to.value];
+      }
+      document.getElementById("result").innerText =
+        v.toLocaleString() + " " + from.value + " = " + Number(out.toPrecision(8)).toLocaleString() + " " + to.value;
+    }
+    cat.addEventListener("change", fillUnits);
+    [from, to, document.getElementById("value")].forEach(el => el.addEventListener("input", convert));
+    fillUnits();
+
+  </script>
+</body>
+</html>

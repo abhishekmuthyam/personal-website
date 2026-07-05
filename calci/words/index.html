@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Counter</title>
+  <meta name="description" content="Count words, characters, and sentences — with reading and speaking time.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+  <script src="/auth.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true" style="flex:0 0 auto;"><path d="M12 3.1 2.6 11.5h2.9V21h5v-5.5h3V21h5v-9.5h2.9L12 3.1z"/></svg> Home</a>
+      <div class="nav-links">
+        <a href="/watch">Watch</a>
+        <a href="/discover">News</a>
+        <a href="/games">Games</a>
+        <a href="/calci" class="active">Tools</a>
+        <a href="/learn">Learn</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Word Counter</h1>
+    <p>Count words, characters, and sentences — with reading and speaking time.</p>
+  </section>
+
+  <section style="margin: 24px auto -22px;">
+    <a class="article-back" href="/calci">&larr; All Tools</a>
+  </section>
+
+  <section>
+    <div class="tool-card">
+
+      <textarea class="tool-area" id="text" rows="10" placeholder="Type or paste your text here..."></textarea>
+      <div class="tool-stats">
+        <div><span>Words</span><strong id="words">0</strong></div>
+        <div><span>Characters</span><strong id="chars">0</strong></div>
+        <div><span>Sentences</span><strong id="sentences">0</strong></div>
+        <div><span>Reading time</span><strong id="reading">0 min</strong></div>
+        <div><span>Speaking time</span><strong id="speaking">0 min</strong></div>
+        <div><span>Paragraphs</span><strong id="paras">0</strong></div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 abhishekmuthyam.com. Built for learning and experiments.
+  </footer>
+
+  <script>
+
+    document.getElementById("text").addEventListener("input", e => {
+      const t = e.target.value;
+      const words = (t.match(/\S+/g) || []).length;
+      document.getElementById("words").innerText = words.toLocaleString();
+      document.getElementById("chars").innerText = t.length.toLocaleString();
+      document.getElementById("sentences").innerText = (t.match(/[.!?]+(\s|$)/g) || []).length;
+      document.getElementById("paras").innerText = t.trim() ? t.trim().split(/\n\s*\n/).length : 0;
+      document.getElementById("reading").innerText = Math.max(1, Math.round(words / 200)) + " min";
+      document.getElementById("speaking").innerText = Math.max(1, Math.round(words / 130)) + " min";
+      if (!words) { document.getElementById("reading").innerText = document.getElementById("speaking").innerText = "0 min"; }
+    });
+
+  </script>
+</body>
+</html>

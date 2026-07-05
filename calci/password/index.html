@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <meta name="description" content="Create strong random passwords securely — generated on your device, never sent anywhere.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+  <script src="/auth.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true" style="flex:0 0 auto;"><path d="M12 3.1 2.6 11.5h2.9V21h5v-5.5h3V21h5v-9.5h2.9L12 3.1z"/></svg> Home</a>
+      <div class="nav-links">
+        <a href="/watch">Watch</a>
+        <a href="/discover">News</a>
+        <a href="/games">Games</a>
+        <a href="/calci" class="active">Tools</a>
+        <a href="/learn">Learn</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Password Generator</h1>
+    <p>Create strong random passwords securely — generated on your device, never sent anywhere.</p>
+  </section>
+
+  <section style="margin: 24px auto -22px;">
+    <a class="article-back" href="/calci">&larr; All Tools</a>
+  </section>
+
+  <section>
+    <div class="tool-card">
+
+      <div class="tool-result" id="result">Click Generate</div>
+      <label class="tool-label">Length: <span id="lenVal">16</span></label>
+      <input type="range" id="length" min="8" max="48" value="16" style="width:100%;">
+      <div class="tool-row wrap">
+        <label class="tool-check"><input type="checkbox" id="upper" checked> ABC</label>
+        <label class="tool-check"><input type="checkbox" id="lower" checked> abc</label>
+        <label class="tool-check"><input type="checkbox" id="digits" checked> 123</label>
+        <label class="tool-check"><input type="checkbox" id="symbols" checked> #$&amp;</label>
+      </div>
+      <div class="tool-row">
+        <button class="tool-btn" id="genBtn">Generate</button>
+        <button class="tool-btn ghost" id="copyBtn">Copy</button>
+      </div>
+      <p class="tool-note" id="strength"></p>
+
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 abhishekmuthyam.com. Built for learning and experiments.
+  </footer>
+
+  <script>
+
+    const sets = {
+      upper: "ABCDEFGHJKLMNPQRSTUVWXYZ",
+      lower: "abcdefghijkmnopqrstuvwxyz",
+      digits: "23456789",
+      symbols: "!@#$%^&*-_=+?"
+    };
+    const result = document.getElementById("result");
+    document.getElementById("length").addEventListener("input", e => {
+      document.getElementById("lenVal").innerText = e.target.value;
+    });
+    function generate() {
+      let pool = "";
+      Object.keys(sets).forEach(k => { if (document.getElementById(k).checked) { pool += sets[k]; } });
+      if (!pool) { result.innerText = "Pick at least one set"; return; }
+      const len = Number(document.getElementById("length").value);
+      const rand = new Uint32Array(len);
+      crypto.getRandomValues(rand);
+      result.innerText = Array.from(rand, x => pool[x % pool.length]).join("");
+      const bits = Math.round(len * Math.log2(pool.length));
+      document.getElementById("strength").innerText =
+        "Strength: ~" + bits + " bits — " + (bits > 90 ? "excellent 💪" : bits > 60 ? "strong ✅" : "okay, go longer ⚠️");
+    }
+    document.getElementById("genBtn").onclick = generate;
+    document.getElementById("copyBtn").onclick = async () => {
+      await navigator.clipboard.writeText(result.innerText);
+      document.getElementById("strength").innerText = "📋 Copied to clipboard";
+    };
+    generate();
+
+  </script>
+</body>
+</html>
