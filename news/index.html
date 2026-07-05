@@ -378,7 +378,7 @@
   function showArticle(id, push) {
     const item = findItem(id);
     if (!item) { return false; }
-    container.innerHTML = '<button class="article-back">&larr; Back to News</button>' + articleHtml(item);
+    container.innerHTML = '<button class="article-back">&larr; Back</button>' + articleHtml(item);
     container.querySelector(".article-back").onclick = () => {
       const url = new URL(location.href);
       url.searchParams.delete("article");
