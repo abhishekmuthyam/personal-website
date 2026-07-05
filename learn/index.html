@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn</title>
+  <meta name="description" content="Study hubs — Java interview prep, AWS notes, AI experiments, and LLM & agent deep-dives.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script src="/auth.js" defer></script>
+  <style>
+    .card-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 11px;
+      background: rgba(99, 102, 241, 0.1);
+      border: 1px solid rgba(99, 102, 241, 0.18);
+      font-size: 21px;
+      margin-bottom: 14px;
+    }
+
+    .card-arrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--brand);
+      font-size: 13px;
+      font-weight: 600;
+      font-family: 'Outfit', sans-serif;
+      margin-top: auto;
+      padding-top: 14px;
+      opacity: 0;
+      transform: translateX(-4px);
+      transition: opacity 0.25s, transform 0.25s;
+    }
+
+    .card-link:hover .card-arrow {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .card-stat {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true" style="flex:0 0 auto;"><path d="M12 3.1 2.6 11.5h2.9V21h5v-5.5h3V21h5v-9.5h2.9L12 3.1z"/></svg> Home</a>
+      <div class="nav-links">
+        <a href="/watch">Watch</a>
+        <a href="/discover">News</a>
+        <a href="/games">Games</a>
+        <a href="/calci">Tools</a>
+        <a href="/blog">Blog</a>
+        <a href="/learn" class="active">Learn</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Learn</h1>
+    <p>Study hubs with real notes — interview prep, cloud, and AI engineering, all learned in public.</p>
+  </section>
+
+  <section>
+    <h2>Study Hubs</h2>
+    <div class="cards feature-cards" style="margin-top:22px;">
+      <a href="/java-interview-prep" class="card-link">
+        <span class="card-icon">&#9749;</span>
+        <span class="card-kicker">Interview Prep</span>
+        <h3>Java Interview Prep</h3>
+        <p>24 real interview questions with straight answers and code — core Java, collections, streams, concurrency, and Spring Boot.</p>
+        <span class="card-stat">Q&amp;A format · code samples</span>
+        <span class="card-arrow">Study &rarr;</span>
+      </a>
+      <a href="/aws-notes" class="card-link">
+        <span class="card-icon">&#9729;&#65039;</span>
+        <span class="card-kicker">Cloud</span>
+        <h3>AWS Notes</h3>
+        <p>Practical service notes anchored in reality — the Lambda, DynamoDB, and Cognito setup running this very site, plus free-tier straight talk.</p>
+        <span class="card-stat">Battle-tested · live examples</span>
+        <span class="card-arrow">Study &rarr;</span>
+      </a>
+      <a href="/llms" class="card-link">
+        <span class="card-icon">&#129302;</span>
+        <span class="card-kicker">AI &amp; Agents</span>
+        <h3>LLMs &amp; Agentic Hub</h3>
+        <p>Deep-dives into LLM evolution, reasoning models, autonomous agent designs, and the Model Context Protocol.</p>
+        <span class="card-stat">Deep-dives · agent walkthroughs</span>
+        <span class="card-arrow">Study &rarr;</span>
+      </a>
+      <a href="/ai-experiments" class="card-link">
+        <span class="card-icon">&#129514;</span>
+        <span class="card-kicker">Applied AI</span>
+        <h3>AI Experiments</h3>
+        <p>Honest writeups of the five AI-built experiments shipped on this site — what worked, what broke, and what it taught.</p>
+        <span class="card-stat">5 experiments · real takeaways</span>
+        <span class="card-arrow">Read &rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Keep Going</h2>
+    <div class="cards feature-cards" style="margin-top:22px;">
+      <a href="/blog" class="card-link">
+        <span class="card-icon">&#9997;&#65039;</span>
+        <span class="card-kicker">Writing</span>
+        <h3>Blog</h3>
+        <p>Practical posts about Java, Spring Boot, AWS, APIs, and engineering practice.</p>
+        <span class="card-arrow">Read &rarr;</span>
+      </a>
+      <a href="/projects" class="card-link">
+        <span class="card-icon">&#128736;&#65039;</span>
+        <span class="card-kicker">Portfolio</span>
+        <h3>Projects</h3>
+        <p>Everything built on this site — features, tools, games, and the learning work behind them.</p>
+        <span class="card-arrow">Open &rarr;</span>
+      </a>
+      <a href="/calci" class="card-link">
+        <span class="card-icon">&#129518;</span>
+        <span class="card-kicker">Practice</span>
+        <h3>Calculator Tools</h3>
+        <p>Small tools built while practicing HTML, CSS, and JavaScript.</p>
+        <span class="card-arrow">Open &rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 abhishekmuthyam.com. Built for learning and experiments.
+  </footer>
+</body>
+</html>
