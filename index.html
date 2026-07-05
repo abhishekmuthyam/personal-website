@@ -631,12 +631,14 @@
         '<div class="tile-meta"><span>' + esc(item.source || "") + '</span><span>' + timeAgo(item.publishedAt) + '</span></div></div></button>';
     }
 
-    function openStory(item) {
+    function openStory(item, railKey) {
       const overlay = document.createElement("div");
       overlay.className = "player-overlay";
       const hero = item.image
         ? '<img src="' + esc(item.image) + '" alt="">'
         : '📰';
+      const articleBase = railKey === "railTech" ? "/news/article/?id=" : "/discover/article/?id=";
+      const articleUrl = item.id ? articleBase + encodeURIComponent(item.id) : null;
       overlay.innerHTML =
         '<div class="story-box">' +
           '<div class="story-hero">' + hero + '</div>' +
@@ -646,7 +648,8 @@
             '<div class="story-meta">' + esc(item.source || "") + (item.publishedAt ? ' · ' + timeAgo(item.publishedAt) : '') + '</div>' +
             '<p class="summary">' + esc(item.summary || "No summary available for this story.") + '</p>' +
             '<div class="story-actions">' +
-              (item.link ? '<a class="button primary" href="' + esc(item.link) + '" target="_blank" rel="noopener">Read Full Story ↗</a>' : '') +
+              (articleUrl ? '<a class="button primary" href="' + articleUrl + '">Read Full Story</a>' : '') +
+              (item.link ? '<a class="button secondary" href="' + esc(item.link) + '" target="_blank" rel="noopener">Original Source ↗</a>' : '') +
               '<button class="button secondary player-close" style="border:1px solid rgba(255,255,255,0.15);cursor:pointer;">✕ Close</button>' +
             '</div>' +
           '</div>' +
@@ -752,7 +755,7 @@
       const story = e.target.closest(".js-story");
       if (story) {
         const item = storyStore[story.dataset.rail][Number(story.dataset.idx)];
-        if (item) { openStory(item); }
+        if (item) { openStory(item, story.dataset.rail); }
       }
     });
   </script>
