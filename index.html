@@ -366,6 +366,67 @@
 
     .frame-wrap iframe { width: 100%; height: 100%; border: 0; display: block; }
 
+    /* Story reader modal */
+    .story-box {
+      width: min(680px, 100%);
+      max-height: 86vh;
+      overflow-y: auto;
+      background: var(--panel);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+    }
+
+    .story-hero {
+      aspect-ratio: 16 / 7;
+      background: linear-gradient(135deg, #1f2a44, #3b2a54);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 44px;
+    }
+
+    .story-hero img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .story-hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, var(--panel), transparent 55%);
+    }
+
+    .story-content { padding: 22px 26px 26px; }
+
+    .story-content .tile-kicker { font-size: 12px; }
+
+    .story-content h2 {
+      font-size: 24px;
+      line-height: 1.25;
+      margin: 6px 0 10px;
+    }
+
+    .story-content .story-meta {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+
+    .story-content p.summary {
+      color: #cbd5e1;
+      font-size: 15px;
+      line-height: 1.7;
+      margin: 0 0 22px;
+    }
+
+    .story-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+
     /* About + footer */
     .about-strip {
       max-width: 1200px;
@@ -557,15 +618,50 @@
         '<div class="tile-meta"><span>' + esc(v.channel) + '</span><span>' + timeAgo(v.published) + '</span></div></div></button>';
     }
 
-    function newsTile(item) {
+    const storyStore = { railNews: [], railTech: [] };
+
+    function newsTile(item, railKey, idx) {
       const thumb = item.image
         ? '<img loading="lazy" src="' + esc(item.image) + '" alt="">'
         : '<span style="font-size:30px;">📰</span>';
-      return '<a class="tile" href="' + esc(item.link) + '" target="_blank" rel="noopener">' +
+      return '<button class="tile js-story" data-rail="' + railKey + '" data-idx="' + idx + '">' +
         '<div class="tile-thumb">' + thumb + '</div>' +
         '<div class="tile-body"><span class="tile-kicker">' + esc(item.categoryLabel || item.topicLabel || item.source || "News") + '</span>' +
         '<h3>' + esc(item.title) + '</h3>' +
-        '<div class="tile-meta"><span>' + esc(item.source || "") + '</span><span>' + timeAgo(item.publishedAt) + '</span></div></div></a>';
+        '<div class="tile-meta"><span>' + esc(item.source || "") + '</span><span>' + timeAgo(item.publishedAt) + '</span></div></div></button>';
+    }
+
+    function openStory(item) {
+      const overlay = document.createElement("div");
+      overlay.className = "player-overlay";
+      const hero = item.image
+        ? '<img src="' + esc(item.image) + '" alt="">'
+        : '📰';
+      overlay.innerHTML =
+        '<div class="story-box">' +
+          '<div class="story-hero">' + hero + '</div>' +
+          '<div class="story-content">' +
+            '<span class="tile-kicker">' + esc(item.categoryLabel || item.source || "News") + '</span>' +
+            '<h2>' + esc(item.title) + '</h2>' +
+            '<div class="story-meta">' + esc(item.source || "") + (item.publishedAt ? ' · ' + timeAgo(item.publishedAt) : '') + '</div>' +
+            '<p class="summary">' + esc(item.summary || "No summary available for this story.") + '</p>' +
+            '<div class="story-actions">' +
+              (item.link ? '<a class="button primary" href="' + esc(item.link) + '" target="_blank" rel="noopener">Read Full Story ↗</a>' : '') +
+              '<button class="button secondary player-close" style="border:1px solid rgba(255,255,255,0.15);cursor:pointer;">✕ Close</button>' +
+            '</div>' +
+          '</div>' +
+        '</div>';
+      document.body.appendChild(overlay);
+      document.body.style.overflow = "hidden";
+      function close() {
+        overlay.remove();
+        document.body.style.overflow = "";
+        document.removeEventListener("keydown", onKey);
+      }
+      function onKey(e) { if (e.key === "Escape") { close(); } }
+      overlay.querySelector(".player-close").onclick = close;
+      overlay.addEventListener("click", e => { if (e.target === overlay) { close(); } });
+      document.addEventListener("keydown", onKey);
     }
 
     function posterTile(href, emoji, label, gradient) {
@@ -621,11 +717,13 @@
 
     /* News rails */
     fetch("discover/discover-data.json").then(r => r.json()).then(data => {
-      fillRail("railNews", (data.items || []).slice(0, 16).map(newsTile).join(""));
+      storyStore.railNews = (data.items || []).slice(0, 16);
+      fillRail("railNews", storyStore.railNews.map((item, i) => newsTile(item, "railNews", i)).join(""));
     }).catch(() => {});
 
     fetch("news/news-data.json").then(r => r.json()).then(data => {
-      fillRail("railTech", (data.items || []).slice(0, 16).map(newsTile).join(""));
+      storyStore.railTech = (data.items || []).slice(0, 16);
+      fillRail("railTech", storyStore.railTech.map((item, i) => newsTile(item, "railTech", i)).join(""));
     }).catch(() => {});
 
     /* Games + Learn (static) */
@@ -647,10 +745,15 @@
       posterTile("/projects", "🛠️", "Projects", "linear-gradient(160deg,#365314,#1a2e05)")
     ].join(""));
 
-    /* Video click delegation */
+    /* Tile click delegation */
     document.getElementById("rails").addEventListener("click", e => {
-      const tile = e.target.closest(".js-video");
-      if (tile) { openPlayer(tile.dataset.id, tile.dataset.title); }
+      const video = e.target.closest(".js-video");
+      if (video) { openPlayer(video.dataset.id, video.dataset.title); return; }
+      const story = e.target.closest(".js-story");
+      if (story) {
+        const item = storyStore[story.dataset.rail][Number(story.dataset.idx)];
+        if (item) { openStory(item); }
+      }
     });
   </script>
 </body>
