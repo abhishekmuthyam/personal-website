@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stories</title>
+  <meta name="description" content="Life stories of great leaders — Gandhi, Kalam, Mandela, Lincoln and more — told in simple English anyone can read.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script src="/auth.js" defer></script>
+  <style>
+    .card-icon { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px;
+      border-radius: 11px; background: rgba(99,102,241,0.1); border: 1px solid rgba(99,102,241,0.18);
+      font-size: 21px; margin-bottom: 14px; }
+    .card-arrow { display: inline-flex; align-items: center; gap: 6px; color: var(--brand); font-size: 13px;
+      font-weight: 600; font-family: 'Outfit', sans-serif; margin-top: auto; padding-top: 14px;
+      opacity: 0; transform: translateX(-4px); transition: opacity 0.25s, transform 0.25s; }
+    .card-link:hover .card-arrow { opacity: 1; transform: translateX(0); }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true" style="flex:0 0 auto;"><path d="M12 3.1 2.6 11.5h2.9V21h5v-5.5h3V21h5v-9.5h2.9L12 3.1z"/></svg> Home</a>
+      <div class="nav-links">
+        <a href="/watch">Watch</a>
+        <a href="/discover">News</a>
+        <a href="/stories" class="active">Stories</a>
+        <a href="/games">Games</a>
+        <a href="/calci">Tools</a>
+        <a href="/learn">Learn</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Stories</h1>
+    <p>Great lives, told simply. Real stories of leaders who changed the world — written so anyone can read them.</p>
+  </section>
+
+  <section>
+    <h2>The Leaders</h2>
+    <div class="cards feature-cards" style="margin-top:22px;">
+      <a href="/stories/mahatma-gandhi" class="card-link">
+        <span class="card-icon">🕊️</span>
+        <span class="card-kicker">1869 – 1948</span>
+        <h3>Mahatma Gandhi</h3>
+        <p>The man who freed India without picking up a weapon.</p>
+        <span class="card-arrow">Read story &rarr;</span>
+      </a>
+      <a href="/stories/swami-vivekananda" class="card-link">
+        <span class="card-icon">🧘</span>
+        <span class="card-kicker">1863 – 1902</span>
+        <h3>Swami Vivekananda</h3>
+        <p>The young monk who introduced India's wisdom to the world.</p>
+        <span class="card-arrow">Read story &rarr;</span>
+      </a>
+      <a href="/stories/br-ambedkar" class="card-link">
+        <span class="card-icon">⚖️</span>
+        <span class="card-kicker">1891 – 1956</span>
+        <h3>Dr. B.R. Ambedkar</h3>
+        <p>The boy who was not allowed inside class — and wrote India's Constitution.</p>
+        <span class="card-arrow">Read story &rarr;</span>
+      </a>
+      <a href="/stories/sardar-patel" class="card-link">
+        <span class="card-icon">🤝</span>
+        <span class="card-kicker">1875 – 1950</span>
+        <h3>Sardar Vallabhbhai Patel</h3>
+        <p>The Iron Man who joined 562 pieces into one India.</p>
+        <span class="card-arrow">Read story &rarr;</span>
+      </a>
+      <a href="/stories/mother-teresa" class="card-link">
+        <span class="card-icon">❤️</span>
+        <span class="card-kicker">1910 – 1997</span>
+        <h3>Mother Teresa</h3>
+        <p>The tiny nun who became mother to the world's forgotten people.</p>
+        <span class="card-arrow">Read story &rarr;</span>
+      </a>
+      <a href="/stories/apj-abdul-kalam" class="card-link">
+        <span class="card-icon">🚀</span>
+        <span class="card-kicker">1931 – 2015</span>
+        <h3>Dr. A.P.J. Abdul Kalam</h3>
+        <p>The newspaper boy who became the Missile Man and President of India.</p>
+        <span class="card-arrow">Read story &rarr;</span>
+      </a>
+      <a href="/stories/nelson-mandela" class="card-link">
+        <span class="card-icon">✊</span>
+        <span class="card-kicker">1918 – 2013</span>
+        <h3>Nelson Mandela</h3>
+        <p>27 years in prison, zero years of hatred.</p>
+        <span class="card-arrow">Read story &rarr;</span>
+      </a>
+      <a href="/stories/abraham-lincoln" class="card-link">
+        <span class="card-icon">🎩</span>
+        <span class="card-kicker">1809 – 1865</span>
+        <h3>Abraham Lincoln</h3>
+        <p>From a log cabin to the White House — the president who ended slavery.</p>
+        <span class="card-arrow">Read story &rarr;</span>
+      </a>
+      <a href="/stories/martin-luther-king" class="card-link">
+        <span class="card-icon">🎤</span>
+        <span class="card-kicker">1929 – 1968</span>
+        <h3>Martin Luther King Jr.</h3>
+        <p>The dreamer who marched a nation toward equality.</p>
+        <span class="card-arrow">Read story &rarr;</span>
+      </a>
+      <a href="/stories/ratan-tata" class="card-link">
+        <span class="card-icon">🏢</span>
+        <span class="card-kicker">1937 – 2024</span>
+        <h3>Ratan Tata</h3>
+        <p>The gentle giant who proved business can have a heart.</p>
+        <span class="card-arrow">Read story &rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 abhishekmuthyam.com. Built for learning and experiments.
+  </footer>
+</body>
+</html>
