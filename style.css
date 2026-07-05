@@ -610,6 +610,13 @@ button:hover {
   font-family: 'Outfit', sans-serif;
 }
 
+a.tab-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
 .discover-tab:hover,
 .discover-tab.active {
   background: transparent;
