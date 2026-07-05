@@ -4,20 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stories</title>
-  <meta name="description" content="Life stories of great leaders — Gandhi, Kalam, Mandela, Lincoln and more — told in simple English anyone can read.">
+  <meta name="description" content="Life stories of 25 great leaders — Gandhi, Kalam, Mandela, Einstein, Kalpana Chawla and more — told in simple English anyone can read.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
   <script src="/auth.js" defer></script>
   <style>
-    .card-icon { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px;
-      border-radius: 11px; background: rgba(99,102,241,0.1); border: 1px solid rgba(99,102,241,0.18);
-      font-size: 21px; margin-bottom: 14px; }
-    .card-arrow { display: inline-flex; align-items: center; gap: 6px; color: var(--brand); font-size: 13px;
-      font-weight: 600; font-family: 'Outfit', sans-serif; margin-top: auto; padding-top: 14px;
-      opacity: 0; transform: translateX(-4px); transition: opacity 0.25s, transform 0.25s; }
-    .card-link:hover .card-arrow { opacity: 1; transform: translateX(0); }
+    .story-search {
+      width: 100%;
+      box-sizing: border-box;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px;
+      color: var(--text);
+      font-size: 15px;
+      font-family: inherit;
+      padding: 14px 18px;
+      outline: none;
+      margin-bottom: 24px;
+    }
+    .story-search:focus { border-color: var(--brand); }
+    .leader-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 18px;
+    }
+    .leader-card {
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      border-radius: 16px;
+      overflow: hidden;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .leader-card:hover { transform: translateY(-4px); border-color: rgba(99,102,241,0.5); }
+    .leader-photo {
+      aspect-ratio: 1 / 1;
+      background: linear-gradient(135deg, #1f2a44, #3b2a54);
+      overflow: hidden;
+    }
+    .leader-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      filter: saturate(0.92);
+      transition: transform 0.3s;
+    }
+    .leader-card:hover .leader-photo img { transform: scale(1.04); }
+    .leader-body { padding: 15px 17px 17px; }
+    .leader-body h3 { font-size: 17px; margin: 4px 0 7px; }
+    .leader-body p { color: var(--muted); font-size: 13.5px; line-height: 1.55; margin: 0; }
+    .no-hits { color: var(--muted); text-align: center; padding: 40px 0; display: none; }
   </style>
 </head>
 <body>
@@ -37,87 +79,234 @@
 
   <section class="hero">
     <h1>Stories</h1>
-    <p>Great lives, told simply. Real stories of leaders who changed the world — written so anyone can read them.</p>
+    <p>Great lives, told simply. 25 leaders who changed the world — written so anyone can read them.</p>
   </section>
 
   <section>
-    <h2>The Leaders</h2>
-    <div class="cards feature-cards" style="margin-top:22px;">
-      <a href="/stories/mahatma-gandhi" class="card-link">
-        <span class="card-icon">🕊️</span>
-        <span class="card-kicker">1869 – 1948</span>
-        <h3>Mahatma Gandhi</h3>
-        <p>The man who freed India without picking up a weapon.</p>
-        <span class="card-arrow">Read story &rarr;</span>
+    <input type="search" class="story-search" id="storySearch" placeholder="🔍 Search a leader... (e.g. Gandhi, Kalam, Einstein)" aria-label="Search leaders">
+    <p class="no-hits" id="noHits">No leader matches that search.</p>
+    <div class="leader-grid" id="leaderGrid">
+      <a href="/stories/mahatma-gandhi" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/mahatma-gandhi.jpg" alt="Mahatma Gandhi"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1869 – 1948</span>
+          <h3>Mahatma Gandhi</h3>
+          <p>The man who freed India without picking up a weapon.</p>
+        </div>
       </a>
-      <a href="/stories/swami-vivekananda" class="card-link">
-        <span class="card-icon">🧘</span>
-        <span class="card-kicker">1863 – 1902</span>
-        <h3>Swami Vivekananda</h3>
-        <p>The young monk who introduced India's wisdom to the world.</p>
-        <span class="card-arrow">Read story &rarr;</span>
+      <a href="/stories/swami-vivekananda" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/swami-vivekananda.jpg" alt="Swami Vivekananda"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1863 – 1902</span>
+          <h3>Swami Vivekananda</h3>
+          <p>The young monk who introduced India's wisdom to the world.</p>
+        </div>
       </a>
-      <a href="/stories/br-ambedkar" class="card-link">
-        <span class="card-icon">⚖️</span>
-        <span class="card-kicker">1891 – 1956</span>
-        <h3>Dr. B.R. Ambedkar</h3>
-        <p>The boy who was not allowed inside class — and wrote India's Constitution.</p>
-        <span class="card-arrow">Read story &rarr;</span>
+      <a href="/stories/rani-lakshmibai" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/rani-lakshmibai.jpg" alt="Rani Lakshmibai"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1828 – 1858</span>
+          <h3>Rani Lakshmibai</h3>
+          <p>The queen of Jhansi who rode into battle with her child on her back.</p>
+        </div>
       </a>
-      <a href="/stories/sardar-patel" class="card-link">
-        <span class="card-icon">🤝</span>
-        <span class="card-kicker">1875 – 1950</span>
-        <h3>Sardar Vallabhbhai Patel</h3>
-        <p>The Iron Man who joined 562 pieces into one India.</p>
-        <span class="card-arrow">Read story &rarr;</span>
+      <a href="/stories/shivaji-maharaj" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/shivaji-maharaj.jpg" alt="Chhatrapati Shivaji Maharaj"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1630 – 1680</span>
+          <h3>Chhatrapati Shivaji Maharaj</h3>
+          <p>The people's king who built an empire from the hills.</p>
+        </div>
       </a>
-      <a href="/stories/mother-teresa" class="card-link">
-        <span class="card-icon">❤️</span>
-        <span class="card-kicker">1910 – 1997</span>
-        <h3>Mother Teresa</h3>
-        <p>The tiny nun who became mother to the world's forgotten people.</p>
-        <span class="card-arrow">Read story &rarr;</span>
+      <a href="/stories/bhagat-singh" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/bhagat-singh.jpg" alt="Bhagat Singh"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1907 – 1931</span>
+          <h3>Bhagat Singh</h3>
+          <p>The 23-year-old who smiled at the gallows.</p>
+        </div>
       </a>
-      <a href="/stories/apj-abdul-kalam" class="card-link">
-        <span class="card-icon">🚀</span>
-        <span class="card-kicker">1931 – 2015</span>
-        <h3>Dr. A.P.J. Abdul Kalam</h3>
-        <p>The newspaper boy who became the Missile Man and President of India.</p>
-        <span class="card-arrow">Read story &rarr;</span>
+      <a href="/stories/subhas-chandra-bose" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/subhas-chandra-bose.jpg" alt="Subhas Chandra Bose"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1897 – 1945</span>
+          <h3>Subhas Chandra Bose</h3>
+          <p>Netaji — the leader who raised an army for India's freedom.</p>
+        </div>
       </a>
-      <a href="/stories/nelson-mandela" class="card-link">
-        <span class="card-icon">✊</span>
-        <span class="card-kicker">1918 – 2013</span>
-        <h3>Nelson Mandela</h3>
-        <p>27 years in prison, zero years of hatred.</p>
-        <span class="card-arrow">Read story &rarr;</span>
+      <a href="/stories/br-ambedkar" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/br-ambedkar.jpg" alt="Dr. B.R. Ambedkar"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1891 – 1956</span>
+          <h3>Dr. B.R. Ambedkar</h3>
+          <p>The boy who was not allowed inside class — and wrote India's Constitution.</p>
+        </div>
       </a>
-      <a href="/stories/abraham-lincoln" class="card-link">
-        <span class="card-icon">🎩</span>
-        <span class="card-kicker">1809 – 1865</span>
-        <h3>Abraham Lincoln</h3>
-        <p>From a log cabin to the White House — the president who ended slavery.</p>
-        <span class="card-arrow">Read story &rarr;</span>
+      <a href="/stories/sardar-patel" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/sardar-patel.jpg" alt="Sardar Vallabhbhai Patel"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1875 – 1950</span>
+          <h3>Sardar Vallabhbhai Patel</h3>
+          <p>The Iron Man who joined 562 pieces into one India.</p>
+        </div>
       </a>
-      <a href="/stories/martin-luther-king" class="card-link">
-        <span class="card-icon">🎤</span>
-        <span class="card-kicker">1929 – 1968</span>
-        <h3>Martin Luther King Jr.</h3>
-        <p>The dreamer who marched a nation toward equality.</p>
-        <span class="card-arrow">Read story &rarr;</span>
+      <a href="/stories/jawaharlal-nehru" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/jawaharlal-nehru.jpg" alt="Jawaharlal Nehru"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1889 – 1964</span>
+          <h3>Jawaharlal Nehru</h3>
+          <p>The first Prime Minister who built modern India's foundations.</p>
+        </div>
       </a>
-      <a href="/stories/ratan-tata" class="card-link">
-        <span class="card-icon">🏢</span>
-        <span class="card-kicker">1937 – 2024</span>
-        <h3>Ratan Tata</h3>
-        <p>The gentle giant who proved business can have a heart.</p>
-        <span class="card-arrow">Read story &rarr;</span>
+      <a href="/stories/savitribai-phule" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/savitribai-phule.jpg" alt="Savitribai Phule"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1831 – 1897</span>
+          <h3>Savitribai Phule</h3>
+          <p>India's first woman teacher, who faced stones to open school doors for girls.</p>
+        </div>
+      </a>
+      <a href="/stories/sarojini-naidu" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/sarojini-naidu.jpg" alt="Sarojini Naidu"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1879 – 1949</span>
+          <h3>Sarojini Naidu</h3>
+          <p>The Nightingale of India — poet, freedom fighter, pathbreaking governor.</p>
+        </div>
+      </a>
+      <a href="/stories/lal-bahadur-shastri" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/lal-bahadur-shastri.jpg" alt="Lal Bahadur Shastri"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1904 – 1966</span>
+          <h3>Lal Bahadur Shastri</h3>
+          <p>The gentle giant of simplicity — Jai Jawan, Jai Kisan.</p>
+        </div>
+      </a>
+      <a href="/stories/indira-gandhi" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/indira-gandhi.jpg" alt="Indira Gandhi"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1917 – 1984</span>
+          <h3>Indira Gandhi</h3>
+          <p>India's first and only woman Prime Minister — the Iron Lady of India.</p>
+        </div>
+      </a>
+      <a href="/stories/mother-teresa" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/mother-teresa.jpg" alt="Mother Teresa"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1910 – 1997</span>
+          <h3>Mother Teresa</h3>
+          <p>The tiny nun who became mother to the world's forgotten people.</p>
+        </div>
+      </a>
+      <a href="/stories/apj-abdul-kalam" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/apj-abdul-kalam.jpg" alt="Dr. A.P.J. Abdul Kalam"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1931 – 2015</span>
+          <h3>Dr. A.P.J. Abdul Kalam</h3>
+          <p>The newspaper boy who became the Missile Man and President of India.</p>
+        </div>
+      </a>
+      <a href="/stories/kalpana-chawla" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/kalpana-chawla.jpg" alt="Kalpana Chawla"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1962 – 2003</span>
+          <h3>Kalpana Chawla</h3>
+          <p>The girl from Karnal who touched the stars.</p>
+        </div>
+      </a>
+      <a href="/stories/ratan-tata" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/ratan-tata.jpg" alt="Ratan Tata"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1937 – 2024</span>
+          <h3>Ratan Tata</h3>
+          <p>The gentle giant who proved business can have a heart.</p>
+        </div>
+      </a>
+      <a href="/stories/narendra-modi" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/narendra-modi.jpg" alt="Narendra Modi"></div>
+        <div class="leader-body">
+          <span class="card-kicker">born 1950</span>
+          <h3>Narendra Modi</h3>
+          <p>From a railway platform tea stall to Prime Minister of India.</p>
+        </div>
+      </a>
+      <a href="/stories/sundar-pichai" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/sundar-pichai.jpg" alt="Sundar Pichai"></div>
+        <div class="leader-body">
+          <span class="card-kicker">born 1972</span>
+          <h3>Sundar Pichai</h3>
+          <p>The boy without a phone at home who now leads Google.</p>
+        </div>
+      </a>
+      <a href="/stories/abraham-lincoln" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/abraham-lincoln.jpg" alt="Abraham Lincoln"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1809 – 1865</span>
+          <h3>Abraham Lincoln</h3>
+          <p>From a log cabin to the White House — the president who ended slavery.</p>
+        </div>
+      </a>
+      <a href="/stories/nelson-mandela" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/nelson-mandela.jpg" alt="Nelson Mandela"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1918 – 2013</span>
+          <h3>Nelson Mandela</h3>
+          <p>27 years in prison, zero years of hatred.</p>
+        </div>
+      </a>
+      <a href="/stories/martin-luther-king" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/martin-luther-king.jpg" alt="Martin Luther King Jr."></div>
+        <div class="leader-body">
+          <span class="card-kicker">1929 – 1968</span>
+          <h3>Martin Luther King Jr.</h3>
+          <p>The dreamer who marched a nation toward equality.</p>
+        </div>
+      </a>
+      <a href="/stories/albert-einstein" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/albert-einstein.jpg" alt="Albert Einstein"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1879 – 1955</span>
+          <h3>Albert Einstein</h3>
+          <p>The daydreaming boy who rewrote the rules of the universe.</p>
+        </div>
+      </a>
+      <a href="/stories/marie-curie" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/marie-curie.jpg" alt="Marie Curie"></div>
+        <div class="leader-body">
+          <span class="card-kicker">1867 – 1934</span>
+          <h3>Marie Curie</h3>
+          <p>Two Nobel Prizes, one borrowed lab coat — the woman who discovered radium.</p>
+        </div>
+      </a>
+      <a href="/stories/barack-obama" class="leader-card">
+        <div class="leader-photo"><img loading="lazy" src="/stories/img/barack-obama.jpg" alt="Barack Obama"></div>
+        <div class="leader-body">
+          <span class="card-kicker">born 1961</span>
+          <h3>Barack Obama</h3>
+          <p>From 'skinny kid with a funny name' to first Black President of America.</p>
+        </div>
       </a>
     </div>
   </section>
 
+  <p style="text-align:center;color:var(--muted);font-size:12px;margin:30px 0 0;">Photos: Wikipedia / Wikimedia Commons</p>
+
   <footer>
     &copy; 2026 abhishekmuthyam.com. Built for learning and experiments.
   </footer>
+
+  <script>
+    const cards = Array.from(document.querySelectorAll(".leader-card"));
+    document.getElementById("storySearch").addEventListener("input", e => {
+      const q = e.target.value.trim().toLowerCase();
+      let shown = 0;
+      cards.forEach(card => {
+        const hit = !q || card.textContent.toLowerCase().includes(q);
+        card.style.display = hit ? "" : "none";
+        if (hit) shown++;
+      });
+      document.getElementById("noHits").style.display = shown ? "none" : "block";
+    });
+  </script>
 </body>
 </html>
