@@ -60,11 +60,25 @@ a {
 }
 
 .brand {
-  color: #ffffff !important;
-  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #e2e8f0 !important;
+  font-weight: 700;
   font-family: 'Outfit', sans-serif;
-  font-size: 20px;
-  letter-spacing: -0.02em;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 8px 14px;
+  transition: all 0.2s ease;
+}
+
+.brand:hover {
+  background: rgba(99, 102, 241, 0.18);
+  border-color: rgba(99, 102, 241, 0.45);
+  color: #ffffff !important;
 }
 
 .nav-links {
