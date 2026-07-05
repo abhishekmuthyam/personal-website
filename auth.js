@@ -102,16 +102,6 @@
     .auth-close { position: absolute; background: none; border: none; color: #64748b; font-size: 22px;
       cursor: pointer; margin: -12px 0 0 316px; box-shadow: none; padding: 4px; }
     .auth-close:hover { color: #ffffff; background: none; transform: none; box-shadow: none; }
-    .site-back { display: inline-flex; align-items: center; justify-content: center;
-      width: 36px; height: 36px; flex: 0 0 36px; background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.12); border-radius: 10px; color: #94a3b8;
-      font-size: 17px; line-height: 1; cursor: pointer; box-shadow: none; padding: 0;
-      font-family: 'Inter', system-ui, sans-serif; transition: all 0.2s; }
-    .site-back:hover { background: rgba(99,102,241,0.2); border-color: rgba(99,102,241,0.5);
-      color: #ffffff; transform: none; box-shadow: none; }
-    .site-back-fallback { position: fixed; bottom: 22px; left: 22px; z-index: 900;
-      width: auto; padding: 10px 18px; border-radius: 99px; background: rgba(13,18,34,0.92);
-      backdrop-filter: blur(8px); box-shadow: 0 8px 24px rgba(0,0,0,0.45); font-size: 14px; font-weight: 600; }
   `;
 
   let overlay = null;
@@ -258,38 +248,6 @@
 
   window.siteAuth = { currentUser, showLogin: () => showModal("login"), signOut };
 
-  function renderBackButton() {
-    const path = location.pathname.replace(/index\.html$/, "");
-    if (path === "/" || document.querySelector(".site-back")) { return; }
-    const btn = document.createElement("button");
-    btn.className = "site-back";
-    btn.setAttribute("aria-label", "Go back to previous page");
-    btn.setAttribute("title", "Back");
-    btn.onclick = () => {
-      let sameOrigin = false;
-      try { sameOrigin = !!document.referrer && new URL(document.referrer).origin === location.origin; } catch {}
-      if (sameOrigin && history.length > 1) {
-        history.back();
-      } else {
-        location.href = "/";
-      }
-    };
-    const nav = document.querySelector(".nav");
-    const brand = nav && nav.querySelector(".brand");
-    if (nav && brand) {
-      btn.innerHTML = "&larr;";
-      const left = document.createElement("div");
-      left.style.cssText = "display:flex;align-items:center;gap:12px;";
-      nav.insertBefore(left, nav.firstChild);
-      left.appendChild(btn);
-      left.appendChild(brand);
-    } else {
-      btn.innerHTML = "&larr; Back";
-      btn.classList.add("site-back-fallback");
-      document.body.appendChild(btn);
-    }
-  }
-
   function init() {
     const style = document.createElement("style");
     style.textContent = css;
@@ -299,7 +257,6 @@
       tryRefresh().then(renderNav);
     }
     renderNav();
-    renderBackButton();
   }
 
   if (document.readyState === "loading") {
