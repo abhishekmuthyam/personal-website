@@ -42,6 +42,8 @@
         </div>
       </header>
 
+      <div id="inlineArticle" hidden></div>
+
       <section id="leadStory" class="discover-lead" aria-label="Top story">
         <p>Loading latest technical news...</p>
       </section>
@@ -326,5 +328,113 @@
 
     loadNews();
   </script>
+<script>
+/* Inline article reader: clicking a story renders it below the sticky
+   header/tabs instead of navigating away. Tabs always restore the list. */
+(function () {
+  const container = document.getElementById("inlineArticle");
+  const feedParts = [".discover-lead", ".spotlight-grid", ".feed-heading", ".story-list"]
+    .map(sel => document.querySelector(sel)).filter(Boolean);
+
+  function escText(value) {
+    return String(value || "").replace(/[&<>"']/g, ch => (
+      { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+  }
+
+  function safeUrl(value) {
+    const text = String(value || "");
+    return (text.startsWith("http://") || text.startsWith("https://")) ? escText(text) : "";
+  }
+
+  function findItem(id) {
+    return (typeof allItems !== "undefined" ? allItems : []).find(item => item.id === id);
+  }
+
+  function articleHtml(item) {
+    const visual = item.image && safeUrl(item.image)
+      ? '<img class="article-image" src="' + safeUrl(item.image) + '" alt="">'
+      : '<div class="article-image placeholder">📰</div>';
+    const sources = Array.isArray(item.sources) ? item.sources.filter(s => s && s.link) : [];
+    const sourceLinks = sources.slice(0, 6).map(s =>
+      '<a class="source-pill" href="' + safeUrl(s.link) + '" target="_blank" rel="noopener">' +
+        '<strong>' + escText(s.name || "Source") + '</strong>' +
+        '<span>' + escText((s.summary || "").slice(0, 140)) + '</span></a>').join("");
+    const published = item.publishedAt ? new Date(item.publishedAt).toLocaleString() : "";
+    return (
+      '<div class="article-content">' +
+        '<span class="story-topic">' + escText(item.categoryLabel || item.topicLabel || "News") + '</span>' +
+        '<h1>' + escText(item.title) + '</h1>' +
+        '<p class="article-summary">' + escText(item.summary || "") + '</p>' +
+        '<p class="article-meta">' + escText(item.source || "") + (published ? " · " + published : "") + '</p>' +
+        visual +
+        (item.link && safeUrl(item.link)
+          ? '<p><a class="button primary" href="' + safeUrl(item.link) + '" target="_blank" rel="noopener">Read at ' + escText(item.source || "source") + ' ↗</a></p>'
+          : "") +
+        (sourceLinks
+          ? '<section class="article-section"><h2>Coverage</h2><div class="article-sources">' + sourceLinks + '</div></section>'
+          : "") +
+      '</div>');
+  }
+
+  function showArticle(id, push) {
+    const item = findItem(id);
+    if (!item) { return false; }
+    container.innerHTML = articleHtml(item);
+    container.hidden = false;
+    feedParts.forEach(el => { el.hidden = true; });
+    if (push) {
+      const url = new URL(location.href);
+      url.searchParams.set("article", id);
+      history.pushState({ article: id }, "", url);
+    }
+    window.scrollTo({ top: 0 });
+    return true;
+  }
+
+  function showList(push) {
+    container.hidden = true;
+    container.innerHTML = "";
+    feedParts.forEach(el => { el.hidden = false; });
+    if (push) {
+      const url = new URL(location.href);
+      url.searchParams.delete("article");
+      history.pushState({}, "", url);
+    }
+  }
+
+  document.addEventListener("click", event => {
+    const link = event.target.closest('a[href*="article/?id="]');
+    if (!link) { return; }
+    const id = new URL(link.href, location.href).searchParams.get("id");
+    if (id && findItem(id)) {
+      event.preventDefault();
+      showArticle(id, true);
+    }
+  });
+
+  document.querySelectorAll(".discover-tab").forEach(tab => {
+    tab.addEventListener("click", () => {
+      const url = new URL(location.href);
+      url.searchParams.delete("article");
+      history.replaceState({}, "", url);
+      showList(false);
+    });
+  });
+
+  window.addEventListener("popstate", () => {
+    const id = new URLSearchParams(location.search).get("article");
+    if (id) { showArticle(id, false); } else { showList(false); }
+  });
+
+  const deepLinkId = new URLSearchParams(location.search).get("article");
+  if (deepLinkId) {
+    let tries = 0;
+    const timer = setInterval(() => {
+      tries += 1;
+      if (showArticle(deepLinkId, false) || tries > 40) { clearInterval(timer); }
+    }, 200);
+  }
+})();
+</script>
 </body>
 </html>

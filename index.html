@@ -636,7 +636,7 @@
       const hero = item.image
         ? '<img src="' + esc(item.image) + '" alt="">'
         : '📰';
-      const articleBase = railKey === "railTech" ? "/news/article/?id=" : "/discover/article/?id=";
+      const articleBase = railKey === "railTech" ? "/news/?article=" : "/discover/?article=";
       const articleUrl = item.id ? articleBase + encodeURIComponent(item.id) : null;
       overlay.innerHTML =
         '<div class="story-box">' +
