@@ -196,35 +196,15 @@
 
   <div class="learn-tabs-wrap">
     <div class="learn-tabs" role="tablist">
-      <button class="learn-tab active" data-tab="updates">🆕 What's New</button>
-      <button class="learn-tab" data-tab="story">📖 The Story of AI</button>
+      <button class="learn-tab active" data-tab="story">📖 The Story of AI</button>
       <button class="learn-tab" data-tab="roadmap">🗺️ Learning Roadmap</button>
       <button class="learn-tab" data-tab="dictionary">📚 AI Dictionary</button>
       <button class="learn-tab" data-tab="agents">🤖 Agents, MCP &amp; More</button>
     </div>
   </div>
 
-  <!-- ============ WHAT'S NEW ============ -->
-  <section class="learn-section active" id="tab-updates">
-    <h2>What's new in AI right now</h2>
-    <p class="section-intro">
-      Fresh announcements and features, refreshed automatically every 6 hours.
-      <strong style="color:var(--text);">Official</strong> = straight from the AI companies (new models and features),
-      <strong style="color:var(--text);">Research &amp; Models</strong> = new techniques and open models,
-      <strong style="color:var(--text);">AI News</strong> = what it means and how people are using it.
-    </p>
-    <div class="update-filters" id="updateFilters">
-      <button class="filter-button active" data-cat="all">All</button>
-      <button class="filter-button" data-cat="official">Official</button>
-      <button class="filter-button" data-cat="research">Research &amp; Models</button>
-      <button class="filter-button" data-cat="coverage">AI News</button>
-    </div>
-    <div id="updatesList"><p style="color:var(--muted);">Loading latest AI updates…</p></div>
-    <p class="lb-note" id="updatesStamp" style="color:var(--muted); font-size:13px; text-align:center; margin-top:18px;"></p>
-  </section>
-
   <!-- ============ THE STORY OF AI ============ -->
-  <section class="learn-section" id="tab-story">
+  <section class="learn-section active" id="tab-story">
     <h2>How AI started, and how we got here</h2>
     <p class="section-intro">The whole history in ten short chapters. Read top to bottom — it's a story, and a surprisingly human one.</p>
 
@@ -501,57 +481,6 @@
       activate(startTab, false);
     }
 
-
-    /* live AI updates */
-    let aiUpdates = [];
-    let updateCat = "all";
-
-    function esc2(t) { return String(t || "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
-
-    function agoText(iso) {
-      const ms = Date.now() - new Date(iso).getTime();
-      if (isNaN(ms)) { return ""; }
-      const h = Math.floor(ms / 3600000);
-      if (h < 1) { return "Just now"; }
-      if (h < 24) { return h + "h ago"; }
-      const d = Math.floor(h / 24);
-      return d < 30 ? d + "d ago" : Math.floor(d / 30) + "mo ago";
-    }
-
-    function renderUpdates() {
-      const list = document.getElementById("updatesList");
-      const items = aiUpdates.filter(u => updateCat === "all" || u.topic === updateCat).slice(0, 30);
-      if (!items.length) {
-        list.innerHTML = '<p style="color:var(--muted);">Nothing here right now — try another filter.</p>';
-        return;
-      }
-      list.innerHTML = items.map(u =>
-        '<a class="update-card" href="' + esc2(u.link) + '" target="_blank" rel="noopener">' +
-          '<div class="update-top"><span class="update-source">' + esc2(u.source) + ' · ' + esc2(u.topicLabel) + '</span>' +
-          '<span class="update-time">' + agoText(u.publishedAt) + '</span></div>' +
-          '<h3>' + esc2(u.title) + '</h3>' +
-          '<p>' + esc2(u.summary || "") + '</p>' +
-        '</a>').join("");
-    }
-
-    document.getElementById("updateFilters").addEventListener("click", e => {
-      if (!e.target.dataset.cat) { return; }
-      updateCat = e.target.dataset.cat;
-      document.querySelectorAll("#updateFilters .filter-button").forEach(b => b.classList.toggle("active", b === e.target));
-      renderUpdates();
-    });
-
-    fetch("ai-updates.json?v=" + Date.now())
-      .then(r => r.json())
-      .then(data => {
-        aiUpdates = data.items || [];
-        renderUpdates();
-        document.getElementById("updatesStamp").innerText =
-          "Auto-refreshed every 6 hours · Last update: " + new Date(data.updatedAt).toLocaleString();
-      })
-      .catch(() => {
-        document.getElementById("updatesList").innerHTML = '<p style="color:var(--muted);">Could not load updates right now.</p>';
-      });
 
     /* dictionary search */
     const dictSearch = document.getElementById("dictSearch");
