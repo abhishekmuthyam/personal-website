@@ -11,11 +11,69 @@
   <link rel="stylesheet" href="../style.css">
   <script src="/auth.js" defer></script>
   <style>
+    .back-bar {
+      max-width: 1100px;
+      margin: 18px auto 0;
+      padding: 0 20px;
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 10px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 600;
+      padding: 8px 16px;
+      cursor: pointer;
+      box-shadow: none;
+      font-family: inherit;
+    }
+
+    .back-btn:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.1);
+      transform: none;
+      box-shadow: none;
+    }
+
     .watch-toolbar {
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
       gap: 8px;
       margin-bottom: 24px;
+    }
+
+    .watch-search {
+      flex: 1 1 240px;
+      min-width: 200px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 10px;
+      color: var(--text);
+      font-size: 14px;
+      font-family: inherit;
+      padding: 10px 14px;
+      outline: none;
+    }
+
+    .watch-search:focus {
+      border-color: var(--brand);
+    }
+
+    .watch-search::placeholder {
+      color: var(--muted);
+    }
+
+    .no-results {
+      color: var(--muted);
+      text-align: center;
+      padding: 40px 0;
+      grid-column: 1 / -1;
     }
 
     .video-grid {
@@ -169,17 +227,13 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/">Abhishek Muthyam</a>
       <div class="nav-links">
-        <a href="/discover">Discover</a>
-        <a href="/blog">Blog</a>
-        <a href="/news">News</a>
         <a href="/watch" class="active">Watch</a>
-        <a href="/java-interview-prep">Java Prep</a>
-        <a href="/aws-notes">AWS Notes</a>
-        <a href="/ai-experiments">AI</a>
-        <a href="/llms">LLMs</a>
-        <a href="/projects">Projects</a>
+        <a href="/news">News</a>
+        <a href="/discover">Discover</a>
         <a href="/games">Games</a>
         <a href="/calci">Tools</a>
+        <a href="/blog">Blog</a>
+        <a href="/#learn">Learn</a>
       </div>
     </nav>
   </header>
@@ -191,13 +245,20 @@
       <p>Fresh uploads from trusted coding, science, learning, and tech channels — watch them right here without leaving the site.</p>
     </section>
 
+    <div class="back-bar">
+      <button class="back-btn" id="backBtn">&larr; Back</button>
+    </div>
+
     <section>
-      <div class="watch-toolbar" id="topicBar">
-        <button class="filter-button active" data-topic="all">All</button>
-        <button class="filter-button" data-topic="coding">Coding</button>
-        <button class="filter-button" data-topic="science">Science</button>
-        <button class="filter-button" data-topic="learn">Learn</button>
-        <button class="filter-button" data-topic="tech">Tech</button>
+      <div class="watch-toolbar">
+        <input type="search" class="watch-search" id="searchBox" placeholder="🔍 Search videos, channels..." aria-label="Search videos">
+        <span id="topicBar" style="display:contents">
+          <button class="filter-button active" data-topic="all">All</button>
+          <button class="filter-button" data-topic="coding">Coding</button>
+          <button class="filter-button" data-topic="science">Science</button>
+          <button class="filter-button" data-topic="learn">Learn</button>
+          <button class="filter-button" data-topic="tech">Tech</button>
+        </span>
       </div>
 
       <div class="video-grid" id="videoGrid"></div>
@@ -212,8 +273,22 @@
   <script>
     let allVideos = [];
     let activeTopic = "all";
+    let searchQuery = "";
 
     const grid = document.getElementById("videoGrid");
+
+    document.getElementById("backBtn").addEventListener("click", () => {
+      if (document.referrer && new URL(document.referrer).origin === location.origin) {
+        history.back();
+      } else {
+        location.href = "/";
+      }
+    });
+
+    document.getElementById("searchBox").addEventListener("input", e => {
+      searchQuery = e.target.value.trim().toLowerCase();
+      render();
+    });
 
     function escapeHtml(text) {
       return text.replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
@@ -230,7 +305,15 @@
     }
 
     function render() {
-      const videos = allVideos.filter(v => activeTopic === "all" || v.topic === activeTopic);
+      const videos = allVideos.filter(v => {
+        if (activeTopic !== "all" && v.topic !== activeTopic) { return false; }
+        if (searchQuery && !(v.title + " " + v.channel + " " + v.topicLabel).toLowerCase().includes(searchQuery)) { return false; }
+        return true;
+      });
+      if (videos.length === 0) {
+        grid.innerHTML = '<p class="no-results">No videos match "' + escapeHtml(searchQuery) + '". Try another search or topic.</p>';
+        return;
+      }
       grid.innerHTML = videos.map(v =>
         '<button class="video-card" data-id="' + v.videoId + '" data-title="' + escapeHtml(v.title) + '">' +
           '<div class="video-thumb"><img loading="lazy" src="' + v.thumbnail + '" alt=""></div>' +

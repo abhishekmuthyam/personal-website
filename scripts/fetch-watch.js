@@ -39,7 +39,7 @@ async function fetchChannel(channel) {
   const xml = await res.text();
   const entries = xml.split("<entry>").slice(1);
 
-  return entries.slice(0, 6).map(entry => {
+  return entries.slice(0, 10).map(entry => {
     const videoId = pick(entry, "yt:videoId");
     return {
       videoId,

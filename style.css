@@ -329,7 +329,9 @@ button:hover {
 
 .card-link {
   color: var(--text);
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .card-link:hover,
@@ -1227,10 +1229,28 @@ footer {
 /* Responsive Grid / Media Queries */
 @media (max-width: 760px) {
   .nav {
-    align-items: flex-start;
-    flex-direction: column;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    flex-wrap: wrap;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    row-gap: 10px;
+  }
+
+  .nav-links {
+    order: 3;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 6px;
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-links a {
+    white-space: nowrap;
   }
 
   .home-hero {

@@ -13,8 +13,10 @@
   <style>
     /* Homepage-scoped enhancements on top of the global design system */
     .home-hero {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
       position: relative;
     }
 
@@ -48,6 +50,18 @@
       padding: 6px 14px;
       margin-bottom: 22px;
       width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .home-hero .hero-actions,
+    .home-hero .tech-chips {
+      justify-content: center;
+    }
+
+    .card-arrow {
+      margin-top: auto !important;
+      padding-top: 14px;
     }
 
     .status-pill::before {
@@ -233,17 +247,13 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/">Abhishek Muthyam</a>
       <div class="nav-links">
-        <a href="/discover">Discover</a>
-        <a href="/blog">Blog</a>
-        <a href="/news">News</a>
         <a href="/watch">Watch</a>
-        <a href="/java-interview-prep">Java Prep</a>
-        <a href="/aws-notes">AWS Notes</a>
-        <a href="/ai-experiments">AI</a>
-        <a href="/llms">LLMs</a>
-        <a href="/projects">Projects</a>
+        <a href="/news">News</a>
+        <a href="/discover">Discover</a>
         <a href="/games">Games</a>
         <a href="/calci">Tools</a>
+        <a href="/blog">Blog</a>
+        <a href="/#learn">Learn</a>
       </div>
     </nav>
   </header>
@@ -295,43 +305,6 @@
 
     <section class="reveal">
       <div class="group-heading" style="border-top:none; padding-top:0; margin-top:0;">
-        <h2>Learn</h2>
-        <span class="group-note">Notes and deep-dives I keep updated</span>
-      </div>
-      <div class="cards feature-cards" style="margin-top:22px;">
-        <a href="/java-interview-prep" class="card-link">
-          <span class="card-icon">&#9749;</span>
-          <span class="card-kicker">Prep</span>
-          <h3>Java Interview Prep</h3>
-          <p>Core Java, OOP, collections, streams, exceptions, and backend interview notes.</p>
-          <span class="card-arrow">Open &rarr;</span>
-        </a>
-        <a href="/aws-notes" class="card-link">
-          <span class="card-icon">&#9729;&#65039;</span>
-          <span class="card-kicker">Cloud</span>
-          <h3>AWS Notes</h3>
-          <p>Quick notes on EC2, S3, RDS, Lambda, IAM, CloudWatch, and deployment basics.</p>
-          <span class="card-arrow">Open &rarr;</span>
-        </a>
-        <a href="/ai-experiments" class="card-link">
-          <span class="card-icon">&#129514;</span>
-          <span class="card-kicker">AI</span>
-          <h3>AI Experiments</h3>
-          <p>Small experiments using AI for productivity, learning, and coding workflows.</p>
-          <span class="card-arrow">Open &rarr;</span>
-        </a>
-        <a href="/llms" class="card-link">
-          <span class="card-icon">&#129302;</span>
-          <span class="card-kicker">AI &amp; Agents</span>
-          <h3>LLMs &amp; Agentic Hub</h3>
-          <p>Deep-dives into LLM evolution, reasoning models, agent designs, and MCP.</p>
-          <span class="card-arrow">Open &rarr;</span>
-        </a>
-      </div>
-    </section>
-
-    <section class="reveal">
-      <div class="group-heading">
         <h2>Read &amp; Watch</h2>
         <span class="group-note">Live feeds, videos, and writing — refreshed automatically</span>
       </div>
@@ -396,6 +369,45 @@
         </a>
       </div>
     </section>
+
+    <section class="reveal" id="learn">
+      <div class="group-heading">
+        <h2>Learn</h2>
+        <span class="group-note">Notes and deep-dives, kept updated</span>
+      </div>
+      <div class="cards feature-cards" style="margin-top:22px;">
+        <a href="/java-interview-prep" class="card-link">
+          <span class="card-icon">&#9749;</span>
+          <span class="card-kicker">Prep</span>
+          <h3>Java Interview Prep</h3>
+          <p>Core Java, OOP, collections, streams, exceptions, and backend interview notes.</p>
+          <span class="card-arrow">Open &rarr;</span>
+        </a>
+        <a href="/aws-notes" class="card-link">
+          <span class="card-icon">&#9729;&#65039;</span>
+          <span class="card-kicker">Cloud</span>
+          <h3>AWS Notes</h3>
+          <p>Quick notes on EC2, S3, RDS, Lambda, IAM, CloudWatch, and deployment basics.</p>
+          <span class="card-arrow">Open &rarr;</span>
+        </a>
+        <a href="/ai-experiments" class="card-link">
+          <span class="card-icon">&#129514;</span>
+          <span class="card-kicker">AI</span>
+          <h3>AI Experiments</h3>
+          <p>Small experiments using AI for productivity, learning, and coding workflows.</p>
+          <span class="card-arrow">Open &rarr;</span>
+        </a>
+        <a href="/llms" class="card-link">
+          <span class="card-icon">&#129302;</span>
+          <span class="card-kicker">AI &amp; Agents</span>
+          <h3>LLMs &amp; Agentic Hub</h3>
+          <p>Deep-dives into LLM evolution, reasoning models, agent designs, and MCP.</p>
+          <span class="card-arrow">Open &rarr;</span>
+        </a>
+      </div>
+    </section>
+
+
 
     <section class="profile-grid reveal">
       <div>
