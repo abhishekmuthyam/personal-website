@@ -246,15 +246,17 @@
 
     <section>
       <div class="watch-toolbar">
-        <input type="search" class="watch-search" id="searchBox" placeholder="🔍 Search videos, channels..." aria-label="Search videos">
+        <input type="search" class="watch-search" id="searchBox" placeholder="🔍 Search all of YouTube — press Enter" aria-label="Search all of YouTube">
         <span id="topicBar" style="display:contents">
-          <button class="filter-button active" data-topic="all">All</button>
+          <button class="filter-button active" data-topic="all">Picks</button>
+          <button class="filter-button" data-topic="trending">🔥 Trending</button>
           <button class="filter-button" data-topic="coding">Coding</button>
           <button class="filter-button" data-topic="science">Science</button>
           <button class="filter-button" data-topic="learn">Learn</button>
           <button class="filter-button" data-topic="tech">Tech</button>
         </span>
       </div>
+      <p id="modeNote" style="color:var(--muted); font-size:13px; margin:-10px 0 18px; min-height:16px;"></p>
 
       <div class="video-grid" id="videoGrid"></div>
       <p class="updated-note" id="updatedNote"></p>
@@ -266,16 +268,74 @@
   </footer>
 
   <script>
+    const PROXY_URL = "https://fpwwdkoxdykv6x442ndqf34iyq0nnqnq.lambda-url.ap-south-1.on.aws/";
+
     let allVideos = [];
+    let remoteVideos = [];
+    let mode = "curated";           // curated | search | trending
     let activeTopic = "all";
     let searchQuery = "";
 
     const grid = document.getElementById("videoGrid");
+    const modeNote = document.getElementById("modeNote");
+    const searchBox = document.getElementById("searchBox");
 
-    document.getElementById("searchBox").addEventListener("input", e => {
+    searchBox.addEventListener("input", e => {
       searchQuery = e.target.value.trim().toLowerCase();
-      render();
+      if (mode !== "curated" && searchQuery === "") {
+        mode = "curated";
+        setActiveTab("all");
+        modeNote.innerText = "";
+      }
+      if (mode === "curated") {
+        render();
+      }
     });
+
+    searchBox.addEventListener("keydown", async e => {
+      if (e.key !== "Enter") { return; }
+      const q = searchBox.value.trim();
+      if (q.length < 2) { return; }
+      modeNote.innerText = "Searching YouTube…";
+      grid.innerHTML = "";
+      try {
+        const res = await fetch(PROXY_URL + "?q=" + encodeURIComponent(q));
+        const data = await res.json();
+        if (data.error) { throw new Error(data.error); }
+        remoteVideos = data.videos;
+        mode = "search";
+        setActiveTab(null);
+        modeNote.innerText = 'YouTube results for "' + q + '" — clear the box to return to picks';
+        render();
+      } catch {
+        modeNote.innerText = "YouTube search unavailable right now — showing site picks.";
+        mode = "curated";
+        render();
+      }
+    });
+
+    async function loadTrending() {
+      modeNote.innerText = "Loading trending…";
+      grid.innerHTML = "";
+      try {
+        const res = await fetch(PROXY_URL + "?trending");
+        const data = await res.json();
+        if (data.error) { throw new Error(data.error); }
+        remoteVideos = data.videos;
+        mode = "trending";
+        modeNote.innerText = "Trending on YouTube in India right now";
+        render();
+      } catch {
+        modeNote.innerText = "Trending unavailable right now — showing site picks.";
+        mode = "curated";
+        render();
+      }
+    }
+
+    function setActiveTab(topic) {
+      document.querySelectorAll("#topicBar .filter-button").forEach(b =>
+        b.classList.toggle("active", b.dataset.topic === topic));
+    }
 
     function escapeHtml(text) {
       return text.replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
@@ -292,20 +352,25 @@
     }
 
     function render() {
-      const videos = allVideos.filter(v => {
-        if (activeTopic !== "all" && v.topic !== activeTopic) { return false; }
-        if (searchQuery && !(v.title + " " + v.channel + " " + v.topicLabel).toLowerCase().includes(searchQuery)) { return false; }
-        return true;
-      });
+      let videos;
+      if (mode === "curated") {
+        videos = allVideos.filter(v => {
+          if (activeTopic !== "all" && v.topic !== activeTopic) { return false; }
+          if (searchQuery && !(v.title + " " + v.channel + " " + v.topicLabel).toLowerCase().includes(searchQuery)) { return false; }
+          return true;
+        });
+      } else {
+        videos = remoteVideos;
+      }
       if (videos.length === 0) {
-        grid.innerHTML = '<p class="no-results">No videos match "' + escapeHtml(searchQuery) + '". Try another search or topic.</p>';
+        grid.innerHTML = '<p class="no-results">No videos found' + (searchQuery ? ' for "' + escapeHtml(searchQuery) + '"' : '') + '. Press Enter to search all of YouTube.</p>';
         return;
       }
       grid.innerHTML = videos.map(v =>
         '<button class="video-card" data-id="' + v.videoId + '" data-title="' + escapeHtml(v.title) + '">' +
           '<div class="video-thumb"><img loading="lazy" src="' + v.thumbnail + '" alt=""></div>' +
           '<div class="video-info">' +
-            '<span class="card-kicker">' + escapeHtml(v.topicLabel) + '</span>' +
+            '<span class="card-kicker">' + escapeHtml(v.topicLabel || (mode === "trending" ? "Trending" : "YouTube")) + '</span>' +
             '<h3>' + escapeHtml(v.title) + '</h3>' +
             '<div class="video-meta"><span>' + escapeHtml(v.channel) + '</span><span>' + timeAgo(v.published) + '</span></div>' +
           '</div>' +
@@ -348,8 +413,15 @@
 
     document.getElementById("topicBar").addEventListener("click", e => {
       if (!e.target.dataset.topic) { return; }
-      activeTopic = e.target.dataset.topic;
-      document.querySelectorAll("#topicBar .filter-button").forEach(b => b.classList.toggle("active", b === e.target));
+      const topic = e.target.dataset.topic;
+      setActiveTab(topic);
+      if (topic === "trending") {
+        loadTrending();
+        return;
+      }
+      mode = "curated";
+      activeTopic = topic;
+      modeNote.innerText = "";
       render();
     });
 
