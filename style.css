@@ -1409,3 +1409,19 @@ footer {
     width: 100%;
   }
 }
+
+.article-cat-bar {
+  border-bottom: 1px solid var(--line);
+  padding: 6px 0 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.article-cat-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.article-cat-bar .discover-tab {
+  padding: 12px 8px;
+  white-space: nowrap;
+}

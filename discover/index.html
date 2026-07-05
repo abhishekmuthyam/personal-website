@@ -124,7 +124,9 @@
     const saveTopicsButton = document.getElementById("saveTopics");
 
     let allItems = [];
-    let activeFilter = localStorage.getItem("broadDiscoverTopic") || "all";
+    const catParam = new URLSearchParams(location.search).get("cat");
+    let activeFilter = catParam || localStorage.getItem("broadDiscoverTopic") || "all";
+    if (catParam) localStorage.setItem("broadDiscoverTopic", catParam);
     let selectedInterests = new Set(JSON.parse(localStorage.getItem("broadDiscoverInterests") || "[]"));
 
     async function loadDiscover() {

@@ -102,7 +102,9 @@
     const saveTopicsButton = document.getElementById("saveTopics");
 
     let allItems = [];
-    let activeFilter = localStorage.getItem("discoverTopic") || "all";
+    const catParam = new URLSearchParams(location.search).get("cat");
+    let activeFilter = catParam || localStorage.getItem("discoverTopic") || "all";
+    if (catParam) localStorage.setItem("discoverTopic", catParam);
     let selectedInterests = new Set(JSON.parse(localStorage.getItem("discoverInterests") || "[]"));
 
     async function loadNews() {
