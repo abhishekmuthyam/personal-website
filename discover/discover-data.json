@@ -1,11 +1,12 @@
 {
-  "updatedAt": "2026-07-05T18:15:35.268Z",
+  "updatedAt": "2026-07-05T19:49:39.956Z",
   "sources": [
     {
       "name": "Google News Top",
       "category": "general",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "BBC News",
@@ -34,38 +35,43 @@
     {
       "name": "Google Business",
       "category": "business",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "Google Entertainment",
       "category": "entertainment",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "ESPN",
       "category": "sports",
       "ok": true,
-      "count": 10
+      "count": 0
     },
     {
       "name": "Google Sports",
       "category": "sports",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "Google Technology",
       "category": "tech",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "Google Science",
       "category": "tech",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "The Verge",
@@ -76,14 +82,9 @@
   ],
   "weather": {
     "location": "Hyderabad",
-    "temperature": 25,
-    "condition": "Partly sunny",
+    "temperature": 24,
+    "condition": "Rain",
     "daily": [
-      {
-        "date": "2026-07-05",
-        "high": 28,
-        "low": 23
-      },
       {
         "date": "2026-07-06",
         "high": 30,
@@ -101,6 +102,11 @@
       },
       {
         "date": "2026-07-09",
+        "high": 32,
+        "low": 25
+      },
+      {
+        "date": "2026-07-10",
         "high": 32,
         "low": 25
       }
@@ -127,7 +133,7 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 62607.15,
+      "price": 62744.77,
       "change": 0,
       "changePercent": 0
     },
@@ -179,254 +185,324 @@
   ],
   "items": [
     {
-      "id": "novak-wins-106th-wimbledon-match-into-quarters-sports-2026-07-05t18-47-55-000z",
-      "title": "Novak wins 106th Wimbledon match, into quarters",
-      "link": "https://www.espn.com/tennis/story/_/id/49277029/novak-djokovic-reaches-quarterfinals-men-record-106th-wimbledon-win",
-      "summary": "Novak Djokovic won his 106th career singles match at Wimbledon on Sunday, breaking a tie with Roger Federer for the most by any man in tournament history and vaulting him into the quarterfinals.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T18:47:55.000Z",
+      "id": "trump-thanks-fifa-after-usa-striker-balogun-s-ban-suspended-general-2026-07-05t19-36-11-000z",
+      "title": "Trump thanks Fifa after USA striker Balogun's ban suspended",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
+      "summary": "Folarin Balogun is available to play for the United States in their World Cup last-16 tie against Belgium after his one-game ban is suspended by Fifa.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bf1/live/3ab6d9e0-7898-11f1-9510-1546718f668b.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-07-05T19:36:11.000Z",
       "sources": [
         {
-          "name": "ESPN",
-          "link": "https://www.espn.com/tennis/story/_/id/49277029/novak-djokovic-reaches-quarterfinals-men-record-106th-wimbledon-win",
-          "summary": "Novak Djokovic won his 106th career singles match at Wimbledon on Sunday, breaking a tie with Roger Federer for the most by any man in tournament history and vaulting him into the quarterfinals.",
-          "publishedAt": "2026-07-05T18:47:55.000Z"
-        },
-        {
-          "name": "Yahoo Sports",
-          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPT254b0VKR1VJZEd0aF9KOW11OXFVVGsyZXF4Q3ZMMmsxLVBDZl9zN09yZk1CSXk4VTBXUUpKRkU2NGtYRURrNEpiZDRMWlhwODgtV1A2YjRXVUxNZURuc2FCUkRfOExoV1hZeU15UUdkanduR210Q0VxVUFsUmpTaUk3ZWM1XzZwWXdXZVZEX0h5VGJQampfM01PVTltaDFReF9DNlQwT1kwVTkxVThEWFhqcEx6ZkFBUWdseXhKaFFhTFhScEJuOFVfakZUdlhYdFNMRUl4bzZyNGFIZnh4aGVZMVZtWEtaT1Q2ZTdnd3dZVDNpWldaVC1MMndpT2VCRkdmM3NNYnprOWd3MnlqS2NR?oc=5",
-          "summary": "Novak Djokovic surpasses Roger Federer for most Wimbledon wins on men's side with 106th victory, advances to quarters &nbsp;&nbsp; Yahoo Sports",
-          "publishedAt": "2026-07-05T16:23:57.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1rdGEzY29kLXRQUnZWN3pIWXZROUN2ekFvcXVzU1RVY3hqUkplRGNkWVY1eDhhOFlFS1dwUTRSR1prWDE2Y1oxQ2ZxR0ZySUV5ejZtVFVRYWhiQkh4VHZZOWQwQTA?oc=5",
-          "summary": "Wimbledon 2026 results: Novak Djokovic beats Roman Safiullin to break Roger Federer's match-wins record &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-07-05T16:29:54.000Z"
-        },
-        {
-          "name": "The Statesman",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQnJINmNDUkhxbHNsYzdZSGliQ3NLTUhaaTluSVBXXzNuTGprcEc4VllBVldxQ2hEWTJuMEFvUEoyQXJuMFhESFh6Q2xLdThPdmlETGNsUDZjOXFWWElobkJvMUFQY0hQbVpjeGdXcEFGdWV2cnRRemZlRmxBeE5rQnQwWFlfUTVHZjBoUERxZXc2X1k5cG8xWW1RZk45VUxmdXppOF9KMVJuSWxSTHVBNnRyYjMtNEM2aUtZSWtVYnFrTjJoeTU3VnJkckpRSFZkOHItLdIB2gFBVV95cUxNTHE0VTdFN3FLTTd1bFRydUJuVHZkbFFmQmNsUnBkbzhYeUtERGg5TW4zUklTWU90UTVKN3A1OUNpRzBkV3djV0ZJa0h4b0IyLTJ2MUctR3czUHdiUTFUUnpFZm4xaFJqQ2VYT0c2N2RqbmhkbENQdEZoaWJFNVp4MVBRSHJLV3hRbk1DOG5XX1UzZmZQRUFEb1hxQWdwOXFXRUZCSU94eTRUckRKb3htX29UZXBvSGZtWjhQYkRRMU14RjEwa1VobHlNUVpLbVF1bnJsSEF3aWRPZw?oc=5",
-          "summary": "Wimbledon 2026: Novak Djokovic defeats Roman Safiullin, surpasses Federer with 106th win &nbsp;&nbsp; The Statesman",
-          "publishedAt": "2026-07-05T17:17:00.000Z"
-        },
-        {
-          "name": "The News Mill",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcXdNbjlMVFFkQ0twMDVyOWpxZVBGODFiQmpVaEpZTWRhRnV5VnFGZ3R0VXpUbEFLbjl0dHdDRWk0aTJfRUM2V3JJYWN3cVR6dkNTUDBTQWQweFFONHlZMVRTLWpTTGE2UU5tNWFOZGZsc1BaVWEyMnRkaWhqdl84Uko4VmlPdnVScC1yOE42bXl4TFdtaUJfa21zS0ladzUwM01fM1k0d0k4cnFGb1hUb0tLSDg?oc=5",
-          "summary": "Novak Djokovic sets Wimbledon record with 106 singles wins, reaches quarter-finals &nbsp;&nbsp; The News Mill",
-          "publishedAt": "2026-07-05T17:08:17.000Z"
-        },
-        {
-          "name": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQS1VJdDBtV1Z5MWY0eTBIbU96U2I0QUc2Xy01T0wxU3JIekN2SzRvMjh5dzA1QkViRUZIYTVVeEhpbmQxUDlid3BGbVdDcUoyb1pKbEJnaUk2bHNxYU9nc0Fhd0QwUl9yUGRMcDhkb1NBMEVRdTdlbWFyakt1MDhXNFVaU3NmelJfelJiNUo5TmlpS1l0WXNEdDFR?oc=5",
-          "summary": "Novak Djokovic’s best Wimbledon wins ranked, as he breaks Roger Federer’s match record &nbsp;&nbsp; The New York Times",
-          "publishedAt": "2026-07-05T17:23:23.000Z"
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
+          "summary": "Folarin Balogun is available to play for the United States in their World Cup last-16 tie against Belgium after his one-game ban is suspended by Fifa.",
+          "publishedAt": "2026-07-05T19:36:11.000Z"
         }
       ],
-      "sourceCount": 6
+      "sourceCount": 1
     },
     {
-      "id": "sources-ewing-joining-wizards-as-assistant-coach-sports-2026-07-05t18-47-55-000z",
-      "title": "Sources: Ewing joining Wizards as assistant coach",
-      "link": "https://www.espn.com/nba/story/_/id/49272641/sources-patrick-ewing-joins-brian-keefe-wizards-staff-assistant",
-      "summary": "Georgetown and Knicks legend Patrick Ewing has agreed to become an assistant coach for the Wizards and head coach Brian Keefe, sources told ESPN.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T18:47:55.000Z",
+      "id": "young-woman-dies-in-skydiving-incident-near-airfield-general-2026-07-05t19-29-32-000z",
+      "title": "Young woman dies in skydiving incident near airfield",
+      "link": "https://www.bbc.co.uk/news/articles/cn8kkr844kdo?at_medium=RSS&at_campaign=rss",
+      "summary": "The woman, 22, was found in a nearby field and pronounced dead at the scene, police say.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/577a/live/0be00ba0-78a7-11f1-9510-1546718f668b.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-07-05T19:29:32.000Z",
       "sources": [
         {
-          "name": "ESPN",
-          "link": "https://www.espn.com/nba/story/_/id/49272641/sources-patrick-ewing-joins-brian-keefe-wizards-staff-assistant",
-          "summary": "Georgetown and Knicks legend Patrick Ewing has agreed to become an assistant coach for the Wizards and head coach Brian Keefe, sources told ESPN.",
-          "publishedAt": "2026-07-05T18:47:55.000Z"
-        },
-        {
-          "name": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN1R1WG9JZHhHcEZoRHBHLUxmaGNOOFNvc3Vrd2VqZUxqdnJuWFl5eVozajZtdTBnY2hpeUV2OHAtYmZhX0xIVGkzYnVzcEZ0M2ZmbzFqQ090TGxvUU00dEUyTS15bkZMMnJ6dTc4SDh6eVR1eTB4Nm43azFYWHlaQlNxQ0J1ZExURF9VdUdZbG5KQWc?oc=5",
-          "summary": "Patrick Ewing likely to join Washington Wizards as an assistant coach: Source - The Athletic &nbsp;&nbsp; The New York Times",
-          "publishedAt": "2026-07-04T23:48:00.000Z"
-        },
-        {
-          "name": "Last Man Standig | Substack",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1ZGp0YzdGcHRkR2V5SzVsNndYWlA2QlpucjRoa1c0bEJOZWwtZnpFR2poS2gwaGJpWEVLSDBsV3UyYjNCT3J1N3VLVlk5UDVaTEtET0xTRUxQZXo1MjdyTkxtSXBYdXFMUlNFaVRGMVZRNWpubW1OQXFRVjBZZw?oc=5",
-          "summary": "Sources: Hall of Famer Patrick Ewing joining Wizards coaching staff &nbsp;&nbsp; Last Man Standig | Substack",
-          "publishedAt": "2026-07-04T23:25:52.000Z"
-        },
-        {
-          "name": "ABC7 New York",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMFZ3cTlIOHVpdVgtdXQ3a3hMWDQ5X2ZiTy1rcnI2cUp1ZExucVVkRVVaYzBoMXNCX3RWVXZpVlhySkI0bncyaDNWN3A1V3B2ODQ1Vk1iYktwNElFYWwtcmxDcm56bFc5OFNPanhfX3lsemhpMXVWTnFOTEpFREVaWGo1TnFHaTdjMTB3TjVqNW1ldkpTMlVVMWNCdkJMMWM?oc=5",
-          "summary": "Sources: Patrick Ewing joins Keefe's Wizards staff as assistant &nbsp;&nbsp; ABC7 New York",
-          "publishedAt": "2026-07-05T13:07:13.000Z"
-        },
-        {
-          "name": "kwese.espn.com",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM3VCVnJUSmNGalloX3l6WUFWdWJfRnRJdkhKUWR5T1BVUEFrcTJKVm5CclE4N3VMUjdoOGhHa3dYZjBibGxmeFhaejdFNEhTNFEzYXVhREstNm1USTVQbmg0X0J4RWxMeFAzTkZZVXFUZV9sMDNTZ2t1dW5VdGFoNDhCQnFLSUQ0aDlvcGVhcXQ1TXRpWmJ3Zjc1cFZJNnhBNTNXUXBsRXNaMjVIbkE?oc=5",
-          "summary": "Sources: Patrick Ewing joins Brian Keefe's Wizards staff as assistant &nbsp;&nbsp; kwese.espn.com",
-          "publishedAt": "2026-07-05T01:02:48.000Z"
-        },
-        {
-          "name": "theScore",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTU5hd1V6SFVRSkZlbkZBbDRRODl5VGVOUGN6X2JVZEdPNkZGUWtNREcxYVoyOXhUY1NRYndBZGpxVGNvUV9aNjJLdFJXZkZzOEhLbkUxRElsY3dFZnlxZnhxSE9kWUJnYlhSWHExMDZJcE5mQThtMTVfT1RVNG9xQkdpdW1iNV9ranJ1Ym1vZ05MMXRYWUJBS0MtUENBRzVHOFE?oc=5",
-          "summary": "Report: Wizards hire Knicks legend Ewing as assistant coach &nbsp;&nbsp; theScore",
-          "publishedAt": "2026-07-05T01:52:33.000Z"
-        },
-        {
-          "name": "HoopsHype",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY0pxM3ZvMGVETGp6WDB3MGxuRFd5NUN1andOUXhqa3RZRjAxaDU4Ym9ieVcwZjMzWVVLcGdyZjFtRVlnbHhWT19lZlFKZkVuVjltVzl0U2o3ME81bXJyZUFCUnBFWU1HRmFxVm04a2M2RGdFVk9FLXhHUkJYY2RiUGN4NlVfZTlWdjJVSEt4ZGVVRmJONVRrdWIySEFWSVg0c0V2UWlqUmx3SWlsNV9oSFdpWWQxOUlFMXh2RA?oc=5",
-          "summary": "Patrick Ewing joins Wizards as assistant coach &nbsp;&nbsp; HoopsHype",
-          "publishedAt": "2026-07-05T00:54:00.000Z"
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cn8kkr844kdo?at_medium=RSS&at_campaign=rss",
+          "summary": "The woman, 22, was found in a nearby field and pronounced dead at the scene, police say.",
+          "publishedAt": "2026-07-05T19:29:32.000Z"
         }
       ],
-      "sourceCount": 7
+      "sourceCount": 1
     },
     {
-      "id": "plane-hit-by-firework-while-landing-in-chicago-world-2026-07-05t17-44-52-000z",
-      "title": "Plane hit by firework while landing in Chicago",
+      "id": "long-overdue-digital-survey-for-thammanam-pullepady-road-project-gets-under-way-india-2026-07-05t19",
+      "title": "Long-overdue digital survey for Thammanam–Pullepady Road project gets under way",
+      "link": "https://www.thehindu.com/news/national/kerala/long-overdue-digital-survey-for-thammanampullepady-road-project-gets-under-way/article71186354.ece",
+      "summary": "Project aims to construct a 3.7-km-long four-lane road linking MG Road with the Edappally–Vyttila NH 66 Bypass by widening and extending the Thammanam–Pullepady Road",
+      "image": "https://th-i.thgim.com/public/incoming/ywazis/article71186648.ece/alternates/LANDSCAPE_1200/Road02.JPG",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-07-05T19:26:49.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/kerala/long-overdue-digital-survey-for-thammanampullepady-road-project-gets-under-way/article71186354.ece",
+          "summary": "Project aims to construct a 3.7-km-long four-lane road linking MG Road with the Edappally–Vyttila NH 66 Bypass by widening and extending the Thammanam–Pullepady Road",
+          "publishedAt": "2026-07-05T19:26:49.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "reform-denies-rules-broken-by-farage-after-benefits-from-ally-not-declared-general-2026-07-05t19-22",
+      "title": "Reform denies rules broken by Farage after benefits from ally not declared",
+      "link": "https://www.bbc.co.uk/news/articles/cy0424end7vo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Sunday Times says the Reform UK leader failed to register the support supplied by a cryptocurrency entrepreneur who had been convicted of fraud.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/862f/live/dccd2af0-7856-11f1-975d-e3c93736afa3.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-07-05T19:22:47.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cy0424end7vo?at_medium=RSS&at_campaign=rss",
+          "summary": "The Sunday Times says the Reform UK leader failed to register the support supplied by a cryptocurrency entrepreneur who had been convicted of fraud.",
+          "publishedAt": "2026-07-05T19:22:47.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "256-criminal-cases-pending-against-lawmakers-of-kerala-india-2026-07-05t19-20-25-000z",
+      "title": "256 criminal cases pending against lawmakers of Kerala",
+      "link": "https://www.thehindu.com/news/national/kerala/256-criminal-cases-pending-against-lawmakers-of-kerala/article71186289.ece",
+      "summary": "Twenty-two cases against lawmakers delayed for more than two years and nine cases for over five years",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-07-05T19:20:25.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/kerala/256-criminal-cases-pending-against-lawmakers-of-kerala/article71186289.ece",
+          "summary": "Twenty-two cases against lawmakers delayed for more than two years and nine cases for over five years",
+          "publishedAt": "2026-07-05T19:20:25.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "monsoon-disrupts-lives-across-india-mumbai-air-traffic-hit-himachal-kerala-odisha-on-alert-live-upda",
+      "title": "Monsoon disrupts lives across India; Mumbai air traffic hit, Himachal, Kerala, Odisha on alert | Live updates",
+      "link": "https://www.thehindu.com/news/national/india-weather-today-live-updates-monsoon-rain-mumbai-maharashtra-imd-rain-alert-july-5-2026/article71185046.ece",
+      "summary": "Amid threat of heavy rains, Mumbai civic body orders schools and colleges to remain shut on July 6, 2026",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-07-05T19:14:46.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/india-weather-today-live-updates-monsoon-rain-mumbai-maharashtra-imd-rain-alert-july-5-2026/article71185046.ece",
+          "summary": "Amid threat of heavy rains, Mumbai civic body orders schools and colleges to remain shut on July 6, 2026",
+          "publishedAt": "2026-07-05T19:14:46.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "remain-patient-karnataka-chief-minister-d-k-shivakumar-tells-ministerial-aspirants-india-2026-07-05t",
+      "title": "Remain patient, Karnataka Chief Minister D.K. Shivakumar tells ministerial aspirants",
+      "link": "https://www.thehindu.com/news/national/karnataka/remain-patient-karnataka-chief-minister-dk-shivakumar-tells-ministerial-aspirants/article71185669.ece",
+      "summary": "",
+      "image": "https://th-i.thgim.com/public/incoming/qoamlj/article71186180.ece/alternates/LANDSCAPE_1200/PTI07_05_2026_000156B.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-07-05T19:05:27.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/karnataka/remain-patient-karnataka-chief-minister-dk-shivakumar-tells-ministerial-aspirants/article71185669.ece",
+          "summary": "",
+          "publishedAt": "2026-07-05T19:05:27.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "ammonia-gas-removal-operation-at-tiruvallur-factory-to-continue-today-india-2026-07-05t18-57-23-000z",
+      "title": "Ammonia gas removal operation at Tiruvallur factory to continue today",
+      "link": "https://www.thehindu.com/news/cities/chennai/ammonia-gas-removal-operation-at-tiruvallur-factory-to-continue-today/article71186513.ece",
+      "summary": "",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-07-05T18:57:23.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/cities/chennai/ammonia-gas-removal-operation-at-tiruvallur-factory-to-continue-today/article71186513.ece",
+          "summary": "",
+          "publishedAt": "2026-07-05T18:57:23.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "ai-powered-tools-can-trace-missing-persons-faster-with-more-accuracy-say-experts-india-2026-07-05t18",
+      "title": "AI-powered tools can trace missing persons faster, with more accuracy, say experts",
+      "link": "https://www.thehindu.com/news/national/tamil-nadu/ai-powered-tools-can-trace-missing-persons-faster-with-more-accuracy-say-experts/article71186122.ece",
+      "summary": "They can significantly improve speed and accuracy of investigations, especially when time is critical",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-07-05T18:54:50.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/ai-powered-tools-can-trace-missing-persons-faster-with-more-accuracy-say-experts/article71186122.ece",
+          "summary": "They can significantly improve speed and accuracy of investigations, especially when time is critical",
+          "publishedAt": "2026-07-05T18:54:50.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "four-persons-held-for-stealing-copper-wires-at-railway-yard-india-2026-07-05t18-44-42-000z",
+      "title": "Four persons held for stealing copper wires at railway yard",
+      "link": "https://www.thehindu.com/news/national/tamil-nadu/four-persons-held-for-stealing-copper-wires-at-railway-yard/article71186173.ece",
+      "summary": "Railway officials found that copper wires on signalling systems along the track between Arakkonam and Tiruttani and Arakkonam and Katpadi were missing for the past several weeks",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-07-05T18:44:42.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/four-persons-held-for-stealing-copper-wires-at-railway-yard/article71186173.ece",
+          "summary": "Railway officials found that copper wires on signalling systems along the track between Arakkonam and Tiruttani and Arakkonam and Katpadi were missing for the past several weeks",
+          "publishedAt": "2026-07-05T18:44:42.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "man-arrested-in-goat-theft-case-appointed-as-government-pleader-in-tirupattur-india-2026-07-05t18-43",
+      "title": "Man arrested in goat theft case appointed as government pleader in Tirupattur",
+      "link": "https://www.thehindu.com/news/national/tamil-nadu/man-arrested-in-goat-theft-case-appointed-as-government-pleader-in-tirupattur/article71183367.ece",
+      "summary": "",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-07-05T18:43:01.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/man-arrested-in-goat-theft-case-appointed-as-government-pleader-in-tirupattur/article71183367.ece",
+          "summary": "",
+          "publishedAt": "2026-07-05T18:43:01.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "mr-lif-s-emergency-rations-ep-is-post-9-11-hip-hop-at-its-most-daring-tech-2026-07-05t18-30-00-000z",
+      "title": "Mr. Lif’s Emergency Rations EP is post-9/11 hip hop at its most daring",
+      "link": "https://www.theverge.com/entertainment/961484/mr-lif-emergency-rations-ep-post-9-11-review",
+      "summary": "There was a period in the early aughts when Definitive Jux (nee: Def Jux) seemed like it was going to be the future of hip hop. While the label featured plenty of experimental, boundary-pushing, and politically minded acts, Lif stood out a...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Mr-Lif-Emergency-Rations.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-07-05T18:30:00.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/entertainment/961484/mr-lif-emergency-rations-ep-post-9-11-review",
+          "summary": "There was a period in the early aughts when Definitive Jux (nee: Def Jux) seemed like it was going to be the future of hip hop. While the label featured plenty of experimental, boundary-pushing, and politically minded acts, Lif stood out a...",
+          "publishedAt": "2026-07-05T18:30:00.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "catherine-shares-photos-reuniting-with-family-after-three-peaks-challenge-general-2026-07-05t18-25-2",
+      "title": "Catherine shares photos reuniting with family after Three Peaks Challenge",
+      "link": "https://www.bbc.co.uk/news/articles/c8e22dnl0nko?at_medium=RSS&at_campaign=rss",
+      "summary": "The princess completed the challenge in aid of the hospital where she was treated for cancer.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f7a/live/1db823a0-78a5-11f1-b85a-67358f2ccf96.png",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-07-05T18:25:20.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/c8e22dnl0nko?at_medium=RSS&at_campaign=rss",
+          "summary": "The princess completed the challenge in aid of the hospital where she was treated for cancer.",
+          "publishedAt": "2026-07-05T18:25:20.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "definitely-felt-a-big-bang-delta-plane-hit-by-firework-while-landing-in-chicago-world-2026-07-05t18",
+      "title": "'Definitely felt a big bang': Delta plane hit by firework while landing in Chicago",
       "link": "https://www.bbc.co.uk/news/articles/cj4gg89r9gdo?at_medium=RSS&at_campaign=rss",
       "summary": "The plane had 52 passengers and six crew onboard. No injuries were reported.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed43/live/cf601a20-7898-11f1-87a6-29e20436c2da.jpg",
       "source": "BBC World",
       "category": "world",
       "categoryLabel": "World",
-      "publishedAt": "2026-07-05T17:44:52.000Z",
+      "publishedAt": "2026-07-05T18:18:40.000Z",
       "sources": [
         {
           "name": "BBC World",
           "link": "https://www.bbc.co.uk/news/articles/cj4gg89r9gdo?at_medium=RSS&at_campaign=rss",
           "summary": "The plane had 52 passengers and six crew onboard. No injuries were reported.",
-          "publishedAt": "2026-07-05T17:44:52.000Z"
-        },
-        {
-          "name": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRlhyNnVJRjhaWEo2OHRaWjR1ZUtLa1BrckJGa0Q4UnJ5andSR19xeU1NaDRUV2wwZWhnZ2dDcGM1SnE0RG5SYXF6bnVLQVNfZVBvQ3NlWE9HVTVQS3N2MUFodGc1Q2cweWtJbDZhd1RzUWZhRVp1b2lkLVpiNWJWSGhiRGxKcldmcW03ZldVaU5BSWtXTzdzemtMS1djTl9IdGJacFRhYnU?oc=5",
-          "summary": "Delta Air Lines flight hit by firework while landing at Midway International Airport &nbsp;&nbsp; CBS News",
-          "publishedAt": "2026-07-05T12:39:00.000Z"
-        },
-        {
-          "name": "Scripps News",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd29EUzA5UjBIZ1hhOVBIS0NudGFUbEtPSUlvdlFRbWdPRzFmcUhYbU94U2VpV1R6Tlh1NXVaaXNZUzJreDZ5b05XZmV3czdTeW5ZenRIbzllRUdfNHVyVjNRekJGOXRMV24xSWtzcmk0bGN6bEFweXB5cmh3anRwNTd5V0hjaUZTLURKRGg2cHFSWGJiSlFhUmJocm5FTTdlLWxURnU3NEpoVHRqb05US2dHbHZYQzBDYnNETmJXczJsS2FxZ3hz?oc=5",
-          "summary": "Delta flight ‘felt a big bang’ after apparently being hit by firework while landing in Chicago &nbsp;&nbsp; Scripps News",
-          "publishedAt": "2026-07-05T16:49:06.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2dHJ5bEJ2ZG5YUzRtbTFBcUVhRlhBLVg4RnlMTnlYOTdKaHdBeHBnbWU1S3ppb2FnMW1UNmxBWHJxbnEtY1pqQVVIeWdYcFg4Yzk2UHFURzNhcVJV?oc=5",
-          "summary": "'Definitely felt a big bang': Delta plane hit by firework while landing in Chicago &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-07-05T17:10:04.000Z"
-        },
-        {
-          "name": "WFAA",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVXRZQXpGZDd3dUE1bGhlYW9Jc25wR21BeEJ2M1NrYncwZlZCSDVUSWVKM1l3Q2FYT3p0YlliMXZZNGZJVTg1YUp4UjJCX2FlS2dNY1NlSThMdU1BR1lNTXRBOXhmNXBwN05Ka2VEcFZySExpZnZseldObUp5VHdiX2d3QVBYTFFjZXpYbUkzbGRFTmpjT0h6NVU1emZhdE9RVXdIU2dqcS1fbnNSalZyOUFtMW9zVzdSTEVGeW82VW45QnYwdFhqVWx4djA?oc=5",
-          "summary": "Delta flight hit by firework while landing at Chicago airport &nbsp;&nbsp; WFAA",
-          "publishedAt": "2026-07-05T15:42:00.000Z"
-        },
-        {
-          "name": "The Independent",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOY3B5Ym9PYWVZcE5CeGpZVVNyVXFQcVNMVU9jdU9yWlRoTW5WdWZnQzU2RC1QRHpMakVDcnVIcnJfbndva2lxRF8zdmNxSV85cTJqZkJET0UxZ0l3ZmE3aWIza040dzZWUEExazZneXN1bl9kdGZOVFNhM0trQkJreGdGNEVkZ1BJbkVTVGxZTDl0RUd1ZzltU2FpYW9ydmxrRWJhYzY2TDFyNlh5SGVpRVJTZWlyM191UWt0Mkdn?oc=5",
-          "summary": "Delta flight hit by firework when landing on July 4 at Midway airport &nbsp;&nbsp; The Independent",
-          "publishedAt": "2026-07-05T16:17:00.000Z"
-        },
-        {
-          "name": "WVIR",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdDIxbUFReDBVRHdFYUVGd1BmcThoTXhWZmozOWlUT1Fic2dOQ01KSHlhcTAyUlJ2bFdpdWJHSmVJZkhvakE3bTlzbjZsU2d3VUNheVRkaXBWUjNFdHNmNm1DcVUyWXdPNlp2cnZWeHBWQl9qX0FjQ1NwU2ZqTHFzUzh4NGNmaXJMdXBfYVhMTDZaRlnSAacBQVVfeXFMT09CMzBEQURyTEVKSUdoczFRbzB6cE1sbGRPZnV3TjBHbHlERm1sWXZINlJTcFU3bkRQTUFIeE1JbWtVQjdaNXgyOXBTbDFzUGJFX1hqb1A4UUVVYTBkQTRVUi1LZmJ3dkpUYW9TYld4RS1WUUpQeWtibC1RTzg2cjlIbEJyMmJSS0hzZVE3bDBDT3JkRUVQbEtDUldjbUFyb1hoaEFURTg?oc=5",
-          "summary": "Delta flight hit by firework while landing on Fourth of July &nbsp;&nbsp; WVIR",
-          "publishedAt": "2026-07-05T10:39:00.000Z"
-        },
-        {
-          "name": "New York Post",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONU5VX2lSNXZaeWpjOTBpM1dsbWlsa3ZsbnhPeUtFZTVRTl91dkFjVzAzbTlFNXdSV0lfNlp4SGVqNmpKbFFGS3QzMl95S0RTZGVfWm5DbVpKR2NjUy05cjZDbzdkQnRrUUxNSGVHUmxWYUh3NDMwdGVldk9WYUdxOTl5eDR5SjNXMVhQZ3ZzQm1qc1hCdHRuclEzVUcybWszcnpueS0tWThVR3ZiLV82X2ZOUGVfVnF5cFN1dVpFSTc?oc=5",
-          "summary": "Delta airplane struck by fireworks mortar while landing in Chicago on Fourth of July &nbsp;&nbsp; New York Post",
-          "publishedAt": "2026-07-05T17:07:00.000Z"
+          "publishedAt": "2026-07-05T18:18:40.000Z"
         }
       ],
-      "sourceCount": 8
+      "sourceCount": 1
     },
     {
-      "id": "fifa-suspends-balogun-red-card-can-face-belgium-sports-2026-07-05t17-57-06-000z",
-      "title": "FIFA suspends Balogun red card, can face Belgium",
-      "link": "https://www.espn.com/soccer/story/_/id/49277378/usmnt-folarin-balogun-red-card-suspended-belgium",
-      "summary": "FIFA has suspended the red card U.S. striker Folarin Balogun received in the team's match against Bosnia-Herzegovina, making him available to face Belgium in the round of 16 at the World Cup.",
+      "id": "pariyathukavu-rehabilitation-foundation-for-houses-likely-by-july-16-india-2026-07-05t18-17-49-000z",
+      "title": "Pariyathukavu rehabilitation: foundation for houses likely by July 16",
+      "link": "https://www.thehindu.com/news/national/kerala/pariyathukavu-rehabilitation-foundation-for-houses-likely-by-july-16/article71183304.ece",
+      "summary": "",
       "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T17:57:06.000Z",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-07-05T18:17:49.000Z",
       "sources": [
         {
-          "name": "ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49277378/usmnt-folarin-balogun-red-card-suspended-belgium",
-          "summary": "FIFA has suspended the red card U.S. striker Folarin Balogun received in the team's match against Bosnia-Herzegovina, making him available to face Belgium in the round of 16 at the World Cup.",
-          "publishedAt": "2026-07-05T17:57:06.000Z"
-        },
-        {
-          "name": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUXEtVEJUeG91V3BKUGVIc25HYno1dkk3OHFtblpHZ1k4bldfRXZ0UWNoLWJNWm1aV3c4Vmg3bUVZRE5lZEFrc3ZvSkpyN3drTHQxSWJVV05uX1JTSE1jdGJhNTJvaWNDSVVsaXRZazVqam1FeVhFVmdBeGRLSy1tUHV2c25hMGVKMWl2T1B4T21EOVhyeFo2Rw?oc=5",
-          "summary": "Folarin Balogun available for USMNT vs. Belgium as red card ban suspended &nbsp;&nbsp; The New York Times",
-          "publishedAt": "2026-07-05T17:38:34.000Z"
-        },
-        {
-          "name": "Sportstar",
-          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOb0NKM1BZWVBhSHk2NE1VOWlDSEdjNkdXX28wZ1Vua180SFRZeXVRZDYzeG9wWjViMi1ldFdGQk01ZXhWOE1pVlNDeGlsbnd5WlE3RFZIQll0d1R2OGFQQmhQMXYxOWMzZ09UcTRpMlY1RzlzS2tTZmc5ZW1vUlUzZEQwSG9uVkNEQTVQcVY2VzBiZzBWa3czUEpuZzViUlJEWjZlM2swVnBzcE9fT01zWi1raVdWRzhvZnZPMzNOUjZXcFF5UzNRdldtY1BpX05lN1lIbkROM0p1S0FfYVBvVXlKOGtWOXdKd3BBYW1Ma0sxdjFnSDJrNWkwQXY3ang3djNWOdIBiwJBVV95cUxQckFVS2M5QlpBMUJWYWZhY3BjLW5DUGU2eExEZkhUdnBEUmpKTTM2T2JWQWZ1clRnRVUwNHNOcjFUckhJakpCMnlaLXNlc2hjaVU5bVNPeTRNZkg1dTJnOXlvbUhGaDRZenhHV2tBek5OR2FBYkhsc1J5aVJNT002NWVGNHAtdlZhNkdROXVmVE00cUo5NmxIQTNtSlVEdWw5NDlHWGFYUVV0UnVSY1BUVjVZZUZnV3o1RlYtNUZGUno2VThhajJ4OEJQelVLLUZBMFRBYkZCYXE1UVFOSC04b3lMajlIUG5fOXVvR2JTTEdwNjZvYy0zeW9VNEVQNUlYR045ZGZkVWNnN00?oc=5",
-          "summary": "Why was Folarin Balogun’s red-card ban suspended ahead of USA vs Belgium? &nbsp;&nbsp; Sportstar",
-          "publishedAt": "2026-07-05T17:20:17.000Z"
-        },
-        {
-          "name": "Revsportz",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOc2wzcjB6WnRMY0dBVzQzVFE0MEpweW9TSjhZb3VrbkFCQmlnZjN4OFlqY0U1WVBYVWJidTc0bWh6XzQ0c1VIU2l4MzRsaXhEVjh4VDNaVUxxX25Ed09vZ3U3OXNZMzVHbGtzdHpuMTN2RG45MlhXMG53aDJUUl9MRkU4ckgwNVY3NzFjQXJ3aDNWY2ZJMFHSAZYBQVVfeXFMTnNsM3Iwelp0TGNHQVc0M1RRNDBKcHlvU0o4WW91a25BQkJpZ2YzeDhZamNFNVlQWFViYnU3NG1oel80NHNVSFNpeDM0bGl4RFY4eFQzWlVMcV9uRHdPb2d1NzlzWTM1R2xrc3R6bjEzdkRuOTJYVzBud2gyVFJfTEZFOHJIMDVWNzcxY0Fyd2gzVmNmSTBR?oc=5",
-          "summary": "Folarin Balogun Cleared to Face Belgium After FIFA Suspends Ban &nbsp;&nbsp; Revsportz",
-          "publishedAt": "2026-07-05T17:17:44.000Z"
-        },
-        {
-          "name": "The Independent",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTEdBMU9zNWFIODJqNHBDTGxRQWNBZUVBZjlmaXdwTzFpc1R1YzRJTl9KMjVCYVFpTVlVRTdybE94VTJhc3BwbWRRR0cyQWYzLVRQcHFnbkZDa3pJR2RLZzAtRFAwWng3a3dvNVgwNHpYRy1WR2lMOE1rdDN2SlJCM1YzUm43S2xWRUlXelFNOWE2dGNsMW9MWk5La3NWVmFEdTJONGNVaHNnRk9LcE1j?oc=5",
-          "summary": "Folarin Balogun red card extraordinarily wiped by Fifa in huge World Cup boost for USA &nbsp;&nbsp; The Independent",
-          "publishedAt": "2026-07-05T17:09:00.000Z"
-        },
-        {
-          "name": "CBS Sports",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQTJuX1JIU005bGtmY3Q2YVNMeFkwLU5rM2xRaElvdGNmbHlxbzZLb01tN05SMTZYUnZvNkZ6a0lHU2RkUGVpUndJbHdiSFQ2XzVYQkpReW51OW1GOU9NT3RhVFR4T2NtOVJlZDc3cHRVZW9Ba1kyVEM1b3hWS1NQZU81eDVhbkE2MmVKZXIwQTNra0hVNGZ3Q1JVTk0tWVVkZXc?oc=5",
-          "summary": "Folarin Balogun available for USMNT World Cup round of 16 match vs. Belgium: FIFA lifts red card suspension &nbsp;&nbsp; CBS Sports",
-          "publishedAt": "2026-07-05T17:22:00.000Z"
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/kerala/pariyathukavu-rehabilitation-foundation-for-houses-likely-by-july-16/article71183304.ece",
+          "summary": "",
+          "publishedAt": "2026-07-05T18:17:49.000Z"
         }
       ],
-      "sourceCount": 6
+      "sourceCount": 1
     },
     {
-      "id": "france-s-mbapp-calls-paraguay-tactics-ugly-sports-2026-07-05t18-47-55-000z",
-      "title": "France's Mbappé calls Paraguay tactics 'ugly'",
-      "link": "https://www.espn.com/soccer/story/_/id/49272367/france-kylian-mbappe-paraguay-tactics-get-our-hands-dirty",
-      "summary": "France's Kylian Mbappé on Paraguay tactics: 'We can also get our hands dirty' &nbsp;&nbsp; espn.in FIFA World Cup 2026 MD23 recap: Mbappe penalty takes France past Paraguay; Morocco thump Canada &nbsp;&nbsp; espn.in 'Since Kylian Mbappe di...",
+      "id": "police-to-launch-screening-of-rental-properties-in-kozhikode-under-operation-toofan-india-2026-07-05",
+      "title": "Police to launch screening of rental properties in Kozhikode under Operation Toofan",
+      "link": "https://www.thehindu.com/news/national/kerala/operation-toofan-police-step-up-scrutiny-of-rental-properties-in-kozhikode/article71185904.ece",
+      "summary": "Move follows intelligence inputs that drug traffickers and repeat offenders are using rented premises to store smuggled narcotics; database of landlords and rental properties in vulnerable areas to be prepared as part of the drive",
       "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T18:47:55.000Z",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-07-05T18:16:52.000Z",
       "sources": [
         {
-          "name": "ESPN",
-          "link": "https://www.espn.com/soccer/story/_/id/49272367/france-kylian-mbappe-paraguay-tactics-get-our-hands-dirty",
-          "summary": "Kylian Mbappé warned future World Cup opponents that France are ready to \"play ugly\" and get their \"hands dirty\" after brushing off Paraguay's provocations in a heated 1-0 round-of-16 victory,",
-          "publishedAt": "2026-07-05T18:47:55.000Z"
-        },
-        {
-          "name": "espn.in",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSXlUd3R2QUhYZjdJNk1BSWUtRk1MREQ1UjB6MzBZV2loSFhUd0F4Y1ExdDhKR09UOTZQeHdmSHV3RzVMTlZscWNNNTVzVzlRNGJyYjUySGJVZkd0TXc1R2l4Y1VrcmJ2Z3V5aFhHZ3JZd2x4eHVzRHFQbUpPbkhzRFdJOFQyTHM5c2FCbS1vRWwxczQxVlNlN1ZqeHUzalVtYXVIbzlJNGdEQQ?oc=5",
-          "summary": "France's Kylian Mbappé on Paraguay tactics: 'We can also get our hands dirty' &nbsp;&nbsp; espn.in FIFA World Cup 2026 MD23 recap: Mbappe penalty takes France past Paraguay; Morocco thump Canada &nbsp;&nbsp; espn.in 'Since Kylian Mbappe di...",
-          "publishedAt": "2026-07-04T23:53:00.000Z"
-        },
-        {
-          "name": "ESPN La Crosse 105.5",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYk43N2pkT1NnMlZMd3JrWkpzS1JlaFJUbUIyX1N2d3RjNm9IOHhfTUN5MGl6dndRLWNfNnctbUdsR1RiR0cxaE1oREZpV2NnNGVUQWhvSEhPM2dsNWtzbzZDeFhRWGt4RTU3cGFUU3IzVVJCUkJ5Z09Zb29uZXcwd1FaN3h2WnpseTJR?oc=5",
-          "summary": "France’s Mbappé calls Paraguay tactics ‘ugly’ &nbsp;&nbsp; ESPN La Crosse 105.5",
-          "publishedAt": "2026-07-05T08:19:41.000Z"
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/kerala/operation-toofan-police-step-up-scrutiny-of-rental-properties-in-kozhikode/article71185904.ece",
+          "summary": "Move follows intelligence inputs that drug traffickers and repeat offenders are using rented premises to store smuggled narcotics; database of landlords and rental properties in vulnerable areas to be prepared as part of the drive",
+          "publishedAt": "2026-07-05T18:16:52.000Z"
         }
       ],
-      "sourceCount": 3
+      "sourceCount": 1
     },
     {
       "id": "iran-s-supreme-leader-absent-as-senior-officials-attend-ayatollah-s-funeral-world-2026-07-05t17-58-0",
@@ -444,332 +520,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
           "summary": "Mojtaba Khamenei has not been seen in public since the attack which killed his father at the outset of the US-Israel war with Iran.",
           "publishedAt": "2026-07-05T17:58:01.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxc1hQU2U0Y2lpclhoUnBEQlk1eWdsSFhIODlNYnVsQ2hyaEozNEh5ZmZtbXJuTVc0LUlHMnJ0QXpuVlpYUmF6SE82TFN0bHp2Nkx2N0dteWJwUQ?oc=5",
-          "summary": "Iran's supreme leader absent as senior officials attend ayatollah's funeral &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-07-05T12:29:18.000Z"
-        },
-        {
-          "name": "France 24",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOU9IMWExLWJIRVVqcTh0WUx3SXZxQkt4cDlpR0lPRElUUWdyZHhUWTdoeVUwM3NnU2pHRVNhRW9DT3lNQ3hudW5NNE5MQ1JnbkIwUGlwZXBmTHlKTUNkdUZJSDhtRUpBY1FZVDVBeThhYVJMcy1YTmhpckhrZlM2aG1jd3pzaUdBb1NENHBQLTdqcjg4VXdIZmtGaHZwMXJmLUMzazg0T2tFYnNKd1FCdXp5QWpSZHl0YjB6c1BEWTRCcE9P?oc=5",
-          "summary": "Iran's new Supreme Leader Mojtaba Khamenei absent from mass funeral for father &nbsp;&nbsp; France 24",
-          "publishedAt": "2026-07-05T14:52:34.000Z"
-        },
-        {
-          "name": "NDTV Profit",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbmstYnE3X1RpaXVMcHp0M3pfQXZOUEg0LVhRNDRuM3hXWWkyRnQzRU1ETHlUUFgwZWRpUlNVdGEzYzlrTFFkREdySWdLYlVFbkZVb21sNWpvbkFFWklxbm5PaXdBcVI5eEMwdl9DYm9ibzl3a3pyVGdQd2VDSW1HcjJ0cGhWa0JpMTEyTWxoWk9lU3JNTzdJMkw1WDFSSnR1WEp1NzNScDk0c21WQlBYM0FsazB2TUpIa2o3WnFNU0c2T3fSAcMBQVVfeXFMTW5rLWJxN19UaWl1THB6dDN6X0F2TlBINC1YUTQ0bjN4V1lpMkZ0M0VNREx5VFBYMGVkaVJTVXRhM2M5a0xRZERHcklnS2JVRW5GVW9tbDVqb25BRVpJcW5uT2l3QXFSOXhDMHZfQ2JvYm85d2t6clRnUHdlQ0ltR3IydHBoVmtCaTExMk1saFpPZVNyTU83STJMNVgxUkp0dVhKdTczUnA5NHNtVkJQWDNBbGswdk1KSGtqN1pxTVNHNk93?oc=5",
-          "summary": "Ali Khamenei's Three Sons Attend Funeral; Supreme Leader Mojtaba Remains Absent &nbsp;&nbsp; NDTV Profit",
-          "publishedAt": "2026-07-05T11:13:41.000Z"
-        }
-      ],
-      "sourceCount": 4
-    },
-    {
-      "id": "c-s-robinson-playoff-injury-followed-family-issue-sports-2026-07-05t18-47-55-000z",
-      "title": "C's Robinson: Playoff injury followed family issue...",
-      "link": "https://www.espn.com/nba/story/_/id/49276080/mitchell-robinson-playoff-injury-was-reaction-family-incident",
-      "summary": "New Celtics center Mitchell Robinson addressed the hand injury that put his status for the start of the Knicks' NBA Finals appearance in doubt, saying he was hurt after reacting to a family member being in a car crash.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T18:47:55.000Z",
-      "sources": [
-        {
-          "name": "ESPN",
-          "link": "https://www.espn.com/nba/story/_/id/49276080/mitchell-robinson-playoff-injury-was-reaction-family-incident",
-          "summary": "New Celtics center Mitchell Robinson addressed the hand injury that put his status for the start of the Knicks' NBA Finals appearance in doubt, saying he was hurt after reacting to a family member being in a car crash.",
-          "publishedAt": "2026-07-05T18:47:55.000Z"
-        },
-        {
-          "name": "theScore",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWdHOE44cHVpLXVaUE1vblJhTFlGX1RfQ1g1WlBoSXpPbll4VnVtdjhNbmltX1c4SnlGSExMV1k1YzRaVGpEN2kzTXNGdUFWMENlb1Z1RGNYN1BNdmx3eUltSDU0TWpXdHlJYUJ2TDBLaDNHdi1GN0o5cmtBRS1HbldqblZ5VEJHZ2ZlU0o5ZGtURXRRNk1xamdBVnk0N0JEV0h2UnpyNHBaWG8z?oc=5",
-          "summary": "Celtics' Robinson: Playoff injury was in response to family incident &nbsp;&nbsp; theScore",
-          "publishedAt": "2026-07-05T15:07:22.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "pegula-advances-at-wimbledon-24-champ-ousted-sports-2026-07-05t18-47-55-000z",
-      "title": "Pegula advances at Wimbledon; '24 champ ousted",
-      "link": "https://www.espn.com/tennis/story/_/id/49277818/jessica-pegula-reaches-wimbledon-quarterfinals-barbora-krejcikova-ousted-karolina-muchova",
-      "summary": "No. 4 Jessica Pegula advanced to the Wimbledon quarterfinals by beating fellow American Iva Jovic 4-6, 6-3, 6-1, while Barbora Krejcikova's loss to Karolina Muchova ensured the tournament will crown a new women's champion.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T18:47:55.000Z",
-      "sources": [
-        {
-          "name": "ESPN",
-          "link": "https://www.espn.com/tennis/story/_/id/49277818/jessica-pegula-reaches-wimbledon-quarterfinals-barbora-krejcikova-ousted-karolina-muchova",
-          "summary": "No. 4 Jessica Pegula advanced to the Wimbledon quarterfinals by beating fellow American Iva Jovic 4-6, 6-3, 6-1, while Barbora Krejcikova's loss to Karolina Muchova ensured the tournament will crown a new women's champion.",
-          "publishedAt": "2026-07-05T18:47:55.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "emotional-contreras-apologizes-for-on-field-flap-sports-2026-07-05t18-47-55-000z",
-      "title": "'Emotional' Contreras apologizes for on-field flap...",
-      "link": "https://www.espn.com/mlb/story/_/id/49273398/emotional-contreras-regrets-role-field-incidents",
-      "summary": "Red Sox first baseman Willson Contreras offered an emotional apology for his involvement in a pair of bench-clearing incidents against the Yankees and Nationals this past week.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T18:47:55.000Z",
-      "sources": [
-        {
-          "name": "ESPN",
-          "link": "https://www.espn.com/mlb/story/_/id/49273398/emotional-contreras-regrets-role-field-incidents",
-          "summary": "Red Sox first baseman Willson Contreras offered an emotional apology for his involvement in a pair of bench-clearing incidents against the Yankees and Nationals this past week.",
-          "publishedAt": "2026-07-05T18:47:55.000Z"
-        },
-        {
-          "name": "espn.in",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iMHZzR2pmOVNYeW1aYmZtQmFRM3RWRDdyLUdRbmdsNDJkOS1iWEc1TFczNHhLNzYweHY1OXZ5ZHktNFE2bnhxN3RCN21XaVBBWTk2UVUxQUU5ekVDX2ZQcWZ4UF9uYkdTa0Uw?oc=5",
-          "summary": "Willson Contreras &nbsp;&nbsp; espn.in",
-          "publishedAt": "2019-10-09T17:08:43.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "leclerc-wins-british-gp-tough-times-never-last-sports-2026-07-05t18-47-55-000z",
-      "title": "Leclerc wins British GP: 'Tough times never last'",
-      "link": "https://www.espn.com/f1/story/_/id/49224478/british-grand-prix-silverstone-formula-1-ferraris-charles-leclerc-takes-first-victory-british-grand-prix-george-russell-second",
-      "summary": "George Russell's bid to win a maiden world championship was dealt a significant boost after Kimi Antonelli failed to score in a dramatic conclusion to Sunday's British Grand Prix, which was won by Charles Leclerc.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T18:47:55.000Z",
-      "sources": [
-        {
-          "name": "ESPN",
-          "link": "https://www.espn.com/f1/story/_/id/49224478/british-grand-prix-silverstone-formula-1-ferraris-charles-leclerc-takes-first-victory-british-grand-prix-george-russell-second",
-          "summary": "George Russell's bid to win a maiden world championship was dealt a significant boost after Kimi Antonelli failed to score in a dramatic conclusion to Sunday's British Grand Prix, which was won by Charles Leclerc.",
-          "publishedAt": "2026-07-05T18:47:55.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "junior-player-dq-d-from-wimbledon-for-racket-toss-sports-2026-07-05t18-47-55-000z",
-      "title": "Junior player DQ'd from Wimbledon for racket toss",
-      "link": "https://www.espn.com/tennis/story/_/id/49276494/ida-wobker-disqualified-wimbledon-junior-tournament-throwing-racket-bounced-stands",
-      "summary": "Ida Wobker, a 15-year-old German player, was disqualified from Wimbledon's junior tournament after she angrily threw her racket on the grass and it bounced into the stands, the All England Club confirmed.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T18:47:55.000Z",
-      "sources": [
-        {
-          "name": "ESPN",
-          "link": "https://www.espn.com/tennis/story/_/id/49276494/ida-wobker-disqualified-wimbledon-junior-tournament-throwing-racket-bounced-stands",
-          "summary": "Ida Wobker, a 15-year-old German player, was disqualified from Wimbledon's junior tournament after she angrily threw her racket on the grass and it bounced into the stands, the All England Club confirmed.",
-          "publishedAt": "2026-07-05T18:47:55.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "biggest-mlb-all-star-game-snubs-takeaways-sports-2026-07-05t18-47-55-000z",
-      "title": "⚾ Biggest MLB All-Star Game snubs, takeaways",
-      "link": "https://www.espn.com/mlb/story/_/id/49249891/mlb-2026-all-star-game-roster-al-nl-reaction-snubs-takeaways-turang-contreras",
-      "summary": "Many of baseball's biggest names are headed to Philly, but some deserving stars will be watching from home.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T18:47:55.000Z",
-      "sources": [
-        {
-          "name": "ESPN",
-          "link": "https://www.espn.com/mlb/story/_/id/49249891/mlb-2026-all-star-game-roster-al-nl-reaction-snubs-takeaways-turang-contreras",
-          "summary": "Many of baseball's biggest names are headed to Philly, but some deserving stars will be watching from home.",
-          "publishedAt": "2026-07-05T18:47:55.000Z"
-        },
-        {
-          "name": "espn.in",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV05iVTFDZHpHMlFDWjhDSUJxNVNVY3hFUnBPUkdHV0hUV3RXSUc2LWZQcHRiUGgwNFJrRU51MDd0YW1sUVhoUXEwNE55S0stOUF2anhXT211cmtCQmUybDJXYnF0NDNma1lrLVJWVG5MNEs3Vkd4TU5CWWFsSUhiZlNEVXdQOFkyT0xaUlg4WU1zZXlvQUlrNkFuQnR2eFVUdVpXeDdCcXV6bHNSNTdyVnhwbGk4M3I4REtDWUF3?oc=5",
-          "summary": "2026 MLB All-Star Game rosters: Snubs, other takeaways &nbsp;&nbsp; espn.in",
-          "publishedAt": "2026-07-05T01:30:00.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "six-persons-arrested-for-assaulting-man-at-tiruvannamalai-gh-india-2026-07-05t18-08-30-000z",
-      "title": "Six persons arrested for assaulting man at Tiruvannamalai GH",
-      "link": "https://www.thehindu.com/news/national/tamil-nadu/six-persons-arrested-for-assaulting-man-at-tiruvannamalai-gh/article71186162.ece",
-      "summary": "The police said when the ambulance halted at the hospital, the gang dragged an injured Silambarasan from the vehicle and beat him before police rescued him",
-      "image": "",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-07-05T18:08:30.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/six-persons-arrested-for-assaulting-man-at-tiruvannamalai-gh/article71186162.ece",
-          "summary": "The police said when the ambulance halted at the hospital, the gang dragged an injured Silambarasan from the vehicle and beat him before police rescued him",
-          "publishedAt": "2026-07-05T18:08:30.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRjEzM1BEWFZ1U3hTMklWbDE0ZmJFX2ZJSkRKZ21fUmdBV1I3MF8xaGYxajhjZG1pUTMxMEtpR1hpdnJNZmZlUFZEZ09XT0Z2RGhqM09HdG14Z0M2OHM1cEplSENzRWd2NzNqQmpMTHp4Q3c5VXd3STE2d3M0cDgzdG9vOHNsYlhSZ3FwODdwVEN0YTNtTDM4d3pIY3huWEZ1aWlBVWFKTjNJbXZXTGYtSlZGTV9yUU1WQV9LaTFxWm1LZWFLNUk3S3J30gHQAUFVX3lxTFBPT1AwTkxHNkdqU2x4TGI0aW11QVJZbVM4MVhrZ1FCWXRmYk9DdDNnOHJ5MWVaNk95Uy1JX3VvZmJYUWg1UWtBLTYxYW5KMHBUNFFsVFBwT2JYYjhEdjMtb3NJRnBUYTlPUUJndEtTTmlUQllkXzAxNlN3emQ1NEo1aV9GTmV6Q0lwRWFiMmQ1Z3ktamFIRkw1aGhldzdkWWJKODR0N2dpd1BSc3FweS1fNVZRTHJzR0MzaGtHb04wQ19OTjRsekJha2kxamFveVE?oc=5",
-          "summary": "Six persons arrested for assaulting man at Tiruvannamalai GH &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-07-05T18:08:28.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "tnrera-chairperson-shiv-das-meena-two-members-resign-india-2026-07-05t18-06-44-000z",
-      "title": "TNRERA chairperson Shiv Das Meena, two members resign",
-      "link": "https://www.thehindu.com/news/national/tamil-nadu/tnrera-chairperson-shiv-das-meena-two-members-resign/article71186595.ece",
-      "summary": "They were appointed during the previous DMK government",
-      "image": "",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-07-05T18:06:44.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/tnrera-chairperson-shiv-das-meena-two-members-resign/article71186595.ece",
-          "summary": "They were appointed during the previous DMK government",
-          "publishedAt": "2026-07-05T18:06:44.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNW0xOFd4WnBaeE9DUGRFbFJSLVVjRFNZc2VmQUdvbEhrWHEwcVJHYVRkOVAxZW5weDVXUXdUeXhTaFF3QWtKLWx2UE5zRzZqM19GclVFcGJjRTM1c0IzZHRoVFpXaFhpU2tENE44c1Qtc3pyOTJoUXcxZ2pkdnllSkc4LXNvb2VjcVlSdTVjbVBrQUg0Ym5GbHA2LWVYT0E4ODZTZk9RMkFvLUJmNVBiNW4tWmZkaF9uYnJ1M1V5RdIBxgFBVV95cUxNcldVSFhWc21rS01BUkQyYWtha1lGakZRcnVNSnI4ejFaZDluVE5MWGh5T0pObVhrclZ4SlJNZTM2cE5Zd2JuRk1WZDF6WV85dmJTX1JNU0RsbWI4OG5FR1B0TTNNbWhCWHlLWGFPVVg0a0dkSHVoMy1OOE5OOE9hMEF2MXJ2UnZFUlV3UTF1UHhRTjlWWGNvY0tIdkxDOHJwWERUX3JWM05ndkdkLXkySmVXbkVnTlVtWUhNSFlsUU9La1cxaXc?oc=5",
-          "summary": "TNRERA chairperson Shiv Das Meena, two members resign &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-07-05T18:06:41.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "nigeria-says-two-nationals-killed-in-south-africa-amid-rise-of-anti-migrant-attacks-world-2026-07-05",
-      "title": "Nigeria says two nationals killed in South Africa amid rise of anti-migrant attacks",
-      "link": "https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Nigeria's government said one of its nationals was reportedly killed by police officers \"using gruesome interrogation techniques\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b20/live/c527be30-760b-11f1-ac6e-25f7e4f0c9b9.jpg",
-      "source": "BBC World",
-      "category": "world",
-      "categoryLabel": "World",
-      "publishedAt": "2026-07-05T17:30:45.000Z",
-      "sources": [
-        {
-          "name": "BBC World",
-          "link": "https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss",
-          "summary": "Nigeria's government said one of its nationals was reportedly killed by police officers \"using gruesome interrogation techniques\".",
-          "publishedAt": "2026-07-05T17:30:45.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XTDU3Z0lMQXkyTnBiRFRIRThJeUx5cDV5QmdNUko0RlBFdDA0ZHRQRTNWMk9TdGtiWGN1MVBTQ3VicWkxQjBDdktlVkFleEtMRnk1a0NFWEtRbS1L?oc=5",
-          "summary": "Nigeria says two nationals killed in South Africa amid rise of anti-migrant attacks &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-07-05T13:09:20.000Z"
-        },
-        {
-          "name": "Al Jazeera",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMl9FMjQ3cTJpVWVqNUpkYXozdzlrNVd5R09lTUVTRlY4V2NKbUZLU3dfMWlKdkozNmNjUDBtMF9ldkVnV3hXUjd3QTJxbTVyTlNmNW1iMFNMbUdQd1YxZjl2T3ZNZ0VQM0NjSXBYaENBQ1RkMWVIdWo1Sk8zdmppemFfUFNWWmVZNExYZC1ITm1DM0ZkSTdBUHBZMm0zbzVMR05jMWQ4SVltcFNM0gGyAUFVX3lxTE9aYWRYQmNkeDNIUHBONG9KbW9nbF9RQWQ0N2EyNGdiSGdSVWwzdDY5OVVGOTF4RVZSOEF3c3ZUeXdXVTdCV1ppQXF6WUlkLVlObEVHQkk4QTVnYVI5Y3ZQVmY3VWhIYVprd3FUbnBZMWJ4MV83U3RNY1NocnVUVUVsOEtNd2dzaWVYQ0VPZXI4eUJQNHBkaWgwY1Z6TnhHVzhmVm5Ob1VQUFlKdGI1NHl6YkE?oc=5",
-          "summary": "Why are Nigeria-South Africa tensions rising amid xenophobic attacks? &nbsp;&nbsp; Al Jazeera",
-          "publishedAt": "2026-06-09T07:00:00.000Z"
-        }
-      ],
-      "sourceCount": 3
-    },
-    {
-      "id": "hideo-kojima-warns-of-frightening-digital-future-after-playstation-reveals-plan-to-end-physical-disc",
-      "title": "Hideo Kojima Warns of 'Frightening' Digital Future After PlayStation Reveals Plan to End Physical Disc Production",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZEExWHpfbmtIdTYwR0FLZkNsSkVmSTFoc1ptSkFEM29FLXBzWms2X244dnEzQjJLeHBIWXU3aFJLZHZvbFhyNF9NNFNXcGt5QkxWLWZYUHNJb0pncVpnSk41MnZHN3ZzS20yWVZKbW9MTk5Fc1dOc3Ztc3ZUdVFMd3haM2RYY3Z0T2JuSHItVEFORVBTSEJ6WjZRV0RoN3FLdEV6UWU0OEV2R1phcjR0d0RISlNZc3VNWjdCN0w4Y2FLV3FrY25qYjY3OE9vRVQyMVJkRWhYNFd0NlU?oc=5",
-      "summary": "Hideo Kojima Warns of 'Frightening' Digital Future After PlayStation Reveals Plan to End Physical Disc Production &nbsp;&nbsp; IGN India Physical disc production ending in January 2028 for new games releasing on PlayStation consoles &nbsp;...",
-      "image": "",
-      "source": "IGN India",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-07-05T18:00:16.000Z",
-      "sources": [
-        {
-          "name": "IGN India",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZEExWHpfbmtIdTYwR0FLZkNsSkVmSTFoc1ptSkFEM29FLXBzWms2X244dnEzQjJLeHBIWXU3aFJLZHZvbFhyNF9NNFNXcGt5QkxWLWZYUHNJb0pncVpnSk41MnZHN3ZzS20yWVZKbW9MTk5Fc1dOc3Ztc3ZUdVFMd3haM2RYY3Z0T2JuSHItVEFORVBTSEJ6WjZRV0RoN3FLdEV6UWU0OEV2R1phcjR0d0RISlNZc3VNWjdCN0w4Y2FLV3FrY25qYjY3OE9vRVQyMVJkRWhYNFd0NlU?oc=5",
-          "summary": "Hideo Kojima Warns of 'Frightening' Digital Future After PlayStation Reveals Plan to End Physical Disc Production &nbsp;&nbsp; IGN India Physical disc production ending in January 2028 for new games releasing on PlayStation consoles &nbsp;...",
-          "publishedAt": "2026-07-05T18:00:16.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "police-seize-3-6-kg-of-ganja-in-villupuram-two-held-india-2026-07-05t18-00-14-000z",
-      "title": "Police seize 3.6 kg of ganja in Villupuram, two held",
-      "link": "https://www.thehindu.com/news/national/tamil-nadu/police-seize-36-kg-of-ganja-in-villupuram-two-held/article71185598.ece",
-      "summary": "The police said initial inquiry revealed the duo had bought ganja from drug peddlers to sell it to individuals in Villupuram district",
-      "image": "",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-07-05T18:00:14.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/police-seize-36-kg-of-ganja-in-villupuram-two-held/article71185598.ece",
-          "summary": "The police said initial inquiry revealed the duo had bought ganja from drug peddlers to sell it to individuals in Villupuram district",
-          "publishedAt": "2026-07-05T18:00:14.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "posh-george-who-is-aristocrat-and-convicted-criminal-at-heart-of-farage-controversy-general-2026-07",
-      "title": "'Posh George': Who is aristocrat and convicted criminal at heart of Farage controversy?",
-      "link": "https://www.bbc.co.uk/news/articles/c5yzzw5vk8vo?at_medium=RSS&at_campaign=rss",
-      "summary": "The 32-year-old reported crypto entrepreneur, once convicted of fraud in the US, is a long-time Farage ally.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83ac/live/df91fe30-7880-11f1-8e27-311e40314ce1.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-07-05T17:57:46.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/c5yzzw5vk8vo?at_medium=RSS&at_campaign=rss",
-          "summary": "The 32-year-old reported crypto entrepreneur, once convicted of fraud in the US, is a long-time Farage ally.",
-          "publishedAt": "2026-07-05T17:57:46.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CN2Z4NWlGUkZ2aEREVkF5TjZ1clZqMHlYaDA2M3dfUzJrUDhURWJENl9wWEx6SXdLNGJGbkZsRjc4WFFSNEJ4SnBZVkNHNGQ1NGJqdFdrNUh4UVk4?oc=5",
-          "summary": "'Posh George': Who is aristocrat and convicted criminal at heart of Farage controversy? &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-07-05T15:34:34.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "heavy-mumbai-rains-three-dead-four-injured-as-rain-disrupts-life-in-maharashtra-india-2026-07-05t17",
-      "title": "Heavy Mumbai rains: Three dead, four injured as rain disrupts life in Maharashtra",
-      "link": "https://www.thehindu.com/news/national/maharashtra/heavy-mumbai-rains-airport-runway-operations-halted-updates-on-july-5-2026/article71185894.ece",
-      "summary": "Flight operations affected for an hour at Mumbai airport; holiday declared for schools and colleges in Mumbai and Thane on July 5",
-      "image": "https://th-i.thgim.com/public/incoming/hlrme4/article71185913.ece/alternates/LANDSCAPE_1200/PTI07_05_2026_000127A.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-07-05T17:57:40.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/maharashtra/heavy-mumbai-rains-airport-runway-operations-halted-updates-on-july-5-2026/article71185894.ece",
-          "summary": "Flight operations affected for an hour at Mumbai airport; holiday declared for schools and colleges in Mumbai and Thane on July 5",
-          "publishedAt": "2026-07-05T17:57:40.000Z"
         }
       ],
       "sourceCount": 1
@@ -790,67 +540,9 @@
           "link": "https://www.bbc.co.uk/news/videos/c4gyye3rplno?at_medium=RSS&at_campaign=rss",
           "summary": "The BBC's chief international correspondent Lyse Doucet is in Tehran, where funeral events are taking place in honour of Iran's former leader, Ayatollah Ali Khamenei.",
           "publishedAt": "2026-07-05T17:54:47.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BMlBoODJZVUxOS3AzVmpXajM5NjQxQjR4dTdVMUV2NUJpT1ZHeFVYdF9OaUdUQ00wZmdkbWE3N2Vic3FsQUVUcm1GSzVPSlhqZldTajFhSEtldw?oc=5",
-          "summary": "Watch: Emotion and politics merge in Tehran at funeral of former supreme leader &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-07-05T17:55:46.000Z"
         }
       ],
-      "sourceCount": 2
-    },
-    {
-      "id": "over-230-irula-families-in-ariyalur-find-steady-income-through-cashew-harvesting-initiative-india-20",
-      "title": "Over 230 Irula families in Ariyalur find steady income through cashew harvesting initiative",
-      "link": "https://www.thehindu.com/news/national/tamil-nadu/over-230-irula-families-in-ariyalur-find-steady-income-through-cashew-harvesting-initiative/article71185932.ece",
-      "summary": "The Tribal Welfare Department facilitated financial support for people from the Irula community to participate in public auctions for cashew plantations managed by the Tamil Nadu Forest Plantation Corporation Limited to enable them to dire...",
-      "image": "https://th-i.thgim.com/public/news/national/tamil-nadu/napjnw/article71185919.ece/alternates/LANDSCAPE_1200/CASHEWNUT.00_01_05_04.Still018.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-07-05T17:50:22.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/over-230-irula-families-in-ariyalur-find-steady-income-through-cashew-harvesting-initiative/article71185932.ece",
-          "summary": "The Tribal Welfare Department facilitated financial support for people from the Irula community to participate in public auctions for cashew plantations managed by the Tamil Nadu Forest Plantation Corporation Limited to enable them to dire...",
-          "publishedAt": "2026-07-05T17:50:22.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQem9IUUVJYXZXMzdhem9qUDJwZWJFSkhqNFVNY2NndnhSb09HcWNQbFJ0X3BBakNRd2JIbzFObEszNDI2ZkNPY1d2X0IteHF3MURlNUw2TGh2M1VNaHpLOTI1Znd0STRIQ1dTN0x0MFBfYzl1NHBGazQxY2QwaG1ZZW5IREFnd2xuOG52QWdENUM0aVB6aEVPSlVmNnZVVGtZVkRRNVhRRWQtY1RvWGd3dWM5N0hHRTFYNHdQa3k5LXB2YzVKOFVzUUxWdXp4Mk5WcE9ObkRHUTR4bVRQUmF4V3J0aUpFNS1GRERtSmd1Q2pObXc?oc=5",
-          "summary": "Over 230 Irula families in Ariyalur find steady income through cashew harvesting initiative &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-07-05T17:50:16.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "policeman-from-kangpokpi-questioned-in-abduction-and-killing-of-six-naga-men-in-manipur-india-2026-0",
-      "title": "Policeman from Kangpokpi questioned in abduction and killing of six Naga men in Manipur",
-      "link": "https://www.thehindu.com/news/national/policeman-from-kangpokpi-questioned-in-abduction-and-killing-of-six-naga-men-in-manipur/article71186532.ece",
-      "summary": "Following public outrage over the killings, the State Government handed over the case to the National Investigation Agency, which is yet to make any arrests",
-      "image": "https://th-i.thgim.com/public/incoming/kh1acv/article71186702.ece/alternates/LANDSCAPE_1200/2026-06-11T092006Z_1083469488_RC2DRLAB13T4_RTRMADP_3_INDIA-MANIPUR.JPG",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-07-05T17:47:59.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/policeman-from-kangpokpi-questioned-in-abduction-and-killing-of-six-naga-men-in-manipur/article71186532.ece",
-          "summary": "Following public outrage over the killings, the State Government handed over the case to the National Investigation Agency, which is yet to make any arrests",
-          "publishedAt": "2026-07-05T17:47:59.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSUx6alNQUFR6SktwMExyY2p5bUZFbVg4V2ZTejdsSGNoQjFuSTNhVm9ZYTlRc3dBOVB6cWgyWE1kUkRndWZ5U1VyXzlubEtjOGNsNW9vVjVQTElBQ0E5OTNGa3E3cW54MXJVRzZaUGpwSEZYNU1jZWVCRG41dV8tUU00WkF2bnQwYm5yWXhQZWdLRUZDc04taFpkSTJPLUFIVDRYTUNPNkpWRTNWbXV2c2M2UXVOalp0bVNGeWM4VWdiQ3V5OHlzWGlzeGk1czlsZjlNLWVOLUZjUEVmUFY00gHmAUFVX3lxTFBwMkl6MWZTTnJLSWE1cjlDaHNxcFNhaDZBOVpEX05idGQ1M1BIaGhrQlZ4VDBrWDkxZ1QxTHROakNmLXh4cXE3TURibUFqaVVzMXhEdkJmdHU5RGJvbi1qR3UwbDNfMjRRZDlBS0JPMm1HN1dQX2tGS29JRzBrVkltaGJvdTVqa1A0ZGQwRGdRN3VJVkJVVWNIYWpJLVkxU2duN2pvWmRPdC15WUNkaUhwbmRZZ1h5TDdWelZlUXl1UkE4OXdvWW5pUDNyd1JleFVfeWpESFktTnlwQ3ktaEtScldHOXhB?oc=5",
-          "summary": "Policeman from Kangpokpi questioned in abduction and killing of six Naga men in Manipur &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-07-05T17:47:59.000Z"
-        }
-      ],
-      "sourceCount": 2
+      "sourceCount": 1
     },
     {
       "id": "easyjet-reaches-agreement-in-principle-over-potential-takeover-general-2026-07-05t17-30-55-000z",
@@ -868,164 +560,26 @@
           "link": "https://www.bbc.co.uk/news/articles/cgjxx7ngz51o?at_medium=RSS&at_campaign=rss",
           "summary": "The low-cost airline had previously rejected four takeover offers from US investment firm Castlelake.",
           "publishedAt": "2026-07-05T17:30:55.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JaDU0a3lTQ3N2NEpOT2RvdGRFYzcxWDUtYkVFRGFDdWJzakVteDVmc01UQm9GM0F0d29MUzcycTZRdTBxNDRsMV9FYlpIOGpSUm1HRFplN3Q0aFBu?oc=5",
-          "summary": "EasyJet reaches 'agreement in principle' over potential takeover &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-07-05T17:30:55.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "telangana-police-book-case-against-a-p-police-officers-over-youtuber-s-arrest-india-2026-07-05t17-25",
-      "title": "Telangana police book case against A.P. police officers over YouTuber’s arrest",
-      "link": "https://www.thehindu.com/news/national/andhra-pradesh/telangana-police-book-case-against-ap-police-officers-over-youtubers-arrest/article71186649.ece",
-      "summary": "",
-      "image": "",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-07-05T17:25:26.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/telangana-police-book-case-against-ap-police-officers-over-youtubers-arrest/article71186649.ece",
-          "summary": "",
-          "publishedAt": "2026-07-05T17:25:26.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQajAxUG1WOUVKODhEcnJFRmpRRENGR2V3N3A5Ykw4V2dvRlRsaXF2MWJvdk9Ib3hFUVotaG5CeFBYejE0RmQyVFZ4RTFIdm1DaWUyY0dHY3hGVFV3WEpfR0JPNzRxczc4Xzh3aEJkMkI1d2ZQZVpnbEV4Z3B6SGhKMC1fcFRNYTBNUEh2bjNBWmdVYnRhUjE3YTJFUF84VWxhamZrVS1JbGk2eElrWVdZVGstbjNtemNFWDdqNXRnd016MVlsaVJUdEVHa0dBR3lzTGpubVF3VHZuaERTZktwcEdiVdIB6gFBVV95cUxPWDFTcGZ2NWpIZk1YV1drYnd3SnB3ZmQwTDlocXdxd1AzcTVWQ3Z6UjUzal9VZ0RLQ3pQV1NJbTVPV3FMc2FEVlBGbk5iMXNXYnZadF80SGIyMmpwUGxtMnU3c3RLZ3RXdkVjVGdEbWI1RWljcWZDZGM5LU9sdHdWQ001RzdvYk1VVFd3Nm1faTdfOUZuU1FtNFo3UFM4REprOXdBdkdSbEhUWHA4YVlNak1lSVdyTjFEc0Z6a25jelhod293Wnc3ZEhvdWhyWlBxNUp2QURSbDhrNWdWZkFvZ0NHb25KVm5CLWc?oc=5",
-          "summary": "Telangana police book case against A.P. police officers over YouTuber’s arrest &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-07-05T17:25:24.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "history-novak-djokovic-breaks-roger-federer-s-all-time-wimbledon-record-sports-2026-07-05t17-23-00-0",
-      "title": "History! Novak Djokovic breaks Roger Federer's all-time Wimbledon record",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNSFFkVHMtTE9OanJqVFZfbV90TEtvdjhoZFgxaUlYR3NyNV8yN1BqdDlGaUE3RDB1R0JNdVIwQWNlTzNfSGg2MmpFOHlxbVctYUh1Tnl1LUVpRnF0djNYZGtxOVZwRl9wUXo2eDRSblhTY2dKSHBxUlFqZklUUUdMeFVud3QySFc1TGlhZG5QSUxib2lET051MmZZbEJhUFlXaHVMOFlJUzB2Z3d1bUZKell4cjYtS1dIMWR5Q09EbV9kX0liWE5XVk5rTkhzNVhzek55c0dTYllsYTVrN3dqTFhBWnZMUXA2MUpld2RpUQ?oc=5",
-      "summary": "History! Novak Djokovic breaks Roger Federer's all-time Wimbledon record &nbsp;&nbsp; The Times of India Wimbledon 2026 results: Novak Djokovic beats Roman Safiullin to break Roger Federer's match-wins record &nbsp;&nbsp; BBC Wimbledon 202...",
-      "image": "",
-      "source": "The Times of India",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T17:23:00.000Z",
-      "sources": [
-        {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNSFFkVHMtTE9OanJqVFZfbV90TEtvdjhoZFgxaUlYR3NyNV8yN1BqdDlGaUE3RDB1R0JNdVIwQWNlTzNfSGg2MmpFOHlxbVctYUh1Tnl1LUVpRnF0djNYZGtxOVZwRl9wUXo2eDRSblhTY2dKSHBxUlFqZklUUUdMeFVud3QySFc1TGlhZG5QSUxib2lET051MmZZbEJhUFlXaHVMOFlJUzB2Z3d1bUZKell4cjYtS1dIMWR5Q09EbV9kX0liWE5XVk5rTkhzNVhzek55c0dTYllsYTVrN3dqTFhBWnZMUXA2MUpld2RpUQ?oc=5",
-          "summary": "History! Novak Djokovic breaks Roger Federer's all-time Wimbledon record &nbsp;&nbsp; The Times of India Wimbledon 2026 results: Novak Djokovic beats Roman Safiullin to break Roger Federer's match-wins record &nbsp;&nbsp; BBC Wimbledon 202...",
-          "publishedAt": "2026-07-05T17:23:00.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "journalists-seek-action-on-long-pending-amaravati-housing-project-india-2026-07-05t17-16-47-000z",
-      "title": "Journalists seek action on long-pending Amaravati housing project",
-      "link": "https://www.thehindu.com/news/national/andhra-pradesh/journalists-urge-action-on-long-pending-amaravati-housing-project/article71186477.ece",
-      "summary": "",
-      "image": "https://th-i.thgim.com/public/incoming/jjkcd6/article71186663.ece/alternates/LANDSCAPE_1200/10745_5_7_2026_21_7_20_1_IMG_20260705_WA0066.JPG",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-07-05T17:16:47.000Z",
+      "id": "nigeria-says-two-nationals-killed-in-south-africa-amid-rise-of-anti-migrant-attacks-world-2026-07-05",
+      "title": "Nigeria says two nationals killed in South Africa amid rise of anti-migrant attacks",
+      "link": "https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Nigeria's government said one of its nationals was reportedly killed by police officers \"using gruesome interrogation techniques\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b20/live/c527be30-760b-11f1-ac6e-25f7e4f0c9b9.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-07-05T17:30:45.000Z",
       "sources": [
         {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/journalists-urge-action-on-long-pending-amaravati-housing-project/article71186477.ece",
-          "summary": "",
-          "publishedAt": "2026-07-05T17:16:47.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "trump-thanks-fifa-after-usa-striker-balogun-s-ban-suspended-general-2026-07-05t17-15-30-000z",
-      "title": "Trump thanks Fifa after USA striker Balogun's ban suspended",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
-      "summary": "Folarin Balogun is available to play for the United States in their World Cup last-16 tie against Belgium after his one-game ban is suspended by Fifa.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bf1/live/3ab6d9e0-7898-11f1-9510-1546718f668b.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-07-05T17:15:30.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
-          "summary": "Folarin Balogun is available to play for the United States in their World Cup last-16 tie against Belgium after his one-game ban is suspended by Fifa.",
-          "publishedAt": "2026-07-05T17:15:30.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "monsoon-disrupts-lives-across-india-mumbai-air-traffic-hit-himachal-kerala-odisha-on-alert-live-upda",
-      "title": "Monsoon disrupts lives across India; Mumbai air traffic hit, Himachal, Kerala, Odisha on alert | Live updates",
-      "link": "https://www.thehindu.com/news/national/india-weather-today-live-updates-monsoon-rain-mumbai-maharashtra-imd-rain-alert-july-5-2026/article71185046.ece",
-      "summary": "Monsoon disrupts lives across India; Mumbai air traffic hit, Himachal, Kerala, Odisha on alert | Live updates &nbsp;&nbsp; The Hindu Mumbai rain chaos: Flights hit, roads flooded, daily life disrupted — top developments &nbsp;&nbsp; The Ti...",
-      "image": "",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-07-05T17:04:20.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/india-weather-today-live-updates-monsoon-rain-mumbai-maharashtra-imd-rain-alert-july-5-2026/article71185046.ece",
-          "summary": "Amid threat of heavy rains, Mumbai civic body orders schools and colleges to remain shut on July 6, 2026",
-          "publishedAt": "2026-07-05T17:04:20.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQU8zU255TkRrR0tud21tWDJDMHlUeWFyYWRFWnZselRBU0dDLWYwb1VSbTBrT05CT0t1dnloYTVucTBCVnJxMGFITXl1N2NPMzhkT2NtUm9UVWFGU3oyTVR0TFBacmhDbEdYR3JnZ2VwS1RSZ2sxc2VyTEFWT0F4YmNHQW1DaUhFRlhhblBzZU9DdnllaHRDVTlYalFOLTdWVHFkUDhxMHk2TVdVTWoyY0lfUDVPMlJYYTJxdlFwQnl5ZnRVTXNON3dKNnZsSnFPTkdzczYxbWZQM05sSDJYSS1FYUbSAesBQVVfeXFMUGtkVk5kRkRWcjRXbmhkQmFQYW1rNV9PMUtHa2JpRlZvVUhFS2xsT3Bxa1VPaExHREJqa0F4STBUdTFhbjk3WU9ENDY5T0FVcUNSbXc5aHVlZG42dmsyZ3NaWTVUbTczUzkzSENna2c3UEhGcUVDbm50ZDFCbFlNaC1NV1E5MFI2ZEVKZE8xTDNDYWNTUmNnY2xrLThhb0R0YWxidmh0NENMWC05aGg1M09ZRnBsWXdUa1pCVDJ4Umc3al9xdXU4VlhTUzgtQll0WmJ0djVMNXl4bE9vRlctTUpGVF9nakpQeS02SQ?oc=5",
-          "summary": "Monsoon disrupts lives across India; Mumbai air traffic hit, Himachal, Kerala, Odisha on alert | Live updates &nbsp;&nbsp; The Hindu Mumbai rain chaos: Flights hit, roads flooded, daily life disrupted — top developments &nbsp;&nbsp; The Ti...",
-          "publishedAt": "2026-07-05T13:07:07.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "20-lakh-names-deleted-after-sir-phase-i-in-odisha-india-2026-07-05t17-00-31-000z",
-      "title": "20 lakh names deleted after SIR Phase I in Odisha",
-      "link": "https://www.thehindu.com/news/national/odisha/20-lakh-names-deleted-after-sir-phase-i-in-odisha/article71186448.ece",
-      "summary": "BJD challenges draft report, saying 27 lakh voters were deleted from electoral roll as against the claimed exclusion of 20 Lakh",
-      "image": "https://th-i.thgim.com/public/incoming/vzsd0o/article71186632.ece/alternates/LANDSCAPE_1200/Election15.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-07-05T17:00:31.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/odisha/20-lakh-names-deleted-after-sir-phase-i-in-odisha/article71186448.ece",
-          "summary": "BJD challenges draft report, saying 27 lakh voters were deleted from electoral roll as against the claimed exclusion of 20 Lakh",
-          "publishedAt": "2026-07-05T17:00:31.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "vivo-x500-pro-max-vs-vivo-x500-the-next-gen-zeiss-cameras-are-taking-shape-tech-2026-07-05t16-15-44",
-      "title": "Vivo X500 Pro Max vs. Vivo X500: The next-gen Zeiss cameras are taking shape",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQckNsVTh6MjlUOWdxb1gtOTIzRllpYWVsUWQzVElvZHk0XzJPZ003eElEaDNHd29oZGlIeXlnek43WnhvdXhMc3FfSW8weUFpX1FTeENDWDQzNmJhcnRUMlliVWI4WDhndnQ5VFI5S0RnamZrQjRfRlJpaUVYdkRyb2RZYlhqOS03OTZpczJkQWwxc1hYVzVtX0ZxbVh2dUQ0TVJJOXdQRndOb2lVS1djYjNQWWJYVXV5bWYw?oc=5",
-      "summary": "Vivo X500 Pro Max vs. Vivo X500: The next-gen Zeiss cameras are taking shape &nbsp;&nbsp; Notebookcheck See more headlines and perspectives on Google News",
-      "image": "",
-      "source": "Notebookcheck",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-07-05T16:15:44.000Z",
-      "sources": [
-        {
-          "name": "Notebookcheck",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQckNsVTh6MjlUOWdxb1gtOTIzRllpYWVsUWQzVElvZHk0XzJPZ003eElEaDNHd29oZGlIeXlnek43WnhvdXhMc3FfSW8weUFpX1FTeENDWDQzNmJhcnRUMlliVWI4WDhndnQ5VFI5S0RnamZrQjRfRlJpaUVYdkRyb2RZYlhqOS03OTZpczJkQWwxc1hYVzVtX0ZxbVh2dUQ0TVJJOXdQRndOb2lVS1djYjNQWWJYVXV5bWYw?oc=5",
-          "summary": "Vivo X500 Pro Max vs. Vivo X500: The next-gen Zeiss cameras are taking shape &nbsp;&nbsp; Notebookcheck See more headlines and perspectives on Google News",
-          "publishedAt": "2026-07-05T16:15:44.000Z"
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss",
+          "summary": "Nigeria's government said one of its nationals was reportedly killed by police officers \"using gruesome interrogation techniques\".",
+          "publishedAt": "2026-07-05T17:30:45.000Z"
         }
       ],
       "sourceCount": 1
@@ -1051,26 +605,6 @@
       "sourceCount": 1
     },
     {
-      "id": "diljit-dosanjh-s-satluj-taken-down-from-zee5-a-day-after-actor-predicted-it-ott-platform-releases-st",
-      "title": "Diljit Dosanjh's Satluj taken down from Zee5 a day after actor predicted it; OTT platform releases statement | Bollywood",
-      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNb0hBS1BrSjFubGRTNmJOU2NoeE5XM0o2ZUV6SzRVQWtwWVVFNE9xWkRERkN6TFNXN0xjYzZZNTNYMlpaaUJscUxOWlRhS3RRbEE4TlI4cUQ1Vm1hR2VtWGRxSUt6U1d0elhjMFNURlJidTNIMDdBTlVNdnFGLXZHQ3g5bmd5aUR0ZXp6TlE3UkdOZkhZbmpyU29WLUQ2VWIyaWREZlNiMmZyNl9HLWJBUThoZzR4RzRSUUZsS0YyMU9tVWRHOEtCZWxXQTltdFhtV0dQVEdYTDBKU3ZzclRaelh3T05pZEdJWEZaN0FUYndDVmdzR0t2RUFQYVNlM2ZFOE1kMmhyMi0yUnNBZDBtVUVjUHdGb0thUEHSAZ8CQVVfeXFMTlcxY0tTdnpIQ1dtRUJzVWpSZ3NzTjN6aHFnNDExajBwY05sdE5WWkF6bXNjMFhXSFhhLU5wYzUyUmg1XzcwZ3BITkwtc2d3WFc4VFB1c2xubzlEaUdXOEdhYzZ4UGFSN25ZQ3Z4MnVqWDZGcXhkZlFtRTVBT1h1dTVXZEpUaWVBTW9QeVhTTkJEU1lERHhEaXdkeVp4b0VXeXYwazJJNm5oMFg3YllfbjBkeXpkTWlfQW54T1hRZ1E0YkcxQTZNcXBabXc4SnBfVGVZUFR1aVNGa2JjLXVFMUV4cE5oRXRQU29iUmVUcVNpd0RSOE5YZngxV3VIUF9BV29OSG00TzUyTWFqOGFWY2lTTlZ1elN0bmFXenZNVlk?oc=5",
-      "summary": "Diljit Dosanjh's Satluj taken down from Zee5 a day after actor predicted it; OTT platform releases statement | Bollywood &nbsp;&nbsp; Hindustan Times \"I Challenge The Darkness\": Diljit Dosanjh's 1st Reaction After SatlujBan &nbsp;&nbsp; ND...",
-      "image": "",
-      "source": "Hindustan Times",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-07-05T15:57:38.000Z",
-      "sources": [
-        {
-          "name": "Hindustan Times",
-          "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNb0hBS1BrSjFubGRTNmJOU2NoeE5XM0o2ZUV6SzRVQWtwWVVFNE9xWkRERkN6TFNXN0xjYzZZNTNYMlpaaUJscUxOWlRhS3RRbEE4TlI4cUQ1Vm1hR2VtWGRxSUt6U1d0elhjMFNURlJidTNIMDdBTlVNdnFGLXZHQ3g5bmd5aUR0ZXp6TlE3UkdOZkhZbmpyU29WLUQ2VWIyaWREZlNiMmZyNl9HLWJBUThoZzR4RzRSUUZsS0YyMU9tVWRHOEtCZWxXQTltdFhtV0dQVEdYTDBKU3ZzclRaelh3T05pZEdJWEZaN0FUYndDVmdzR0t2RUFQYVNlM2ZFOE1kMmhyMi0yUnNBZDBtVUVjUHdGb0thUEHSAZ8CQVVfeXFMTlcxY0tTdnpIQ1dtRUJzVWpSZ3NzTjN6aHFnNDExajBwY05sdE5WWkF6bXNjMFhXSFhhLU5wYzUyUmg1XzcwZ3BITkwtc2d3WFc4VFB1c2xubzlEaUdXOEdhYzZ4UGFSN25ZQ3Z4MnVqWDZGcXhkZlFtRTVBT1h1dTVXZEpUaWVBTW9QeVhTTkJEU1lERHhEaXdkeVp4b0VXeXYwazJJNm5oMFg3YllfbjBkeXpkTWlfQW54T1hRZ1E0YkcxQTZNcXBabXc4SnBfVGVZUFR1aVNGa2JjLXVFMUV4cE5oRXRQU29iUmVUcVNpd0RSOE5YZngxV3VIUF9BV29OSG00TzUyTWFqOGFWY2lTTlZ1elN0bmFXenZNVlk?oc=5",
-          "summary": "Diljit Dosanjh's Satluj taken down from Zee5 a day after actor predicted it; OTT platform releases statement | Bollywood &nbsp;&nbsp; Hindustan Times \"I Challenge The Darkness\": Diljit Dosanjh's 1st Reaction After SatlujBan &nbsp;&nbsp; ND...",
-          "publishedAt": "2026-07-05T15:57:38.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "from-a-beautiful-night-to-world-s-greatest-hangover-guests-react-to-taylor-and-travis-s-wedding-gene",
       "title": "From 'a beautiful night' to 'world's greatest hangover', guests react to Taylor and Travis's wedding",
       "link": "https://www.bbc.co.uk/news/articles/clyxxr9n2kjo?at_medium=RSS&at_campaign=rss",
@@ -1086,26 +620,6 @@
           "link": "https://www.bbc.co.uk/news/articles/clyxxr9n2kjo?at_medium=RSS&at_campaign=rss",
           "summary": "Some of the famous guests have been posting on social media about the big day in New York.",
           "publishedAt": "2026-07-05T15:48:20.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "the-5-best-fitness-trackers-we-ve-seen-so-far-this-year-from-google-and-garmin-to-sleeper-hits-from",
-      "title": "The 5 best fitness trackers we've seen so far this year, from Google and Garmin to sleeper hits from Amazfit",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQNXlveHhtQjBad3pzcUNQM0ticlZja1dWa2dZXzMybEEtUzl5UHFxNlRVV2xoS1lob3Fua24tdVk2Z3EwS3lUS2ludVdUN3ZOejNuN01ORnhqZndwTVpra1c4WjZLd0VQQzFkSW1fVzVEV3dCbEpTLUJxQ2ZmcnF6R3FPWkhmNWtzcHJOUjM4Ukl5X01COTkyUHVSQWY5dWI2NDRYZ2MwVk1XME1NM241cWtWbzRCOE1kTktnODBNUTZqNWJvQXUxWldBTHZ2MGFPUFFVUDBYS2xhd1ctY2lBRUdXUW9XZXJoZTRfMndYWHBwRXM3RmNj?oc=5",
-      "summary": "The 5 best fitness trackers we've seen so far this year, from Google and Garmin to sleeper hits from Amazfit &nbsp;&nbsp; TechRadar AI-powered wearables redefine relaxation, recovery in the first half of 2026 &nbsp;&nbsp; Business News Nig...",
-      "image": "",
-      "source": "TechRadar",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-07-05T15:00:00.000Z",
-      "sources": [
-        {
-          "name": "TechRadar",
-          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQNXlveHhtQjBad3pzcUNQM0ticlZja1dWa2dZXzMybEEtUzl5UHFxNlRVV2xoS1lob3Fua24tdVk2Z3EwS3lUS2ludVdUN3ZOejNuN01ORnhqZndwTVpra1c4WjZLd0VQQzFkSW1fVzVEV3dCbEpTLUJxQ2ZmcnF6R3FPWkhmNWtzcHJOUjM4Ukl5X01COTkyUHVSQWY5dWI2NDRYZ2MwVk1XME1NM241cWtWbzRCOE1kTktnODBNUTZqNWJvQXUxWldBTHZ2MGFPUFFVUDBYS2xhd1ctY2lBRUdXUW9XZXJoZTRfMndYWHBwRXM3RmNj?oc=5",
-          "summary": "The 5 best fitness trackers we've seen so far this year, from Google and Garmin to sleeper hits from Amazfit &nbsp;&nbsp; TechRadar AI-powered wearables redefine relaxation, recovery in the first half of 2026 &nbsp;&nbsp; Business News Nig...",
-          "publishedAt": "2026-07-05T15:00:00.000Z"
         }
       ],
       "sourceCount": 1
@@ -1131,66 +645,6 @@
       "sourceCount": 1
     },
     {
-      "id": "iphone-18-launch-date-leaked-here-s-when-apple-could-unveil-the-new-lineup-tech-2026-07-05t14-50-06",
-      "title": "iPhone 18 launch date leaked? Here's when Apple could unveil the new lineup",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSURwU042ZTE1ekpRaVh2ZkxrUUp3SlNJemZiYS15dmlYamZNRl8wRWhPV1NtRHdkRE1MSVVsbFJoQ0Q4VzZvVHR0a3ZoRzh3VjVhcHBFb2s0MWFFc2xQeFYxa1VGaHVFSVNWWVNvaFlvQXlFMTc1WXJYODdGalNXQ3BwbjR6SGIxSHN3VWZkUVZUOEo1UmQ5MkhpajNnMHF2Q1Q4ZjdfSS02NTBrSkVkWU8tUW9ySHFQQVHSAb8BQVVfeXFMTVF1REo5VHdxbGp5OURkbmVkOFo3Rmg3NXhPdF82SUlWbmFuNW54WkVzWlo2eVA4X2ExWG5JOGRYdjBwbU5wdmlBQ1pvWXg1M2FGQ1RXSHNWTzJwejZ3UWRaLUtaOXMzNC1iOTBXeFNnSFhONEtTdFpyWFdDbWxCTzdlcUpHY0VFbkZOeGtSV2lPRmhNYzdZc0JkX3ctY3lhMlBUcm8xdmZXdzJ6WUpYbjlIUGppQThRWU5sOVpPdG8?oc=5",
-      "summary": "iPhone 18 launch date leaked? Here's when Apple could unveil the new lineup &nbsp;&nbsp; Firstpost iPhone 18 Pro Release Date: A New September Timeline Emerges &nbsp;&nbsp; Forbes The iPhone 18 Pro is so much thicker than the iPhone 17 Pro...",
-      "image": "",
-      "source": "Firstpost",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-07-05T14:50:06.000Z",
-      "sources": [
-        {
-          "name": "Firstpost",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSURwU042ZTE1ekpRaVh2ZkxrUUp3SlNJemZiYS15dmlYamZNRl8wRWhPV1NtRHdkRE1MSVVsbFJoQ0Q4VzZvVHR0a3ZoRzh3VjVhcHBFb2s0MWFFc2xQeFYxa1VGaHVFSVNWWVNvaFlvQXlFMTc1WXJYODdGalNXQ3BwbjR6SGIxSHN3VWZkUVZUOEo1UmQ5MkhpajNnMHF2Q1Q4ZjdfSS02NTBrSkVkWU8tUW9ySHFQQVHSAb8BQVVfeXFMTVF1REo5VHdxbGp5OURkbmVkOFo3Rmg3NXhPdF82SUlWbmFuNW54WkVzWlo2eVA4X2ExWG5JOGRYdjBwbU5wdmlBQ1pvWXg1M2FGQ1RXSHNWTzJwejZ3UWRaLUtaOXMzNC1iOTBXeFNnSFhONEtTdFpyWFdDbWxCTzdlcUpHY0VFbkZOeGtSV2lPRmhNYzdZc0JkX3ctY3lhMlBUcm8xdmZXdzJ6WUpYbjlIUGppQThRWU5sOVpPdG8?oc=5",
-          "summary": "iPhone 18 launch date leaked? Here's when Apple could unveil the new lineup &nbsp;&nbsp; Firstpost iPhone 18 Pro Release Date: A New September Timeline Emerges &nbsp;&nbsp; Forbes The iPhone 18 Pro is so much thicker than the iPhone 17 Pro...",
-          "publishedAt": "2026-07-05T14:50:06.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "alpha-box-office-collection-day-2-live-update-alia-bhatt-film-earns-over-rs-37-cr-worldwide-crosses",
-      "title": "Alpha Box Office Collection Day 2 Live Update: Alia Bhatt film earns over Rs 37 cr worldwide; crosses Rs 12 cr mark on Sunday",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdTRRTVpwME04SlBtbFRxQzlKRElMOWp3bUwya1ViWXdxLUxJTUU5UjZ6ZG9EdDZSekM1ajI2SWxMYUlIOU5yQXdLUW9tZ3RJZUNOYWlNRW1Bd1djMGxRVmlWYXF3VVBTTGdNTzdjZUlManJaZWd4REZWUFcyaDVSZHZVaEtpTVV6Y2hkZ0d3R3JSV3lIT2VDbENPdV8wQk92bF8wdVRKMHdsdW5EUTViSHVDSVNfNU5HT1JnNW5HalMwTGZvM1U2YUNlMzNQZVhpRDkzdnZRbzc4aGNaOHc3YUpn0gHoAUFVX3lxTE9WNTJWX2VCQTNENEY5TXJqc3hlLVR5dHlTOElkcnYzS1BDaWw5dTFqOHhrTU9IVGo0ZVFpVkJHT0tPd2pnWkZxdVlqMGxTSVdvazVzbEF0bDhsQ0FYMExGWTFMdUxXX0pUV1VCTlpYaEtnUmU0d3FKbE5MUlBqTEd4bkZ4UU4wLWstQzZXRGV1cXpnUjlYQ3IxRjRlbjI4bEVqRXRtQjlLc1NiNUV3MlZsRkFpRVRsazJzSWNVMENUWUt5NlVoLVFPcWJqblhKa2dSZnF5cVBOZmZHYnhSTlZ1S3lZdjExSjI?oc=5",
-      "summary": "Alpha Box Office Collection Day 2 Live Update: Alia Bhatt film earns over Rs 37 cr worldwide; crosses Rs 12 cr mark on Sunday &nbsp;&nbsp; The Indian Express Alia Bhatt, Sharvari-starrer ‘Alpha’ registers improvement in collection on Day 2...",
-      "image": "",
-      "source": "The Indian Express",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-07-05T14:49:00.000Z",
-      "sources": [
-        {
-          "name": "The Indian Express",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdTRRTVpwME04SlBtbFRxQzlKRElMOWp3bUwya1ViWXdxLUxJTUU5UjZ6ZG9EdDZSekM1ajI2SWxMYUlIOU5yQXdLUW9tZ3RJZUNOYWlNRW1Bd1djMGxRVmlWYXF3VVBTTGdNTzdjZUlManJaZWd4REZWUFcyaDVSZHZVaEtpTVV6Y2hkZ0d3R3JSV3lIT2VDbENPdV8wQk92bF8wdVRKMHdsdW5EUTViSHVDSVNfNU5HT1JnNW5HalMwTGZvM1U2YUNlMzNQZVhpRDkzdnZRbzc4aGNaOHc3YUpn0gHoAUFVX3lxTE9WNTJWX2VCQTNENEY5TXJqc3hlLVR5dHlTOElkcnYzS1BDaWw5dTFqOHhrTU9IVGo0ZVFpVkJHT0tPd2pnWkZxdVlqMGxTSVdvazVzbEF0bDhsQ0FYMExGWTFMdUxXX0pUV1VCTlpYaEtnUmU0d3FKbE5MUlBqTEd4bkZ4UU4wLWstQzZXRGV1cXpnUjlYQ3IxRjRlbjI4bEVqRXRtQjlLc1NiNUV3MlZsRkFpRVRsazJzSWNVMENUWUt5NlVoLVFPcWJqblhKa2dSZnF5cVBOZmZHYnhSTlZ1S3lZdjExSjI?oc=5",
-          "summary": "Alpha Box Office Collection Day 2 Live Update: Alia Bhatt film earns over Rs 37 cr worldwide; crosses Rs 12 cr mark on Sunday &nbsp;&nbsp; The Indian Express Alia Bhatt, Sharvari-starrer ‘Alpha’ registers improvement in collection on Day 2...",
-          "publishedAt": "2026-07-05T14:49:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "kuo-predicts-that-the-foldable-iphone-may-follow-the-iphone-x-launch-pattern-with-supply-constraints",
-      "title": "Kuo predicts that the foldable iPhone may follow the iPhone X launch pattern, with supply constraints lasting until the end of 2026.",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM1M3bHZvam1lNnZ0RzZHcDd5R1F3cGVBR0xGTUFjUl9ueWpwUkwzbUZ4aG00Q082Ulh0cmlyRkg4aXJrLVZIY3pMVndKV2VtSUlEbExJblliRWo3dWNXYWxwVTFFakxhcnFGblZCSTRobkRxNFNjcXIxOXJrZ0YwZ0hqZVc5alJFeDFzdjZtdUdFTkFkZ2pSUzJfR1haUWE4SFUzQjU0cXVJVV96NUdTbF9sNFdSUFlPcE96Mkc5Q2x4ZjV1Tkpn?oc=5",
-      "summary": "Kuo predicts that the foldable iPhone may follow the iPhone X launch pattern, with supply constraints lasting until the end of 2026. &nbsp;&nbsp; KuCoin Apple to launch 5 new iPhone models to gain market share amid memory crunch &nbsp;&nbs...",
-      "image": "",
-      "source": "KuCoin",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-07-05T14:32:25.000Z",
-      "sources": [
-        {
-          "name": "KuCoin",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM1M3bHZvam1lNnZ0RzZHcDd5R1F3cGVBR0xGTUFjUl9ueWpwUkwzbUZ4aG00Q082Ulh0cmlyRkg4aXJrLVZIY3pMVndKV2VtSUlEbExJblliRWo3dWNXYWxwVTFFakxhcnFGblZCSTRobkRxNFNjcXIxOXJrZ0YwZ0hqZVc5alJFeDFzdjZtdUdFTkFkZ2pSUzJfR1haUWE4SFUzQjU0cXVJVV96NUdTbF9sNFdSUFlPcE96Mkc5Q2x4ZjV1Tkpn?oc=5",
-          "summary": "Kuo predicts that the foldable iPhone may follow the iPhone X launch pattern, with supply constraints lasting until the end of 2026. &nbsp;&nbsp; KuCoin Apple to launch 5 new iPhone models to gain market share amid memory crunch &nbsp;&nbs...",
-          "publishedAt": "2026-07-05T14:32:25.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "infuriating-google-commercial-imagines-the-founding-fathers-embracing-ai-tech-2026-07-05t14-23-11-00",
       "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
       "link": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
@@ -1206,46 +660,6 @@
           "link": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
           "summary": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and...",
           "publishedAt": "2026-07-05T14:23:11.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "when-salman-khan-joked-aamir-khan-jab-tak-marriage-perfect-nahi-karega-woh-karta-jayega-referring-to",
-      "title": "When Salman Khan joked, 'Aamir Khan jab tak marriage perfect nahi karega, woh karta jayega' referring to",
-      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNeVJqUWdkT2c2UGRBSEVEM3ozeFFxOTNfR2k4TGZNWXZNMjNCQWx3WXBlQ09Vcm11NWE3OGQ2bUozaWdPWTctMDVEZmwzY24tWVBMM2Z6VlpqSDg3ZVRuX0dGQ3puQnNuekxYUHZBV3NyOURMZ05pVjJSdEZwbFN3NTI1a2laNnVlMUNCMzZKX0hwS3JYRGc2RUdUc1FMeWcyNWJPOUhBRkFTbWItQlFqX3BpRXBxV0pSSEJXTXhCbkczNFdNdEZXdGFVQnpQaFJUcm5NdGVjaTdaZUZ2dmJ6eVJOeWNzVEs3UTlhdC0yRE05bnBrcFFBNmZTTW9yNzFlUHlNZGFmUGFGQXVLNEZJd3VBS1JaWmstYU05RjJDWDFFRFZrSVZKekRXMEZNUXczLVRvdlFraTBrZlg3bENfYUpR?oc=5",
-      "summary": "When Salman Khan joked, 'Aamir Khan jab tak marriage perfect nahi karega, woh karta jayega' referring to &nbsp;&nbsp; The Times of India When Salman Khan Said Aamir Khan Would Keep Marrying Until He 'Perfected' It &nbsp;&nbsp; NDTV Salman...",
-      "image": "",
-      "source": "The Times of India",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-07-05T14:13:00.000Z",
-      "sources": [
-        {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNeVJqUWdkT2c2UGRBSEVEM3ozeFFxOTNfR2k4TGZNWXZNMjNCQWx3WXBlQ09Vcm11NWE3OGQ2bUozaWdPWTctMDVEZmwzY24tWVBMM2Z6VlpqSDg3ZVRuX0dGQ3puQnNuekxYUHZBV3NyOURMZ05pVjJSdEZwbFN3NTI1a2laNnVlMUNCMzZKX0hwS3JYRGc2RUdUc1FMeWcyNWJPOUhBRkFTbWItQlFqX3BpRXBxV0pSSEJXTXhCbkczNFdNdEZXdGFVQnpQaFJUcm5NdGVjaTdaZUZ2dmJ6eVJOeWNzVEs3UTlhdC0yRE05bnBrcFFBNmZTTW9yNzFlUHlNZGFmUGFGQXVLNEZJd3VBS1JaWmstYU05RjJDWDFFRFZrSVZKekRXMEZNUXczLVRvdlFraTBrZlg3bENfYUpR?oc=5",
-          "summary": "When Salman Khan joked, 'Aamir Khan jab tak marriage perfect nahi karega, woh karta jayega' referring to &nbsp;&nbsp; The Times of India When Salman Khan Said Aamir Khan Would Keep Marrying Until He 'Perfected' It &nbsp;&nbsp; NDTV Salman...",
-          "publishedAt": "2026-07-05T14:13:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "millionaire-on-matrimonial-site-rapes-thane-woman-dupes-her-of-rs-41-lakh-general-2026-07-05t14-03-1",
-      "title": "'Millionaire' On Matrimonial Site Rapes Thane Woman, Dupes Her Of Rs 41 Lakh",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcFNka0JfRExtcTFBTVU2Ykl4MDdOaFZHTll2dGw2bEtfajNQcHJVODN2UnpCbWktc3ZxSTlzUUlTQjBOTWE2dWV3LXRCb2xYQzhzZDVDS1NFS0cwRnhnVVUtVWlDZW5EdVVfdWVVY1lKcmsyZktfV2E5NmRPMHZ0dENXcUpjVXZJV216RFJHWVRLdVl1X2RIODNicjdCeDNmRmMtUWNWNVdWMzhnb25OYV9wVUbSAbwBQVVfeXFMUHV0cFBaX1NZd19WQVM1cDhLa3dLTVZpdVMxUmgtYXZHSmFveHhyb1RDTnk0Wjl6SWNGNGlpaERUdkUxRy12cGJkMmU3YUJrNzlPR1AwaUw5Mjl3dmY5SkNQZGdNUjJpbC1FeGRuanV6NWRtbDZPRmluSmp3dUlTQmxBV1lNSzhmbFFKbG5zTFpZLWZWYkJVUkVjWmR4bXZqMTFBR0VVWUZxd2JBZmhCZTRSMTAxNFF3QThBcDE?oc=5",
-      "summary": "'Millionaire' On Matrimonial Site Rapes Thane Woman, Dupes Her Of Rs 41 Lakh &nbsp;&nbsp; NDTV Maharashtra man poses as millionaire on matrimonial site, rapes woman and dupes her of Rs 41 lakh &nbsp;&nbsp; Deccan Herald Maharashtra man pos...",
-      "image": "",
-      "source": "NDTV",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-07-05T14:03:13.000Z",
-      "sources": [
-        {
-          "name": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcFNka0JfRExtcTFBTVU2Ykl4MDdOaFZHTll2dGw2bEtfajNQcHJVODN2UnpCbWktc3ZxSTlzUUlTQjBOTWE2dWV3LXRCb2xYQzhzZDVDS1NFS0cwRnhnVVUtVWlDZW5EdVVfdWVVY1lKcmsyZktfV2E5NmRPMHZ0dENXcUpjVXZJV216RFJHWVRLdVl1X2RIODNicjdCeDNmRmMtUWNWNVdWMzhnb25OYV9wVUbSAbwBQVVfeXFMUHV0cFBaX1NZd19WQVM1cDhLa3dLTVZpdVMxUmgtYXZHSmFveHhyb1RDTnk0Wjl6SWNGNGlpaERUdkUxRy12cGJkMmU3YUJrNzlPR1AwaUw5Mjl3dmY5SkNQZGdNUjJpbC1FeGRuanV6NWRtbDZPRmluSmp3dUlTQmxBV1lNSzhmbFFKbG5zTFpZLWZWYkJVUkVjWmR4bXZqMTFBR0VVWUZxd2JBZmhCZTRSMTAxNFF3QThBcDE?oc=5",
-          "summary": "'Millionaire' On Matrimonial Site Rapes Thane Woman, Dupes Her Of Rs 41 Lakh &nbsp;&nbsp; NDTV Maharashtra man poses as millionaire on matrimonial site, rapes woman and dupes her of Rs 41 lakh &nbsp;&nbsp; Deccan Herald Maharashtra man pos...",
-          "publishedAt": "2026-07-05T14:03:13.000Z"
         }
       ],
       "sourceCount": 1
@@ -1271,26 +685,6 @@
       "sourceCount": 1
     },
     {
-      "id": "japan-space-probe-skims-asteroid-in-test-for-planetary-defence-tech-2026-07-05t13-58-57-000z",
-      "title": "Japan space probe skims asteroid in test for planetary defence",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNFhaaUY3elF5ejRzOU5TWkh2TlQwdDNURTVTMXNTbXdsejRzZURtMlI5XzBhaW4zeW9wanoyaDBlQ2JtbWNIQm13OWFqdnRpQXowZ0ZIMDJPeUJQVTdBdlFrUFF4aExSS3NudXBnMWhnV1dFNmRpX0tVTDYwcGZXb0U4R3RYcWpwSW1obm9uV2dUYjA?oc=5",
-      "summary": "Japan space probe skims asteroid in test for planetary defence &nbsp;&nbsp; Macau Business Japan Space Probe Performs Flyby Of Asteroid. It May Help Protect The Earth &nbsp;&nbsp; NDTV Hayabusa2 flies past asteroid as Japan aims to acquire...",
-      "image": "",
-      "source": "Macau Business",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-07-05T13:58:57.000Z",
-      "sources": [
-        {
-          "name": "Macau Business",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNFhaaUY3elF5ejRzOU5TWkh2TlQwdDNURTVTMXNTbXdsejRzZURtMlI5XzBhaW4zeW9wanoyaDBlQ2JtbWNIQm13OWFqdnRpQXowZ0ZIMDJPeUJQVTdBdlFrUFF4aExSS3NudXBnMWhnV1dFNmRpX0tVTDYwcGZXb0U4R3RYcWpwSW1obm9uV2dUYjA?oc=5",
-          "summary": "Japan space probe skims asteroid in test for planetary defence &nbsp;&nbsp; Macau Business Japan Space Probe Performs Flyby Of Asteroid. It May Help Protect The Earth &nbsp;&nbsp; NDTV Hayabusa2 flies past asteroid as Japan aims to acquire...",
-          "publishedAt": "2026-07-05T13:58:57.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "how-keurig-saved-and-ruined-your-coffee-tech-2026-07-05t13-51-56-000z",
       "title": "How Keurig saved — and ruined — your coffee",
       "link": "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history",
@@ -1306,46 +700,6 @@
           "link": "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history",
           "summary": "Before Keurig, the coffee in your office was almost certainly terrible. Old, burned, made by someone who would rather poorly eyeball than properly measure. Just altogether gross. After Keurig? You could make your own coffee, a cup at a tim...",
           "publishedAt": "2026-07-05T13:51:56.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "hindus-have-been-hypnotised-uddhav-thackeray-revives-old-sena-pitch-with-ayodhya-ram-mandir-donation",
-      "title": "‘Hindus have been hypnotised’: Uddhav Thackeray revives old Sena pitch with Ayodhya Ram Mandir donation row | India News",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQdmhmMXVjU0ZiMjg5ejlEVFFNZU5EUXZ2dU9mdmQ3anZwNkZfQ3FMZlFPMzJBQ1hmX0NoVndHcTNGVzBkQWVMbG1mT09wZHFCWkNjOG9jWVpYbEZtcC1XY1ZFaUlSMmRabkIyc0FFWGx5UWUyTC10YUMxRC1oemxoRW1vTVJ0eTUwUlZPWFFNZTYxYmVubEFJVW9UYktsUHRIVHFRbmhrWGFPTVhYSjRkTXRyVU5jNEY5WEdpSnIwU3RLRFFHb3BzUFNNYnkxY0VSZjBMbS1qdHhiZkhtZi1PNk9sejZLXzkyS0FWd3MwVVJ2MHp2V0lLX0VINA?oc=5",
-      "summary": "‘Hindus have been hypnotised’: Uddhav Thackeray revives old Sena pitch with Ayodhya Ram Mandir donation row | India News &nbsp;&nbsp; Hindustan Times 'Abandoned Ram's Path': BJP Retort On Uddhav Thackeray's Temple Theft Barbs &nbsp;&nbsp;...",
-      "image": "",
-      "source": "Hindustan Times",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-07-05T13:13:53.000Z",
-      "sources": [
-        {
-          "name": "Hindustan Times",
-          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQdmhmMXVjU0ZiMjg5ejlEVFFNZU5EUXZ2dU9mdmQ3anZwNkZfQ3FMZlFPMzJBQ1hmX0NoVndHcTNGVzBkQWVMbG1mT09wZHFCWkNjOG9jWVpYbEZtcC1XY1ZFaUlSMmRabkIyc0FFWGx5UWUyTC10YUMxRC1oemxoRW1vTVJ0eTUwUlZPWFFNZTYxYmVubEFJVW9UYktsUHRIVHFRbmhrWGFPTVhYSjRkTXRyVU5jNEY5WEdpSnIwU3RLRFFHb3BzUFNNYnkxY0VSZjBMbS1qdHhiZkhtZi1PNk9sejZLXzkyS0FWd3MwVVJ2MHp2V0lLX0VINA?oc=5",
-          "summary": "‘Hindus have been hypnotised’: Uddhav Thackeray revives old Sena pitch with Ayodhya Ram Mandir donation row | India News &nbsp;&nbsp; Hindustan Times 'Abandoned Ram's Path': BJP Retort On Uddhav Thackeray's Temple Theft Barbs &nbsp;&nbsp;...",
-          "publishedAt": "2026-07-05T13:13:53.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "trade-setup-for-july-6-top-15-things-to-know-before-the-opening-bell-business-2026-07-05t13-01-50-00",
-      "title": "Trade Setup for July 6: Top 15 things to know before the opening bell",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQamNQc3Q5ckhiSHlhek14QWs5eDk3ZG1KODdpSXFCcDJkVmE5MEhvTU5mVWVfQ0FoX3IyN1FKTTNuaHdWVUx1MDJwc0Q5RFBGZWFlVEFUQmh1YnJQWldRa1pZTnk5cWdGMHdpRGJPRWpGMUlBZFdTLXZLWHFsX2hMVndLTkZmUXkwaGtHMzVzdXhWQ0xRYnR4VkxpMVZYT0Z3MFlZOFByQlNpYlFzZzZRX1lnTmw1bTlRZ0tBY1lPOXg3M21zTjB0ZUVqTHNYUdIB0wFBVV95cUxQOFVkRzI2aWxlc3paZWRRdTJpY0YtTjk1blE2SnJqOE1zYkpOdEZreThraWI1RVNpTGdNV2d6eDNHMDA0ejNYYllyVFpqRXVGZHdmXzVLZVBzUFEydXpRYVpiVlJLRUdjTS1hMm5lUUFvMU1uVF9sYVhSSmhyS1F4dlpUdWpZbEZqVTVFX0pubkxxZmtIR2tBbDczdDg5dy1aQVk2SnIxTXhBbkhPdmFaeGI3RmdEMG9EZ1YyajlPd2hpMThRUFhwaGFtczdjS0ZjNmxF?oc=5",
-      "summary": "Trade Setup for July 6: Top 15 things to know before the opening bell &nbsp;&nbsp; Moneycontrol.com Stock markets take winning run to third day; Sensex climbs 262 points &nbsp;&nbsp; The Hindu Weekly Market Wrap: NIFTY50, SENSEX rise 1%, N...",
-      "image": "",
-      "source": "Moneycontrol.com",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-07-05T13:01:50.000Z",
-      "sources": [
-        {
-          "name": "Moneycontrol.com",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQamNQc3Q5ckhiSHlhek14QWs5eDk3ZG1KODdpSXFCcDJkVmE5MEhvTU5mVWVfQ0FoX3IyN1FKTTNuaHdWVUx1MDJwc0Q5RFBGZWFlVEFUQmh1YnJQWldRa1pZTnk5cWdGMHdpRGJPRWpGMUlBZFdTLXZLWHFsX2hMVndLTkZmUXkwaGtHMzVzdXhWQ0xRYnR4VkxpMVZYT0Z3MFlZOFByQlNpYlFzZzZRX1lnTmw1bTlRZ0tBY1lPOXg3M21zTjB0ZUVqTHNYUdIB0wFBVV95cUxQOFVkRzI2aWxlc3paZWRRdTJpY0YtTjk1blE2SnJqOE1zYkpOdEZreThraWI1RVNpTGdNV2d6eDNHMDA0ejNYYllyVFpqRXVGZHdmXzVLZVBzUFEydXpRYVpiVlJLRUdjTS1hMm5lUUFvMU1uVF9sYVhSSmhyS1F4dlpUdWpZbEZqVTVFX0pubkxxZmtIR2tBbDczdDg5dy1aQVk2SnIxTXhBbkhPdmFaeGI3RmdEMG9EZ1YyajlPd2hpMThRUFhwaGFtczdjS0ZjNmxF?oc=5",
-          "summary": "Trade Setup for July 6: Top 15 things to know before the opening bell &nbsp;&nbsp; Moneycontrol.com Stock markets take winning run to third day; Sensex climbs 262 points &nbsp;&nbsp; The Hindu Weekly Market Wrap: NIFTY50, SENSEX rise 1%, N...",
-          "publishedAt": "2026-07-05T13:01:50.000Z"
         }
       ],
       "sourceCount": 1
@@ -1391,66 +745,6 @@
       "sourceCount": 1
     },
     {
-      "id": "reform-denies-rules-broken-by-farage-after-benefits-from-ally-not-declared-general-2026-07-05t12-31",
-      "title": "Reform denies rules broken by Farage after benefits from ally not declared",
-      "link": "https://www.bbc.co.uk/news/articles/cy0424end7vo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Sunday Times says the Reform UK leader failed to register the support supplied by a cryptocurrency entrepreneur who had been convicted of fraud.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/862f/live/dccd2af0-7856-11f1-975d-e3c93736afa3.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-07-05T12:31:39.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/cy0424end7vo?at_medium=RSS&at_campaign=rss",
-          "summary": "The Sunday Times says the Reform UK leader failed to register the support supplied by a cryptocurrency entrepreneur who had been convicted of fraud.",
-          "publishedAt": "2026-07-05T12:31:39.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "tata-explains-why-sierra-ev-75-rwd-makes-less-power-than-sierra-ev-63-business-2026-07-05t12-11-58-0",
-      "title": "Tata Explains Why Sierra EV 75 RWD Makes Less Power Than Sierra EV 63",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNzU1cVR2amtrc25xQWlpdVRLSGY0VnViX2tYNk5jakF1LTRJXzVTNnRDOE05MHIyUTlqdjZrQlVjMEZZWkQ1ZFJkRHQ4RlFEMUFQT240aGRUd0xpaGNlclJVWi1nSFRfeDVUNm1PUWdNaHFBa1I3Y2dYUlRtcXlyM2s5SlRVNW5Tb0hDbWVaVzlPemI2OWp6WnZoRDQzZ0J5eWh1UWE1V0VKS2hn0gGsAUFVX3lxTE83NTVxVHZqa2tzbnFBaWl1VEtIZjRWdWJfa1g2TmNqQXUtNElfNVM2dEM4TTkwcjJROWp2NmtCVWMwRllaRDVkUmREdDhGUUQxQVBPbjRoZFR3TGloY2VyUlVaLWdIVF94NVQ2bU9RZ01ocUFrUjdjZ1hSVG1xeXIzazlKVFU1blNvSENtZVpXOU96YjY5anpadmhENDNnQnl5aHVRYTVXRUpLaGc?oc=5",
-      "summary": "Tata Explains Why Sierra EV 75 RWD Makes Less Power Than Sierra EV 63 &nbsp;&nbsp; RushLane Tata Sierra/Sierra EV special editions in the works; EV set for exports &nbsp;&nbsp; CarWale Tata Sierra EV Adventure Vs Empowered: Should You Stre...",
-      "image": "",
-      "source": "RushLane",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-07-05T12:11:58.000Z",
-      "sources": [
-        {
-          "name": "RushLane",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNzU1cVR2amtrc25xQWlpdVRLSGY0VnViX2tYNk5jakF1LTRJXzVTNnRDOE05MHIyUTlqdjZrQlVjMEZZWkQ1ZFJkRHQ4RlFEMUFQT240aGRUd0xpaGNlclJVWi1nSFRfeDVUNm1PUWdNaHFBa1I3Y2dYUlRtcXlyM2s5SlRVNW5Tb0hDbWVaVzlPemI2OWp6WnZoRDQzZ0J5eWh1UWE1V0VKS2hn0gGsAUFVX3lxTE83NTVxVHZqa2tzbnFBaWl1VEtIZjRWdWJfa1g2TmNqQXUtNElfNVM2dEM4TTkwcjJROWp2NmtCVWMwRllaRDVkUmREdDhGUUQxQVBPbjRoZFR3TGloY2VyUlVaLWdIVF94NVQ2bU9RZ01ocUFrUjdjZ1hSVG1xeXIzazlKVFU1blNvSENtZVpXOU96YjY5anpadmhENDNnQnl5aHVRYTVXRUpLaGc?oc=5",
-          "summary": "Tata Explains Why Sierra EV 75 RWD Makes Less Power Than Sierra EV 63 &nbsp;&nbsp; RushLane Tata Sierra/Sierra EV special editions in the works; EV set for exports &nbsp;&nbsp; CarWale Tata Sierra EV Adventure Vs Empowered: Should You Stre...",
-          "publishedAt": "2026-07-05T12:11:58.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "police-inquiry-into-yes-scotland-campaign-s-missing-1-5m-claim-general-2026-07-05t12-05-45-000z",
-      "title": "Police inquiry into Yes Scotland campaign's 'missing £1.5m' claim",
-      "link": "https://www.bbc.co.uk/news/articles/ce955jp3jz9o?at_medium=RSS&at_campaign=rss",
-      "summary": "It is claimed funds raised for the group which campaigned for independence in the 2014 referendum are \"unaccounted for\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a872/live/4c3d6560-7868-11f1-ab53-3dbca6ef5ee1.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-07-05T12:05:45.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/ce955jp3jz9o?at_medium=RSS&at_campaign=rss",
-          "summary": "It is claimed funds raised for the group which campaigned for independence in the 2014 referendum are \"unaccounted for\".",
-          "publishedAt": "2026-07-05T12:05:45.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "xbox-is-a-disaster-tech-2026-07-05t12-00-00-000z",
       "title": "Xbox is a disaster",
       "link": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
@@ -1466,66 +760,6 @@
           "link": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
           "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the bleak state of the video game industry, follow Andrew Webster. The Stepback arrives in our subscribers' inboxes on Sunday at 8...",
           "publishedAt": "2026-07-05T12:00:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "nasa-launches-rescue-mission-to-save-ageing-swift-space-telescope-tech-2026-07-05t11-59-34-000z",
-      "title": "NASA launches rescue mission to save ageing Swift space telescope",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTE8tLWsyR1gtemZQOVoxbVR0NzZNVWwzWVJNd0NTT3NXMndRbzVSQV9TWjdDZEhJOUVLeklSZV9kVDRSRm81TUt2cV83cnlEc3E0d25GQ1FnNVVLR09LSFlNRW1uclJSc19RSllXYzYtdVhDa0NNc0owdUxEVml3N2oxZjVxNFg2M3RUR0I3dGZKWGtaR3ZQUFlQLXExeGpPcEJfSVVwd09femI2WTItQnBmTE1ReE5RbllzQkhDZw?oc=5",
-      "summary": "NASA launches rescue mission to save ageing Swift space telescope &nbsp;&nbsp; The Daily Star Nasa launches mission to save falling space telescope &nbsp;&nbsp; BBC Teams Make Contact With Spacecraft Set to Boost NASA’s Swift &nbsp;&nbsp;...",
-      "image": "",
-      "source": "The Daily Star",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-07-05T11:59:34.000Z",
-      "sources": [
-        {
-          "name": "The Daily Star",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTE8tLWsyR1gtemZQOVoxbVR0NzZNVWwzWVJNd0NTT3NXMndRbzVSQV9TWjdDZEhJOUVLeklSZV9kVDRSRm81TUt2cV83cnlEc3E0d25GQ1FnNVVLR09LSFlNRW1uclJSc19RSllXYzYtdVhDa0NNc0owdUxEVml3N2oxZjVxNFg2M3RUR0I3dGZKWGtaR3ZQUFlQLXExeGpPcEJfSVVwd09femI2WTItQnBmTE1ReE5RbllzQkhDZw?oc=5",
-          "summary": "NASA launches rescue mission to save ageing Swift space telescope &nbsp;&nbsp; The Daily Star Nasa launches mission to save falling space telescope &nbsp;&nbsp; BBC Teams Make Contact With Spacecraft Set to Boost NASA’s Swift &nbsp;&nbsp;...",
-          "publishedAt": "2026-07-05T11:59:34.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "2-months-after-wedding-delhi-woman-found-dead-family-alleges-murder-general-2026-07-05t11-44-42-000z",
-      "title": "2 Months After Wedding, Delhi Woman Found Dead, Family Alleges Murder",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWlUwNWloUVRNak9ZalRQb0xRODh4QkNQSmtVUURQUHlvU0l0MHBFNVFyMjNYUU9rYXJ5N3VtOUNvRFZISjJYSmNhNGVCQUJUMWhUbGk1MnNNQ2F5S3U4RFlSLTdRMmhEdVpWaWlva0RWcFJlQzFlYzQ2eC1aak9ValVibHVPeTBXUGRmNHpDVjg0WFdfMC05Z0RiZ19NdVUtRC14MUktSUZOa2VkX3VaVktyVUZzMnR1?oc=5",
-      "summary": "2 Months After Wedding, Delhi Woman Found Dead, Family Alleges Murder &nbsp;&nbsp; NDTV Newlywed woman dies after fall from third floor in Delhi; family alleges dowry harassment, murder &nbsp;&nbsp; The Times of India Married 72 days ago,...",
-      "image": "",
-      "source": "NDTV",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-07-05T11:44:42.000Z",
-      "sources": [
-        {
-          "name": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWlUwNWloUVRNak9ZalRQb0xRODh4QkNQSmtVUURQUHlvU0l0MHBFNVFyMjNYUU9rYXJ5N3VtOUNvRFZISjJYSmNhNGVCQUJUMWhUbGk1MnNNQ2F5S3U4RFlSLTdRMmhEdVpWaWlva0RWcFJlQzFlYzQ2eC1aak9ValVibHVPeTBXUGRmNHpDVjg0WFdfMC05Z0RiZ19NdVUtRC14MUktSUZOa2VkX3VaVktyVUZzMnR1?oc=5",
-          "summary": "2 Months After Wedding, Delhi Woman Found Dead, Family Alleges Murder &nbsp;&nbsp; NDTV Newlywed woman dies after fall from third floor in Delhi; family alleges dowry harassment, murder &nbsp;&nbsp; The Times of India Married 72 days ago,...",
-          "publishedAt": "2026-07-05T11:44:42.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "soni-razdan-fiercely-defends-alia-bhatt-against-trolling-after-alpha-release-reposts-fan-saying-this",
-      "title": "Soni Razdan fiercely defends Alia Bhatt against trolling after Alpha release; reposts fan saying ‘this is her downfall?’ | Bollywood",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNUWF3eUdsMDJuSW5QY3FPcXA5TmNXaVk3R3VUc3loZlB4XzhiNWprUDF5ZWh6NlVXQlRxWllKNXZBdFJycFBpeHFmMHlyQzVKMU5oZXhtS21TT2dWMjEtdjI3dHdBTk50NjFtbGpEbEpJTWU0SW1QY0w5eTVlT3ZvYUtzN2tCM3hFcWZsZExtcHpLM3RidmtfYnN0aXF6em1ER1kxV1lOMTgteXpmSzVhYURyZENQRjFZU1dRV2JvMWZvNm9waWhwT2FjdDlZU24yWjFaY2FxZ0xOUENUN1ZFNVMwSklMcWFwbDZkZU1pSVV2Z25uQWk1eHYySDdseXRTM3hzX1NxSUsybUxhYUZNQVN30gGXAkFVX3lxTFA1V2hoTGxmZTE2bkpHLXdaMHFSbERGMmN3ZS1vdnFmSkV0S2kxWDh0ZGZZVVdJZU4xVG9oejQtQnNnOU9wM2RuOTJfNU5NS1huR29VLVF3V3VQemJEc0FFSHoyQTFpaE1wU211QWxMUnAwczZQbDNMMWFiYmw3NjRMWVI0clVabUxRblowSmZwRXRZcGc1MklKTHRjeXB0TjJhNENxNWQzYmNzZzJKT25TLTZvNERMX1BZMFMwOVdLLUxVVmxtZnowODFpX01TbUV0Q2g4MkN5TTRSeThMNXBsRE5UdkNvd0ZHMTcySlVqb293eTBJak5VM2s4SUhnNFBzVlFvbHlYRHhVanNVZVdMSk9mNkFiRQ?oc=5",
-      "summary": "Soni Razdan fiercely defends Alia Bhatt against trolling after Alpha release; reposts fan saying ‘this is her downfall?’ | Bollywood &nbsp;&nbsp; Hindustan Times Exclusive: Soni Razdan on motherhood, movies and finding Janice Brown | Filmf...",
-      "image": "",
-      "source": "Hindustan Times",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-07-05T11:37:46.000Z",
-      "sources": [
-        {
-          "name": "Hindustan Times",
-          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNUWF3eUdsMDJuSW5QY3FPcXA5TmNXaVk3R3VUc3loZlB4XzhiNWprUDF5ZWh6NlVXQlRxWllKNXZBdFJycFBpeHFmMHlyQzVKMU5oZXhtS21TT2dWMjEtdjI3dHdBTk50NjFtbGpEbEpJTWU0SW1QY0w5eTVlT3ZvYUtzN2tCM3hFcWZsZExtcHpLM3RidmtfYnN0aXF6em1ER1kxV1lOMTgteXpmSzVhYURyZENQRjFZU1dRV2JvMWZvNm9waWhwT2FjdDlZU24yWjFaY2FxZ0xOUENUN1ZFNVMwSklMcWFwbDZkZU1pSVV2Z25uQWk1eHYySDdseXRTM3hzX1NxSUsybUxhYUZNQVN30gGXAkFVX3lxTFA1V2hoTGxmZTE2bkpHLXdaMHFSbERGMmN3ZS1vdnFmSkV0S2kxWDh0ZGZZVVdJZU4xVG9oejQtQnNnOU9wM2RuOTJfNU5NS1huR29VLVF3V3VQemJEc0FFSHoyQTFpaE1wU211QWxMUnAwczZQbDNMMWFiYmw3NjRMWVI0clVabUxRblowSmZwRXRZcGc1MklKTHRjeXB0TjJhNENxNWQzYmNzZzJKT25TLTZvNERMX1BZMFMwOVdLLUxVVmxtZnowODFpX01TbUV0Q2g4MkN5TTRSeThMNXBsRE5UdkNvd0ZHMTcySlVqb293eTBJak5VM2s4SUhnNFBzVlFvbHlYRHhVanNVZVdMSk9mNkFiRQ?oc=5",
-          "summary": "Soni Razdan fiercely defends Alia Bhatt against trolling after Alpha release; reposts fan saying ‘this is her downfall?’ | Bollywood &nbsp;&nbsp; Hindustan Times Exclusive: Soni Razdan on motherhood, movies and finding Janice Brown | Filmf...",
-          "publishedAt": "2026-07-05T11:37:46.000Z"
         }
       ],
       "sourceCount": 1
@@ -1551,226 +785,6 @@
       "sourceCount": 1
     },
     {
-      "id": "arjun-kapoor-holds-sister-anshula-s-kaleera-at-pre-wedding-festivities-fans-wonder-if-he-s-the-next",
-      "title": "Arjun Kapoor holds sister Anshula's kaleera at pre-wedding festivities; fans wonder if he's the next Kapo",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOM194aWVnVmdkWHBadk5qZFByS0lCd2ZSZGRObU9HZWRDbGpXcmlCX0NhT0o2TUU5NFJBcndtWVlOLVlHRThQanRnZDNkdWJGT1p2T3NPaFRhS3dpSElXeTJtWmxLZU53WGJnWjdtMElaaDU2anlVb0kxZzFPWU92aWhDTDRMQktLbTAyQndrQlZ1ZFVwVllpcTF5d1Y0SVhQMGVzTHFCX0NLOG9rRXFZVHBtOXo4XzNQbW51THBsY3BHWDk5c25fQzBLdUZ6Q01pOVltN0p4al9VVXlWcTY5LXpkX094MWxWMDlUNFV0aHJFemd0bExuNGxnZmpkRkVyRHhVSV9oRlY2Sm9rTzFabUNPNHVkY29aQUc0bEN5aTF4cFNhREZJaVpuZHdMUFdBX0x2dQ?oc=5",
-      "summary": "Arjun Kapoor holds sister Anshula's kaleera at pre-wedding festivities; fans wonder if he's the next Kapo &nbsp;&nbsp; The Times of India Bride-To-Be Anshula Kapoor's Teal Blue Patola Lehenga For Mehendi Honours Groom Rohan Thakkar's Gujar...",
-      "image": "",
-      "source": "The Times of India",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-07-05T11:31:00.000Z",
-      "sources": [
-        {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOM194aWVnVmdkWHBadk5qZFByS0lCd2ZSZGRObU9HZWRDbGpXcmlCX0NhT0o2TUU5NFJBcndtWVlOLVlHRThQanRnZDNkdWJGT1p2T3NPaFRhS3dpSElXeTJtWmxLZU53WGJnWjdtMElaaDU2anlVb0kxZzFPWU92aWhDTDRMQktLbTAyQndrQlZ1ZFVwVllpcTF5d1Y0SVhQMGVzTHFCX0NLOG9rRXFZVHBtOXo4XzNQbW51THBsY3BHWDk5c25fQzBLdUZ6Q01pOVltN0p4al9VVXlWcTY5LXpkX094MWxWMDlUNFV0aHJFemd0bExuNGxnZmpkRkVyRHhVSV9oRlY2Sm9rTzFabUNPNHVkY29aQUc0bEN5aTF4cFNhREZJaVpuZHdMUFdBX0x2dQ?oc=5",
-          "summary": "Arjun Kapoor holds sister Anshula's kaleera at pre-wedding festivities; fans wonder if he's the next Kapo &nbsp;&nbsp; The Times of India Bride-To-Be Anshula Kapoor's Teal Blue Patola Lehenga For Mehendi Honours Groom Rohan Thakkar's Gujar...",
-          "publishedAt": "2026-07-05T11:31:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "tata-sumo-to-likely-make-a-comeback-in-india-business-2026-07-05t11-30-16-000z",
-      "title": "Tata Sumo To Likely Make A Comeback In India",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90YnVjc21GVHl2T0Z0RWMzdkttSVFJQUVkUzhKal9QbDJ2ZVU5UGp4NWpDV3AzVEo0aHJESHZ1d3VEUGRwUW9YcXBvdG5YWDZPcWJVejJDQ09QaU9YNm1MaVRCQzZTQXMxWVdrZnkyc1RIb2RWOXAw0gF8QVVfeXFMUHlMNE0tRFFCWFZUeFdTNktKd1dNZUs5c2NaZEJGQkg1eUIyb2RnM2tQNlFqOVRCc2pyb2hPYmVSQlFZWDU1UlBLLU4xcFNoMXVFQl9wTi12OEVIZTJES1N0ellCR29mVV9HM1hSek4tdXlUNnZrQVYxSHpEcg?oc=5",
-      "summary": "Tata Sumo To Likely Make A Comeback In India &nbsp;&nbsp; Gaadiwaadi.com",
-      "image": "",
-      "source": "Gaadiwaadi.com",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-07-05T11:30:16.000Z",
-      "sources": [
-        {
-          "name": "Gaadiwaadi.com",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90YnVjc21GVHl2T0Z0RWMzdkttSVFJQUVkUzhKal9QbDJ2ZVU5UGp4NWpDV3AzVEo0aHJESHZ1d3VEUGRwUW9YcXBvdG5YWDZPcWJVejJDQ09QaU9YNm1MaVRCQzZTQXMxWVdrZnkyc1RIb2RWOXAw0gF8QVVfeXFMUHlMNE0tRFFCWFZUeFdTNktKd1dNZUs5c2NaZEJGQkg1eUIyb2RnM2tQNlFqOVRCc2pyb2hPYmVSQlFZWDU1UlBLLU4xcFNoMXVFQl9wTi12OEVIZTJES1N0ellCR29mVV9HM1hSek4tdXlUNnZrQVYxSHpEcg?oc=5",
-          "summary": "Tata Sumo To Likely Make A Comeback In India &nbsp;&nbsp; Gaadiwaadi.com",
-          "publishedAt": "2026-07-05T11:30:16.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "nothing-ear-3a-to-launch-alongside-phone-4b-on-7-july-tech-2026-07-05t11-12-55-000z",
-      "title": "Nothing Ear (3a) To Launch Alongside Phone (4b) On 7 July",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Pb0YwMTRGUXJ3c1JaOXZyV3NnY2Q1VzRFZlA4emV0ZjFhU0VNR0RDa3JqcllRNHRJUTdpczQ1TnctYng1cHpnUDk0dG1yUGo2TmxJYk9MYUpjN3JSMmxYeTRNTFV5azY0NTBsbVBR?oc=5",
-      "summary": "Nothing Ear (3a) To Launch Alongside Phone (4b) On 7 July &nbsp;&nbsp; Pokde.Net Nothing’s next budget earbuds are coming for boring AirPods clones &nbsp;&nbsp; Yahoo Tech Nothing Ear (3a) will arrive on 7 July 2026 with the Nothing Phone...",
-      "image": "",
-      "source": "Pokde.Net",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-07-05T11:12:55.000Z",
-      "sources": [
-        {
-          "name": "Pokde.Net",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Pb0YwMTRGUXJ3c1JaOXZyV3NnY2Q1VzRFZlA4emV0ZjFhU0VNR0RDa3JqcllRNHRJUTdpczQ1TnctYng1cHpnUDk0dG1yUGo2TmxJYk9MYUpjN3JSMmxYeTRNTFV5azY0NTBsbVBR?oc=5",
-          "summary": "Nothing Ear (3a) To Launch Alongside Phone (4b) On 7 July &nbsp;&nbsp; Pokde.Net Nothing’s next budget earbuds are coming for boring AirPods clones &nbsp;&nbsp; Yahoo Tech Nothing Ear (3a) will arrive on 7 July 2026 with the Nothing Phone...",
-          "publishedAt": "2026-07-05T11:12:55.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "sooryavanshi-sets-record-for-youngest-india-player-in-international-match-sports-2026-07-05t11-12-38",
-      "title": "Sooryavanshi sets record for youngest India player in international match",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcUszX0FCYjF3MS1NQ3pnaWxVRm9lOGRrRDVjY1U3bjJyalB3aWlKS0dHR1pTc2FRRDJER0FBMlNERnhSS000Yk91YTBrSlVzU3ppWHdWTUZnWE1QSFJlckFmQlN0aXV0MkpWY3FvZlNjV1NaZjZTTnJxcGcwTXNfLXpOQnVmZzlrMTBCVDQwa19KMG9pc25Yd0xBWlZEbXJrQlJvUEk2LXppdEY3ZS0wSGhRWjAzQdIBuwFBVV95cUxNQllDbktIRHR0NmdFQTZ1UFpLMjJmeU5UZ3FKZDZpRkJPMlpqNWJLd1MwTVhXT080cWJXSnQzVndYc1Flc1hYamQwZWEyZDBZSFhuVjJuSHZ6bGtnQ2F2U3VoUk9NRnBxaFlNbmZIQTNEYjZsMDJVYkRtZ1R4ZXo5VTNzWUphR2Z4eDBhUlZXMW5oaVo2cGxaM2VBQWotSVA1N2VlQ1RxaXVIbHE1dTFCRVYzWm1kcmpkaVU0?oc=5",
-      "summary": "Sooryavanshi sets record for youngest India player in international match &nbsp;&nbsp; Al Jazeera Don't rest Vaibhav Sooryavanshi after debut: Former cricketer sends clear message to Team India &nbsp;&nbsp; The Times of India No unfair tre...",
-      "image": "",
-      "source": "Al Jazeera",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T11:12:38.000Z",
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcUszX0FCYjF3MS1NQ3pnaWxVRm9lOGRrRDVjY1U3bjJyalB3aWlKS0dHR1pTc2FRRDJER0FBMlNERnhSS000Yk91YTBrSlVzU3ppWHdWTUZnWE1QSFJlckFmQlN0aXV0MkpWY3FvZlNjV1NaZjZTTnJxcGcwTXNfLXpOQnVmZzlrMTBCVDQwa19KMG9pc25Yd0xBWlZEbXJrQlJvUEk2LXppdEY3ZS0wSGhRWjAzQdIBuwFBVV95cUxNQllDbktIRHR0NmdFQTZ1UFpLMjJmeU5UZ3FKZDZpRkJPMlpqNWJLd1MwTVhXT080cWJXSnQzVndYc1Flc1hYamQwZWEyZDBZSFhuVjJuSHZ6bGtnQ2F2U3VoUk9NRnBxaFlNbmZIQTNEYjZsMDJVYkRtZ1R4ZXo5VTNzWUphR2Z4eDBhUlZXMW5oaVo2cGxaM2VBQWotSVA1N2VlQ1RxaXVIbHE1dTFCRVYzWm1kcmpkaVU0?oc=5",
-          "summary": "Sooryavanshi sets record for youngest India player in international match &nbsp;&nbsp; Al Jazeera Don't rest Vaibhav Sooryavanshi after debut: Former cricketer sends clear message to Team India &nbsp;&nbsp; The Times of India No unfair tre...",
-          "publishedAt": "2026-07-05T11:12:38.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "narrow-escape-for-mukesh-ambani-as-tree-falls-in-front-of-convoy-amid-rains-entertainment-2026-07-05",
-      "title": "Narrow escape for Mukesh Ambani as tree falls in front of convoy amid rains",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNXpUYmNtSDM3Q1JSVTJXSzk5MG9hRG9PYkpqaEl5dFhBZURfX05mNm5wdnBfaUZZY3RCd1pLTGdrUG9ES2kxblV2N1R6ekcxakF6U1NVRlluYTMxSko4d2ZGUTMzdHdYcTUtWWNhWGRtYlNuSVpIOWVWNWlIYzJyb2RkVjJialZNU0o1RGhFOW1qazVKM09kd3BCZHpXZlRwT1A1RUp4bVRHWVBGeU5GM1k4cTcxa3FBVnJzM3Vn0gHDAUFVX3lxTE03Ym92UGk3VERVWVBvdzgwVEZRbUVNTmozQTNMM3lKanlPR0xaOWVwQkdzeWhSY1VBN0FzcjJ6R2oxR3JmbzNzb1J0M2xJSU0teG1XUnlZRDA4d3lPTVVHaElkdGpxSE1HUW16MEt1UERoQWkxcVQ0NFdROWlIR2NZVUc4eXpWVTR4NnlxNDk3b1pnTU1xTktiYWx3TlpNTWdGQ01Ed2V6YU0yZUpxQmpqdFJ1ZEVka3Btcl96YnhGX2Jocw?oc=5",
-      "summary": "Narrow escape for Mukesh Ambani as tree falls in front of convoy amid rains &nbsp;&nbsp; Rediff Tree crashes in front of Mukesh Ambani’s security convoy amid Mumbai downpour &nbsp;&nbsp; Telegraph India Mumbai rains: Tree collapses in fron...",
-      "image": "",
-      "source": "Rediff",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-07-05T11:11:59.000Z",
-      "sources": [
-        {
-          "name": "Rediff",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNXpUYmNtSDM3Q1JSVTJXSzk5MG9hRG9PYkpqaEl5dFhBZURfX05mNm5wdnBfaUZZY3RCd1pLTGdrUG9ES2kxblV2N1R6ekcxakF6U1NVRlluYTMxSko4d2ZGUTMzdHdYcTUtWWNhWGRtYlNuSVpIOWVWNWlIYzJyb2RkVjJialZNU0o1RGhFOW1qazVKM09kd3BCZHpXZlRwT1A1RUp4bVRHWVBGeU5GM1k4cTcxa3FBVnJzM3Vn0gHDAUFVX3lxTE03Ym92UGk3VERVWVBvdzgwVEZRbUVNTmozQTNMM3lKanlPR0xaOWVwQkdzeWhSY1VBN0FzcjJ6R2oxR3JmbzNzb1J0M2xJSU0teG1XUnlZRDA4d3lPTVVHaElkdGpxSE1HUW16MEt1UERoQWkxcVQ0NFdROWlIR2NZVUc4eXpWVTR4NnlxNDk3b1pnTU1xTktiYWx3TlpNTWdGQ01Ed2V6YU0yZUpxQmpqdFJ1ZEVka3Btcl96YnhGX2Jocw?oc=5",
-          "summary": "Narrow escape for Mukesh Ambani as tree falls in front of convoy amid rains &nbsp;&nbsp; Rediff Tree crashes in front of Mukesh Ambani’s security convoy amid Mumbai downpour &nbsp;&nbsp; Telegraph India Mumbai rains: Tree collapses in fron...",
-          "publishedAt": "2026-07-05T11:11:59.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "i-ve-watched-him-bat-in-india-jacob-bethell-s-big-verdict-on-vaibhav-sooryavanshi-after-england-beat",
-      "title": "'I've watched him bat in India': Jacob Bethell's big verdict on Vaibhav Sooryavanshi after England beat I",
-      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOOVBrMnNLLWtIWlRfbmJXRXpQWXVxaDIwMkQ4WFdhUThueHp2ZXJoeHhhODhCQk9mV0ZyTHZBellRT1NSNUNPTWp6a0FzeGhRWENJUXBCenhWb3gtMlRUQXhZRDFRaVN4dUZQN2ZBYmx0NnZ2UmhHOVFvMEFYS19QR1cwc3lBNXRVUzJOMC0yZlJwck9VREhXalFrUjlUelhGdWJseFFYM1lvZlo2RkF4T1NodGk0OERJdlFVek5MNkxQeGZxa2Q5ZU0zTTdIampTeENQeGROVUtjRUdCWE1UaEFJQk9heHNUT213ei1kT3RKOUdXeU40VlF5U1FpNW1ESlhseVR0Vi1LeE5YVjVrQjQ0LUJyNGRXMzAtM3RRbkJWbUlJZ2U2NF82OA?oc=5",
-      "summary": "'I've watched him bat in India': Jacob Bethell's big verdict on Vaibhav Sooryavanshi after England beat I &nbsp;&nbsp; The Times of India 'Those free hits made it easier': Ishan Kishan points to Ravi Bishnoi's nightmare over after England...",
-      "image": "",
-      "source": "The Times of India",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T10:58:00.000Z",
-      "sources": [
-        {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOOVBrMnNLLWtIWlRfbmJXRXpQWXVxaDIwMkQ4WFdhUThueHp2ZXJoeHhhODhCQk9mV0ZyTHZBellRT1NSNUNPTWp6a0FzeGhRWENJUXBCenhWb3gtMlRUQXhZRDFRaVN4dUZQN2ZBYmx0NnZ2UmhHOVFvMEFYS19QR1cwc3lBNXRVUzJOMC0yZlJwck9VREhXalFrUjlUelhGdWJseFFYM1lvZlo2RkF4T1NodGk0OERJdlFVek5MNkxQeGZxa2Q5ZU0zTTdIampTeENQeGROVUtjRUdCWE1UaEFJQk9heHNUT213ei1kT3RKOUdXeU40VlF5U1FpNW1ESlhseVR0Vi1LeE5YVjVrQjQ0LUJyNGRXMzAtM3RRbkJWbUlJZ2U2NF82OA?oc=5",
-          "summary": "'I've watched him bat in India': Jacob Bethell's big verdict on Vaibhav Sooryavanshi after England beat I &nbsp;&nbsp; The Times of India 'Those free hits made it easier': Ishan Kishan points to Ravi Bishnoi's nightmare over after England...",
-          "publishedAt": "2026-07-05T10:58:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "how-did-it-land-in-india-internet-reacts-after-made-in-pakistan-fairness-cream-causes-kidney-problem",
-      "title": "‘How Did It Land In India?’: Internet Reacts After ‘Made In Pakistan’ Fairness Cream Causes Kidney Problems",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPTk5YRE41X2s1LW9wMXpQd3FWQXRaMGhvOFZsUHhQcnpRcG1NSTRYU3V3VmFkSXFnM0Fzc3NIb2FLbTBld2RTUnpFZklwNjM0SWtyU1Z3djBtNUs5VWE4d1NfNE9IcUtRRHVXdUQ4NzdiRG01WGFVMDU0dEZRb3gwR24zMHB5VXVxOGQtSVVRblJWYko2OTRKVU0yazI2eXg2VF9EZ3ZmLTJIOVc1Mm4wWjNjZVctVDF5TWlLZkFsZWtQY0l3QUNCSl8xWFIwVl9XcTY1RWQtZzRWbTM2cjFyS213ZXd6Smc0TlJzMDh5SXNEa3dTR2FvVzZUVFfSAYICQVVfeXFMUENucVZUUlFaOTRwb2xUdmYwSWVSR3JJSmNUSnNhbHVjY3EwTnlMYmM2ZVdDZVFuTGFnQThMR2xKT1BTaExmSVAwWV9uTzQzU2ZtSHpvUEFORk9tUmlGMmJLeHdGeDFiRHF1blQ3dUlxUEdnYnVhQkg4MWpRbHZJd3dnY2ZNNG1yTFRyZjd3WGs2ZFplQ0dVcnZJVE5kbXlNRnV5T2pDUHZJTFhJREpFRXREUFRaZ2ZNdld0MURZaDV4RG1ZSXdqU3hmN1BmOFQwck9sM3ZhMEUxakRtZVFvcVY2aFNJc1RjODQ4YUZmTHdHczFPdkZIOWtmX0c4OWd1VmNR?oc=5",
-      "summary": "‘How Did It Land In India?’: Internet Reacts After ‘Made In Pakistan’ Fairness Cream Causes Kidney Problems &nbsp;&nbsp; News18 Maharashtra FDA finds mercury, lead in Pakistan-made fairness cream; bans 3 products &nbsp;&nbsp; The Times of...",
-      "image": "",
-      "source": "News18",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-07-05T10:52:11.000Z",
-      "sources": [
-        {
-          "name": "News18",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPTk5YRE41X2s1LW9wMXpQd3FWQXRaMGhvOFZsUHhQcnpRcG1NSTRYU3V3VmFkSXFnM0Fzc3NIb2FLbTBld2RTUnpFZklwNjM0SWtyU1Z3djBtNUs5VWE4d1NfNE9IcUtRRHVXdUQ4NzdiRG01WGFVMDU0dEZRb3gwR24zMHB5VXVxOGQtSVVRblJWYko2OTRKVU0yazI2eXg2VF9EZ3ZmLTJIOVc1Mm4wWjNjZVctVDF5TWlLZkFsZWtQY0l3QUNCSl8xWFIwVl9XcTY1RWQtZzRWbTM2cjFyS213ZXd6Smc0TlJzMDh5SXNEa3dTR2FvVzZUVFfSAYICQVVfeXFMUENucVZUUlFaOTRwb2xUdmYwSWVSR3JJSmNUSnNhbHVjY3EwTnlMYmM2ZVdDZVFuTGFnQThMR2xKT1BTaExmSVAwWV9uTzQzU2ZtSHpvUEFORk9tUmlGMmJLeHdGeDFiRHF1blQ3dUlxUEdnYnVhQkg4MWpRbHZJd3dnY2ZNNG1yTFRyZjd3WGs2ZFplQ0dVcnZJVE5kbXlNRnV5T2pDUHZJTFhJREpFRXREUFRaZ2ZNdld0MURZaDV4RG1ZSXdqU3hmN1BmOFQwck9sM3ZhMEUxakRtZVFvcVY2aFNJc1RjODQ4YUZmTHdHczFPdkZIOWtmX0c4OWd1VmNR?oc=5",
-          "summary": "‘How Did It Land In India?’: Internet Reacts After ‘Made In Pakistan’ Fairness Cream Causes Kidney Problems &nbsp;&nbsp; News18 Maharashtra FDA finds mercury, lead in Pakistan-made fairness cream; bans 3 products &nbsp;&nbsp; The Times of...",
-          "publishedAt": "2026-07-05T10:52:11.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "mexico-vs-england-fifa-world-cup-last-16-kane-prediction-and-altitude-sports-2026-07-05t10-44-13-000",
-      "title": "Mexico vs England: FIFA World Cup last 16 – Kane, prediction and altitude",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWkg2UkVSNVFIOVplZjlIMXI2WGQ5WkI4NkRrZjVFODEzQUJGaF9mRmVEUFdoYTJFejRoZ1NxTVFVQ08tZ1o3Y29mR0VkeEVnWjVMTUpIZ1lZUjdhM1dPdUwwNERrTU5GLWlNY3dOSVFMUElQTjVXRHUwb3hEWDFQd1lrSTgxWHFkcjhjNFl3NkExeU9HNjM5LWdnakJENWhIbHBrT0FhcDJkZXRrV3ZpSXRTLVNhMTAxeWYyaVhjU1NsVUVkM2p3ZtIBzgFBVV95cUxQZ0VOVTI0dHVUbE8zaVpmNVVJMFhxWjEydDFaZ2lIM0xBQ2FzRFRpUVNvUDJESkhHdU5UUXQzTzBuWkl5dllnaEFZNTA3cFlqSVJzRlhBNGVjXzRxZ0NXWm1mZUlUb255QWFwYlUyNUhMXzN6ZUJBUUZub2dCVTVKRkl2ak1WN1hwY0JWbFNMRWpzdDVHVWpzNnNkYkxNeDBWa2VyempRTEpZNnBoNGFCLXVfQjhNZGhYSk85dVQzdVNpdmJpSEk4dkNfVTRTQQ?oc=5",
-      "summary": "Mexico vs England: FIFA World Cup last 16 – Kane, prediction and altitude &nbsp;&nbsp; Al Jazeera World Cup 2026 today: Live updates, news as England prepare for biggest challenge yet against Mexico and Norway face Brazil - July 5 &nbsp;&n...",
-      "image": "",
-      "source": "Al Jazeera",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T10:44:13.000Z",
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWkg2UkVSNVFIOVplZjlIMXI2WGQ5WkI4NkRrZjVFODEzQUJGaF9mRmVEUFdoYTJFejRoZ1NxTVFVQ08tZ1o3Y29mR0VkeEVnWjVMTUpIZ1lZUjdhM1dPdUwwNERrTU5GLWlNY3dOSVFMUElQTjVXRHUwb3hEWDFQd1lrSTgxWHFkcjhjNFl3NkExeU9HNjM5LWdnakJENWhIbHBrT0FhcDJkZXRrV3ZpSXRTLVNhMTAxeWYyaVhjU1NsVUVkM2p3ZtIBzgFBVV95cUxQZ0VOVTI0dHVUbE8zaVpmNVVJMFhxWjEydDFaZ2lIM0xBQ2FzRFRpUVNvUDJESkhHdU5UUXQzTzBuWkl5dllnaEFZNTA3cFlqSVJzRlhBNGVjXzRxZ0NXWm1mZUlUb255QWFwYlUyNUhMXzN6ZUJBUUZub2dCVTVKRkl2ak1WN1hwY0JWbFNMRWpzdDVHVWpzNnNkYkxNeDBWa2VyempRTEpZNnBoNGFCLXVfQjhNZGhYSk85dVQzdVNpdmJpSEk4dkNfVTRTQQ?oc=5",
-          "summary": "Mexico vs England: FIFA World Cup last 16 – Kane, prediction and altitude &nbsp;&nbsp; Al Jazeera World Cup 2026 today: Live updates, news as England prepare for biggest challenge yet against Mexico and Norway face Brazil - July 5 &nbsp;&n...",
-          "publishedAt": "2026-07-05T10:44:13.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "gauri-spratt-marries-aamir-khan-a-look-at-her-bengaluru-home-salon-business-and-more-entertainment-2",
-      "title": "Gauri Spratt Marries Aamir Khan: A Look At Her Bengaluru Home, Salon Business And More",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQUhCUDVhZjA5cFhFUkhYd3FfbUM4aHhnSUstbE9WWk8tWElFSU9jZ0NoVUQtSUQ1SFE0V3Z6VkpJbU5wN1JPVXJOOWFOQWMtLVJJUVY5MWtKTDFPYmVDclljZEVCYkY0eTVocUJJNlJ0eE9BZlY4aXFsbDI5TFlVMUtjd2ZFY19nbEQxR0haN25sM2dNZ3p1S1kxdk10VU1ERGN5ekM3S1M0MElwNW84RmEzRXBycFhtQlBwQkxNblpaZ9IBygFBVV95cUxQRXFfS2l4Ykxlazg0Y1FvMTBkdnJ3b2NzbWh4LUlHdmlvTTI2NTFid0lXTnVtVGJObzVZb3Nfdl9CQ3Q2U2llcVI0OVAweW1oOGQ1ZWR2Z3BwN0VkMmMwaUFScW42UW5qVHRPMTA5andTdTZwOFRQMGY2bnVPQ2dGb2VEV1RUd3ZBOEtGUWlvQUtETDBUR3Vzb2NjN2NrMGdTUktZd0JCTGFRSF9DejJaM3NwaXJLbnc1S2lGMXlzbTU5QnE5ZEpNcXRn?oc=5",
-      "summary": "Gauri Spratt Marries Aamir Khan: A Look At Her Bengaluru Home, Salon Business And More &nbsp;&nbsp; NDTV As Aamir Khan marries Gauri Spratt, here's all you need to know about her journey as an entrepreneur with an estimated net worth of Rs...",
-      "image": "",
-      "source": "NDTV",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-07-05T10:31:39.000Z",
-      "sources": [
-        {
-          "name": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQUhCUDVhZjA5cFhFUkhYd3FfbUM4aHhnSUstbE9WWk8tWElFSU9jZ0NoVUQtSUQ1SFE0V3Z6VkpJbU5wN1JPVXJOOWFOQWMtLVJJUVY5MWtKTDFPYmVDclljZEVCYkY0eTVocUJJNlJ0eE9BZlY4aXFsbDI5TFlVMUtjd2ZFY19nbEQxR0haN25sM2dNZ3p1S1kxdk10VU1ERGN5ekM3S1M0MElwNW84RmEzRXBycFhtQlBwQkxNblpaZ9IBygFBVV95cUxQRXFfS2l4Ykxlazg0Y1FvMTBkdnJ3b2NzbWh4LUlHdmlvTTI2NTFid0lXTnVtVGJObzVZb3Nfdl9CQ3Q2U2llcVI0OVAweW1oOGQ1ZWR2Z3BwN0VkMmMwaUFScW42UW5qVHRPMTA5andTdTZwOFRQMGY2bnVPQ2dGb2VEV1RUd3ZBOEtGUWlvQUtETDBUR3Vzb2NjN2NrMGdTUktZd0JCTGFRSF9DejJaM3NwaXJLbnc1S2lGMXlzbTU5QnE5ZEpNcXRn?oc=5",
-          "summary": "Gauri Spratt Marries Aamir Khan: A Look At Her Bengaluru Home, Salon Business And More &nbsp;&nbsp; NDTV As Aamir Khan marries Gauri Spratt, here's all you need to know about her journey as an entrepreneur with an estimated net worth of Rs...",
-          "publishedAt": "2026-07-05T10:31:39.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "nothing-phone-4b-india-launch-roundup-launch-date-expected-specifications-features-tech-2026-07-05t1",
-      "title": "Nothing Phone 4b India Launch Roundup: Launch Date, Expected Specifications, Features",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUDJ3U3ZraV9lYWt6bmEyZjFfRll6OWI1ZW9kS0REVEpDZU9qVEhVMHA5NDB4ckZ3YUkza3hTQVlEaXlzX2JXOXJWQ3QxdTd2Y2wtRVNSZldiYTlKQUtEM1JQRDBZMjFZWjMtT2lVMnR5bEZYZlRuaVU1Z1FhQkFkdWNPRTFhcllMUzZ5RVd5aXk2Mmx6eU1SRXg4aVNzUVltMlVScWxFUG1CN2xKVWQ2S3h6NDFMSGNQQm9nZUI3ckZrRkxJTkVhUzBMVHc1ckY0Qlp0VWhkWlLSAd4BQVVfeXFMUDA3WWt5Z0J1MWx0MXNMU0ROX2IzbjdvN1JXY2hCVkl5UmtRQ1RkODMwTlhZZUFPOHhtWHduQXhWUVZCdkhPRDI3akpyR1F6OUdZdi1waVRiaE80LUE1RU54dGNJT2tzQl9IMlBLZDFncUpFQkU4bzhXcHJNM3kwUmY2ZmMtRExsQTN3eXVoaEpuQkxhSXE3TWJGZVlBOGNuVUpXM2FvU3hYSzdUbzA5RGNaQjhZS28xT3NSVVNFQTNvZUs5ZktPTE9ZTk9pdlZKeFk4V3pwR2hKeUk2N3l3?oc=5",
-      "summary": "Nothing Phone 4b India Launch Roundup: Launch Date, Expected Specifications, Features &nbsp;&nbsp; Gadgets 360 Nothing Phone (4b) RCB Edition Is Confirmed, Even the Cricket Players Weren't Sure Which Design Won. &nbsp;&nbsp; Techgenyz Noth...",
-      "image": "",
-      "source": "Gadgets 360",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-07-05T10:30:01.000Z",
-      "sources": [
-        {
-          "name": "Gadgets 360",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUDJ3U3ZraV9lYWt6bmEyZjFfRll6OWI1ZW9kS0REVEpDZU9qVEhVMHA5NDB4ckZ3YUkza3hTQVlEaXlzX2JXOXJWQ3QxdTd2Y2wtRVNSZldiYTlKQUtEM1JQRDBZMjFZWjMtT2lVMnR5bEZYZlRuaVU1Z1FhQkFkdWNPRTFhcllMUzZ5RVd5aXk2Mmx6eU1SRXg4aVNzUVltMlVScWxFUG1CN2xKVWQ2S3h6NDFMSGNQQm9nZUI3ckZrRkxJTkVhUzBMVHc1ckY0Qlp0VWhkWlLSAd4BQVVfeXFMUDA3WWt5Z0J1MWx0MXNMU0ROX2IzbjdvN1JXY2hCVkl5UmtRQ1RkODMwTlhZZUFPOHhtWHduQXhWUVZCdkhPRDI3akpyR1F6OUdZdi1waVRiaE80LUE1RU54dGNJT2tzQl9IMlBLZDFncUpFQkU4bzhXcHJNM3kwUmY2ZmMtRExsQTN3eXVoaEpuQkxhSXE3TWJGZVlBOGNuVUpXM2FvU3hYSzdUbzA5RGNaQjhZS28xT3NSVVNFQTNvZUs5ZktPTE9ZTk9pdlZKeFk4V3pwR2hKeUk2N3l3?oc=5",
-          "summary": "Nothing Phone 4b India Launch Roundup: Launch Date, Expected Specifications, Features &nbsp;&nbsp; Gadgets 360 Nothing Phone (4b) RCB Edition Is Confirmed, Even the Cricket Players Weren't Sure Which Design Won. &nbsp;&nbsp; Techgenyz Noth...",
-          "publishedAt": "2026-07-05T10:30:01.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "official-real-madrid-sign-dumfries-sports-2026-07-05t10-08-56-000z",
-      "title": "OFFICIAL: Real Madrid sign Dumfries",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DSFhqZERMWjlQbU8zd3JHRXdEbGRQdWxUUnNVUEh0cWx1VzhYSDNSNjEwTG5mcFJHb1g5Ny1zY0RVSFpacG9kNlBhZ2tJVWNWdmxaOHZBSHF3by1BNi1Fdk1iRm5NRUFYTVpBa1FMWENzOEUxdWI0?oc=5",
-      "summary": "OFFICIAL: Real Madrid sign Dumfries &nbsp;&nbsp; Managing Madrid Denzel Dumfries: Real Madrid sign Dutch full-back from Inter Milan on four-year deal &nbsp;&nbsp; BBC Real Madrid sign Denzel Dumfries from Inter Milan on four-year contract...",
-      "image": "",
-      "source": "Managing Madrid",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T10:08:56.000Z",
-      "sources": [
-        {
-          "name": "Managing Madrid",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DSFhqZERMWjlQbU8zd3JHRXdEbGRQdWxUUnNVUEh0cWx1VzhYSDNSNjEwTG5mcFJHb1g5Ny1zY0RVSFpacG9kNlBhZ2tJVWNWdmxaOHZBSHF3by1BNi1Fdk1iRm5NRUFYTVpBa1FMWENzOEUxdWI0?oc=5",
-          "summary": "OFFICIAL: Real Madrid sign Dumfries &nbsp;&nbsp; Managing Madrid Denzel Dumfries: Real Madrid sign Dutch full-back from Inter Milan on four-year deal &nbsp;&nbsp; BBC Real Madrid sign Denzel Dumfries from Inter Milan on four-year contract...",
-          "publishedAt": "2026-07-05T10:08:56.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "why-the-ram-temple-theft-controversy-has-rss-concerned-politics-2026-07-05t10-07-41-000z",
       "title": "Why the Ram Temple ‘theft’ controversy has RSS concerned",
       "link": "https://indianexpress.com/article/political-pulse/rss-belagavi-meeting-ayodhya-ram-temple-donation-theft-10772464/",
@@ -1786,46 +800,6 @@
           "link": "https://indianexpress.com/article/political-pulse/rss-belagavi-meeting-ayodhya-ram-temple-donation-theft-10772464/",
           "summary": "",
           "publishedAt": "2026-07-05T10:07:41.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "maruti-suzuki-to-launch-5-new-cars-within-the-next-12-months-business-2026-07-05t10-00-59-000z",
-      "title": "Maruti Suzuki To Launch 5 New Cars Within The Next 12 Months",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQlh0blRzNXEwdkVyT2RBVkpVN3MxZjVWOEt5STQzcndEQVlPYUo1aGhqLVZsN0J2X0xpTENMS3NoWDgyOTZpb2Y4WkFmLU5HMmg3WUVZTVlqS3JOVzYtamt5Yl9OMmQwV1JBWlRUbFp1WWxlZnBheVZzZTdlcWxuSFpfeUxSTVFla2F2U9IBkgFBVV95cUxPRGstazlfYWt3VzFtczNIaWNHYktqWHlkWFpSdk8xNDNNTHgtRldBME01NTVUZElMRVVkT0xXUHljcVZQdVhwYkItQ1loR0ZiR0ExbWVoaUJjOW55cV9BR2Q5U1RlX2lTZTNSWDhHa1NCUnZoV3lQVnJDQS1oajloekhqWmcwRHkwckhsNTBReWNJdw?oc=5",
-      "summary": "Maruti Suzuki To Launch 5 New Cars Within The Next 12 Months &nbsp;&nbsp; Gaadiwaadi.com",
-      "image": "",
-      "source": "Gaadiwaadi.com",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-07-05T10:00:59.000Z",
-      "sources": [
-        {
-          "name": "Gaadiwaadi.com",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQlh0blRzNXEwdkVyT2RBVkpVN3MxZjVWOEt5STQzcndEQVlPYUo1aGhqLVZsN0J2X0xpTENMS3NoWDgyOTZpb2Y4WkFmLU5HMmg3WUVZTVlqS3JOVzYtamt5Yl9OMmQwV1JBWlRUbFp1WWxlZnBheVZzZTdlcWxuSFpfeUxSTVFla2F2U9IBkgFBVV95cUxPRGstazlfYWt3VzFtczNIaWNHYktqWHlkWFpSdk8xNDNNTHgtRldBME01NTVUZElMRVVkT0xXUHljcVZQdVhwYkItQ1loR0ZiR0ExbWVoaUJjOW55cV9BR2Q5U1RlX2lTZTNSWDhHa1NCUnZoV3lQVnJDQS1oajloekhqWmcwRHkwckhsNTBReWNJdw?oc=5",
-          "summary": "Maruti Suzuki To Launch 5 New Cars Within The Next 12 Months &nbsp;&nbsp; Gaadiwaadi.com",
-          "publishedAt": "2026-07-05T10:00:59.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "nasa-celebrates-america-s-250th-birthday-with-red-white-and-blue-snaps-of-the-cosmos-space-photo-of",
-      "title": "NASA celebrates America's 250th birthday with red, white and blue snaps of the cosmos — Space photo of the week",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNcWI0cmRPYlBQbGlfWGVpSkhGY3NQR3oxZW5YLWk0REJsYk1fWkdFdDhEVmxzOV9qV0hmN1dXVFdvMVpxYnFiRU5IUFc2Uzc0bFVnU0JzWnZfZERpc0FRREdFYnpMRmplVWQ3Vm4zd3BJYXBxaFNtUmVtcDNXZjZreUZtbG9VdVBOOGo0R2J3c0FFNVB4ZE40OENKYTdjOVBSZUw1Vk9PRFBYc0NkdlBwWEZ3SUdaeGJXYUdJTDJjRUtvMGZzSmIxdVZwQmNiblNsa0d6V1NqOElTNnBlbnp2QlY5T2syUQ?oc=5",
-      "summary": "NASA celebrates America's 250th birthday with red, white and blue snaps of the cosmos — Space photo of the week &nbsp;&nbsp; Live Science NASA’s Chandra Reveals ‘Red, White, Blue’ Universe for US 250th &nbsp;&nbsp; NASA Science (.gov) NASA...",
-      "image": "",
-      "source": "Live Science",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-07-05T10:00:00.000Z",
-      "sources": [
-        {
-          "name": "Live Science",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNcWI0cmRPYlBQbGlfWGVpSkhGY3NQR3oxZW5YLWk0REJsYk1fWkdFdDhEVmxzOV9qV0hmN1dXVFdvMVpxYnFiRU5IUFc2Uzc0bFVnU0JzWnZfZERpc0FRREdFYnpMRmplVWQ3Vm4zd3BJYXBxaFNtUmVtcDNXZjZreUZtbG9VdVBOOGo0R2J3c0FFNVB4ZE40OENKYTdjOVBSZUw1Vk9PRFBYc0NkdlBwWEZ3SUdaeGJXYUdJTDJjRUtvMGZzSmIxdVZwQmNiblNsa0d6V1NqOElTNnBlbnp2QlY5T2syUQ?oc=5",
-          "summary": "NASA celebrates America's 250th birthday with red, white and blue snaps of the cosmos — Space photo of the week &nbsp;&nbsp; Live Science NASA’s Chandra Reveals ‘Red, White, Blue’ Universe for US 250th &nbsp;&nbsp; NASA Science (.gov) NASA...",
-          "publishedAt": "2026-07-05T10:00:00.000Z"
         }
       ],
       "sourceCount": 1
@@ -1851,181 +825,301 @@
       "sourceCount": 1
     },
     {
-      "id": "prashant-kishor-to-make-electoral-debut-jan-suraaj-fields-him-for-bankipur-by-election-general-2026",
-      "title": "Prashant Kishor to make electoral debut, Jan Suraaj fields him for Bankipur by-election",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSTFPMW1CcjlfczVHMUxZcjcxc1J6QXdpclhqM3VBcGNGNktLUkVNTTVoWDAxMHdNdzBfaHVZNUZrVDczaDRwa3VaT1diOHNraHRVSGJETmhiaTEwVDRnMmJfbkRlR2x5M2VNa3d5R2k5OGRiaU81UzFweXBjSE80OE9sejlkcDBtUTkzenN5UHV3cHFhQUFLOHB1em1RaXBJaW92aDlJblptZ3htZmVyUUV0eFpRRTF1aHVLZFE4bWtzMlNTSFFIVDVXOFJwVFRwVzdNRkdKYTQ4NzZvSWpHeThCM3d2REdGY3BHRUNwb0s?oc=5",
-      "summary": "Prashant Kishor to make electoral debut, Jan Suraaj fields him for Bankipur by-election &nbsp;&nbsp; The Times of India Prashant Kishor to make electoral debut in Bankipur byelection &nbsp;&nbsp; The Hindu Bihar bypoll: Prashant Kishor to...",
-      "image": "",
-      "source": "The Times of India",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-07-05T09:22:00.000Z",
+      "id": "samajwadi-party-firms-up-plan-to-field-100-dalits-tribals-14-in-general-seats-in-up-politics-2026-07",
+      "title": "Samajwadi Party firms up plan to field 100 Dalits, tribals — 14 in general seats — in UP",
+      "link": "https://indianexpress.com/article/political-pulse/samajwadi-party-plan-dalits-tribals-general-seats-uttar-pradesh-10772300/",
+      "summary": "",
+      "image": "https://images.indianexpress.com/2026/07/akhilesh-yadav.jpg",
+      "source": "Indian Express Politics",
+      "category": "politics",
+      "categoryLabel": "Politics",
+      "publishedAt": "2026-07-05T07:55:25.000Z",
       "sources": [
         {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSTFPMW1CcjlfczVHMUxZcjcxc1J6QXdpclhqM3VBcGNGNktLUkVNTTVoWDAxMHdNdzBfaHVZNUZrVDczaDRwa3VaT1diOHNraHRVSGJETmhiaTEwVDRnMmJfbkRlR2x5M2VNa3d5R2k5OGRiaU81UzFweXBjSE80OE9sejlkcDBtUTkzenN5UHV3cHFhQUFLOHB1em1RaXBJaW92aDlJblptZ3htZmVyUUV0eFpRRTF1aHVLZFE4bWtzMlNTSFFIVDVXOFJwVFRwVzdNRkdKYTQ4NzZvSWpHeThCM3d2REdGY3BHRUNwb0s?oc=5",
-          "summary": "Prashant Kishor to make electoral debut, Jan Suraaj fields him for Bankipur by-election &nbsp;&nbsp; The Times of India Prashant Kishor to make electoral debut in Bankipur byelection &nbsp;&nbsp; The Hindu Bihar bypoll: Prashant Kishor to...",
-          "publishedAt": "2026-07-05T09:22:00.000Z"
+          "name": "Indian Express Politics",
+          "link": "https://indianexpress.com/article/political-pulse/samajwadi-party-plan-dalits-tribals-general-seats-uttar-pradesh-10772300/",
+          "summary": "",
+          "publishedAt": "2026-07-05T07:55:25.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "opec-reportedly-expected-to-approve-another-oil-output-increase-for-august-business-2026-07-05t09-17",
-      "title": "OPEC+ reportedly expected to approve another oil output increase for August",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU2tqc0xGQXgxRVQwakpNRkZOcFJ5dnY1TnhCdkVOZ3ZSazhKS3RwVU1MU1dCT1lJMXc2cGp1OGMzeEtoUnEwYW4xbVREbzRvbXpEeDBVbjlTM1gweXRKalpnMlM1RW96bE1wZXhJUm03NjFxVmlYSC1hWWVzd0ZrZjVVVTNiWVY0VjVKczk4VUVVWnJINVF2dHFPV3hER21raFMwaEZLRnNZeGZ2UFBGaDVELXhwZw?oc=5",
-      "summary": "OPEC+ reportedly expected to approve another oil output increase for August &nbsp;&nbsp; Investing.com OPEC+ approves further oil output increase as Hormuz exports start to recover &nbsp;&nbsp; Reuters OPEC, Allies Hike Output Again as Hor...",
-      "image": "",
-      "source": "Investing.com",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-07-05T09:17:07.000Z",
-      "sources": [
-        {
-          "name": "Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU2tqc0xGQXgxRVQwakpNRkZOcFJ5dnY1TnhCdkVOZ3ZSazhKS3RwVU1MU1dCT1lJMXc2cGp1OGMzeEtoUnEwYW4xbVREbzRvbXpEeDBVbjlTM1gweXRKalpnMlM1RW96bE1wZXhJUm03NjFxVmlYSC1hWWVzd0ZrZjVVVTNiWVY0VjVKczk4VUVVWnJINVF2dHFPV3hER21raFMwaEZLRnNZeGZ2UFBGaDVELXhwZw?oc=5",
-          "summary": "OPEC+ reportedly expected to approve another oil output increase for August &nbsp;&nbsp; Investing.com OPEC+ approves further oil output increase as Hormuz exports start to recover &nbsp;&nbsp; Reuters OPEC, Allies Hike Output Again as Hor...",
-          "publishedAt": "2026-07-05T09:17:07.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "fifa-world-cup-2026-every-match-result-on-sunday-5-july-live-scores-sports-2026-07-05t09-05-00-000z",
-      "title": "FIFA World Cup 2026 – Every match result on Sunday 5 July – Live scores",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQlpyaGlwNkRzSjhiWUtRM0JQc3hpV2c5d1dlU0QyME1xTDczeHFxQnhNYUljOGxiTGVZVjlCSVNxcWFOQU0zRHRDeUxpZThKSkhtc2t6bXk5cHpTNEEzZHVGalhGOEFDNU5JZjR2cnZXRGNfUkp4WnJ4RkdVTkkzMkdEbGRqaWZtem02ellxams3ZnpnSUk1Y211aHJPQQ?oc=5",
-      "summary": "FIFA World Cup 2026 – Every match result on Sunday 5 July – Live scores &nbsp;&nbsp; olympics.com See more headlines and perspectives on Google News",
-      "image": "",
-      "source": "olympics.com",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-07-05T09:05:00.000Z",
-      "sources": [
-        {
-          "name": "olympics.com",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQlpyaGlwNkRzSjhiWUtRM0JQc3hpV2c5d1dlU0QyME1xTDczeHFxQnhNYUljOGxiTGVZVjlCSVNxcWFOQU0zRHRDeUxpZThKSkhtc2t6bXk5cHpTNEEzZHVGalhGOEFDNU5JZjR2cnZXRGNfUkp4WnJ4RkdVTkkzMkdEbGRqaWZtem02ellxams3ZnpnSUk1Y211aHJPQQ?oc=5",
-          "summary": "FIFA World Cup 2026 – Every match result on Sunday 5 July – Live scores &nbsp;&nbsp; olympics.com See more headlines and perspectives on Google News",
-          "publishedAt": "2026-07-05T09:05:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "adani-case-was-a-name-and-shame-indictment-by-biden-administration-without-realistic-prospect-of-tri",
-      "title": "Adani case was a name-and-shame indictment by Biden administration without realistic prospect of trial: US DOJ to Court",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbG1wZzI1NEdmbkVMQWxqcEVHZlVQTklydERGck1LNlZrMkNTTWZjS1hEeV9MZTRPY0dXNC14SGdnWURMaS1CTGZ6Zk45SjMxSFZSalQyMTgyZmtWRHk2WjgwREtjcVRZeUZoQUNmMTdVX204eG45X203MW5QR0hnUFVlRW4tajl5U0lteFNldjZDcXBISVRYZk1RUlRFazUyVVhuTmZTTEtwYVZSd2JBNzhLQnZjM2ExN2lYVTNjS2xyQ1czeFJIV3ZZMThiSWhOUDVDUXQwRmxzajFTRk05MGROSC1uLUpLY1dNb1lJbUdnRmw50gGCAkFVX3lxTFBBZ3N5eHZjTzdnS3l6bFRNTGdpREhCaThQWlpWX3ktcmMwbG1mUUd4cDlKUmNBZ25Ea1d6ZG55VVFnZ19MT21aWVU5eUF4WUVpVkZKdjZfOEhDYWhaQ1ZKeUFxV244X2llSGFkQnRKWFFxNFR2SkNheTJJMlZkSm1hNUtxRk0tSDMyd190THZXbl82VUJ3TjFaUjNwaEMzbEVuN0xPRjhEZmVQOTgybXZtTFdhS2dHZUNOQnJEb2pIYUJHV0xfUEh1dXIwUnltd3l1Y3hUWjl1Nm93QWx0YkNha01NTUlKTjJVNl93VFdKaURPWWhaTWZCQjRlbVpDUHE4dw?oc=5",
-      "summary": "Adani case was a name-and-shame indictment by Biden administration without realistic prospect of trial: US DOJ to Court &nbsp;&nbsp; Bar and Bench U.S. actions as ‘world police’ can cause diplomatic strife, U.S. DoJ on why it is dropping A...",
-      "image": "",
-      "source": "Bar and Bench",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-07-05T09:02:05.000Z",
-      "sources": [
-        {
-          "name": "Bar and Bench",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbG1wZzI1NEdmbkVMQWxqcEVHZlVQTklydERGck1LNlZrMkNTTWZjS1hEeV9MZTRPY0dXNC14SGdnWURMaS1CTGZ6Zk45SjMxSFZSalQyMTgyZmtWRHk2WjgwREtjcVRZeUZoQUNmMTdVX204eG45X203MW5QR0hnUFVlRW4tajl5U0lteFNldjZDcXBISVRYZk1RUlRFazUyVVhuTmZTTEtwYVZSd2JBNzhLQnZjM2ExN2lYVTNjS2xyQ1czeFJIV3ZZMThiSWhOUDVDUXQwRmxzajFTRk05MGROSC1uLUpLY1dNb1lJbUdnRmw50gGCAkFVX3lxTFBBZ3N5eHZjTzdnS3l6bFRNTGdpREhCaThQWlpWX3ktcmMwbG1mUUd4cDlKUmNBZ25Ea1d6ZG55VVFnZ19MT21aWVU5eUF4WUVpVkZKdjZfOEhDYWhaQ1ZKeUFxV244X2llSGFkQnRKWFFxNFR2SkNheTJJMlZkSm1hNUtxRk0tSDMyd190THZXbl82VUJ3TjFaUjNwaEMzbEVuN0xPRjhEZmVQOTgybXZtTFdhS2dHZUNOQnJEb2pIYUJHV0xfUEh1dXIwUnltd3l1Y3hUWjl1Nm93QWx0YkNha01NTUlKTjJVNl93VFdKaURPWWhaTWZCQjRlbVpDUHE4dw?oc=5",
-          "summary": "Adani case was a name-and-shame indictment by Biden administration without realistic prospect of trial: US DOJ to Court &nbsp;&nbsp; Bar and Bench U.S. actions as ‘world police’ can cause diplomatic strife, U.S. DoJ on why it is dropping A...",
-          "publishedAt": "2026-07-05T09:02:05.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "could-life-exist-here-scientists-discover-potentially-habitable-earth-like-exoplanet-tech-2026-07-05",
-      "title": "Could Life Exist Here? Scientists Discover Potentially Habitable Earth-Like Exoplanet",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaUZQN2VMSmlEdXZBRFBKdXI3SXd6XzlGLUtYTTNETmRwZUIzRXBDNmlEd19WNFYzd1FhWEF0Mzc3d1M1MlNFUGE0SU1EZTk0eWROb3U1RXNYdUJPUWp4VFBYc0lVWFduMC1TRnkwQ0lpbE1ZcDlHaG9WSDhIdjRuenZpYlk3TmkwVU5oRXVGaXdWSzUzUk1vdU1veV9QaWlybmtmamlBd2VGeGVOSGJNbGc0MWg3Q0U4ZWtHUFdna9IBxwFBVV95cUxQczdFMkNPbHF2dURmNmJGNE9Pa0QtUDY5anJiOFJnelY2eWFrZm5NT0NQNG5MVk82UFVrOGYyRXpCQWotQ3BmLVlyb2RzTC1MMC1vLTU1QTctUkxpYkZyNF9Icml6WmpNeS1jT180UVA3VWprU2hZbV9hWXRQMVV1SG00ejJZZ01uSURBYXBNMHJlQkdqREQ1QTJUSElwTE9hVTdoU1hZZkROYnU5d19XaHI4RGV1SzBqd05ubGRRdlRyUnlGSkRR?oc=5",
-      "summary": "Could Life Exist Here? Scientists Discover Potentially Habitable Earth-Like Exoplanet &nbsp;&nbsp; NDTV A New Earth-like Exoplanet Discovered &nbsp;&nbsp; Astrobiology Web Astronomers discover a potentially habitable planet just 25 light-y...",
-      "image": "",
-      "source": "NDTV",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-07-05T08:38:44.000Z",
-      "sources": [
-        {
-          "name": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaUZQN2VMSmlEdXZBRFBKdXI3SXd6XzlGLUtYTTNETmRwZUIzRXBDNmlEd19WNFYzd1FhWEF0Mzc3d1M1MlNFUGE0SU1EZTk0eWROb3U1RXNYdUJPUWp4VFBYc0lVWFduMC1TRnkwQ0lpbE1ZcDlHaG9WSDhIdjRuenZpYlk3TmkwVU5oRXVGaXdWSzUzUk1vdU1veV9QaWlybmtmamlBd2VGeGVOSGJNbGc0MWg3Q0U4ZWtHUFdna9IBxwFBVV95cUxQczdFMkNPbHF2dURmNmJGNE9Pa0QtUDY5anJiOFJnelY2eWFrZm5NT0NQNG5MVk82UFVrOGYyRXpCQWotQ3BmLVlyb2RzTC1MMC1vLTU1QTctUkxpYkZyNF9Icml6WmpNeS1jT180UVA3VWprU2hZbV9hWXRQMVV1SG00ejJZZ01uSURBYXBNMHJlQkdqREQ1QTJUSElwTE9hVTdoU1hZZkROYnU5d19XaHI4RGV1SzBqd05ubGRRdlRyUnlGSkRR?oc=5",
-          "summary": "Could Life Exist Here? Scientists Discover Potentially Habitable Earth-Like Exoplanet &nbsp;&nbsp; NDTV A New Earth-like Exoplanet Discovered &nbsp;&nbsp; Astrobiology Web Astronomers discover a potentially habitable planet just 25 light-y...",
-          "publishedAt": "2026-07-05T08:38:44.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "another-monsoon-death-in-mumbai-man-dies-after-tree-falls-on-him-amid-rain-general-2026-07-05t08-37",
-      "title": "Another Monsoon Death In Mumbai, Man Dies After Tree Falls On Him Amid Rain",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOFpCNVFZS3BoR0d0MGoyNkNFUEVBSTMwZ1ZVV0kxTDZCUkZja08xeUhRVWRjMjFFSF9aeEVPd2swRXZrVkdDdV85c1FyYjc3Q1gycE1tUHhwM1M5bEdCR01xMGJSdEpmbFNuRDZYN2FBVHN1dTlYOUJvVzFRY01HeEJUN0FMdlF3MUNKbXllUUtiaEVZSUJsOExRZFdidEQ0OGVkZ1dvY3RQN1VxVG9HX1l0YmxjUQ?oc=5",
-      "summary": "Another Monsoon Death In Mumbai, Man Dies After Tree Falls On Him Amid Rain &nbsp;&nbsp; NDTV 2 Women Injured As Tree Crashes Down In Mumbai, Third Collapse In 6 Days &nbsp;&nbsp; NDTV Mumbai rains: Death toll rises to three within one wee...",
-      "image": "",
-      "source": "NDTV",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-07-05T08:37:29.000Z",
-      "sources": [
-        {
-          "name": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOFpCNVFZS3BoR0d0MGoyNkNFUEVBSTMwZ1ZVV0kxTDZCUkZja08xeUhRVWRjMjFFSF9aeEVPd2swRXZrVkdDdV85c1FyYjc3Q1gycE1tUHhwM1M5bEdCR01xMGJSdEpmbFNuRDZYN2FBVHN1dTlYOUJvVzFRY01HeEJUN0FMdlF3MUNKbXllUUtiaEVZSUJsOExRZFdidEQ0OGVkZ1dvY3RQN1VxVG9HX1l0YmxjUQ?oc=5",
-          "summary": "Another Monsoon Death In Mumbai, Man Dies After Tree Falls On Him Amid Rain &nbsp;&nbsp; NDTV 2 Women Injured As Tree Crashes Down In Mumbai, Third Collapse In 6 Days &nbsp;&nbsp; NDTV Mumbai rains: Death toll rises to three within one wee...",
-          "publishedAt": "2026-07-05T08:37:29.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "us-marks-250th-birthday-with-fireworks-flyovers-and-extreme-weather-world-2026-07-05t08-24-32-000z",
-      "title": "US marks 250th birthday with fireworks, flyovers and extreme weather",
-      "link": "https://www.bbc.co.uk/news/articles/cp9lppvkmz5o?at_medium=RSS&at_campaign=rss",
-      "summary": "US President Donald Trump's speech included some of his political agenda but also honoured war veterans and American history.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a55a/live/28e7ea40-7845-11f1-a62d-b782ecdb6ead.jpg",
+      "id": "chinese-underground-church-figure-jin-mingri-freed-from-prison-world-2026-07-05t05-58-21-000z",
+      "title": "Chinese underground church figure Jin Mingri freed from prison",
+      "link": "https://www.bbc.co.uk/news/articles/c4gy51ky75vo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Zion Church founder's release comes after a direct plea to Xi Jinping from Donald Trump.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a119/live/d5d21d80-782b-11f1-b976-0b9c15b0ccfc.jpg",
       "source": "BBC World",
       "category": "world",
       "categoryLabel": "World",
-      "publishedAt": "2026-07-05T08:24:32.000Z",
+      "publishedAt": "2026-07-05T05:58:21.000Z",
       "sources": [
         {
           "name": "BBC World",
-          "link": "https://www.bbc.co.uk/news/articles/cp9lppvkmz5o?at_medium=RSS&at_campaign=rss",
-          "summary": "US President Donald Trump's speech included some of his political agenda but also honoured war veterans and American history.",
-          "publishedAt": "2026-07-05T08:24:32.000Z"
+          "link": "https://www.bbc.co.uk/news/articles/c4gy51ky75vo?at_medium=RSS&at_campaign=rss",
+          "summary": "The Zion Church founder's release comes after a direct plea to Xi Jinping from Donald Trump.",
+          "publishedAt": "2026-07-05T05:58:21.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "ali-khamenei-s-3-sons-attend-funeral-in-tehran-successor-mojtaba-skips-general-2026-07-05t08-22-53-0",
-      "title": "Ali Khamenei's 3 Sons Attend Funeral In Tehran, Successor Mojtaba Skips",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQRTQyajFDYzVFQ2Jxa21zQW1EbF9yVnFfdk9oV0pvaEo1OGh5UXRlemRRTldYUEliUlNzRzdKVTNOODlieHZ2LW1oS2NSZGxhcDlBemVvQUJIczUtUW5ER05vQUFGR2dEM0w2VnYxS3BQWkRzbHhtcF9BQ1hUa2ZXcVUtZGlLWkRDd3pZQTNET2JyZ3pPMFpzblFsZy11a2wzdzhhUWNINllfa2hMdW5mdlVJQUUyeFNJMUlYTzd6enlxa2ZpWVp5YTloTWxuUFFWTkkwbkpsMldmemhTd1U4RHpSMVhuMG02SGNZQ0RjM0RmM09vcXdkdWpJNWtkTVk5dWpTbFV2Snp4bVlNUEE4Vi1B?oc=5",
-      "summary": "Ali Khamenei's 3 Sons Attend Funeral In Tehran, Successor Mojtaba Skips &nbsp;&nbsp; NDTV West Asia War LIVE: New Iran leader absent as other sons pay respects to Khamenei &nbsp;&nbsp; The Hindu 'Why should we not kill the man who killed m...",
-      "image": "",
-      "source": "NDTV",
+      "id": "in-telangana-why-it-is-an-open-debate-season-as-congress-brs-bjp-trade-fireworks-politics-2026-07-05",
+      "title": "In Telangana, why it is an ‘open debate’ season as Congress, BRS, BJP trade fireworks",
+      "link": "https://indianexpress.com/article/political-pulse/in-telangana-why-it-is-an-open-debate-season-as-congress-brs-bjp-trade-fireworks-10771797/",
+      "summary": "",
+      "image": "https://images.indianexpress.com/2026/07/revanth-reddy_20260704183413.jpg",
+      "source": "Indian Express Politics",
+      "category": "politics",
+      "categoryLabel": "Politics",
+      "publishedAt": "2026-07-05T01:30:49.000Z",
+      "sources": [
+        {
+          "name": "Indian Express Politics",
+          "link": "https://indianexpress.com/article/political-pulse/in-telangana-why-it-is-an-open-debate-season-as-congress-brs-bjp-trade-fireworks-10771797/",
+          "summary": "",
+          "publishedAt": "2026-07-05T01:30:49.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "temple-donation-theft-ugc-rules-row-ahead-of-up-polls-bjp-s-focus-on-course-correction-politics-2026",
+      "title": "Temple donation ‘theft’, UGC rules row: Ahead of UP polls, BJP’s focus on course correction",
+      "link": "https://indianexpress.com/article/political-pulse/temple-donation-theft-ugc-rules-row-ahead-of-up-polls-bjps-focus-on-prompt-action-correction-10771829/",
+      "summary": "",
+      "image": "https://images.indianexpress.com/2026/07/Nabin_20260224223132_20260303205939_20260325221208_20260507210315_20260520205853_20260601212609_20260609204759_20260615190151_20260620231628_20260630213831_20260704202817.jpg",
+      "source": "Indian Express Politics",
+      "category": "politics",
+      "categoryLabel": "Politics",
+      "publishedAt": "2026-07-05T01:15:50.000Z",
+      "sources": [
+        {
+          "name": "Indian Express Politics",
+          "link": "https://indianexpress.com/article/political-pulse/temple-donation-theft-ugc-rules-row-ahead-of-up-polls-bjps-focus-on-prompt-action-correction-10771829/",
+          "summary": "",
+          "publishedAt": "2026-07-05T01:15:50.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "despite-nda-tally-rise-why-government-faces-hurdles-in-fresh-women-quota-bill-push-politics-2026-07",
+      "title": "Despite NDA tally rise, why Government faces hurdles in fresh women quota Bill push",
+      "link": "https://indianexpress.com/article/political-pulse/despite-nda-tally-rise-why-government-faces-hurdles-in-fresh-women-quota-bill-push-10771806/",
+      "summary": "",
+      "image": "https://images.indianexpress.com/2026/07/lok-sabha-file-photo-IE-2_20260704183955.jpg",
+      "source": "Indian Express Politics",
+      "category": "politics",
+      "categoryLabel": "Politics",
+      "publishedAt": "2026-07-05T01:15:28.000Z",
+      "sources": [
+        {
+          "name": "Indian Express Politics",
+          "link": "https://indianexpress.com/article/political-pulse/despite-nda-tally-rise-why-government-faces-hurdles-in-fresh-women-quota-bill-push-10771806/",
+          "summary": "",
+          "publishedAt": "2026-07-05T01:15:28.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "what-sky-buying-itv-could-mean-for-your-favourite-shows-general-2026-07-04t23-23-51-000z",
+      "title": "What Sky buying ITV could mean for your favourite shows",
+      "link": "https://www.bbc.co.uk/news/articles/c04yx44xq19o?at_medium=RSS&at_campaign=rss",
+      "summary": "An announcement is expected imminently on Sky buying ITV's TV and streaming channels.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7d9/live/21b014a0-779b-11f1-a02d-cbd2f4813818.png",
+      "source": "BBC News",
       "category": "general",
       "categoryLabel": "General",
-      "publishedAt": "2026-07-05T08:22:53.000Z",
+      "publishedAt": "2026-07-04T23:23:51.000Z",
       "sources": [
         {
-          "name": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQRTQyajFDYzVFQ2Jxa21zQW1EbF9yVnFfdk9oV0pvaEo1OGh5UXRlemRRTldYUEliUlNzRzdKVTNOODlieHZ2LW1oS2NSZGxhcDlBemVvQUJIczUtUW5ER05vQUFGR2dEM0w2VnYxS3BQWkRzbHhtcF9BQ1hUa2ZXcVUtZGlLWkRDd3pZQTNET2JyZ3pPMFpzblFsZy11a2wzdzhhUWNINllfa2hMdW5mdlVJQUUyeFNJMUlYTzd6enlxa2ZpWVp5YTloTWxuUFFWTkkwbkpsMldmemhTd1U4RHpSMVhuMG02SGNZQ0RjM0RmM09vcXdkdWpJNWtkTVk5dWpTbFV2Snp4bVlNUEE4Vi1B?oc=5",
-          "summary": "Ali Khamenei's 3 Sons Attend Funeral In Tehran, Successor Mojtaba Skips &nbsp;&nbsp; NDTV West Asia War LIVE: New Iran leader absent as other sons pay respects to Khamenei &nbsp;&nbsp; The Hindu 'Why should we not kill the man who killed m...",
-          "publishedAt": "2026-07-05T08:22:53.000Z"
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/c04yx44xq19o?at_medium=RSS&at_campaign=rss",
+          "summary": "An announcement is expected imminently on Sky buying ITV's TV and streaming channels.",
+          "publishedAt": "2026-07-04T23:23:51.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "government-issues-stern-notice-to-meta-on-child-sexual-abuse-material-in-instagram-ads-sources-busin",
-      "title": "Government issues stern notice to Meta on child sexual abuse material in Instagram ads: sources",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZkVGbWtReF9xNkZwZC1ENTB5b2pndUk0cm1icmN1OWJhT3FTczV5enNNM2lEaHZqMFA0Q2dqZDNQTTRGOXUzLWR5WUJ1NF9xLWtVOHpFejY4a2lFMFBlSmU2eXhRTS1veE1wV0pfUmJiN19FSXBQUHh0SlVNb3NNUmllb1J0c256Y2RacjFjQk1yZDJ2UEExWU52RVVmbjBvWHQ4Qm43OGV6V3hYM1dTbmE3V3hFVGxTLU0tc0szcXJnZFhDQmpSbGpLRXd0bmJmZTNDV3BsVGFlOWM4SDNINE9JcTVFVFhlclJSaDA1NmI?oc=5",
-      "summary": "Government issues stern notice to Meta on child sexual abuse material in Instagram ads: sources &nbsp;&nbsp; The Hindu Instagram running ads promoting child sexual abuse material in India, BBC finds &nbsp;&nbsp; BBC Top news of the day | J...",
-      "image": "",
-      "source": "The Hindu",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-07-05T08:16:03.000Z",
+      "id": "moment-of-destiny-for-france-s-le-pen-in-verdict-to-decide-her-future-in-presidential-race-world-202",
+      "title": "Moment of destiny for France's Le Pen in verdict to decide her future in presidential race",
+      "link": "https://www.bbc.co.uk/news/articles/c5yzlwz34p7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Far-right leader Marine Le Pen is appealing against a verdict which found her guilty of misusing EU funds.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/799f/live/4ae824d0-76d7-11f1-b508-3b3f1f22a3c1.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-07-04T23:17:24.000Z",
       "sources": [
         {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZkVGbWtReF9xNkZwZC1ENTB5b2pndUk0cm1icmN1OWJhT3FTczV5enNNM2lEaHZqMFA0Q2dqZDNQTTRGOXUzLWR5WUJ1NF9xLWtVOHpFejY4a2lFMFBlSmU2eXhRTS1veE1wV0pfUmJiN19FSXBQUHh0SlVNb3NNUmllb1J0c256Y2RacjFjQk1yZDJ2UEExWU52RVVmbjBvWHQ4Qm43OGV6V3hYM1dTbmE3V3hFVGxTLU0tc0szcXJnZFhDQmpSbGpLRXd0bmJmZTNDV3BsVGFlOWM4SDNINE9JcTVFVFhlclJSaDA1NmI?oc=5",
-          "summary": "Government issues stern notice to Meta on child sexual abuse material in Instagram ads: sources &nbsp;&nbsp; The Hindu Instagram running ads promoting child sexual abuse material in India, BBC finds &nbsp;&nbsp; BBC Top news of the day | J...",
-          "publishedAt": "2026-07-05T08:16:03.000Z"
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/c5yzlwz34p7o?at_medium=RSS&at_campaign=rss",
+          "summary": "Far-right leader Marine Le Pen is appealing against a verdict which found her guilty of misusing EU funds.",
+          "publishedAt": "2026-07-04T23:17:24.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "nasa-launched-an-emergency-mission-to-stop-the-swift-observatory-from-crashing-to-earth-tech-2026-07",
+      "title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
+      "link": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
+      "summary": "The Swift Observatory was launched in 2004, but recent solar storms have pushed its orbit lower, and it's in danger of burning up in Earth's atmosphere as soon as this year. To try and stave off its demise, NASA has enlisted Katalyst Space...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Testing-Link-Vibration-tests-2_4000x2600.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-07-04T19:06:27.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
+          "summary": "The Swift Observatory was launched in 2004, but recent solar storms have pushed its orbit lower, and it's in danger of burning up in Earth's atmosphere as soon as this year. To try and stave off its demise, NASA has enlisted Katalyst Space...",
+          "publishedAt": "2026-07-04T19:06:27.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "white-house-deletes-thousands-of-web-pages-about-energy-conservation-as-heatwave-slams-us-tech-2026",
+      "title": "White House deletes thousands of web pages about energy conservation as heatwave slams US",
+      "link": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
+      "summary": "The US Department of Energy reportedly deleted about 6,000 pages related to energy conservation as a historic heatwave tears across the country. The deletion was suspiciously timed, following Republican outrage over Mayor Zohran Mamdani as...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25739860/1998630585.jpg?quality=90&strip=all&crop=0,0,100.51963048499,100.51966048848",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-07-04T16:19:06.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
+          "summary": "The US Department of Energy reportedly deleted about 6,000 pages related to energy conservation as a historic heatwave tears across the country. The deletion was suspiciously timed, following Republican outrage over Mayor Zohran Mamdani as...",
+          "publishedAt": "2026-07-04T16:19:06.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "matic-s-robot-vacuum-is-getting-a-250-price-hike-in-september-tech-2026-07-04t16-00-00-000z",
+      "title": "Matic’s robot vacuum is getting a $250 price hike in September",
+      "link": "https://www.theverge.com/gadgets/960753/matic-robot-vacuum-mop-price-increase-cost-buy",
+      "summary": "The Matic is our favorite robot vacuum by a pretty comfortable margin. If you’ve been thinking about buying one, you may want to plan on doing it sooner than later. The company will raise its price by $250 on September 9th, going from $1,2...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/258028_Matic_Robot_Vacuum_JTuohy_0009.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-07-04T16:00:00.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/gadgets/960753/matic-robot-vacuum-mop-price-increase-cost-buy",
+          "summary": "The Matic is our favorite robot vacuum by a pretty comfortable margin. If you’ve been thinking about buying one, you may want to plan on doing it sooner than later. The company will raise its price by $250 on September 9th, going from $1,2...",
+          "publishedAt": "2026-07-04T16:00:00.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "i-ignore-traitors-mamata-banerjee-slams-rebels-as-key-aide-quits-amid-tmc-meltdown-politics-2026-07",
+      "title": "‘I ignore traitors’: Mamata Banerjee slams rebels as key aide quits amid TMC meltdown",
+      "link": "https://indianexpress.com/article/political-pulse/i-ignore-traitors-mamata-banerjee-slams-rebels-as-key-aide-quits-amid-tmc-meltdown-10771660/",
+      "summary": "",
+      "image": "https://images.indianexpress.com/2026/07/mamata-chandrima.jpg",
+      "source": "Indian Express Politics",
+      "category": "politics",
+      "categoryLabel": "Politics",
+      "publishedAt": "2026-07-04T15:06:35.000Z",
+      "sources": [
+        {
+          "name": "Indian Express Politics",
+          "link": "https://indianexpress.com/article/political-pulse/i-ignore-traitors-mamata-banerjee-slams-rebels-as-key-aide-quits-amid-tmc-meltdown-10771660/",
+          "summary": "",
+          "publishedAt": "2026-07-04T15:06:35.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "i-ignore-all-those-who-are-gone-mamata-targets-rebels-sends-message-to-suvendu-adhikari-politics-202",
+      "title": "‘I ignore all those who are gone’: Mamata targets rebels, sends message to Suvendu Adhikari",
+      "link": "https://indianexpress.com/article/political-pulse/ignore-those-who-are-gone-mamata-targets-rebels-message-to-suvendu-adhikari-10771516/",
+      "summary": "",
+      "image": "https://images.indianexpress.com/2026/07/mamata-banerjee-6.jpg",
+      "source": "Indian Express Politics",
+      "category": "politics",
+      "categoryLabel": "Politics",
+      "publishedAt": "2026-07-04T13:09:22.000Z",
+      "sources": [
+        {
+          "name": "Indian Express Politics",
+          "link": "https://indianexpress.com/article/political-pulse/ignore-those-who-are-gone-mamata-targets-rebels-message-to-suvendu-adhikari-10771516/",
+          "summary": "",
+          "publishedAt": "2026-07-04T13:09:22.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "why-chandrima-bhattacharya-s-exit-from-tmc-deals-a-body-blow-to-mamata-camp-politics-2026-07-04t12-0",
+      "title": "Why Chandrima Bhattacharya’s exit from TMC deals a body blow to Mamata camp",
+      "link": "https://indianexpress.com/article/political-pulse/why-chandrima-bhattacharyas-exit-from-tmc-deals-a-body-blow-to-mamata-camp-10771447/",
+      "summary": "",
+      "image": "https://images.indianexpress.com/2026/07/chandrima-bhattacharya-2.jpg",
+      "source": "Indian Express Politics",
+      "category": "politics",
+      "categoryLabel": "Politics",
+      "publishedAt": "2026-07-04T12:01:20.000Z",
+      "sources": [
+        {
+          "name": "Indian Express Politics",
+          "link": "https://indianexpress.com/article/political-pulse/why-chandrima-bhattacharyas-exit-from-tmc-deals-a-body-blow-to-mamata-camp-10771447/",
+          "summary": "",
+          "publishedAt": "2026-07-04T12:01:20.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "at-the-centre-of-digvijaya-jitu-patwari-flashpoint-what-is-veer-bharat-nyas-politics-2026-07-04t08-3",
+      "title": "At the centre of Digvijaya-Jitu Patwari flashpoint, what is Veer Bharat Nyas?",
+      "link": "https://indianexpress.com/article/political-pulse/digvijaya-jitu-patwari-flashpoint-veer-bharat-nyas-10771162/",
+      "summary": "",
+      "image": "https://images.indianexpress.com/2026/07/digvijaya-singh-jitu-patwari.jpg",
+      "source": "Indian Express Politics",
+      "category": "politics",
+      "categoryLabel": "Politics",
+      "publishedAt": "2026-07-04T08:37:47.000Z",
+      "sources": [
+        {
+          "name": "Indian Express Politics",
+          "link": "https://indianexpress.com/article/political-pulse/digvijaya-jitu-patwari-flashpoint-veer-bharat-nyas-10771162/",
+          "summary": "",
+          "publishedAt": "2026-07-04T08:37:47.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "the-chandigarh-paradox-why-three-states-fight-for-a-city-that-remains-above-the-fray-politics-2026-0",
+      "title": "The Chandigarh paradox: Why three states fight for a city that remains above the fray",
+      "link": "https://indianexpress.com/article/political-pulse/chandigarh-paradox-three-states-fight-capital-city-10770429/",
+      "summary": "",
+      "image": "https://images.indianexpress.com/2026/07/Chandigarh-secretariat_a27304.jpg",
+      "source": "Indian Express Politics",
+      "category": "politics",
+      "categoryLabel": "Politics",
+      "publishedAt": "2026-07-04T01:50:42.000Z",
+      "sources": [
+        {
+          "name": "Indian Express Politics",
+          "link": "https://indianexpress.com/article/political-pulse/chandigarh-paradox-three-states-fight-capital-city-10770429/",
+          "summary": "",
+          "publishedAt": "2026-07-04T01:50:42.000Z"
         }
       ],
       "sourceCount": 1
