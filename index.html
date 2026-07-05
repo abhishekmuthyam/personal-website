@@ -11,200 +11,373 @@
   <link rel="stylesheet" href="style.css">
   <script src="/auth.js" defer></script>
   <style>
-    /* Homepage-scoped enhancements on top of the global design system */
-    .home-hero {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+    /* ---------- OTT-style homepage ---------- */
+    main { padding-bottom: 0; }
+
+    /* Billboard */
+    .billboard {
       position: relative;
+      min-height: min(62vh, 520px);
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(135deg, #0e1124, #170f30);
     }
 
-    .home-hero::before {
+    .billboard-bg {
+      position: absolute;
+      inset: -20px;
+      background-size: cover;
+      background-position: center;
+      filter: blur(14px) brightness(0.55);
+      transform: scale(1.1);
+    }
+
+    .billboard::after {
       content: '';
       position: absolute;
       inset: 0;
-      background-image:
-        linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
-      background-size: 44px 44px;
-      mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, black 30%, transparent 75%);
-      -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, black 30%, transparent 75%);
-      pointer-events: none;
+      background: linear-gradient(to top, var(--bg) 4%, rgba(6,9,19,0.55) 45%, rgba(6,9,19,0.25) 100%);
     }
 
-    .home-hero > * {
+    .billboard-inner {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 90px 24px 54px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: 40px;
+      align-items: end;
+    }
+
+    .billboard-kicker {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .billboard h1 {
+      font-size: clamp(28px, 4.4vw, 50px);
+      font-weight: 800;
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      margin: 0 0 14px;
+      color: #ffffff;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .billboard-meta {
+      color: var(--muted);
+      font-size: 15px;
+      margin-bottom: 26px;
+    }
+
+    .billboard-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .billboard-poster {
+      position: relative;
+      aspect-ratio: 16 / 9;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.15);
+      box-shadow: 0 30px 70px rgba(0,0,0,0.55);
+      cursor: pointer;
+    }
+
+    .billboard-poster img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .billboard-poster::after {
+      content: '▶';
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 44px;
+      color: white;
+      background: rgba(0,0,0,0.25);
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+
+    .billboard-poster:hover::after { opacity: 1; }
+
+    @media (max-width: 900px) {
+      .billboard-inner { grid-template-columns: 1fr; padding: 70px 18px 40px; }
+      .billboard-poster { display: none; }
+    }
+
+    /* Rails */
+    .rails {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 26px 0 10px;
+    }
+
+    .rail {
+      max-width: none;
+      margin: 6px 0 26px;
+      padding: 0;
       position: relative;
     }
 
-    .status-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(20, 184, 166, 0.08);
-      border: 1px solid rgba(20, 184, 166, 0.25);
-      border-radius: 99px;
-      color: var(--accent);
-      font-size: 13px;
-      font-weight: 600;
-      padding: 6px 14px;
-      margin-bottom: 22px;
-      width: fit-content;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .home-hero .hero-actions,
-    .home-hero .tech-chips {
-      justify-content: center;
-    }
-
-    .card-arrow {
-      margin-top: auto !important;
-      padding-top: 14px;
-    }
-
-    .status-pill::before {
-      content: '';
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--accent);
-      box-shadow: 0 0 0 0 rgba(20, 184, 166, 0.6);
-      animation: pulse 2.2s infinite;
-    }
-
-    @keyframes pulse {
-      0% { box-shadow: 0 0 0 0 rgba(20, 184, 166, 0.5); }
-      70% { box-shadow: 0 0 0 9px rgba(20, 184, 166, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(20, 184, 166, 0); }
-    }
-
-    .hero-sub {
-      max-width: 640px !important;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .home-hero .hero-sub {
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .tech-chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 28px;
-    }
-
-    .tech-chips span {
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 8px;
-      color: var(--muted);
-      font-size: 13px;
-      font-weight: 500;
-      padding: 6px 12px;
-      transition: border-color 0.2s, color 0.2s;
-    }
-
-    .tech-chips span:hover {
-      border-color: rgba(99, 102, 241, 0.45);
-      color: var(--text);
-    }
-
-    .button.ghost-icon {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      color: #ffffff;
-      gap: 8px;
-    }
-
-    .button.ghost-icon:hover {
-      background: rgba(255, 255, 255, 0.1);
-      border-color: rgba(255, 255, 255, 0.2);
-      transform: translateY(-2px);
-    }
-
-    .button svg {
-      width: 17px;
-      height: 17px;
-      fill: currentColor;
-    }
-
-    .group-heading {
+    .rail-head {
       display: flex;
       align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 0 24px;
+      margin-bottom: 12px;
+    }
+
+    .rail-head h2 {
+      font-size: 21px;
+      margin: 0;
+      letter-spacing: -0.01em;
+    }
+
+    .rail-head a {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .rail-head a:hover { color: var(--brand); }
+
+    .rail-wrap { position: relative; }
+
+    .rail-track {
+      display: flex;
       gap: 14px;
-      border-top: 1px solid var(--line);
-      padding-top: 34px;
-      margin-top: 44px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+      padding: 10px 24px 16px;
+      scroll-snap-type: x proximity;
     }
 
-    .group-heading h2 {
-      margin: 0 0 4px;
+    .rail-track::-webkit-scrollbar { display: none; }
+
+    .rail-chevron {
+      position: absolute;
+      top: 0;
+      bottom: 6px;
+      width: 46px;
+      z-index: 5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      border-radius: 0;
+      color: white;
+      font-size: 26px;
+      cursor: pointer;
+      opacity: 0;
+      transition: opacity 0.2s;
+      box-shadow: none;
+      padding: 0;
     }
 
-    .group-heading .group-note {
+    .rail-wrap:hover .rail-chevron { opacity: 1; }
+    .rail-chevron.prev { left: 0; background: linear-gradient(to right, rgba(6,9,19,0.9), transparent); }
+    .rail-chevron.next { right: 0; background: linear-gradient(to left, rgba(6,9,19,0.9), transparent); }
+    .rail-chevron:hover { background-color: rgba(6,9,19,0.6); transform: none; }
+    @media (hover: none) { .rail-chevron { display: none; } }
+
+    /* Cards */
+    .tile {
+      flex: 0 0 250px;
+      scroll-snap-align: start;
+      background: var(--panel);
+      border: 1px solid var(--glass-border);
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      color: var(--text);
+      text-align: left;
+      padding: 0;
+      font-family: inherit;
+      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tile:hover {
+      transform: scale(1.05);
+      border-color: rgba(99,102,241,0.55);
+      box-shadow: 0 14px 34px rgba(0,0,0,0.5);
+      z-index: 3;
+      background: var(--panel);
+    }
+
+    .tile-thumb {
+      aspect-ratio: 16 / 9;
+      background: linear-gradient(135deg, #1f2a44, #3b2a54);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 34px;
+    }
+
+    .tile-thumb img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .tile-thumb .play-hint {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      color: white;
+      background: rgba(0,0,0,0.28);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .tile:hover .play-hint { opacity: 1; }
+
+    .tile-body { padding: 11px 13px 13px; }
+
+    .tile-kicker {
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .tile h3 {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.35;
+      margin: 0 0 6px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-family: 'Inter', sans-serif;
+      color: #e8edf5;
+    }
+
+    .tile-meta {
+      color: var(--muted);
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    /* Poster tiles (games / learn) */
+    .tile.poster { flex: 0 0 165px; }
+
+    .tile.poster .tile-thumb {
+      aspect-ratio: 2 / 2.6;
+      font-size: 52px;
+    }
+
+    .poster-label {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 40px 12px 12px;
+      background: linear-gradient(to top, rgba(4,6,13,0.92), transparent);
+      color: #ffffff;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 1.25;
+    }
+
+    /* Player modal */
+    .player-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(3,6,15,0.9);
+      backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      padding: 20px;
+    }
+
+    .player-box { width: min(960px, 100%); }
+
+    .player-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
       color: var(--muted);
       font-size: 14px;
     }
 
-    .card-arrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      color: var(--brand);
-      font-size: 13px;
+    .player-bar strong { color: #fff; font-family: 'Outfit', sans-serif; }
+
+    .player-close {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: white;
+      border-radius: 10px;
+      padding: 8px 16px;
+      cursor: pointer;
       font-weight: 600;
-      font-family: 'Outfit', sans-serif;
-      margin-top: 14px;
-      opacity: 0;
-      transform: translateX(-4px);
-      transition: opacity 0.25s, transform 0.25s;
+      box-shadow: none;
     }
 
-    .card-link:hover .card-arrow {
-      opacity: 1;
-      transform: translateX(0);
+    .frame-wrap {
+      aspect-ratio: 16 / 9;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: #000;
     }
 
-    .card-icon {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 42px;
-      height: 42px;
-      border-radius: 11px;
-      background: rgba(99, 102, 241, 0.1);
-      border: 1px solid rgba(99, 102, 241, 0.18);
-      font-size: 20px;
-      margin-bottom: 14px;
+    .frame-wrap iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+    /* About + footer */
+    .about-strip {
+      max-width: 1200px;
+      margin: 30px auto 0;
+      padding: 26px 24px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
     }
 
-    /* Scroll reveal */
-    .reveal {
-      opacity: 0;
-      transform: translateY(18px);
-      transition: opacity 0.6s ease, transform 0.6s ease;
-    }
-
-    .reveal.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .reveal {
-        opacity: 1;
-        transform: none;
-        transition: none;
-      }
-      .status-pill::before {
-        animation: none;
-      }
-    }
+    .about-strip a { color: var(--accent); font-weight: 600; }
 
     .footer-inner {
       max-width: 1100px;
@@ -217,28 +390,18 @@
       text-align: left;
     }
 
-    .footer-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 18px;
-    }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 18px; }
 
-    .footer-links a {
-      color: var(--muted);
-      font-size: 14px;
-      font-weight: 500;
-    }
+    .footer-links a { color: var(--muted); font-size: 14px; font-weight: 500; }
 
-    .footer-links a:hover {
-      color: var(--text);
-    }
+    .footer-links a:hover { color: var(--text); }
+
+    footer { margin-top: 26px; }
 
     @media (max-width: 760px) {
-      .footer-inner {
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-      }
+      .footer-inner { flex-direction: column; text-align: center; justify-content: center; }
+      .tile { flex: 0 0 210px; }
+      .tile.poster { flex: 0 0 140px; }
     }
   </style>
 </head>
@@ -249,6 +412,7 @@
       <div class="nav-links">
         <a href="/watch">Watch</a>
         <a href="/discover">News</a>
+        <a href="/news">Tech Deep-Dive</a>
         <a href="/games">Games</a>
         <a href="/calci">Tools</a>
         <a href="/blog">Blog</a>
@@ -258,193 +422,236 @@
   </header>
 
   <main>
-    <section class="hero home-hero">
-      <span class="status-pill">New: watch videos &amp; global game leaderboards</span>
-      <p class="eyebrow">Read &middot; Play &middot; Learn &middot; Watch</p>
-      <h1>Everything you need, in one place.</h1>
-      <p class="hero-sub">
-        Live news feeds, curated videos, browser games with global leaderboards,
-        study notes, and handy tools — all on one site, with one login. No more
-        hopping between ten different tabs.
-      </p>
-      <div class="hero-actions">
-        <a class="button primary" href="/watch">Watch Videos</a>
-        <a class="button secondary" href="/discover">Read News</a>
-        <a class="button ghost-icon" href="/games">🎮 Play Games</a>
-      </div>
-      <div class="tech-chips" aria-label="What's inside">
-        <span>📰 Live News</span>
-        <span>📺 Curated Videos</span>
-        <span>🎮 5 Games</span>
-        <span>🏆 Global Leaderboards</span>
-        <span>📚 Study Notes</span>
-        <span>🧮 Tools</span>
-        <span>👤 One Login</span>
+    <section class="billboard" id="billboard">
+      <div class="billboard-bg" id="billboardBg"></div>
+      <div class="billboard-inner">
+        <div>
+          <p class="billboard-kicker" id="bbKicker">Featured today</p>
+          <h1 id="bbTitle">Everything you need, in one place.</h1>
+          <p class="billboard-meta" id="bbMeta">Live news · Videos · Games · Study notes · Tools — one login.</p>
+          <div class="billboard-actions" id="bbActions">
+            <a class="button primary" href="/watch">▶ Start Watching</a>
+            <a class="button secondary" href="/discover">Read News</a>
+          </div>
+        </div>
+        <div class="billboard-poster" id="bbPoster" hidden>
+          <img id="bbPosterImg" alt="">
+        </div>
       </div>
     </section>
 
-    <section class="snapshot-strip reveal" aria-label="Site snapshot">
-      <div>
-        <strong>60+</strong>
-        <span>Fresh videos</span>
-      </div>
-      <div>
-        <strong>5</strong>
-        <span>Playable games</span>
-      </div>
-      <div>
-        <strong>2</strong>
-        <span>Live news feeds</span>
-      </div>
-      <div>
-        <strong>4</strong>
-        <span>Learning hubs</span>
-      </div>
-    </section>
+    <div class="rails" id="rails">
+      <section class="rail" id="railVideos">
+        <div class="rail-head"><h2>🎬 Fresh Videos</h2><a href="/watch">See all →</a></div>
+        <div class="rail-wrap"><div class="rail-track"></div></div>
+      </section>
 
-    <section class="reveal">
-      <div class="group-heading" style="border-top:none; padding-top:0; margin-top:0;">
-        <h2>Read &amp; Watch</h2>
-        <span class="group-note">Live feeds, videos, and writing — refreshed automatically</span>
-      </div>
-      <div class="cards feature-cards" style="margin-top:22px;">
-        <a href="/watch" class="card-link">
-          <span class="card-icon">&#128250;</span>
-          <span class="card-kicker">New &middot; Videos</span>
-          <h3>Watch</h3>
-          <p>Fresh videos from trusted coding, science, and learning channels — play them right here.</p>
-          <span class="card-arrow">Watch &rarr;</span>
-        </a>
-        <a href="/discover" class="card-link">
-          <span class="card-icon">&#128240;</span>
-          <span class="card-kicker">Live Feeds</span>
-          <h3>News</h3>
-          <p>Politics, India, world, business, sports, weather, markets — plus a dedicated tech &amp; science deep-dive feed.</p>
-          <span class="card-arrow">Read &rarr;</span>
-        </a>
-        <a href="/blog" class="card-link">
-          <span class="card-icon">&#9997;&#65039;</span>
-          <span class="card-kicker">Writing</span>
-          <h3>Blog</h3>
-          <p>Practical posts about Java, Spring Boot, AWS, APIs, and engineering practice.</p>
-          <span class="card-arrow">Open &rarr;</span>
-        </a>
-      </div>
-    </section>
+      <section class="rail" id="railTrending">
+        <div class="rail-head"><h2>🔥 Trending on YouTube</h2><a href="/watch">See all →</a></div>
+        <div class="rail-wrap"><div class="rail-track"></div></div>
+      </section>
 
-    <section class="reveal">
-      <div class="group-heading">
-        <h2>Build &amp; Play</h2>
-        <span class="group-note">Things you can try right now</span>
-      </div>
-      <div class="cards feature-cards" style="margin-top:22px;">
-        <a href="/projects" class="card-link">
-          <span class="card-icon">&#128736;&#65039;</span>
-          <span class="card-kicker">Portfolio</span>
-          <h3>Projects</h3>
-          <p>A clean view of the website features, tools, games, and learning work.</p>
-          <span class="card-arrow">Open &rarr;</span>
-        </a>
-        <a href="/games" class="card-link">
-          <span class="card-icon">&#127918;</span>
-          <span class="card-kicker">Fun</span>
-          <h3>Games</h3>
-          <p>Five browser games with global leaderboards — Jump Quest, Snake, Memory, and more.</p>
-          <span class="card-arrow">Play &rarr;</span>
-        </a>
-        <a href="/calci" class="card-link">
-          <span class="card-icon">&#129518;</span>
-          <span class="card-kicker">Tools</span>
-          <h3>Calculator Tools</h3>
-          <p>Simple calculators built while practicing HTML, CSS, and JavaScript.</p>
-          <span class="card-arrow">Open &rarr;</span>
-        </a>
-      </div>
-    </section>
+      <section class="rail" id="railNews">
+        <div class="rail-head"><h2>📰 Top Stories</h2><a href="/discover">See all →</a></div>
+        <div class="rail-wrap"><div class="rail-track"></div></div>
+      </section>
 
-    <section class="reveal" id="learn">
-      <div class="group-heading">
-        <h2>Learn</h2>
-        <span class="group-note">Notes and deep-dives, kept updated</span>
-      </div>
-      <div class="cards feature-cards" style="margin-top:22px;">
-        <a href="/java-interview-prep" class="card-link">
-          <span class="card-icon">&#9749;</span>
-          <span class="card-kicker">Prep</span>
-          <h3>Java Interview Prep</h3>
-          <p>Core Java, OOP, collections, streams, exceptions, and backend interview notes.</p>
-          <span class="card-arrow">Open &rarr;</span>
-        </a>
-        <a href="/aws-notes" class="card-link">
-          <span class="card-icon">&#9729;&#65039;</span>
-          <span class="card-kicker">Cloud</span>
-          <h3>AWS Notes</h3>
-          <p>Quick notes on EC2, S3, RDS, Lambda, IAM, CloudWatch, and deployment basics.</p>
-          <span class="card-arrow">Open &rarr;</span>
-        </a>
-        <a href="/ai-experiments" class="card-link">
-          <span class="card-icon">&#129514;</span>
-          <span class="card-kicker">AI</span>
-          <h3>AI Experiments</h3>
-          <p>Small experiments using AI for productivity, learning, and coding workflows.</p>
-          <span class="card-arrow">Open &rarr;</span>
-        </a>
-        <a href="/llms" class="card-link">
-          <span class="card-icon">&#129302;</span>
-          <span class="card-kicker">AI &amp; Agents</span>
-          <h3>LLMs &amp; Agentic Hub</h3>
-          <p>Deep-dives into LLM evolution, reasoning models, agent designs, and MCP.</p>
-          <span class="card-arrow">Open &rarr;</span>
-        </a>
-      </div>
-    </section>
+      <section class="rail" id="railTech">
+        <div class="rail-head"><h2>💻 Tech Deep-Dive</h2><a href="/news">See all →</a></div>
+        <div class="rail-wrap"><div class="rail-track"></div></div>
+      </section>
 
+      <section class="rail" id="railGames">
+        <div class="rail-head"><h2>🎮 Play Now</h2><a href="/games">See all →</a></div>
+        <div class="rail-wrap"><div class="rail-track"></div></div>
+      </section>
 
+      <section class="rail" id="learn">
+        <div class="rail-head"><h2>📚 Learn &amp; More</h2><a href="/projects">See all →</a></div>
+        <div class="rail-wrap"><div class="rail-track"></div></div>
+      </section>
+    </div>
 
-    <section class="profile-grid reveal">
-      <div>
-        <h2>About this site</h2>
-        <p>
-          Built and maintained by <strong>Abhishek Muthyam</strong>, a software engineer
-          working with Java, Spring Boot, and AWS. Everything here — the games, feeds,
-          leaderboards, and login — is hand-built as a learning-in-public project.
-          <a href="https://github.com/abhishekmuthyam" target="_blank" rel="noopener" style="color:var(--accent); font-weight:600;">See the code on GitHub</a>.
-        </p>
-      </div>
-      <div class="focus-panel">
-        <h2>Why sign up?</h2>
-        <ul>
-          <li>Your name on the global game leaderboards</li>
-          <li>One account across everything on the site</li>
-          <li>More personalised features coming soon</li>
-        </ul>
-      </div>
-    </section>
+    <p class="about-strip">
+      Built by <strong>Abhishek Muthyam</strong> as a learning-in-public project — Java, Spring Boot, AWS, and plain JavaScript.
+      <a href="https://github.com/abhishekmuthyam" target="_blank" rel="noopener">Code on GitHub</a> ·
+      Sign up (top right) to get your name on the game leaderboards.
+    </p>
   </main>
 
   <footer>
     <div class="footer-inner">
       <span>&copy; 2026 abhishekmuthyam.com. Built for learning and experiments.</span>
       <div class="footer-links">
-        <a href="https://github.com/abhishekmuthyam" target="_blank" rel="noopener">GitHub</a>
-        <a href="/projects">Projects</a>
-        <a href="/blog">Blog</a>
+        <a href="/watch">Watch</a>
+        <a href="/discover">News</a>
         <a href="/games">Games</a>
+        <a href="/blog">Blog</a>
+        <a href="https://github.com/abhishekmuthyam" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
   </footer>
 
   <script>
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.12 });
+    const PROXY_URL = "https://fpwwdkoxdykv6x442ndqf34iyq0nnqnq.lambda-url.ap-south-1.on.aws/";
 
-    document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+    function esc(text) {
+      return String(text || "").replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+    }
+
+    function timeAgo(iso) {
+      const diff = Date.now() - new Date(iso).getTime();
+      if (isNaN(diff)) { return ""; }
+      const hours = Math.floor(diff / 3600000);
+      if (hours < 1) { return "Just now"; }
+      if (hours < 24) { return hours + "h ago"; }
+      const days = Math.floor(hours / 24);
+      if (days < 30) { return days + "d ago"; }
+      return Math.floor(days / 30) + "mo ago";
+    }
+
+    /* ---------- Player ---------- */
+    function openPlayer(videoId, title) {
+      const overlay = document.createElement("div");
+      overlay.className = "player-overlay";
+      overlay.innerHTML =
+        '<div class="player-box">' +
+          '<div class="player-bar"><strong>' + esc(title) + '</strong>' +
+          '<button class="player-close">✕ Close</button></div>' +
+          '<div class="frame-wrap"><iframe src="https://www.youtube-nocookie.com/embed/' + videoId + '?autoplay=1&rel=0" ' +
+          'title="' + esc(title) + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>' +
+        '</div>';
+      document.body.appendChild(overlay);
+      document.body.style.overflow = "hidden";
+      function close() {
+        overlay.remove();
+        document.body.style.overflow = "";
+        document.removeEventListener("keydown", onKey);
+      }
+      function onKey(e) { if (e.key === "Escape") { close(); } }
+      overlay.querySelector(".player-close").onclick = close;
+      overlay.addEventListener("click", e => { if (e.target === overlay) { close(); } });
+      document.addEventListener("keydown", onKey);
+    }
+
+    /* ---------- Rails ---------- */
+    function addChevrons(railId) {
+      const wrap = document.querySelector("#" + railId + " .rail-wrap");
+      const track = wrap.querySelector(".rail-track");
+      if (track.scrollWidth <= track.clientWidth + 40) { return; }
+      ["prev", "next"].forEach(dir => {
+        const btn = document.createElement("button");
+        btn.className = "rail-chevron " + dir;
+        btn.innerHTML = dir === "prev" ? "&#10094;" : "&#10095;";
+        btn.setAttribute("aria-label", dir === "prev" ? "Scroll left" : "Scroll right");
+        btn.onclick = () => track.scrollBy({ left: (dir === "prev" ? -1 : 1) * track.clientWidth * 0.85 });
+        wrap.appendChild(btn);
+      });
+    }
+
+    function videoTile(v, kicker) {
+      return '<button class="tile js-video" data-id="' + esc(v.videoId) + '" data-title="' + esc(v.title) + '">' +
+        '<div class="tile-thumb"><img loading="lazy" src="' + esc(v.thumbnail) + '" alt=""><span class="play-hint">▶</span></div>' +
+        '<div class="tile-body"><span class="tile-kicker">' + esc(v.topicLabel || kicker) + '</span>' +
+        '<h3>' + esc(v.title) + '</h3>' +
+        '<div class="tile-meta"><span>' + esc(v.channel) + '</span><span>' + timeAgo(v.published) + '</span></div></div></button>';
+    }
+
+    function newsTile(item) {
+      const thumb = item.image
+        ? '<img loading="lazy" src="' + esc(item.image) + '" alt="">'
+        : '<span style="font-size:30px;">📰</span>';
+      return '<a class="tile" href="' + esc(item.link) + '" target="_blank" rel="noopener">' +
+        '<div class="tile-thumb">' + thumb + '</div>' +
+        '<div class="tile-body"><span class="tile-kicker">' + esc(item.categoryLabel || item.topicLabel || item.source || "News") + '</span>' +
+        '<h3>' + esc(item.title) + '</h3>' +
+        '<div class="tile-meta"><span>' + esc(item.source || "") + '</span><span>' + timeAgo(item.publishedAt) + '</span></div></div></a>';
+    }
+
+    function posterTile(href, emoji, label, gradient) {
+      return '<a class="tile poster" href="' + href + '">' +
+        '<div class="tile-thumb" style="background:' + gradient + ';">' + emoji +
+        '<span class="poster-label">' + label + '</span></div></a>';
+    }
+
+    function fillRail(railId, html) {
+      document.querySelector("#" + railId + " .rail-track").innerHTML = html;
+      addChevrons(railId);
+    }
+
+    /* Videos + billboard */
+    fetch("watch/watch-data.json").then(r => r.json()).then(data => {
+      const videos = data.videos || [];
+      if (videos.length) {
+        const featured = videos[0];
+        document.getElementById("billboardBg").style.backgroundImage =
+          "url('https://i.ytimg.com/vi/" + featured.videoId + "/hqdefault.jpg')";
+        document.getElementById("bbKicker").innerText = "Featured · " + (featured.channel || "Video");
+        document.getElementById("bbTitle").innerText = featured.title;
+        document.getElementById("bbMeta").innerText = (featured.topicLabel || "Video") + " · " + timeAgo(featured.published);
+        const poster = document.getElementById("bbPoster");
+        poster.hidden = false;
+        document.getElementById("bbPosterImg").src = "https://i.ytimg.com/vi/" + featured.videoId + "/hqdefault.jpg";
+        poster.onclick = () => openPlayer(featured.videoId, featured.title);
+        const playBtn = document.createElement("button");
+        playBtn.className = "button primary";
+        playBtn.style.cssText = "border:none;cursor:pointer;";
+        playBtn.innerText = "▶ Play";
+        playBtn.onclick = () => openPlayer(featured.videoId, featured.title);
+        const browse = document.createElement("a");
+        browse.className = "button secondary";
+        browse.href = "/watch";
+        browse.innerText = "Browse Videos";
+        const actions = document.getElementById("bbActions");
+        actions.innerHTML = "";
+        actions.appendChild(playBtn);
+        actions.appendChild(browse);
+      }
+      fillRail("railVideos", videos.slice(0, 16).map(v => videoTile(v, "Video")).join(""));
+    }).catch(() => {});
+
+    /* Trending */
+    fetch(PROXY_URL + "?trending").then(r => r.json()).then(data => {
+      if (data.videos && data.videos.length) {
+        fillRail("railTrending", data.videos.map(v => videoTile(v, "Trending")).join(""));
+      } else {
+        document.getElementById("railTrending").style.display = "none";
+      }
+    }).catch(() => { document.getElementById("railTrending").style.display = "none"; });
+
+    /* News rails */
+    fetch("discover/discover-data.json").then(r => r.json()).then(data => {
+      fillRail("railNews", (data.items || []).slice(0, 16).map(newsTile).join(""));
+    }).catch(() => {});
+
+    fetch("news/news-data.json").then(r => r.json()).then(data => {
+      fillRail("railTech", (data.items || []).slice(0, 16).map(newsTile).join(""));
+    }).catch(() => {});
+
+    /* Games + Learn (static) */
+    fillRail("railGames", [
+      posterTile("/games/jump-quest", "🏃", "Jump Quest", "linear-gradient(160deg,#1e3a8a,#0c4a6e)"),
+      posterTile("/games/snake", "🐍", "Snake", "linear-gradient(160deg,#14532d,#052e16)"),
+      posterTile("/games/memory", "🧠", "Memory", "linear-gradient(160deg,#581c87,#312e81)"),
+      posterTile("/games/tictactoe", "⭕", "Tic Tac Toe", "linear-gradient(160deg,#7c2d12,#431407)"),
+      posterTile("/games/rock-paper-scissors", "✂️", "Rock Paper Scissors", "linear-gradient(160deg,#164e63,#082f49)")
+    ].join(""));
+
+    fillRail("learn", [
+      posterTile("/java-interview-prep", "☕", "Java Interview Prep", "linear-gradient(160deg,#7c2d12,#1c1917)"),
+      posterTile("/aws-notes", "☁️", "AWS Notes", "linear-gradient(160deg,#312e81,#0f172a)"),
+      posterTile("/ai-experiments", "🧪", "AI Experiments", "linear-gradient(160deg,#134e4a,#042f2e)"),
+      posterTile("/llms", "🤖", "LLMs & Agents", "linear-gradient(160deg,#4a044e,#1e1b4b)"),
+      posterTile("/calci", "🧮", "Calculator Tools", "linear-gradient(160deg,#3f3f46,#18181b)"),
+      posterTile("/blog", "✍️", "Blog", "linear-gradient(160deg,#1e3a8a,#172554)"),
+      posterTile("/projects", "🛠️", "Projects", "linear-gradient(160deg,#365314,#1a2e05)")
+    ].join(""));
+
+    /* Video click delegation */
+    document.getElementById("rails").addEventListener("click", e => {
+      const tile = e.target.closest(".js-video");
+      if (tile) { openPlayer(tile.dataset.id, tile.dataset.title); }
+    });
   </script>
 </body>
 </html>
