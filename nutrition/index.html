@@ -57,6 +57,23 @@
     .intake-table th { color: #fff; font-family: 'Outfit', sans-serif; font-size: 13px; }
     .intake-table td:last-child { color: #fff; font-weight: 600; white-space: nowrap; }
     .table-wrap { overflow-x: auto; }
+
+    .mn-form { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+    .mn-label { display: block; color: #cbd5e1; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+    .mn-input { width: 100%; box-sizing: border-box; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 10px; color: var(--text); font-size: 15px; font-family: inherit; padding: 11px 13px; outline: none; }
+    .mn-input:focus { border-color: var(--brand); }
+    select.mn-input option { background: var(--panel); }
+    .mn-seg { display: flex; border: 1px solid rgba(255,255,255,0.12); border-radius: 10px; overflow: hidden; }
+    .mn-seg button { flex: 1; background: transparent; border: none; color: var(--muted); padding: 11px; font-weight: 600;
+      cursor: pointer; box-shadow: none; border-radius: 0; font-size: 14px; }
+    .mn-seg button.on { background: var(--brand); color: #fff; }
+    .mn-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 20px 0; }
+    .mn-stat { background: rgba(99,102,241,0.08); border: 1px solid rgba(99,102,241,0.22); border-radius: 14px; padding: 16px; text-align: center; }
+    .mn-stat span { display: block; color: var(--muted); font-size: 12px; font-weight: 600; margin-bottom: 5px; }
+    .mn-stat strong { color: #fff; font-family: 'Outfit', sans-serif; font-size: 20px; }
+    .mn-stat small { color: var(--accent); font-size: 11px; }
+
   </style>
 </head>
 <body>
@@ -82,7 +99,8 @@
 
   <div class="learn-tabs-wrap">
     <div class="learn-tabs" role="tablist">
-      <button class="learn-tab active" data-tab="foods">🥗 Foods</button>
+      <button class="learn-tab active" data-tab="myneeds">🎯 My Needs</button>
+      <button class="learn-tab" data-tab="foods">🥗 Foods</button>
       <button class="learn-tab" data-tab="intake">📏 Daily Needs</button>
       <button class="learn-tab" data-tab="deficiency">💊 Deficiencies</button>
       <button class="learn-tab" data-tab="timing">⏰ By Time</button>
@@ -101,7 +119,42 @@
     </div>
   </section>
 
-  <section class="n-section active" id="tab-foods">
+  <section class="n-section active" id="tab-myneeds">
+    <h2>Your daily nutrition needs</h2>
+    <p class="section-intro">Enter your details and get your personal daily targets — calories, protein, vitamins, minerals, and food suggestions.</p>
+    <div class="qa" style="max-width:760px;">
+      <div class="mn-form">
+        <div>
+          <label class="mn-label">Gender</label>
+          <div class="mn-seg" id="mnGender">
+            <button data-v="male" class="on">Male</button><button data-v="female">Female</button>
+          </div>
+        </div>
+        <div>
+          <label class="mn-label">Food preference</label>
+          <div class="mn-seg" id="mnDiet">
+            <button data-v="veg" class="on">🥦 Veg</button><button data-v="nonveg">🍗 Non-Veg</button>
+          </div>
+        </div>
+        <div><label class="mn-label">Age (years)</label><input class="mn-input" type="number" id="mnAge" value="25" min="10" max="100"></div>
+        <div><label class="mn-label">Height (cm)</label><input class="mn-input" type="number" id="mnHeight" value="170" min="100" max="230"></div>
+        <div><label class="mn-label">Weight (kg)</label><input class="mn-input" type="number" id="mnWeight" value="65" min="25" max="250"></div>
+        <div>
+          <label class="mn-label">Activity level</label>
+          <select class="mn-input" id="mnActivity">
+            <option value="1.2">Mostly sitting (desk job)</option>
+            <option value="1.375" selected>Lightly active (walks, light exercise)</option>
+            <option value="1.55">Moderately active (exercise 3–5 days)</option>
+            <option value="1.725">Very active (hard exercise 6–7 days)</option>
+          </select>
+        </div>
+      </div>
+      <button class="button primary" style="border:none;cursor:pointer;width:100%;margin-top:18px;" id="mnGo">Calculate My Needs</button>
+    </div>
+    <div id="mnResults"></div>
+  </section>
+
+  <section class="n-section" id="tab-foods">
     <h2>Foods &amp; their nutrients <span style="color:var(--muted);font-size:14px;font-weight:400;">(per 100g)</span></h2>
     <input type="search" class="n-search" id="foodSearch" placeholder="🔍 Search a food... (e.g. spinach, oats, egg)">
     <div class="n-filters" id="foodFilters">
@@ -628,12 +681,89 @@ const dailyIntake={
         '</div>').join("");
     }
 
+
+    /* ---------- My Needs calculator ---------- */
+    const NONVEG = new Set(["Egg", "Salmon", "Chicken Breast"]);
+    function seg(id) {
+      const el = document.getElementById(id);
+      el.addEventListener("click", e => {
+        if (e.target.tagName !== "BUTTON") return;
+        el.querySelectorAll("button").forEach(b => b.classList.toggle("on", b === e.target));
+      });
+      return () => el.querySelector("button.on").dataset.v;
+    }
+    const getGender = seg("mnGender");
+    const getDiet = seg("mnDiet");
+
+    function rdaFor(g, age) {
+      const male = g === "male";
+      return [
+        ["🩸 Iron", (male ? (age <= 18 ? 11 : 8) : (age <= 18 ? 15 : age <= 50 ? 18 : 8)) + " mg"],
+        ["🦴 Calcium", (age <= 18 ? 1300 : age >= (male ? 71 : 51) ? 1200 : 1000) + " mg"],
+        ["☀️ Vitamin D", (age >= 71 ? 800 : 600) + " IU (15–20 µg)"],
+        ["🍊 Vitamin C", (male ? 90 : 75) + " mg"],
+        ["👁️ Vitamin A", (male ? 900 : 700) + " µg"],
+        ["🧠 Vitamin B12", "2.4 µg"],
+        ["🌿 Folate (B9)", "400 µg"],
+        ["⚡ Magnesium", (male ? (age <= 30 ? 400 : 420) : (age <= 30 ? 310 : 320)) + " mg"],
+        ["🫀 Potassium", (male ? 3400 : 2600) + " mg"],
+        ["🛡️ Zinc", (male ? 11 : 8) + " mg"],
+        ["🧂 Sodium (limit)", "under 2300 mg"],
+      ];
+    }
+
+    document.getElementById("mnGo").addEventListener("click", () => {
+      const g = getGender(), diet = getDiet();
+      const age = Number(document.getElementById("mnAge").value);
+      const ht = Number(document.getElementById("mnHeight").value);
+      const wt = Number(document.getElementById("mnWeight").value);
+      const act = Number(document.getElementById("mnActivity").value);
+      if (!age || !ht || !wt) return;
+
+      const bmr = 10 * wt + 6.25 * ht - 5 * age + (g === "male" ? 5 : -161);
+      const cal = Math.round(bmr * act / 10) * 10;
+      const protein = Math.round(wt * 1.0);
+      const fat = Math.round(cal * 0.28 / 9);
+      const carbs = Math.round((cal - protein * 4 - fat * 9) / 4);
+      const fibre = Math.round(cal / 1000 * 14);
+      const water = (wt * 0.033).toFixed(1);
+      const bmi = wt / Math.pow(ht / 100, 2);
+      const bmiCat = bmi < 18.5 ? "Underweight" : bmi < 25 ? "Healthy" : bmi < 30 ? "Overweight" : "Obese";
+
+      const pool = foods.filter(f => (diet === "nonveg" || !NONVEG.has(f.name)));
+      const proteinFoods = pool.filter(f => f.p >= 8).sort((a, b) => b.p - a.p).slice(0, 6);
+      const ironNote = diet === "veg"
+        ? "🌱 Veg tip: pair iron foods (spinach, lentils) with vitamin C (lemon, amla) to absorb more, and get B12 from milk, curd, paneer, or fortified foods — it is the one nutrient plants don't provide."
+        : "🍗 Non-veg tip: eggs and fish cover B12, iron, and vitamin D efficiently — 2 eggs plus a serving of fish or chicken most days covers your protein backbone.";
+
+      document.getElementById("mnResults").innerHTML =
+        '<div class="mn-stats">' +
+          '<div class="mn-stat"><span>Daily Calories</span><strong>' + cal.toLocaleString() + '</strong><small>kcal</small></div>' +
+          '<div class="mn-stat"><span>Protein</span><strong>' + protein + ' g</strong><small>~1g per kg body weight</small></div>' +
+          '<div class="mn-stat"><span>Carbohydrates</span><strong>' + carbs + ' g</strong><small>fuel for body & brain</small></div>' +
+          '<div class="mn-stat"><span>Fats</span><strong>' + fat + ' g</strong><small>prefer nuts, seeds, ghee/olive oil</small></div>' +
+          '<div class="mn-stat"><span>Fibre</span><strong>' + fibre + ' g</strong><small>veggies, fruits, whole grains</small></div>' +
+          '<div class="mn-stat"><span>Water</span><strong>' + water + ' L</strong><small>more on hot/active days</small></div>' +
+          '<div class="mn-stat"><span>Your BMI</span><strong>' + bmi.toFixed(1) + '</strong><small>' + bmiCat + '</small></div>' +
+        '</div>' +
+        '<div class="qa"><h3>💊 Your daily vitamins &amp; minerals</h3>' +
+          '<div class="table-wrap"><table class="intake-table"><tr><th>Nutrient</th><th>Daily target</th></tr>' +
+          rdaFor(g, age).map(r => '<tr><td>' + r[0] + '</td><td>' + r[1] + '</td></tr>').join("") +
+          '</table></div></div>' +
+        '<div class="qa"><h3>🥗 Best ' + (diet === "veg" ? "veg" : "") + ' protein foods for you</h3>' +
+          '<div class="pill-row">' + proteinFoods.map(f => '<span class="pill">' + f.emoji + ' ' + f.name + ' (' + f.p + 'g/100g)</span>').join("") + '</div>' +
+          '<div class="tip">' + ironNote + '</div>' +
+        '</div>' +
+        '<div class="tip" style="margin-top:4px;">📋 Targets follow standard formulas (Mifflin-St Jeor BMR + ICMR/RDA references). They are general guidance — pregnancy, medical conditions, or athletic training change requirements; consult a doctor or dietitian.</div>';
+      document.getElementById("mnResults").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
     /* tabs */
     const tabs = document.querySelectorAll(".learn-tab");
     function activate(name, push) {
       tabs.forEach(t => t.classList.toggle("active", t.dataset.tab === name));
       document.querySelectorAll(".n-section").forEach(s => s.classList.toggle("active", s.id === "tab-" + name));
-      document.getElementById("mpBannerWrap").style.display = name === "foods" ? "" : "none";
+      document.getElementById("mpBannerWrap").style.display = (name === "foods" || name === "myneeds") ? "" : "none";
       if (push) { const u = new URL(location.href); u.searchParams.set("tab", name); history.replaceState({}, "", u); }
     }
     tabs.forEach(t => t.addEventListener("click", () => activate(t.dataset.tab, true)));
