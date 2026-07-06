@@ -477,6 +477,7 @@
         <a href="/games">Games</a>
         <a href="/calci">Tools</a>
         <a href="/learn">Learn AI</a>
+        <a href="/nutrition">Nutrition</a>
       </div>
     </nav>
   </header>
@@ -528,6 +529,11 @@
 
       <section class="rail" id="railStories">
         <div class="rail-head"><h2>🌟 Legends</h2><a href="/stories">See all →</a></div>
+        <div class="rail-wrap"><div class="rail-track"></div></div>
+      </section>
+
+      <section class="rail" id="railNutrition">
+        <div class="rail-head"><h2>🥗 Nutrition</h2><a href="/nutrition">See all →</a></div>
         <div class="rail-wrap"><div class="rail-track"></div></div>
       </section>
 
@@ -757,6 +763,15 @@
       posterTile("/stories/br-ambedkar", "⚖️", "Dr. B.R. Ambedkar", "linear-gradient(160deg,#312e81,#1e1b4b)"),
       posterTile("/stories/sardar-patel", "🤝", "Sardar Patel", "linear-gradient(160deg,#065f46,#022c22)"),
       posterTile("/stories/martin-luther-king", "🎤", "Martin Luther King Jr.", "linear-gradient(160deg,#7f1d1d,#450a0a)")
+    ].join(""));
+
+    fillRail("railNutrition", [
+      posterTile("/nutrition/meal-plan/", "🍽️", "Daily Meal Plan", "linear-gradient(160deg,#14532d,#052e16)"),
+      posterTile("/nutrition/?tab=foods", "🥗", "Foods & Nutrients", "linear-gradient(160deg,#166534,#14532d)"),
+      posterTile("/nutrition/?tab=deficiency", "💊", "Deficiency Guide", "linear-gradient(160deg,#9f1239,#4c0519)"),
+      posterTile("/nutrition/?tab=timing", "⏰", "Foods by Time", "linear-gradient(160deg,#b45309,#451a03)"),
+      posterTile("/nutrition/?tab=ages", "👶", "Food by Age", "linear-gradient(160deg,#0e7490,#164e63)"),
+      posterTile("/nutrition/?tab=intake", "📏", "Daily Needs", "linear-gradient(160deg,#4338ca,#1e1b4b)")
     ].join(""));
 
     fillRail("learn", [

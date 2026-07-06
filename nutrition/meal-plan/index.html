@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hyderabad Strength & Focus Meal Plan</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --saffron: #FF6B00;
+    --turmeric: #F5A623;
+    --mint: #2ECC71;
+    --deep: #1A1A2E;
+    --card: #16213E;
+    --accent: #0F3460;
+    --text: #E8E8E8;
+    --muted: #A0A0B0;
+    --white: #FFFFFF;
+    --veg: #27AE60;
+    --nonveg: #E74C3C;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--deep);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 20% 20%, rgba(255,107,0,0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 80%, rgba(46,204,113,0.06) 0%, transparent 50%),
+      radial-gradient(ellipse at 60% 10%, rgba(245,166,35,0.05) 0%, transparent 40%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px 60px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* HEADER */
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+    animation: fadeDown 0.8s ease both;
+  }
+
+  .header .tag {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--saffron), var(--turmeric));
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+  }
+
+  .header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(28px, 5vw, 48px);
+    font-weight: 900;
+    background: linear-gradient(135deg, #fff 30%, var(--turmeric));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  .header .location {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--saffron);
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+
+  .header p { color: var(--muted); font-size: 14px; margin-top: 6px; }
+
+  /* LEGEND */
+  .legend {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 36px;
+    flex-wrap: wrap;
+    animation: fadeDown 0.8s ease 0.2s both;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    background: var(--card);
+    padding: 8px 16px;
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+  /* SECTION TITLE */
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: var(--turmeric);
+    margin-bottom: 20px;
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    animation: fadeUp 0.5s ease both;
+  }
+
+  .section-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(245,166,35,0.2);
+  }
+
+  /* TIMELINE */
+  .timeline {
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 50px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--saffron), var(--mint), var(--turmeric), var(--saffron));
+    opacity: 0.25;
+  }
+
+  /* MEAL CARD */
+  .meal-card {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 20px;
+    margin-bottom: 24px;
+    animation: fadeUp 0.6s ease both;
+  }
+
+  .meal-card:nth-child(1) { animation-delay: 0.05s; }
+  .meal-card:nth-child(2) { animation-delay: 0.1s; }
+  .meal-card:nth-child(3) { animation-delay: 0.15s; }
+  .meal-card:nth-child(4) { animation-delay: 0.2s; }
+  .meal-card:nth-child(5) { animation-delay: 0.25s; }
+  .meal-card:nth-child(6) { animation-delay: 0.3s; }
+  .meal-card:nth-child(7) { animation-delay: 0.35s; }
+  .meal-card:nth-child(8) { animation-delay: 0.4s; }
+
+  .time-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding-top: 16px;
+  }
+
+  .time-dot {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  .time-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--muted);
+    text-align: center;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+
+  .card-body {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 18px 22px;
+    border: 1px solid rgba(255,255,255,0.06);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card-body:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+
+  .card-body::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .meal-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--white);
+  }
+
+  .meal-badge {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  /* VEG / NON-VEG two columns */
+  .veg-nonveg-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .veg-col, .nonveg-col {
+    border-radius: 10px;
+    padding: 10px 12px;
+  }
+
+  .veg-col {
+    background: rgba(39,174,96,0.07);
+    border: 1px solid rgba(39,174,96,0.18);
+  }
+
+  .nonveg-col {
+    background: rgba(231,76,60,0.07);
+    border: 1px solid rgba(231,76,60,0.18);
+  }
+
+  .col-label {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .veg-col .col-label { color: var(--veg); }
+  .nonveg-col .col-label { color: var(--nonveg); }
+
+  .food-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .food-tag {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 6px;
+    padding: 4px 9px;
+    font-size: 12px;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+
+  .food-tag:hover { background: rgba(255,255,255,0.1); }
+
+  /* For "same" meals with no veg/nonveg split */
+  .food-grid-single {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 10px;
+  }
+
+  .food-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 5px 11px;
+    font-size: 12px;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+
+  .food-item:hover { background: rgba(255,255,255,0.1); }
+
+  .tip-line {
+    font-size: 12px;
+    color: var(--muted);
+    font-style: italic;
+    padding-top: 9px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+
+  /* Color themes */
+  .wakeup .time-dot { background: linear-gradient(135deg, #1ABC9C, #16A085); color: #fff; }
+  .wakeup .card-body::before { background: linear-gradient(90deg, #1ABC9C, #16A085); }
+  .wakeup .meal-badge { background: rgba(26,188,156,0.15); color: #1ABC9C; }
+
+  .brainstart .time-dot { background: linear-gradient(135deg, #F39C12, #E67E22); color: #fff; }
+  .brainstart .card-body::before { background: linear-gradient(90deg, #F39C12, #E67E22); }
+  .brainstart .meal-badge { background: rgba(243,156,18,0.15); color: #F39C12; }
+
+  .breakfast .time-dot { background: linear-gradient(135deg, #FF6B00, #F5A623); color: #fff; }
+  .breakfast .card-body::before { background: linear-gradient(90deg, #FF6B00, #F5A623); }
+  .breakfast .meal-badge { background: rgba(255,107,0,0.15); color: var(--saffron); }
+
+  .snack1 .time-dot { background: linear-gradient(135deg, #F5A623, #FFD700); color: #fff; }
+  .snack1 .card-body::before { background: linear-gradient(90deg, #F5A623, #FFD700); }
+  .snack1 .meal-badge { background: rgba(245,166,35,0.15); color: var(--turmeric); }
+
+  .lunch .time-dot { background: linear-gradient(135deg, #2ECC71, #27AE60); color: #fff; }
+  .lunch .card-body::before { background: linear-gradient(90deg, #2ECC71, #27AE60); }
+  .lunch .meal-badge { background: rgba(46,204,113,0.15); color: var(--mint); }
+
+  .snack2 .time-dot { background: linear-gradient(135deg, #3498DB, #2980B9); color: #fff; }
+  .snack2 .card-body::before { background: linear-gradient(90deg, #3498DB, #2980B9); }
+  .snack2 .meal-badge { background: rgba(52,152,219,0.15); color: #3498DB; }
+
+  .dinner .time-dot { background: linear-gradient(135deg, #9B59B6, #8E44AD); color: #fff; }
+  .dinner .card-body::before { background: linear-gradient(90deg, #9B59B6, #8E44AD); }
+  .dinner .meal-badge { background: rgba(155,89,182,0.15); color: #9B59B6; }
+
+  .bedtime .time-dot { background: linear-gradient(135deg, #2C3E50, #34495E); color: #aaa; }
+  .bedtime .card-body::before { background: linear-gradient(90deg, #2C3E50, #34495E); }
+  .bedtime .meal-badge { background: rgba(44,62,80,0.4); color: #95A5A6; }
+
+  /* 7-DAY TABLE */
+  .week-table-wrap {
+    overflow-x: auto;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,0.07);
+    animation: fadeUp 0.6s ease 0.3s both;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12.5px;
+    min-width: 620px;
+  }
+
+  thead tr {
+    background: linear-gradient(135deg, rgba(255,107,0,0.25), rgba(245,166,35,0.15));
+  }
+
+  thead th {
+    padding: 12px 14px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--turmeric);
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+  }
+
+  tbody tr {
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    transition: background 0.15s;
+  }
+
+  tbody tr:hover { background: rgba(255,255,255,0.03); }
+  tbody tr:last-child { border-bottom: none; }
+
+  tbody td {
+    padding: 14px;
+    vertical-align: top;
+    line-height: 1.7;
+    color: var(--text);
+    font-size: 12.5px;
+  }
+
+  tbody td:first-child {
+    color: var(--saffron);
+    font-weight: 800;
+    white-space: nowrap;
+    font-size: 13px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .veg-tag { color: var(--veg) !important; font-weight: 700; font-size: 11px; letter-spacing: 0.5px; }
+  .nonveg-tag { color: #E8876A !important; font-weight: 700; font-size: 11px; letter-spacing: 0.5px; }
+
+  tbody tr:nth-child(odd) { background: rgba(255,255,255,0.015); }
+
+  /* ROTATION SECTION */
+  .rotation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    animation: fadeUp 0.6s ease 0.4s both;
+  }
+
+  .rotation-card {
+    background: var(--card);
+    border-radius: 14px;
+    padding: 18px 20px;
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .rotation-card h4 {
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .rotation-card.veg-card { border-left: 3px solid var(--veg); }
+  .rotation-card.veg-card h4 { color: var(--veg); }
+  .rotation-card.nonveg-card { border-left: 3px solid var(--nonveg); }
+  .rotation-card.nonveg-card h4 { color: var(--nonveg); }
+
+  .rotation-items { display: flex; flex-wrap: wrap; gap: 6px; }
+
+  .r-item {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.05);
+  }
+
+  /* TIPS SECTION */
+  .tips-section {
+    margin-top: 10px;
+    background: var(--card);
+    border-radius: 20px;
+    padding: 24px;
+    border: 1px solid rgba(255,107,0,0.15);
+    animation: fadeUp 0.6s ease 0.5s both;
+  }
+
+  .tips-section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: var(--turmeric);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+  }
+
+  .tip-card {
+    background: rgba(255,255,255,0.04);
+    border-radius: 12px;
+    padding: 13px 15px;
+    border: 1px solid rgba(255,255,255,0.05);
+    font-size: 12.5px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .tip-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+  .tip-card strong { display: block; color: var(--white); font-weight: 700; margin-bottom: 3px; font-size: 12.5px; }
+  .tip-card span { color: var(--muted); line-height: 1.5; }
+
+  /* AVOID */
+  .avoid-section {
+    margin-top: 16px;
+    background: rgba(231,76,60,0.07);
+    border: 1px solid rgba(231,76,60,0.18);
+    border-radius: 14px;
+    padding: 16px 20px;
+    animation: fadeUp 0.6s ease 0.6s both;
+  }
+
+  .avoid-section h4 {
+    color: #E74C3C;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: flex; align-items: center; gap: 8px;
+  }
+
+  .avoid-items { display: flex; flex-wrap: wrap; gap: 7px; }
+
+  .avoid-item {
+    background: rgba(231,76,60,0.1);
+    border: 1px solid rgba(231,76,60,0.2);
+    border-radius: 8px;
+    padding: 4px 11px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #E88080;
+  }
+
+  /* PREP GUIDE */
+  .prep-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+    animation: fadeUp 0.6s ease 0.3s both;
+  }
+
+  .prep-card {
+    background: var(--card);
+    border-radius: 14px;
+    padding: 16px 18px;
+    border: 1px solid rgba(255,255,255,0.07);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .prep-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.25);
+  }
+
+  .prep-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .prep-emoji { font-size: 28px; flex-shrink: 0; }
+
+  .prep-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--white);
+  }
+
+  .prep-best {
+    font-size: 11px;
+    color: var(--turmeric);
+    font-weight: 700;
+    margin-top: 2px;
+    letter-spacing: 0.3px;
+  }
+
+  .prep-methods { display: flex; flex-direction: column; gap: 5px; margin-bottom: 10px; }
+
+  .method {
+    font-size: 12px;
+    padding: 5px 9px;
+    border-radius: 7px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+
+  .method.good {
+    background: rgba(39,174,96,0.1);
+    color: #7DCEA0;
+    border-left: 2px solid var(--veg);
+  }
+
+  .method.okay {
+    background: rgba(243,156,18,0.1);
+    color: #F9E08B;
+    border-left: 2px solid var(--turmeric);
+  }
+
+  .method.bad {
+    background: rgba(231,76,60,0.08);
+    color: #E88080;
+    border-left: 2px solid #E74C3C;
+  }
+
+  .prep-tip {
+    font-size: 11.5px;
+    color: var(--muted);
+    font-style: italic;
+    padding-top: 9px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    line-height: 1.5;
+  }
+
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    margin-top: 32px;
+    color: var(--muted);
+    font-size: 12px;
+    animation: fadeUp 0.6s ease 0.7s both;
+  }
+
+  .footer strong { color: var(--saffron); }
+
+  /* ANIMATIONS */
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 620px) {
+    .meal-card { grid-template-columns: 76px 1fr; gap: 12px; }
+    .card-body { padding: 14px; }
+    .timeline::before { left: 38px; }
+    .veg-nonveg-grid { grid-template-columns: 1fr; }
+    .rotation-grid { grid-template-columns: 1fr; }
+    .tips-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div style="display:flex;justify-content:space-between;max-width:900px;margin:0 auto;padding:16px 20px;font-family:'Inter',system-ui,sans-serif;">
+  <a href="/nutrition" style="color:#a5b4fc;text-decoration:none;font-weight:600;font-size:14px;">&larr; Nutrition</a>
+  <a href="/" style="color:#a5b4fc;text-decoration:none;font-weight:600;font-size:14px;">Home</a>
+</div>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="tag">🍽️ Complete Meal Plan — Updated v2</div>
+    <h1>Strength & Focus<br>Food Chart</h1>
+    <div class="location">📍 Hyderabad, India &nbsp;|&nbsp; Veg + Non-Veg</div>
+    <p>Daily timing chart · 7-Day plan · Weekly rotation · Expert tips</p>
+  </div>
+
+  <!-- LEGEND -->
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--veg)"></div> Veg Options</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--nonveg)"></div> Non-Veg Options</div>
+    <div class="legend-item">🔄 Choose either — both are great!</div>
+  </div>
+
+  <!-- SECTION 1: DAILY TIMING CHART -->
+  <div class="section-title">⏰ Daily Timing Chart</div>
+
+  <div class="timeline">
+
+    <!-- WAKE UP -->
+    <div class="meal-card wakeup">
+      <div class="time-col">
+        <div class="time-dot">💧</div>
+        <div class="time-label">6:30 AM</div>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <div class="meal-title">Wake-Up Drink</div>
+          <div class="meal-badge">Start Right</div>
+        </div>
+        <div class="food-grid-single">
+          <div class="food-item">💧 Warm Water + Lemon</div>
+          <div class="food-item">🌿 Soaked Fenugreek Water</div>
+          <div class="food-item">🥥 Coconut Water (optional)</div>
+        </div>
+        <div class="tip-line">💡 Flushes toxins, activates digestion & hydrates your brain before anything else.</div>
+      </div>
+    </div>
+
+    <!-- BRAIN STARTER -->
+    <div class="meal-card brainstart">
+      <div class="time-col">
+        <div class="time-dot">🧠</div>
+        <div class="time-label">7:30 AM</div>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <div class="meal-title">Brain Starters</div>
+          <div class="meal-badge">Memory Boost</div>
+        </div>
+        <div class="food-grid-single">
+          <div class="food-item">🪨 5 Soaked Almonds</div>
+          <div class="food-item">🌰 2 Walnuts</div>
+          <div class="food-item">🍌 1 Fruit (Banana/Apple/Papaya)</div>
+          <div class="food-item">🌻 Pumpkin/Sunflower Seeds</div>
+          <div class="food-item">🍇 Raisins / Dry Figs</div>
+        </div>
+        <div class="tip-line">💡 Almonds + walnuts = omega-3 + vitamin E. Improves memory before work or study. Best brain breakfast!</div>
+      </div>
+    </div>
+
+    <!-- BREAKFAST -->
+    <div class="meal-card breakfast">
+      <div class="time-col">
+        <div class="time-dot">🌅</div>
+        <div class="time-label">8:30–9:00 AM</div>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <div class="meal-title">Breakfast</div>
+          <div class="meal-badge">Power Start</div>
+        </div>
+        <div class="veg-nonveg-grid">
+          <div class="veg-col">
+            <div class="col-label">🥦 Veg Options</div>
+            <div class="food-tags">
+              <div class="food-tag">🫓 Pesarattu / Upma</div>
+              <div class="food-tag">🥣 Oats + Milk</div>
+              <div class="food-tag">🫘 Sprouts Bowl</div>
+              <div class="food-tag">🍵 Green Tea</div>
+              <div class="food-tag">🥛 Curd Rice</div>
+            </div>
+          </div>
+          <div class="nonveg-col">
+            <div class="col-label">🍗 Non-Veg Options</div>
+            <div class="food-tags">
+              <div class="food-tag">🥚 2 Boiled Eggs</div>
+              <div class="food-tag">🍳 Omelette + Roti</div>
+              <div class="food-tag">🍞 Egg Toast</div>
+              <div class="food-tag">🥚 Egg Bhurji</div>
+            </div>
+          </div>
+        </div>
+        <div class="tip-line">💡 Never skip breakfast! Stable energy for work. Eggs = best brain food — choline for sharp memory & focus.</div>
+      </div>
+    </div>
+
+    <!-- MID MORNING -->
+    <div class="meal-card snack1">
+      <div class="time-col">
+        <div class="time-dot">☀️</div>
+        <div class="time-label">11:00 AM</div>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <div class="meal-title">Mid-Morning Snack</div>
+          <div class="meal-badge">Focus Booster</div>
+        </div>
+        <div class="veg-nonveg-grid">
+          <div class="veg-col">
+            <div class="col-label">🥦 Veg Options</div>
+            <div class="food-tags">
+              <div class="food-tag">🍌 Banana</div>
+              <div class="food-tag">🥜 Peanuts</div>
+              <div class="food-tag">🫘 Sprouts</div>
+              <div class="food-tag">🍎 Seasonal Fruit</div>
+            </div>
+          </div>
+          <div class="nonveg-col">
+            <div class="col-label">🍗 Non-Veg Options</div>
+            <div class="food-tags">
+              <div class="food-tag">🥚 1 Boiled Egg</div>
+              <div class="food-tag">🍌 Fruit + Egg</div>
+            </div>
+          </div>
+        </div>
+        <div class="tip-line">💡 Prevents energy crash before lunch. Banana + peanut butter = powerful brain combo for sustained alertness.</div>
+      </div>
+    </div>
+
+    <!-- LUNCH -->
+    <div class="meal-card lunch">
+      <div class="time-col">
+        <div class="time-dot">🌞</div>
+        <div class="time-label">1:00–2:00 PM</div>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <div class="meal-title">Lunch</div>
+          <div class="meal-badge">Strength Meal</div>
+        </div>
+        <div class="veg-nonveg-grid">
+          <div class="veg-col">
+            <div class="col-label">🥦 Veg Options</div>
+            <div class="food-tags">
+              <div class="food-tag">🍚 Dal + Roti / Brown Rice</div>
+              <div class="food-tag">🧀 Paneer Curry</div>
+              <div class="food-tag">🫘 Rajma / Chole</div>
+              <div class="food-tag">🥬 Palak Sabzi</div>
+              <div class="food-tag">🥗 Cucumber Salad</div>
+              <div class="food-tag">🥛 Curd (Dahi)</div>
+              <div class="food-tag">🌾 Millet Rice (Jowar/Ragi)</div>
+            </div>
+          </div>
+          <div class="nonveg-col">
+            <div class="col-label">🍗 Non-Veg Options</div>
+            <div class="food-tags">
+              <div class="food-tag">🍗 Chicken Curry (less oil)</div>
+              <div class="food-tag">🐟 Fish Curry</div>
+              <div class="food-tag">🥚 Egg Curry</div>
+              <div class="food-tag">🍚 + Dal + Rice/Roti</div>
+            </div>
+          </div>
+        </div>
+        <div class="tip-line">💡 Avoid heavy oily lunch → causes afternoon sleep! Dal + rice = complete protein. Curd aids digestion & energy.</div>
+      </div>
+    </div>
+
+    <!-- EVENING SNACK -->
+    <div class="meal-card snack2">
+      <div class="time-col">
+        <div class="time-dot">🕓</div>
+        <div class="time-label">4:30–5:00 PM</div>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <div class="meal-title">Evening Snack</div>
+          <div class="meal-badge">Study Alert</div>
+        </div>
+        <div class="food-grid-single">
+          <div class="food-item">🟤 Roasted Chana</div>
+          <div class="food-item">🍵 Green Tea (1 cup)</div>
+          <div class="food-item">🍫 Dark Chocolate (2–3 pcs)</div>
+          <div class="food-item">🪨 Mixed Nuts</div>
+          <div class="food-item">🍋 Nimbu Pani</div>
+          <div class="food-item">🍌 Fruit Bowl</div>
+        </div>
+        <div class="tip-line">💡 Green tea = calm alertness (no jitters). Roasted chana = best Hyderabadi protein snack. Perfect before study session!</div>
+      </div>
+    </div>
+
+    <!-- DINNER -->
+    <div class="meal-card dinner">
+      <div class="time-col">
+        <div class="time-dot">🌙</div>
+        <div class="time-label">7:30–8:30 PM</div>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <div class="meal-title">Dinner</div>
+          <div class="meal-badge">Recovery Meal</div>
+        </div>
+        <div class="veg-nonveg-grid">
+          <div class="veg-col">
+            <div class="col-label">🥦 Veg Options</div>
+            <div class="food-tags">
+              <div class="food-tag">🫓 2 Chapatis</div>
+              <div class="food-tag">🥬 Palak / Methi Sabzi</div>
+              <div class="food-tag">🫘 Khichdi</div>
+              <div class="food-tag">🍠 Sweet Potato (boiled)</div>
+              <div class="food-tag">🥗 Veg Soup</div>
+              <div class="food-tag">🧀 Paneer Curry (light)</div>
+            </div>
+          </div>
+          <div class="nonveg-col">
+            <div class="col-label">🍗 Non-Veg Options</div>
+            <div class="food-tags">
+              <div class="food-tag">🐟 Fish Curry (Rohu/Katla)</div>
+              <div class="food-tag">🍗 Grilled Chicken</div>
+              <div class="food-tag">🍲 Chicken Soup</div>
+              <div class="food-tag">🥚 Egg Bhurji / Curry</div>
+            </div>
+          </div>
+        </div>
+        <div class="tip-line">💡 Keep dinner light! Fish = omega-3 for brain recovery. Sweet potato replenishes energy stores overnight.</div>
+      </div>
+    </div>
+
+    <!-- BEDTIME -->
+    <div class="meal-card bedtime">
+      <div class="time-col">
+        <div class="time-dot">🌟</div>
+        <div class="time-label">10:00 PM</div>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <div class="meal-title">Before Sleep</div>
+          <div class="meal-badge">Optional</div>
+        </div>
+        <div class="food-grid-single">
+          <div class="food-item">🥛 Haldi Doodh (Turmeric Milk)</div>
+          <div class="food-item">🥛 Warm Milk (plain)</div>
+          <div class="food-item">🪨 Soaked Almonds (4–5)</div>
+          <div class="food-item">🌰 Walnuts (2–3)</div>
+        </div>
+        <div class="tip-line">💡 Turmeric reduces inflammation. Warm milk aids deep sleep. Sleep 7 hrs = memory retention + muscle repair.</div>
+      </div>
+    </div>
+
+  </div>
+  <!-- END TIMELINE -->
+
+  <!-- SECTION 2: 7-DAY PLAN -->
+  <div class="section-title">📅 7-Day Brain-Focus Plan</div>
+
+  <div style="background:var(--card);border-radius:14px;padding:14px 18px;margin-bottom:18px;border:1px solid rgba(255,255,255,0.07);font-size:13px;color:var(--muted);animation:fadeUp 0.5s ease both;">
+    💡 <strong style="color:var(--white);">How to use:</strong> Each day has <strong style="color:var(--veg);">Veg 🟢</strong> and <strong style="color:var(--nonveg);">Non-Veg 🔴</strong> options. Pick <strong style="color:var(--turmeric);">any 1–2 items</strong> per column — you don't need to eat everything listed! Mix and match freely for variety.
+  </div>
+
+  <div class="week-table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th style="min-width:60px;">Day</th>
+          <th style="min-width:180px;">🌅 Breakfast</th>
+          <th style="min-width:200px;">🌞 Lunch</th>
+          <th style="min-width:160px;">🕓 Evening Snack</th>
+          <th style="min-width:180px;">🌙 Dinner</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- MONDAY -->
+        <tr>
+          <td><strong>MON</strong></td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg Pick Any 1:</div>
+            🥣 Oats + Milk<br>
+            🍲 Rava Upma<br>
+            🥛 Curd Rice + Fruits<br>
+            🫘 Moong Dal Chilla<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Pick Any 1:</div>
+            🥚 2 Boiled Eggs<br>
+            🍳 Egg + Veggie Omelette<br>
+            🥚 Egg Bhurji + Toast
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🫘 Toor Dal + 2 Rotis<br>
+            🥗 Cucumber + Tomato Salad<br>
+            🥛 Small Bowl Curd<br>
+            🥬 Palak Sabzi<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Add-On:</div>
+            🍗 Chicken Curry (less oil)<br>
+            🐟 Fish Fry (2 pieces)<br>
+            🥚 Egg Masala
+          </td>
+          <td>
+            ☕ 1 Cup Green Tea<br>
+            🟤 Roasted Chana (1 handful)<br>
+            🍌 1 Banana<br>
+            🪨 5–6 Almonds<br>
+            🍋 Nimbu Pani (no sugar)
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🫘 Dal Khichdi<br>
+            🥬 Palak / Methi Sabzi<br>
+            🍠 Boiled Sweet Potato<br>
+            🥛 Small Curd<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg:</div>
+            🍗 Grilled Chicken (100g)<br>
+            🥚 Egg Curry + 1 Roti<br>
+            🍲 Chicken Soup
+          </td>
+        </tr>
+
+        <!-- TUESDAY -->
+        <tr>
+          <td><strong>TUE</strong></td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg Pick Any 1:</div>
+            🫓 Idli (3 pcs) + Coconut Chutney<br>
+            🥣 Poha with Peas + Peanuts<br>
+            🌾 Ragi Dosa + Tomato Chutney<br>
+            🫘 Sprouts + Lemon Salad<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Pick Any 1:</div>
+            🍳 Masala Omelette (2 eggs) + Roti<br>
+            🥚 Boiled Eggs + Fruit<br>
+            🥚 Egg Paratha (1 pc)
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🍚 Brown Rice / Sona Masoori (1 cup)<br>
+            🫘 Sambar (full of veggies)<br>
+            🥬 Beans / Carrot Sabzi<br>
+            🥛 Curd + Papad<br>
+            🥗 Onion Salad<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Add-On:</div>
+            🥚 Egg Curry (2 eggs)<br>
+            🍗 Pepper Chicken (small)<br>
+            🐟 Fish Pulusu
+          </td>
+          <td>
+            🥥 Coconut Water (1 glass)<br>
+            🍎 Seasonal Fruit (Apple/Guava/Papaya)<br>
+            🌰 Walnuts (3–4 pcs)<br>
+            🟤 Groundnut Chikki (1 small)<br>
+            🍵 Tulsi / Ginger Tea
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🧀 Paneer Bhurji + 2 Chapatis<br>
+            🥬 Drumstick / Lauki Sabzi<br>
+            🫘 Moong Dal (light)<br>
+            🥗 Green Salad<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg:</div>
+            🥚 Egg Bhurji + 2 Rotis<br>
+            🍗 Chicken Stew (light)<br>
+            🐟 Grilled Fish + Salad
+          </td>
+        </tr>
+
+        <!-- WEDNESDAY -->
+        <tr>
+          <td><strong>WED</strong></td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg Pick Any 1:</div>
+            🍲 Rava / Veg Upma<br>
+            🥣 Oats + Banana + Honey<br>
+            🫓 Pesarattu + Ginger Chutney<br>
+            🥛 Curd + Granola + Fruit<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Pick Any 1:</div>
+            🥚 Plain Omelette (2 eggs)<br>
+            🍳 Scrambled Eggs + Toast<br>
+            🥚 Egg + Spinach Omelette
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🌾 Foxtail Millet / Jowar Rice (1 cup)<br>
+            🫘 Moong Dal Tadka<br>
+            🥗 Cucumber + Carrot Salad<br>
+            🥬 Ridge Gourd / Ivy Gourd Sabzi<br>
+            🍋 Lemon Pickle (small)<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Add-On:</div>
+            🐟 Rohu Fish Curry<br>
+            🥚 Egg Pulusu<br>
+            🍗 Chicken Rasam + Rice
+          </td>
+          <td>
+            🥥 Coconut Water<br>
+            🥜 Peanuts (roasted, 1 handful)<br>
+            🍊 Orange / Pomegranate<br>
+            🌻 Sunflower / Pumpkin Seeds<br>
+            🍵 Green Tea + 2 Glucose Biscuits
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🥬 Palak Dal + 2 Rotis<br>
+            🥕 Mixed Veg Curry<br>
+            🍠 Sweet Potato Fry<br>
+            🥗 Tomato Soup<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg:</div>
+            🍲 Chicken / Veg Soup<br>
+            🥚 Egg Drop Soup + Roti<br>
+            🐟 Light Fish Curry + Rice (small)
+          </td>
+        </tr>
+
+        <!-- THURSDAY -->
+        <tr>
+          <td><strong>THU</strong></td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg Pick Any 1:</div>
+            🫘 Sprouted Moong Salad + Lemon<br>
+            🥣 Vegetable Poha + Peanuts<br>
+            🌾 Bajra Roti + Curd<br>
+            🫓 Idli + Sambar (2 pcs)<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Pick Any 1:</div>
+            🍞 Egg Toast (2 slices)<br>
+            🥚 Boiled Eggs + Sprouts<br>
+            🥚 Egg + Onion Uttapam
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🫘 Rajma / Chole (1 cup)<br>
+            🫓 2 Rotis / Jeera Rice<br>
+            🥛 Curd Raita<br>
+            🥗 Onion + Tomato Salad<br>
+            🥬 Bhindi / Brinjal Sabzi<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Add-On:</div>
+            🥚 Egg Curry (2 eggs)<br>
+            🍗 Boneless Chicken Fry (small)<br>
+            🐟 Prawn Curry (small bowl)
+          </td>
+          <td>
+            🍌 Banana + 1 tbsp Peanut Butter<br>
+            🪨 Almonds (5–6 pcs)<br>
+            🌰 Walnuts (2–3 pcs)<br>
+            🍹 Buttermilk (Chaas) + Jeera<br>
+            🟤 Roasted Chana + Jaggery
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🥗 Mixed Veg Soup<br>
+            🫓 1–2 Chapatis<br>
+            🥬 Palak / Methi Sabzi<br>
+            🫘 Masoor Dal<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg:</div>
+            🐟 Grilled Fish (Rohu/Katla)<br>
+            🍗 Chicken Clear Soup<br>
+            🥚 2-Egg Omelette + Salad
+          </td>
+        </tr>
+
+        <!-- FRIDAY -->
+        <tr>
+          <td><strong>FRI</strong></td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg Pick Any 1:</div>
+            🫓 Plain Dosa + Coconut Chutney<br>
+            🥣 Oats Upma + Veggies<br>
+            🌾 Ragi Mudde + Dal<br>
+            🥛 Greek Yogurt + Fruits + Honey<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Pick Any 1:</div>
+            🥚 Egg Dosa (1 large)<br>
+            🍳 3-Egg Omelette + Toast<br>
+            🥚 Boiled Eggs + Banana
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🍚 Rice / 2 Rotis<br>
+            🫘 Toor Dal + Ghee<br>
+            🥬 Aloo Palak / Aloo Methi<br>
+            🥗 Onion + Cucumber Raita<br>
+            🍋 Raw Mango / Tamarind Pickle<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Add-On:</div>
+            🐟 Fish Curry (Katla/Rohu)<br>
+            🥚 Andhra Egg Curry<br>
+            🍗 Chicken Biryani (small — it's Friday! 😄)
+          </td>
+          <td>
+            ☕ Green Tea / Black Coffee (1 cup)<br>
+            🍫 Dark Chocolate (2–3 small pcs)<br>
+            🍎 Apple / Pear<br>
+            🥜 Mixed Nuts (almonds + cashews)<br>
+            🟤 Roasted Chana
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🧀 Paneer + Peas Curry + 2 Rotis<br>
+            🥬 Palak / Methi Sabzi<br>
+            🥗 Salad + Curd<br>
+            🫘 Light Dal<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg:</div>
+            🍗 Butter Chicken (light) + 1 Roti<br>
+            🐟 Fish Fry + Dal + Rice<br>
+            🥚 Egg Curry + Chapati
+          </td>
+        </tr>
+
+        <!-- SATURDAY -->
+        <tr>
+          <td><strong>SAT</strong></td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg Pick Any 1:</div>
+            🥣 Poha + Peas + Lemon<br>
+            🫓 Methi Thepla + Curd<br>
+            🥣 Oats + Milk + Dry Fruits<br>
+            🌾 Jowar Roti + Palak Dal<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Pick Any 1:</div>
+            🥚 2 Boiled Eggs + Toast<br>
+            🍳 Egg Fried Rice (light)<br>
+            🥚 Egg Paratha + Curd
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🍚 Sambar Rice (Hyderabadi style)<br>
+            🥬 Veg of the Day<br>
+            🥛 Curd + Papad<br>
+            🥗 Sprouts Salad<br>
+            🧅 Onion + Tomato Raita<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Add-On:</div>
+            🥚 Egg Curry / Egg Fry<br>
+            🍗 Mutton Curry (small — weekend treat!)<br>
+            🐟 Andhra Fish Curry
+          </td>
+          <td>
+            🍊 Mixed Fruit Bowl (papaya + pomegranate + banana)<br>
+            🥤 Lassi (sweet, no excess sugar)<br>
+            🟤 Roasted Chana + Jaggery<br>
+            🌻 Seeds Mix (pumpkin + flax + sunflower)<br>
+            🍵 Chamomile / Green Tea
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🫓 2 Chapatis<br>
+            🫘 Dal Tadka<br>
+            🥬 Aloo / Gobi Sabzi<br>
+            🥗 Cucumber Raita<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg:</div>
+            🐟 Fish Curry + Rice (small)<br>
+            🍗 Chicken Dal (mixed)<br>
+            🥚 Egg Omelette + Dal + Roti
+          </td>
+        </tr>
+
+        <!-- SUNDAY -->
+        <tr>
+          <td><strong>SUN</strong></td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg Pick Any 1:</div>
+            🌾 Ragi Dosa + Coconut Chutney<br>
+            🫓 Rava Idli + Sambar<br>
+            🥣 Banana Oats Smoothie Bowl<br>
+            🥛 Paneer Paratha + Light Curd<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Pick Any 1:</div>
+            🥚 Masala Omelette (3 eggs)<br>
+            🍳 Egg + Cheese Toast<br>
+            🥚 Egg Dosa + Sambar
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🍚 Veg Pulao + Raita<br>
+            🥬 Mixed Veg Sabzi<br>
+            🫘 Chole / Dal Makhani (light)<br>
+            🥗 Salad + Papad<br>
+            🥛 Curd<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg Add-On:</div>
+            🍗 Sunday Chicken Curry (treat! 🎉)<br>
+            🐟 Andhra Fish Pulusu<br>
+            🥚 Egg Biryani (small portion)
+          </td>
+          <td>
+            ☕ 1 Cup Black Coffee / Green Tea<br>
+            🍫 Dark Chocolate (70%+, 2–3 pcs)<br>
+            🍇 Grapes / Blueberries<br>
+            🥜 Cashews + Almonds mix<br>
+            🍹 Fresh Sugarcane Juice / Coconut Water
+          </td>
+          <td>
+            <div class="veg-tag" style="margin-bottom:5px;">🥦 Veg:</div>
+            🫘 Moong Dal Khichdi<br>
+            🥬 Palak / Spinach Soup<br>
+            🍠 Boiled Sweet Potato<br>
+            🥛 Warm Haldi Doodh<br>
+            <div class="nonveg-tag" style="margin:6px 0 3px;">🍗 Non-Veg:</div>
+            🍲 Chicken Clear Soup + 1 Roti<br>
+            🐟 Fish + Veg Soup (light)<br>
+            🥚 Egg + Veg Stir Fry + Rice (small)
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SECTION 3: ROTATION FOODS -->
+  <div class="section-title">🔄 Weekly Rotation Foods</div>
+
+  <div class="rotation-grid">
+    <div class="rotation-card veg-card">
+      <h4>🥦 Veg Focus Foods</h4>
+      <div class="rotation-items">
+        <div class="r-item">🧀 Paneer</div>
+        <div class="r-item">🫘 Dal / Lentils</div>
+        <div class="r-item">🌾 Ragi / Jowar / Foxtail Millet</div>
+        <div class="r-item">🫘 Rajma / Chole</div>
+        <div class="r-item">🥬 Palak / Methi</div>
+        <div class="r-item">🌻 Pumpkin Seeds</div>
+        <div class="r-item">🍌 Seasonal Fruits</div>
+        <div class="r-item">🥕 Root Veggies</div>
+        <div class="r-item">🥜 Groundnuts</div>
+      </div>
+    </div>
+    <div class="rotation-card nonveg-card">
+      <h4>🍗 Non-Veg Focus Foods</h4>
+      <div class="rotation-items">
+        <div class="r-item">🥚 Eggs (daily OK!)</div>
+        <div class="r-item">🐟 Fish 2–3x/week</div>
+        <div class="r-item">🍗 Chicken 2x/week</div>
+        <div class="r-item">🐟 Rohu / Katla</div>
+        <div class="r-item">🍗 Grilled Chicken</div>
+        <div class="r-item">🥚 Egg Bhurji</div>
+        <div class="r-item">🍲 Chicken Soup</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 4: TIPS -->
+  <div class="section-title">💡 Daily Tips</div>
+
+  <div class="tips-section">
+    <div class="tips-grid">
+      <div class="tip-card">
+        <div class="tip-icon">💧</div>
+        <div>
+          <strong>3 Litres Water Daily</strong>
+          <span>Dehydration = low focus + headache. Add nimbu pani or coconut water in Hyderabad heat.</span>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">🚶</div>
+        <div>
+          <strong>Walk After Meals</strong>
+          <span>10-min walk after lunch keeps your brain alert. Prevents post-lunch sleepiness at work.</span>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">😴</div>
+        <div>
+          <strong>Sleep 7–8 Hours</strong>
+          <span>Memory consolidates during sleep. Essential for study retention and muscle repair.</span>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">⏰</div>
+        <div>
+          <strong>Eat Every 3–4 Hours</strong>
+          <span>Never skip meals. Small gaps keep blood sugar stable and brain sharp all day.</span>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">💰</div>
+        <div>
+          <strong>Budget-Friendly Swaps</strong>
+          <span>Eggs cheaper than chicken. Groundnuts instead of expensive nuts. Seasonal fruits only.</span>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">🛒</div>
+        <div>
+          <strong>Shop at Rythu Bazaar</strong>
+          <span>Best fresh veggies, eggs & fish at low cost. Great for palak, tomatoes & greens daily.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOW TO EAT SECTION -->
+  <div class="section-title">🍳 How to Eat — Food Preparation Guide</div>
+
+  <div style="background:var(--card);border-radius:14px;padding:12px 18px;margin-bottom:18px;border:1px solid rgba(255,255,255,0.07);font-size:13px;color:var(--muted);">
+    💡 <strong style="color:var(--white);">Best method matters!</strong> The same food prepared the right way gives more nutrients and better focus. Wrong preparation = less benefit.
+  </div>
+
+  <div class="prep-grid">
+
+    <!-- EGGS -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🥚</span>
+        <div>
+          <div class="prep-name">Eggs</div>
+          <div class="prep-best">Best: Boiled or Poached</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Boiled (soft/hard) — most nutrients retained, no extra oil</div>
+        <div class="method good">✅ Poached — no oil, very healthy</div>
+        <div class="method good">✅ Scrambled with minimal butter/ghee</div>
+        <div class="method good">✅ Omelette with veggies — use 1 tsp oil max</div>
+        <div class="method bad">❌ Deep fried egg — avoid, too much oil</div>
+      </div>
+      <div class="prep-tip">💡 Eat 2 boiled eggs every morning. Yolk has choline — don't throw it away!</div>
+    </div>
+
+    <!-- GROUNDNUTS / PEANUTS -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🥜</span>
+        <div>
+          <div class="prep-name">Groundnuts / Peanuts</div>
+          <div class="prep-best">Best: Dry Roasted or Boiled</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Dry roasted (in pan, no oil) — crispy, tasty, healthy</div>
+        <div class="method good">✅ Boiled with salt — soft, easy to digest, best for gut</div>
+        <div class="method good">✅ Raw (soaked overnight) — maximum nutrients</div>
+        <div class="method okay">⚠️ Roasted in small oil — okay occasionally</div>
+        <div class="method bad">❌ Deep fried / masala coated — avoid, too much salt + oil</div>
+      </div>
+      <div class="prep-tip">💡 Dry roast in a pan for 5–7 mins on low flame. Cool and eat. Best evening snack!</div>
+    </div>
+
+    <!-- ALMONDS -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🪨</span>
+        <div>
+          <div class="prep-name">Almonds</div>
+          <div class="prep-best">Best: Soaked Overnight</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Soak 5–6 almonds in water overnight → peel skin → eat morning</div>
+        <div class="method good">✅ Raw (without soaking) — also good</div>
+        <div class="method okay">⚠️ Roasted (dry) — okay, slightly less nutrients</div>
+        <div class="method bad">❌ Salted / flavoured almonds — avoid, too much sodium</div>
+        <div class="method bad">❌ Fried almonds — avoid completely</div>
+      </div>
+      <div class="prep-tip">💡 Soaking removes phytic acid — makes nutrients 2x easier to absorb. Just soak at night, eat morning!</div>
+    </div>
+
+    <!-- WALNUTS -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🌰</span>
+        <div>
+          <div class="prep-name">Walnuts</div>
+          <div class="prep-best">Best: Raw or Soaked</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Raw — eat directly as is, 2–3 pieces</div>
+        <div class="method good">✅ Soaked overnight in water — even better for brain</div>
+        <div class="method good">✅ Crushed and added to oats or curd</div>
+        <div class="method okay">⚠️ Dry roasted — okay occasionally</div>
+        <div class="method bad">❌ Sugar coated / candy walnuts — avoid</div>
+      </div>
+      <div class="prep-tip">💡 Eat 2 walnuts + 5 almonds every morning. Best brain food combo that exists!</div>
+    </div>
+
+    <!-- FISH -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🐟</span>
+        <div>
+          <div class="prep-name">Fish (Rohu / Katla)</div>
+          <div class="prep-best">Best: Grilled or Light Curry</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Grilled with turmeric + pepper + lemon — maximum omega-3</div>
+        <div class="method good">✅ Light curry (Andhra style with tomato + onion) — very healthy</div>
+        <div class="method good">✅ Steamed fish — best nutrients, minimal oil</div>
+        <div class="method good">✅ Fish rasam / soup — great for recovery dinner</div>
+        <div class="method bad">❌ Deep fried fish fry (bajji) daily — too much oil, avoid regularly</div>
+      </div>
+      <div class="prep-tip">💡 Eat fish 2–3 times a week. Andhra-style light curry is perfect — turmeric in it reduces inflammation!</div>
+    </div>
+
+    <!-- CHICKEN -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🍗</span>
+        <div>
+          <div class="prep-name">Chicken</div>
+          <div class="prep-best">Best: Grilled or Boiled</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Grilled chicken (with spices) — high protein, low fat</div>
+        <div class="method good">✅ Boiled / pressure cooked chicken — very clean protein</div>
+        <div class="method good">✅ Chicken soup / clear soup — great for recovery</div>
+        <div class="method good">✅ Chicken curry (less oil) — good with roti</div>
+        <div class="method okay">⚠️ Tandoori chicken — okay occasionally (less oil than fry)</div>
+        <div class="method bad">❌ Fried chicken / KFC style — avoid on work days</div>
+      </div>
+      <div class="prep-tip">💡 Boil chicken with ginger + garlic + pepper = best protein soup for brain + muscles!</div>
+    </div>
+
+    <!-- OATS -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🥣</span>
+        <div>
+          <div class="prep-name">Oats</div>
+          <div class="prep-best">Best: Boiled with Milk or Water</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Boiled oats + milk + banana + honey — perfect breakfast</div>
+        <div class="method good">✅ Oats upma (with veggies) — savory and filling</div>
+        <div class="method good">✅ Overnight oats (soak in curd/milk) — no cooking needed!</div>
+        <div class="method okay">⚠️ Instant oats packets — okay but less fiber than rolled oats</div>
+        <div class="method bad">❌ Oat cookies / baked sugary oat bars — avoid</div>
+      </div>
+      <div class="prep-tip">💡 Use rolled oats (not instant). Cook in milk for 5 mins. Add banana + 1 tsp honey. Ready in 10 mins!</div>
+    </div>
+
+    <!-- SPROUTS -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🫘</span>
+        <div>
+          <div class="prep-name">Sprouts (Moong / Chana)</div>
+          <div class="prep-best">Best: Raw Salad or Lightly Steamed</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Raw sprouted moong + lemon + salt + onion — best salad</div>
+        <div class="method good">✅ Lightly steamed (2 mins) — easier to digest</div>
+        <div class="method good">✅ Sprouted moong chilla (pancake) — great breakfast</div>
+        <div class="method okay">⚠️ Cooked sprouts curry — okay, slightly less nutrients</div>
+        <div class="method bad">❌ Deep fried sprout snacks — avoid</div>
+      </div>
+      <div class="prep-tip">💡 Soak moong overnight → tie in cloth → sprouts ready in 24 hrs! Eat fresh with lemon + salt.</div>
+    </div>
+
+    <!-- BANANA -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🍌</span>
+        <div>
+          <div class="prep-name">Banana</div>
+          <div class="prep-best">Best: Eaten Directly / Fresh</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Eat directly as a snack — simplest and best</div>
+        <div class="method good">✅ Sliced into oats or curd — great combo</div>
+        <div class="method good">✅ Banana + peanut butter — power snack before study</div>
+        <div class="method good">✅ Banana smoothie with milk — quick energy drink</div>
+        <div class="method bad">❌ Banana chips (fried) — avoid, too much oil</div>
+        <div class="method bad">❌ Banana with cold milk at night — can cause cold/cough</div>
+      </div>
+      <div class="prep-tip">💡 Eat a ripe (yellow) banana, not overripe (black). Best eaten morning or before workout/study!</div>
+    </div>
+
+    <!-- DAL -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🫘</span>
+        <div>
+          <div class="prep-name">Dal (Toor / Moong / Masoor)</div>
+          <div class="prep-best">Best: Pressure Cooked + Light Tadka</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Pressure cooked dal + light tadka (mustard + curry leaves + ghee)</div>
+        <div class="method good">✅ Dal soup (thin) — great for digestion</div>
+        <div class="method good">✅ Moong dal — easiest to digest, best for daily use</div>
+        <div class="method good">✅ Toor dal (Andhra style sambar) — full of veggies = complete meal</div>
+        <div class="method okay">⚠️ Dal makhani (with cream) — heavy, limit to weekends</div>
+      </div>
+      <div class="prep-tip">💡 Add a small spoon of ghee to dal — ghee helps absorb fat-soluble vitamins. Don't skip it!</div>
+    </div>
+
+    <!-- SWEET POTATO -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🍠</span>
+        <div>
+          <div class="prep-name">Sweet Potato</div>
+          <div class="prep-best">Best: Boiled or Roasted</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Boiled with skin on — max nutrients, easy to eat</div>
+        <div class="method good">✅ Roasted in oven / air fryer — crispy and delicious</div>
+        <div class="method good">✅ Boiled + mashed with pepper + salt — simple side dish</div>
+        <div class="method okay">⚠️ Sweet potato curry — okay, slightly heavy</div>
+        <div class="method bad">❌ Sweet potato fries (deep fried) — avoid, defeats the purpose</div>
+      </div>
+      <div class="prep-tip">💡 Boil whole sweet potato for 15 mins. Peel and eat with a pinch of salt. Best dinner side dish!</div>
+    </div>
+
+    <!-- CURD / DAHI -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🥛</span>
+        <div>
+          <div class="prep-name">Curd / Dahi</div>
+          <div class="prep-best">Best: Fresh Homemade at Room Temp</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Fresh homemade curd — best probiotics for gut + brain</div>
+        <div class="method good">✅ Curd rice (with tempering) — great lunch option</div>
+        <div class="method good">✅ Raita (curd + cucumber/onion) — cooling and healthy</div>
+        <div class="method good">✅ Buttermilk / Chaas (curd + water + jeera) — best summer drink</div>
+        <div class="method bad">❌ Cold curd directly from fridge at night — can cause cold</div>
+        <div class="method bad">❌ Flavoured / sweetened curd (store bought) — too much sugar</div>
+      </div>
+      <div class="prep-tip">💡 Always eat curd at lunch, not dinner. At night it can slow digestion. Room temperature is best!</div>
+    </div>
+
+    <!-- GREEN TEA -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🍵</span>
+        <div>
+          <div class="prep-name">Green Tea</div>
+          <div class="prep-best">Best: Brewed Fresh, No Sugar</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Brew 1 tea bag in hot (not boiling) water for 2–3 mins</div>
+        <div class="method good">✅ Drink plain or with lemon — best for focus</div>
+        <div class="method good">✅ With a pinch of ginger / tulsi — even better immunity</div>
+        <div class="method okay">⚠️ With very little honey — acceptable</div>
+        <div class="method bad">❌ With milk — milk blocks the antioxidants in green tea</div>
+        <div class="method bad">❌ Boiling green tea — destroys nutrients</div>
+        <div class="method bad">❌ More than 2 cups/day — causes acidity</div>
+      </div>
+      <div class="prep-tip">💡 Heat water to 80°C (not boiling). Steep 2–3 mins. Drink before study for calm, clear focus!</div>
+    </div>
+
+    <!-- DARK CHOCOLATE -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🍫</span>
+        <div>
+          <div class="prep-name">Dark Chocolate</div>
+          <div class="prep-best">Best: 70%+ cocoa, 2–3 pieces only</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Eat 2–3 small pieces directly — let it melt on tongue slowly</div>
+        <div class="method good">✅ With green tea in evening — perfect brain booster combo</div>
+        <div class="method good">✅ Brands: Amul Dark (72%), Lindt 70%+ — easily available</div>
+        <div class="method okay">⚠️ More than 3–4 pieces — okay occasionally, not daily</div>
+        <div class="method bad">❌ Milk chocolate / white chocolate — not the same, avoid</div>
+        <div class="method bad">❌ Chocolate biscuits / bars — too much sugar, not real chocolate</div>
+      </div>
+      <div class="prep-tip">💡 Eat it slowly — don't rush! Slow eating releases more flavour and the brain benefit lasts longer.</div>
+    </div>
+
+    <!-- TURMERIC MILK -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🥛</span>
+        <div>
+          <div class="prep-name">Turmeric Milk (Haldi Doodh)</div>
+          <div class="prep-best">Best: Warm, Homemade, Before Bed</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Heat 1 cup milk → add ½ tsp turmeric + pinch of pepper → stir well</div>
+        <div class="method good">✅ Add a pinch of cinnamon + small piece of jaggery for taste</div>
+        <div class="method good">✅ Drink warm (not hot) 30 mins before sleeping</div>
+        <div class="method okay">⚠️ With small amount of sugar — okay if needed</div>
+        <div class="method bad">❌ Cold turmeric milk — loses the benefit</div>
+        <div class="method bad">❌ Store-bought turmeric milk powder — usually has excess sugar</div>
+      </div>
+      <div class="prep-tip">💡 Black pepper in it is KEY — it increases turmeric absorption by 2000%! Never skip the pepper.</div>
+    </div>
+
+    <!-- PANEER -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🧀</span>
+        <div>
+          <div class="prep-name">Paneer</div>
+          <div class="prep-best">Best: Grilled or Lightly Cooked</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Grilled paneer with spices — high protein, low fat</div>
+        <div class="method good">✅ Paneer bhurji (scrambled) — quick, tasty, healthy</div>
+        <div class="method good">✅ Paneer + veggie curry (light gravy) — great lunch</div>
+        <div class="method good">✅ Raw paneer cubes (fresh) + salt + pepper — healthy snack</div>
+        <div class="method okay">⚠️ Paneer butter masala — heavy gravy, limit to once a week</div>
+        <div class="method bad">❌ Deep fried paneer pakora — avoid regularly</div>
+      </div>
+      <div class="prep-tip">💡 Buy fresh paneer from local dairy or make at home. Store-bought packaged paneer has preservatives.</div>
+    </div>
+
+    <!-- ROASTED CHANA -->
+    <div class="prep-card">
+      <div class="prep-header">
+        <span class="prep-emoji">🟤</span>
+        <div>
+          <div class="prep-name">Roasted Chana (Bengal Gram)</div>
+          <div class="prep-best">Best: Dry Roasted, Eaten Directly</div>
+        </div>
+      </div>
+      <div class="prep-methods">
+        <div class="method good">✅ Buy ready dry roasted chana from shop — eat directly as snack</div>
+        <div class="method good">✅ With jaggery piece — great energy combo</div>
+        <div class="method good">✅ Mixed with onion + tomato + lemon — quick chana chaat</div>
+        <div class="method good">✅ Powdered with jaggery = Sattu — mix in water, amazing drink!</div>
+        <div class="method okay">⚠️ Masala roasted chana — okay occasionally (more salt)</div>
+        <div class="method bad">❌ Fried chana / chana in oil — avoid</div>
+      </div>
+      <div class="prep-tip">💡 Hyderabad's best cheap snack! 1 handful (30g) = 10g protein. Better than most expensive protein bars!</div>
+    </div>
+
+  </div>
+  <!-- END HOW TO EAT -->
+
+  <!-- AVOID SECTION -->
+  <div class="avoid-section">
+    <h4>⚠️ Avoid on Work / Study Days</h4>
+    <div class="avoid-items">
+      <div class="avoid-item">Heavy Biryani (limit to weekends)</div>
+      <div class="avoid-item">Oily Street Food</div>
+      <div class="avoid-item">Excess Irani Chai</div>
+      <div class="avoid-item">Sugary Drinks</div>
+      <div class="avoid-item">Maida / White Flour Items</div>
+      <div class="avoid-item">Skipping Breakfast</div>
+      <div class="avoid-item">Late Night Heavy Dinner</div>
+      <div class="avoid-item">Too Much Coffee (crashes later)</div>
+      <div class="avoid-item">Study Right After Heavy Meal</div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>🍽️ Designed for <strong>Hyderabad</strong> · Veg & Non-Veg · Strength & Focus · Updated with Best of Both Plans</p>
+    <p style="margin-top:6px;">Follow consistently for best results in 2–3 weeks 💪</p>
+  </div>
+
+</div>
+</body>
+</html>

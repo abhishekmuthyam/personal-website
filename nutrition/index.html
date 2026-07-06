@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrition</title>
+  <meta name="description" content="Daily nutrition made simple — foods and their nutrients, daily intake needs, deficiency guide, best foods by time of day and age, plus a complete meal plan.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script src="/auth.js" defer></script>
+  <style>
+    .learn-tabs-wrap { max-width: 1100px; margin: -28px auto 10px; padding: 0 20px; position: relative; z-index: 5; }
+    .learn-tabs { background: rgba(17,24,39,0.92); border: 1px solid var(--glass-border); border-radius: 16px;
+      display: flex; flex-wrap: wrap; padding: 6px; gap: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+    .learn-tab { background: transparent; border: none; color: var(--muted); padding: 13px 16px; border-radius: 12px;
+      font-size: 14px; font-weight: 600; font-family: 'Outfit', sans-serif; cursor: pointer; box-shadow: none; flex: 1 1 auto; }
+    .learn-tab:hover { background: rgba(255,255,255,0.05); color: #fff; transform: none; box-shadow: none; }
+    .learn-tab.active { background: var(--brand); color: #fff; }
+    .n-section { display: none; }
+    .n-section.active { display: block; }
+
+    .mp-banner { background: linear-gradient(120deg, #14532d, #052e16 70%); border: 1px solid rgba(34,197,94,0.3);
+      border-radius: 18px; padding: 28px 30px; display: flex; align-items: center; justify-content: space-between;
+      gap: 20px; flex-wrap: wrap; margin-top: 26px; }
+    .mp-banner h2 { margin: 0 0 6px; font-size: 22px; }
+    .mp-banner p { color: #bbf7d0; margin: 0; font-size: 14.5px; }
+
+    .n-search { width: 100%; box-sizing: border-box; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px; color: var(--text); font-size: 15px; font-family: inherit; padding: 13px 16px; outline: none; margin: 0 0 14px; }
+    .n-search:focus { border-color: var(--brand); }
+    .n-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+
+    .food-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
+    .food-card { background: var(--glass); border: 1px solid var(--glass-border); border-radius: 14px; padding: 18px; }
+    .food-card h3 { font-size: 17px; margin: 0 0 2px; }
+    .food-cal { color: var(--accent); font-size: 12px; font-weight: 700; }
+    .macro { margin-top: 10px; }
+    .macro-row { display: flex; justify-content: space-between; color: var(--muted); font-size: 12.5px; margin-bottom: 3px; }
+    .macro-bar { height: 6px; border-radius: 4px; background: rgba(255,255,255,0.07); overflow: hidden; margin-bottom: 8px; }
+    .macro-bar i { display: block; height: 100%; border-radius: 4px; }
+    .food-vit { color: var(--muted); font-size: 12.5px; margin: 10px 0 0; border-top: 1px solid rgba(255,255,255,0.07); padding-top: 8px; }
+
+    .qa { background: var(--glass); border: 1px solid var(--glass-border); border-radius: 14px; padding: 20px 22px; margin-bottom: 14px; }
+    .qa h3 { font-size: 17px; margin: 0 0 8px; color: #fff; }
+    .qa p, .qa li { color: var(--muted); font-size: 14.5px; line-height: 1.7; margin: 0 0 6px; }
+    .pill-row { display: flex; flex-wrap: wrap; gap: 7px; margin: 10px 0; }
+    .pill { background: rgba(99,102,241,0.12); border: 1px solid rgba(99,102,241,0.25); border-radius: 99px;
+      color: #c7d2fe; font-size: 13px; font-weight: 600; padding: 5px 13px; }
+    .tip { border-left: 3px solid var(--accent); background: rgba(20,184,166,0.06); border-radius: 0 10px 10px 0;
+      padding: 9px 13px; margin-top: 10px; color: #ccfbf1; font-size: 13.5px; }
+    .sym { color: #fda4af; font-size: 13.5px; }
+
+    .intake-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    .intake-table th, .intake-table td { text-align: left; padding: 9px 10px; border-bottom: 1px solid rgba(255,255,255,0.07); color: var(--muted); }
+    .intake-table th { color: #fff; font-family: 'Outfit', sans-serif; font-size: 13px; }
+    .intake-table td:last-child { color: #fff; font-weight: 600; white-space: nowrap; }
+    .table-wrap { overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true" style="flex:0 0 auto;"><path d="M12 3.1 2.6 11.5h2.9V21h5v-5.5h3V21h5v-9.5h2.9L12 3.1z"/></svg> Home</a>
+      <div class="nav-links">
+        <a href="/watch">Watch</a>
+        <a href="/discover">News</a>
+        <a href="/stories">Legends</a>
+        <a href="/games">Games</a>
+        <a href="/calci">Tools</a>
+        <a href="/learn">Learn AI</a>
+        <a href="/nutrition" class="active">Nutrition</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Nutrition</h1>
+    <p>What to eat, when to eat it, and why — simple food intelligence for everyday health.</p>
+  </section>
+
+  <div class="learn-tabs-wrap">
+    <div class="learn-tabs" role="tablist">
+      <button class="learn-tab active" data-tab="foods">🥗 Foods</button>
+      <button class="learn-tab" data-tab="intake">📏 Daily Needs</button>
+      <button class="learn-tab" data-tab="deficiency">💊 Deficiencies</button>
+      <button class="learn-tab" data-tab="timing">⏰ By Time</button>
+      <button class="learn-tab" data-tab="ages">👶 By Age</button>
+      <button class="learn-tab" data-tab="regional">🌍 Regional</button>
+    </div>
+  </div>
+
+  <section style="margin: 10px auto 0;">
+    <div class="mp-banner">
+      <div>
+        <h2>🍽️ Complete Daily Meal Plan</h2>
+        <p>Wake-up to bedtime timing chart with veg &amp; non-veg options — built for strength and focus.</p>
+      </div>
+      <a class="button primary" href="/nutrition/meal-plan/">Open Meal Plan</a>
+    </div>
+  </section>
+
+  <section class="n-section active" id="tab-foods">
+    <h2>Foods &amp; their nutrients <span style="color:var(--muted);font-size:14px;font-weight:400;">(per 100g)</span></h2>
+    <input type="search" class="n-search" id="foodSearch" placeholder="🔍 Search a food... (e.g. spinach, oats, egg)">
+    <div class="n-filters" id="foodFilters">
+      <button class="filter-button active" data-cat="all">All</button>
+      <button class="filter-button" data-cat="veggies">Vegetables</button>
+      <button class="filter-button" data-cat="fruits">Fruits</button>
+      <button class="filter-button" data-cat="grains">Grains &amp; Legumes</button>
+      <button class="filter-button" data-cat="protein">Protein</button>
+      <button class="filter-button" data-cat="dairy">Dairy</button>
+    </div>
+    <div class="food-grid" id="foodGrid"></div>
+  </section>
+
+  <section class="n-section" id="tab-intake">
+    <h2>How much do you need daily?</h2>
+    <p class="section-intro">Recommended daily intake by age group — macronutrients, vitamins, and minerals.</p>
+    <div id="intakeWrap"></div>
+  </section>
+
+  <section class="n-section" id="tab-deficiency">
+    <h2>Feeling low? Food fixes for common deficiencies</h2>
+    <div id="defWrap"></div>
+  </section>
+
+  <section class="n-section" id="tab-timing">
+    <h2>Best foods by time of day</h2>
+    <div id="timeWrap"></div>
+  </section>
+
+  <section class="n-section" id="tab-ages">
+    <h2>Right food for every age</h2>
+    <div id="ageWrap"></div>
+  </section>
+
+  <section class="n-section" id="tab-regional">
+    <h2>Regional superfoods of the world</h2>
+    <div id="regWrap"></div>
+  </section>
+
+  <p style="text-align:center;color:var(--muted);font-size:12px;margin:30px 20px 0;">General guidance, not medical advice — consult a doctor for health conditions.</p>
+
+  <footer>
+    &copy; 2026 abhishekmuthyam.com. Built for learning and experiments.
+  </footer>
+
+  <script>
+const foods=[
+  {name:"Spinach",emoji:"🥬",cat:"veggies",cal:23,p:2.9,c:3.6,f:0.4,fi:2.2,vit:"Vitamins A, C, K, Iron"},
+  {name:"Broccoli",emoji:"🥦",cat:"veggies",cal:55,p:3.7,c:11,f:0.6,fi:3.8,vit:"Vitamins C, K, Folate"},
+  {name:"Sweet Potato",emoji:"🍠",cat:"veggies",cal:86,p:1.6,c:20,f:0.1,fi:3,vit:"Vitamin A, B6, Potassium"},
+  {name:"Carrot",emoji:"🥕",cat:"veggies",cal:41,p:0.9,c:10,f:0.2,fi:2.8,vit:"Vitamin A, K, Biotin"},
+  {name:"Tomato",emoji:"🍅",cat:"veggies",cal:18,p:0.9,c:3.9,f:0.2,fi:1.2,vit:"Vitamin C, K, Lycopene"},
+  {name:"Garlic",emoji:"🧄",cat:"veggies",cal:149,p:6.4,c:33,f:0.5,fi:2.1,vit:"Vitamin B6, C, Manganese"},
+  {name:"Kale",emoji:"🥬",cat:"veggies",cal:49,p:4.3,c:9,f:0.9,fi:3.6,vit:"Vitamins K, A, C, Calcium"},
+  {name:"Banana",emoji:"🍌",cat:"fruits",cal:89,p:1.1,c:23,f:0.3,fi:2.6,vit:"Potassium, B6, Vitamin C"},
+  {name:"Apple",emoji:"🍎",cat:"fruits",cal:52,p:0.3,c:14,f:0.2,fi:2.4,vit:"Vitamin C, K, Quercetin"},
+  {name:"Avocado",emoji:"🥑",cat:"fruits",cal:160,p:2,c:9,f:15,fi:7,vit:"Vitamin K, E, B-vitamins, Folate"},
+  {name:"Blueberry",emoji:"🫐",cat:"fruits",cal:57,p:0.7,c:14,f:0.3,fi:2.4,vit:"Vitamin C, K, Anthocyanins"},
+  {name:"Orange",emoji:"🍊",cat:"fruits",cal:47,p:0.9,c:12,f:0.1,fi:2.4,vit:"Vitamin C, Folate, Thiamine"},
+  {name:"Mango",emoji:"🥭",cat:"fruits",cal:60,p:0.8,c:15,f:0.4,fi:1.6,vit:"Vitamin C, A, B6, Folate"},
+  {name:"Oats",emoji:"🌾",cat:"grains",cal:389,p:17,c:66,f:7,fi:11,vit:"Manganese, B1, Iron, Zinc"},
+  {name:"Lentils",emoji:"🫘",cat:"grains",cal:116,p:9,c:20,f:0.4,fi:7.9,vit:"Iron, Folate, B1, Zinc"},
+  {name:"Quinoa",emoji:"🌿",cat:"grains",cal:120,p:4.4,c:22,f:1.9,fi:2.8,vit:"Magnesium, Iron, B-vitamins"},
+  {name:"Brown Rice",emoji:"🍚",cat:"grains",cal:216,p:5,c:45,f:1.8,fi:3.5,vit:"B-vitamins, Magnesium, Selenium"},
+  {name:"Chickpeas",emoji:"🫘",cat:"grains",cal:164,p:8.9,c:27,f:2.6,fi:7.6,vit:"Iron, Folate, Phosphorus"},
+  {name:"Egg",emoji:"🥚",cat:"protein",cal:155,p:13,c:1.1,f:11,fi:0,vit:"Vitamin D, B12, Choline, Selenium"},
+  {name:"Salmon",emoji:"🐟",cat:"protein",cal:208,p:20,c:0,f:13,fi:0,vit:"Omega-3, Vitamin D, B12, Selenium"},
+  {name:"Chicken Breast",emoji:"🍗",cat:"protein",cal:165,p:31,c:0,f:3.6,fi:0,vit:"B3, B6, Phosphorus, Selenium"},
+  {name:"Almonds",emoji:"🌰",cat:"protein",cal:579,p:21,c:22,f:50,fi:12,vit:"Vitamin E, Magnesium, B2"},
+  {name:"Tofu",emoji:"🟨",cat:"protein",cal:76,p:8,c:1.9,f:4.8,fi:0.3,vit:"Calcium, Iron, Manganese"},
+  {name:"Greek Yogurt",emoji:"🥛",cat:"dairy",cal:59,p:10,c:3.6,f:0.4,fi:0,vit:"B12, Calcium, Iodine, Probiotics"},
+  {name:"Milk",emoji:"🍼",cat:"dairy",cal:61,p:3.2,c:4.8,f:3.3,fi:0,vit:"Calcium, Vitamin D, B12, Potassium"},
+  {name:"Paneer",emoji:"🧀",cat:"dairy",cal:265,p:18,c:3.6,f:20,fi:0,vit:"Calcium, Phosphorus, B12"},
+  {name:"Cheese",emoji:"🧀",cat:"dairy",cal:402,p:25,c:1.3,f:33,fi:0,vit:"Calcium, B12, Vitamin A, Zinc"},
+];
+
+const howToData=[
+  {title:"Raw & Fresh",emoji:"🥗",acc:"#2e7d32",steps:[
+    {n:1,h:"Wash thoroughly",p:"Rinse under cold running water 20–30 seconds. Use a brush for root vegetables."},
+    {n:2,h:"Chop right before eating",p:"Cutting ahead destroys Vitamin C quickly. Always prepare just before serving."},
+    {n:3,h:"Add healthy fat",p:"Fat-soluble vitamins A, D, E, K absorb 4× better with olive oil or avocado."}]},
+  {title:"Steaming",emoji:"♨️",acc:"#1565c0",steps:[
+    {n:1,h:"Use a steamer basket",p:"Place vegetables above boiling water — never boil directly, it leaches nutrients."},
+    {n:2,h:"Time it right",p:"Broccoli: 5 min. Carrots: 7 min. Potatoes: 15 min. Oversteaming destroys nutrients."},
+    {n:3,h:"Season after cooking",p:"Add salt, lemon and herbs after steaming to preserve minerals."}]},
+  {title:"Fermentation",emoji:"🫙",acc:"#f57c00",steps:[
+    {n:1,h:"Use clean glass jars",p:"Sterilize with hot water. Metal containers interfere with the fermentation process."},
+    {n:2,h:"2% salt by weight",p:"Creates ideal environment for probiotic bacteria and blocks harmful pathogens."},
+    {n:3,h:"Wait 2–7 days",p:"Ferment at room temperature. Refrigerate when desired sourness is reached."}]},
+  {title:"Soaking & Sprouting",emoji:"🌱",acc:"#6a1b9a",steps:[
+    {n:1,h:"Soak legumes 8–12 hrs",p:"Reduces anti-nutrients like phytic acid and dramatically improves mineral absorption."},
+    {n:2,h:"Rinse and drain daily",p:"Keep moist in a dark spot. Sprouts appear in 1–3 days for most legumes."},
+    {n:3,h:"Eat raw or lightly cook",p:"Sprouts are extremely nutrient-dense — add to salads or briefly stir-fry."}]},
+  {title:"Slow Cooking",emoji:"🍲",acc:"#c62828",steps:[
+    {n:1,h:"Low heat, long time",p:"Cook at 80–90°C for hours. Extracts deep flavour and collagen from bones."},
+    {n:2,h:"Add acid",p:"A splash of apple cider vinegar in bone broths draws out extra minerals effectively."},
+    {n:3,h:"Save the liquid",p:"The cooking liquid is rich in nutrients — never discard. Use as soup base."}]},
+  {title:"Blending",emoji:"🥤",acc:"#00796b",steps:[
+    {n:1,h:"Blend, don't just juice",p:"Blending retains all fiber. Juicing removes it — reserve for therapeutic purposes."},
+    {n:2,h:"Balance your smoothie",p:"Add Greek yogurt, seeds or nut butter for complete nutrition in each glass."},
+    {n:3,h:"Drink within 15 min",p:"Vitamin C and enzymes degrade fast. Consume immediately after blending."}]},
+];
+
+const regions=[
+  {name:"South Asia 🇮🇳",key:"sa",foods:[
+    {name:"Turmeric",emoji:"🌿",desc:"Anti-inflammatory curcumin boosts immunity. Use in golden milk and curries daily."},
+    {name:"Moringa",emoji:"🌱",desc:"7× more Vitamin C than oranges, 4× calcium of milk. Fights malnutrition powerfully."},
+    {name:"Bitter Gourd",emoji:"🥒",desc:"Reduces blood sugar naturally. Rich in vitamins C and A. Best stir-fried or juiced."},
+    {name:"Ragi (Finger Millet)",emoji:"🌾",desc:"Highest calcium of all grains. Gluten-free superfood for bones and diabetes management."},
+    {name:"Amla (Gooseberry)",emoji:"🍏",desc:"Highest natural Vitamin C. Powerful antioxidant. Cornerstone of Ayurvedic medicine."},
+  ]},
+  {name:"East Asia 🇯🇵",key:"ea",foods:[
+    {name:"Natto",emoji:"🫘",desc:"Fermented soybeans extremely high in Vitamin K2. Supports heart and bone health."},
+    {name:"Matcha",emoji:"🍵",desc:"137× more antioxidants than regular green tea. Boosts focus and calm via L-theanine."},
+    {name:"Seaweed (Nori)",emoji:"🌿",desc:"Rich in iodine for thyroid function. High in omega-3 and very low in calories."},
+    {name:"Miso",emoji:"🫙",desc:"Fermented soybean paste packed with probiotics, B vitamins, and manganese."},
+    {name:"Shiitake Mushroom",emoji:"🍄",desc:"Contains lentinan that boosts immune system. High in B vitamins, copper, and zinc."},
+  ]},
+  {name:"Mediterranean 🫒",key:"med",foods:[
+    {name:"Extra Virgin Olive Oil",emoji:"🫒",desc:"Rich in monounsaturated fats and polyphenols. Reduces heart disease significantly."},
+    {name:"Figs",emoji:"🍈",desc:"High in calcium, iron and potassium. Better calcium source than dairy per calorie."},
+    {name:"Lupini Beans",emoji:"🫘",desc:"36g protein per 100g — among highest plant proteins. Excellent for blood sugar."},
+    {name:"Sumac",emoji:"🔴",desc:"Tangy red spice with extremely high antioxidants and powerful anti-inflammatory effects."},
+    {name:"Capers",emoji:"🌿",desc:"High in quercetin and kaempferol — powerful anti-inflammatory flavonoids."},
+  ]},
+  {name:"Africa 🌍",key:"af",foods:[
+    {name:"Baobab",emoji:"🌳",desc:"Fruit pulp has 6× more Vitamin C than oranges. Rich in prebiotic fiber for gut health."},
+    {name:"Teff",emoji:"🌾",desc:"Ethiopian grain — complete protein, high iron and calcium. Ancient gluten-free grain."},
+    {name:"Fenugreek",emoji:"🌿",desc:"Controls blood sugar and cholesterol naturally. High fiber and iron. North African staple."},
+    {name:"Tiger Nuts",emoji:"🟤",desc:"West African superfood — high fiber, magnesium, vitamin E. Natural prebiotic food."},
+    {name:"Moringa Leaves",emoji:"🍃",desc:"Grown across Africa to combat malnutrition. Rich in iron, vitamin A, and protein."},
+  ]},
+  {name:"Americas 🌎",key:"am",foods:[
+    {name:"Chia Seeds",emoji:"🌱",desc:"Aztec superfood — omega-3, calcium, fiber. Absorbs 12× its weight in water."},
+    {name:"Raw Cacao",emoji:"🍫",desc:"Highest plant source of magnesium. Theobromine boosts mood and focus naturally."},
+    {name:"Maca Root",emoji:"🟤",desc:"Peruvian adaptogen — balances hormones, boosts energy and stamina naturally."},
+    {name:"Spirulina",emoji:"💚",desc:"Blue-green algae — 60% protein by weight. Packed with B12, iron, and antioxidants."},
+    {name:"Black Beans",emoji:"🫘",desc:"Latin American staple rich in anthocyanins, iron, folate, and complete plant protein."},
+  ]},
+  {name:"Middle East 🌙",key:"me",foods:[
+    {name:"Dates",emoji:"🌴",desc:"Natural energy food high in potassium, magnesium, fiber. Perfect pre-workout snack."},
+    {name:"Za'atar",emoji:"🌿",desc:"Herb blend (thyme, oregano, sumac) — antibacterial and antioxidant-rich seasoning."},
+    {name:"Tahini",emoji:"🟡",desc:"Sesame seed paste high in calcium, copper, B vitamins. Excellent for bone health."},
+    {name:"Black Seed (Nigella)",emoji:"⚫",desc:"Powerful anti-inflammatory with immune-boosting thymoquinone. Ancient remedy."},
+    {name:"Pomegranate",emoji:"🍎",desc:"Powerful punicalagins reduce inflammation and lower blood pressure significantly."},
+  ]},
+];
+
+const deficiencies=[
+  {def:"Iron Deficiency (Anemia)",icon:"🩸",color:"#c62828",sym:"Fatigue, pale skin, breathlessness, cold hands",
+    foods:["Spinach","Lentils","Red Meat","Pumpkin Seeds","Tofu","Dark Chocolate","Apricots"],
+    tip:"Pair with Vitamin C (lemon, bell pepper) to boost absorption 3×. Avoid tea/coffee with iron-rich meals."},
+  {def:"Vitamin D Deficiency",icon:"☀️",color:"#f57c00",sym:"Bone pain, muscle weakness, fatigue, depression",
+    foods:["Salmon","Egg Yolk","Fortified Milk","Mushrooms","Sardines","Tuna","Fortified OJ"],
+    tip:"Sunlight is best — 15–20 min/day. Vitamin D is fat-soluble — take supplement with meals."},
+  {def:"Vitamin B12 Deficiency",icon:"🧠",color:"#1565c0",sym:"Memory issues, tingling in hands/feet, fatigue, pale skin",
+    foods:["Meat","Fish","Eggs","Dairy","Nutritional Yeast","Fortified Plant Milk"],
+    tip:"Vegans must supplement — B12 cannot be reliably obtained from plant foods alone."},
+  {def:"Calcium Deficiency",icon:"🦷",color:"#00796b",sym:"Weak bones, dental problems, muscle cramps, brittle nails",
+    foods:["Dairy","Broccoli","Kale","Almonds","Sesame Seeds","Sardines","Tofu","Figs"],
+    tip:"Calcium needs Vitamin D to absorb. Excess sodium and caffeine increase calcium loss."},
+  {def:"Magnesium Deficiency",icon:"⚡",color:"#6a1b9a",sym:"Muscle cramps, anxiety, insomnia, headaches, fatigue",
+    foods:["Dark Chocolate","Avocado","Almonds","Pumpkin Seeds","Spinach","Black Beans","Banana"],
+    tip:"Stress, alcohol, and sugar all deplete magnesium. Epsom salt baths also help restore levels."},
+  {def:"Omega-3 Deficiency",icon:"🐟",color:"#0277bd",sym:"Dry skin, joint pain, poor concentration, depression",
+    foods:["Salmon","Sardines","Mackerel","Walnuts","Flaxseeds","Chia Seeds","Hemp Seeds"],
+    tip:"Plant ALA has poor conversion to EPA/DHA. Fatty fish twice per week is most reliable source."},
+  {def:"Zinc Deficiency",icon:"🛡️",color:"#558b2f",sym:"Frequent infections, hair loss, poor wound healing",
+    foods:["Oysters","Beef","Pumpkin Seeds","Chickpeas","Cashews","Lentils","Hemp Seeds"],
+    tip:"Zinc from animal sources absorbs better. Soak grains/legumes to reduce blocking phytic acid."},
+  {def:"Vitamin C Deficiency",icon:"🍊",color:"#ad1457",sym:"Slow wound healing, bleeding gums, easy bruising",
+    foods:["Bell Peppers","Guava","Kiwi","Papaya","Strawberries","Oranges","Broccoli"],
+    tip:"Vitamin C is destroyed by heat — eat raw when possible. Smokers need an extra 35 mg/day."},
+];
+
+const timings=[
+  {time:"Early Morning",icon:"🌅",color:"linear-gradient(135deg,#f57f17,#ff8f00)",
+    foods:["Warm lemon water","Soaked almonds","Banana","Green tea","2–3 dates"],tip:"Hydrate before eating. Kickstart metabolism with warm lemon water."},
+  {time:"Breakfast (8–10 AM)",icon:"🍳",color:"linear-gradient(135deg,#2e7d32,#43a047)",
+    foods:["Oats with berries","Boiled eggs","Greek yogurt","Whole grain toast","Fresh fruit"],tip:"Protein + complex carbs for sustained 4–5 hour energy without crash."},
+  {time:"Mid-Morning",icon:"🍎",color:"linear-gradient(135deg,#0277bd,#0288d1)",
+    foods:["Apple or pear","Handful of nuts","Carrot sticks + hummus","Yogurt"],tip:"Light snack (150–200 cal) prevents overeating at lunch."},
+  {time:"Lunch (12–2 PM)",icon:"🍱",color:"linear-gradient(135deg,#00796b,#00897b)",
+    foods:["Brown rice + lentils","Quinoa salad","Lean protein + vegetables","Soup + bread"],tip:"Largest meal of the day. Include all macros — protein, carbs, fiber and fats."},
+  {time:"Evening Snack",icon:"🫖",color:"linear-gradient(135deg,#6a1b9a,#7b1fa2)",
+    foods:["Roasted chickpeas","Green tea + nuts","Fruit + nut butter","Sprout salad"],tip:"Keep it to 150–200 calories to preserve dinner appetite."},
+  {time:"Dinner (7–9 PM)",icon:"🌙",color:"linear-gradient(135deg,#1a237e,#283593)",
+    foods:["Vegetable soup","Light dal + roti","Stir-fried veggies + tofu","Grilled fish"],tip:"Keep dinner light. Finish 2–3 hours before bedtime for good digestion."},
+  {time:"Pre-Workout",icon:"💪",color:"linear-gradient(135deg,#b71c1c,#c62828)",
+    foods:["Banana + almond butter","Oats with honey","Dates + coffee","Toast + peanut butter"],tip:"Eat 30–60 min before. Carbs for fuel, small protein dose to protect muscle."},
+  {time:"Post-Workout",icon:"🏋️",color:"linear-gradient(135deg,#4a148c,#6a1b9a)",
+    foods:["Protein shake","Eggs + toast","Greek yogurt + fruit","Chicken + sweet potato"],tip:"Eat within 45 min. Target 20–30g protein for optimal muscle repair."},
+];
+
+const ages=[
+  {group:"Infants (0–1 yr)",icon:"👶",color:"linear-gradient(135deg,#e91e63,#f06292)",
+    foods:["Breast milk","Formula","Pureed sweet potato","Mashed banana","Iron-fortified cereal"],note:"Breast milk is optimal. Introduce solids at 6 months. No honey under 1 year."},
+  {group:"Toddlers (1–3 yr)",icon:"🧒",color:"linear-gradient(135deg,#ff5722,#ff7043)",
+    foods:["Full-fat dairy","Soft fruits","Cooked eggs","Avocado","Whole grain bread"],note:"Small frequent meals. Avoid added salt/sugar. Critical brain development phase."},
+  {group:"Children (4–12 yr)",icon:"👦",color:"linear-gradient(135deg,#ff9800,#ffa726)",
+    foods:["Milk & dairy","Eggs","Fruits & vegetables","Whole grains","Lean meat","Legumes"],note:"Essential for bone and brain development. Ensure calcium and iron daily."},
+  {group:"Teenagers (13–18 yr)",icon:"🧑",color:"linear-gradient(135deg,#4caf50,#66bb6a)",
+    foods:["Iron-rich foods","Calcium sources","High protein","Zinc sources","Omega-3","Folate"],note:"Growth spurts need more iron (especially girls), calcium, and zinc."},
+  {group:"Adults (19–50 yr)",icon:"👨",color:"linear-gradient(135deg,#2196f3,#42a5f5)",
+    foods:["Balanced protein","Complex carbs","Healthy fats","Probiotics","Antioxidants","Fiber"],note:"Focus on healthy weight, gut health, stress management and disease prevention."},
+  {group:"Seniors (50+ yr)",icon:"👴",color:"linear-gradient(135deg,#9c27b0,#ab47bc)",
+    foods:["Calcium + Vitamin D","Omega-3 fish","Lean protein","High fiber","B12 sources"],note:"Bone and muscle mass declines. Choose nutrient-dense foods at every meal."},
+  {group:"Pregnant Women",icon:"🤰",color:"linear-gradient(135deg,#e91e63,#e57373)",
+    foods:["Folate (leafy greens)","Iron-rich foods","Calcium","DHA-rich fish","Lean protein"],note:"Folate critical in first trimester. Avoid alcohol, raw fish, unpasteurised dairy."},
+  {group:"Athletes",icon:"🏃",color:"linear-gradient(135deg,#009688,#26a69a)",
+    foods:["High protein foods","Complex carbs","Electrolytes","Magnesium","Iron-rich foods"],note:"Higher caloric and protein needs. Recovery nutrition and hydration are critical."},
+];
+
+const dailyIntake={
+  macro:[
+    {name:"Protein",icon:"🥩",unit:"g/day",color:"#4caf50",
+      ranges:[
+        {group:"Children (4-8 yr)",min:19,max:19},
+        {group:"Children (9-13 yr)",min:34,max:34},
+        {group:"Teens (14-18) Male",min:52,max:52},
+        {group:"Teens (14-18) Female",min:46,max:46},
+        {group:"Adult Male (19-70+)",min:56,max:91},
+        {group:"Adult Female (19-70+)",min:46,max:75},
+        {group:"Pregnant Women",min:71,max:71},
+        {group:"Breastfeeding",min:71,max:71},
+        {group:"Athletes",min:84,max:140}
+      ],
+      notes:"Higher intake for athletes (1.4–2g/kg body weight). Plant proteins need variety for complete amino acid profile."},
+    {name:"Carbohydrates",icon:"🍚",unit:"g/day",color:"#ff9800",
+      ranges:[
+        {group:"Children (4-8 yr)",min:130,max:130},
+        {group:"Children (9-13 yr)",min:130,max:130},
+        {group:"Teens (14-18)",min:130,max:130},
+        {group:"Adult (19-70+)",min:130,max:130},
+        {group:"Pregnant Women",min:175,max:175},
+        {group:"Breastfeeding",min:210,max:210},
+        {group:"Active Adults",min:225,max:325},
+        {group:"Athletes",min:300,max:500}
+      ],
+      notes:"Focus on complex carbs from whole grains, fruits, vegetables. Limit added sugars to <10% of daily calories."},
+    {name:"Fat (Total)",icon:"🥑",unit:"g/day",color:"#2196f3",
+      ranges:[
+        {group:"Children (4-8 yr)",min:25,max:35},
+        {group:"Children (9-13 yr)",min:25,max:35},
+        {group:"Teens (14-18)",min:25,max:35},
+        {group:"Adult (19-70+)",min:44,max:78},
+        {group:"Pregnant Women",min:44,max:78},
+        {group:"Athletes",min:65,max:105}
+      ],
+      notes:"Focus on unsaturated fats. Limit saturated fat to <10% of calories. Avoid trans fats entirely. Omega-3 essential."},
+    {name:"Fiber",icon:"🌾",unit:"g/day",color:"#795548",
+      ranges:[
+        {group:"Children (4-8 yr)",min:25,max:25},
+        {group:"Children (9-13 yr)",min:26,max:31},
+        {group:"Teens (14-18) Male",min:38,max:38},
+        {group:"Teens (14-18) Female",min:26,max:26},
+        {group:"Adult Male (19-50)",min:38,max:38},
+        {group:"Adult Female (19-50)",min:25,max:25},
+        {group:"Adult Male (51+)",min:30,max:30},
+        {group:"Adult Female (51+)",min:21,max:21},
+        {group:"Pregnant Women",min:28,max:28}
+      ],
+      notes:"Most people consume only 15g/day. Increase gradually to avoid digestive discomfort. Drink plenty of water."},
+    {name:"Water",icon:"💧",unit:"L/day",color:"#03a9f4",
+      ranges:[
+        {group:"Children (4-8 yr)",min:1.7,max:1.7},
+        {group:"Children (9-13 yr)",min:2.4,max:2.4},
+        {group:"Teens (14-18) Male",min:3.3,max:3.3},
+        {group:"Teens (14-18) Female",min:2.3,max:2.3},
+        {group:"Adult Male (19+)",min:3.7,max:3.7},
+        {group:"Adult Female (19+)",min:2.7,max:2.7},
+        {group:"Pregnant Women",min:3.0,max:3.0},
+        {group:"Breastfeeding",min:3.8,max:3.8},
+        {group:"Athletes",min:4.5,max:7.0}
+      ],
+      notes:"Includes all fluids from beverages and food. Increase during exercise, hot weather, illness, or breastfeeding."}
+  ],
+  vitamins:[
+    {name:"Vitamin A",icon:"🥕",unit:"mcg/day",color:"#ff9800",
+      ranges:[
+        {group:"Children (4-8 yr)",min:400,max:400},
+        {group:"Children (9-13 yr)",min:600,max:600},
+        {group:"Teens (14-18) Male",min:900,max:900},
+        {group:"Teens (14-18) Female",min:700,max:700},
+        {group:"Adult Male (19+)",min:900,max:900},
+        {group:"Adult Female (19+)",min:700,max:700},
+        {group:"Pregnant Women",min:770,max:770},
+        {group:"Breastfeeding",min:1300,max:1300}
+      ],
+      notes:"Essential for vision, immune function, skin health. Beta-carotene from plants converts to Vitamin A. Upper limit: 3000 mcg/day."},
+    {name:"Vitamin C",icon:"🍊",unit:"mg/day",color:"#ff5722",
+      ranges:[
+        {group:"Children (4-8 yr)",min:25,max:25},
+        {group:"Children (9-13 yr)",min:45,max:45},
+        {group:"Teens (14-18) Male",min:75,max:75},
+        {group:"Teens (14-18) Female",min:65,max:65},
+        {group:"Adult Male (19+)",min:90,max:90},
+        {group:"Adult Female (19+)",min:75,max:75},
+        {group:"Pregnant Women",min:85,max:85},
+        {group:"Breastfeeding",min:120,max:120},
+        {group:"Smokers",min:125,max:125}
+      ],
+      notes:"Powerful antioxidant. Enhances iron absorption. Destroyed by heat — eat raw when possible. Water-soluble, excess excreted."},
+    {name:"Vitamin D",icon:"☀️",unit:"mcg/day",color:"#ffc107",
+      ranges:[
+        {group:"Children (1-13 yr)",min:15,max:15},
+        {group:"Teens (14-18)",min:15,max:15},
+        {group:"Adult (19-70)",min:15,max:15},
+        {group:"Adult (71+)",min:20,max:20},
+        {group:"Pregnant/Breastfeeding",min:15,max:15}
+      ],
+      notes:"Critical for calcium absorption and bone health. 15 min sun exposure daily = ~15 mcg. Dark skin needs more sun. Upper limit: 100 mcg/day."},
+    {name:"Vitamin E",icon:"🌰",unit:"mg/day",color:"#8bc34a",
+      ranges:[
+        {group:"Children (4-8 yr)",min:7,max:7},
+        {group:"Children (9-13 yr)",min:11,max:11},
+        {group:"Teens (14-18)",min:15,max:15},
+        {group:"Adult (19+)",min:15,max:15},
+        {group:"Pregnant Women",min:15,max:15},
+        {group:"Breastfeeding",min:19,max:19}
+      ],
+      notes:"Antioxidant protecting cells from damage. Found in nuts, seeds, vegetable oils. Fat-soluble — take with meals. Upper limit: 1000 mg/day."},
+    {name:"Vitamin K",icon:"🥬",unit:"mcg/day",color:"#4caf50",
+      ranges:[
+        {group:"Children (4-8 yr)",min:55,max:55},
+        {group:"Children (9-13 yr)",min:60,max:60},
+        {group:"Teens (14-18)",min:75,max:75},
+        {group:"Adult Male (19+)",min:120,max:120},
+        {group:"Adult Female (19+)",min:90,max:90},
+        {group:"Pregnant/Breastfeeding",min:90,max:90}
+      ],
+      notes:"Essential for blood clotting and bone health. K1 in leafy greens, K2 in fermented foods. Check with doctor if on blood thinners."},
+    {name:"B12 (Cobalamin)",icon:"🧠",unit:"mcg/day",color:"#2196f3",
+      ranges:[
+        {group:"Children (4-8 yr)",min:1.2,max:1.2},
+        {group:"Children (9-13 yr)",min:1.8,max:1.8},
+        {group:"Teens (14-18)",min:2.4,max:2.4},
+        {group:"Adult (19+)",min:2.4,max:2.4},
+        {group:"Pregnant Women",min:2.6,max:2.6},
+        {group:"Breastfeeding",min:2.8,max:2.8},
+        {group:"Adults 50+",min:25,max:100}
+      ],
+      notes:"Only found in animal products. Vegans must supplement. Absorption decreases with age. Critical for nerve function and DNA synthesis."},
+    {name:"Folate (B9)",icon:"🥬",unit:"mcg/day",color:"#66bb6a",
+      ranges:[
+        {group:"Children (4-8 yr)",min:200,max:200},
+        {group:"Children (9-13 yr)",min:300,max:300},
+        {group:"Teens (14-18)",min:400,max:400},
+        {group:"Adult (19+)",min:400,max:400},
+        {group:"Pregnant Women",min:600,max:600},
+        {group:"Breastfeeding",min:500,max:500}
+      ],
+      notes:"Critical in first trimester of pregnancy to prevent neural tube defects. Found in leafy greens, legumes, fortified grains."}
+  ],
+  minerals:[
+    {name:"Calcium",icon:"🦴",unit:"mg/day",color:"#00796b",
+      ranges:[
+        {group:"Children (4-8 yr)",min:1000,max:1000},
+        {group:"Children (9-13 yr)",min:1300,max:1300},
+        {group:"Teens (14-18)",min:1300,max:1300},
+        {group:"Adult (19-50)",min:1000,max:1000},
+        {group:"Adult Male (51-70)",min:1000,max:1000},
+        {group:"Adult Female (51+)",min:1200,max:1200},
+        {group:"Adult Male (71+)",min:1200,max:1200},
+        {group:"Pregnant/Breastfeeding (14-18)",min:1300,max:1300},
+        {group:"Pregnant/Breastfeeding (19+)",min:1000,max:1000}
+      ],
+      notes:"Essential for bone health. Needs Vitamin D to absorb. Excess sodium and caffeine increase calcium loss. Upper limit: 2500 mg/day."},
+    {name:"Iron",icon:"🩸",unit:"mg/day",color:"#c62828",
+      ranges:[
+        {group:"Children (4-8 yr)",min:10,max:10},
+        {group:"Children (9-13 yr)",min:8,max:8},
+        {group:"Teens (14-18) Male",min:11,max:11},
+        {group:"Teens (14-18) Female",min:15,max:15},
+        {group:"Adult Male (19+)",min:8,max:8},
+        {group:"Adult Female (19-50)",min:18,max:18},
+        {group:"Adult Female (51+)",min:8,max:8},
+        {group:"Pregnant Women",min:27,max:27},
+        {group:"Breastfeeding",min:9,max:10}
+      ],
+      notes:"Women need more due to menstruation. Heme iron (animal) absorbs better than non-heme (plant). Pair plant iron with Vitamin C."},
+    {name:"Magnesium",icon:"⚡",unit:"mg/day",color:"#6a1b9a",
+      ranges:[
+        {group:"Children (4-8 yr)",min:130,max:130},
+        {group:"Children (9-13 yr)",min:240,max:240},
+        {group:"Teens (14-18) Male",min:410,max:410},
+        {group:"Teens (14-18) Female",min:360,max:360},
+        {group:"Adult Male (19-30)",min:400,max:400},
+        {group:"Adult Male (31+)",min:420,max:420},
+        {group:"Adult Female (19-30)",min:310,max:310},
+        {group:"Adult Female (31+)",min:320,max:320},
+        {group:"Pregnant Women",min:350,max:400},
+        {group:"Breastfeeding",min:310,max:360}
+      ],
+      notes:"Involved in 300+ enzyme reactions. Stress, alcohol, and refined sugar deplete it. Most people are deficient. Consider supplementation."},
+    {name:"Zinc",icon:"🛡️",unit:"mg/day",color:"#558b2f",
+      ranges:[
+        {group:"Children (4-8 yr)",min:5,max:5},
+        {group:"Children (9-13 yr)",min:8,max:8},
+        {group:"Teens (14-18) Male",min:11,max:11},
+        {group:"Teens (14-18) Female",min:9,max:9},
+        {group:"Adult Male (19+)",min:11,max:11},
+        {group:"Adult Female (19+)",min:8,max:8},
+        {group:"Pregnant Women",min:11,max:11},
+        {group:"Breastfeeding",min:12,max:12}
+      ],
+      notes:"Essential for immune function and wound healing. Animal sources absorb better. Phytic acid in grains blocks absorption — soak them."},
+    {name:"Potassium",icon:"🍌",unit:"mg/day",color:"#fbc02d",
+      ranges:[
+        {group:"Children (4-8 yr)",min:2300,max:2300},
+        {group:"Children (9-13 yr)",min:2500,max:2500},
+        {group:"Teens (14-18)",min:3000,max:3000},
+        {group:"Adult (19+)",min:3400,max:3400},
+        {group:"Pregnant Women",min:2900,max:2900},
+        {group:"Breastfeeding",min:2800,max:2800}
+      ],
+      notes:"Regulates blood pressure and muscle function. Most people get only 2300 mg/day. Found in bananas, potatoes, spinach, beans."},
+    {name:"Sodium",icon:"🧂",unit:"mg/day",color:"#90a4ae",
+      ranges:[
+        {group:"Children (4-8 yr)",min:1000,max:1500},
+        {group:"Children (9-13 yr)",min:1200,max:1800},
+        {group:"Teens & Adults (14+)",min:1500,max:2300}
+      ],
+      notes:"Maximum 2300 mg/day (1 tsp salt). Average intake is 3400 mg/day. High sodium increases blood pressure and calcium loss."},
+    {name:"Iodine",icon:"🌊",unit:"mcg/day",color:"#0277bd",
+      ranges:[
+        {group:"Children (4-8 yr)",min:90,max:90},
+        {group:"Children (9-13 yr)",min:120,max:120},
+        {group:"Teens (14-18)",min:150,max:150},
+        {group:"Adult (19+)",min:150,max:150},
+        {group:"Pregnant Women",min:220,max:220},
+        {group:"Breastfeeding",min:290,max:290}
+      ],
+      notes:"Essential for thyroid function. Found in iodized salt, seafood, dairy. Deficiency causes goiter. Upper limit: 1100 mcg/day."},
+    {name:"Selenium",icon:"🌰",unit:"mcg/day",color:"#f57c00",
+      ranges:[
+        {group:"Children (4-8 yr)",min:30,max:30},
+        {group:"Children (9-13 yr)",min:40,max:40},
+        {group:"Teens (14-18)",min:55,max:55},
+        {group:"Adult (19+)",min:55,max:55},
+        {group:"Pregnant Women",min:60,max:60},
+        {group:"Breastfeeding",min:70,max:70}
+      ],
+      notes:"Powerful antioxidant. Supports thyroid health. Brazil nuts are richest source (1-2 nuts = daily requirement). Upper limit: 400 mcg/day."}
+  ]
+};
+
+// ══ SECTION ID MAP for search navigation ══
+
+    /* ---------- renderers ---------- */
+    const esc = t => String(t == null ? "" : t).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+    let foodCat = "all", foodQ = "";
+    function renderFoods() {
+      const grid = document.getElementById("foodGrid");
+      const items = foods.filter(f =>
+        (foodCat === "all" || f.cat === foodCat) &&
+        (!foodQ || (f.name + " " + f.vit).toLowerCase().includes(foodQ)));
+      if (!items.length) { grid.innerHTML = '<p style="grid-column:1/-1;color:var(--muted);">No foods match.</p>'; return; }
+      grid.innerHTML = items.map(f => {
+        const maxRef = { p: 30, c: 70, f: 35, fi: 12 };
+        const bar = (label, val, key, color) =>
+          '<div class="macro-row"><span>' + label + '</span><span>' + val + 'g</span></div>' +
+          '<div class="macro-bar"><i style="width:' + Math.min(100, val / maxRef[key] * 100) + '%;background:' + color + ';"></i></div>';
+        return '<div class="food-card">' +
+          '<h3>' + f.emoji + ' ' + esc(f.name) + '</h3>' +
+          '<span class="food-cal">' + f.cal + ' kcal / 100g</span>' +
+          '<div class="macro">' +
+            bar("Protein", f.p, "p", "#4ade80") + bar("Carbs", f.c, "c", "#60a5fa") +
+            bar("Fat", f.f, "f", "#fbbf24") + bar("Fibre", f.fi, "fi", "#c084fc") +
+          '</div>' +
+          '<p class="food-vit">✨ ' + esc(f.vit) + '</p>' +
+        '</div>';
+      }).join("");
+    }
+    document.getElementById("foodSearch").addEventListener("input", e => { foodQ = e.target.value.trim().toLowerCase(); renderFoods(); });
+    document.getElementById("foodFilters").addEventListener("click", e => {
+      if (!e.target.dataset.cat) return;
+      foodCat = e.target.dataset.cat;
+      document.querySelectorAll("#foodFilters .filter-button").forEach(b => b.classList.toggle("active", b === e.target));
+      renderFoods();
+    });
+
+    function renderIntake() {
+      const wrap = document.getElementById("intakeWrap");
+      const groups = [["macro", "Macronutrients"], ["vitamins", "Vitamins"], ["minerals", "Minerals"]];
+      wrap.innerHTML = groups.map(([key, label]) => {
+        const list = dailyIntake[key] || [];
+        if (!list.length) return "";
+        return '<h3 style="margin:26px 0 12px;">' + label + '</h3>' + list.map(n =>
+          '<div class="qa"><h3>' + (n.icon || "") + ' ' + esc(n.name) + ' <span style="color:var(--muted);font-size:12px;font-weight:400;">(' + esc(n.unit) + ')</span></h3>' +
+          '<div class="table-wrap"><table class="intake-table"><tr><th>Group</th><th>Recommended</th></tr>' +
+          n.ranges.map(r => '<tr><td>' + esc(r.group) + '</td><td>' + (r.min === r.max ? r.min : r.min + "–" + r.max) + '</td></tr>').join("") +
+          '</table></div>' + (n.note ? '<div class="tip">💡 ' + esc(n.note) + '</div>' : '') + '</div>').join("");
+      }).join("");
+    }
+
+    function renderDefs() {
+      document.getElementById("defWrap").innerHTML = deficiencies.map(d =>
+        '<div class="qa"><h3>' + (d.icon || "💊") + ' ' + esc(d.def) + '</h3>' +
+        '<p class="sym">Signs: ' + esc(d.sym) + '</p>' +
+        '<div class="pill-row">' + d.foods.map(f => '<span class="pill">' + esc(f) + '</span>').join("") + '</div>' +
+        (d.tip ? '<div class="tip">💡 ' + esc(d.tip) + '</div>' : "") + '</div>').join("");
+    }
+
+    function renderTimes() {
+      document.getElementById("timeWrap").innerHTML = timings.map(t =>
+        '<div class="qa"><h3>' + (t.icon || "⏰") + ' ' + esc(t.time) + '</h3>' +
+        '<div class="pill-row">' + t.foods.map(f => '<span class="pill">' + esc(f) + '</span>').join("") + '</div>' +
+        (t.tip ? '<div class="tip">💡 ' + esc(t.tip) + '</div>' : "") + '</div>').join("");
+    }
+
+    function renderAges() {
+      document.getElementById("ageWrap").innerHTML = ages.map(a =>
+        '<div class="qa"><h3>' + (a.icon || "👤") + ' ' + esc(a.group) + '</h3>' +
+        '<div class="pill-row">' + a.foods.map(f => '<span class="pill">' + esc(f) + '</span>').join("") + '</div>' +
+        (a.note ? '<div class="tip">💡 ' + esc(a.note) + '</div>' : "") + '</div>').join("");
+    }
+
+    function renderRegions() {
+      document.getElementById("regWrap").innerHTML = regions.map(r =>
+        '<div class="qa"><h3>' + esc(r.name) + '</h3>' +
+        r.foods.map(f => '<p><strong style="color:#e2e8f0;">' + (f.emoji || "") + ' ' + esc(f.name) + ':</strong> ' + esc(f.desc) + '</p>').join("") +
+        '</div>').join("");
+    }
+
+    /* tabs */
+    const tabs = document.querySelectorAll(".learn-tab");
+    function activate(name, push) {
+      tabs.forEach(t => t.classList.toggle("active", t.dataset.tab === name));
+      document.querySelectorAll(".n-section").forEach(s => s.classList.toggle("active", s.id === "tab-" + name));
+      if (push) { const u = new URL(location.href); u.searchParams.set("tab", name); history.replaceState({}, "", u); }
+    }
+    tabs.forEach(t => t.addEventListener("click", () => activate(t.dataset.tab, true)));
+    const startTab = new URLSearchParams(location.search).get("tab");
+    if (startTab && document.getElementById("tab-" + startTab)) activate(startTab, false);
+
+    renderFoods(); renderIntake(); renderDefs(); renderTimes(); renderAges(); renderRegions();
+  </script>
+</body>
+</html>
