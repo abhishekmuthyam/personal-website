@@ -109,15 +109,6 @@
     </div>
   </div>
 
-  <section style="margin: 10px auto 0;" id="mpBannerWrap">
-    <div class="mp-banner">
-      <div>
-        <h2>🍽️ Complete Daily Meal Plan</h2>
-        <p>Wake-up to bedtime timing chart with veg &amp; non-veg options — built for strength and focus.</p>
-      </div>
-      <a class="button primary" href="/nutrition/meal-plan/">Open Meal Plan</a>
-    </div>
-  </section>
 
   <section class="n-section active" id="tab-myneeds">
     <h2>Your daily nutrition needs</h2>
@@ -763,7 +754,6 @@ const dailyIntake={
     function activate(name, push) {
       tabs.forEach(t => t.classList.toggle("active", t.dataset.tab === name));
       document.querySelectorAll(".n-section").forEach(s => s.classList.toggle("active", s.id === "tab-" + name));
-      document.getElementById("mpBannerWrap").style.display = name === "myneeds" ? "" : "none";
       if (push) { const u = new URL(location.href); u.searchParams.set("tab", name); history.replaceState({}, "", u); }
     }
     tabs.forEach(t => t.addEventListener("click", () => activate(t.dataset.tab, true)));
