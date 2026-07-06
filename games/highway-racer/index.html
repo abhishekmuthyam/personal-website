@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Highway Racer</title>
+  <meta name="description" content="Pseudo-3D highway racing — steer through curves, overtake traffic, survive the road.">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: #0b0b0f; color: #f8fafc; min-height: 100vh; text-align: center; }
+    header { padding: 18px 20px; display: flex; justify-content: space-between; max-width: 900px; margin: 0 auto; }
+    header a { color: #a5b4fc; text-decoration: none; font-weight: 600; font-size: 14px; }
+    h1 { font-size: 26px; margin: 4px 0 6px; }
+    .tag { color: #94a3b8; font-size: 14px; margin: 0 0 18px; }
+    .game-shell { max-width: 560px; margin: 0 auto 30px; padding: 0 14px; }
+    .panel { background: #15151d; border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 16px; box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
+    .hud { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 12px; font-weight: 700; font-size: 13px; color: #94a3b8; }
+    .hud b { color: #fff; font-size: 17px; display: block; }
+    canvas { width: 100%; border-radius: 12px; display: block; touch-action: none; }
+    button { border: none; border-radius: 10px; background: #dc2626; color: white; cursor: pointer; font-weight: 700; font-family: inherit; padding: 12px 20px; font-size: 15px; }
+    button:active { transform: scale(0.97); }
+    #msg { min-height: 22px; font-weight: 700; margin: 12px 0 4px; }
+    .steer-row { display: flex; gap: 10px; margin-top: 12px; }
+    .steer-row button { flex: 1; background: #1f2937; font-size: 22px; padding: 14px; }
+    .lb { max-width: 560px; margin: 0 auto 40px; padding: 0 14px; text-align: left; }
+    .lb h2 { font-size: 16px; text-align: center; }
+    .lb ol { list-style: none; padding: 0; margin: 0; }
+    .lb li { display: flex; justify-content: space-between; padding: 7px 4px; border-bottom: 1px solid rgba(255,255,255,0.07); color: #cbd5e1; font-size: 14px; }
+    .lb li span:last-child { font-weight: 700; color: #fff; }
+    .lb-note { color: #64748b; font-size: 12px; text-align: center; margin-top: 8px; }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/games">&larr; Games</a>
+  <a href="/">Home</a>
+</header>
+<div class="game-shell">
+  <h1>🏎️ Highway Racer</h1>
+  <p class="tag">Steer through the curves, overtake traffic — three crashes and the race is over</p>
+  <div class="panel">
+    <div class="hud">
+      <span>Speed<b id="speed">0</b></span>
+      <span>Distance<b id="dist">0.0 km</b></span>
+      <span>Crashes<b id="crashes">0 / 3</b></span>
+      <span>Best<b id="best">0</b></span>
+    </div>
+    <canvas id="cv" width="480" height="360"></canvas>
+    <p id="msg">Arrow keys to steer (↓ brakes) — or hold the buttons</p>
+    <button onclick="start()">Start Race</button>
+    <div class="steer-row">
+      <button id="btnL">⬅️</button>
+      <button id="btnR">➡️</button>
+    </div>
+  </div>
+</div>
+<div class="lb">
+  <h2>🌍 Global Top 10</h2>
+  <ol id="lbList"><li><span>Loading...</span><span></span></li></ol>
+  <p class="lb-note" id="lbNote"></p>
+</div>
+<script>
+const LEADERBOARD_URL = "https://zsxujdnvqodtnhxwxbvbucsp7q0gqpbg.lambda-url.ap-south-1.on.aws/";
+const GAME_ID = "highway-racer";
+async function loadLeaderboard() {
+  const list = document.getElementById("lbList");
+  try {
+    const res = await fetch(LEADERBOARD_URL + "?game=" + GAME_ID);
+    const data = await res.json();
+    if (!data.top || !data.top.length) { list.innerHTML = "<li><span>No scores yet — be the first!</span><span></span></li>"; return; }
+    list.innerHTML = data.top.map((e, i) => {
+      const n = e.name.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+      return "<li><span>" + (i+1) + ". " + n + "</span><span>" + (e.score/10).toFixed(1) + " km</span></li>";
+    }).join("");
+  } catch { list.innerHTML = "<li><span>Leaderboard unavailable</span><span></span></li>"; }
+}
+async function submitScore(score) {
+  if (score <= 0) return;
+  let playerName = localStorage.getItem("playerName");
+  if (!playerName) {
+    playerName = (prompt("Enter your name for the global leaderboard:") || "").trim().slice(0, 20);
+    if (!playerName) return;
+    localStorage.setItem("playerName", playerName);
+  }
+  try {
+    await fetch(LEADERBOARD_URL, { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ game: GAME_ID, name: playerName, score }) });
+    document.getElementById("lbNote").innerText = "Score submitted as " + playerName + "!";
+    loadLeaderboard();
+  } catch { document.getElementById("lbNote").innerText = "Could not submit score"; }
+}
+loadLeaderboard();
+
+/* ================= pseudo-3D racer ================= */
+const cv = document.getElementById("cv"), ctx = cv.getContext("2d");
+const W = 480, H = 360, CX = W / 2;
+const SEG_LEN = 200, ROAD_W = 1000, CAM_H = 1000, CAM_D = 0.84, DRAW_N = 70;
+const MAX_SPEED = 210, ACCEL = 0.9, CENTRIFUGAL = 0.32;
+
+let segments = [], trackLen = 0;
+let position, speed, playerX, distance, crashes, running = false, raf, flash = 0;
+let steer = 0, braking = false;
+let cars = [];
+let best = Number(localStorage.getItem("bestRacer")) || 0;
+document.getElementById("best").innerText = (best / 10).toFixed(1) + " km";
+
+function buildTrack() {
+  segments = [];
+  const pattern = [
+    [60, 0], [70, 2], [50, 0], [80, -3], [60, 0], [40, 4], [90, -2],
+    [50, 0], [70, 3], [60, -4], [80, 0], [40, 2], [60, -2], [70, 0]
+  ];
+  pattern.forEach(([count, curve]) => {
+    for (let i = 0; i < count; i++) {
+      // ease curves in and out
+      const t = i / count;
+      const ease = t < 0.25 ? t / 0.25 : t > 0.75 ? (1 - t) / 0.25 : 1;
+      segments.push({ curve: curve * ease });
+    }
+  });
+  trackLen = segments.length * SEG_LEN;
+}
+
+function spawnCars() {
+  cars = [];
+  for (let i = 0; i < 14; i++) {
+    cars.push({
+      z: Math.random() * trackLen,
+      offset: (Math.random() * 1.4) - 0.7,
+      speed: MAX_SPEED * (0.25 + Math.random() * 0.3),
+      color: ["#3b82f6", "#f59e0b", "#10b981", "#8b5cf6", "#e11d48"][i % 5]
+    });
+  }
+}
+
+function start() {
+  if (running) return;
+  buildTrack(); spawnCars();
+  position = 0; speed = 0; playerX = 0; distance = 0; crashes = 0; flash = 0;
+  document.getElementById("msg").innerText = "";
+  hud();
+  running = true;
+  loop();
+}
+
+function hud() {
+  document.getElementById("speed").innerText = Math.round(speed * 1.1) + " km/h";
+  document.getElementById("dist").innerText = (distance / 10000).toFixed(1) + " km";
+  document.getElementById("crashes").innerText = crashes + " / 3";
+}
+
+function segAt(z) {
+  return segments[Math.floor(z / SEG_LEN) % segments.length];
+}
+
+function update() {
+  speed += braking ? -ACCEL * 4 : ACCEL;
+  speed = Math.max(0, Math.min(MAX_SPEED, speed));
+  position = (position + speed) % trackLen;
+  distance += speed;
+
+  const ratio = speed / MAX_SPEED;
+  playerX += steer * 0.028 * (0.4 + ratio);
+  playerX -= segAt(position).curve * ratio * CENTRIFUGAL * 0.014;
+
+  // off-road
+  if (Math.abs(playerX) > 1) {
+    speed = Math.max(speed - ACCEL * 6, MAX_SPEED * 0.25);
+    playerX = Math.max(-1.4, Math.min(1.4, playerX));
+  }
+
+  // traffic
+  cars.forEach(car => {
+    car.z = (car.z + car.speed) % trackLen;
+    let dz = car.z - position;
+    if (dz < -trackLen / 2) dz += trackLen;
+    if (dz > 0 && dz < SEG_LEN * 1.6 && Math.abs(car.offset - playerX) < 0.34 && speed > car.speed) {
+      crashes++; flash = 14;
+      speed = MAX_SPEED * 0.15;
+      car.z = (car.z + SEG_LEN * 22) % trackLen;
+      if (crashes >= 3) { end(); return; }
+    }
+  });
+  hud();
+}
+
+function project(worldX, z) {
+  const scale = CAM_D / (z / SEG_LEN * SEG_LEN);
+  return {
+    x: CX + scale * (worldX - playerX * ROAD_W) * CX,
+    y: H * 0.42 + scale * CAM_H * H * 0.55,
+    w: scale * ROAD_W * CX,
+    scale
+  };
+}
+
+function drawCarSprite(x, y, w, color) {
+  const h = w * 0.42;
+  if (w < 3) return;
+  ctx.fillStyle = "rgba(0,0,0,0.35)";
+  ctx.beginPath(); ctx.ellipse(x, y + h * 0.08, w * 0.55, h * 0.16, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = color;
+  ctx.beginPath(); ctx.roundRect(x - w / 2, y - h, w, h, w * 0.12); ctx.fill();
+  ctx.fillStyle = "rgba(255,255,255,0.35)";
+  ctx.beginPath(); ctx.roundRect(x - w * 0.32, y - h * 0.92, w * 0.64, h * 0.35, w * 0.08); ctx.fill();
+  ctx.fillStyle = "#111";
+  ctx.fillRect(x - w * 0.48, y - h * 0.18, w * 0.2, h * 0.18);
+  ctx.fillRect(x + w * 0.28, y - h * 0.18, w * 0.2, h * 0.18);
+}
+
+function draw() {
+  // sky
+  const sky = ctx.createLinearGradient(0, 0, 0, H * 0.45);
+  sky.addColorStop(0, "#0c1e3d"); sky.addColorStop(1, "#f97316");
+  ctx.fillStyle = sky; ctx.fillRect(0, 0, W, H * 0.45);
+  ctx.fillStyle = "#fbbf24";
+  ctx.beginPath(); ctx.arc(CX + 120, H * 0.38, 26, 0, Math.PI * 2); ctx.fill();
+  // ground
+  ctx.fillStyle = "#14351f"; ctx.fillRect(0, H * 0.42, W, H * 0.58);
+
+  const baseIdx = Math.floor(position / SEG_LEN);
+  let worldX = 0, dx = -(segAt(position).curve) * ((position % SEG_LEN) / SEG_LEN);
+  let prev = project(worldX, SEG_LEN - (position % SEG_LEN));
+  let maxY = H;
+  const carDraws = [];
+
+  for (let n = 1; n < DRAW_N; n++) {
+    const seg = segments[(baseIdx + n) % segments.length];
+    worldX += dx * SEG_LEN;
+    dx += seg.curve;
+    const z = n * SEG_LEN - (position % SEG_LEN) + SEG_LEN;
+    const cur = project(worldX, z);
+
+    if (cur.y < maxY && cur.y < prev.y) {
+      const light = ((baseIdx + n) % 6) < 3;
+      // grass
+      ctx.fillStyle = light ? "#1a4527" : "#14351f";
+      ctx.fillRect(0, cur.y, W, prev.y - cur.y + 1);
+      // rumble
+      ctx.fillStyle = light ? "#dc2626" : "#f8fafc";
+      drawQuad(prev.x, prev.y, prev.w * 1.12, cur.x, cur.y, cur.w * 1.12);
+      // road
+      ctx.fillStyle = light ? "#3f3f46" : "#38383f";
+      drawQuad(prev.x, prev.y, prev.w, cur.x, cur.y, cur.w);
+      // lane line
+      if (light) {
+        ctx.fillStyle = "#e2e8f0";
+        drawQuad(prev.x, prev.y, prev.w * 0.012, cur.x, cur.y, cur.w * 0.012);
+      }
+      maxY = cur.y;
+    }
+
+    // traffic in this segment
+    cars.forEach(car => {
+      let dz = car.z - position;
+      if (dz < 0) dz += trackLen;
+      if (Math.floor(dz / SEG_LEN) === n) {
+        carDraws.push({ x: cur.x + car.offset * cur.w, y: cur.y, w: cur.w * 0.24, color: car.color, z: dz });
+      }
+    });
+    prev = cur;
+  }
+
+  // draw traffic far-to-near
+  carDraws.sort((a, b) => b.z - a.z).forEach(c => drawCarSprite(c.x, c.y, c.w, c.color));
+
+  // player car
+  const bounce = speed > 10 ? Math.sin(Date.now() / 40) * 1.2 : 0;
+  drawCarSprite(CX + steer * 6, H - 22 + bounce, 78, "#ef4444");
+
+  if (flash > 0) {
+    ctx.fillStyle = "rgba(239,68,68," + (flash / 30) + ")";
+    ctx.fillRect(0, 0, W, H);
+    flash--;
+  }
+}
+
+function drawQuad(x1, y1, w1, x2, y2, w2) {
+  ctx.beginPath();
+  ctx.moveTo(x1 - w1, y1); ctx.lineTo(x1 + w1, y1);
+  ctx.lineTo(x2 + w2, y2); ctx.lineTo(x2 - w2, y2);
+  ctx.closePath(); ctx.fill();
+}
+
+function loop() {
+  update();
+  if (!running) return;
+  draw();
+  raf = requestAnimationFrame(loop);
+}
+
+function end() {
+  running = false;
+  cancelAnimationFrame(raf);
+  const score = Math.round(distance / 1000); // tenths of km
+  document.getElementById("msg").innerText = "🏁 Race over! You covered " + (score / 10).toFixed(1) + " km";
+  if (score > best) { best = score; localStorage.setItem("bestRacer", best); document.getElementById("best").innerText = (best / 10).toFixed(1) + " km"; }
+  draw();
+  submitScore(score);
+}
+
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowLeft") { steer = -1; e.preventDefault(); }
+  if (e.key === "ArrowRight") { steer = 1; e.preventDefault(); }
+  if (e.key === "ArrowDown") { braking = true; e.preventDefault(); }
+});
+document.addEventListener("keyup", e => {
+  if (e.key === "ArrowLeft" && steer === -1) steer = 0;
+  if (e.key === "ArrowRight" && steer === 1) steer = 0;
+  if (e.key === "ArrowDown") braking = false;
+});
+function hold(id, dir) {
+  const b = document.getElementById(id);
+  b.addEventListener("pointerdown", e => { e.preventDefault(); steer = dir; });
+  b.addEventListener("pointerup", () => { if (steer === dir) steer = 0; });
+  b.addEventListener("pointerleave", () => { if (steer === dir) steer = 0; });
+}
+hold("btnL", -1); hold("btnR", 1);
+cv.addEventListener("pointerdown", e => {
+  const r = cv.getBoundingClientRect();
+  steer = (e.clientX - r.left) < r.width / 2 ? -1 : 1;
+});
+cv.addEventListener("pointerup", () => { steer = 0; });
+
+// idle preview frame
+buildTrack(); spawnCars();
+position = 0; speed = 0; playerX = 0; distance = 0; crashes = 0;
+draw();
+</script>
+</body>
+</html>
