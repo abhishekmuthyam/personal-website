@@ -763,7 +763,7 @@ const dailyIntake={
     function activate(name, push) {
       tabs.forEach(t => t.classList.toggle("active", t.dataset.tab === name));
       document.querySelectorAll(".n-section").forEach(s => s.classList.toggle("active", s.id === "tab-" + name));
-      document.getElementById("mpBannerWrap").style.display = (name === "foods" || name === "myneeds") ? "" : "none";
+      document.getElementById("mpBannerWrap").style.display = name === "myneeds" ? "" : "none";
       if (push) { const u = new URL(location.href); u.searchParams.set("tab", name); history.replaceState({}, "", u); }
     }
     tabs.forEach(t => t.addEventListener("click", () => activate(t.dataset.tab, true)));
