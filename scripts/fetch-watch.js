@@ -11,7 +11,9 @@ const channels = [
   { name: "CrashCourse", topic: "learn", topicLabel: "Learn", id: "UCX6b17PVsYBQ0ip5gyeme-Q" },
   { name: "TED", topic: "learn", topicLabel: "Learn", id: "UCAuUUnT6oDeKwE6v1NGQxug" },
   { name: "Marques Brownlee", topic: "tech", topicLabel: "Tech", id: "UCBJycsmduvYEL83R_U4JriQ" },
-  { name: "Two Minute Papers", topic: "tech", topicLabel: "Tech", id: "UCbfYPyITQ-7l4upoX8nvctg" },
+  { name: "Two Minute Papers", topic: "ai", topicLabel: "AI", id: "UCbfYPyITQ-7l4upoX8nvctg" },
+  { name: "Lex Fridman", topic: "ai", topicLabel: "AI", id: "UCSHZKyawb77ixDdsGog4iWA" },
+  { name: "DeepLearningAI", topic: "ai", topicLabel: "AI", id: "UCcIXc5mJsHVYTZR1maL5l9w" },
   { name: "NetworkChuck", topic: "tech", topicLabel: "Tech", id: "UC9x0AN7BWHpCDHSm9NiJFJQ" }
 ];
 
