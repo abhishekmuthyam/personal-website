@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Sky Hopper</title>
+  <meta name="description" content="Hop through the gaps. One touch is all it takes">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: #0b0b0f; color: #f8fafc; min-height: 100vh; text-align: center; }
+    header { padding: 18px 20px; display: flex; justify-content: space-between; max-width: 900px; margin: 0 auto; }
+    header a { color: #a5b4fc; text-decoration: none; font-weight: 600; font-size: 14px; }
+    h1 { font-size: 26px; margin: 4px 0 6px; }
+    .tag { color: #94a3b8; font-size: 14px; margin: 0 0 18px; }
+    .game-shell { max-width: 520px; margin: 0 auto 30px; padding: 0 14px; }
+    .panel { background: #15151d; border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 20px; box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
+    .hud { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 14px; font-weight: 700; font-size: 14px; color: #94a3b8; }
+    .hud b { color: #fff; font-size: 18px; display: block; }
+    button { border: none; border-radius: 10px; background: #0ea5e9; color: white; cursor: pointer; font-weight: 700; font-family: inherit; padding: 12px 20px; font-size: 15px; }
+    button:active { transform: scale(0.97); }
+    #msg { min-height: 22px; font-weight: 700; margin: 12px 0 4px; }
+    .lb { max-width: 520px; margin: 0 auto 40px; padding: 0 14px; text-align: left; }
+    .lb h2 { font-size: 16px; text-align: center; }
+    .lb ol { list-style: none; padding: 0; margin: 0; }
+    .lb li { display: flex; justify-content: space-between; padding: 7px 4px; border-bottom: 1px solid rgba(255,255,255,0.07); color: #cbd5e1; font-size: 14px; }
+    .lb li span:last-child { font-weight: 700; color: #fff; }
+    .lb-note { color: #64748b; font-size: 12px; text-align: center; margin-top: 8px; }
+    canvas { width: 100%; border-radius: 12px; background: linear-gradient(#0f2244, #1e3a6d); display: block; touch-action: none; }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/games">&larr; Games</a>
+  <a href="/">Home</a>
+</header>
+<div class="game-shell">
+  <h1>Sky Hopper</h1>
+  <p class="tag">Hop through the gaps. One touch is all it takes</p>
+  <div class="panel">
+    <div class="hud"><span>Score<b id="score">0</b></span><span>Best<b id="best">0</b></span></div>
+    <canvas id="cv" width="420" height="560"></canvas>
+    <p id="msg">Tap, click, or press Space to hop</p>
+    <button onclick="start()">Start</button>
+  </div>
+</div>
+<div class="lb">
+  <h2>🌍 Global Top 10</h2>
+  <ol id="lbList"><li><span>Loading...</span><span></span></li></ol>
+  <p class="lb-note" id="lbNote"></p>
+</div>
+<script>
+const LEADERBOARD_URL = "https://zsxujdnvqodtnhxwxbvbucsp7q0gqpbg.lambda-url.ap-south-1.on.aws/";
+const GAME_ID = "sky-hopper";
+async function loadLeaderboard() {
+  const list = document.getElementById("lbList");
+  try {
+    const res = await fetch(LEADERBOARD_URL + "?game=" + GAME_ID);
+    const data = await res.json();
+    if (!data.top || !data.top.length) { list.innerHTML = "<li><span>No scores yet — be the first!</span><span></span></li>"; return; }
+    list.innerHTML = data.top.map((e, i) => {
+      const n = e.name.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+      return "<li><span>" + (i+1) + ". " + n + "</span><span>" + e.score + "</span></li>";
+    }).join("");
+  } catch { list.innerHTML = "<li><span>Leaderboard unavailable</span><span></span></li>"; }
+}
+async function submitScore(score) {
+  if (score <= 0) return;
+  let playerName = localStorage.getItem("playerName");
+  if (!playerName) {
+    playerName = (prompt("Enter your name for the global leaderboard:") || "").trim().slice(0, 20);
+    if (!playerName) return;
+    localStorage.setItem("playerName", playerName);
+  }
+  try {
+    await fetch(LEADERBOARD_URL, { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ game: GAME_ID, name: playerName, score }) });
+    document.getElementById("lbNote").innerText = "Score submitted as " + playerName + "!";
+    loadLeaderboard();
+  } catch { document.getElementById("lbNote").innerText = "Could not submit score"; }
+}
+loadLeaderboard();
+
+const cv = document.getElementById("cv"), ctx = cv.getContext("2d");
+let bird, pipes, score, running = false, raf, frames;
+let best = Number(localStorage.getItem("bestHopper")) || 0;
+document.getElementById("best").innerText = best;
+const GAP = 158, PW = 62, SPEED = 2.6;
+
+function start() {
+  if (running) return;
+  bird = { y: 260, vy: 0 };
+  pipes = [{ x: 460, gapY: 220 }];
+  score = 0; frames = 0;
+  document.getElementById("score").innerText = 0;
+  document.getElementById("msg").innerText = "";
+  running = true;
+  loop();
+}
+function hop() { if (running) { bird.vy = -6.4; } else { start(); } }
+function end() {
+  running = false; cancelAnimationFrame(raf);
+  document.getElementById("msg").innerText = "Crashed! Score: " + score;
+  if (score > best) { best = score; localStorage.setItem("bestHopper", best); document.getElementById("best").innerText = best; }
+  submitScore(score);
+}
+function loop() {
+  frames++;
+  bird.vy += 0.34; bird.y += bird.vy;
+  if (frames % 88 === 0) pipes.push({ x: 460, gapY: 90 + Math.random() * 300 });
+  pipes.forEach(p => { p.x -= SPEED; });
+  if (pipes[0] && pipes[0].x < -PW) {
+    pipes.shift(); score++;
+    document.getElementById("score").innerText = score;
+  }
+  const bx = 90, br = 15;
+  if (bird.y > 545 || bird.y < 0) { end(); return; }
+  for (const p of pipes) {
+    if (bx + br > p.x && bx - br < p.x + PW && (bird.y - br < p.gapY - GAP / 2 || bird.y + br > p.gapY + GAP / 2)) { end(); return; }
+  }
+  ctx.clearRect(0, 0, 420, 560);
+  pipes.forEach(p => {
+    ctx.fillStyle = "#14532d";
+    ctx.fillRect(p.x, 0, PW, p.gapY - GAP / 2);
+    ctx.fillRect(p.x, p.gapY + GAP / 2, PW, 560);
+    ctx.fillStyle = "#166534";
+    ctx.fillRect(p.x - 4, p.gapY - GAP / 2 - 14, PW + 8, 14);
+    ctx.fillRect(p.x - 4, p.gapY + GAP / 2, PW + 8, 14);
+  });
+  ctx.font = "26px sans-serif";
+  ctx.save();
+  ctx.translate(90, bird.y);
+  ctx.rotate(Math.max(-0.5, Math.min(0.7, bird.vy / 10)));
+  ctx.fillText("🐤", -14, 9);
+  ctx.restore();
+  if (running) raf = requestAnimationFrame(loop);
+}
+cv.addEventListener("pointerdown", hop);
+document.addEventListener("keydown", e => { if (e.code === "Space") { e.preventDefault(); hop(); } });
+ctx.font = "26px sans-serif"; ctx.fillText("🐤", 76, 270);
+
+</script>
+</body>
+</html>

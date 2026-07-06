@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Whack-a-Mole</title>
+  <meta name="description" content="30 seconds. Fast fingers win">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: #0b0b0f; color: #f8fafc; min-height: 100vh; text-align: center; }
+    header { padding: 18px 20px; display: flex; justify-content: space-between; max-width: 900px; margin: 0 auto; }
+    header a { color: #a5b4fc; text-decoration: none; font-weight: 600; font-size: 14px; }
+    h1 { font-size: 26px; margin: 4px 0 6px; }
+    .tag { color: #94a3b8; font-size: 14px; margin: 0 0 18px; }
+    .game-shell { max-width: 520px; margin: 0 auto 30px; padding: 0 14px; }
+    .panel { background: #15151d; border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 20px; box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
+    .hud { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 14px; font-weight: 700; font-size: 14px; color: #94a3b8; }
+    .hud b { color: #fff; font-size: 18px; display: block; }
+    button { border: none; border-radius: 10px; background: #dc2626; color: white; cursor: pointer; font-weight: 700; font-family: inherit; padding: 12px 20px; font-size: 15px; }
+    button:active { transform: scale(0.97); }
+    #msg { min-height: 22px; font-weight: 700; margin: 12px 0 4px; }
+    .lb { max-width: 520px; margin: 0 auto 40px; padding: 0 14px; text-align: left; }
+    .lb h2 { font-size: 16px; text-align: center; }
+    .lb ol { list-style: none; padding: 0; margin: 0; }
+    .lb li { display: flex; justify-content: space-between; padding: 7px 4px; border-bottom: 1px solid rgba(255,255,255,0.07); color: #cbd5e1; font-size: 14px; }
+    .lb li span:last-child { font-weight: 700; color: #fff; }
+    .lb-note { color: #64748b; font-size: 12px; text-align: center; margin-top: 8px; }
+    .holes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .hole { aspect-ratio: 1; background: #1e1e29; border-radius: 50%; border: 3px solid #2d2d3f; font-size: clamp(34px, 11vw, 54px); display: flex; align-items: center; justify-content: center; cursor: pointer; user-select: none; transition: background 0.1s; }
+    .hole:active { background: #2d2d3f; }
+    .hole.up::after { content: "🐹"; animation: pop 0.15s; }
+    .hole.hit::after { content: "💥"; }
+    @keyframes pop { from { transform: scale(0.3); } to { transform: scale(1); } }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/games">&larr; Games</a>
+  <a href="/">Home</a>
+</header>
+<div class="game-shell">
+  <h1>Whack-a-Mole</h1>
+  <p class="tag">30 seconds. Fast fingers win</p>
+  <div class="panel">
+    <div class="hud"><span>Score<b id="score">0</b></span><span>Time<b id="time">30</b></span><span>Best<b id="best">0</b></span></div>
+    <div class="holes" id="holes"></div>
+    <p id="msg">Hit Start, then whack!</p>
+    <button id="startBtn" onclick="start()">Start</button>
+  </div>
+
+</div>
+<div class="lb">
+  <h2>🌍 Global Top 10</h2>
+  <ol id="lbList"><li><span>Loading...</span><span></span></li></ol>
+  <p class="lb-note" id="lbNote"></p>
+</div>
+<script>
+const LEADERBOARD_URL = "https://zsxujdnvqodtnhxwxbvbucsp7q0gqpbg.lambda-url.ap-south-1.on.aws/";
+const GAME_ID = "whack-a-mole";
+async function loadLeaderboard() {
+  const list = document.getElementById("lbList");
+  try {
+    const res = await fetch(LEADERBOARD_URL + "?game=" + GAME_ID);
+    const data = await res.json();
+    if (!data.top || !data.top.length) { list.innerHTML = "<li><span>No scores yet — be the first!</span><span></span></li>"; return; }
+    list.innerHTML = data.top.map((e, i) => {
+      const n = e.name.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+      return "<li><span>" + (i+1) + ". " + n + "</span><span>" + e.score + "</span></li>";
+    }).join("");
+  } catch { list.innerHTML = "<li><span>Leaderboard unavailable</span><span></span></li>"; }
+}
+async function submitScore(score) {
+  if (score <= 0) return;
+  let playerName = localStorage.getItem("playerName");
+  if (!playerName) {
+    playerName = (prompt("Enter your name for the global leaderboard:") || "").trim().slice(0, 20);
+    if (!playerName) return;
+    localStorage.setItem("playerName", playerName);
+  }
+  try {
+    await fetch(LEADERBOARD_URL, { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ game: GAME_ID, name: playerName, score }) });
+    document.getElementById("lbNote").innerText = "Score submitted as " + playerName + "!";
+    loadLeaderboard();
+  } catch { document.getElementById("lbNote").innerText = "Could not submit score"; }
+}
+loadLeaderboard();
+
+const holesEl = document.getElementById("holes");
+for (let i=0;i<9;i++) { const d=document.createElement("div"); d.className="hole"; d.dataset.i=i; holesEl.appendChild(d); }
+const holes = Array.from(document.querySelectorAll(".hole"));
+let score = 0, time = 30, playing = false, moleTimer, clockTimer, current = -1;
+let best = Number(localStorage.getItem("bestMole")) || 0;
+document.getElementById("best").innerText = best;
+
+function popMole() {
+  holes.forEach(h => h.classList.remove("up","hit"));
+  current = Math.floor(Math.random()*9);
+  holes[current].classList.add("up");
+  moleTimer = setTimeout(popMole, Math.max(450, 900 - score*8));
+}
+function start() {
+  if (playing) return;
+  playing = true; score = 0; time = 30;
+  document.getElementById("score").innerText = 0;
+  document.getElementById("msg").innerText = "Whack the moles!";
+  popMole();
+  clockTimer = setInterval(() => {
+    time--; document.getElementById("time").innerText = time;
+    if (time <= 0) end();
+  }, 1000);
+}
+function end() {
+  playing = false;
+  clearTimeout(moleTimer); clearInterval(clockTimer);
+  holes.forEach(h => h.classList.remove("up","hit"));
+  document.getElementById("msg").innerText = "Time up! Score: " + score;
+  if (score > best) { best = score; localStorage.setItem("bestMole", best); document.getElementById("best").innerText = best; }
+  submitScore(score);
+}
+holesEl.addEventListener("pointerdown", e => {
+  const hole = e.target.closest(".hole");
+  if (!hole || !playing) return;
+  if (Number(hole.dataset.i) === current && hole.classList.contains("up")) {
+    score++; document.getElementById("score").innerText = score;
+    hole.classList.remove("up"); hole.classList.add("hit");
+    current = -1;
+  }
+});
+
+</script>
+</body>
+</html>

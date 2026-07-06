@@ -4,11 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Games</title>
+  <meta name="description" content="Nine free browser games with global leaderboards — 2048, Sky Hopper, Brick Breaker, Snake, Jump Quest, and more. No downloads, no ads.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
   <script src="/auth.js" defer></script>
+  <style>
+    .g-billboard {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      background: linear-gradient(120deg, #1e3a8a 0%, #0c4a6e 60%, #052e16 100%);
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 54px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      margin-top: 26px;
+    }
+    .g-billboard::after {
+      content: '🏃';
+      position: absolute;
+      right: 6%;
+      bottom: -12px;
+      font-size: 150px;
+      opacity: 0.35;
+      transform: rotate(-8deg);
+    }
+    .g-billboard h2 { font-size: clamp(26px, 4vw, 40px); margin: 6px 0 10px; }
+    .g-billboard p { color: #cbd5e1; max-width: 460px; margin: 0 0 22px; }
+    .g-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 18px;
+      margin-top: 24px;
+    }
+    .g-tile {
+      background: var(--panel);
+      border: 1px solid var(--glass-border);
+      border-radius: 16px;
+      overflow: hidden;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.22s ease, border-color 0.22s, box-shadow 0.22s;
+    }
+    .g-tile:hover {
+      transform: scale(1.05);
+      border-color: rgba(99,102,241,0.55);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.55);
+      z-index: 2;
+    }
+    .g-art {
+      aspect-ratio: 16 / 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 64px;
+      position: relative;
+    }
+    .g-tile:hover .g-art span:first-child { transform: scale(1.15); }
+    .g-art span:first-child { transition: transform 0.25s; }
+    .g-badge {
+      position: absolute;
+      left: 10px;
+      bottom: 10px;
+      background: rgba(0,0,0,0.55);
+      backdrop-filter: blur(4px);
+      border-radius: 99px;
+      color: #fbbf24;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+    }
+    .g-body { padding: 14px 16px 16px; }
+    .g-cat {
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+    .g-body h3 { font-size: 17px; margin: 4px 0 6px; }
+    .g-body p { color: var(--muted); font-size: 13.5px; line-height: 1.55; margin: 0; }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -24,49 +105,99 @@
       </div>
     </nav>
   </header>
-  <section class="hero">
-    <h1>Games</h1>
-    <p>Small browser games built using HTML, CSS and JavaScript.</p>
-  </section>
 
   <section>
-    <h2>Available Games</h2>
-
-    <div class="cards">
-      <div>
-        <h3>Tic Tac Toe</h3>
-        <p>Play a simple 2-player Tic Tac Toe game.</p>
-        <a href="/games/tictactoe"><button>Open</button></a>
-      </div>
-
-      <div>
-        <h3>Snake Game</h3>
-        <p>Classic snake game with score, keyboard controls, and mobile buttons.</p>
-        <a href="/games/snake"><button>Open</button></a>
-      </div>
-
-      <div>
-        <h3>Memory Game</h3>
-        <p>Flip cards, match pairs, and complete the board with fewer moves.</p>
-        <a href="/games/memory"><button>Open</button></a>
-      </div>
-
-      <div>
-        <h3>Rock Paper Scissors</h3>
-        <p>Play rock, paper, scissors against the computer and track your score.</p>
-        <a href="/games/rock-paper-scissors"><button>Open</button></a>
-      </div>
-
-      <div>
-        <h3>Jump Quest</h3>
-        <p>A Mario-style side-scrolling platformer. Jump gaps, dodge enemies, and collect coins to the flag.</p>
-        <a href="/games/jump-quest"><button>Open</button></a>
+    <div class="g-billboard">
+      <div style="position:relative; z-index:2;">
+        <span class="g-cat" style="color:#7dd3fc;">FEATURED · PLATFORMER</span>
+        <h2>Jump Quest</h2>
+        <p>Run, jump, grab power-ups, and stomp enemies across three levels — with music, and a global leaderboard waiting for your name.</p>
+        <a class="button primary" href="/games/jump-quest">▶ Play Now</a>
       </div>
     </div>
   </section>
 
+  <section>
+    <h2>All Games</h2>
+    <p class="section-intro">Free in your browser — nothing to install. 🌍 marks games with global leaderboards.</p>
+    <div class="g-grid">
+      <a class="g-tile" href="/games/jump-quest">
+        <div class="g-art" style="background:linear-gradient(150deg,#1e3a8a,#0c4a6e);"><span>🏃</span><span class="g-badge">🌍 Global leaderboard</span></div>
+        <div class="g-body">
+          <span class="g-cat">Platformer</span>
+          <h3>Jump Quest</h3>
+          <p>Run, jump, stomp enemies, and race to the flag across 3 levels.</p>
+        </div>
+      </a>
+      <a class="g-tile" href="/games/2048">
+        <div class="g-art" style="background:linear-gradient(150deg,#0d9488,#134e4a);"><span>🔢</span><span class="g-badge">🌍 Global leaderboard</span></div>
+        <div class="g-body">
+          <span class="g-cat">Puzzle</span>
+          <h3>2048</h3>
+          <p>Swipe to join numbers and chase the legendary 2048 tile.</p>
+        </div>
+      </a>
+      <a class="g-tile" href="/games/sky-hopper">
+        <div class="g-art" style="background:linear-gradient(150deg,#0ea5e9,#1e3a6d);"><span>🐤</span><span class="g-badge">🌍 Global leaderboard</span></div>
+        <div class="g-body">
+          <span class="g-cat">Arcade</span>
+          <h3>Sky Hopper</h3>
+          <p>One tap to hop. Thread the gaps. Instantly addictive.</p>
+        </div>
+      </a>
+      <a class="g-tile" href="/games/brick-breaker">
+        <div class="g-art" style="background:linear-gradient(150deg,#ea580c,#7c2d12);"><span>🧱</span><span class="g-badge">🌍 Global leaderboard</span></div>
+        <div class="g-body">
+          <span class="g-cat">Arcade</span>
+          <h3>Brick Breaker</h3>
+          <p>Bounce, smash, clear the wall — a timeless classic.</p>
+        </div>
+      </a>
+      <a class="g-tile" href="/games/snake">
+        <div class="g-art" style="background:linear-gradient(150deg,#16a34a,#14532d);"><span>🐍</span><span class="g-badge">🌍 Global leaderboard</span></div>
+        <div class="g-body">
+          <span class="g-cat">Classic</span>
+          <h3>Snake</h3>
+          <p>Eat, grow, and don't bite yourself. The original time-killer.</p>
+        </div>
+      </a>
+      <a class="g-tile" href="/games/whack-a-mole">
+        <div class="g-art" style="background:linear-gradient(150deg,#dc2626,#7f1d1d);"><span>🐹</span><span class="g-badge">🌍 Global leaderboard</span></div>
+        <div class="g-body">
+          <span class="g-cat">Reflex</span>
+          <h3>Whack-a-Mole</h3>
+          <p>30 seconds of pure speed. How many can you whack?</p>
+        </div>
+      </a>
+      <a class="g-tile" href="/games/memory">
+        <div class="g-art" style="background:linear-gradient(150deg,#7c3aed,#312e81);"><span>🧠</span></div>
+        <div class="g-body">
+          <span class="g-cat">Puzzle</span>
+          <h3>Memory Match</h3>
+          <p>Flip cards and find the pairs in as few moves as you can.</p>
+        </div>
+      </a>
+      <a class="g-tile" href="/games/tictactoe">
+        <div class="g-art" style="background:linear-gradient(150deg,#475569,#1e293b);"><span>⭕</span></div>
+        <div class="g-body">
+          <span class="g-cat">Classic</span>
+          <h3>Tic Tac Toe</h3>
+          <p>The playground classic — challenge a friend.</p>
+        </div>
+      </a>
+      <a class="g-tile" href="/games/rock-paper-scissors">
+        <div class="g-art" style="background:linear-gradient(150deg,#0891b2,#164e63);"><span>✂️</span></div>
+        <div class="g-body">
+          <span class="g-cat">Casual</span>
+          <h3>Rock Paper Scissors</h3>
+          <p>Best your luck against the computer.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
   <footer>
-    &copy; 2026 abhishekmuthyam.com
+    &copy; 2026 abhishekmuthyam.com. Built for learning and experiments.
   </footer>
 </body>
 </html>

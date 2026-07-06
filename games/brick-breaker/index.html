@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Brick Breaker</title>
+  <meta name="description" content="Smash every brick. Don't drop the ball">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: #0b0b0f; color: #f8fafc; min-height: 100vh; text-align: center; }
+    header { padding: 18px 20px; display: flex; justify-content: space-between; max-width: 900px; margin: 0 auto; }
+    header a { color: #a5b4fc; text-decoration: none; font-weight: 600; font-size: 14px; }
+    h1 { font-size: 26px; margin: 4px 0 6px; }
+    .tag { color: #94a3b8; font-size: 14px; margin: 0 0 18px; }
+    .game-shell { max-width: 520px; margin: 0 auto 30px; padding: 0 14px; }
+    .panel { background: #15151d; border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 20px; box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
+    .hud { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 14px; font-weight: 700; font-size: 14px; color: #94a3b8; }
+    .hud b { color: #fff; font-size: 18px; display: block; }
+    button { border: none; border-radius: 10px; background: #ea580c; color: white; cursor: pointer; font-weight: 700; font-family: inherit; padding: 12px 20px; font-size: 15px; }
+    button:active { transform: scale(0.97); }
+    #msg { min-height: 22px; font-weight: 700; margin: 12px 0 4px; }
+    .lb { max-width: 520px; margin: 0 auto 40px; padding: 0 14px; text-align: left; }
+    .lb h2 { font-size: 16px; text-align: center; }
+    .lb ol { list-style: none; padding: 0; margin: 0; }
+    .lb li { display: flex; justify-content: space-between; padding: 7px 4px; border-bottom: 1px solid rgba(255,255,255,0.07); color: #cbd5e1; font-size: 14px; }
+    .lb li span:last-child { font-weight: 700; color: #fff; }
+    .lb-note { color: #64748b; font-size: 12px; text-align: center; margin-top: 8px; }
+    canvas { width: 100%; border-radius: 12px; background: #0b0b0f; display: block; touch-action: none; }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/games">&larr; Games</a>
+  <a href="/">Home</a>
+</header>
+<div class="game-shell">
+  <h1>Brick Breaker</h1>
+  <p class="tag">Smash every brick. Don't drop the ball</p>
+  <div class="panel">
+    <div class="hud"><span>Score<b id="score">0</b></span><span>Lives<b id="lives">3</b></span><span>Best<b id="best">0</b></span></div>
+    <canvas id="cv" width="480" height="560"></canvas>
+    <p id="msg">Move with mouse, finger, or arrow keys</p>
+    <button onclick="start()">Start</button>
+  </div>
+</div>
+<div class="lb">
+  <h2>🌍 Global Top 10</h2>
+  <ol id="lbList"><li><span>Loading...</span><span></span></li></ol>
+  <p class="lb-note" id="lbNote"></p>
+</div>
+<script>
+const LEADERBOARD_URL = "https://zsxujdnvqodtnhxwxbvbucsp7q0gqpbg.lambda-url.ap-south-1.on.aws/";
+const GAME_ID = "brick-breaker";
+async function loadLeaderboard() {
+  const list = document.getElementById("lbList");
+  try {
+    const res = await fetch(LEADERBOARD_URL + "?game=" + GAME_ID);
+    const data = await res.json();
+    if (!data.top || !data.top.length) { list.innerHTML = "<li><span>No scores yet — be the first!</span><span></span></li>"; return; }
+    list.innerHTML = data.top.map((e, i) => {
+      const n = e.name.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+      return "<li><span>" + (i+1) + ". " + n + "</span><span>" + e.score + "</span></li>";
+    }).join("");
+  } catch { list.innerHTML = "<li><span>Leaderboard unavailable</span><span></span></li>"; }
+}
+async function submitScore(score) {
+  if (score <= 0) return;
+  let playerName = localStorage.getItem("playerName");
+  if (!playerName) {
+    playerName = (prompt("Enter your name for the global leaderboard:") || "").trim().slice(0, 20);
+    if (!playerName) return;
+    localStorage.setItem("playerName", playerName);
+  }
+  try {
+    await fetch(LEADERBOARD_URL, { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ game: GAME_ID, name: playerName, score }) });
+    document.getElementById("lbNote").innerText = "Score submitted as " + playerName + "!";
+    loadLeaderboard();
+  } catch { document.getElementById("lbNote").innerText = "Could not submit score"; }
+}
+loadLeaderboard();
+
+const cv = document.getElementById("cv"), ctx = cv.getContext("2d");
+let paddle, ball, bricks, score, lives, running = false, raf;
+let best = Number(localStorage.getItem("bestBrick")) || 0;
+document.getElementById("best").innerText = best;
+const COLS = 8, ROWS = 6, BW = 54, BH = 20, PAD = 6, TOP = 60;
+const COLORS = ["#dc2626","#ea580c","#d97706","#65a30d","#0d9488","#4f46e5"];
+
+function build() {
+  bricks = [];
+  for (let r = 0; r < ROWS; r++) {
+    for (let c = 0; c < COLS; c++) {
+      bricks.push({ x: 6 + c * (BW + PAD), y: TOP + r * (BH + PAD), alive: true, color: COLORS[r] });
+    }
+  }
+}
+function resetBall() {
+  paddle = { x: 200, w: 84 };
+  ball = { x: 240, y: 440, vx: 3.4 * (Math.random() < 0.5 ? 1 : -1), vy: -4.2, r: 7 };
+}
+function hud() {
+  document.getElementById("score").innerText = score;
+  document.getElementById("lives").innerText = lives;
+}
+function start() {
+  if (running) return;
+  score = 0; lives = 3; build(); resetBall(); hud();
+  running = true;
+  document.getElementById("msg").innerText = "";
+  loop();
+}
+function loop() {
+  ball.x += ball.vx; ball.y += ball.vy;
+  if (ball.x < ball.r || ball.x > 480 - ball.r) ball.vx *= -1;
+  if (ball.y < ball.r) ball.vy *= -1;
+  if (ball.y > 556) {
+    lives--; hud();
+    if (lives <= 0) { end("Game over! Score: " + score); return; }
+    resetBall();
+  }
+  if (ball.y > 533 && ball.y < 552 && ball.x >= paddle.x - 6 && ball.x <= paddle.x + paddle.w + 6 && ball.vy > 0) {
+    ball.vy = -Math.abs(ball.vy) - 0.05;
+    ball.vx += ((ball.x - (paddle.x + paddle.w / 2)) / paddle.w) * 4;
+    ball.vx = Math.max(-6, Math.min(6, ball.vx));
+  }
+  for (const b of bricks) {
+    if (!b.alive) continue;
+    if (ball.x > b.x - ball.r && ball.x < b.x + BW + ball.r && ball.y > b.y - ball.r && ball.y < b.y + BH + ball.r) {
+      b.alive = false; score += 10; hud();
+      if (ball.x < b.x || ball.x > b.x + BW) { ball.vx *= -1; } else { ball.vy *= -1; }
+      break;
+    }
+  }
+  if (bricks.every(b => !b.alive)) { end("🎉 You cleared it! Score: " + score); return; }
+  drawFrame();
+  if (running) raf = requestAnimationFrame(loop);
+}
+function drawFrame() {
+  ctx.fillStyle = "#0b0b0f"; ctx.fillRect(0, 0, 480, 560);
+  bricks.forEach(b => { if (b.alive) { ctx.fillStyle = b.color; ctx.fillRect(b.x, b.y, BW, BH); } });
+  ctx.fillStyle = "#e2e8f0"; ctx.fillRect(paddle.x, 540, paddle.w, 10);
+  ctx.beginPath(); ctx.arc(ball.x, ball.y, ball.r, 0, Math.PI * 2); ctx.fillStyle = "#a5b4fc"; ctx.fill();
+}
+function end(text) {
+  running = false; cancelAnimationFrame(raf);
+  document.getElementById("msg").innerText = text;
+  if (score > best) { best = score; localStorage.setItem("bestBrick", best); document.getElementById("best").innerText = best; }
+  submitScore(score);
+}
+function setPaddle(clientX) {
+  const rect = cv.getBoundingClientRect();
+  paddle.x = Math.max(0, Math.min(480 - paddle.w, (clientX - rect.left) / rect.width * 480 - paddle.w / 2));
+}
+cv.addEventListener("mousemove", e => { if (paddle) setPaddle(e.clientX); });
+cv.addEventListener("touchmove", e => { e.preventDefault(); if (paddle) setPaddle(e.touches[0].clientX); }, { passive: false });
+document.addEventListener("keydown", e => {
+  if (!paddle) return;
+  if (e.key === "ArrowLeft") paddle.x = Math.max(0, paddle.x - 30);
+  if (e.key === "ArrowRight") paddle.x = Math.min(480 - paddle.w, paddle.x + 30);
+});
+score = 0; lives = 3; resetBall(); build(); drawFrame();
+
+</script>
+</body>
+</html>
