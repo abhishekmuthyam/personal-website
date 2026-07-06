@@ -91,7 +91,7 @@
     </div>
   </div>
 
-  <section style="margin: 10px auto 0;">
+  <section style="margin: 10px auto 0;" id="mpBannerWrap">
     <div class="mp-banner">
       <div>
         <h2>🍽️ Complete Daily Meal Plan</h2>
@@ -633,6 +633,7 @@ const dailyIntake={
     function activate(name, push) {
       tabs.forEach(t => t.classList.toggle("active", t.dataset.tab === name));
       document.querySelectorAll(".n-section").forEach(s => s.classList.toggle("active", s.id === "tab-" + name));
+      document.getElementById("mpBannerWrap").style.display = name === "foods" ? "" : "none";
       if (push) { const u = new URL(location.href); u.searchParams.set("tab", name); history.replaceState({}, "", u); }
     }
     tabs.forEach(t => t.addEventListener("click", () => activate(t.dataset.tab, true)));
