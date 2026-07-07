@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T19:25:38.854Z",
+  "updatedAt": "2026-07-07T21:01:50.842Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,11 +58,34 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
+    {
+      "id": "hacker-news-all-cars-sold-in-the-eu-now-require-a-camera-aimed-at-your-face-2026-07-07t20",
+      "title": "All Cars Sold in the EU Now Require a Camera Aimed at Your Face",
+      "link": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-07T20:50:46.000Z"
+    },
+    {
+      "id": "infoq-switching-from-postgresql-to-clickhouse-for-improved-performance-and-scalability-202",
+      "title": "Switching from PostgreSQL to ClickHouse for Improved Performance and Scalability",
+      "link": "https://www.infoq.com/news/2026/07/momentic-postgres-clickhouse/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Momentic, the company behind an AI-driven software testing platform, recently rearchitected its caching system to handle over 2 million queries per day across 20 billion total entries, while maintaining an average respo...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-07T20:00:00.000Z"
+    },
     {
       "id": "hacker-news-ai-meets-cryptography-1-what-ai-found-in-cloudflare-s-circl-2026-07-07t18-36-3",
       "title": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl",
@@ -75,19 +98,19 @@
       "publishedAt": "2026-07-07T18:36:35.000Z"
     },
     {
-      "id": "hacker-news-astro-7-0-2026-07-07t18-30-02-000z",
-      "title": "Astro 7.0",
-      "link": "https://astro.build/blog/astro-7/",
+      "id": "hacker-news-local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro-2026-07-07t18-2",
+      "title": "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro",
+      "link": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-07T18:30:02.000Z"
+      "publishedAt": "2026-07-07T18:24:10.000Z"
     },
     {
-      "id": "hacker-news-a-new-runtime-for-k-and-q-l-2026-07-07t18-08-29-000z",
-      "title": "A new runtime for k and q: l",
+      "id": "hacker-news-l-a-new-runtime-for-k-and-q-2026-07-07t18-08-29-000z",
+      "title": "l: A new runtime for k and q",
       "link": "https://lv1.sh/",
       "summary": "Comments",
       "image": "",
@@ -95,6 +118,28 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-07T18:08:29.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-ecs-managed-instances-reduces-gpu-management-fees-by-up-to-60-2026-0",
+      "title": "Amazon ECS Managed Instances reduces GPU management fees by up to 60%",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) Managed Instances now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series ECS management fees are reduced b...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-07T18:00:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-emr-serverless-now-supports-larger-worker-sizes-to-run-more-compute",
+      "title": "Amazon EMR Serverless now supports larger worker sizes to run more compute and memory intensive workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/",
+      "summary": "Amazon EMR Serverless now offers larger worker configurations of 32 vCPUs with up to 244 GB of memory, allowing you to run more compute and memory-intensive workloads. Previously, the largest worker configuration availa...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-07T17:06:00.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-ec2-c8ine-instances-are-now-available-in-aws-europe-frankfurt-region",
@@ -106,17 +151,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-07-07T17:00:00.000Z"
-    },
-    {
-      "id": "the-register-new-tool-gives-clis-a-warm-and-gui-feeling-instead-2026-07-07t16-30-00-000z",
-      "title": "New tool gives CLIs a warm and GUI feeling instead",
-      "link": "https://www.theregister.com/software/2026/07/07/new-tool-gives-clis-a-warm-and-gui-feeling-instead/5267798",
-      "summary": "Fed up with forgetting flags? Let Instagui read --help output and build a browser GUI instead",
-      "image": "https://image.theregister.com/?imageId=5237244&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-07T16:30:00.000Z"
     },
     {
       "id": "google-cloud-blog-a-developer-s-guide-to-publishing-agents-in-gemini-enterprise-and-google",
@@ -185,28 +219,6 @@
       "publishedAt": "2026-07-07T16:00:00.000Z"
     },
     {
-      "id": "hacker-news-30papers-com-ilya-s-30-essential-ml-papers-in-a-beginner-friendly-format-2026",
-      "title": "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format",
-      "link": "https://30papers.com/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-07T15:58:13.000Z"
-    },
-    {
-      "id": "the-register-court-tosses-microsoft-s-appeal-in-pre-owned-software-licenses-battle-2026-07",
-      "title": "Court tosses Microsoft's appeal in pre-owned software licenses battle",
-      "link": "https://www.theregister.com/software/2026/07/07/court-tosses-microsofts-appeal-in-pre-owned-software-licenses-battle/5267742",
-      "summary": "ValueLicensing celebrates while Redmond considers next steps",
-      "image": "https://image.theregister.com/?imageId=1683836&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-07T15:28:04.000Z"
-    },
-    {
       "id": "hugging-face-blog-hugging-face-models-on-foundry-managed-compute-2026-07-07t15-20-06-000z",
       "title": "Hugging Face Models on Foundry Managed Compute",
       "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
@@ -216,17 +228,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-07T15:20:06.000Z"
-    },
-    {
-      "id": "hacker-news-amazon-without-the-knockoffs-2026-07-07t15-13-01-000z",
-      "title": "Amazon without the knockoffs",
-      "link": "https://knockoff.shopping/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-07T15:13:01.000Z"
     },
     {
       "id": "hacker-news-chat-control-1-0-and-2-0-explained-2026-07-07t14-23-15-000z",
@@ -282,6 +283,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-07T12:38:35.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-eks-auto-mode-reduces-gpu-management-fees-by-up-to-60-2026-07-07t12",
+      "title": "Amazon EKS Auto Mode reduces GPU management fees by up to 60%",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price",
+      "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series Auto Mode management fees are reduced by...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-07T12:00:00.000Z"
     },
     {
       "id": "infoq-aws-expands-devops-agent-with-ai-powered-release-management-to-validate-code-before",
@@ -427,17 +439,6 @@
       "publishedAt": "2026-07-06T20:30:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-evs-vcf-9-0-and-9-1-support-2026-07-06t17-29-00-000z",
-      "title": "Amazon EVS VCF 9.0 and 9.1 support",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-vcf9",
-      "summary": "Today, we are announcing that Amazon Elastic VMware Service (EVS) now supports VMware Cloud Foundation (VCF) 9.0 and 9.1. Amazon EVS lets you run the latest VCF software directly within your Amazon Virtual Private Cloud...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-06T17:29:00.000Z"
-    },
-    {
       "id": "google-cloud-blog-shift-into-high-gear-with-agents-securing-the-software-defined-vehicle-2",
       "title": "Shift into high gear with agents: Securing the software-defined vehicle",
       "link": "https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/",
@@ -449,17 +450,6 @@
       "publishedAt": "2026-07-06T16:00:00.000Z"
     },
     {
-      "id": "the-register-microsoft-says-the-world-is-changing-faster-than-it-can-keep-up-as-it-guts-co",
-      "title": "Microsoft says the world is changing faster than it can keep up as it guts commercial, Xbox teams",
-      "link": "https://www.theregister.com/software/2026/07/06/microsoft-says-the-world-is-changing-faster-than-it-can-keep-up-as-it-guts-commercial-xbox-teams/5267032",
-      "summary": "Xbox chief says company can't afford to mistake longevity for inevitability",
-      "image": "https://image.theregister.com/?imageId=5267091&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-06T15:58:24.000Z"
-    },
-    {
       "id": "hugging-face-blog-prx-part-4-our-data-strategy-2026-07-06t15-30-55-000z",
       "title": "PRX Part 4: Our Data Strategy",
       "link": "https://huggingface.co/blog/Photoroom/prx-part4-data",
@@ -469,28 +459,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-06T15:30:55.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-certificate-manager-now-supports-the-acme-protocol-for-public-certifica",
-      "title": "AWS Certificate Manager now supports the ACME protocol for public certificates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-certificate-manager-acme/",
-      "summary": "AWS Certificate Manager (ACM) now allows you to provision a fully managed ACME server endpoint that issues public TLS certificates with a 45 day validity from Amazon Trust Services using any ACMEv2-compatible client, in...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-06T15:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-cloudwatch-application-signals-now-automatically-captures-errors-performanc",
-      "title": "CloudWatch Application Signals now automatically captures errors, performance anomalies, and deployment events",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/",
-      "summary": "Today, AWS announces Service Events for Amazon CloudWatch Application Signals, which automatically captures exception and latency event snapshots, function-level performance data, and deployment events from instrumented...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-06T15:00:00.000Z"
     },
     {
       "id": "infoq-netflix-cuts-cassandra-read-latency-from-seconds-to-milliseconds-with-dynamic-partit",
@@ -513,28 +481,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-06T12:00:00.000Z"
-    },
-    {
-      "id": "infoq-podcast-spite-driven-engineering-a-new-blueprint-for-cloud-security-in-the-ai-native",
-      "title": "Podcast: Spite-Driven Engineering: A New Blueprint for Cloud Security in the AI Native Era",
-      "link": "https://www.infoq.com/podcasts/new-blueprint-cloud-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "In this episode, Alex Zenla (CTO/Co-founder, Edera) challenges the \"laissez-faire\" attitude toward modern infrastructure. She promotes \"spite-driven development\", building software to solve genuine technical pain points...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-06T11:00:00.000Z"
-    },
-    {
-      "id": "the-register-apprentice-developer-defied-orders-then-got-a-job-supporting-her-weird-code-2",
-      "title": "Apprentice developer defied orders – then got a job supporting her weird code",
-      "link": "https://www.theregister.com/software/2026/07/06/apprentice-developer-defied-orders-then-got-a-job-supporting-her-weird-code/5266330",
-      "summary": "Who wrote this rubbish? Oh ...",
-      "image": "https://image.theregister.com/?imageId=5266369&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-06T07:36:00.000Z"
     },
     {
       "id": "spring-blog-a-new-home-for-spring-cloud-contract-transitioning-to-stubborn-sh-2026-07-06t0",
@@ -570,28 +516,6 @@
       "publishedAt": "2026-07-06T00:00:00.000Z"
     },
     {
-      "id": "the-register-failed-blockchain-project-ends-with-big-fine-for-fibs-about-it-being-on-track",
-      "title": "Failed blockchain project ends with big fine for fibs about it being on track",
-      "link": "https://www.theregister.com/software/2026/07/03/failed-blockchain-project-ends-with-big-fine-for-fibs-about-it-being-on-track/5266297",
-      "summary": "A final humiliation for Australia’s Securities Exchange and its attempts to run a bourse on distributed ledgers",
-      "image": "https://image.theregister.com/?imageId=223353&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-03T04:35:52.000Z"
-    },
-    {
-      "id": "the-register-vim-text-editor-game-teaches-you-keyboard-shortcuts-with-ice-cream-delivery-2",
-      "title": "Vim text editor game teaches you keyboard shortcuts with ice cream delivery",
-      "link": "https://www.theregister.com/software/2026/07/02/vim-text-editor-game-teaches-you-keyboard-shortcuts-with-ice-cream-delivery/5265940",
-      "summary": "Browser game teaches Vim's famously unintuitive movement commands to keep your hands on the keyboard",
-      "image": "https://image.theregister.com/?imageId=250384&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-02T16:28:00.000Z"
-    },
-    {
       "id": "github-blog-how-github-used-secret-scanning-to-reach-inbox-zero-2026-07-02t16-00-00-000z",
       "title": "How GitHub used secret scanning to reach inbox zero",
       "link": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
@@ -603,6 +527,17 @@
       "publishedAt": "2026-07-02T16:00:00.000Z"
     },
     {
+      "id": "hacker-news-herdr-one-terminal-to-rule-them-all-2026-07-02t04-28-39-000z",
+      "title": "Herdr: One terminal to rule them all",
+      "link": "https://herdr.dev/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-02T04:28:39.000Z"
+    },
+    {
       "id": "inside-java-simd-vectors-in-the-hotspot-jvm-auto-vectorization-and-the-vector-api-2026-07",
       "title": "SIMD Vectors in the HotSpot JVM - Auto Vectorization and the Vector API",
       "link": "https://inside.java/2026/07/02/simd-vectors-hotspot-jvm/",
@@ -612,6 +547,72 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "spring-blog-a-bootiful-podcast-s-bastien-deleuze-on-the-latest-and-greatest-in-spring-ai-a",
+      "title": "A Bootiful Podcast: Sébastien Deleuze on the latest-and-greatest in Spring AI and Spring Framework",
+      "link": "https://spring.io/blog/2026/07/02/a-bootiful-podcast-sebastien-deleuze",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "github-blog-6-security-settings-every-github-maintainer-should-enable-this-week-2026-07-01",
+      "title": "6 security settings every GitHub maintainer should enable this week",
+      "link": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
+      "summary": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before. The post...",
+      "image": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-30-at-3.28.09-PM.png?resize=1024%2C374",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-01T15:59:29.000Z"
+    },
+    {
+      "id": "hugging-face-blog-hugging-face-and-cerebras-bring-gemma-4-to-real-time-voice-ai-2026-07-01",
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-scarfbench-benchmarking-ai-agents-for-enterprise-java-framework-migratio",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-30T18:32:50.000Z"
+    },
+    {
+      "id": "github-blog-how-github-maintains-compliance-for-open-source-dependencies-2026-06-30t17-28",
+      "title": "How GitHub maintains compliance for open source dependencies",
+      "link": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
+      "summary": "Explore how the Open Source Program Office uses GitHub’s new license compliance product to manage open source dependencies at scale. The post How GitHub maintains compliance for open source dependencies appeared first o...",
+      "image": "https://github.blog/wp-content/uploads/2026/06/613757407-388b97bc-ca84-416a-aac5-72e4924e5dc8.png?resize=936%2C504",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-06-30T17:28:16.000Z"
+    },
+    {
+      "id": "hugging-face-blog-why-specialization-is-inevitable-2026-06-30t14-39-11-000z",
+      "title": "Why Specialization Is Inevitable",
+      "link": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-30T14:39:11.000Z"
     }
   ]
 }
