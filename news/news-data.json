@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T21:01:50.842Z",
+  "updatedAt": "2026-07-07T22:19:09.340Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,15 +58,25 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "count": 8
     }
   ],
   "items": [
     {
-      "id": "hacker-news-all-cars-sold-in-the-eu-now-require-a-camera-aimed-at-your-face-2026-07-07t20",
-      "title": "All Cars Sold in the EU Now Require a Camera Aimed at Your Face",
+      "id": "hugging-face-blog-from-hugging-face-to-amazon-sagemaker-studio-in-one-click-2026-07-07t21",
+      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+      "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-07T21:15:33.000Z"
+    },
+    {
+      "id": "hacker-news-every-new-car-sold-in-the-european-union-must-include-a-driver-monitoring-came",
+      "title": "Every new car sold in the European Union must include a driver monitoring camera",
       "link": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
       "summary": "Comments",
       "image": "",
@@ -74,6 +84,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-07T20:50:46.000Z"
+    },
+    {
+      "id": "the-register-avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay-2026-0",
+      "title": "Avoid AI atrophy - new tool promises to reverse vibe coding skills decay",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/07/avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay/5267913",
+      "summary": "Want big muscles? Keep working out. Want big coding skillsets? Flex your dev skills with the Atrophy CLI app before they wither away",
+      "image": "https://image.theregister.com/?imageId=5224005&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-07T20:21:35.000Z"
     },
     {
       "id": "infoq-switching-from-postgresql-to-clickhouse-for-improved-performance-and-scalability-202",
@@ -87,15 +108,15 @@
       "publishedAt": "2026-07-07T20:00:00.000Z"
     },
     {
-      "id": "hacker-news-ai-meets-cryptography-1-what-ai-found-in-cloudflare-s-circl-2026-07-07t18-36-3",
-      "title": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl",
-      "link": "https://blog.zksecurity.xyz/posts/circl-bugs/",
+      "id": "hacker-news-show-hn-davit-a-apple-containers-ui-2026-07-07t18-44-29-000z",
+      "title": "Show HN: Davit, a Apple Containers UI",
+      "link": "https://davit.app",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-07T18:36:35.000Z"
+      "publishedAt": "2026-07-07T18:44:29.000Z"
     },
     {
       "id": "hacker-news-local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro-2026-07-07t18-2",
@@ -153,6 +174,39 @@
       "publishedAt": "2026-07-07T17:00:00.000Z"
     },
     {
+      "id": "the-register-new-tool-gives-clis-a-warm-and-gui-feeling-instead-2026-07-07t16-30-00-000z",
+      "title": "New tool gives CLIs a warm and GUI feeling instead",
+      "link": "https://www.theregister.com/software/2026/07/07/new-tool-gives-clis-a-warm-and-gui-feeling-instead/5267798",
+      "summary": "Fed up with forgetting flags? Let Instagui read --help output and build a browser GUI instead",
+      "image": "https://image.theregister.com/?imageId=5237244&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-07T16:30:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-redshift-rg-instances-now-available-in-aws-govcloud-us-regions-2026",
+      "title": "Amazon Redshift RG instances now available in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-instances-aws-govcloud",
+      "summary": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running data warehouse and d...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-07T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-20-questions-for-the-agentic-enterprise-and-how-agent-platform-can-help",
+      "title": "20 questions for the Agentic Enterprise (and how Agent Platform can help)",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/20-questions-for-the-agentic-enterprise/",
+      "summary": "If you’re an IT leader, you might be getting a lot of questions about how to build and deploy agents. The pressure to move fast is intense, but the engineering reality is incredibly complex. Where do your teams even beg...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-07T16:00:00.000Z"
+    },
+    {
       "id": "google-cloud-blog-a-developer-s-guide-to-publishing-agents-in-gemini-enterprise-and-google",
       "title": "A developer's guide to publishing agents in Gemini Enterprise and Google Cloud Marketplace",
       "link": "https://cloud.google.com/blog/topics/developers-practitioners/publish-agents-in-gemini-enterprise-and-google-cloud-marketplace/",
@@ -186,17 +240,6 @@
       "publishedAt": "2026-07-07T16:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-20-questions-for-the-agentic-enterprise-and-how-agent-platform-can-help",
-      "title": "20 questions for the Agentic Enterprise (and how Agent Platform can help)",
-      "link": "https://cloud.google.com/blog/products/ai-machine-learning/20-questions-for-the-agentic-enterprise/",
-      "summary": "If you’re an IT leader, you might be getting a lot of questions about how to build and deploy agents. The pressure to move fast is intense, but the engineering reality is incredibly complex. Where do your teams even beg...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-07T16:00:00.000Z"
-    },
-    {
       "id": "google-cloud-blog-report-83-of-organizations-need-to-upgrade-their-infrastructure-to-suppo",
       "title": "Report: 83% of organizations need to upgrade their infrastructure to support agentic AI",
       "link": "https://cloud.google.com/blog/products/compute/state-of-ai-infrastructure-report-overview/",
@@ -219,6 +262,17 @@
       "publishedAt": "2026-07-07T16:00:00.000Z"
     },
     {
+      "id": "the-register-court-tosses-microsoft-s-appeal-in-pre-owned-software-licenses-battle-2026-07",
+      "title": "Court tosses Microsoft's appeal in pre-owned software licenses battle",
+      "link": "https://www.theregister.com/software/2026/07/07/court-tosses-microsofts-appeal-in-pre-owned-software-licenses-battle/5267742",
+      "summary": "ValueLicensing celebrates while Redmond considers next steps",
+      "image": "https://image.theregister.com/?imageId=1683836&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-07T15:28:04.000Z"
+    },
+    {
       "id": "hugging-face-blog-hugging-face-models-on-foundry-managed-compute-2026-07-07t15-20-06-000z",
       "title": "Hugging Face Models on Foundry Managed Compute",
       "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
@@ -228,6 +282,17 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-07T15:20:06.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-rds-for-oracle-now-supports-oracle-database-26ai-2026-07-07t15-00-00",
+      "title": "Amazon RDS for Oracle now supports Oracle Database 26ai",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-database-26ai/",
+      "summary": "Amazon RDS for Oracle now supports Oracle Database 26ai, Oracle's latest Long Term Support Release, with Amazon Bedrock integration which provides access to foundation models such as Anthropic Claude, Amazon Nova, and M...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-07T15:00:00.000Z"
     },
     {
       "id": "hacker-news-chat-control-1-0-and-2-0-explained-2026-07-07t14-23-15-000z",
@@ -417,28 +482,6 @@
       "publishedAt": "2026-07-06T21:29:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-cognito-now-supports-self-service-provisioned-api-rate-limits-2026-0",
-      "title": "Amazon Cognito now supports self-service provisioned API rate limits",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cognito-provisioned-limits",
-      "summary": "Amazon Cognito now allows you to increase or decrease your provisioned API rate limits on demand. Cognito has default rate limits for the maximum number of operations per second that you can perform in your user pools i...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-06T21:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-sagemaker-studio-now-integrates-with-hugging-face-for-one-click-mode",
-      "title": "Amazon SageMaker Studio now integrates with Hugging Face for one-click model deployment and customization",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/sagemaker-studio-hugging-face-integration/",
-      "summary": "Amazon SageMaker Studio now supports direct integration from Hugging Face, letting you go from discovering a model to working with it inside a fully configured Studio environment in a single click. Select any supported...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-06T20:30:00.000Z"
-    },
-    {
       "id": "google-cloud-blog-shift-into-high-gear-with-agents-securing-the-software-defined-vehicle-2",
       "title": "Shift into high gear with agents: Securing the software-defined vehicle",
       "link": "https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/",
@@ -448,6 +491,17 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-07-06T16:00:00.000Z"
+    },
+    {
+      "id": "the-register-microsoft-says-the-world-is-changing-faster-than-it-can-keep-up-as-it-guts-co",
+      "title": "Microsoft says the world is changing faster than it can keep up as it guts commercial, Xbox teams",
+      "link": "https://www.theregister.com/software/2026/07/06/microsoft-says-the-world-is-changing-faster-than-it-can-keep-up-as-it-guts-commercial-xbox-teams/5267032",
+      "summary": "Xbox chief says company can't afford to mistake longevity for inevitability",
+      "image": "https://image.theregister.com/?imageId=5267091&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-06T15:58:24.000Z"
     },
     {
       "id": "hugging-face-blog-prx-part-4-our-data-strategy-2026-07-06t15-30-55-000z",
@@ -483,6 +537,17 @@
       "publishedAt": "2026-07-06T12:00:00.000Z"
     },
     {
+      "id": "the-register-apprentice-developer-defied-orders-then-got-a-job-supporting-her-weird-code-2",
+      "title": "Apprentice developer defied orders – then got a job supporting her weird code",
+      "link": "https://www.theregister.com/software/2026/07/06/apprentice-developer-defied-orders-then-got-a-job-supporting-her-weird-code/5266330",
+      "summary": "Who wrote this rubbish? Oh ...",
+      "image": "https://image.theregister.com/?imageId=5266369&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-06T07:36:00.000Z"
+    },
+    {
       "id": "spring-blog-a-new-home-for-spring-cloud-contract-transitioning-to-stubborn-sh-2026-07-06t0",
       "title": "A New Home for Spring Cloud Contract: Transitioning to Stubborn.sh",
       "link": "https://spring.io/blog/2026/07/06/spring-cloud-contract-transition-to-stubbornsh",
@@ -516,6 +581,28 @@
       "publishedAt": "2026-07-06T00:00:00.000Z"
     },
     {
+      "id": "the-register-failed-blockchain-project-ends-with-big-fine-for-fibs-about-it-being-on-track",
+      "title": "Failed blockchain project ends with big fine for fibs about it being on track",
+      "link": "https://www.theregister.com/software/2026/07/03/failed-blockchain-project-ends-with-big-fine-for-fibs-about-it-being-on-track/5266297",
+      "summary": "A final humiliation for Australia’s Securities Exchange and its attempts to run a bourse on distributed ledgers",
+      "image": "https://image.theregister.com/?imageId=223353&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-03T04:35:52.000Z"
+    },
+    {
+      "id": "the-register-vim-text-editor-game-teaches-you-keyboard-shortcuts-with-ice-cream-delivery-2",
+      "title": "Vim text editor game teaches you keyboard shortcuts with ice cream delivery",
+      "link": "https://www.theregister.com/software/2026/07/02/vim-text-editor-game-teaches-you-keyboard-shortcuts-with-ice-cream-delivery/5265940",
+      "summary": "Browser game teaches Vim's famously unintuitive movement commands to keep your hands on the keyboard",
+      "image": "https://image.theregister.com/?imageId=250384&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-02T16:28:00.000Z"
+    },
+    {
       "id": "github-blog-how-github-used-secret-scanning-to-reach-inbox-zero-2026-07-02t16-00-00-000z",
       "title": "How GitHub used secret scanning to reach inbox zero",
       "link": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
@@ -525,94 +612,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-02T16:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-herdr-one-terminal-to-rule-them-all-2026-07-02t04-28-39-000z",
-      "title": "Herdr: One terminal to rule them all",
-      "link": "https://herdr.dev/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-02T04:28:39.000Z"
-    },
-    {
-      "id": "inside-java-simd-vectors-in-the-hotspot-jvm-auto-vectorization-and-the-vector-api-2026-07",
-      "title": "SIMD Vectors in the HotSpot JVM - Auto Vectorization and the Vector API",
-      "link": "https://inside.java/2026/07/02/simd-vectors-hotspot-jvm/",
-      "summary": "Explore the latest work on the HotSpot JVM, with a focus on auto-vectorization and the Vector API.",
-      "image": "",
-      "source": "Inside Java",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-07-02T00:00:00.000Z"
-    },
-    {
-      "id": "spring-blog-a-bootiful-podcast-s-bastien-deleuze-on-the-latest-and-greatest-in-spring-ai-a",
-      "title": "A Bootiful Podcast: Sébastien Deleuze on the latest-and-greatest in Spring AI and Spring Framework",
-      "link": "https://spring.io/blog/2026/07/02/a-bootiful-podcast-sebastien-deleuze",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-07-02T00:00:00.000Z"
-    },
-    {
-      "id": "github-blog-6-security-settings-every-github-maintainer-should-enable-this-week-2026-07-01",
-      "title": "6 security settings every GitHub maintainer should enable this week",
-      "link": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
-      "summary": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before. The post...",
-      "image": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-30-at-3.28.09-PM.png?resize=1024%2C374",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-01T15:59:29.000Z"
-    },
-    {
-      "id": "hugging-face-blog-hugging-face-and-cerebras-bring-gemma-4-to-real-time-voice-ai-2026-07-01",
-      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-07-01T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-scarfbench-benchmarking-ai-agents-for-enterprise-java-framework-migratio",
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-30T18:32:50.000Z"
-    },
-    {
-      "id": "github-blog-how-github-maintains-compliance-for-open-source-dependencies-2026-06-30t17-28",
-      "title": "How GitHub maintains compliance for open source dependencies",
-      "link": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
-      "summary": "Explore how the Open Source Program Office uses GitHub’s new license compliance product to manage open source dependencies at scale. The post How GitHub maintains compliance for open source dependencies appeared first o...",
-      "image": "https://github.blog/wp-content/uploads/2026/06/613757407-388b97bc-ca84-416a-aac5-72e4924e5dc8.png?resize=936%2C504",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-06-30T17:28:16.000Z"
-    },
-    {
-      "id": "hugging-face-blog-why-specialization-is-inevitable-2026-06-30t14-39-11-000z",
-      "title": "Why Specialization Is Inevitable",
-      "link": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-06-30T14:39:11.000Z"
     }
   ]
 }
