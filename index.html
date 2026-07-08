@@ -487,6 +487,7 @@
         <a href="/discover">News</a>
         <a href="/legends">Legends</a>
         <a href="/stories">Stories</a>
+        <a href="/bhakti">Bhakti</a>
         <a href="/games">Games</a>
         <a href="/calci">Tools</a>
         <a href="/learn">Learn AI</a>
@@ -542,6 +543,11 @@
 
       <section class="rail" id="railStories">
         <div class="rail-head"><h2>🌟 Legends</h2><a href="/legends">See all →</a></div>
+        <div class="rail-wrap"><div class="rail-track"></div></div>
+      </section>
+
+      <section class="rail" id="railBhakti">
+        <div class="rail-head"><h2>🕉️ Bhakti</h2><a href="/bhakti">See all →</a></div>
         <div class="rail-wrap"><div class="rail-track"></div></div>
       </section>
 
@@ -782,6 +788,15 @@
       posterTile("/legends/br-ambedkar", "⚖️", "Dr. B.R. Ambedkar", "linear-gradient(160deg,#312e81,#1e1b4b)"),
       posterTile("/legends/sardar-patel", "🤝", "Sardar Patel", "linear-gradient(160deg,#065f46,#022c22)"),
       posterTile("/legends/martin-luther-king", "🎤", "Martin Luther King Jr.", "linear-gradient(160deg,#7f1d1d,#450a0a)")
+    ].join(""));
+
+    fillRail("railBhakti", [
+      posterTile("/bhakti/temple/tirumala/", "🛕", "Tirumala", "linear-gradient(160deg,#b45309,#451a03)"),
+      posterTile("/bhakti/god/ganesha/", "🕉️", "Lord Ganesha", "linear-gradient(160deg,#9a3412,#431407)"),
+      posterTile("/bhakti/god/shiva/", "🔱", "Lord Shiva", "linear-gradient(160deg,#1e3a8a,#172554)"),
+      posterTile("/bhakti/temple/kashi-vishwanath/", "🛕", "Kashi Vishwanath", "linear-gradient(160deg,#78350f,#292524)"),
+      posterTile("/bhakti/god/hanuman/", "🚩", "Lord Hanuman", "linear-gradient(160deg,#b91c1c,#450a0a)"),
+      posterTile("/bhakti/temple/ayodhya-ram-mandir/", "🛕", "Ram Mandir", "linear-gradient(160deg,#d97706,#78350f)")
     ].join(""));
 
     fillRail("railStoryTime", [
