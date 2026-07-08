@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T12:08:22.915Z",
+  "updatedAt": "2026-07-08T14:36:44.112Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,11 +58,78 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
+    {
+      "id": "infoq-airbnb-shares-architecture-behind-sitar-agent-dynamic-configuration-sidecar-for-kube",
+      "title": "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services",
+      "link": "https://www.infoq.com/news/2026/07/sitar-agent-sidecar-config/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Airbnb engineers detailed Sitar-agent, a Kubernetes sidecar for dynamic configuration delivery across tens of thousands of pods, processing updates several times per minute. The system was redesigned with Java, Amazon S...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-08T14:25:00.000Z"
+    },
+    {
+      "id": "hacker-news-mistral-s-robostral-navigate-a-state-of-the-art-robotics-navigation-model-2026",
+      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
+      "link": "https://mistral.ai/news/robostral-navigate/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-08T14:09:17.000Z"
+    },
+    {
+      "id": "infoq-presentation-the-multi-agent-approach-building-reliable-and-controllable-software-de",
+      "title": "Presentation: The Multi-Agent Approach: Building Reliable and Controllable Software Development Automation",
+      "link": "https://www.infoq.com/presentations/multi-agent-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Itamar Friedman discusses how architects and engineering leaders can break through the AI productivity ceiling using adaptive multi-agent systems. He shares insights on moving past simple autocomplete to resilient workf...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-08T14:06:00.000Z"
+    },
+    {
+      "id": "hacker-news-us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food-20",
+      "title": "US Food and Drug Administration rejects petition to set PFAS limits in food",
+      "link": "https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-08T13:35:59.000Z"
+    },
+    {
+      "id": "google-cloud-blog-meet-the-33-cybersecurity-startups-joining-the-gemini-startup-forum-2026",
+      "title": "Meet the 33 cybersecurity startups joining the Gemini Startup Forum",
+      "link": "https://cloud.google.com/blog/products/identity-security/meet-the-33-cybersecurity-startups-joining-the-gemini-startup-forum/",
+      "summary": "Startups are at the forefront of tackling some of the world’s most complex challenges, especially in cybersecurity, where new ideas and adaptability are always needed. These companies are embracing AI as a powerful tool...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-08T13:30:00.000Z"
+    },
+    {
+      "id": "hacker-news-cloudflare-meerkat-globally-distributed-consensus-2026-07-08t13-18-03-000z",
+      "title": "Cloudflare Meerkat - Globally distributed consensus",
+      "link": "https://blog.cloudflare.com/meerkat-introduction/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-08T13:18:03.000Z"
+    },
     {
       "id": "hacker-news-apple-to-increase-spend-with-broadcom-to-produce-billions-more-u-s-chips-2026",
       "title": "Apple to increase spend with Broadcom to produce billions more U.S. chips",
@@ -75,28 +142,6 @@
       "publishedAt": "2026-07-08T11:30:56.000Z"
     },
     {
-      "id": "the-register-another-german-state-heads-down-the-open-source-sovereignty-road-2026-07-08t1",
-      "title": "Another German state heads down the open source sovereignty road",
-      "link": "https://www.theregister.com/software/2026/07/08/another-german-state-heads-down-the-open-source-sovereignty-road/5268192",
-      "summary": "Mecklenburg-Vorpommern ditches SharePoint while Bavaria also mulls Microsoft alternatives",
-      "image": "https://image.theregister.com/?imageId=5268244&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-08T10:03:33.000Z"
-    },
-    {
-      "id": "the-register-home-office-s-glitchy-evisa-rollout-lands-uk-privacy-regulator-in-campaigners",
-      "title": "Home Office's glitchy eVisa rollout lands UK privacy regulator in campaigners' crosshairs",
-      "link": "https://www.theregister.com/software/2026/07/08/home-offices-glitchy-evisa-rollout-lands-uk-privacy-regulator-in-campaigners-crosshairs/5267712",
-      "summary": "Coalition says ICO failed to act despite hundreds of complaints about bug-plagued digital immigration status scheme",
-      "image": "https://image.theregister.com/?imageId=5239796&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-08T09:15:00.000Z"
-    },
-    {
       "id": "hacker-news-decoding-the-obfuscated-bash-script-on-a-uniqlo-t-shirt-2026-07-08t08-46-06-00",
       "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
       "link": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
@@ -106,17 +151,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-08T08:46:06.000Z"
-    },
-    {
-      "id": "hacker-news-geosql-a-claude-codex-skill-for-geospatial-data-2026-07-08t08-37-26-000z",
-      "title": "Geosql: A Claude/Codex skill for geospatial data",
-      "link": "https://github.com/dekart-xyz/geosql",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-08T08:37:26.000Z"
     },
     {
       "id": "hacker-news-gitlost-we-tricked-github-s-ai-agent-into-leaking-private-repos-2026-07-08t05",
@@ -141,28 +175,6 @@
       "publishedAt": "2026-07-08T03:59:35.000Z"
     },
     {
-      "id": "hacker-news-copy-that-floppy-cambridge-guide-for-preserving-data-from-fragile-floppy-disks",
-      "title": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks",
-      "link": "https://www.digipres.org/the-floppy-guide/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-08T03:22:31.000Z"
-    },
-    {
-      "id": "hacker-news-tenda-firmware-multiple-versions-contains-hidden-authentication-backdoor-2026",
-      "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
-      "link": "https://kb.cert.org/vuls/id/213560",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-08T00:08:51.000Z"
-    },
-    {
       "id": "aws-what-s-new-amazon-gamelift-streams-introduces-secure-terminal-access-for-stream-sessio",
       "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/",
@@ -183,17 +195,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-07T21:15:33.000Z"
-    },
-    {
-      "id": "the-register-avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay-2026-0",
-      "title": "Avoid AI atrophy – new tool promises to reverse vibe coding skills decay",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/07/avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay/5267913",
-      "summary": "Want big muscles? Keep working out. Want big coding skillsets? Flex your dev skills with the Atrophy CLI app before they wither away",
-      "image": "https://image.theregister.com/?imageId=5224005&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-07T20:21:35.000Z"
     },
     {
       "id": "infoq-switching-from-postgresql-to-clickhouse-for-improved-performance-and-scalability-202",
@@ -273,17 +274,6 @@
       "publishedAt": "2026-07-07T17:00:00.000Z"
     },
     {
-      "id": "the-register-new-tool-gives-clis-a-warm-and-gui-feeling-instead-2026-07-07t16-30-00-000z",
-      "title": "New tool gives CLIs a warm and GUI feeling instead",
-      "link": "https://www.theregister.com/software/2026/07/07/new-tool-gives-clis-a-warm-and-gui-feeling-instead/5267798",
-      "summary": "Fed up with forgetting flags? Let Instagui read --help output and build a browser GUI instead",
-      "image": "https://image.theregister.com/?imageId=5237244&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-07T16:30:00.000Z"
-    },
-    {
       "id": "aws-what-s-new-amazon-redshift-rg-instances-now-available-in-aws-govcloud-us-regions-2026",
       "title": "Amazon Redshift RG instances now available in AWS GovCloud (US) Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-instances-aws-govcloud",
@@ -359,17 +349,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-07T16:00:00.000Z"
-    },
-    {
-      "id": "the-register-court-tosses-microsoft-s-appeal-in-pre-owned-software-licenses-battle-2026-07",
-      "title": "Court tosses Microsoft's appeal in pre-owned software licenses battle",
-      "link": "https://www.theregister.com/software/2026/07/07/court-tosses-microsofts-appeal-in-pre-owned-software-licenses-battle/5267742",
-      "summary": "ValueLicensing celebrates while Redmond considers next steps",
-      "image": "https://image.theregister.com/?imageId=1683836&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-07T15:28:04.000Z"
     },
     {
       "id": "hugging-face-blog-hugging-face-models-on-foundry-managed-compute-2026-07-07t15-20-06-000z",
@@ -515,28 +494,6 @@
       "publishedAt": "2026-07-06T23:30:00.000Z"
     },
     {
-      "id": "google-cloud-blog-shift-into-high-gear-with-agents-securing-the-software-defined-vehicle-2",
-      "title": "Shift into high gear with agents: Securing the software-defined vehicle",
-      "link": "https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/",
-      "summary": "The automotive industry is at a pivotal crossroads as it hits the gas on adopting new technology. The era of the traditional connected vehicle has shifted into the age of the software-defined vehicle (SDV), notable for...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-06T16:00:00.000Z"
-    },
-    {
-      "id": "the-register-microsoft-says-the-world-is-changing-faster-than-it-can-keep-up-as-it-guts-co",
-      "title": "Microsoft says the world is changing faster than it can keep up as it guts commercial, Xbox teams",
-      "link": "https://www.theregister.com/software/2026/07/06/microsoft-says-the-world-is-changing-faster-than-it-can-keep-up-as-it-guts-commercial-xbox-teams/5267032",
-      "summary": "Xbox chief says company can't afford to mistake longevity for inevitability",
-      "image": "https://image.theregister.com/?imageId=5267091&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-06T15:58:24.000Z"
-    },
-    {
       "id": "hugging-face-blog-prx-part-4-our-data-strategy-2026-07-06t15-30-55-000z",
       "title": "PRX Part 4: Our Data Strategy",
       "link": "https://huggingface.co/blog/Photoroom/prx-part4-data",
@@ -546,39 +503,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-06T15:30:55.000Z"
-    },
-    {
-      "id": "infoq-netflix-cuts-cassandra-read-latency-from-seconds-to-milliseconds-with-dynamic-partit",
-      "title": "Netflix Cuts Cassandra Read Latency from Seconds to Milliseconds with Dynamic Partition Splitting",
-      "link": "https://www.infoq.com/news/2026/07/netflix-cassandra-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Netflix engineers introduced dynamic partition splitting for Cassandra to address wide partitions in time series workloads. The metadata-driven approach detects oversized partitions, splits them smaller units, and route...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-06T14:24:00.000Z"
-    },
-    {
-      "id": "infoq-infoq-opens-ai-security-privacy-engineering-cohort-for-regulated-industries-2026-07",
-      "title": "InfoQ Opens AI Security & Privacy Engineering Cohort for Regulated Industries",
-      "link": "https://www.infoq.com/news/2026/07/online-cohort-ai-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "InfoQ has opened enrollment for a five-week AI Security & Privacy Engineering cohort for senior engineers and architects in regulated industries, focused on applying security, privacy, threat modeling, observability, an...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-06T12:00:00.000Z"
-    },
-    {
-      "id": "the-register-apprentice-developer-defied-orders-then-got-a-job-supporting-her-weird-code-2",
-      "title": "Apprentice developer defied orders – then got a job supporting her weird code",
-      "link": "https://www.theregister.com/software/2026/07/06/apprentice-developer-defied-orders-then-got-a-job-supporting-her-weird-code/5266330",
-      "summary": "Who wrote this rubbish? Oh ...",
-      "image": "https://image.theregister.com/?imageId=5266369&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-06T07:36:00.000Z"
     },
     {
       "id": "spring-blog-a-new-home-for-spring-cloud-contract-transitioning-to-stubborn-sh-2026-07-06t0",
@@ -612,6 +536,83 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-06T00:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-eve-online-s-carbon-engine-is-now-open-source-fenris-creations-explains-why-20",
+      "title": "EVE Online's Carbon engine is now open source: Fenris Creations explains why",
+      "link": "https://www.gamesindustry.biz/eve-onlines-carbon-engine-is-now-open-source-fenris-creations-explains-why",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-03T21:46:07.000Z"
+    },
+    {
+      "id": "github-blog-how-github-used-secret-scanning-to-reach-inbox-zero-2026-07-02t16-00-00-000z",
+      "title": "How GitHub used secret scanning to reach inbox zero",
+      "link": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+      "summary": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months. The post How GitHub used secret scanni...",
+      "image": "",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-02T16:00:00.000Z"
+    },
+    {
+      "id": "inside-java-simd-vectors-in-the-hotspot-jvm-auto-vectorization-and-the-vector-api-2026-07",
+      "title": "SIMD Vectors in the HotSpot JVM - Auto Vectorization and the Vector API",
+      "link": "https://inside.java/2026/07/02/simd-vectors-hotspot-jvm/",
+      "summary": "Explore the latest work on the HotSpot JVM, with a focus on auto-vectorization and the Vector API.",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "spring-blog-a-bootiful-podcast-s-bastien-deleuze-on-the-latest-and-greatest-in-spring-ai-a",
+      "title": "A Bootiful Podcast: Sébastien Deleuze on the latest-and-greatest in Spring AI and Spring Framework",
+      "link": "https://spring.io/blog/2026/07/02/a-bootiful-podcast-sebastien-deleuze",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "id": "github-blog-6-security-settings-every-github-maintainer-should-enable-this-week-2026-07-01",
+      "title": "6 security settings every GitHub maintainer should enable this week",
+      "link": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
+      "summary": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before. The post...",
+      "image": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-30-at-3.28.09-PM.png?resize=1024%2C374",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-01T15:59:29.000Z"
+    },
+    {
+      "id": "hugging-face-blog-hugging-face-and-cerebras-bring-gemma-4-to-real-time-voice-ai-2026-07-01",
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-scarfbench-benchmarking-ai-agents-for-enterprise-java-framework-migratio",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-06-30T18:32:50.000Z"
     }
   ]
 }
