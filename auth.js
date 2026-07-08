@@ -260,6 +260,12 @@
   }
 
 
+
+  /* PWA service worker */
+  if ("serviceWorker" in navigator && location.hostname.endsWith("abhishekmuthyam.com")) {
+    navigator.serviceWorker.register("/sw.js").catch(() => {});
+  }
+
   /* pageview beacon (own analytics, no cookies, path only) */
   if (location.hostname.endsWith("abhishekmuthyam.com")) {
     try {
