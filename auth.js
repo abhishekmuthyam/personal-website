@@ -259,6 +259,19 @@
     renderNav();
   }
 
+
+  /* pageview beacon (own analytics, no cookies, path only) */
+  if (location.hostname.endsWith("abhishekmuthyam.com")) {
+    try {
+      fetch("https://utupbf34kyhnib5zie4s4ismai0lttex.lambda-url.ap-south-1.on.aws/", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ p: location.pathname }),
+        keepalive: true
+      }).catch(() => {});
+    } catch {}
+  }
+
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);
   } else {
