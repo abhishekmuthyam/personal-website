@@ -486,6 +486,7 @@
         <a href="/watch">Watch</a>
         <a href="/discover">News</a>
         <a href="/legends">Legends</a>
+        <a href="/stories">Stories</a>
         <a href="/games">Games</a>
         <a href="/calci">Tools</a>
         <a href="/learn">Learn AI</a>
@@ -541,6 +542,11 @@
 
       <section class="rail" id="railStories">
         <div class="rail-head"><h2>🌟 Legends</h2><a href="/legends">See all →</a></div>
+        <div class="rail-wrap"><div class="rail-track"></div></div>
+      </section>
+
+      <section class="rail" id="railStoryTime">
+        <div class="rail-head"><h2>📖 Stories</h2><a href="/stories">See all →</a></div>
         <div class="rail-wrap"><div class="rail-track"></div></div>
       </section>
 
@@ -776,6 +782,13 @@
       posterTile("/legends/br-ambedkar", "⚖️", "Dr. B.R. Ambedkar", "linear-gradient(160deg,#312e81,#1e1b4b)"),
       posterTile("/legends/sardar-patel", "🤝", "Sardar Patel", "linear-gradient(160deg,#065f46,#022c22)"),
       posterTile("/legends/martin-luther-king", "🎤", "Martin Luther King Jr.", "linear-gradient(160deg,#7f1d1d,#450a0a)")
+    ].join(""));
+
+    fillRail("railStoryTime", [
+      posterTile("/stories/kids/", "🧒", "Kids Stories", "linear-gradient(160deg,#7c3aed,#312e81)"),
+      posterTile("/stories/youth/", "🚀", "Youth Stories", "linear-gradient(160deg,#0ea5e9,#1e3a6d)"),
+      posterTile("/stories/work-life/", "💼", "Work & Life", "linear-gradient(160deg,#d97706,#78350f)"),
+      posterTile("/stories/golden-years/", "🌅", "Golden Years", "linear-gradient(160deg,#0d9488,#134e4a)")
     ].join(""));
 
     fillRail("railNutrition", [
