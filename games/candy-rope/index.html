@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Candy Rope</title>
+  <meta name="description" content="Cut the ropes, catch the stars, feed hungry little Momo">
+  <link rel="canonical" href="https://abhishekmuthyam.com/games/candy-rope/">
+  <meta property="og:title" content="Candy Rope">
+  <meta property="og:description" content="Cut the ropes, catch the stars, feed hungry little Momo">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abhishekmuthyam.com/games/candy-rope/">
+  <meta property="og:image" content="https://abhishekmuthyam.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#060913">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: #0b0b0f; color: #f8fafc; min-height: 100vh; text-align: center; }
+    header { padding: 18px 20px; display: flex; justify-content: space-between; max-width: 900px; margin: 0 auto; }
+    header a { color: #a5b4fc; text-decoration: none; font-weight: 600; font-size: 14px; }
+    h1 { font-size: 26px; margin: 4px 0 6px; }
+    .tag { color: #94a3b8; font-size: 14px; margin: 0 0 18px; }
+    .game-shell { max-width: 520px; margin: 0 auto 30px; padding: 0 14px; }
+    .panel { background: #15151d; border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 18px; box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
+    .hud { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 14px; font-weight: 700; font-size: 13px; color: #94a3b8; }
+    .hud b { color: #fff; font-size: 17px; display: block; }
+    button { border: none; border-radius: 10px; background: #7c3aed; color: white; cursor: pointer; font-weight: 700; font-family: inherit; padding: 12px 20px; font-size: 15px; }
+    button:active { transform: scale(0.97); }
+    #msg { min-height: 22px; font-weight: 700; margin: 12px 0 4px; }
+    .lb { max-width: 520px; margin: 0 auto 40px; padding: 0 14px; text-align: left; }
+    .lb h2 { font-size: 16px; text-align: center; }
+    .lb ol { list-style: none; padding: 0; margin: 0; }
+    .lb li { display: flex; justify-content: space-between; padding: 7px 4px; border-bottom: 1px solid rgba(255,255,255,0.07); color: #cbd5e1; font-size: 14px; }
+    .lb li span:last-child { font-weight: 700; color: #fff; }
+    .lb-note { color: #64748b; font-size: 12px; text-align: center; margin-top: 8px; }
+    canvas { width: 100%; border-radius: 14px; display: block; touch-action: none; cursor: crosshair; }
+    .top-row { display: flex; gap: 10px; margin-top: 12px; }
+    .top-row button { flex: 1; }
+    .mute-btn { background: #1f2937 !important; flex: 0 0 60px !important; }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/games">&larr; Games</a>
+  <a href="/">Home</a>
+</header>
+<div class="game-shell">
+  <h1>Candy Rope</h1>
+  <p class="tag">Cut the ropes, catch the stars, feed hungry little Momo</p>
+  <div class="panel">
+    <div class="hud"><span>Level<b id="level">1</b></span><span>Stars<b id="stars">⭐ 0</b></span><span>Best<b id="best">0</b></span></div>
+    <canvas id="cv" width="480" height="600"></canvas>
+    <p id="msg">Swipe across a rope to cut it. Feed the candy to Momo!</p>
+    <div class="top-row">
+      <button onclick="retryLevel()">↺ Retry Level</button>
+      <button class="mute-btn" id="muteBtn">🔊</button>
+    </div>
+  </div>
+</div>
+<div class="lb">
+  <h2>🌍 Global Top 10</h2>
+  <ol id="lbList"><li><span>Loading...</span><span></span></li></ol>
+  <p class="lb-note" id="lbNote"></p>
+</div>
+<script>
+const LEADERBOARD_URL = "https://zsxujdnvqodtnhxwxbvbucsp7q0gqpbg.lambda-url.ap-south-1.on.aws/";
+const GAME_ID = "candy-rope";
+async function loadLeaderboard() {
+  const list = document.getElementById("lbList");
+  try {
+    const res = await fetch(LEADERBOARD_URL + "?game=" + GAME_ID);
+    const data = await res.json();
+    if (!data.top || !data.top.length) { list.innerHTML = "<li><span>No scores yet — be the first!</span><span></span></li>"; return; }
+    list.innerHTML = data.top.map((e, i) => {
+      const n = e.name.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+      return "<li><span>" + (i+1) + ". " + n + "</span><span>" + e.score + "</span></li>";
+    }).join("");
+  } catch { list.innerHTML = "<li><span>Leaderboard unavailable</span><span></span></li>"; }
+}
+async function submitScore(score) {
+  if (score <= 0) return;
+  let playerName = localStorage.getItem("playerName");
+  if (!playerName) {
+    playerName = (prompt("Enter your name for the global leaderboard:") || "").trim().slice(0, 20);
+    if (!playerName) return;
+    localStorage.setItem("playerName", playerName);
+  }
+  try {
+    await fetch(LEADERBOARD_URL, { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ game: GAME_ID, name: playerName, score }) });
+    document.getElementById("lbNote").innerText = "Score submitted as " + playerName + "!";
+    loadLeaderboard();
+  } catch { document.getElementById("lbNote").innerText = "Could not submit score"; }
+}
+loadLeaderboard();
+
+/* ============ Candy Rope — verlet rope physics ============ */
+const cv = document.getElementById("cv"), ctx = cv.getContext("2d");
+const W = 480, H = 600;
+const GRAV = 0.42, FRICTION = 0.992, ITER = 10;
+
+let points, sticks, candy, stars, bubbles, monster, levelIdx = 0, totalStars = 0, levelStars = 0;
+let eating = 0, done = false, frames = 0, particles = [], sparkles = [];
+let best = Number(localStorage.getItem("bestCandyRope")) || 0;
+document.getElementById("best").innerText = "⭐ " + best;
+
+/* ---------- sound ---------- */
+let ac, muted = localStorage.getItem("candyMute") === "1";
+document.getElementById("muteBtn").innerText = muted ? "🔇" : "🔊";
+document.getElementById("muteBtn").onclick = () => {
+  muted = !muted;
+  localStorage.setItem("candyMute", muted ? "1" : "0");
+  document.getElementById("muteBtn").innerText = muted ? "🔇" : "🔊";
+};
+function tone(freq, dur, type, vol, delay, slide) {
+  if (muted) return;
+  try {
+    ac = ac || new (window.AudioContext || window.webkitAudioContext)();
+    if (ac.state === "suspended") ac.resume();
+    const o = ac.createOscillator(), g = ac.createGain();
+    o.type = type || "sine";
+    const t0 = ac.currentTime + (delay || 0);
+    o.frequency.setValueAtTime(freq, t0);
+    if (slide) o.frequency.exponentialRampToValueAtTime(slide, t0 + dur);
+    g.gain.setValueAtTime(vol || 0.15, t0);
+    g.gain.exponentialRampToValueAtTime(0.001, t0 + dur);
+    o.connect(g); g.connect(ac.destination);
+    o.start(t0); o.stop(t0 + dur + 0.02);
+  } catch (e) {}
+}
+const sndSnip = () => { tone(1900, 0.07, "square", 0.14, 0, 500); tone(120, 0.05, "triangle", 0.1, 0.01); };
+const sndStar = () => { tone(880, 0.1, "sine", 0.16); tone(1320, 0.16, "sine", 0.16, 0.07); };
+const sndGulp = () => { tone(420, 0.16, "sine", 0.2, 0, 90); tone(90, 0.12, "sine", 0.22, 0.1); };
+const sndJingle = () => { [523, 659, 784, 1047].forEach((f, i) => tone(f, 0.14, "triangle", 0.15, i * 0.09)); };
+const sndFail = () => { tone(360, 0.22, "sawtooth", 0.12, 0, 140); tone(140, 0.3, "sawtooth", 0.1, 0.15, 70); };
+const sndPop = () => tone(600, 0.06, "square", 0.15, 0, 1500);
+
+/* ---------- levels ---------- */
+const LEVELS = [
+  { ropes: [{ px: 240, py: 70, n: 9 }], candy: { x: 240, y: 250 },
+    stars: [{ x: 240, y: 330 }, { x: 240, y: 410 }, { x: 240, y: 470 }],
+    bubbles: [], monster: { x: 240, y: 540 } },
+  { ropes: [{ px: 120, py: 70, n: 9 }], candy: { x: 200, y: 240 },
+    stars: [{ x: 265, y: 330 }, { x: 330, y: 410 }, { x: 355, y: 470 }],
+    bubbles: [], monster: { x: 370, y: 535 } },
+  { ropes: [{ px: 140, py: 70, n: 8 }, { px: 340, py: 70, n: 8 }], candy: { x: 240, y: 220 },
+    stars: [{ x: 240, y: 320 }, { x: 165, y: 400 }, { x: 240, y: 470 }],
+    bubbles: [], monster: { x: 240, y: 545 } },
+  { ropes: [{ px: 360, py: 70, n: 10 }], candy: { x: 280, y: 260 },
+    stars: [{ x: 200, y: 350 }, { x: 140, y: 420 }, { x: 105, y: 470 }],
+    bubbles: [], monster: { x: 105, y: 540 } },
+  { ropes: [{ px: 240, py: 70, n: 8 }], candy: { x: 240, y: 230 },
+    stars: [{ x: 300, y: 300 }, { x: 350, y: 220 }, { x: 390, y: 140 }],
+    bubbles: [{ x: 300, y: 330 }], monster: { x: 400, y: 95 } },
+  { ropes: [{ px: 90, py: 70, n: 8 }, { px: 240, py: 60, n: 10 }, { px: 390, py: 70, n: 8 }],
+    candy: { x: 240, y: 250 },
+    stars: [{ x: 150, y: 350 }, { x: 240, y: 420 }, { x: 330, y: 350 }],
+    bubbles: [], monster: { x: 240, y: 545 } },
+  { ropes: [{ px: 130, py: 70, n: 9 }], candy: { x: 210, y: 250 },
+    stars: [{ x: 300, y: 330 }, { x: 360, y: 240 }, { x: 300, y: 140 }],
+    bubbles: [{ x: 330, y: 360 }], monster: { x: 240, y: 100 } },
+  { ropes: [{ px: 70, py: 80, n: 11 }], candy: { x: 190, y: 290 },
+    stars: [{ x: 290, y: 400 }, { x: 370, y: 450 }, { x: 420, y: 500 }],
+    bubbles: [], monster: { x: 430, y: 555 } },
+];
+
+function loadLevel(i) {
+  const L = LEVELS[i];
+  points = []; sticks = []; levelStars = 0; eating = 0;
+  candy = { x: L.candy.x, y: L.candy.y, px: L.candy.x, py: L.candy.y, inv: 0.38, bubble: null };
+  points.push(candy);
+  L.ropes.forEach(r => {
+    const pin = { x: r.px, y: r.py, px: r.px, py: r.py, inv: 0 };
+    points.push(pin);
+    let prev = pin;
+    const dx = (L.candy.x - r.px) / r.n, dy = (L.candy.y - r.py) / r.n;
+    const segLen = Math.hypot(dx, dy) * 1.02;
+    for (let k = 1; k < r.n; k++) {
+      const p = { x: r.px + dx * k, y: r.py + dy * k, px: r.px + dx * k, py: r.py + dy * k, inv: 1 };
+      points.push(p);
+      sticks.push({ a: prev, b: p, len: segLen, cut: false });
+      prev = p;
+    }
+    sticks.push({ a: prev, b: candy, len: segLen, cut: false });
+  });
+  stars = L.stars.map(s => ({ x: s.x, y: s.y, got: false }));
+  bubbles = L.bubbles.map(b => ({ x: b.x, y: b.y, r: 34, popped: false }));
+  monster = { x: L.monster.x, y: L.monster.y, mouth: 0 };
+  document.getElementById("level").innerText = (i + 1);
+  hud();
+  document.getElementById("msg").innerText = i === 0 ? "Swipe across the rope to cut it!" : "";
+}
+function hud() {
+  document.getElementById("stars").innerText = "⭐ " + (totalStars + levelStars);
+}
+function retryLevel() { if (!done) { loadLevel(levelIdx); } }
+
+/* ---------- physics ---------- */
+function step() {
+  // candy in bubble floats
+  points.forEach(p => {
+    if (p.inv === 0) return;
+    const vx = (p.x - p.px) * FRICTION, vy = (p.y - p.py) * FRICTION;
+    p.px = p.x; p.py = p.y;
+    p.x += vx;
+    p.y += vy + (p === candy && p.bubble ? -0.30 : GRAV) * (p.inv === 1 ? 1 : 0.9);
+  });
+  for (let it = 0; it < ITER; it++) {
+    sticks.forEach(s => {
+      if (s.cut) return;
+      let dx = s.b.x - s.a.x, dy = s.b.y - s.a.y;
+      const d = Math.hypot(dx, dy) || 0.001;
+      const diff = (d - s.len) / d;
+      const wa = s.a.inv / (s.a.inv + s.b.inv || 1), wb = s.b.inv / (s.a.inv + s.b.inv || 1);
+      if (s.a.inv) { s.a.x += dx * diff * wa; s.a.y += dy * diff * wa; }
+      if (s.b.inv) { s.b.x -= dx * diff * wb; s.b.y -= dy * diff * wb; }
+    });
+  }
+  // bubble capture
+  bubbles.forEach(b => {
+    if (!b.popped && !candy.bubble && Math.hypot(candy.x - b.x, candy.y - b.y) < b.r) {
+      candy.bubble = b; sndPop();
+    }
+  });
+  if (candy.bubble) { candy.bubble.x = candy.x; candy.bubble.y = candy.y - 6; }
+  // stars
+  stars.forEach(s => {
+    if (!s.got && Math.hypot(candy.x - s.x, candy.y - s.y) < 30) {
+      s.got = true; levelStars++; hud(); sndStar();
+      for (let i = 0; i < 10; i++) sparkles.push({ x: s.x, y: s.y, vx: Math.random() * 4 - 2, vy: Math.random() * 4 - 2, life: 28 });
+    }
+  });
+  // monster eats
+  const md = Math.hypot(candy.x - monster.x, candy.y - monster.y);
+  monster.mouth += ((md < 120 ? 1 : 0.15) - monster.mouth) * 0.15;
+  if (md < 44 && eating === 0) {
+    eating = 1; sndGulp();
+    setTimeout(sndJingle, 250);
+    totalStars += levelStars; levelStars = 0; hud();
+    document.getElementById("msg").innerText = "😋 Nom nom! Level " + (levelIdx + 1) + " complete!";
+    setTimeout(() => {
+      levelIdx++;
+      if (levelIdx >= LEVELS.length) {
+        done = true;
+        document.getElementById("msg").innerText = "🎉 All levels done! Total: " + totalStars + " stars";
+        if (totalStars > best) { best = totalStars; localStorage.setItem("bestCandyRope", best); document.getElementById("best").innerText = "⭐ " + best; }
+        setTimeout(() => submitScore(totalStars), 80);
+      } else {
+        loadLevel(levelIdx);
+      }
+    }, 1100);
+  }
+  // fell off
+  if (candy.y > H + 40 && eating === 0) {
+    sndFail();
+    document.getElementById("msg").innerText = "💧 Momo is hungry... try again!";
+    setTimeout(() => loadLevel(levelIdx), 700);
+    candy.y = -999; eating = 2;
+  }
+}
+
+/* ---------- cutting ---------- */
+let lastPt = null;
+function segInt(p1, p2, p3, p4) {
+  const d = (p2.x - p1.x) * (p4.y - p3.y) - (p2.y - p1.y) * (p4.x - p3.x);
+  if (!d) return false;
+  const t = ((p3.x - p1.x) * (p4.y - p3.y) - (p3.y - p1.y) * (p4.x - p3.x)) / d;
+  const u = ((p3.x - p1.x) * (p2.y - p1.y) - (p3.y - p1.y) * (p2.x - p1.x)) / d;
+  return t >= 0 && t <= 1 && u >= 0 && u <= 1;
+}
+function bladeMove(cx, cy) {
+  const r = cv.getBoundingClientRect();
+  const x = (cx - r.left) / r.width * W, y = (cy - r.top) / r.height * H;
+  if (lastPt && !done && eating === 0) {
+    sticks.forEach(s => {
+      if (!s.cut && segInt(lastPt, { x, y }, s.a, s.b)) {
+        s.cut = true; sndSnip();
+        for (let i = 0; i < 6; i++) particles.push({ x: (s.a.x + s.b.x) / 2, y: (s.a.y + s.b.y) / 2, vx: Math.random() * 3 - 1.5, vy: Math.random() * 2 - 1, life: 20 });
+      }
+    });
+    // pop bubble by slicing it too
+    bubbles.forEach(b => {
+      if (!b.popped && candy.bubble === b && Math.hypot(x - b.x, y - b.y) < b.r + 6) {
+        b.popped = true; candy.bubble = null; sndPop();
+        for (let i = 0; i < 8; i++) sparkles.push({ x: b.x, y: b.y, vx: Math.random() * 5 - 2.5, vy: Math.random() * 5 - 2.5, life: 20 });
+      }
+    });
+  }
+  lastPt = { x, y };
+}
+cv.addEventListener("pointermove", e => bladeMove(e.clientX, e.clientY));
+cv.addEventListener("pointerdown", e => { lastPt = null; bladeMove(e.clientX, e.clientY); });
+cv.addEventListener("pointerleave", () => { lastPt = null; });
+
+/* ---------- render ---------- */
+function draw() {
+  frames++;
+  const bg = ctx.createLinearGradient(0, 0, 0, H);
+  bg.addColorStop(0, "#134e4a"); bg.addColorStop(1, "#042f2e");
+  ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H);
+  ctx.fillStyle = "rgba(255,255,255,0.04)";
+  for (let i = 0; i < 20; i++) ctx.fillRect((i * 97) % W, (i * 71) % H, 34, 34);
+
+  // pins
+  points.forEach(p => {
+    if (p.inv === 0) {
+      ctx.fillStyle = "#78350f";
+      ctx.beginPath(); ctx.arc(p.x, p.y, 9, 0, Math.PI * 2); ctx.fill();
+      ctx.fillStyle = "#fbbf24";
+      ctx.beginPath(); ctx.arc(p.x, p.y, 4, 0, Math.PI * 2); ctx.fill();
+    }
+  });
+  // ropes
+  ctx.strokeStyle = "#d6a35c"; ctx.lineWidth = 4.5; ctx.lineCap = "round";
+  sticks.forEach(s => {
+    if (s.cut) return;
+    ctx.beginPath(); ctx.moveTo(s.a.x, s.a.y); ctx.lineTo(s.b.x, s.b.y); ctx.stroke();
+  });
+  ctx.strokeStyle = "rgba(0,0,0,0.25)"; ctx.lineWidth = 1.5;
+  sticks.forEach(s => {
+    if (s.cut) return;
+    ctx.beginPath(); ctx.moveTo(s.a.x, s.a.y + 1.4); ctx.lineTo(s.b.x, s.b.y + 1.4); ctx.stroke();
+  });
+  // stars
+  stars.forEach(s => {
+    if (s.got) return;
+    const tw = 1 + 0.12 * Math.sin(frames / 9 + s.x);
+    ctx.save(); ctx.translate(s.x, s.y); ctx.scale(tw, tw);
+    ctx.shadowColor = "#fbbf24"; ctx.shadowBlur = 14;
+    ctx.fillStyle = "#fcd34d";
+    ctx.beginPath();
+    for (let i = 0; i < 10; i++) {
+      const ang = (Math.PI / 5) * i - Math.PI / 2, rr = i % 2 ? 7 : 16;
+      ctx.lineTo(Math.cos(ang) * rr, Math.sin(ang) * rr);
+    }
+    ctx.closePath(); ctx.fill();
+    ctx.restore(); ctx.shadowBlur = 0;
+  });
+  // bubbles
+  bubbles.forEach(b => {
+    if (b.popped) return;
+    ctx.strokeStyle = "rgba(147,197,253,0.85)"; ctx.lineWidth = 2.5;
+    ctx.fillStyle = "rgba(147,197,253,0.13)";
+    ctx.beginPath(); ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
+    ctx.strokeStyle = "rgba(255,255,255,0.7)";
+    ctx.beginPath(); ctx.arc(b.x - 9, b.y - 9, 9, Math.PI, Math.PI * 1.6); ctx.stroke();
+  });
+  // candy (glossy wrapped sweet)
+  if (eating < 2 && candy.y < H + 30) {
+    const g = ctx.createRadialGradient(candy.x - 5, candy.y - 5, 3, candy.x, candy.y, 16);
+    g.addColorStop(0, "#fff"); g.addColorStop(0.3, "#f472b6"); g.addColorStop(1, "#9d174d");
+    ctx.fillStyle = g;
+    ctx.beginPath(); ctx.arc(candy.x, candy.y, 15, 0, Math.PI * 2); ctx.fill();
+    ctx.strokeStyle = "rgba(255,255,255,0.75)"; ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.moveTo(candy.x - 14, candy.y - 5); ctx.quadraticCurveTo(candy.x, candy.y + 3, candy.x + 14, candy.y - 5); ctx.stroke();
+  }
+  // monster "Momo"
+  const m = monster;
+  ctx.save();
+  ctx.translate(m.x, m.y);
+  const g2 = ctx.createRadialGradient(-10, -12, 6, 0, 0, 42);
+  g2.addColorStop(0, "#a78bfa"); g2.addColorStop(1, "#5b21b6");
+  ctx.fillStyle = g2;
+  ctx.beginPath(); ctx.arc(0, 0, 38, 0, Math.PI * 2); ctx.fill();
+  // eyes track candy
+  const ex = Math.max(-4, Math.min(4, (candy.x - m.x) / 40)), ey = Math.max(-3, Math.min(3, (candy.y - m.y) / 50));
+  [[-13, -12], [13, -12]].forEach(([ox, oy]) => {
+    ctx.fillStyle = "#fff";
+    ctx.beginPath(); ctx.arc(ox, oy, 10, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = "#1e1b4b";
+    ctx.beginPath(); ctx.arc(ox + ex, oy + ey, 4.6, 0, Math.PI * 2); ctx.fill();
+  });
+  // mouth opens as candy nears
+  const open = 4 + m.mouth * 20;
+  ctx.fillStyle = "#3b0764";
+  ctx.beginPath(); ctx.ellipse(0, 13, 15, open, 0, 0, Math.PI * 2); ctx.fill();
+  if (m.mouth > 0.5) {
+    ctx.fillStyle = "#f472b6";
+    ctx.beginPath(); ctx.ellipse(0, 17 + open * 0.3, 9, open * 0.4, 0, 0, Math.PI * 2); ctx.fill();
+  }
+  ctx.restore();
+  // particles + sparkles
+  particles.forEach(p => {
+    p.x += p.vx; p.y += p.vy; p.vy += 0.2; p.life--;
+    ctx.globalAlpha = Math.min(1, p.life / 12);
+    ctx.fillStyle = "#d6a35c"; ctx.fillRect(p.x, p.y, 3, 3);
+  });
+  particles = particles.filter(p => p.life > 0);
+  sparkles.forEach(s => {
+    s.x += s.vx; s.y += s.vy; s.life--;
+    ctx.globalAlpha = Math.min(1, s.life / 14);
+    ctx.fillStyle = "#fde68a";
+    ctx.beginPath(); ctx.arc(s.x, s.y, 2.5, 0, Math.PI * 2); ctx.fill();
+  });
+  sparkles = sparkles.filter(s => s.life > 0);
+  ctx.globalAlpha = 1;
+}
+
+/* ---------- loop with watchdog ---------- */
+let raf, lastFrame = Date.now();
+function loop() {
+  lastFrame = Date.now();
+  if (!done) step();
+  draw();
+  raf = requestAnimationFrame(loop);
+}
+setInterval(() => {
+  if (!document.hidden && Date.now() - lastFrame > 700) {
+    try { cancelAnimationFrame(raf); } catch (e) {}
+    loop();
+  }
+}, 900);
+window.addEventListener("pageshow", e => {
+  if (e.persisted) { levelIdx = 0; totalStars = 0; done = false; loadLevel(0); }
+});
+
+loadLevel(0);
+loop();
+
+</script>
+</body>
+</html>
