@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Word Guess</title>
+  <meta name="description" content="Crack the 5-letter word in six tries — build your winning streak">
+  <link rel="canonical" href="https://abhishekmuthyam.com/games/word-guess/">
+  <meta property="og:title" content="Word Guess">
+  <meta property="og:description" content="Crack the 5-letter word in six tries — build your winning streak">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abhishekmuthyam.com/games/word-guess/">
+  <meta property="og:image" content="https://abhishekmuthyam.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#060913">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: #0b0b0f; color: #f8fafc; min-height: 100vh; text-align: center; }
+    header { padding: 18px 20px; display: flex; justify-content: space-between; max-width: 900px; margin: 0 auto; }
+    header a { color: #a5b4fc; text-decoration: none; font-weight: 600; font-size: 14px; }
+    h1 { font-size: 26px; margin: 4px 0 6px; }
+    .tag { color: #94a3b8; font-size: 14px; margin: 0 0 18px; }
+    .game-shell { max-width: 520px; margin: 0 auto 30px; padding: 0 14px; }
+    .panel { background: #15151d; border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 18px; box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
+    .hud { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 14px; font-weight: 700; font-size: 13px; color: #94a3b8; }
+    .hud b { color: #fff; font-size: 17px; display: block; }
+    button { border: none; border-radius: 10px; background: #16a34a; color: white; cursor: pointer; font-weight: 700; font-family: inherit; padding: 12px 20px; font-size: 15px; }
+    button:active { transform: scale(0.97); }
+    #msg { min-height: 22px; font-weight: 700; margin: 12px 0 4px; }
+    .lb { max-width: 520px; margin: 0 auto 40px; padding: 0 14px; text-align: left; }
+    .lb h2 { font-size: 16px; text-align: center; }
+    .lb ol { list-style: none; padding: 0; margin: 0; }
+    .lb li { display: flex; justify-content: space-between; padding: 7px 4px; border-bottom: 1px solid rgba(255,255,255,0.07); color: #cbd5e1; font-size: 14px; }
+    .lb li span:last-child { font-weight: 700; color: #fff; }
+    .lb-note { color: #64748b; font-size: 12px; text-align: center; margin-top: 8px; }
+    .wg-grid { display: grid; grid-template-rows: repeat(6, 1fr); gap: 6px; max-width: 300px; margin: 0 auto 14px; }
+    .wg-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+    .wg-cell { aspect-ratio: 1; border: 2px solid #2d2d3f; border-radius: 8px; display: flex; align-items: center;
+      justify-content: center; font-weight: 800; font-size: 22px; text-transform: uppercase; }
+    .wg-cell.g { background: #16a34a; border-color: #16a34a; }
+    .wg-cell.y { background: #ca8a04; border-color: #ca8a04; }
+    .wg-cell.x { background: #26262f; border-color: #26262f; color: #94a3b8; }
+    .kb { display: flex; flex-direction: column; gap: 6px; }
+    .kb-row { display: flex; gap: 5px; justify-content: center; }
+    .kb button { flex: 1; max-width: 40px; min-width: 26px; background: #2d2d3f; padding: 12px 0; font-size: 13px;
+      text-transform: uppercase; border-radius: 7px; }
+    .kb button.wide { max-width: 62px; font-size: 11px; }
+    .kb button.g { background: #16a34a; } .kb button.y { background: #ca8a04; } .kb button.x { background: #17171f; color: #64748b; }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/games">&larr; Games</a>
+  <a href="/">Home</a>
+</header>
+<div class="game-shell">
+  <h1>Word Guess</h1>
+  <p class="tag">Crack the 5-letter word in six tries — build your winning streak</p>
+  <div class="panel">
+    <div class="hud"><span>Streak<b id="streak">0</b></span><span>Best streak<b id="best">0</b></span></div>
+    <div class="wg-grid" id="wgGrid"></div>
+    <p id="msg">Guess the 5-letter word in 6 tries</p>
+    <div class="kb" id="kb"></div>
+    <button style="margin-top:12px;" onclick="reset()">New Word</button>
+  </div>
+</div>
+<div class="lb">
+  <h2>🌍 Global Top 10</h2>
+  <ol id="lbList"><li><span>Loading...</span><span></span></li></ol>
+  <p class="lb-note" id="lbNote"></p>
+</div>
+<script>
+const LEADERBOARD_URL = "https://zsxujdnvqodtnhxwxbvbucsp7q0gqpbg.lambda-url.ap-south-1.on.aws/";
+const GAME_ID = "word-guess";
+async function loadLeaderboard() {
+  const list = document.getElementById("lbList");
+  try {
+    const res = await fetch(LEADERBOARD_URL + "?game=" + GAME_ID);
+    const data = await res.json();
+    if (!data.top || !data.top.length) { list.innerHTML = "<li><span>No scores yet — be the first!</span><span></span></li>"; return; }
+    list.innerHTML = data.top.map((e, i) => {
+      const n = e.name.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+      return "<li><span>" + (i+1) + ". " + n + "</span><span>" + e.score + "</span></li>";
+    }).join("");
+  } catch { list.innerHTML = "<li><span>Leaderboard unavailable</span><span></span></li>"; }
+}
+async function submitScore(score) {
+  if (score <= 0) return;
+  let playerName = localStorage.getItem("playerName");
+  if (!playerName) {
+    playerName = (prompt("Enter your name for the global leaderboard:") || "").trim().slice(0, 20);
+    if (!playerName) return;
+    localStorage.setItem("playerName", playerName);
+  }
+  try {
+    await fetch(LEADERBOARD_URL, { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ game: GAME_ID, name: playerName, score }) });
+    document.getElementById("lbNote").innerText = "Score submitted as " + playerName + "!";
+    loadLeaderboard();
+  } catch { document.getElementById("lbNote").innerText = "Could not submit score"; }
+}
+loadLeaderboard();
+
+const WORDS = "about,above,actor,adopt,after,again,agent,agree,ahead,alarm,album,alert,alike,alive,allow,alone,along,amber,angel,anger,angle,angry,apart,apple,apply,arena,argue,arise,armor,aroma,array,arrow,asset,avoid,awake,award,aware,badge,baker,basic,batch,beach,beast,began,begin,being,below,bench,berry,birth,black,blade,blame,blank,blast,blaze,bless,blind,block,blood,bloom,board,bonus,boost,brain,brand,brave,bread,break,brick,bride,brief,bring,broad,brown,brush,build,burst,cabin,cable,candy,cargo,carry,catch,cause,chain,chair,chalk,charm,chart,chase,cheap,check,cheer,chess,chest,chief,child,chill,choir,claim,clash,class,clean,clear,climb,clock,close,cloth,cloud,coach,coast,color,comet,coral,couch,count,court,cover,crack,craft,crane,crash,cream,crisp,crowd,crown,curve,cycle,daily,dance,dealt,death,debut,delta,dense,depth,diary,dozen,draft,drama,dream,dress,drift,drink,drive,eager,eagle,early,earth,eight,elbow,elder,empty,enemy,enjoy,enter,equal,error,event,every,exact,exist,extra,fable,faith,fancy,fault,favor,feast,fence,fever,field,fifty,fight,final,first,flame,flash,fleet,float,flock,floor,flour,fluid,focus,force,forge,forth,found,frame,fresh,front,frost,fruit,giant,given,glass,globe,glory,going,grace,grade,grain,grand,grant,grape,grasp,grass,great,green,greet,group,guard,guess,guest,guide,habit,happy,harsh,heart,heavy,hello,hobby,honey,honor,horse,hotel,house,human,humor,hurry,ideal,image,imply,index,inner,input,issue,ivory,jewel,joint,jolly,judge,juice,knife,knock,known,label,labor,large,laser,later,laugh,layer,learn,lemon,level,light,limit,linen,liver,local,logic,loose,lucky,lunar,lunch,magic,major,mango,maple,march,match,maybe,mayor,medal,media,melon,mercy,merit,merry,metal,meter,might,minor,minus,model,money,month,moral,motor,mount,mouse,mouth,movie,music,naval,nerve,never,night,noble,noise,north,noted,novel,nurse,ocean,offer,often,olive,onion,orbit,order,other,ought,outer,owner,oxide,ozone,paint,panel,paper,party,pasta,patch,pause,peace,pearl,pedal,penny,phase,phone,photo,piano,piece,pilot,pitch,pizza,place,plain,plane,plant,plate,plaza,point,polar,pound,power,press,price,pride,prime,print,prize,proof,proud,prove,pulse,pupil,queen,quick,quiet,quite,radar,radio,raise,ranch,range,rapid,ratio,reach,ready,realm,rebel,relax,relay,reply,rider,ridge,right,rival,river,roast,robot,rocky,roman,rough,round,route,royal,rural,salad,scale,scene,scope,score,sense,serve,seven,shade,shake,shape,share,sharp,sheep,sheet,shelf,shell,shine,shirt,shore,short,shout,sight,silky,since,sixty,skill,slate,sleep,slice,slide,small,smart,smile,smoke,snack,solar,solid,solve,sound,south,space,spare,spark,speak,speed,spend,spice,spike,spine,split,sport,squad,stack,staff,stage,stand,start,state,steam,steel,stick,still,stone,store,storm,story,stove,strip,study,style,sugar,sunny,super,sweet,swift,table,taste,teach,thank,theme,there,thick,thing,think,third,three,tiger,tight,timer,title,toast,today,token,total,touch,tower,trace,track,trade,trail,train,treat,trend,trial,tribe,trick,truck,truly,trust,truth,tulip,twice,uncle,under,union,unite,unity,upper,urban,usage,usual,valid,value,vapor,vault,venue,video,vigor,virus,visit,vital,vivid,vocal,voice,voter,wagon,waste,watch,water,weary,wheat,wheel,where,which,while,white,whole,windy,woman,world,worth,would,wound,write,wrong,yield,young,youth,zebra".split(",");
+let answer, row, col, boardState, done;
+let streak = Number(localStorage.getItem("wgStreak")) || 0;
+let best = Number(localStorage.getItem("wgBest")) || 0;
+document.getElementById("streak").innerText = streak;
+document.getElementById("best").innerText = best;
+const gridEl = document.getElementById("wgGrid");
+
+function reset() {
+  answer = WORDS[Math.floor(Math.random() * WORDS.length)].toUpperCase();
+  row = 0; col = 0; done = false;
+  boardState = Array.from({ length: 6 }, () => ["", "", "", "", ""]);
+  gridEl.innerHTML = "";
+  for (let r = 0; r < 6; r++) {
+    const rowEl = document.createElement("div");
+    rowEl.className = "wg-row";
+    for (let c = 0; c < 5; c++) {
+      const cell = document.createElement("div");
+      cell.className = "wg-cell"; cell.id = "c" + r + c;
+      rowEl.appendChild(cell);
+    }
+    gridEl.appendChild(rowEl);
+  }
+  document.getElementById("msg").innerText = "Guess the 5-letter word in 6 tries";
+  document.querySelectorAll("#kb button").forEach(b => b.classList.remove("g", "y", "x"));
+}
+function key(k) {
+  if (done) return;
+  if (k === "ENTER") return submitRow();
+  if (k === "DEL") {
+    if (col > 0) { col--; boardState[row][col] = ""; document.getElementById("c" + row + col).innerText = ""; }
+    return;
+  }
+  if (col < 5 && /^[A-Z]$/.test(k)) {
+    boardState[row][col] = k;
+    document.getElementById("c" + row + col).innerText = k;
+    col++;
+  }
+}
+function submitRow() {
+  if (col < 5) { document.getElementById("msg").innerText = "Not enough letters"; return; }
+  const guess = boardState[row].join("");
+  const ans = answer.split("");
+  const marks = Array(5).fill("x");
+  // greens
+  for (let i = 0; i < 5; i++) if (guess[i] === ans[i]) { marks[i] = "g"; ans[i] = null; }
+  // yellows
+  for (let i = 0; i < 5; i++) {
+    if (marks[i] === "g") continue;
+    const j = ans.indexOf(guess[i]);
+    if (j > -1) { marks[i] = "y"; ans[j] = null; }
+  }
+  for (let i = 0; i < 5; i++) {
+    document.getElementById("c" + row + i).classList.add(marks[i]);
+    const kb = document.getElementById("k" + guess[i]);
+    if (kb && !kb.classList.contains("g")) {
+      if (marks[i] === "g") { kb.classList.remove("y"); kb.classList.add("g"); }
+      else if (marks[i] === "y" && !kb.classList.contains("y")) kb.classList.add("y");
+      else if (marks[i] === "x" && !kb.classList.contains("y")) kb.classList.add("x");
+    }
+  }
+  if (guess === answer) {
+    done = true; streak++;
+    localStorage.setItem("wgStreak", streak);
+    document.getElementById("streak").innerText = streak;
+    document.getElementById("msg").innerText = "🎉 Correct! Streak: " + streak;
+    if (streak > best) { best = streak; localStorage.setItem("wgBest", best); document.getElementById("best").innerText = best; }
+    submitScore(streak);
+    return;
+  }
+  row++; col = 0;
+  if (row === 6) {
+    done = true;
+    document.getElementById("msg").innerText = "The word was " + answer + ". Streak reset.";
+    streak = 0; localStorage.setItem("wgStreak", 0);
+    document.getElementById("streak").innerText = 0;
+  }
+}
+const rows = ["QWERTYUIOP", "ASDFGHJKL", "1ZXCVBNM0"];
+const kbEl = document.getElementById("kb");
+rows.forEach(r => {
+  const rowEl = document.createElement("div");
+  rowEl.className = "kb-row";
+  for (const ch of r) {
+    const b = document.createElement("button");
+    if (ch === "1") { b.innerText = "Enter"; b.className = "wide"; b.onclick = () => key("ENTER"); }
+    else if (ch === "0") { b.innerText = "⌫"; b.className = "wide"; b.onclick = () => key("DEL"); }
+    else { b.innerText = ch; b.id = "k" + ch; b.onclick = () => key(ch); }
+    rowEl.appendChild(b);
+  }
+  kbEl.appendChild(rowEl);
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Enter") key("ENTER");
+  else if (e.key === "Backspace") key("DEL");
+  else if (/^[a-zA-Z]$/.test(e.key)) key(e.key.toUpperCase());
+});
+reset();
+
+</script>
+</body>
+</html>

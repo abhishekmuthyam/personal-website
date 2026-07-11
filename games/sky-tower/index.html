@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Sky Tower</title>
+  <meta name="description" content="Bounce from platform to platform — how high can you climb?">
+  <link rel="canonical" href="https://abhishekmuthyam.com/games/sky-tower/">
+  <meta property="og:title" content="Sky Tower">
+  <meta property="og:description" content="Bounce from platform to platform — how high can you climb?">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abhishekmuthyam.com/games/sky-tower/">
+  <meta property="og:image" content="https://abhishekmuthyam.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#060913">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: #0b0b0f; color: #f8fafc; min-height: 100vh; text-align: center; }
+    header { padding: 18px 20px; display: flex; justify-content: space-between; max-width: 900px; margin: 0 auto; }
+    header a { color: #a5b4fc; text-decoration: none; font-weight: 600; font-size: 14px; }
+    h1 { font-size: 26px; margin: 4px 0 6px; }
+    .tag { color: #94a3b8; font-size: 14px; margin: 0 0 18px; }
+    .game-shell { max-width: 520px; margin: 0 auto 30px; padding: 0 14px; }
+    .panel { background: #15151d; border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 18px; box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
+    .hud { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 14px; font-weight: 700; font-size: 13px; color: #94a3b8; }
+    .hud b { color: #fff; font-size: 17px; display: block; }
+    button { border: none; border-radius: 10px; background: #22c55e; color: white; cursor: pointer; font-weight: 700; font-family: inherit; padding: 12px 20px; font-size: 15px; }
+    button:active { transform: scale(0.97); }
+    #msg { min-height: 22px; font-weight: 700; margin: 12px 0 4px; }
+    .lb { max-width: 520px; margin: 0 auto 40px; padding: 0 14px; text-align: left; }
+    .lb h2 { font-size: 16px; text-align: center; }
+    .lb ol { list-style: none; padding: 0; margin: 0; }
+    .lb li { display: flex; justify-content: space-between; padding: 7px 4px; border-bottom: 1px solid rgba(255,255,255,0.07); color: #cbd5e1; font-size: 14px; }
+    .lb li span:last-child { font-weight: 700; color: #fff; }
+    .lb-note { color: #64748b; font-size: 12px; text-align: center; margin-top: 8px; }
+    canvas { width: 100%; border-radius: 12px; background: linear-gradient(#0c1e3d, #1e1b4b); display: block; touch-action: none; }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/games">&larr; Games</a>
+  <a href="/">Home</a>
+</header>
+<div class="game-shell">
+  <h1>Sky Tower</h1>
+  <p class="tag">Bounce from platform to platform — how high can you climb?</p>
+  <div class="panel">
+    <div class="hud"><span>Height<b id="score">0</b></span><span>Best<b id="best">0</b></span></div>
+    <canvas id="cv" width="360" height="520"></canvas>
+    <p id="msg">← → keys, or hold left/right side of the screen</p>
+    <button onclick="start()">Start Climb</button>
+  </div>
+</div>
+<div class="lb">
+  <h2>🌍 Global Top 10</h2>
+  <ol id="lbList"><li><span>Loading...</span><span></span></li></ol>
+  <p class="lb-note" id="lbNote"></p>
+</div>
+<script>
+const LEADERBOARD_URL = "https://zsxujdnvqodtnhxwxbvbucsp7q0gqpbg.lambda-url.ap-south-1.on.aws/";
+const GAME_ID = "sky-tower";
+async function loadLeaderboard() {
+  const list = document.getElementById("lbList");
+  try {
+    const res = await fetch(LEADERBOARD_URL + "?game=" + GAME_ID);
+    const data = await res.json();
+    if (!data.top || !data.top.length) { list.innerHTML = "<li><span>No scores yet — be the first!</span><span></span></li>"; return; }
+    list.innerHTML = data.top.map((e, i) => {
+      const n = e.name.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+      return "<li><span>" + (i+1) + ". " + n + "</span><span>" + e.score + "</span></li>";
+    }).join("");
+  } catch { list.innerHTML = "<li><span>Leaderboard unavailable</span><span></span></li>"; }
+}
+async function submitScore(score) {
+  if (score <= 0) return;
+  let playerName = localStorage.getItem("playerName");
+  if (!playerName) {
+    playerName = (prompt("Enter your name for the global leaderboard:") || "").trim().slice(0, 20);
+    if (!playerName) return;
+    localStorage.setItem("playerName", playerName);
+  }
+  try {
+    await fetch(LEADERBOARD_URL, { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ game: GAME_ID, name: playerName, score }) });
+    document.getElementById("lbNote").innerText = "Score submitted as " + playerName + "!";
+    loadLeaderboard();
+  } catch { document.getElementById("lbNote").innerText = "Could not submit score"; }
+}
+loadLeaderboard();
+
+const cv = document.getElementById("cv"), ctx = cv.getContext("2d");
+const W = 360, H = 520;
+let px, py, vy, vx, plats, camY, score, running = false, raf;
+let best = Number(localStorage.getItem("bestTower")) || 0;
+document.getElementById("best").innerText = best;
+let dir = 0;
+
+function start() {
+  if (running) return;
+  px = W / 2; py = H - 60; vy = -11; vx = 0; camY = 0; score = 0;
+  plats = [{ x: W / 2 - 35, y: H - 30, w: 70 }];
+  for (let y = H - 90; y > -200; y -= 58) {
+    plats.push({ x: Math.random() * (W - 70), y, w: 70 });
+  }
+  document.getElementById("msg").innerText = "";
+  document.getElementById("score").innerText = 0;
+  running = true; loop();
+}
+function loop() {
+  vx += dir * 0.75; vx *= 0.93;
+  px += vx;
+  if (px < -14) px = W + 14; if (px > W + 14) px = -14;
+  vy += 0.42; py += vy;
+  if (vy > 0) {
+    for (const p of plats) {
+      if (px > p.x - 12 && px < p.x + p.w + 12 && py > p.y - 16 && py < p.y + 6) {
+        vy = -11; break;
+      }
+    }
+  }
+  const target = py - 260;
+  if (target < camY) camY = target;
+  const h = Math.max(0, Math.floor(-camY / 10));
+  if (h > score) { score = h; document.getElementById("score").innerText = score; }
+  // recycle platforms upward
+  plats.forEach(p => {
+    if (p.y - camY > H + 30) {
+      p.y = camY - 20 - Math.random() * 40;
+      p.x = Math.random() * (W - 70);
+    }
+  });
+  if (py - camY > H + 40) return end();
+  // draw
+  ctx.clearRect(0, 0, W, H);
+  ctx.fillStyle = "#4ade80";
+  plats.forEach(p => {
+    ctx.beginPath(); ctx.roundRect(p.x, p.y - camY, p.w, 12, 6); ctx.fill();
+  });
+  ctx.font = "30px sans-serif";
+  ctx.fillText(vy < 0 ? "🐸" : "🐸", px - 15, py - camY + 10);
+  if (running) raf = requestAnimationFrame(loop);
+}
+function end() {
+  running = false; cancelAnimationFrame(raf);
+  document.getElementById("msg").innerText = "🪂 Fell! Height: " + score + " m";
+  if (score > best) { best = score; localStorage.setItem("bestTower", best); document.getElementById("best").innerText = best; }
+  submitScore(score);
+}
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowLeft") { dir = -1; e.preventDefault(); }
+  if (e.key === "ArrowRight") { dir = 1; e.preventDefault(); }
+});
+document.addEventListener("keyup", e => {
+  if (e.key === "ArrowLeft" && dir === -1) dir = 0;
+  if (e.key === "ArrowRight" && dir === 1) dir = 0;
+});
+cv.addEventListener("pointerdown", e => {
+  const r = cv.getBoundingClientRect();
+  dir = (e.clientX - r.left) < r.width / 2 ? -1 : 1;
+});
+cv.addEventListener("pointerup", () => { dir = 0; });
+ctx.font = "30px sans-serif"; ctx.fillText("🐸", W/2 - 15, H - 60);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Pong</title>
+  <meta name="description" content="The original arcade duel — first to 7 against the computer">
+  <link rel="canonical" href="https://abhishekmuthyam.com/games/pong/">
+  <meta property="og:title" content="Pong">
+  <meta property="og:description" content="The original arcade duel — first to 7 against the computer">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abhishekmuthyam.com/games/pong/">
+  <meta property="og:image" content="https://abhishekmuthyam.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#060913">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: #0b0b0f; color: #f8fafc; min-height: 100vh; text-align: center; }
+    header { padding: 18px 20px; display: flex; justify-content: space-between; max-width: 900px; margin: 0 auto; }
+    header a { color: #a5b4fc; text-decoration: none; font-weight: 600; font-size: 14px; }
+    h1 { font-size: 26px; margin: 4px 0 6px; }
+    .tag { color: #94a3b8; font-size: 14px; margin: 0 0 18px; }
+    .game-shell { max-width: 520px; margin: 0 auto 30px; padding: 0 14px; }
+    .panel { background: #15151d; border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 18px; box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
+    .hud { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 14px; font-weight: 700; font-size: 13px; color: #94a3b8; }
+    .hud b { color: #fff; font-size: 17px; display: block; }
+    button { border: none; border-radius: 10px; background: #16a34a; color: white; cursor: pointer; font-weight: 700; font-family: inherit; padding: 12px 20px; font-size: 15px; }
+    button:active { transform: scale(0.97); }
+    #msg { min-height: 22px; font-weight: 700; margin: 12px 0 4px; }
+    .lb { max-width: 520px; margin: 0 auto 40px; padding: 0 14px; text-align: left; }
+    .lb h2 { font-size: 16px; text-align: center; }
+    .lb ol { list-style: none; padding: 0; margin: 0; }
+    .lb li { display: flex; justify-content: space-between; padding: 7px 4px; border-bottom: 1px solid rgba(255,255,255,0.07); color: #cbd5e1; font-size: 14px; }
+    .lb li span:last-child { font-weight: 700; color: #fff; }
+    .lb-note { color: #64748b; font-size: 12px; text-align: center; margin-top: 8px; }
+    canvas { width: 100%; border-radius: 12px; background: #0b0b0f; display: block; touch-action: none; }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/games">&larr; Games</a>
+  <a href="/">Home</a>
+</header>
+<div class="game-shell">
+  <h1>Pong</h1>
+  <p class="tag">The original arcade duel — first to 7 against the computer</p>
+  <div class="panel">
+    <div class="hud"><span>You<b id="pyou">0</b></span><span>First to 7</span><span>Computer<b id="pai">0</b></span></div>
+    <canvas id="cv" width="480" height="340"></canvas>
+    <p id="msg">Move with mouse, finger, or ↑ ↓ keys</p>
+    <button onclick="start()">Start Match</button>
+  </div>
+</div>
+<div class="lb">
+  <h2>🌍 Global Top 10</h2>
+  <ol id="lbList"><li><span>Loading...</span><span></span></li></ol>
+  <p class="lb-note" id="lbNote"></p>
+</div>
+<script>
+const LEADERBOARD_URL = "https://zsxujdnvqodtnhxwxbvbucsp7q0gqpbg.lambda-url.ap-south-1.on.aws/";
+const GAME_ID = "pong";
+async function loadLeaderboard() {
+  const list = document.getElementById("lbList");
+  try {
+    const res = await fetch(LEADERBOARD_URL + "?game=" + GAME_ID);
+    const data = await res.json();
+    if (!data.top || !data.top.length) { list.innerHTML = "<li><span>No scores yet — be the first!</span><span></span></li>"; return; }
+    list.innerHTML = data.top.map((e, i) => {
+      const n = e.name.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+      return "<li><span>" + (i+1) + ". " + n + "</span><span>" + e.score + "</span></li>";
+    }).join("");
+  } catch { list.innerHTML = "<li><span>Leaderboard unavailable</span><span></span></li>"; }
+}
+async function submitScore(score) {
+  if (score <= 0) return;
+  let playerName = localStorage.getItem("playerName");
+  if (!playerName) {
+    playerName = (prompt("Enter your name for the global leaderboard:") || "").trim().slice(0, 20);
+    if (!playerName) return;
+    localStorage.setItem("playerName", playerName);
+  }
+  try {
+    await fetch(LEADERBOARD_URL, { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ game: GAME_ID, name: playerName, score }) });
+    document.getElementById("lbNote").innerText = "Score submitted as " + playerName + "!";
+    loadLeaderboard();
+  } catch { document.getElementById("lbNote").innerText = "Could not submit score"; }
+}
+loadLeaderboard();
+
+const cv = document.getElementById("cv"), ctx = cv.getContext("2d");
+let py, ay, ball, you, ai, running = false, raf, rallies;
+const PH = 70, PW = 10;
+
+function resetBall(dir) {
+  ball = { x: 240, y: 170, vx: 4.2 * dir, vy: (Math.random() * 4 - 2) };
+}
+function start() {
+  if (running) return;
+  py = 135; ay = 135; you = 0; ai = 0; rallies = 0;
+  hud(); resetBall(1);
+  document.getElementById("msg").innerText = "";
+  running = true; loop();
+}
+function hud() {
+  document.getElementById("pyou").innerText = you;
+  document.getElementById("pai").innerText = ai;
+}
+function loop() {
+  ball.x += ball.vx; ball.y += ball.vy;
+  if (ball.y < 8 || ball.y > 332) ball.vy *= -1;
+  // AI follows with capped speed
+  const target = ball.y - PH / 2;
+  ay += Math.max(-3.4, Math.min(3.4, target - ay));
+  ay = Math.max(0, Math.min(340 - PH, ay));
+  // paddles
+  if (ball.x < 22 && ball.x > 10 && ball.y > py - 8 && ball.y < py + PH + 8 && ball.vx < 0) {
+    ball.vx = Math.min(11, -ball.vx * 1.06);
+    ball.vy += ((ball.y - (py + PH / 2)) / PH) * 5;
+    rallies++;
+  }
+  if (ball.x > 458 && ball.x < 470 && ball.y > ay - 8 && ball.y < ay + PH + 8 && ball.vx > 0) {
+    ball.vx = Math.max(-11, -ball.vx * 1.06);
+    ball.vy += ((ball.y - (ay + PH / 2)) / PH) * 5;
+  }
+  if (ball.x < 0) { ai++; hud(); if (ai >= 7) return end(); resetBall(1); }
+  if (ball.x > 480) { you++; hud(); if (you >= 7) return end(); resetBall(-1); }
+  draw();
+  if (running) raf = requestAnimationFrame(loop);
+}
+function draw() {
+  ctx.fillStyle = "#0b0b0f"; ctx.fillRect(0, 0, 480, 340);
+  ctx.strokeStyle = "rgba(255,255,255,0.15)"; ctx.setLineDash([8, 10]);
+  ctx.beginPath(); ctx.moveTo(240, 0); ctx.lineTo(240, 340); ctx.stroke(); ctx.setLineDash([]);
+  ctx.fillStyle = "#4ade80"; ctx.fillRect(12, py, PW, PH);
+  ctx.fillStyle = "#f87171"; ctx.fillRect(458, ay, PW, PH);
+  ctx.fillStyle = "#fff"; ctx.beginPath(); ctx.arc(ball.x, ball.y, 7, 0, Math.PI * 2); ctx.fill();
+}
+function end() {
+  running = false; cancelAnimationFrame(raf);
+  const won = you >= 7;
+  document.getElementById("msg").innerText = won ? "🏆 You win " + you + "–" + ai + "!" : "Computer wins " + ai + "–" + you + ". Try again!";
+  draw();
+  submitScore(you * 10 + Math.min(9, rallies));
+}
+function setPaddle(clientY) {
+  const r = cv.getBoundingClientRect();
+  py = Math.max(0, Math.min(340 - PH, (clientY - r.top) / r.height * 340 - PH / 2));
+}
+cv.addEventListener("mousemove", e => setPaddle(e.clientY));
+cv.addEventListener("touchmove", e => { e.preventDefault(); setPaddle(e.touches[0].clientY); }, { passive: false });
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowUp") { py = Math.max(0, py - 26); e.preventDefault(); }
+  if (e.key === "ArrowDown") { py = Math.min(340 - PH, py + 26); e.preventDefault(); }
+});
+py = 135; ay = 135; resetBall(1); draw();
+
+</script>
+</body>
+</html>

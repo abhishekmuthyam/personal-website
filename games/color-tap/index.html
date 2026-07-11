@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Color Tap</title>
+  <meta name="description" content="Watch the glowing pattern and repeat it — how far can your memory go?">
+  <link rel="canonical" href="https://abhishekmuthyam.com/games/color-tap/">
+  <meta property="og:title" content="Color Tap">
+  <meta property="og:description" content="Watch the glowing pattern and repeat it — how far can your memory go?">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abhishekmuthyam.com/games/color-tap/">
+  <meta property="og:image" content="https://abhishekmuthyam.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#060913">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: #0b0b0f; color: #f8fafc; min-height: 100vh; text-align: center; }
+    header { padding: 18px 20px; display: flex; justify-content: space-between; max-width: 900px; margin: 0 auto; }
+    header a { color: #a5b4fc; text-decoration: none; font-weight: 600; font-size: 14px; }
+    h1 { font-size: 26px; margin: 4px 0 6px; }
+    .tag { color: #94a3b8; font-size: 14px; margin: 0 0 18px; }
+    .game-shell { max-width: 520px; margin: 0 auto 30px; padding: 0 14px; }
+    .panel { background: #15151d; border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 18px; box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
+    .hud { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 14px; font-weight: 700; font-size: 13px; color: #94a3b8; }
+    .hud b { color: #fff; font-size: 17px; display: block; }
+    button { border: none; border-radius: 10px; background: #eab308; color: white; cursor: pointer; font-weight: 700; font-family: inherit; padding: 12px 20px; font-size: 15px; }
+    button:active { transform: scale(0.97); }
+    #msg { min-height: 22px; font-weight: 700; margin: 12px 0 4px; }
+    .lb { max-width: 520px; margin: 0 auto 40px; padding: 0 14px; text-align: left; }
+    .lb h2 { font-size: 16px; text-align: center; }
+    .lb ol { list-style: none; padding: 0; margin: 0; }
+    .lb li { display: flex; justify-content: space-between; padding: 7px 4px; border-bottom: 1px solid rgba(255,255,255,0.07); color: #cbd5e1; font-size: 14px; }
+    .lb li span:last-child { font-weight: 700; color: #fff; }
+    .lb-note { color: #64748b; font-size: 12px; text-align: center; margin-top: 8px; }
+    .pads { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .pad { aspect-ratio: 1.4; border: none; border-radius: 16px; opacity: 0.45; transition: opacity 0.12s, transform 0.12s; font-size: 0; }
+    .pad.lit { opacity: 1; transform: scale(1.04); box-shadow: 0 0 34px currentColor; }
+    .p0 { background: #ef4444; color: #ef4444; } .p1 { background: #22c55e; color: #22c55e; }
+    .p2 { background: #3b82f6; color: #3b82f6; } .p3 { background: #eab308; color: #eab308; }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/games">&larr; Games</a>
+  <a href="/">Home</a>
+</header>
+<div class="game-shell">
+  <h1>Color Tap</h1>
+  <p class="tag">Watch the glowing pattern and repeat it — how far can your memory go?</p>
+  <div class="panel">
+    <div class="hud"><span>Round<b id="round">0</b></span><span>Best<b id="best">0</b></span></div>
+    <div class="pads" id="pads">
+      <button class="pad p0" data-i="0"></button><button class="pad p1" data-i="1"></button>
+      <button class="pad p2" data-i="2"></button><button class="pad p3" data-i="3"></button>
+    </div>
+    <p id="msg">Watch the pattern, then repeat it</p>
+    <button onclick="start()">Start</button>
+  </div>
+</div>
+<div class="lb">
+  <h2>🌍 Global Top 10</h2>
+  <ol id="lbList"><li><span>Loading...</span><span></span></li></ol>
+  <p class="lb-note" id="lbNote"></p>
+</div>
+<script>
+const LEADERBOARD_URL = "https://zsxujdnvqodtnhxwxbvbucsp7q0gqpbg.lambda-url.ap-south-1.on.aws/";
+const GAME_ID = "color-tap";
+async function loadLeaderboard() {
+  const list = document.getElementById("lbList");
+  try {
+    const res = await fetch(LEADERBOARD_URL + "?game=" + GAME_ID);
+    const data = await res.json();
+    if (!data.top || !data.top.length) { list.innerHTML = "<li><span>No scores yet — be the first!</span><span></span></li>"; return; }
+    list.innerHTML = data.top.map((e, i) => {
+      const n = e.name.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+      return "<li><span>" + (i+1) + ". " + n + "</span><span>" + e.score + "</span></li>";
+    }).join("");
+  } catch { list.innerHTML = "<li><span>Leaderboard unavailable</span><span></span></li>"; }
+}
+async function submitScore(score) {
+  if (score <= 0) return;
+  let playerName = localStorage.getItem("playerName");
+  if (!playerName) {
+    playerName = (prompt("Enter your name for the global leaderboard:") || "").trim().slice(0, 20);
+    if (!playerName) return;
+    localStorage.setItem("playerName", playerName);
+  }
+  try {
+    await fetch(LEADERBOARD_URL, { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ game: GAME_ID, name: playerName, score }) });
+    document.getElementById("lbNote").innerText = "Score submitted as " + playerName + "!";
+    loadLeaderboard();
+  } catch { document.getElementById("lbNote").innerText = "Could not submit score"; }
+}
+loadLeaderboard();
+
+let seq = [], pos = 0, accepting = false, round = 0, playing = false;
+let best = Number(localStorage.getItem("bestColorTap")) || 0;
+document.getElementById("best").innerText = best;
+const pads = Array.from(document.querySelectorAll(".pad"));
+let ac;
+function beep(i, dur) {
+  try {
+    ac = ac || new (window.AudioContext || window.webkitAudioContext)();
+    const o = ac.createOscillator(), g = ac.createGain();
+    o.frequency.value = [262, 330, 392, 523][i];
+    o.type = "sine"; o.connect(g); g.connect(ac.destination);
+    g.gain.setValueAtTime(0.18, ac.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.001, ac.currentTime + dur);
+    o.start(); o.stop(ac.currentTime + dur);
+  } catch {}
+}
+function flash(i, dur) {
+  pads[i].classList.add("lit");
+  beep(i, dur / 1000);
+  setTimeout(() => pads[i].classList.remove("lit"), dur * 0.7);
+}
+async function playSeq() {
+  accepting = false;
+  document.getElementById("msg").innerText = "Watch...";
+  await new Promise(r => setTimeout(r, 600));
+  const speed = Math.max(280, 620 - round * 22);
+  for (const i of seq) {
+    flash(i, speed);
+    await new Promise(r => setTimeout(r, speed + 90));
+  }
+  document.getElementById("msg").innerText = "Your turn!";
+  pos = 0; accepting = true;
+}
+function start() {
+  if (playing) return;
+  playing = true; seq = []; round = 0;
+  next();
+}
+function next() {
+  round++;
+  document.getElementById("round").innerText = round;
+  seq.push(Math.floor(Math.random() * 4));
+  playSeq();
+}
+document.getElementById("pads").addEventListener("pointerdown", e => {
+  const pad = e.target.closest(".pad");
+  if (!pad || !accepting) return;
+  const i = Number(pad.dataset.i);
+  flash(i, 220);
+  if (i === seq[pos]) {
+    pos++;
+    if (pos === seq.length) { accepting = false; setTimeout(next, 700); }
+  } else {
+    accepting = false; playing = false;
+    const score = round - 1;
+    document.getElementById("msg").innerText = "❌ Wrong pad! You reached round " + score + ".";
+    if (score > best) { best = score; localStorage.setItem("bestColorTap", best); document.getElementById("best").innerText = best; }
+    if (score > 0) submitScore(score);
+  }
+});
+
+</script>
+</body>
+</html>

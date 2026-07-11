@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Minesweeper</title>
+  <meta name="description" content="Clear the field without hitting a mine — faster wins rank higher">
+  <link rel="canonical" href="https://abhishekmuthyam.com/games/minesweeper/">
+  <meta property="og:title" content="Minesweeper">
+  <meta property="og:description" content="Clear the field without hitting a mine — faster wins rank higher">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abhishekmuthyam.com/games/minesweeper/">
+  <meta property="og:image" content="https://abhishekmuthyam.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#060913">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: #0b0b0f; color: #f8fafc; min-height: 100vh; text-align: center; }
+    header { padding: 18px 20px; display: flex; justify-content: space-between; max-width: 900px; margin: 0 auto; }
+    header a { color: #a5b4fc; text-decoration: none; font-weight: 600; font-size: 14px; }
+    h1 { font-size: 26px; margin: 4px 0 6px; }
+    .tag { color: #94a3b8; font-size: 14px; margin: 0 0 18px; }
+    .game-shell { max-width: 520px; margin: 0 auto 30px; padding: 0 14px; }
+    .panel { background: #15151d; border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 18px; box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
+    .hud { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 14px; font-weight: 700; font-size: 13px; color: #94a3b8; }
+    .hud b { color: #fff; font-size: 17px; display: block; }
+    button { border: none; border-radius: 10px; background: #4f46e5; color: white; cursor: pointer; font-weight: 700; font-family: inherit; padding: 12px 20px; font-size: 15px; }
+    button:active { transform: scale(0.97); }
+    #msg { min-height: 22px; font-weight: 700; margin: 12px 0 4px; }
+    .lb { max-width: 520px; margin: 0 auto 40px; padding: 0 14px; text-align: left; }
+    .lb h2 { font-size: 16px; text-align: center; }
+    .lb ol { list-style: none; padding: 0; margin: 0; }
+    .lb li { display: flex; justify-content: space-between; padding: 7px 4px; border-bottom: 1px solid rgba(255,255,255,0.07); color: #cbd5e1; font-size: 14px; }
+    .lb li span:last-child { font-weight: 700; color: #fff; }
+    .lb-note { color: #64748b; font-size: 12px; text-align: center; margin-top: 8px; }
+    .ms-grid { display: grid; grid-template-columns: repeat(9, 1fr); gap: 3px; touch-action: manipulation; }
+    .ms-cell { aspect-ratio: 1; border: none; border-radius: 6px; background: #2d2d3f; color: #fff;
+      font-weight: 800; font-size: clamp(13px, 3.6vw, 17px); padding: 0; display: flex; align-items: center; justify-content: center; }
+    .ms-cell.open { background: #1a1a24; }
+    .ms-cell.boom { background: #7f1d1d; }
+    .c1{color:#60a5fa}.c2{color:#4ade80}.c3{color:#f87171}.c4{color:#c084fc}.c5{color:#fbbf24}.c6{color:#2dd4bf}.c7{color:#f9fafb}.c8{color:#94a3b8}
+    .flag-toggle { background: #1f2937; }
+    .flag-toggle.on { background: #d97706; }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/games">&larr; Games</a>
+  <a href="/">Home</a>
+</header>
+<div class="game-shell">
+  <h1>Minesweeper</h1>
+  <p class="tag">Clear the field without hitting a mine — faster wins rank higher</p>
+  <div class="panel">
+    <div class="hud"><span>Mines<b id="mines">10</b></span><span>Time<b id="time">0</b></span><span>Best<b id="best">—</b></span></div>
+    <div class="ms-grid" id="grid"></div>
+    <p id="msg">Tap to reveal. Flag mode for marking mines.</p>
+    <div style="display:flex; gap:10px;">
+      <button style="flex:1;" onclick="reset()">New Game</button>
+      <button style="flex:1;" class="flag-toggle" id="flagBtn">🚩 Flag mode: OFF</button>
+    </div>
+  </div>
+</div>
+<div class="lb">
+  <h2>🌍 Global Top 10</h2>
+  <ol id="lbList"><li><span>Loading...</span><span></span></li></ol>
+  <p class="lb-note" id="lbNote"></p>
+</div>
+<script>
+const LEADERBOARD_URL = "https://zsxujdnvqodtnhxwxbvbucsp7q0gqpbg.lambda-url.ap-south-1.on.aws/";
+const GAME_ID = "minesweeper";
+async function loadLeaderboard() {
+  const list = document.getElementById("lbList");
+  try {
+    const res = await fetch(LEADERBOARD_URL + "?game=" + GAME_ID);
+    const data = await res.json();
+    if (!data.top || !data.top.length) { list.innerHTML = "<li><span>No scores yet — be the first!</span><span></span></li>"; return; }
+    list.innerHTML = data.top.map((e, i) => {
+      const n = e.name.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+      return "<li><span>" + (i+1) + ". " + n + "</span><span>" + e.score + "</span></li>";
+    }).join("");
+  } catch { list.innerHTML = "<li><span>Leaderboard unavailable</span><span></span></li>"; }
+}
+async function submitScore(score) {
+  if (score <= 0) return;
+  let playerName = localStorage.getItem("playerName");
+  if (!playerName) {
+    playerName = (prompt("Enter your name for the global leaderboard:") || "").trim().slice(0, 20);
+    if (!playerName) return;
+    localStorage.setItem("playerName", playerName);
+  }
+  try {
+    await fetch(LEADERBOARD_URL, { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ game: GAME_ID, name: playerName, score }) });
+    document.getElementById("lbNote").innerText = "Score submitted as " + playerName + "!";
+    loadLeaderboard();
+  } catch { document.getElementById("lbNote").innerText = "Could not submit score"; }
+}
+loadLeaderboard();
+
+const SIZE = 9, MINES = 10;
+let cells, mined, opened, flagged, started, over, timer, seconds;
+let flagMode = false;
+let best = Number(localStorage.getItem("bestMines")) || 0;
+document.getElementById("best").innerText = best ? best + "s" : "—";
+const grid = document.getElementById("grid");
+
+document.getElementById("flagBtn").onclick = () => {
+  flagMode = !flagMode;
+  const b = document.getElementById("flagBtn");
+  b.classList.toggle("on", flagMode);
+  b.innerText = flagMode ? "🚩 Flag mode: ON" : "🚩 Flag mode: OFF";
+};
+
+function reset() {
+  clearInterval(timer);
+  cells = []; mined = new Set(); opened = new Set(); flagged = new Set();
+  started = false; over = false; seconds = 0;
+  document.getElementById("time").innerText = 0;
+  document.getElementById("mines").innerText = MINES;
+  document.getElementById("msg").innerText = "Tap to reveal. Flag mode for marking mines.";
+  grid.innerHTML = "";
+  for (let i = 0; i < SIZE * SIZE; i++) {
+    const b = document.createElement("button");
+    b.className = "ms-cell";
+    b.dataset.i = i;
+    grid.appendChild(b);
+    cells.push(b);
+  }
+}
+function placeMines(safe) {
+  const banned = new Set(neighbors(safe).concat([safe]));
+  while (mined.size < MINES) {
+    const r = Math.floor(Math.random() * SIZE * SIZE);
+    if (!banned.has(r)) mined.add(r);
+  }
+}
+function neighbors(i) {
+  const r = Math.floor(i / SIZE), c = i % SIZE, out = [];
+  for (let dr = -1; dr <= 1; dr++) for (let dc = -1; dc <= 1; dc++) {
+    if (!dr && !dc) continue;
+    const nr = r + dr, nc = c + dc;
+    if (nr >= 0 && nr < SIZE && nc >= 0 && nc < SIZE) out.push(nr * SIZE + nc);
+  }
+  return out;
+}
+function countAround(i) { return neighbors(i).filter(n => mined.has(n)).length; }
+function openCell(i) {
+  if (over || opened.has(i) || flagged.has(i)) return;
+  if (!started) {
+    placeMines(i); started = true;
+    timer = setInterval(() => { seconds++; document.getElementById("time").innerText = seconds; }, 1000);
+  }
+  if (mined.has(i)) { return boom(i); }
+  const stack = [i];
+  while (stack.length) {
+    const cur = stack.pop();
+    if (opened.has(cur) || flagged.has(cur)) continue;
+    opened.add(cur);
+    const n = countAround(cur);
+    const el = cells[cur];
+    el.classList.add("open");
+    if (n > 0) { el.innerText = n; el.classList.add("c" + n); }
+    else { neighbors(cur).forEach(x => { if (!opened.has(x)) stack.push(x); }); }
+  }
+  if (opened.size === SIZE * SIZE - MINES) win();
+}
+function toggleFlag(i) {
+  if (over || opened.has(i)) return;
+  if (flagged.has(i)) { flagged.delete(i); cells[i].innerText = ""; }
+  else { flagged.add(i); cells[i].innerText = "🚩"; }
+  document.getElementById("mines").innerText = MINES - flagged.size;
+}
+function boom(i) {
+  over = true; clearInterval(timer);
+  mined.forEach(m => { cells[m].innerText = "💣"; cells[m].classList.add("open"); });
+  cells[i].classList.add("boom");
+  document.getElementById("msg").innerText = "💥 Boom! Tap New Game.";
+}
+function win() {
+  over = true; clearInterval(timer);
+  document.getElementById("msg").innerText = "🎉 Cleared in " + seconds + " seconds!";
+  if (!best || seconds < best) { best = seconds; localStorage.setItem("bestMines", best); document.getElementById("best").innerText = best + "s"; }
+  submitScore(Math.max(1, 999 - seconds));
+}
+let pressTimer = null, longPressed = false;
+grid.addEventListener("pointerdown", e => {
+  const el = e.target.closest(".ms-cell"); if (!el) return;
+  longPressed = false;
+  pressTimer = setTimeout(() => { longPressed = true; toggleFlag(Number(el.dataset.i)); }, 420);
+});
+grid.addEventListener("pointerup", e => {
+  clearTimeout(pressTimer);
+  const el = e.target.closest(".ms-cell"); if (!el || longPressed) return;
+  const i = Number(el.dataset.i);
+  flagMode ? toggleFlag(i) : openCell(i);
+});
+grid.addEventListener("contextmenu", e => {
+  e.preventDefault();
+  const el = e.target.closest(".ms-cell");
+  if (el) toggleFlag(Number(el.dataset.i));
+});
+reset();
+
+</script>
+</body>
+</html>
