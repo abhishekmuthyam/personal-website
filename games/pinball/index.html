@@ -253,7 +253,7 @@ function endGame() {
   over = true;
   document.getElementById("msg").innerText = "🏁 Game over! Score: " + score.toLocaleString() + " — Launch to play again";
   if (score > best) { best = score; localStorage.setItem("bestPinball", best); document.getElementById("best").innerText = best.toLocaleString(); }
-  submitScore(score);
+  setTimeout(() => submitScore(score), 60);
 }
 
 /* ---- render ---- */
@@ -328,11 +328,26 @@ function draw() {
   ctx.globalAlpha = 1; ctx.textAlign = "left";
   ctx.restore();
 }
+let lastFrame = Date.now();
 function loop() {
+  lastFrame = Date.now();
   if (!over) physics();
   draw();
   raf = requestAnimationFrame(loop);
 }
+setInterval(() => {
+  if (!document.hidden && Date.now() - lastFrame > 700) {
+    try { cancelAnimationFrame(raf); } catch (e) {}
+    loop();
+  }
+}, 900);
+window.addEventListener("pageshow", e => {
+  if (e.persisted) {
+    over = true; inPlay = false;
+    score = 0; balls = 3; hud(); newBall();
+    document.getElementById("msg").innerText = "Press Launch to start!";
+  }
+});
 
 /* ---- controls ---- */
 document.addEventListener("keydown", e => {
