@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T03:48:11.953Z",
+  "updatedAt": "2026-07-12T06:21:02.877Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,6 +64,17 @@
   ],
   "items": [
     {
+      "id": "infoq-cloudflare-identifies-race-condition-in-hyper-s-http-1-implementation-2026-07-12t06",
+      "title": "Cloudflare Identifies Race Condition in hyper’s HTTP/1 Implementation",
+      "link": "https://www.infoq.com/news/2026/07/cloudflare-hyper-bug-fix/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare recently documented how its development team identified and fixed a rare bug in the widely used Rust HTTP library hyper that could silently truncate large HTTP responses while still returning a successful 200...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-12T06:18:00.000Z"
+    },
+    {
       "id": "hacker-news-we-know-simple-fluids-can-flow-turns-out-some-can-fracture-2026-07-12t02-13-46",
       "title": "We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture",
       "link": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
@@ -75,37 +86,15 @@
       "publishedAt": "2026-07-12T02:13:46.000Z"
     },
     {
-      "id": "hacker-news-the-energetic-costs-of-cellular-computation-2012-2026-07-12t01-59-35-000z",
-      "title": "The Energetic Costs of Cellular Computation (2012)",
-      "link": "https://arxiv.org/abs/1203.5426",
+      "id": "hacker-news-what-xai-s-grok-build-cli-actually-sends-to-xai-2026-07-12t01-09-50-000z",
+      "title": "What xAI's Grok Build CLI Actually Sends to xAI",
+      "link": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-12T01:59:35.000Z"
-    },
-    {
-      "id": "hacker-news-a-pure-scheme-web-programming-tool-2026-07-12t00-57-18-000z",
-      "title": "A pure scheme web programming tool",
-      "link": "https://goeteia.dev",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-12T00:57:18.000Z"
-    },
-    {
-      "id": "hacker-news-a-dock-that-wakes-up-reliably-2026-07-12t00-48-10-000z",
-      "title": "A dock that wakes up reliably",
-      "link": "https://fabiensanglard.net/tb4/index.html",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-12T00:48:10.000Z"
+      "publishedAt": "2026-07-12T01:09:50.000Z"
     },
     {
       "id": "hacker-news-mesh-llm-distributed-ai-computing-on-iroh-2026-07-11t22-38-57-000z",
@@ -139,6 +128,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-11T20:07:18.000Z"
+    },
+    {
+      "id": "hacker-news-nvidia-coreweave-and-nebius-inside-the-circular-financing-of-the-gpu-boom-2026",
+      "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+      "link": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-11T17:21:49.000Z"
     },
     {
       "id": "the-register-slothful-summer-app-lets-you-scroll-simply-by-tilting-your-head-2026-07-10t20",
@@ -207,22 +207,22 @@
       "publishedAt": "2026-07-10T17:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-frontier-and-center-who-evaluates-the-evaluations-2026-07-10t16-00-00-00",
-      "title": "Frontier and Center: Who evaluates the evaluations?",
-      "link": "https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance/",
-      "summary": "Editor’s note: Some of the most interesting questions in AI are being asked by information theoreticians, around how to provide context to an emerging class of AI agents. A few weeks ago, we waded into those waters with...",
-      "image": "",
+      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-07-10t16-00-00-000z",
+      "title": "What’s new with Google Cloud",
+      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_2026_CfhxFWX.max-600x600.jpg",
       "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-07-10T16:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-07-10t16-00-00-000z",
-      "title": "What’s new with Google Cloud",
-      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_2026_CfhxFWX.max-600x600.jpg",
+      "id": "google-cloud-blog-frontier-and-center-who-evaluates-the-evaluations-2026-07-10t16-00-00-00",
+      "title": "Frontier and Center: Who evaluates the evaluations?",
+      "link": "https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance/",
+      "summary": "Editor’s note: Some of the most interesting questions in AI are being asked by information theoreticians, around how to provide context to an emerging class of AI agents. A few weeks ago, we waded into those waters with...",
+      "image": "",
       "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
@@ -359,17 +359,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-10T09:00:00.000Z"
-    },
-    {
-      "id": "infoq-how-datadog-used-claude-and-cursor-for-test-driven-production-migration-2026-07-10t0",
-      "title": "How Datadog Used Claude and Cursor for Test-Driven Production Migration",
-      "link": "https://www.infoq.com/news/2026/07/datadog-ai-production-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "In a recent article, Datadog engineer Arnold Wakim shared what worked, what didn't, and the lessons they learned while evolving a critical production system using AI to overcome hard limits in its storage backend and si...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-10T08:00:00.000Z"
     },
     {
       "id": "openai-news-how-deutsche-telekom-is-rewiring-telecommunications-with-ai-2026-07-10t07-00-0",
@@ -612,6 +601,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-08T16:00:00.000Z"
+    },
+    {
+      "id": "the-register-tool-promises-to-make-lazy-academics-ai-written-papers-sound-more-human-2026",
+      "title": "Tool promises to make lazy academics' AI-written papers sound more human",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/08/tool-promises-to-make-lazy-academics-ai-written-papers-sound-more-human/5268460",
+      "summary": "Startup insists it's not trying to help anyone cheat the system - honest!",
+      "image": "https://image.theregister.com/?imageId=237883&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-08T15:55:00.000Z"
     }
   ]
 }
