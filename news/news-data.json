@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T00:04:40.786Z",
+  "updatedAt": "2026-07-13T03:50:28.815Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,11 +58,34 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
+    {
+      "id": "hacker-news-modernizing-property-tax-assessments-in-allegheny-county-2026-07-13t01-47-21-0",
+      "title": "Modernizing Property Tax Assessments in Allegheny County",
+      "link": "https://www.prohousingpgh.org/blog/new-report-modernizing-property-tax-assessments-in-allegheny-county",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-13T01:47:21.000Z"
+    },
+    {
+      "id": "hacker-news-ask-hn-add-flag-for-ai-generated-articles-2026-07-13t01-24-20-000z",
+      "title": "Ask HN: Add flag for AI-generated articles",
+      "link": "https://news.ycombinator.com/item?id=48886741",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-13T01:24:20.000Z"
+    },
     {
       "id": "hacker-news-designing-and-assembling-my-first-pcb-2026-07-12t22-56-56-000z",
       "title": "Designing and assembling my first PCB",
@@ -84,28 +107,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-12T22:45:31.000Z"
-    },
-    {
-      "id": "hacker-news-kode-dot-programmable-pocket-device-for-makers-pentesters-and-geeks-2026-07-12",
-      "title": "Kode Dot Programmable pocket device for makers, pentesters and geeks",
-      "link": "https://kode.diy",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-12T21:27:29.000Z"
-    },
-    {
-      "id": "hacker-news-ask-hn-what-are-you-working-on-july-2026-2026-07-12t21-26-41-000z",
-      "title": "Ask HN: What Are You Working On? (July 2026)",
-      "link": "https://news.ycombinator.com/item?id=48884984",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-12T21:26:41.000Z"
     },
     {
       "id": "hacker-news-since-chromium-148-math-tanh-is-now-fingerprintable-to-link-underlying-os-2026",
@@ -130,17 +131,6 @@
       "publishedAt": "2026-07-12T20:23:05.000Z"
     },
     {
-      "id": "hacker-news-claude-code-sends-33k-tokens-before-reading-the-prompt-opencode-sends-7k-2026",
-      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-12T18:25:51.000Z"
-    },
-    {
       "id": "infoq-cloudflare-identifies-race-condition-in-hyper-s-http-1-implementation-2026-07-12t06",
       "title": "Cloudflare Identifies Race Condition in hyper’s HTTP/1 Implementation",
       "link": "https://www.infoq.com/news/2026/07/cloudflare-hyper-bug-fix/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -150,17 +140,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-12T06:18:00.000Z"
-    },
-    {
-      "id": "the-register-slothful-summer-app-lets-you-scroll-simply-by-tilting-your-head-2026-07-10t20",
-      "title": "Slothful summer app lets you scroll simply by tilting your head",
-      "link": "https://www.theregister.com/personal-tech/2026/07/10/slothful-summer-app-lets-you-scroll-simply-by-tilting-your-head/5270096",
-      "summary": "ScrollPods is Mac-only, and you'll need compatible AirPods",
-      "image": "https://image.theregister.com/?imageId=5270118&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-10T20:32:53.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-ec2-network-ebs-instances-now-available-in-additional-regions-2026-0",
@@ -394,39 +373,6 @@
       "publishedAt": "2026-07-10T00:00:00.000Z"
     },
     {
-      "id": "the-register-ai-tool-scours-the-web-for-job-openings-preps-your-resume-and-cover-letter-20",
-      "title": "AI tool scours the web for job openings, preps your resume and cover letter",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/09/ai-tool-scours-the-web-for-job-openings-preps-your-resume-and-cover-letter/5269410",
-      "summary": "Searching for work sucks; AI combs the internet and sucks it all up. Combine the two and let 'er rip with this Python project",
-      "image": "https://image.theregister.com/?imageId=5239850&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-09T17:40:00.000Z"
-    },
-    {
-      "id": "the-register-openmandriva-claims-disgruntled-admin-trashed-repos-after-community-bust-up-2",
-      "title": "OpenMandriva claims disgruntled admin trashed repos after community bust-up",
-      "link": "https://www.theregister.com/software/2026/07/09/openmandriva-claims-disgruntled-admin-trashed-repos-after-community-bust-up/5269421",
-      "summary": "Linux distro accuses former contributor of deleting years of work and pushing a package that could have broken installs",
-      "image": "https://image.theregister.com/?imageId=5269514&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-09T17:15:00.000Z"
-    },
-    {
-      "id": "the-register-sap-makes-it-easier-for-customers-to-shop-for-legacy-product-support-ending-e",
-      "title": "SAP makes it easier for customers to shop for legacy product support, ending EU antitrust probe",
-      "link": "https://www.theregister.com/software/2026/07/09/sap-makes-it-easier-for-customers-to-shop-for-legacy-product-support-ending-eu-antitrust-probe/5269437",
-      "summary": "Vendor drops reinstatement fees and caps back-maintenance charges ahead of the ECC support cliff",
-      "image": "https://image.theregister.com/?imageId=256250&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-09T16:46:50.000Z"
-    },
-    {
       "id": "google-cloud-blog-safely-run-ai-generated-code-in-cloud-run-sandboxes-2026-07-09t16-30-00",
       "title": "Safely run AI-generated code in Cloud Run sandboxes",
       "link": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-run-sandboxes-are-in-public-preview/",
@@ -581,6 +527,17 @@
       "publishedAt": "2026-07-08T17:16:05.000Z"
     },
     {
+      "id": "hacker-news-ghostlock-a-stack-uaf-that-has-existed-in-all-linux-distributions-for-15-years",
+      "title": "GhostLock, a stack-UAF that has existed in all Linux distributions for 15 years",
+      "link": "https://nebusec.ai/research/ionstack-part-2/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-08T16:53:58.000Z"
+    },
+    {
       "id": "google-cloud-blog-google-cloud-named-leader-in-the-2026-gartner-magic-quadrant-for-ai-infr",
       "title": "Google Cloud named Leader in the 2026 Gartner® Magic Quadrant™ for AI Infrastructure",
       "link": "https://cloud.google.com/blog/topics/ai-infrastructure/google-is-a-leader-in-gartner-magic-quadrant-for-ai-infra/",
@@ -603,15 +560,59 @@
       "publishedAt": "2026-07-08T16:00:00.000Z"
     },
     {
-      "id": "the-register-tool-promises-to-make-lazy-academics-ai-written-papers-sound-more-human-2026",
-      "title": "Tool promises to make lazy academics' AI-written papers sound more human",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/08/tool-promises-to-make-lazy-academics-ai-written-papers-sound-more-human/5268460",
-      "summary": "Startup insists it's not trying to help anyone cheat the system - honest!",
-      "image": "https://image.theregister.com/?imageId=237883&width=800",
-      "source": "The Register",
+      "id": "openai-news-our-approach-to-government-and-national-security-partnerships-2026-07-08t13-30",
+      "title": "Our approach to government and national security partnerships",
+      "link": "https://openai.com/index/government-national-security-partnerships",
+      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-08T13:30:00.000Z"
+    },
+    {
+      "id": "openai-news-separating-signal-from-noise-in-coding-evaluations-2026-07-08t13-00-00-000z",
+      "title": "Separating signal from noise in coding evaluations",
+      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-08T13:00:00.000Z"
+    },
+    {
+      "id": "openai-news-helping-k-12-educators-build-practical-ai-skills-2026-07-08t10-00-00-000z",
+      "title": "Helping K–12 educators build practical AI skills",
+      "link": "https://openai.com/index/k-12-educators-practical-skills",
+      "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-08T10:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-so-you-want-to-learn-physics-second-edition-2021-2026-07-08t03-28-00-000z",
+      "title": "So you want to learn physics (second edition, 2021)",
+      "link": "https://www.susanrigetti.com/physics",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-08T15:55:00.000Z"
+      "publishedAt": "2026-07-08T03:28:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-native-speed-vllm-transformers-modeling-backend-2026-07-08t00-00-00-000z",
+      "title": "Native-speed vLLM transformers modeling backend",
+      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-08T00:00:00.000Z"
     }
   ]
 }
