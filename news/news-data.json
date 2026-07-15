@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T21:41:53.419Z",
+  "updatedAt": "2026-07-15T22:40:52.140Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -46,8 +46,9 @@
     {
       "name": "Hacker News",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "name": "InfoQ",
@@ -64,50 +65,6 @@
   ],
   "items": [
     {
-      "id": "hacker-news-grok-build-2026-07-15t20-24-58-000z",
-      "title": "Grok Build",
-      "link": "https://github.com/xai-org/grok-build",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-15T20:24:58.000Z"
-    },
-    {
-      "id": "hacker-news-brainless-shadcn-components-that-look-like-claude-code-codex-and-grok-2026-07",
-      "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
-      "link": "https://brainless.swerdlow.dev",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-15T19:42:53.000Z"
-    },
-    {
-      "id": "hacker-news-voxatron-2026-07-15t19-40-23-000z",
-      "title": "Voxatron",
-      "link": "https://www.lexaloffle.com/voxatron.php",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-15T19:40:23.000Z"
-    },
-    {
-      "id": "hacker-news-duskers-the-scary-command-line-game-is-getting-a-sequel-2026-07-15t19-27-59-00",
-      "title": "Duskers, the scary command line game, is getting a sequel",
-      "link": "https://elbowgreasegames.substack.com/p/misfits-attic-announces-duskers-20",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-15T19:27:59.000Z"
-    },
-    {
       "id": "aws-what-s-new-amazon-mq-now-supports-configurable-storage-for-rabbitmq-brokers-2026-07-15",
       "title": "Amazon MQ now supports configurable storage for RabbitMQ brokers",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mq-rabbitmq-configurable-storage/",
@@ -117,17 +74,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-07-15T18:18:00.000Z"
-    },
-    {
-      "id": "hacker-news-inkling-our-open-weights-model-2026-07-15t18-12-45-000z",
-      "title": "Inkling: Our Open-Weights Model",
-      "link": "https://thinkingmachines.ai/news/introducing-inkling/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-15T18:12:45.000Z"
     },
     {
       "id": "hugging-face-blog-what-building-shippy-taught-us-about-building-agents-2026-07-15t17-29-41",
@@ -240,17 +186,6 @@
       "publishedAt": "2026-07-15T16:00:00.000Z"
     },
     {
-      "id": "hacker-news-running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu-2026-07",
-      "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
-      "link": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-15T15:34:05.000Z"
-    },
-    {
       "id": "aws-what-s-new-amazon-opensearch-service-now-supports-the-agent-toolkit-for-aws-with-a-cur",
       "title": "Amazon OpenSearch Service now supports the Agent Toolkit for AWS with a curated skill",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-agent/",
@@ -361,17 +296,6 @@
       "publishedAt": "2026-07-15T07:00:00.000Z"
     },
     {
-      "id": "hacker-news-stripe-and-advent-have-made-a-joint-offer-to-acquire-paypal-sources-2026-07-15",
-      "title": "Stripe and Advent have made a joint offer to acquire PayPal – sources",
-      "link": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-15T03:32:45.000Z"
-    },
-    {
       "id": "hugging-face-blog-welcome-inkling-by-thinking-machines-2026-07-15t00-00-00-000z",
       "title": "Welcome Inkling by Thinking Machines",
       "link": "https://huggingface.co/blog/thinkingmachines-inkling",
@@ -392,17 +316,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-15T00:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-who-is-america-s-homer-2026-07-14t22-19-13-000z",
-      "title": "Who Is America's Homer?",
-      "link": "https://www.plough.com/articles/who-is-americas-homer",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-14T22:19:13.000Z"
     },
     {
       "id": "infoq-google-cloud-workbench-notebooks-extension-connects-vs-code-to-google-cloud-s-jupyte",
@@ -612,6 +525,94 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-10T20:32:53.000Z"
+    },
+    {
+      "id": "github-blog-better-tools-made-copilot-code-review-worse-here-s-how-we-actually-improved-it",
+      "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
+      "link": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+      "summary": "How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence. The post Better tools made Copilot code review worse. Here’s h...",
+      "image": "https://github.blog/wp-content/uploads/2026/07/1.png?resize=1024%2C478",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-10T15:57:47.000Z"
+    },
+    {
+      "id": "openai-news-how-deutsche-telekom-is-rewiring-telecommunications-with-ai-2026-07-10t07-00-0",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "link": "https://openai.com/index/deutsche-telekom",
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-10T07:00:00.000Z"
+    },
+    {
+      "id": "openai-news-getting-started-with-chatgpt-2026-07-10t00-00-00-000z",
+      "title": "Getting started with ChatGPT",
+      "link": "https://openai.com/academy/getting-started",
+      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-10T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-profiling-in-pytorch-part-3-attention-is-all-you-profile-2026-07-10t00-0",
+      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "link": "https://huggingface.co/blog/torch-attention-profile",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-10T00:00:00.000Z"
+    },
+    {
+      "id": "the-register-ai-tool-scours-the-web-for-job-openings-preps-your-resume-and-cover-letter-20",
+      "title": "AI tool scours the web for job openings, preps your resume and cover letter",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/09/ai-tool-scours-the-web-for-job-openings-preps-your-resume-and-cover-letter/5269410",
+      "summary": "Searching for work sucks; AI combs the internet and sucks it all up. Combine the two and let 'er rip with this Python project",
+      "image": "https://image.theregister.com/?imageId=5239850&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-09T17:40:00.000Z"
+    },
+    {
+      "id": "the-register-openmandriva-claims-disgruntled-admin-trashed-repos-after-community-bust-up-2",
+      "title": "OpenMandriva claims disgruntled admin trashed repos after community bust-up",
+      "link": "https://www.theregister.com/software/2026/07/09/openmandriva-claims-disgruntled-admin-trashed-repos-after-community-bust-up/5269421",
+      "summary": "Linux distro accuses former contributor of deleting years of work and pushing a package that could have broken installs",
+      "image": "https://image.theregister.com/?imageId=5269514&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-09T17:15:00.000Z"
+    },
+    {
+      "id": "github-blog-how-github-gave-every-repository-a-durable-owner-2026-07-09t16-29-37-000z",
+      "title": "How GitHub gave every repository a durable owner",
+      "link": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+      "summary": "GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 days, archived the rest, and made ownership the foundation for everythin...",
+      "image": "https://github.blog/wp-content/uploads/2026/07/CleanShot-2026-07-09-at-12.21.43@2x.png?resize=683%2C1024",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-09T16:29:37.000Z"
+    },
+    {
+      "id": "openai-news-gpt-5-6-is-now-the-preferred-model-in-microsoft-365-copilot-2026-07-09t13-00-0",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-09T13:00:00.000Z"
     }
   ]
 }
