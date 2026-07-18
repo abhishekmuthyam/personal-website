@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T12:10:12.033Z",
+  "updatedAt": "2026-07-18T13:50:10.502Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -46,8 +46,9 @@
     {
       "name": "Hacker News",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "name": "InfoQ",
@@ -59,65 +60,10 @@
       "name": "The Register",
       "topic": "devtools",
       "ok": true,
-      "count": 0
+      "count": 8
     }
   ],
   "items": [
-    {
-      "id": "hacker-news-what-ai-did-to-stackoverflow-in-a-graph-2026-07-18t11-12-46-000z",
-      "title": "What AI did to stackoverflow in a graph",
-      "link": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-18T11:12:46.000Z"
-    },
-    {
-      "id": "hacker-news-why-do-ai-company-logos-look-like-buttholes-2026-07-18t11-06-50-000z",
-      "title": "Why do AI company logos look like buttholes?",
-      "link": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-18T11:06:50.000Z"
-    },
-    {
-      "id": "hacker-news-lg-monitors-silently-install-software-through-windows-update-without-consent-2",
-      "title": "LG monitors silently install software through Windows Update without consent",
-      "link": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-18T10:21:19.000Z"
-    },
-    {
-      "id": "hacker-news-qubes-os-security-in-the-public-record-2026-07-18t08-50-07-000z",
-      "title": "Qubes OS Security in the Public Record",
-      "link": "https://arxiv.org/abs/2607.14587",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-18T08:50:07.000Z"
-    },
-    {
-      "id": "hacker-news-the-computer-at-the-bottom-of-a-canal-2026-07-18t08-33-31-000z",
-      "title": "The Computer at the Bottom of a Canal",
-      "link": "https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-18T08:33:31.000Z"
-    },
     {
       "id": "infoq-version-controlled-sql-database-dolt-releases-2-0-with-automatic-storage-cleanup-and",
       "title": "Version Controlled SQL Database Dolt Releases 2.0 with Automatic Storage Cleanup and Compression",
@@ -130,17 +76,6 @@
       "publishedAt": "2026-07-18T07:28:00.000Z"
     },
     {
-      "id": "hacker-news-regressive-jpegs-2026-07-18t03-14-20-000z",
-      "title": "Regressive JPEGs",
-      "link": "https://maurycyz.com/projects/bad_jpeg/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-18T03:14:20.000Z"
-    },
-    {
       "id": "inside-java-the-java-story-the-official-documentary-2026-07-18t00-00-00-000z",
       "title": "The Java Story | The Official Documentary",
       "link": "https://inside.java/2026/07/18/the-java-documentary/",
@@ -150,6 +85,17 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-07-18T00:00:00.000Z"
+    },
+    {
+      "id": "the-register-mozilla-speeds-firefox-release-schedule-to-biweekly-2026-07-17t17-40-00-000z",
+      "title": "Mozilla speeds Firefox release schedule to biweekly",
+      "link": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423",
+      "summary": "And what to expect in Firefox 153 as the next ESR release gets close",
+      "image": "https://image.theregister.com/?imageId=5274447&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-17T17:40:00.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-gamelift-streams-now-supports-iam-role-credentials-for-stream-sessio",
@@ -172,17 +118,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-07-17T17:23:00.000Z"
-    },
-    {
-      "id": "hacker-news-thanks-hn-for-15-years-of-support-and-helping-me-find-my-life-s-work-2026-07-1",
-      "title": "Thanks HN for 15 years of support and helping me find my life's work",
-      "link": "https://news.ycombinator.com/item?id=48949551",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-17T16:57:27.000Z"
     },
     {
       "id": "github-blog-the-cost-of-saying-yes-has-changed-2026-07-17t16-46-47-000z",
@@ -295,17 +230,6 @@
       "publishedAt": "2026-07-17T10:00:00.000Z"
     },
     {
-      "id": "hacker-news-aws-inaccurate-estimated-billing-data-1-7-billion-2026-07-17t09-42-05-000z",
-      "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
-      "link": "https://news.ycombinator.com/item?id=48945241",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-17T09:42:05.000Z"
-    },
-    {
       "id": "google-cloud-blog-guide-to-ai-tokenomics-eleven-principles-for-token-efficient-software-en",
       "title": "Guide to AI Tokenomics: Eleven Principles for Token Efficient Software Engineering",
       "link": "https://cloud.google.com/blog/topics/developers-practitioners/guide-to-ai-tokenomics-eleven-principles-for-token-efficient-software-engineering/",
@@ -405,6 +329,28 @@
       "publishedAt": "2026-07-16T18:00:00.000Z"
     },
     {
+      "id": "the-register-eu-forces-google-to-share-its-toys-with-the-other-ai-and-search-kids-2026-07",
+      "title": "EU forces Google to share its toys with the other AI and search kids",
+      "link": "https://www.theregister.com/software/2026/07/16/eu-forces-google-to-share-its-toys-with-the-other-ai-and-search-kids/5273819",
+      "summary": "The Chocolate Factory is not amused",
+      "image": "https://image.theregister.com/?imageId=239084&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-16T16:48:41.000Z"
+    },
+    {
+      "id": "the-register-ai-vendors-have-found-someone-to-pay-their-infrastructure-bills-you-2026-07-1",
+      "title": "AI vendors have found someone to pay their infrastructure bills: You",
+      "link": "https://www.theregister.com/software/2026/07/16/ai-vendors-have-found-someone-to-pay-their-infrastructure-bills-you/5273712",
+      "summary": "Forrester warns price hikes and usage charges will pump up software budgets next year",
+      "image": "https://image.theregister.com/?imageId=1683560&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-16T16:21:00.000Z"
+    },
+    {
       "id": "google-cloud-blog-cloud-ciso-perspectives-how-ai-leverages-deep-context-as-the-defender-s",
       "title": "Cloud CISO Perspectives: How AI leverages deep context as the defender’s advantage",
       "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-ai-leverages-deep-context-defenders-advantage/",
@@ -449,6 +395,17 @@
       "publishedAt": "2026-07-16T16:00:00.000Z"
     },
     {
+      "id": "the-register-kick-your-mouse-out-of-the-house-with-this-ai-assisted-keyboard-utility-2026",
+      "title": "Kick your mouse out of the house with this AI-assisted keyboard utility",
+      "link": "https://www.theregister.com/software/2026/07/16/kick-your-mouse-out-of-the-house-with-this-ai-assisted-keyboard-utility/5271938",
+      "summary": "Neverclick avoids being limited to certain apps by ditching accessibility APIs for a quick, lightweight computer vision model.",
+      "image": "https://image.theregister.com/?imageId=230448&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-16T15:46:12.000Z"
+    },
+    {
       "id": "hugging-face-blog-newer-models-same-advantage-2026-07-16t11-49-48-000z",
       "title": "Newer Models, Same Advantage",
       "link": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
@@ -480,6 +437,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-16T10:20:00.000Z"
+    },
+    {
+      "id": "the-register-how-to-teach-an-old-intel-mac-new-tricks-with-opencore-legacy-patcher-2026-07",
+      "title": "How to teach an old Intel Mac new tricks with OpenCore Legacy Patcher",
+      "link": "https://www.theregister.com/software/2026/07/16/how-to-teach-an-old-intel-mac-new-tricks-with-opencore-legacy-patcher/5271880",
+      "summary": "Why to do it, and what to watch out for",
+      "image": "https://image.theregister.com/?imageId=254231&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-16T08:30:00.000Z"
     },
     {
       "id": "inside-java-identifying-jdk-value-class-candidates-2026-07-16t00-00-00-000z",
@@ -581,6 +549,17 @@
       "publishedAt": "2026-07-15T10:00:00.000Z"
     },
     {
+      "id": "the-register-eu-competition-decision-hands-sap-customers-more-leverage-in-contract-talks-2",
+      "title": "EU competition decision hands SAP customers more leverage in contract talks",
+      "link": "https://www.theregister.com/software/2026/07/15/eu-competition-decision-hands-sap-customers-more-leverage-in-contract-talks/5271154",
+      "summary": "Truce over maintenance fees is a bargaining chip for ECC holdouts – just don't expect a stampede to third-party support",
+      "image": "https://image.theregister.com/?imageId=5237766&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-15T10:00:00.000Z"
+    },
+    {
       "id": "hugging-face-blog-welcome-inkling-by-thinking-machines-2026-07-15t00-00-00-000z",
       "title": "Welcome Inkling by Thinking Machines",
       "link": "https://huggingface.co/blog/thinkingmachines-inkling",
@@ -601,6 +580,28 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "id": "the-register-risc-v-firmware-project-wants-every-board-booting-from-the-same-hymn-sheet-20",
+      "title": "RISC-V firmware project wants every board booting from the same hymn sheet",
+      "link": "https://www.theregister.com/software/2026/07/14/risc-v-firmware-project-wants-every-board-booting-from-the-same-hymn-sheet/5271084",
+      "summary": "HFI proposes a familiar PC-style route from power-on to operating system",
+      "image": "https://image.theregister.com/?imageId=5271194&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-14T15:01:44.000Z"
+    },
+    {
+      "id": "the-register-frame-a-new-x11-server-implemented-directly-in-assembly-2026-07-14t10-37-00-0",
+      "title": "Frame: A new X11 server – implemented directly in assembly",
+      "link": "https://www.theregister.com/software/2026/07/14/frame-a-new-x11-server-implemented-directly-in-assembly/5270498",
+      "summary": "Joins yserver, Phoenix, and of course XLibre – and outlier Arcan",
+      "image": "https://image.theregister.com/?imageId=5270573&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-14T10:37:00.000Z"
     },
     {
       "id": "openai-news-how-to-manage-ai-investments-in-the-agentic-era-2026-07-14t10-00-00-000z",
