@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T12:20:49.397Z",
+  "updatedAt": "2026-07-22T14:30:59.093Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,6 +64,72 @@
   ],
   "items": [
     {
+      "id": "infoq-github-increased-instant-navigation-from-4-to-22-by-rethinking-client-side-architect",
+      "title": "GitHub Increased Instant Navigation from 4% to 22% by Rethinking Client Side Architecture",
+      "link": "https://www.infoq.com/news/2026/07/github-issues-navigation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitHub redesigned GitHub Issues navigation using a client-side architecture that combines caching, predictive prefetching, and service workers to reduce perceived latency. The approach uses IndexedDB, in-memory caching,...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-22T14:09:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-from-maintenance-to-innovation-checking-in-on-checkout-com-s-cloud-compo",
+      "title": "From maintenance to innovation: Checking in on Checkout.com’s Cloud Composer 3 migration",
+      "link": "https://cloud.google.com/blog/products/data-analytics/how-checkout-com-tallies-data-with-cloud-composer-3/",
+      "summary": "Data engineering teams often face a “Day 2” operational reality after building a data platform: the ongoing work of maintaining the orchestrator itself. For the Data Platform team at Checkout.com , managing a self-hoste...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/checkout-airflow-migration-google-cloud-2.max-600x600.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-22T14:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-accelerating-the-frontiers-of-scientific-discovery-google-s-40m-commitme",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "link": "https://cloud.google.com/blog/topics/public-sector/accelerating-frontiers-of-scientific-discovery-40-million-dollar-commitment-genesis-mission/",
+      "summary": "Scientists today face challenges of extraordinary scale and complexity. From shaping and simulating the intricate dynamics of fusion plasma, to exploring the vast search space of new materials, to making sense of the ex...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Genesis_Mission_40M_commitment.max-600x600.jpg",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-22T13:30:00.000Z"
+    },
+    {
+      "id": "openai-news-building-ai-infrastructure-with-the-effingham-county-community-2026-07-22t13-0",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-22T13:00:00.000Z"
+    },
+    {
+      "id": "infoq-anthropic-details-how-it-contains-claude-across-web-code-and-cowork-2026-07-22t12-25",
+      "title": "Anthropic Details How It Contains Claude Across Web, Code, and Cowork",
+      "link": "https://www.infoq.com/news/2026/07/anthropic-claude-containment/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Anthropic detailed the containment architectures it uses for Claude across its products. It argues that agent safety depends on placing deterministic limits on an agent’s filesystem, network, and execution environment r...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-22T12:25:00.000Z"
+    },
+    {
+      "id": "hacker-news-10-rem-c2slff4-2026-07-22t11-58-09-000z",
+      "title": "10 REM\"_(C2SLFF4",
+      "link": "https://beej.us/blog/data/mystery-comment/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-22T11:58:09.000Z"
+    },
+    {
       "id": "infoq-presentation-from-copy-paste-to-composition-building-agents-like-real-software-2026",
       "title": "Presentation: From Copy-Paste to Composition: Building Agents Like Real Software",
       "link": "https://www.infoq.com/presentations/agent-software-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -84,17 +150,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-22T10:50:41.000Z"
-    },
-    {
-      "id": "hacker-news-overpaid-fire-your-ceo-hire-the-future-2026-07-22t10-49-04-000z",
-      "title": "OverpAId – Fire your CEO. Hire the future",
-      "link": "https://overpaid.lol",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-22T10:49:04.000Z"
     },
     {
       "id": "infoq-aws-billing-bug-shows-customers-trillion-dollar-estimates-while-its-own-cost-alarms",
@@ -130,6 +185,17 @@
       "publishedAt": "2026-07-22T08:00:00.000Z"
     },
     {
+      "id": "openai-news-introducing-openai-presence-2026-07-22t05-30-00-000z",
+      "title": "Introducing OpenAI Presence",
+      "link": "https://openai.com/index/introducing-openai-presence",
+      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-22T05:30:00.000Z"
+    },
+    {
       "id": "hacker-news-original-apollo-11-guidance-computer-source-code-for-command-and-lunar-modules",
       "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
       "link": "https://github.com/chrislgarry/Apollo-11",
@@ -161,6 +227,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-21T22:35:24.000Z"
+    },
+    {
+      "id": "aws-what-s-new-aws-elastic-disaster-recovery-is-now-available-in-six-additional-aws-region",
+      "title": "AWS Elastic Disaster Recovery is now available in six additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-additional-regions/",
+      "summary": "AWS Elastic Disaster Recovery (AWS DRS) is now available in six additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Canada West (Calgary), and Mexi...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-21T22:00:00.000Z"
     },
     {
       "id": "hacker-news-openai-and-hugging-face-address-security-incident-during-model-evaluation-2026",
@@ -238,17 +315,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-21T18:58:44.000Z"
-    },
-    {
-      "id": "hacker-news-freeink-open-ecosystem-for-e-readers-2026-07-21t18-39-06-000z",
-      "title": "FreeInk: Open ecosystem for e-readers",
-      "link": "https://freeink.org/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-21T18:39:06.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-ecs-advanced-deployment-strategies-now-available-in-aws-european-sov",
@@ -372,28 +438,6 @@
       "publishedAt": "2026-07-21T11:19:00.000Z"
     },
     {
-      "id": "infoq-presentation-engineering-ai-for-creativity-and-curiosity-on-mobile-2026-07-21t10-20",
-      "title": "Presentation: Engineering AI for Creativity and Curiosity on Mobile",
-      "link": "https://www.infoq.com/presentations/ai-mobile/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Bhavuk Jain discusses translating foundational AI into scalable mobile products. He shares the engineering challenges behind AI Wallpapers and Circle to Search, detailing how to implement robust runtime guardrails, fine...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-21T10:20:00.000Z"
-    },
-    {
-      "id": "infoq-yelp-unifies-ml-model-training-with-training-orchestrator-2026-07-21t10-00-00-000z",
-      "title": "Yelp Unifies ML Model Training with Training Orchestrator",
-      "link": "https://www.infoq.com/news/2026/07/yelp-ai-model-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Yelp has launched Training Orchestrator. This new internal framework replaces individual team Spark training scripts. Now, it uses a configuration-driven, DAG-based execution model. By Claudio Masolo",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-21T10:00:00.000Z"
-    },
-    {
       "id": "the-register-some-mullvad-vpn-customers-tunnel-for-exit-after-co-founder-donates-millions",
       "title": "Some Mullvad VPN customers tunnel for exit after co-founder donates millions to populist party",
       "link": "https://www.theregister.com/software/2026/07/21/some-mullvad-vpn-customers-tunnel-for-exit-after-co-founder-donates-millions-to-populist-party/5275012",
@@ -403,17 +447,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-21T09:15:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-rds-now-supports-the-latest-cu-and-gdr-updates-for-microsoft-sql-ser",
-      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for M...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-21T07:45:00.000Z"
     },
     {
       "id": "openai-news-openai-and-hugging-face-partner-to-address-security-incident-during-model-eval",
@@ -548,6 +581,17 @@
       "publishedAt": "2026-07-19T00:00:00.000Z"
     },
     {
+      "id": "hacker-news-cornell-s-interactive-wall-of-birds-2026-07-18t20-54-15-000z",
+      "title": "Cornell's Interactive Wall of Birds",
+      "link": "https://academy.allaboutbirds.org/features/wallofbirds/?_hsmi=428996456",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-18T20:54:15.000Z"
+    },
+    {
       "id": "hacker-news-intel-starts-shipping-high-na-euv-silicon-2026-07-18t19-56-33-000z",
       "title": "Intel Starts Shipping High-NA EUV Silicon",
       "link": "https://morethanmoore.substack.com/p/intel-starts-shipping-high-na-euv",
@@ -568,50 +612,6 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-07-18T00:00:00.000Z"
-    },
-    {
-      "id": "the-register-mozilla-speeds-firefox-release-schedule-to-biweekly-2026-07-17t17-40-00-000z",
-      "title": "Mozilla speeds Firefox release schedule to biweekly",
-      "link": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423",
-      "summary": "And what to expect in Firefox 153 as the next ESR release gets close",
-      "image": "https://image.theregister.com/?imageId=5274447&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-17T17:40:00.000Z"
-    },
-    {
-      "id": "github-blog-the-cost-of-saying-yes-has-changed-2026-07-17t16-46-47-000z",
-      "title": "The cost of saying yes has changed",
-      "link": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-      "summary": "The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era. The post The cost of saying yes has changed appeared first on The GitHub Blog .",
-      "image": "",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-17T16:46:47.000Z"
-    },
-    {
-      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-07-17t16-00-00-000z",
-      "title": "What’s new with Google Cloud",
-      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_2026_CfhxFWX.max-600x600.jpg",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-17T16:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-level-up-your-column-level-security-using-iam-data-governance-tags-in-bi",
-      "title": "Level Up Your Column-level Security: Using IAM Data Governance Tags in BigQuery",
-      "link": "https://cloud.google.com/blog/products/data-analytics/level-up-your-column-level-security-using-iam-data-governance-tags-in-bigquery/",
-      "summary": "Many BigQuery customers rely on policy tags for protecting their sensitive information in BigQuery. Policy tags were the go-to solution for applying column-level access controls, allowing only users with the right permi...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-17T16:00:00.000Z"
     }
   ]
 }
