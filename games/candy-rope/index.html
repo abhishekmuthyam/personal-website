@@ -139,31 +139,39 @@ const sndPop = () => tone(600, 0.06, "square", 0.15, 0, 1500);
 
 /* ---------- levels ---------- */
 const LEVELS = [
+  /* 1: straight drop */
   { ropes: [{ px: 240, py: 70, n: 9 }], candy: { x: 240, y: 250 },
     stars: [{ x: 240, y: 330 }, { x: 240, y: 410 }, { x: 240, y: 470 }],
     bubbles: [], monster: { x: 240, y: 540 } },
-  { ropes: [{ px: 120, py: 70, n: 9 }], candy: { x: 200, y: 240 },
-    stars: [{ x: 265, y: 330 }, { x: 330, y: 410 }, { x: 355, y: 470 }],
-    bubbles: [], monster: { x: 370, y: 535 } },
+  /* 2: cut short rope, swing on long one, release at bottom */
+  { ropes: [{ px: 120, py: 120, n: 4 }, { px: 360, py: 70, n: 12 }], candy: { x: 150, y: 210 },
+    stars: [{ x: 215, y: 265 }, { x: 295, y: 310 }, { x: 360, y: 330 }],
+    bubbles: [], monster: { x: 360, y: 540 } },
+  /* 3: V ropes, straight drop */
   { ropes: [{ px: 140, py: 70, n: 8 }, { px: 340, py: 70, n: 8 }], candy: { x: 240, y: 220 },
-    stars: [{ x: 240, y: 320 }, { x: 165, y: 400 }, { x: 240, y: 470 }],
+    stars: [{ x: 240, y: 320 }, { x: 240, y: 400 }, { x: 240, y: 470 }],
     bubbles: [], monster: { x: 240, y: 545 } },
-  { ropes: [{ px: 360, py: 70, n: 10 }], candy: { x: 280, y: 260 },
-    stars: [{ x: 200, y: 350 }, { x: 140, y: 420 }, { x: 105, y: 470 }],
-    bubbles: [], monster: { x: 105, y: 540 } },
-  { ropes: [{ px: 240, py: 70, n: 8 }], candy: { x: 240, y: 230 },
-    stars: [{ x: 300, y: 300 }, { x: 350, y: 220 }, { x: 390, y: 140 }],
-    bubbles: [{ x: 300, y: 330 }], monster: { x: 400, y: 95 } },
+  /* 4: mirror swing to the left */
+  { ropes: [{ px: 360, py: 120, n: 4 }, { px: 120, py: 70, n: 12 }], candy: { x: 330, y: 210 },
+    stars: [{ x: 265, y: 265 }, { x: 185, y: 310 }, { x: 120, y: 330 }],
+    bubbles: [], monster: { x: 120, y: 540 } },
+  /* 5: drop into a bubble, float up to Momo */
+  { ropes: [{ px: 140, py: 70, n: 9 }], candy: { x: 140, y: 260 },
+    stars: [{ x: 140, y: 330 }, { x: 140, y: 230 }, { x: 140, y: 165 }],
+    bubbles: [{ x: 140, y: 390 }], monster: { x: 140, y: 115 } },
+  /* 6: three ropes, cut them all */
   { ropes: [{ px: 90, py: 70, n: 8 }, { px: 240, py: 60, n: 10 }, { px: 390, py: 70, n: 8 }],
     candy: { x: 240, y: 250 },
-    stars: [{ x: 150, y: 350 }, { x: 240, y: 420 }, { x: 330, y: 350 }],
+    stars: [{ x: 240, y: 330 }, { x: 240, y: 405 }, { x: 240, y: 470 }],
     bubbles: [], monster: { x: 240, y: 545 } },
-  { ropes: [{ px: 130, py: 70, n: 9 }], candy: { x: 210, y: 250 },
-    stars: [{ x: 300, y: 330 }, { x: 360, y: 240 }, { x: 300, y: 140 }],
-    bubbles: [{ x: 330, y: 360 }], monster: { x: 240, y: 100 } },
-  { ropes: [{ px: 70, py: 80, n: 11 }], candy: { x: 190, y: 290 },
-    stars: [{ x: 290, y: 400 }, { x: 370, y: 450 }, { x: 420, y: 500 }],
-    bubbles: [], monster: { x: 430, y: 555 } },
+  /* 7: big swing right */
+  { ropes: [{ px: 150, py: 130, n: 4 }, { px: 400, py: 80, n: 13 }], candy: { x: 180, y: 215 },
+    stars: [{ x: 250, y: 280 }, { x: 330, y: 320 }, { x: 400, y: 345 }],
+    bubbles: [], monster: { x: 400, y: 545 } },
+  /* 8: swing to the right side, release at the far end */
+  { ropes: [{ px: 110, py: 120, n: 4 }, { px: 260, py: 60, n: 9 }], candy: { x: 140, y: 200 },
+    stars: [{ x: 205, y: 240 }, { x: 300, y: 240 }, { x: 355, y: 350 }],
+    bubbles: [], monster: { x: 365, y: 545 } },
 ];
 
 function loadLevel(i) {
@@ -171,7 +179,7 @@ function loadLevel(i) {
   points = []; sticks = []; levelStars = 0; eating = 0;
   candy = { x: L.candy.x, y: L.candy.y, px: L.candy.x, py: L.candy.y, inv: 0.38, bubble: null };
   points.push(candy);
-  L.ropes.forEach(r => {
+  L.ropes.forEach((r, ri) => {
     const pin = { x: r.px, y: r.py, px: r.px, py: r.py, inv: 0 };
     points.push(pin);
     let prev = pin;
@@ -180,13 +188,13 @@ function loadLevel(i) {
     for (let k = 1; k < r.n; k++) {
       const p = { x: r.px + dx * k, y: r.py + dy * k, px: r.px + dx * k, py: r.py + dy * k, inv: 1 };
       points.push(p);
-      sticks.push({ a: prev, b: p, len: segLen, cut: false });
+      sticks.push({ a: prev, b: p, len: segLen, cut: false, rope: ri });
       prev = p;
     }
-    sticks.push({ a: prev, b: candy, len: segLen, cut: false });
+    sticks.push({ a: prev, b: candy, len: segLen, cut: false, rope: ri });
   });
   stars = L.stars.map(s => ({ x: s.x, y: s.y, got: false }));
-  bubbles = L.bubbles.map(b => ({ x: b.x, y: b.y, r: 34, popped: false }));
+  bubbles = L.bubbles.map(b => ({ x: b.x, y: b.y, r: 40, popped: false }));
   monster = { x: L.monster.x, y: L.monster.y, mouth: 0 };
   document.getElementById("level").innerText = (i + 1);
   hud();
@@ -202,7 +210,9 @@ function step() {
   // candy in bubble floats
   points.forEach(p => {
     if (p.inv === 0) return;
-    const vx = (p.x - p.px) * FRICTION, vy = (p.y - p.py) * FRICTION;
+    let vx = (p.x - p.px) * FRICTION, vy = (p.y - p.py) * FRICTION;
+    const vsp = Math.hypot(vx, vy);
+    if (vsp > 24) { vx *= 24 / vsp; vy *= 24 / vsp; }
     p.px = p.x; p.py = p.y;
     p.x += vx;
     p.y += vy + (p === candy && p.bubble ? -0.30 : GRAV) * (p.inv === 1 ? 1 : 0.9);
@@ -214,8 +224,9 @@ function step() {
       const d = Math.hypot(dx, dy) || 0.001;
       const diff = (d - s.len) / d;
       const wa = s.a.inv / (s.a.inv + s.b.inv || 1), wb = s.b.inv / (s.a.inv + s.b.inv || 1);
-      if (s.a.inv) { s.a.x += dx * diff * wa; s.a.y += dy * diff * wa; }
-      if (s.b.inv) { s.b.x -= dx * diff * wb; s.b.y -= dy * diff * wb; }
+      const cl = v => Math.max(-14, Math.min(14, v));
+      if (s.a.inv) { s.a.x += cl(dx * diff * wa); s.a.y += cl(dy * diff * wa); }
+      if (s.b.inv) { s.b.x -= cl(dx * diff * wb); s.b.y -= cl(dy * diff * wb); }
     });
   }
   // bubble capture
@@ -235,7 +246,7 @@ function step() {
   // monster eats
   const md = Math.hypot(candy.x - monster.x, candy.y - monster.y);
   monster.mouth += ((md < 120 ? 1 : 0.15) - monster.mouth) * 0.15;
-  if (md < 44 && eating === 0) {
+  if (md < 50 && eating === 0) {
     eating = 1; sndGulp();
     setTimeout(sndJingle, 250);
     totalStars += levelStars; levelStars = 0; hud();
