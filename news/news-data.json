@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T21:16:05.256Z",
+  "updatedAt": "2026-07-24T22:19:36.890Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -59,10 +59,21 @@
       "name": "The Register",
       "topic": "devtools",
       "ok": true,
-      "count": 0
+      "count": 8
     }
   ],
   "items": [
+    {
+      "id": "aws-what-s-new-amazon-ec2-dedicated-hosts-now-support-host-resource-groups-without-self-ma",
+      "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
+      "summary": "Starting today, customers can create Host Resource Groups (HRGs) for EC2 Dedicated Hosts without the previously required step of creating Self-Managed Licenses (SMLs) and associating AMIs through AWS License Manager. Th...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-24T21:00:00.000Z"
+    },
     {
       "id": "hacker-news-postgres-listen-notify-actually-scales-2026-07-24t19-05-53-000z",
       "title": "Postgres LISTEN/NOTIFY actually scales",
@@ -73,6 +84,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-24T19:05:53.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-kinesis-data-streams-now-supports-scaling-down-ingest-capacity-with",
+      "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
+      "summary": "Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. On-demand streams automatically increase ingest capacity in response to ris...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-24T18:55:00.000Z"
     },
     {
       "id": "hacker-news-gsxui-shadcn-style-components-for-go-2026-07-24t17-59-08-000z",
@@ -240,6 +262,17 @@
       "publishedAt": "2026-07-24T09:00:00.000Z"
     },
     {
+      "id": "the-register-support-newbie-figured-out-how-to-avoid-all-nighters-and-his-colleagues-hated",
+      "title": "Support newbie figured out how to avoid all-nighters, and his colleagues hated him for it",
+      "link": "https://www.theregister.com/software/2026/07/24/support-newbie-figured-out-how-to-avoid-all-nighters-and-his-colleagues-hated-him-for-it/5276829",
+      "summary": "Sleep doesn't pay",
+      "image": "https://image.theregister.com/?imageId=263126&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-24T06:30:00.000Z"
+    },
+    {
       "id": "infoq-jotai-v2-20-rework-store-building-blocks-for-high-throughput-performance-and-sets-th",
       "title": "Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3",
       "link": "https://www.infoq.com/news/2026/07/jotai-rework-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -262,6 +295,17 @@
       "publishedAt": "2026-07-23T23:46:00.000Z"
     },
     {
+      "id": "the-register-openai-won-t-let-some-customers-export-their-chats-but-this-tool-will-2026-07",
+      "title": "OpenAI won't let some customers export their chats, but this tool will",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/23/openai-wont-let-some-customers-export-their-chats-but-this-tool-will/5277795",
+      "summary": "ChatGPT Business and Enterprise users lack the standard chat export option, so third-party utilities like scrapemychats fill the gap",
+      "image": "https://image.theregister.com/?imageId=5277830&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-23T20:48:39.000Z"
+    },
+    {
       "id": "infoq-indirect-prompt-injection-exploits-github-s-ai-agent-to-leak-private-repository-data",
       "title": "Indirect Prompt Injection Exploits GitHub's AI Agent to Leak Private Repository Data",
       "link": "https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -282,28 +326,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-23T19:37:37.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-now-supports-automatic-credit-memo-application-preferences-2026-07-23t1",
-      "title": "AWS now supports automatic credit memo application preferences",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/credit-memo-applications/",
-      "summary": "AWS now enables customers who pay through electronic funds transfer to configure preferences for how credit memos are automatically applied to outstanding invoices. Customers can choose from different application prefer...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-23T18:16:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-rds-for-mysql-supports-mysql-9-7-in-amazon-rds-database-preview-envi",
-      "title": "Amazon RDS for MySQL supports MySQL 9.7 in Amazon RDS Database Preview Environment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-mysql-long-term-9-7-rds-database-preview/",
-      "summary": "Amazon RDS for MySQL &nbsp;now supports version community MySQL 9.7 in the&nbsp; Amazon RDS Database Preview Environment , allowing you to evaluate the latest Release on Amazon RDS for MySQL. This preview environment pr...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-23T18:05:00.000Z"
     },
     {
       "id": "google-cloud-blog-minimize-idle-accelerators-native-rl-job-interleaving-with-co-operative",
@@ -370,6 +392,28 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-23T11:42:00.000Z"
+    },
+    {
+      "id": "the-register-ibm-insists-ai-didn-t-kill-software-deals-just-delayed-them-2026-07-23t11-34",
+      "title": "IBM insists AI didn't kill software deals, just delayed them",
+      "link": "https://www.theregister.com/software/2026/07/23/ibm-insists-ai-didnt-kill-software-deals-just-delayed-them/5276977",
+      "summary": "Big Blue says customers postponed rather than abandoned major purchases as hardware soaked up enterprise budgets",
+      "image": "https://image.theregister.com/?imageId=241548&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-23T11:34:42.000Z"
+    },
+    {
+      "id": "the-register-firefox-153-contains-itself-while-thunderbird-153-fixes-almost-everything-202",
+      "title": "Firefox 153 contains itself while Thunderbird 153 fixes almost everything",
+      "link": "https://www.theregister.com/software/2026/07/23/firefox-153-contains-itself-while-thunderbird-153-fixes-almost-everything/5276390",
+      "summary": "Mozilla walls off your online identities as MZLA unleashes a bumper repair job",
+      "image": "https://image.theregister.com/?imageId=247923&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-23T11:14:00.000Z"
     },
     {
       "id": "infoq-presentation-compiling-workflows-into-databases-the-architecture-that-shouldn-t-work",
@@ -504,15 +548,26 @@
       "publishedAt": "2026-07-22T12:00:00.000Z"
     },
     {
-      "id": "hacker-news-marimo-now-runs-in-pycharm-2026-07-22t10-24-40-000z",
-      "title": "Marimo Now Runs in PyCharm",
-      "link": "https://marimo.io/blog/pycharm",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
+      "id": "the-register-gnome-can-look-like-windows-and-flashback-can-do-it-without-extensions-2026-0",
+      "title": "GNOME can look like Windows – and Flashback can do it without extensions",
+      "link": "https://www.theregister.com/software/2026/07/22/gnome-can-look-like-windows-and-flashback-can-do-it-without-extensions/5276109",
+      "summary": "New 'Simple-taskbar' is an option, but there's a simpler, stabler way",
+      "image": "https://image.theregister.com/?imageId=259754&width=800",
+      "source": "The Register",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-22T10:24:40.000Z"
+      "publishedAt": "2026-07-22T10:50:41.000Z"
+    },
+    {
+      "id": "the-register-redmond-s-reaper-cometh-october-2026-set-to-bury-a-graveyard-of-microsoft-pro",
+      "title": "Redmond's reaper cometh: October 2026 set to bury a graveyard of Microsoft products",
+      "link": "https://www.theregister.com/software/2026/07/22/redmonds-reaper-cometh-october-2026-set-to-bury-a-graveyard-of-microsoft-products/5275627",
+      "summary": "Office LTSC 2021, Windows Server 2022, Publisher, and Entra ID risk policies all facing the chop within weeks of each other",
+      "image": "https://image.theregister.com/?imageId=252298&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-22T10:00:00.000Z"
     },
     {
       "id": "openai-news-introducing-openai-presence-2026-07-22t05-30-00-000z",
@@ -557,61 +612,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-21T17:00:00.000Z"
-    },
-    {
-      "id": "github-blog-how-to-build-interactive-experiences-with-canvases-2026-07-21t16-00-00-000z",
-      "title": "How to build interactive experiences with canvases",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on Th...",
-      "image": "https://github.blog/wp-content/uploads/2026/07/1-issues.png?resize=1024%2C562",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-21T16:00:00.000Z"
-    },
-    {
-      "id": "openai-news-openai-and-hugging-face-partner-to-address-security-incident-during-model-eval",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-07-21T07:00:00.000Z"
-    },
-    {
-      "id": "spring-blog-this-week-in-spring-july-21st-2026-2026-07-21t00-00-00-000z",
-      "title": "This Week in Spring - July 21st, 2026",
-      "link": "https://spring.io/blog/2026/07/21/this-week-in-spring-july-21-2026",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-07-21T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-grabette-an-open-system-to-record-robot-manipulation-data-2026-07-21t00",
-      "title": "Grabette: an open system to record robot-manipulation data",
-      "link": "https://huggingface.co/blog/grabette",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-07-21T00:00:00.000Z"
-    },
-    {
-      "id": "github-blog-100-million-for-open-source-a-milestone-built-by-the-community-2026-07-20t16-0",
-      "title": "$100 million for open source: A milestone built by the community",
-      "link": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
-      "summary": "Celebrating $100 million contributed by the community to the people who build and sustain open source every day. The post $100 million for open source: A milestone built by the community appeared first on The GitHub Blo...",
-      "image": "",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-20T16:00:00.000Z"
     }
   ]
 }
