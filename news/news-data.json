@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T18:45:39.001Z",
+  "updatedAt": "2026-07-24T20:02:49.149Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,8 +64,19 @@
   ],
   "items": [
     {
-      "id": "hacker-news-i-got-into-yc-by-hacking-it-2026-07-24t18-03-22-000z",
-      "title": "I got into YC by hacking it",
+      "id": "hacker-news-postgres-listen-notify-actually-scales-2026-07-24t19-05-53-000z",
+      "title": "Postgres LISTEN/NOTIFY actually scales",
+      "link": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-24T19:05:53.000Z"
+    },
+    {
+      "id": "hacker-news-i-got-into-yc-startup-school-by-hacking-it-2026-07-24t18-03-22-000z",
+      "title": "I got into YC (Startup School) by hacking it",
       "link": "https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html",
       "summary": "Comments",
       "image": "",
@@ -86,26 +97,15 @@
       "publishedAt": "2026-07-24T16:57:41.000Z"
     },
     {
-      "id": "hacker-news-the-rise-and-fall-of-language-diversity-through-the-holocene-2026-07-24t16-40",
-      "title": "The rise and fall of language diversity through the Holocene",
-      "link": "https://www.science.org/doi/10.1126/science.adx4343",
+      "id": "hacker-news-don-t-take-the-black-pill-video-2026-07-24t16-48-57-000z",
+      "title": "Don't Take the Black Pill [video]",
+      "link": "https://www.youtube.com/watch?v=zLZwpH5lCD4",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-24T16:40:49.000Z"
-    },
-    {
-      "id": "hacker-news-be-skeptical-of-openai-s-rogue-hacker-agent-story-2026-07-24t16-33-31-000z",
-      "title": "Be skeptical of OpenAI's rogue hacker agent story",
-      "link": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-24T16:33:31.000Z"
+      "publishedAt": "2026-07-24T16:48:57.000Z"
     },
     {
       "id": "google-cloud-blog-open-knowledge-format-v0-2-tackles-agentic-trust-2026-07-24t16-00-00-000",
@@ -196,17 +196,6 @@
       "publishedAt": "2026-07-24T13:00:00.000Z"
     },
     {
-      "id": "hacker-news-half-life-2-running-natively-on-haikuos-2026-07-24t12-53-59-000z",
-      "title": "Half-Life 2 running natively on HaikuOS",
-      "link": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-24T12:53:59.000Z"
-    },
-    {
       "id": "hacker-news-my-security-camera-shipped-a-github-admin-token-in-its-login-page-2026-07-24t1",
       "title": "My security camera shipped a GitHub admin token in its login page",
       "link": "https://hhh.hn/hanwha-github-token/",
@@ -293,6 +282,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-23T20:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-fil-c-garbage-in-memory-safety-out-video-2026-07-23t19-37-37-000z",
+      "title": "Fil-C: Garbage In, Memory Safety Out [video]",
+      "link": "https://www.youtube.com/watch?v=5F-2Y1LPRek",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-23T19:37:37.000Z"
     },
     {
       "id": "aws-what-s-new-aws-now-supports-automatic-credit-memo-application-preferences-2026-07-23t1",
@@ -384,7 +384,7 @@
     },
     {
       "id": "infoq-expedia-uses-ai-driven-service-telemetry-analyzer-to-accelerate-incident-investigati",
-      "title": "Expedia Uses AI Driven Service Telemetry Analyzer to Accelerate Incident Investigation",
+      "title": "Expedia Uses AI-Driven Service Telemetry Analyzer to Accelerate Incident Investigation",
       "link": "https://www.infoq.com/news/2026/07/expedia-ai-observability-star/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "summary": "Expedia Group has introduced STAR, an internal AI-assisted observability platform that helps engineers investigate production incidents using service telemetry and LLMs. Built with FastAPI, Datadog, Celery, Redis, and L...",
       "image": "",
@@ -397,7 +397,7 @@
       "id": "infoq-achieving-compliance-as-a-platform-engineering-team-by-helping-developers-2026-07-23",
       "title": "Achieving Compliance as a Platform Engineering Team by Helping Developers",
       "link": "https://www.infoq.com/news/2026/07/platform-that-helps-developers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "When a new platform team set out on implementing their roadmap through forced workflows with poor documentation, developer experience declined. Success came from simplifying governance, prioritizing what matters, and ro...",
+      "summary": "When a new platform team set out to implement their roadmap through forced workflows with poor documentation, developer experience declined. Success came from simplifying governance, prioritizing what mattered, and roll...",
       "image": "",
       "source": "InfoQ",
       "topic": "devtools",
