@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T08:56:50.836Z",
+  "updatedAt": "2026-07-26T10:39:15.938Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,6 +64,39 @@
   ],
   "items": [
     {
+      "id": "hacker-news-elevated-errors-for-opus-5-2026-07-26t09-18-34-000z",
+      "title": "Elevated Errors for Opus 5",
+      "link": "https://status.claude.com/incidents/zftg3gqkmv18",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-26T09:18:34.000Z"
+    },
+    {
+      "id": "infoq-ai-enabled-security-researchers-discover-how-a-crafted-video-can-provide-attackers-a",
+      "title": "AI-Enabled Security Researchers Discover How a Crafted Video Can Provide Attackers Access to Your PC",
+      "link": "https://www.infoq.com/news/2026/07/pixelsmash-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "JFrog Security Research revealed \"PixelSmash,\" a vulnerability in the FFmpeg media framework, allowing for Remote Code Execution and Denial of Service attacks. Present for sixteen years, it affects numerous applications...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-26T09:09:00.000Z"
+    },
+    {
+      "id": "hacker-news-ruff-v0-16-0-significant-new-updates-413-default-rules-up-from-59-2026-07-26t0",
+      "title": "Ruff v0.16.0 – Significant new updates – 413 default rules up from 59",
+      "link": "https://astral.sh/blog/ruff-v0.16.0",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-26T09:01:39.000Z"
+    },
+    {
       "id": "infoq-amazon-eks-adds-kubernetes-version-rollback-within-7-days-of-an-upgrade-2026-07-26t0",
       "title": "Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of an Upgrade",
       "link": "https://www.infoq.com/news/2026/07/eks-version-rollback/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -95,39 +128,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-26T02:35:43.000Z"
-    },
-    {
-      "id": "hacker-news-show-hn-i-mapped-every-us-golf-course-2026-07-26t02-22-26-000z",
-      "title": "Show HN: I mapped every US golf course",
-      "link": "https://golfcoursebrowser.com/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-26T02:22:26.000Z"
-    },
-    {
-      "id": "hacker-news-inflect-micro-v2-complete-voice-in-9-36m-parameters-2026-07-26t00-36-30-000z",
-      "title": "Inflect-Micro-v2: complete voice in 9.36M parameters",
-      "link": "https://huggingface.co/owensong/Inflect-Micro-v2",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-26T00:36:30.000Z"
-    },
-    {
-      "id": "hacker-news-deepseek-pause-fundraise-after-comments-on-compute-gap-to-us-leaked-transcript",
-      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
-      "link": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-25T23:32:50.000Z"
     },
     {
       "id": "hacker-news-the-new-rules-of-context-engineering-for-claude-5-generation-models-2026-07-25",
@@ -361,17 +361,6 @@
       "publishedAt": "2026-07-24T06:26:00.000Z"
     },
     {
-      "id": "infoq-indirect-prompt-injection-exploits-github-s-ai-agent-to-leak-private-repository-data",
-      "title": "Indirect Prompt Injection Exploits GitHub's AI Agent to Leak Private Repository Data",
-      "link": "https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "GitLost is a prompt-injection exploit discovered by Noma Security that tricks GitHub's new Agentic Workflows into leaking private data. By embedding concealed instructions within public GitHub issues, attackers can circ...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-23T20:00:00.000Z"
-    },
-    {
       "id": "google-cloud-blog-minimize-idle-accelerators-native-rl-job-interleaving-with-co-operative",
       "title": "Minimize idle accelerators: Native RL job interleaving with co-operative time-slicing in llm-d",
       "link": "https://cloud.google.com/blog/products/containers-kubernetes/introducing-co-operative-time-slicing-for-rl-in-llm-d/",
@@ -535,6 +524,17 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-22T12:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-overloaded-overloading-2026-07-22t11-44-30-000z",
+      "title": "Overloaded Overloading",
+      "link": "https://powerfulpython.com/blog/overloaded-overloading/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-22T11:44:30.000Z"
     },
     {
       "id": "openai-news-introducing-openai-presence-2026-07-22t05-30-00-000z",
