@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T07:06:42.790Z",
+  "updatedAt": "2026-07-28T09:42:51.183Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,11 +58,67 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
+    {
+      "id": "infoq-remix-3-beta-preview-ditches-react-for-a-web-standards-full-stack-framework-2026-07",
+      "title": "Remix 3 Beta Preview Ditches React for a Web-Standards Full-Stack Framework",
+      "link": "https://www.infoq.com/news/2026/07/remix-3-beta-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Remix 3 is a full-stack web framework that moves away from React, focusing on web platform primitives. It integrates routes, request handlers, and UI components into a single structure, utilizing a forked Preact for the...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-28T09:02:00.000Z"
+    },
+    {
+      "id": "infoq-article-the-hard-stop-rule-from-3-hcm-monoliths-to-120-domain-microservices-2026-07",
+      "title": "Article: The Hard-Stop Rule: From 3 HCM Monoliths to 120 Domain Microservices",
+      "link": "https://www.infoq.com/articles/pull-based-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "A payroll and HR software team rebuilt three monoliths into over 120 smaller services over five years, with no dedicated migration budget. Every new feature was built as its own service instead of changing the old ones....",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-28T09:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-7-1-earthquake-in-japan-2026-07-28t07-44-24-000z",
+      "title": "7.1 Earthquake in Japan",
+      "link": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-28T07:44:24.000Z"
+    },
+    {
+      "id": "infoq-aws-launches-amazon-guardduty-investigation-agent-to-automate-threat-triage-2026-07",
+      "title": "AWS Launches Amazon GuardDuty Investigation Agent to Automate Threat Triage",
+      "link": "https://www.infoq.com/news/2026/07/guardduty-investigation-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS released a public preview of the GuardDuty investigation agent, which correlates findings, 90-day activity logs, and resource topologies into structured reports with risk ratings, confidence scores, and MITRE ATT&CK...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-28T07:14:00.000Z"
+    },
+    {
+      "id": "infoq-uber-s-zero-growth-stack-scaling-services-while-optimising-infrastructure-and-ai-cos",
+      "title": "Uber’s Zero Growth Stack: Scaling Services, While Optimising Infrastructure and AI Cost",
+      "link": "https://www.infoq.com/news/2026/07/efficient-ai-infrastructure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Uber's \"Zero Growth Stack\" focuses on scalable infrastructure that separates capacity growth from business demand, reducing hardware needs while enhancing service scaling. Central to this is garbage collection optimisat...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-28T07:07:00.000Z"
+    },
     {
       "id": "hacker-news-ars-astronomica-english-translations-of-rare-hebrew-and-latin-astronomy-texts",
       "title": "Ars Astronomica – English translations of rare Hebrew and Latin astronomy texts",
@@ -84,28 +140,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-28T04:49:54.000Z"
-    },
-    {
-      "id": "hacker-news-pytorch-a-reference-language-2026-07-28t04-46-00-000z",
-      "title": "PyTorch: A Reference Language",
-      "link": "https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-28T04:46:00.000Z"
-    },
-    {
-      "id": "hacker-news-why-do-we-think-we-understand-the-world-more-than-we-actually-do-2026-07-28t04",
-      "title": "Why do we think we understand the world more than we actually do?",
-      "link": "https://thedecisionlab.com/biases/the-illusion-of-explanatory-depth",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-28T04:00:41.000Z"
     },
     {
       "id": "hacker-news-using-an-open-model-feels-surprisingly-good-2026-07-28t02-37-14-000z",
@@ -130,6 +164,17 @@
       "publishedAt": "2026-07-28T02:18:53.000Z"
     },
     {
+      "id": "hacker-news-vehicle-motion-cues-2026-07-28t01-13-26-000z",
+      "title": "Vehicle Motion Cues",
+      "link": "https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-28T01:13:26.000Z"
+    },
+    {
       "id": "hacker-news-benchmarking-opus-5-on-slopcodebench-2026-07-27t22-37-52-000z",
       "title": "Benchmarking Opus 5 on SlopCodeBench",
       "link": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
@@ -139,17 +184,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-27T22:37:52.000Z"
-    },
-    {
-      "id": "the-register-leading-ai-models-even-grok-are-all-a-bunch-of-leftist-punks-2026-07-27t22-05",
-      "title": "Leading AI models (even Grok) are all a bunch of leftist punks",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/27/leading-ai-models-even-grok-are-all-a-bunch-of-leftist-punks/5279208",
-      "summary": "AI seems to have a liberal bias",
-      "image": "https://image.theregister.com/?imageId=5279264&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-27T22:05:00.000Z"
     },
     {
       "id": "hacker-news-our-position-on-open-weights-models-2026-07-27t22-03-49-000z",
@@ -317,17 +351,6 @@
       "publishedAt": "2026-07-27T13:00:00.000Z"
     },
     {
-      "id": "the-register-microsoft-seeks-supreme-court-lifeline-in-pre-owned-license-battle-2026-07-27",
-      "title": "Microsoft seeks Supreme Court lifeline in pre-owned license battle",
-      "link": "https://www.theregister.com/software/2026/07/27/microsoft-seeks-supreme-court-lifeline-in-pre-owned-license-battle/5278823",
-      "summary": "£270M ValueLicensing case remains mostly paused while Redmond pursues permission to appeal",
-      "image": "https://image.theregister.com/?imageId=257239&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-27T11:30:35.000Z"
-    },
-    {
       "id": "infoq-presentation-clean-architecture-for-serverless-business-logic-you-can-take-anywhere",
       "title": "Presentation: Clean Architecture for Serverless: Business Logic You Can Take Anywhere",
       "link": "https://www.infoq.com/presentations/kotlin-serverless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -337,17 +360,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-27T11:26:00.000Z"
-    },
-    {
-      "id": "infoq-article-an-evolutionary-architecture-pattern-for-managing-ai-s-pace-of-change-2026-0",
-      "title": "Article: An Evolutionary Architecture Pattern for Managing AI’s Pace of Change",
-      "link": "https://www.infoq.com/articles/evolutionary-architecture-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Traditional API gateways assume deterministic services and simple schemas - assumptions agentic AI breaks. Discover why enterprise engineering leaders are adopting AI Gateways as an evolutionary architecture seam. Centr...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-27T11:00:00.000Z"
     },
     {
       "id": "hugging-face-blog-nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-to-surgi",
@@ -361,17 +373,6 @@
       "publishedAt": "2026-07-27T09:32:20.000Z"
     },
     {
-      "id": "infoq-netflix-details-its-in-house-llm-serving-platform-with-triton-and-vllm-2026-07-27t07",
-      "title": "Netflix Details Its In-House LLM Serving Platform with Triton and vLLM",
-      "link": "https://www.infoq.com/news/2026/07/netflix-llm-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Netflix has described the production lessons behind bringing LLM inference into its internal serving platform, including the challenges of supporting different model sizes, hardware requirements, and rapidly evolving in...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-27T07:33:00.000Z"
-    },
-    {
       "id": "aws-what-s-new-amazon-rds-for-sql-server-now-supports-restoring-tde-databases-on-mult-az-i",
       "title": "Amazon RDS for SQL Server now supports restoring TDE databases on Mult-AZ instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/",
@@ -381,28 +382,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-07-27T07:00:00.000Z"
-    },
-    {
-      "id": "the-register-manager-showed-off-his-dos-prowess-with-a-command-that-wiped-data-2026-07-27t",
-      "title": "Manager showed off his DOS prowess – with a command that wiped data",
-      "link": "https://www.theregister.com/software/2026/07/27/manager-showed-off-his-dos-prowess-with-a-command-that-wiped-data/5278057",
-      "summary": "Never believe a suit who says they're handy with tech",
-      "image": "https://image.theregister.com/?imageId=229266&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-27T06:30:00.000Z"
-    },
-    {
-      "id": "infoq-tanstack-table-v9-beta-tree-shakable-features-tanstack-store-state-and-lower-memory",
-      "title": "TanStack Table V9 Beta: Tree-Shakable Features, TanStack Store State, and Lower Memory Usage",
-      "link": "https://www.infoq.com/news/2026/07/tanstack-table-v9-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "TanStack Table V9 is a beta release of a headless UI library for creating tables in various JavaScript frameworks. It features improved state management, memory usage, and extensibility. The notable change is an opt-in...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-27T05:45:00.000Z"
     },
     {
       "id": "openai-news-how-ai-is-expanding-what-people-do-at-work-2026-07-27t03-30-00-000z",
@@ -425,17 +404,6 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-07-27T00:00:00.000Z"
-    },
-    {
-      "id": "infoq-ai-enabled-security-researchers-discover-how-a-crafted-video-can-provide-attackers-a",
-      "title": "AI-Enabled Security Researchers Discover How a Crafted Video Can Provide Attackers Access to Your PC",
-      "link": "https://www.infoq.com/news/2026/07/pixelsmash-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "JFrog Security Research revealed \"PixelSmash,\" a vulnerability in the FFmpeg media framework, allowing for Remote Code Execution and Denial of Service attacks. Present for sixteen years, it affects numerous applications...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-26T09:09:00.000Z"
     },
     {
       "id": "inside-java-pairing-in-process-and-hosted-embeddings-for-java-mcp-tool-development-2026-07",
@@ -493,28 +461,6 @@
       "publishedAt": "2026-07-24T14:00:00.000Z"
     },
     {
-      "id": "the-register-support-newbie-figured-out-how-to-avoid-all-nighters-and-his-colleagues-hated",
-      "title": "Support newbie figured out how to avoid all-nighters, and his colleagues hated him for it",
-      "link": "https://www.theregister.com/software/2026/07/24/support-newbie-figured-out-how-to-avoid-all-nighters-and-his-colleagues-hated-him-for-it/5276829",
-      "summary": "Sleep doesn't pay",
-      "image": "https://image.theregister.com/?imageId=263126&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-24T06:30:00.000Z"
-    },
-    {
-      "id": "the-register-openai-won-t-let-some-customers-export-their-chats-but-this-tool-will-2026-07",
-      "title": "OpenAI won't let some customers export their chats, but this tool will",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/23/openai-wont-let-some-customers-export-their-chats-but-this-tool-will/5277795",
-      "summary": "ChatGPT Business and Enterprise users lack the standard chat export option, so third-party utilities like scrapemychats fill the gap",
-      "image": "https://image.theregister.com/?imageId=5277830&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-23T20:48:39.000Z"
-    },
-    {
       "id": "google-cloud-blog-minimize-idle-accelerators-native-rl-job-interleaving-with-co-operative",
       "title": "Minimize idle accelerators: Native RL job interleaving with co-operative time-slicing in llm-d",
       "link": "https://cloud.google.com/blog/products/containers-kubernetes/introducing-co-operative-time-slicing-for-rl-in-llm-d/",
@@ -546,28 +492,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-23T16:00:00.000Z"
-    },
-    {
-      "id": "the-register-ibm-insists-ai-didn-t-kill-software-deals-just-delayed-them-2026-07-23t11-34",
-      "title": "IBM insists AI didn't kill software deals, just delayed them",
-      "link": "https://www.theregister.com/software/2026/07/23/ibm-insists-ai-didnt-kill-software-deals-just-delayed-them/5276977",
-      "summary": "Big Blue says customers postponed rather than abandoned major purchases as hardware soaked up enterprise budgets",
-      "image": "https://image.theregister.com/?imageId=241548&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-23T11:34:42.000Z"
-    },
-    {
-      "id": "the-register-firefox-153-contains-itself-while-thunderbird-153-fixes-almost-everything-202",
-      "title": "Firefox 153 contains itself while Thunderbird 153 fixes almost everything",
-      "link": "https://www.theregister.com/software/2026/07/23/firefox-153-contains-itself-while-thunderbird-153-fixes-almost-everything/5276390",
-      "summary": "Mozilla walls off your online identities as MZLA unleashes a bumper repair job",
-      "image": "https://image.theregister.com/?imageId=247923&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-23T11:14:00.000Z"
     },
     {
       "id": "inside-java-episode-63-ai-solutions-with-spring-ai-2-0-i-o-2026-07-23t00-00-00-000z",
@@ -612,6 +536,83 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "id": "github-blog-copilot-vs-raw-api-access-what-are-you-actually-paying-for-2026-07-22t19-00-00",
+      "title": "Copilot vs. raw API access: What are you actually paying for?",
+      "link": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
+      "summary": "Copilot now bills usage at listed API rates. Compare direct model access with the coding workflow, policy, and harness work around it. The post Copilot vs. raw API access: What are you actually paying for? appeared firs...",
+      "image": "",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-22T19:00:00.000Z"
+    },
+    {
+      "id": "github-blog-next-chapter-restructuring-github-s-bug-bounty-program-2026-07-22t16-00-00-000",
+      "title": "Next chapter: Restructuring GitHub’s bug bounty program",
+      "link": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
+      "summary": "GitHub is making some significant changes to its bug bounty program, shifting its focus to give researchers a better experience working with the GitHub team. The post Next chapter: Restructuring GitHub’s bug bounty prog...",
+      "image": "",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-22T16:00:00.000Z"
+    },
+    {
+      "id": "openai-news-building-ai-infrastructure-with-the-effingham-county-community-2026-07-22t13-0",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-22T13:00:00.000Z"
+    },
+    {
+      "id": "openai-news-how-news-organizations-are-using-ai-to-advance-their-vital-missions-2026-07-22",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "link": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-22T13:00:00.000Z"
+    },
+    {
+      "id": "openai-news-advancing-the-next-era-of-national-science-2026-07-22t12-00-00-000z",
+      "title": "Advancing the next era of national science",
+      "link": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-22T12:00:00.000Z"
+    },
+    {
+      "id": "openai-news-introducing-openai-presence-2026-07-22t05-30-00-000z",
+      "title": "Introducing OpenAI Presence",
+      "link": "https://openai.com/index/introducing-openai-presence",
+      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-22T05:30:00.000Z"
+    },
+    {
+      "id": "openai-news-ntt-data-group-cuts-incident-analysis-to-30-minutes-with-codex-2026-07-22t00-0",
+      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "link": "https://openai.com/index/ntt-data",
+      "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-22T00:00:00.000Z"
     }
   ]
 }
