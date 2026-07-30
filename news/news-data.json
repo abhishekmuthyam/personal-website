@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T00:11:16.637Z",
+  "updatedAt": "2026-07-30T03:29:46.659Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,21 +58,44 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
     {
-      "id": "the-register-microsoft-s-cloud-brings-rain-of-revenue-but-modest-m365-ai-revenue-harvest-2",
-      "title": "Microsoft's cloud brings rain of revenue but modest M365 AI revenue harvest",
-      "link": "https://www.theregister.com/software/2026/07/30/microsoft-earnings-q4-26-cloud-brings-revenue-rain/5280798",
-      "summary": "Capex spending? What? Me worry?",
-      "image": "https://image.theregister.com/?imageId=256704&width=800",
-      "source": "The Register",
+      "id": "hacker-news-nsf-pilots-4-year-phds-with-industry-research-placements-2026-07-30t02-55-21-0",
+      "title": "NSF pilots 4-year PhDs with industry research placements",
+      "link": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-29T23:17:56.000Z"
+      "publishedAt": "2026-07-30T02:55:21.000Z"
+    },
+    {
+      "id": "hacker-news-the-productivity-mirage-2026-07-29t23-18-11-000z",
+      "title": "The Productivity Mirage",
+      "link": "https://frantic.im/mirage/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-29T23:18:11.000Z"
+    },
+    {
+      "id": "hacker-news-llm-honeypot-2026-07-29t22-51-03-000z",
+      "title": "LLM Honeypot",
+      "link": "https://llm2human.pages.dev/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-29T22:51:03.000Z"
     },
     {
       "id": "hacker-news-ai-s-top-startups-are-barely-publishing-their-research-2026-07-29t21-25-40-000",
@@ -84,17 +107,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-29T21:25:40.000Z"
-    },
-    {
-      "id": "hacker-news-the-cold-email-2026-07-29t21-06-42-000z",
-      "title": "The Cold Email",
-      "link": "https://zachholman.com/posts/cold-email",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-29T21:06:42.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-ec2-auto-scaling-now-supports-instance-refresh-in-cloudformation-202",
@@ -130,15 +142,15 @@
       "publishedAt": "2026-07-29T20:39:40.000Z"
     },
     {
-      "id": "hacker-news-kimi-k3-256k-2026-07-29t19-25-33-000z",
-      "title": "Kimi K3-256k",
-      "link": "https://www.kimi.com/code/docs/en/kimi-code/models",
-      "summary": "Comments",
+      "id": "aws-what-s-new-aws-glue-announces-vpc-support-filter-pushdown-and-partition-support-for-th",
+      "title": "AWS Glue announces VPC support, filter pushdown, and partition support for the REST API connector",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
+      "summary": "AWS Glue now supports VPC connections, filter pushdown, and partition support for the REST API connector. The REST API connector enables you to ingest data from any source that exposes a REST-based API, including propri...",
       "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-29T19:25:33.000Z"
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-29T20:18:00.000Z"
     },
     {
       "id": "hacker-news-keychron-announces-first-open-source-firmware-for-gaming-mice-2026-07-29t16-36",
@@ -262,15 +274,15 @@
       "publishedAt": "2026-07-29T15:00:00.000Z"
     },
     {
-      "id": "the-register-microsoft-faces-competition-probe-over-copilot-subscription-price-hike-2026-0",
-      "title": "Microsoft faces competition probe over Copilot subscription price hike",
-      "link": "https://www.theregister.com/software/2026/07/29/microsoft-faces-competition-probe-over-copilot-subscription-price-hike/5280474",
-      "summary": "Watchdog asks whether customers were clearly told how to avoid the costlier AI-equipped plans",
-      "image": "https://image.theregister.com/?imageId=5280496&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-29T12:45:52.000Z"
+      "id": "aws-what-s-new-amazon-connect-customer-now-automatically-finds-example-agent-evaluations-f",
+      "title": "Amazon Connect Customer now automatically finds example agent evaluations for tailored coaching",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
+      "summary": "Amazon Connect Customer now automatically surfaces relevant examples of an agent's evaluations when managers are preparing coaching feedback, so they can deliver actionable, evidence-backed coaching to agents. When a ma...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-07-29T14:00:00.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-efs-now-supports-cross-account-replication-in-aws-govcloud-us-2026-0",
@@ -383,28 +395,6 @@
       "publishedAt": "2026-07-29T00:00:00.000Z"
     },
     {
-      "id": "the-register-perplexity-s-tokenmaxxing-model-council-gives-you-multiple-bot-perspectives-2",
-      "title": "Perplexity's tokenmaxxing Model Council gives you multiple bot perspectives",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/28/perplexitys-tokenmaxxing-model-council-gives-you-multiple-bot-perspectives/5279972",
-      "summary": "Up to 8 AI models running in the cloud weighing in on ambiguous business issues? Sounds affordable",
-      "image": "https://image.theregister.com/?imageId=5279997&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-28T21:26:53.000Z"
-    },
-    {
-      "id": "hacker-news-anatomy-of-a-frontier-lab-agent-intrusion-a-timeline-of-the-july-2026-incident",
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
-      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-28T20:28:33.000Z"
-    },
-    {
       "id": "infoq-github-introduces-default-cooldown-policy-for-dependabot-version-updates-2026-07-28t",
       "title": "GitHub Introduces Default \"Cooldown\" Policy for Dependabot Version Updates",
       "link": "https://www.infoq.com/news/2026/07/github-dependabot-cooldown/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -425,17 +415,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-07-28T17:30:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-eks-provisioned-control-plane-now-delivers-faster-pod-autoscaling-20",
-      "title": "Amazon EKS Provisioned Control Plane now delivers faster pod autoscaling",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/",
-      "summary": "Amazon EKS now delivers faster pod autoscaling across all Provisioned Control Plane clusters by increasing Horizontal Pod Autoscaler (HPA) sync concurrency to up to 40 times the default Kubernetes value. This reduces th...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-28T17:18:00.000Z"
     },
     {
       "id": "google-cloud-blog-future-proofing-data-integrity-quantum-safe-digital-signatures-in-cloud",
@@ -469,28 +448,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-28T16:27:42.000Z"
-    },
-    {
-      "id": "the-register-college-prof-hides-prompt-to-catch-ai-cheaters-finds-human-nature-is-pretty-m",
-      "title": "College prof hides prompt to catch AI cheaters, finds human nature is pretty much as we thought",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/28/college-prof-hides-prompt-to-catch-ai-cheaters-finds-human-nature-is-pretty-much-as-we-thought/5279864",
-      "summary": "",
-      "image": "https://image.theregister.com/?imageId=1684071&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-28T16:20:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-console-home-now-supports-the-cost-and-usage-widget-in-the-aws-european",
-      "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
-      "summary": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region, allowing customers to surface insights from Cost Explorer and Cost Optimization Hub on their Console Home das...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-28T16:00:00.000Z"
     },
     {
       "id": "google-cloud-blog-best-buy-scales-ai-workloads-and-secures-access-with-workforce-identity",
@@ -581,17 +538,6 @@
       "publishedAt": "2026-07-28T00:00:00.000Z"
     },
     {
-      "id": "the-register-leading-ai-models-even-grok-are-all-a-bunch-of-leftist-punks-2026-07-27t22-05",
-      "title": "Leading AI models (even Grok) are all a bunch of leftist punks",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/27/leading-ai-models-even-grok-are-all-a-bunch-of-leftist-punks/5279208",
-      "summary": "AI seems to have a liberal bias",
-      "image": "https://image.theregister.com/?imageId=5279264&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-27T22:05:00.000Z"
-    },
-    {
       "id": "github-blog-the-harness-is-all-you-need-mostly-2026-07-27t18-00-00-000z",
       "title": "The harness is all you need (mostly)",
       "link": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
@@ -612,6 +558,61 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-27T16:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-to-surgi",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "link": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-27T09:32:20.000Z"
+    },
+    {
+      "id": "openai-news-how-ai-is-expanding-what-people-do-at-work-2026-07-27t03-30-00-000z",
+      "title": "How AI is expanding what people do at work",
+      "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-27T03:30:00.000Z"
+    },
+    {
+      "id": "spring-blog-spring-office-hours-podcast-s5e19-docker-compose-testcontainers-oh-my-2026-07",
+      "title": "Spring Office Hours Podcast: S5E19 - Docker, Compose, Testcontainers, Oh My!",
+      "link": "https://spring.io/blog/2026/07/27/spring-office-hours-podcast-S5E19",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-anatomy-of-a-frontier-lab-agent-intrusion-a-technical-timeline-of-the-ju",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "inside-java-pairing-in-process-and-hosted-embeddings-for-java-mcp-tool-development-2026-07",
+      "title": "Pairing In-Process and Hosted Embeddings for Java MCP Tool Development",
+      "link": "https://inside.java/2026/07/25/design-java-mcp-tool/",
+      "summary": "Discover why a Java MCP tool can benefit from both in-process and hosted embeddings: in-process embeddings keep development, testing, and conformance fast and reliable, while external provider-backed embeddings offer pr...",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-07-25T00:00:00.000Z"
     }
   ]
 }
