@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T19:58:57.620Z",
+  "updatedAt": "2026-08-03T21:01:07.455Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -59,7 +59,7 @@
       "name": "The Register",
       "topic": "devtools",
       "ok": true,
-      "count": 8
+      "count": 0
     }
   ],
   "items": [
@@ -174,6 +174,17 @@
       "publishedAt": "2026-08-03T15:00:00.000Z"
     },
     {
+      "id": "aws-what-s-new-aws-config-now-supports-15-new-resource-types-2026-08-03t15-00-00-000z",
+      "title": "AWS Config now supports 15 new resource types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-config-new-resource-types",
+      "summary": "AWS Config now supports 15 additional AWS resource types across key services including Amazon Bedrock,&nbsp; Amazon OpenSearch Serverless, and Amazon SageMaker. This expansion provides greater coverage over your AWS env...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-03T15:00:00.000Z"
+    },
+    {
       "id": "infoq-java-news-roundup-openjdk-jeps-jakarta-ee-graalvm-tornadovm-micronaut-quarkus-jobrun",
       "title": "Java News Roundup: OpenJDK JEPs, Jakarta EE, GraalVM, TornadoVM, Micronaut, Quarkus, JobRunr, Maven",
       "link": "https://www.infoq.com/news/2026/08/java-news-roundup-jul27-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -227,17 +238,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-03T13:34:43.000Z"
-    },
-    {
-      "id": "hacker-news-wind-and-solar-overtake-fossil-fuels-in-germany-for-the-first-time-2026-08-03t",
-      "title": "Wind and solar overtake fossil fuels in Germany for the first time",
-      "link": "https://www.intellinews.com/wind-and-solar-overtake-fossil-fuels-in-germany-for-the-first-time-ever-458379/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-03T13:13:02.000Z"
     },
     {
       "id": "google-cloud-blog-behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-2026-0",
@@ -304,6 +304,28 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-03T08:08:00.000Z"
+    },
+    {
+      "id": "openai-news-how-we-built-a-realtime-system-for-responsive-voice-ai-in-six-months-2026-08-0",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-03T07:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-200-milliseconds-2026-08-01t10-17-06-000z",
+      "title": "200 Milliseconds",
+      "link": "https://200ms.thenodebook.com",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-01T10:17:06.000Z"
     },
     {
       "id": "openai-news-ten-advances-in-mathematics-and-theoretical-computer-science-2026-08-01t00-00",
@@ -416,28 +438,6 @@
       "publishedAt": "2026-07-31T15:00:00.000Z"
     },
     {
-      "id": "the-register-update-teams-mobile-app-by-october-or-lose-your-calendar-2026-07-31t14-30-00",
-      "title": "Update Teams mobile app by October or lose your calendar",
-      "link": "https://www.theregister.com/software/2026/07/31/update-teams-mobile-app-by-october-or-lose-your-calendar/5281773",
-      "summary": "A nice little summer job for someone",
-      "image": "https://image.theregister.com/?imageId=1682200&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-31T14:30:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-location-service-adds-search-nearby-support-for-grabmaps-in-southeas",
-      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
-      "summary": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local discovery, delivery, a...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-07-31T14:00:00.000Z"
-    },
-    {
       "id": "aws-what-s-new-aws-lambda-now-supports-java-8-11-and-17-on-amazon-linux-2023-2026-07-31t14",
       "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
@@ -449,15 +449,15 @@
       "publishedAt": "2026-07-31T14:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-cloudwatch-announces-managed-prometheus-collectors-2026-07-31t13-06",
-      "title": "Amazon CloudWatch announces managed Prometheus collectors",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-managed-collectors/",
-      "summary": "Amazon CloudWatch now supports collecting Prometheus metrics from your AWS infrastructure using fully managed collectors — enabling you to monitor Amazon EKS, Amazon EC2, Amazon ECS, Amazon MSK, and Amazon OpenSearch Se...",
+      "id": "aws-what-s-new-amazon-location-service-adds-search-nearby-support-for-grabmaps-in-southeas",
+      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+      "summary": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local discovery, delivery, a...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
       "topicLabel": "Cloud",
-      "publishedAt": "2026-07-31T13:06:00.000Z"
+      "publishedAt": "2026-07-31T14:00:00.000Z"
     },
     {
       "id": "google-cloud-blog-cloud-ciso-perspectives-why-ai-threat-defense-is-the-new-boardroom-basel",
@@ -480,17 +480,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-07-31T07:00:00.000Z"
-    },
-    {
-      "id": "the-register-techie-lured-out-of-retirement-to-support-software-only-he-remembered-2026-07",
-      "title": "Techie lured out of retirement to support software only he remembered",
-      "link": "https://www.theregister.com/software/2026/07/31/techie-lured-out-of-retirement-to-support-software-only-he-remembered/5280245",
-      "summary": "The first job was lucrative and went well, but a pension was preferable to rolling projects",
-      "image": "https://image.theregister.com/?imageId=5280269&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-31T06:30:00.000Z"
     },
     {
       "id": "inside-java-transitioning-java-to-more-frequent-security-updates-2026-07-31t00-00-00-000z",
@@ -524,17 +513,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-07-30T17:30:24.000Z"
-    },
-    {
-      "id": "the-register-open-source-project-fools-ai-scrapers-with-poisoned-font-2026-07-30t17-19-23",
-      "title": "Open source project fools AI scrapers with poisoned font",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/30/open-source-project-fools-ai-scrapers-with-poisoned-font/5281303",
-      "summary": "ShieldFont is available today if you've got copy that needs protecting",
-      "image": "https://image.theregister.com/?imageId=5281330&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-30T17:19:23.000Z"
     },
     {
       "id": "hugging-face-blog-gpu-management-why-idle-gpus-are-the-new-grounded-aircraft-2026-07-30t15",
@@ -603,15 +581,37 @@
       "publishedAt": "2026-07-30T00:00:00.000Z"
     },
     {
-      "id": "the-register-microsoft-s-cloud-brings-rain-of-revenue-but-modest-m365-ai-revenue-harvest-2",
-      "title": "Microsoft's cloud brings rain of revenue but modest M365 AI revenue harvest",
-      "link": "https://www.theregister.com/software/2026/07/30/microsoft-earnings-q4-26-cloud-brings-revenue-rain/5280798",
-      "summary": "Capex spending? What? Me worry?",
-      "image": "https://image.theregister.com/?imageId=256704&width=800",
-      "source": "The Register",
+      "id": "github-blog-tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast-2026-07",
+      "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
+      "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+      "summary": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft o...",
+      "image": "",
+      "source": "GitHub Blog",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-29T23:17:56.000Z"
+      "publishedAt": "2026-07-29T16:00:00.000Z"
+    },
+    {
+      "id": "inside-java-newsletter-jdk-27-rampdown-phase-is-closing-default-g1-in-all-environments-202",
+      "title": "Newsletter: JDK 27 Rampdown Phase is Closing - Default G1 in All Environments",
+      "link": "https://inside.java/2026/07/29/quality-heads-up/",
+      "summary": "OpenJDK Quality Outreach July 2026 Newsletter",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-the-olmoearth-platform-geospatial-inference-at-planetary-scale-2026-07-2",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-07-28T16:27:42.000Z"
     }
   ]
 }
