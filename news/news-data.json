@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T04:09:18.195Z",
+  "updatedAt": "2026-08-06T06:42:01.630Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,15 +64,37 @@
   ],
   "items": [
     {
-      "id": "hacker-news-governments-are-making-a-dangerous-bet-on-the-ai-boom-2026-08-06t03-40-51-000z",
-      "title": "Governments are making a dangerous bet on the AI boom",
-      "link": "https://www.economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
+      "id": "infoq-pods-as-workers-not-agents-rethinking-the-deployment-unit-for-ai-agents-on-kubernete",
+      "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes",
+      "link": "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Running AI agents on Kubernetes raises a key question: should each agent get its own Pod? The kagent project argues no—agents are bursty, short-lived, can spawn subagents, and may wait for human approval, making one Pod...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-06T06:00:00.000Z"
+    },
+    {
+      "id": "infoq-vercel-labs-ships-zero-a-graph-first-language-built-so-agents-write-the-code-2026-08",
+      "title": "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code",
+      "link": "https://www.infoq.com/news/2026/08/vercel-ships-zero-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel Labs has introduced Zero, an experimental systems programming language aimed at AI rather than human users. It employs unique features like a specific toolchain contract and structured error messages. Reaching ve...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-06T05:51:00.000Z"
+    },
+    {
+      "id": "hacker-news-crime-pays-but-botany-doesn-t-2026-08-06t04-46-35-000z",
+      "title": "Crime Pays but Botany Doesn't",
+      "link": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-06T03:40:51.000Z"
+      "publishedAt": "2026-08-06T04:46:35.000Z"
     },
     {
       "id": "hacker-news-nashville-uses-eminent-domain-to-block-data-center-near-zoo-2026-08-06t02-15-1",
@@ -84,17 +106,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-06T02:15:14.000Z"
-    },
-    {
-      "id": "hacker-news-llms-won-t-break-symmetric-crypto-2026-08-06t01-39-06-000z",
-      "title": "LLMs won't break symmetric crypto",
-      "link": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-06T01:39:06.000Z"
     },
     {
       "id": "aws-what-s-new-aws-lambda-announces-scalable-network-bandwidth-up-to-3-000-mbps-for-functi",
@@ -128,6 +139,17 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-05T20:06:00.000Z"
+    },
+    {
+      "id": "hacker-news-muse-code-and-muse-spark-1-2-2026-08-05t19-15-52-000z",
+      "title": "Muse Code and Muse Spark 1.2",
+      "link": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-05T19:15:52.000Z"
     },
     {
       "id": "hacker-news-zed-deltadb-2026-08-05t18-52-54-000z",
@@ -427,17 +449,6 @@
       "publishedAt": "2026-08-04T12:00:00.000Z"
     },
     {
-      "id": "infoq-presentation-microservices-platforms-when-team-topologies-meets-microservices-patter",
-      "title": "Presentation: Microservices Platforms: When Team Topologies Meets Microservices Patterns",
-      "link": "https://www.infoq.com/presentations/microservices-platform-team-topology/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Chris Richardson discusses leveraging Team Topologies and internal platforms to accelerate microservices delivery. He explains six key platform patterns - from security and observability to build and deployment - and sh...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-04T11:45:00.000Z"
-    },
-    {
       "id": "google-cloud-blog-future-mode-part-2-the-foundation-for-securing-agentic-browsing-2026-08",
       "title": "Future Mode Part 2: The foundation for securing agentic browsing",
       "link": "https://cloud.google.com/blog/products/chrome-enterprise/future-mode-part-2-the-foundation-for-securing-agentic-browsing/",
@@ -447,17 +458,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-04T10:50:00.000Z"
-    },
-    {
-      "id": "infoq-eslint-rspack-plugin-5-0-0-ships-as-a-pure-esm-package-aligning-with-the-rstack-ecos",
-      "title": "eslint-rspack-plugin 5.0.0 Ships as a Pure ESM Package, Aligning with the Rstack Ecosystem",
-      "link": "https://www.infoq.com/news/2026/08/eslint-rspack-plugin-5/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Version 5.0.0 of eslint-rspack-plugin has been released as a pure ESM package, aligning with the Rspack ecosystem and removing its CommonJS build. The plugin continues to integrate ESLint in the build process but may af...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-04T07:39:00.000Z"
     },
     {
       "id": "the-register-uk-mulls-making-employers-ask-before-installing-bossware-2026-08-04t07-30-00",
@@ -504,17 +504,6 @@
       "publishedAt": "2026-08-03T22:00:00.000Z"
     },
     {
-      "id": "hacker-news-do-birds-enjoy-flying-analysis-of-affect-after-flight-in-galah-e-roseicapilla",
-      "title": "Do birds enjoy flying? Analysis of affect after flight in galah (E roseicapilla)",
-      "link": "https://brill.com/view/journals/beh/aop/article-10.1163-1568539X-bja10370/article-10.1163-1568539X-bja10370.xml",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-03T21:39:02.000Z"
-    },
-    {
       "id": "openai-news-how-we-built-a-realtime-system-for-responsive-voice-ai-in-six-months-2026-08-0",
       "title": "How we built a realtime system for responsive voice AI in six months",
       "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
@@ -524,6 +513,17 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-08-03T07:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-branchless-rust-making-a-filter-4x-faster-by-removing-an-if-2026-08-03t06-37-0",
+      "title": "Branchless Rust: Making a Filter 4x Faster by Removing an If",
+      "link": "https://www.greyblake.com/blog/branchless-rust/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-03T06:37:05.000Z"
     },
     {
       "id": "openai-news-circles-powers-telco-personalization-with-openai-technology-2026-08-03t00-00-0",
