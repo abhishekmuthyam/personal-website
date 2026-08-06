@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T09:30:18.481Z",
+  "updatedAt": "2026-08-06T11:48:48.230Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -34,8 +34,9 @@
     {
       "name": "Hugging Face Blog",
       "topic": "ai",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "name": "GitHub Blog",
@@ -58,11 +59,23 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
+    {
+      "id": "infoq-presentation-from-ms-to-s-oss-valkey-architecture-patterns-for-modern-ai-2026-08-06t",
+      "title": "Presentation: From ms to µs: OSS Valkey Architecture Patterns for Modern AI",
+      "link": "https://www.infoq.com/presentations/valkey-architecture-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Dumanshu Goyal discusses optimizing data layers for low-latency workloads like AI feature stores. Drawing lessons from NASA's Space Shuttle, he explains how proxy architectures introduce hidden CPU costs, elevated tail...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-06T09:34:00.000Z"
+    },
     {
       "id": "infoq-wiz-discloses-cosmosescape-and-practitioners-debate-what-customers-could-have-done-2",
       "title": "Wiz Discloses CosmosEscape, and Practitioners Debate What Customers Could Have Done",
@@ -84,17 +97,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-06T09:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-what-i-love-about-django-2026-08-06t07-34-06-000z",
-      "title": "What I love about Django",
-      "link": "https://buttondown.com/blog/what-i-love-about-django",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-06T07:34:06.000Z"
     },
     {
       "id": "hacker-news-let-s-all-meet-up-in-the-y2k-2026-08-06t06-43-38-000z",
@@ -139,6 +141,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-06T04:46:35.000Z"
+    },
+    {
+      "id": "inside-java-episode-65-embracing-virtual-threads-with-helidon-i-o-2026-08-06t00-00-00-000z",
+      "title": "Episode 65 “Embracing Virtual Threads with Helidon” [I/O]",
+      "link": "https://inside.java/2026/08/06/podcast-065/",
+      "summary": "How Helidon 4.4 embraces virtual threads, ahoead-of-time computation, and OpenJDK",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-08-06T00:00:00.000Z"
     },
     {
       "id": "aws-what-s-new-aws-lambda-announces-scalable-network-bandwidth-up-to-3-000-mbps-for-functi",
@@ -328,17 +341,6 @@
       "publishedAt": "2026-08-05T08:05:00.000Z"
     },
     {
-      "id": "infoq-skiasharp-4-0-establishes-milestone-aligned-release-cadence-2026-08-05t08-00-00-000z",
-      "title": "SkiaSharp 4.0 Establishes Milestone-Aligned Release Cadence",
-      "link": "https://www.infoq.com/news/2026/08/skia-sharp-4-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Microsoft and Uno Platform have released the first stable versions in the SkiaSharp 4 series, beginning with SkiaSharp 4.148.0 and followed shortly afterward by 4.150.0. A 4.151.0 prerelease line is also available, demo...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-05T08:00:00.000Z"
-    },
-    {
       "id": "inside-java-oracle-java-platform-extension-for-visual-studio-code-version-26-0-1-is-now-av",
       "title": "Oracle Java Platform Extension for Visual Studio Code - Version 26.0.1 Is Now Available",
       "link": "https://inside.java/2026/08/05/java-vscode-extension-update/",
@@ -438,17 +440,6 @@
       "publishedAt": "2026-08-04T16:00:00.000Z"
     },
     {
-      "id": "hugging-face-blog-deploy-local-agents-everywhere-with-lfm2-5-2-6b-2026-08-04t13-58-29-000z",
-      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-08-04T13:58:29.000Z"
-    },
-    {
       "id": "hacker-news-how-to-make-a-nintendo-64-game-in-2026-2026-08-04t13-24-03-000z",
       "title": "How to Make a Nintendo 64 Game in 2026",
       "link": "https://phoboslab.org/log/2026/08/xibalba64-making-of",
@@ -469,17 +460,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-04T10:50:00.000Z"
-    },
-    {
-      "id": "the-register-uk-mulls-making-employers-ask-before-installing-bossware-2026-08-04t07-30-00",
-      "title": "UK mulls making employers ask before installing bossware",
-      "link": "https://www.theregister.com/software/2026/08/04/uk-mulls-making-employers-ask-before-installing-bossware/5282440",
-      "summary": "Proposals span AI productivity scores, keystroke logging, biometrics, and other ways to watch workers",
-      "image": "https://image.theregister.com/?imageId=5282473&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-04T07:30:00.000Z"
     },
     {
       "id": "spring-blog-this-week-in-spring-august-4th-2026-2026-08-04t00-00-00-000z",
@@ -581,28 +561,6 @@
       "publishedAt": "2026-07-31T15:00:00.000Z"
     },
     {
-      "id": "the-register-update-teams-mobile-app-by-october-or-lose-your-calendar-2026-07-31t14-30-00",
-      "title": "Update Teams mobile app by October or lose your calendar",
-      "link": "https://www.theregister.com/software/2026/07/31/update-teams-mobile-app-by-october-or-lose-your-calendar/5281773",
-      "summary": "A nice little summer job for someone",
-      "image": "https://image.theregister.com/?imageId=1682200&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-31T14:30:00.000Z"
-    },
-    {
-      "id": "the-register-techie-lured-out-of-retirement-to-support-software-only-he-remembered-2026-07",
-      "title": "Techie lured out of retirement to support software only he remembered",
-      "link": "https://www.theregister.com/software/2026/07/31/techie-lured-out-of-retirement-to-support-software-only-he-remembered/5280245",
-      "summary": "The first job was lucrative and went well, but a pension was preferable to rolling projects",
-      "image": "https://image.theregister.com/?imageId=5280269&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-07-31T06:30:00.000Z"
-    },
-    {
       "id": "inside-java-transitioning-java-to-more-frequent-security-updates-2026-07-31t00-00-00-000z",
       "title": "Transitioning Java to More Frequent Security Updates",
       "link": "https://inside.java/2026/07/31/transitioning-java-to-more-frequent-security-updates/",
@@ -612,6 +570,50 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "github-blog-stacked-sessions-and-pull-requests-in-the-github-copilot-app-2026-07-30t17-30",
+      "title": "Stacked sessions and pull requests in the GitHub Copilot app",
+      "link": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
+      "summary": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app. The post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog .",
+      "image": "https://github.blog/wp-content/uploads/2026/07/608818417-096042e4-9ace-4575-877d-a18926371bc2.png?resize=488%2C297",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-07-30T17:30:24.000Z"
+    },
+    {
+      "id": "inside-java-episode-64-jit-compiler-from-the-ground-up-ata-2026-07-30t00-00-00-000z",
+      "title": "Episode 64 “JIT Compiler From the Ground Up” [AtA]",
+      "link": "https://inside.java/2026/07/30/podcast-064/",
+      "summary": "An introduction to key concepts of just-in-time compilation: speculation and traps, inlining and constant folding, escape analysis and scalar replacement, and more",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "inside-java-under-the-hat-empowering-gpu-acceleration-for-java-2026-07-30t00-00-00-000z",
+      "title": "Under the HAT: Empowering GPU Acceleration for Java",
+      "link": "https://inside.java/2026/07/30/under-the-hat-empowering-gpu-acceleration-for-java/",
+      "summary": "Explore the latest work on the HotSpot JVM, with a focus on auto-vectorization and the Vector API.",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "spring-blog-a-bootiful-podcast-spring-boot-founder-and-lead-phil-webb-2026-07-30t00-00-00",
+      "title": "A Bootiful Podcast: Spring Boot founder and lead Phil Webb",
+      "link": "https://spring.io/blog/2026/07/30/a-bootiful-podcast-phil-webb",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-07-30T00:00:00.000Z"
     }
   ]
 }
