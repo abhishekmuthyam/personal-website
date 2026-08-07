@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T19:43:00.575Z",
+  "updatedAt": "2026-08-07T20:22:44.876Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,12 +58,22 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "count": 8
     }
   ],
   "items": [
+    {
+      "id": "aws-what-s-new-amazon-timestream-for-influxdb-now-supports-backup-and-restore-2026-08-07t1",
+      "title": "Amazon Timestream for InfluxDB now supports backup and restore",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/",
+      "summary": "Amazon Timestream for InfluxDB now lets you create and manage your own backups and restore your data on demand. You can trigger one-time, on-demand backups, schedule automated recurring backups at the frequency and rete...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-07T19:21:00.000Z"
+    },
     {
       "id": "hacker-news-ancient-library-1-060-greek-latin-texts-click-any-word-to-parse-it-2026-08-07t",
       "title": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
@@ -96,6 +106,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-07T18:01:30.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-cognito-now-available-as-a-skill-in-the-agent-toolkit-for-aws-2026-0",
+      "title": "Amazon Cognito now available as a skill in the Agent Toolkit for AWS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/",
+      "summary": "Amazon Cognito is now available as a core skill (aws-auth) in the Agent Toolkit for AWS . AI coding agents using the toolkit can now set up, configure, secure, and troubleshoot Amazon Cognito using best-practice workflo...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-07T18:00:48.000Z"
     },
     {
       "id": "hacker-news-deepseek-v4-flash-0731-2026-08-07t17-56-20-000z",
@@ -208,6 +229,17 @@
       "publishedAt": "2026-08-07T16:00:00.000Z"
     },
     {
+      "id": "aws-what-s-new-amazon-bedrock-agentcore-adds-memory-policy-and-harness-in-aws-govcloud-us",
+      "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/",
+      "summary": "Today, Amazon Bedrock AgentCore introduces new capabilities in AWS GovCloud (US-West). AgentCore is the platform to build, connect, and optimize agents. With these capabilities, teams operating in regulated environments...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-07T15:52:00.000Z"
+    },
+    {
       "id": "hacker-news-an-all-sky-map-of-half-a-million-supermassive-black-holes-2026-08-07t15-24-53",
       "title": "An all-sky map of half a million supermassive black holes",
       "link": "https://www.sdss.org/black-hole-mapper-release-20/",
@@ -239,6 +271,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-07T14:34:00.000Z"
+    },
+    {
+      "id": "hacker-news-what-happens-if-an-entire-class-of-workers-loses-faith-in-their-careers-2026-0",
+      "title": "What happens if an entire class of workers loses faith in their careers",
+      "link": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-07T12:42:27.000Z"
     },
     {
       "id": "infoq-ai-is-transforming-incident-response-but-the-hardest-problems-may-still-belong-to-hu",
@@ -296,6 +339,17 @@
       "publishedAt": "2026-08-07T09:00:00.000Z"
     },
     {
+      "id": "aws-what-s-new-amazon-gamelift-servers-now-supports-21-new-ec2-instance-types-2026-08-07t0",
+      "title": "Amazon GameLift Servers now supports 21 new EC2 instance types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/gamelift-ec2-instance-expansion/",
+      "summary": "Amazon GameLift Servers now supports 21 additional Amazon EC2 instance types for managed EC2 fleets and managed container fleets. Amazon GameLift Servers is a fully managed service that enables game developers and studi...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-07T08:00:00.000Z"
+    },
+    {
       "id": "infoq-uno-platform-6-6-adds-native-aot-vulkan-rendering-and-broader-accessibility-support",
       "title": "Uno Platform 6.6 Adds Native AOT, Vulkan Rendering, and Broader Accessibility Support",
       "link": "https://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -318,6 +372,17 @@
       "publishedAt": "2026-08-07T08:00:00.000Z"
     },
     {
+      "id": "aws-what-s-new-amazon-opensearch-service-announces-additional-upgrade-runway-for-existing",
+      "title": "Amazon OpenSearch Service announces additional upgrade runway for existing domains and support dates for additional versions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-additional-upgrade-runway-support-dates",
+      "summary": "In November 2024, Amazon OpenSearch Service announced Extended Support for legacy Elasticsearch and OpenSearch engine versions (see also the detailed blog post ). Since that announcement, many customers have upgraded to...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-07T07:00:00.000Z"
+    },
+    {
       "id": "infoq-azure-api-management-adds-dedicated-ai-gateway-tier-governing-models-and-mcp-tools-2",
       "title": "Azure API Management Adds Dedicated AI Gateway Tier, Governing Models and MCP Tools",
       "link": "https://www.infoq.com/news/2026/08/azure-apim-ai-gateway-tier/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -329,6 +394,17 @@
       "publishedAt": "2026-08-07T06:35:00.000Z"
     },
     {
+      "id": "the-register-sysadmin-summoned-to-explain-italics-to-a-user-with-at-least-two-degrees-2026",
+      "title": "Sysadmin summoned to explain italics – to a user with at least two degrees",
+      "link": "https://www.theregister.com/software/2026/08/07/sysadmin-summoned-to-explain-italics-to-a-user-with-at-least-two-degrees/5283871",
+      "summary": "What an idiot",
+      "image": "https://image.theregister.com/?imageId=5283892&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-07T06:30:00.000Z"
+    },
+    {
       "id": "aws-what-s-new-aws-parallel-computing-service-is-now-in-scope-for-fedramp-soc-iso-csa-star",
       "title": "AWS Parallel Computing Service is now in scope for FedRAMP, SOC, ISO, CSA STAR, and PCI",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-pcs-august/",
@@ -338,17 +414,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-07T04:58:00.000Z"
-    },
-    {
-      "id": "hacker-news-new-mexico-court-orders-meta-to-pay-567m-over-harms-to-children-s-mental-healt",
-      "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
-      "link": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-07T00:06:28.000Z"
     },
     {
       "id": "inside-java-post-quantum-cryptography-in-long-term-support-jdk-releases-2026-08-07t00-00-0",
@@ -373,50 +438,6 @@
       "publishedAt": "2026-08-06T22:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-aws-lambda-console-extends-console-to-ide-integration-to-kiro-and-cursor-20",
-      "title": "AWS Lambda console extends console-to-IDE integration to Kiro and Cursor",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/",
-      "summary": "AWS Lambda console now extends its console-to-IDE integration to support Kiro and Cursor IDEs. This expansion builds on the existing console-to-IDE transition for Visual Studio Code (VS Code), providing a seamless trans...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-06T21:53:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-waf-now-supports-a-salt-security-managed-rule-group-for-api-and-mcp-thr",
-      "title": "AWS WAF now supports a Salt Security managed rule group for API and MCP threat detection",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-waf-salt-security-managed-rules/",
-      "summary": "AWS WAF now supports the Salt Security managed rule group, available through AWS Marketplace: Salt Managed Rules for AWS WAF - AI Agent &amp; API Security . This rule group gives AWS WAF customers detection and mitigati...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-06T21:10:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-ec2-g7-instances-are-now-available-in-the-aws-europe-spain-region-20",
-      "title": "Amazon EC2 G7 instances are now available in the AWS Europe (Spain) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-g7-available-spain",
-      "summary": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (Spain) Region. G7 instances deliver up to 4.6x AI inference performance an...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-06T20:51:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-agentcore-runtime-instances-are-now-generally-available-2026-08-06t20-00-00",
-      "title": "AgentCore runtime instances are now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/",
-      "summary": "Today, AWS announces runtime instances, a new feature in Amazon Bedrock AgentCore that lets you run agents on your own Amazon EC2 instances without managing infrastructure. AgentCore runtime provides purpose-built infra...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-06T20:00:00.000Z"
-    },
-    {
       "id": "github-blog-a-guide-to-slash-commands-in-the-github-copilot-app-2026-08-06t19-49-34-000z",
       "title": "A guide to slash commands in the GitHub Copilot app",
       "link": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
@@ -428,15 +449,15 @@
       "publishedAt": "2026-08-06T19:49:34.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-elasticache-now-supports-graviton4-based-m8g-r8g-and-c8gn-nodes-2026",
-      "title": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn nodes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-elasticache-graviton4-m8g-r8g-c8gn/",
-      "summary": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn node families for Valkey and Memcached. Graviton4-based nodes provide up to 47% higher throughput, up to 43% lower P99 latency, and up to 31% better pri...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-06T19:00:00.000Z"
+      "id": "the-register-latest-github-outage-squeezes-actions-pages-to-death-2026-08-06t18-30-48-000z",
+      "title": "Latest GitHub outage squeezes Actions, Pages to death",
+      "link": "https://www.theregister.com/devops/2026/08/06/latest-github-outage-squeezes-actions-pages-to-death/5284297",
+      "summary": "Look over there, Copilot - it's a beautiful AI farm where you can tend some digital rabbits",
+      "image": "https://image.theregister.com/?imageId=1682042&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-06T18:30:48.000Z"
     },
     {
       "id": "github-blog-how-we-took-malware-advisories-beyond-npm-2026-08-06t16-51-12-000z",
@@ -448,6 +469,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-06T16:51:12.000Z"
+    },
+    {
+      "id": "the-register-humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests-2026-08",
+      "title": "Humans in the loop miss a third of dangerous AI coding agent requests",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236",
+      "summary": "You wouldn't let Claude Code cat your AWS credentials or Kubernetes config on request, would you?",
+      "image": "https://image.theregister.com/?imageId=5251269&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-06T16:44:29.000Z"
     },
     {
       "id": "google-cloud-blog-agentic-future-ready-with-bigquery-continually-improving-price-performan",
@@ -580,39 +612,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-08-04T19:00:00.000Z"
-    },
-    {
-      "id": "github-blog-turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack-2026-08-04t16-4",
-      "title": "Turn one giant AI-generated pull request to a reviewable stack",
-      "link": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
-      "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests. The post Turn one giant AI-generated pull request to a reviewable sta...",
-      "image": "https://github.blog/wp-content/uploads/2026/08/pr-size-counter.gif?resize=1024%2C260",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-04T16:47:18.000Z"
-    },
-    {
-      "id": "hugging-face-blog-deploy-local-agents-everywhere-with-lfm2-5-2-6b-2026-08-04t13-58-29-000z",
-      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-08-04T13:58:29.000Z"
-    },
-    {
-      "id": "spring-blog-this-week-in-spring-august-4th-2026-2026-08-04t00-00-00-000z",
-      "title": "This Week in Spring - August 4th, 2026",
-      "link": "https://spring.io/blog/2026/08/04/this-week-in-spring-august-4-2026",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-08-04T00:00:00.000Z"
     }
   ]
 }
