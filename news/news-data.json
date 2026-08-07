@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T00:31:22.193Z",
+  "updatedAt": "2026-08-07T03:33:15.029Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,6 +64,17 @@
   ],
   "items": [
     {
+      "id": "hacker-news-hackers-stalked-me-by-hijacking-a-smartwatch-for-kids-2026-08-06t23-30-03-000z",
+      "title": "Hackers Stalked Me by Hijacking a Smartwatch for Kids",
+      "link": "https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-06T23:30:03.000Z"
+    },
+    {
       "id": "aws-what-s-new-amazon-ecs-now-supports-fractional-gpu-scheduling-with-amazon-ec2-g6f-insta",
       "title": "Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/",
@@ -73,6 +84,17 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-06T22:00:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-aws-lambda-console-extends-console-to-ide-integration-to-kiro-and-cursor-20",
+      "title": "AWS Lambda console extends console-to-IDE integration to Kiro and Cursor",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/",
+      "summary": "AWS Lambda console now extends its console-to-IDE integration to support Kiro and Cursor IDEs. This expansion builds on the existing console-to-IDE transition for Visual Studio Code (VS Code), providing a seamless trans...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-06T21:53:00.000Z"
     },
     {
       "id": "hacker-news-welcoming-the-nepalese-government-to-have-i-been-pwned-2026-08-06t21-52-16-000",
@@ -86,15 +108,15 @@
       "publishedAt": "2026-08-06T21:52:16.000Z"
     },
     {
-      "id": "hacker-news-inside-vllm-anatomy-of-a-high-throughput-llm-inference-system-2025-2026-08-06t",
-      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
-      "link": "https://www.aleksagordic.com/blog/vllm",
+      "id": "hacker-news-bioengineered-chewing-gum-may-offer-a-way-to-fight-hpv-and-other-microbes-2026",
+      "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-06T21:30:21.000Z"
+      "publishedAt": "2026-08-06T21:18:32.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-ec2-g7-instances-are-now-available-in-the-aws-europe-spain-region-20",
@@ -119,6 +141,17 @@
       "publishedAt": "2026-08-06T20:23:11.000Z"
     },
     {
+      "id": "aws-what-s-new-agentcore-runtime-instances-are-now-generally-available-2026-08-06t20-00-00",
+      "title": "AgentCore runtime instances are now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/",
+      "summary": "Today, AWS announces runtime instances, a new feature in Amazon Bedrock AgentCore that lets you run agents on your own Amazon EC2 instances without managing infrastructure. AgentCore runtime provides purpose-built infra...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-06T20:00:00.000Z"
+    },
+    {
       "id": "github-blog-a-guide-to-slash-commands-in-the-github-copilot-app-2026-08-06t19-49-34-000z",
       "title": "A guide to slash commands in the GitHub Copilot app",
       "link": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
@@ -128,17 +161,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-06T19:49:34.000Z"
-    },
-    {
-      "id": "hacker-news-herdr-is-joining-y-combinator-the-runtime-stays-open-2026-08-06t19-14-21-000z",
-      "title": "Herdr is joining Y Combinator. The runtime stays open",
-      "link": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-06T19:14:21.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-elasticache-now-supports-graviton4-based-m8g-r8g-and-c8gn-nodes-2026",
@@ -229,12 +251,12 @@
       "publishedAt": "2026-08-06T16:44:29.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-rds-now-provides-visibility-into-storage-volume-initialization-statu",
-      "title": "Amazon RDS now provides visibility into storage volume initialization status",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-storage-volume-initialization-visibility",
-      "summary": "Amazon RDS now provides visibility into the initialization status of database storage volumes created from snapshots. You can use this status to determine when your storage is fully initialized after a restore and is re...",
+      "id": "google-cloud-blog-agentic-future-ready-with-bigquery-continually-improving-price-performan",
+      "title": "Agentic Future Ready With BigQuery: Continually Improving Price-Performance, Zero Effort",
+      "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-performance-optimizations/",
+      "summary": "In the modern data landscape, query performance tuning and managing system price-performance is challenging, especially as the number of agentic workloads increase. Even for experienced developers and DBAs, constantly a...",
       "image": "",
-      "source": "AWS What's New",
+      "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-06T16:00:00.000Z"
@@ -271,28 +293,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-06T16:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-agentic-future-ready-with-bigquery-continually-improving-price-performan",
-      "title": "Agentic Future Ready With BigQuery: Continually Improving Price-Performance, Zero Effort",
-      "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-performance-optimizations/",
-      "summary": "In the modern data landscape, query performance tuning and managing system price-performance is challenging, especially as the number of agentic workloads increase. Even for experienced developers and DBAs, constantly a...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-06T16:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-workspaces-now-publishes-enhanced-observability-metrics-2026-08-06t1",
-      "title": "Amazon WorkSpaces now publishes enhanced observability metrics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-observability-metrics",
-      "summary": "Amazon WorkSpaces now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their virtual desktop workloads. These new metrics span n...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-06T15:00:00.000Z"
     },
     {
       "id": "google-cloud-blog-unc6671-rebrands-multi-brand-vishing-extortion-targets-financial-service",
