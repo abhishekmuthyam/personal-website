@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T19:58:31.875Z",
+  "updatedAt": "2026-08-08T20:27:09.266Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,8 +58,9 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
@@ -416,17 +417,6 @@
       "publishedAt": "2026-08-07T07:00:00.000Z"
     },
     {
-      "id": "the-register-sysadmin-summoned-to-explain-italics-to-a-user-with-at-least-two-degrees-2026",
-      "title": "Sysadmin summoned to explain italics – to a user with at least two degrees",
-      "link": "https://www.theregister.com/software/2026/08/07/sysadmin-summoned-to-explain-italics-to-a-user-with-at-least-two-degrees/5283871",
-      "summary": "What an idiot",
-      "image": "https://image.theregister.com/?imageId=5283892&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-07T06:30:00.000Z"
-    },
-    {
       "id": "inside-java-post-quantum-cryptography-in-long-term-support-jdk-releases-2026-08-07t00-00-0",
       "title": "Post-Quantum Cryptography in Long-Term Support JDK Releases",
       "link": "https://inside.java/2026/08/07/post-quantum-cryptography-in-long-term-support-jdk-releases/",
@@ -449,17 +439,6 @@
       "publishedAt": "2026-08-06T19:49:34.000Z"
     },
     {
-      "id": "the-register-latest-github-outage-squeezes-actions-pages-to-death-2026-08-06t18-30-48-000z",
-      "title": "Latest GitHub outage squeezes Actions, Pages to death",
-      "link": "https://www.theregister.com/devops/2026/08/06/latest-github-outage-squeezes-actions-pages-to-death/5284297",
-      "summary": "Look over there, Copilot - it's a beautiful AI farm where you can tend some digital rabbits",
-      "image": "https://image.theregister.com/?imageId=1682042&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-06T18:30:48.000Z"
-    },
-    {
       "id": "github-blog-how-we-took-malware-advisories-beyond-npm-2026-08-06t16-51-12-000z",
       "title": "How we took malware advisories beyond npm",
       "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
@@ -469,17 +448,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-06T16:51:12.000Z"
-    },
-    {
-      "id": "the-register-humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests-2026-08",
-      "title": "Humans in the loop miss a third of dangerous AI coding agent requests",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236",
-      "summary": "You wouldn't let Claude Code cat your AWS credentials or Kubernetes config on request, would you?",
-      "image": "https://image.theregister.com/?imageId=5251269&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-06T16:44:29.000Z"
     },
     {
       "id": "google-cloud-blog-agentic-future-ready-with-bigquery-continually-improving-price-performan",
@@ -612,6 +580,39 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-08-04T19:00:00.000Z"
+    },
+    {
+      "id": "github-blog-turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack-2026-08-04t16-4",
+      "title": "Turn one giant AI-generated pull request to a reviewable stack",
+      "link": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests. The post Turn one giant AI-generated pull request to a reviewable sta...",
+      "image": "https://github.blog/wp-content/uploads/2026/08/pr-size-counter.gif?resize=1024%2C260",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-04T16:47:18.000Z"
+    },
+    {
+      "id": "hugging-face-blog-deploy-local-agents-everywhere-with-lfm2-5-2-6b-2026-08-04t13-58-29-000z",
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-04T13:58:29.000Z"
+    },
+    {
+      "id": "spring-blog-this-week-in-spring-august-4th-2026-2026-08-04t00-00-00-000z",
+      "title": "This Week in Spring - August 4th, 2026",
+      "link": "https://spring.io/blog/2026/08/04/this-week-in-spring-august-4-2026",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-08-04T00:00:00.000Z"
     }
   ]
 }
