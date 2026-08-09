@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T11:13:54.763Z",
+  "updatedAt": "2026-08-09T11:45:48.064Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,11 +58,23 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
+    {
+      "id": "hacker-news-the-alpha-21264-cpu-nt-s-greatest-risc-1998-2026-08-09t10-06-37-000z",
+      "title": "The Alpha 21264 CPU: NT's Greatest RISC (1998)",
+      "link": "https://halfhill.com/byte/1998-12_alpha.html",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-09T10:06:37.000Z"
+    },
     {
       "id": "hacker-news-there-are-magic-hexagons-of-every-order-2026-08-09t07-19-58-000z",
       "title": "There Are Magic Hexagons of Every Order",
@@ -97,17 +109,6 @@
       "publishedAt": "2026-08-09T05:23:41.000Z"
     },
     {
-      "id": "hacker-news-melatonin-impairs-morning-cognition-in-healthy-young-adults-2023-2026-08-09t00",
-      "title": "Melatonin impairs morning cognition in healthy young adults (2023)",
-      "link": "https://academic.oup.com/sleep/article/46/Supplement_1/A34/7181621",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-09T00:59:58.000Z"
-    },
-    {
       "id": "hacker-news-os8088-a-powerful-mac-like-os-for-the-ibm-xt-286-386-2026-08-08t23-37-27-000z",
       "title": "Os8088: A powerful Mac-like OS for the IBM XT, 286, 386",
       "link": "https://os8088.com/",
@@ -128,17 +129,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-08T22:49:23.000Z"
-    },
-    {
-      "id": "hacker-news-shopify-replaced-redis-with-mysql-for-inventory-reservations-and-it-scaled-202",
-      "title": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
-      "link": "https://shopify.engineering/scaling-inventory-reservations",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-08T22:32:50.000Z"
     },
     {
       "id": "hacker-news-fastmail-offers-eu-data-region-2026-08-08t16-04-51-000z",
@@ -273,11 +263,11 @@
       "publishedAt": "2026-08-07T16:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-08-07t16-00-00-000z",
-      "title": "What’s new with Google Cloud",
-      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_2026_CfhxFWX.max-600x600.jpg",
+      "id": "google-cloud-blog-unifying-structured-and-unstructured-data-insights-with-bq-search-innova",
+      "title": "Unifying Structured and Unstructured Data Insights with BQ Search Innovations",
+      "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data/",
+      "summary": "Modern enterprises possess a vast amount of unstructured data, yet they frequently encounter significant challenges in managing and extracting value from it. Historically, unlocking the insights hidden within PDFs, audi...",
+      "image": "",
       "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
@@ -295,22 +285,22 @@
       "publishedAt": "2026-08-07T16:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-unifying-structured-and-unstructured-data-insights-with-bq-search-innova",
-      "title": "Unifying Structured and Unstructured Data Insights with BQ Search Innovations",
-      "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data/",
-      "summary": "Modern enterprises possess a vast amount of unstructured data, yet they frequently encounter significant challenges in managing and extracting value from it. Historically, unlocking the insights hidden within PDFs, audi...",
-      "image": "",
+      "id": "google-cloud-blog-gol-how-televisaunivision-streamed-the-fifa-world-cup-to-millions-with-g",
+      "title": "GOL! How TelevisaUnivision streamed the FIFA World Cup to millions with Google Cloud",
+      "link": "https://cloud.google.com/blog/products/networking/streaming-the-fifa-world-cup-with-televisaunivision/",
+      "summary": "Live sports broadcasting represents the ultimate stress test for digital media infrastructure, where operational success or failure is measured in milliseconds and observed live by millions of viewers simultaneously. Du...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Globe-HeroImage.max-600x600.png",
       "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-07T16:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-gol-how-televisaunivision-streamed-the-fifa-world-cup-to-millions-with-g",
-      "title": "GOL! How TelevisaUnivision streamed the FIFA World Cup to millions with Google Cloud",
-      "link": "https://cloud.google.com/blog/products/networking/streaming-the-fifa-world-cup-with-televisaunivision/",
-      "summary": "Live sports broadcasting represents the ultimate stress test for digital media infrastructure, where operational success or failure is measured in milliseconds and observed live by millions of viewers simultaneously. Du...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Globe-HeroImage.max-600x600.png",
+      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-08-07t16-00-00-000z",
+      "title": "What’s new with Google Cloud",
+      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_2026_CfhxFWX.max-600x600.jpg",
       "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
@@ -405,17 +395,6 @@
       "publishedAt": "2026-08-07T07:00:00.000Z"
     },
     {
-      "id": "the-register-sysadmin-summoned-to-explain-italics-to-a-user-with-at-least-two-degrees-2026",
-      "title": "Sysadmin summoned to explain italics – to a user with at least two degrees",
-      "link": "https://www.theregister.com/software/2026/08/07/sysadmin-summoned-to-explain-italics-to-a-user-with-at-least-two-degrees/5283871",
-      "summary": "What an idiot",
-      "image": "https://image.theregister.com/?imageId=5283892&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-07T06:30:00.000Z"
-    },
-    {
       "id": "inside-java-post-quantum-cryptography-in-long-term-support-jdk-releases-2026-08-07t00-00-0",
       "title": "Post-Quantum Cryptography in Long-Term Support JDK Releases",
       "link": "https://inside.java/2026/08/07/post-quantum-cryptography-in-long-term-support-jdk-releases/",
@@ -438,17 +417,6 @@
       "publishedAt": "2026-08-06T19:49:34.000Z"
     },
     {
-      "id": "the-register-latest-github-outage-squeezes-actions-pages-to-death-2026-08-06t18-30-48-000z",
-      "title": "Latest GitHub outage squeezes Actions, Pages to death",
-      "link": "https://www.theregister.com/devops/2026/08/06/latest-github-outage-squeezes-actions-pages-to-death/5284297",
-      "summary": "Look over there, Copilot - it's a beautiful AI farm where you can tend some digital rabbits",
-      "image": "https://image.theregister.com/?imageId=1682042&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-06T18:30:48.000Z"
-    },
-    {
       "id": "github-blog-how-we-took-malware-advisories-beyond-npm-2026-08-06t16-51-12-000z",
       "title": "How we took malware advisories beyond npm",
       "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
@@ -460,15 +428,26 @@
       "publishedAt": "2026-08-06T16:51:12.000Z"
     },
     {
-      "id": "the-register-humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests-2026-08",
-      "title": "Humans in the loop miss a third of dangerous AI coding agent requests",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236",
-      "summary": "You wouldn't let Claude Code cat your AWS credentials or Kubernetes config on request, would you?",
-      "image": "https://image.theregister.com/?imageId=5251269&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-06T16:44:29.000Z"
+      "id": "google-cloud-blog-your-agentic-summer-no-cost-lessons-from-google-experts-to-build-and-sca",
+      "title": "Your agentic summer: No-cost lessons from Google experts to build and scale agents",
+      "link": "https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/",
+      "summary": "I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/linkedin_header.max-600x600.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-06T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-digital-sovereignty-in-the-age-of-ai-you-don-t-have-to-choose-between-co",
+      "title": "Digital sovereignty in the age of AI: You don’t have to choose between control and innovation",
+      "link": "https://cloud.google.com/blog/topics/hybrid-cloud/state-of-ai-infrastructure-report-on-hybrid-cloud-and-gdc/",
+      "summary": "For enterprises and governments with strict compliance and sovereignty requirements, keeping sensitive data on-premises often means missing out on the latest AI. These organizations are managing three major risks: Juris...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Blog_Banner_3.max-600x600.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-06T16:00:00.000Z"
     },
     {
       "id": "google-cloud-blog-advancing-brain-tumor-research-with-privacy-first-ai-2026-08-06t16-00-00",
@@ -476,28 +455,6 @@
       "link": "https://cloud.google.com/blog/products/identity-security/privacy-first-medical-ai-with-medperf-and-google-cloud/",
       "summary": "The intersection of medicine and AI has led to remarkable innovations. However, developers now face the thorny challenge of building robust medical AI tools that have been tested and evaluated on diverse, real-world pat...",
       "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-06T16:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-agentic-future-ready-with-bigquery-continually-improving-price-performan",
-      "title": "Agentic Future Ready With BigQuery: Continually Improving Price-Performance, Zero Effort",
-      "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-performance-optimizations/",
-      "summary": "In the modern data landscape, query performance tuning and managing system price-performance is challenging, especially as the number of agentic workloads increase. Even for experienced developers and DBAs, constantly a...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-06T16:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-your-agentic-summer-no-cost-lessons-from-google-experts-to-build-and-sca",
-      "title": "Your agentic summer: No-cost lessons from Google experts to build and scale agents",
-      "link": "https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/",
-      "summary": "I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/linkedin_header.max-600x600.png",
       "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
@@ -570,6 +527,17 @@
       "publishedAt": "2026-08-06T00:00:00.000Z"
     },
     {
+      "id": "hacker-news-the-grid-that-doubles-the-strength-of-the-ground-2026-08-05t04-11-13-000z",
+      "title": "The Grid That Doubles the Strength of the Ground",
+      "link": "https://practical.engineering/blog/2026/8/4/the-grid-that-doubles-the-strength-of-the-ground",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-05T04:11:13.000Z"
+    },
+    {
       "id": "inside-java-oracle-java-platform-extension-for-visual-studio-code-version-26-0-1-is-now-av",
       "title": "Oracle Java Platform Extension for Visual Studio Code - Version 26.0.1 Is Now Available",
       "link": "https://inside.java/2026/08/05/java-vscode-extension-update/",
@@ -612,6 +580,39 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-04T16:47:18.000Z"
+    },
+    {
+      "id": "hugging-face-blog-deploy-local-agents-everywhere-with-lfm2-5-2-6b-2026-08-04t13-58-29-000z",
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-04T13:58:29.000Z"
+    },
+    {
+      "id": "spring-blog-this-week-in-spring-august-4th-2026-2026-08-04t00-00-00-000z",
+      "title": "This Week in Spring - August 4th, 2026",
+      "link": "https://spring.io/blog/2026/08/04/this-week-in-spring-august-4-2026",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "id": "openai-news-new-ways-to-learn-and-teach-with-chatgpt-work-and-codex-2026-08-04t00-00-00-00",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-04T00:00:00.000Z"
     }
   ]
 }
