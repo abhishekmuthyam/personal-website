@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T06:02:30.608Z",
+  "updatedAt": "2026-08-10T07:58:52.751Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -59,31 +59,64 @@
       "name": "The Register",
       "topic": "devtools",
       "ok": true,
-      "count": 0
+      "count": 8
     }
   ],
   "items": [
     {
-      "id": "hacker-news-why-do-we-assume-everyone-should-be-working-2026-08-10t05-16-26-000z",
-      "title": "Why do we assume everyone should be working?",
-      "link": "https://wilsoniumite.com/2026/08/10/why-do-we-assume-everyone-should-be-working/",
-      "summary": "Comments",
+      "id": "infoq-buildpacks-move-the-container-hardening-control-point-away-from-the-dockerfile-2026",
+      "title": "Buildpacks Move the Container Hardening Control Point Away From the Dockerfile",
+      "link": "https://www.infoq.com/news/2026/08/buildpacks-dockerfile-patching/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloud Native Buildpacks, which graduated within the CNCF in July 2026, move base image choice out of per-service Dockerfiles into a single builder owned by platform engineering, enabling fleet-wide patching. BellSoft's...",
       "image": "",
-      "source": "Hacker News",
+      "source": "InfoQ",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-10T05:16:26.000Z"
+      "publishedAt": "2026-08-10T07:00:00.000Z"
     },
     {
-      "id": "hacker-news-long-run-effects-of-h-1b-immigration-on-the-u-s-economy-july-2026-2026-08-10t0",
-      "title": "Long-Run Effects of H-1B Immigration on the U.S. Economy (July 2026)",
-      "link": "https://www.nber.org/papers/w35560",
+      "id": "the-register-demoralized-developer-s-desperate-hack-came-back-to-haunt-him-on-linkedin-202",
+      "title": "Demoralized developer's desperate hack came back to haunt him on LinkedIn",
+      "link": "https://www.theregister.com/software/2026/08/10/demoralized-developers-desperate-hack-came-back-to-haunt-him-on-linkedin/5284476",
+      "summary": "A script that shouldn't have worked, on a project that never ended, for a company that hardly cared",
+      "image": "https://image.theregister.com/?imageId=240806&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-10T06:30:00.000Z"
+    },
+    {
+      "id": "infoq-google-releases-angular-v22-with-stable-signal-forms-onpush-by-default-and-experimen",
+      "title": "Google Releases Angular v22 with Stable Signal Forms, OnPush by Default and Experimental WebMCP",
+      "link": "https://www.infoq.com/news/2026/08/angular-v22-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Angular v22, Google's TypeScript-first framework, has introduced API stabilizations, ergonomic templates, and tooling enhancements for AI integration. Key developments include the stabilization of Signal Forms, improved...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-10T06:12:00.000Z"
+    },
+    {
+      "id": "hacker-news-docker-sandboxes-disposable-isolated-sandboxes-for-ai-agents-2026-08-10t06-02",
+      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+      "link": "https://www.docker.com/products/docker-sandboxes/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-10T04:06:10.000Z"
+      "publishedAt": "2026-08-10T06:02:38.000Z"
+    },
+    {
+      "id": "hacker-news-the-philippines-big-offshoring-industry-is-growing-despite-ai-2026-08-10t04-35",
+      "title": "The Philippines' big offshoring industry is growing despite AI",
+      "link": "https://www.economist.com/asia/2026/08/06/the-philippines-big-offshoring-industry-is-growing-despite-ai",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-10T04:35:24.000Z"
     },
     {
       "id": "infoq-beyond-consensus-the-fragmentation-of-ai-policy-across-the-linux-ecosystem-2026-08-1",
@@ -130,17 +163,6 @@
       "publishedAt": "2026-08-10T03:12:48.000Z"
     },
     {
-      "id": "hacker-news-turn-satellite-imagery-into-a-paper-globe-you-fold-yourself-2026-08-10t02-57-3",
-      "title": "Turn satellite imagery into a paper globe you fold yourself",
-      "link": "https://foldingglobes.com/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-10T02:57:38.000Z"
-    },
-    {
       "id": "hacker-news-what-happened-to-hackerone-2026-08-10t02-23-17-000z",
       "title": "What Happened to HackerOne?",
       "link": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
@@ -150,6 +172,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-10T02:23:17.000Z"
+    },
+    {
+      "id": "the-register-nec-tests-parking-tech-that-only-starts-charging-once-you-exit-your-car-2026",
+      "title": "NEC tests parking tech that only starts charging once you exit your car",
+      "link": "https://www.theregister.com/software/2026/08/10/nec-tests-parking-tech-that-only-starts-charging-once-you-exit-your-car/5285245",
+      "summary": "PLUS: Infosys to wear Crocs for a decade; Fujifilm may quit printers; 2GW datacenter debuts in western China; and more!",
+      "image": "https://image.theregister.com/?imageId=239104&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-10T01:32:04.000Z"
     },
     {
       "id": "hacker-news-how-i-use-llms-to-learn-complex-topics-2026-08-09t19-16-49-000z",
@@ -295,17 +328,6 @@
       "publishedAt": "2026-08-07T16:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-08-07t16-00-00-000z",
-      "title": "What’s new with Google Cloud",
-      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_2026_CfhxFWX.max-600x600.jpg",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-07T16:00:00.000Z"
-    },
-    {
       "id": "google-cloud-blog-unifying-structured-and-unstructured-data-insights-with-bq-search-innova",
       "title": "Unifying Structured and Unstructured Data Insights with BQ Search Innovations",
       "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data/",
@@ -339,6 +361,17 @@
       "publishedAt": "2026-08-07T16:00:00.000Z"
     },
     {
+      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-08-07t16-00-00-000z",
+      "title": "What’s new with Google Cloud",
+      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_2026_CfhxFWX.max-600x600.jpg",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-07T16:00:00.000Z"
+    },
+    {
       "id": "aws-what-s-new-amazon-bedrock-agentcore-adds-memory-policy-and-harness-in-aws-govcloud-us",
       "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/",
@@ -359,28 +392,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-08-07T15:20:00.000Z"
-    },
-    {
-      "id": "infoq-instacart-builds-blueberry-an-ai-powered-assistant-to-help-on-call-engineers-investi",
-      "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents",
-      "link": "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Instacart introduced Blueberry, an AI-assisted incident response system that helps on-call engineers investigate production issues faster. It combines AI agents, operational data, and historical incident knowledge to ge...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-07T14:34:00.000Z"
-    },
-    {
-      "id": "infoq-ai-is-transforming-incident-response-but-the-hardest-problems-may-still-belong-to-hu",
-      "title": "AI Is Transforming Incident Response - But the Hardest Problems May Still Belong to Humans",
-      "link": "https://www.infoq.com/news/2026/08/ai-incident-response/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Artificial intelligence is rapidly changing how engineering teams respond to production incidents, offering the ability to summarize incident channels, analyze unfamiliar code, suggest remediation steps, generate pull r...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-07T12:00:00.000Z"
     },
     {
       "id": "openai-news-how-hsp-gruppe-builds-ai-capabilities-for-tax-advisory-2026-08-07t09-00-00-000",
@@ -416,6 +427,28 @@
       "publishedAt": "2026-08-07T07:00:00.000Z"
     },
     {
+      "id": "the-register-sysadmin-summoned-to-explain-italics-to-a-user-with-at-least-two-degrees-2026",
+      "title": "Sysadmin summoned to explain italics – to a user with at least two degrees",
+      "link": "https://www.theregister.com/software/2026/08/07/sysadmin-summoned-to-explain-italics-to-a-user-with-at-least-two-degrees/5283871",
+      "summary": "What an idiot",
+      "image": "https://image.theregister.com/?imageId=5283892&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-07T06:30:00.000Z"
+    },
+    {
+      "id": "hacker-news-an-interesting-fourier-transform-1-f-noise-2026-08-07t01-56-10-000z",
+      "title": "An Interesting Fourier Transform – 1/F Noise",
+      "link": "https://www.dsprelated.com/showarticle/40.php",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-07T01:56:10.000Z"
+    },
+    {
       "id": "inside-java-post-quantum-cryptography-in-long-term-support-jdk-releases-2026-08-07t00-00-0",
       "title": "Post-Quantum Cryptography in Long-Term Support JDK Releases",
       "link": "https://inside.java/2026/08/07/post-quantum-cryptography-in-long-term-support-jdk-releases/",
@@ -438,6 +471,17 @@
       "publishedAt": "2026-08-06T19:49:34.000Z"
     },
     {
+      "id": "the-register-latest-github-outage-squeezes-actions-pages-to-death-2026-08-06t18-30-48-000z",
+      "title": "Latest GitHub outage squeezes Actions, Pages to death",
+      "link": "https://www.theregister.com/devops/2026/08/06/latest-github-outage-squeezes-actions-pages-to-death/5284297",
+      "summary": "Look over there, Copilot - it's a beautiful AI farm where you can tend some digital rabbits",
+      "image": "https://image.theregister.com/?imageId=1682042&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-06T18:30:48.000Z"
+    },
+    {
       "id": "github-blog-how-we-took-malware-advisories-beyond-npm-2026-08-06t16-51-12-000z",
       "title": "How we took malware advisories beyond npm",
       "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
@@ -447,6 +491,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-06T16:51:12.000Z"
+    },
+    {
+      "id": "the-register-humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests-2026-08",
+      "title": "Humans in the loop miss a third of dangerous AI coding agent requests",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236",
+      "summary": "You wouldn't let Claude Code cat your AWS credentials or Kubernetes config on request, would you?",
+      "image": "https://image.theregister.com/?imageId=5251269&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-06T16:44:29.000Z"
     },
     {
       "id": "google-cloud-blog-your-agentic-summer-no-cost-lessons-from-google-experts-to-build-and-sca",
@@ -557,61 +612,6 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-08-05T00:00:00.000Z"
-    },
-    {
-      "id": "github-blog-how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows-2026",
-      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
-      "summary": "Learn how to build tools to simplify how you work—without writing a single line of code. The post How the GitHub legal team used Copilot CLI to streamline their workflows appeared first on The GitHub Blog .",
-      "image": "",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-04T19:02:34.000Z"
-    },
-    {
-      "id": "openai-news-third-party-cyber-evaluations-involving-openai-models-2026-08-04t19-00-00-000z",
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-08-04T19:00:00.000Z"
-    },
-    {
-      "id": "github-blog-turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack-2026-08-04t16-4",
-      "title": "Turn one giant AI-generated pull request to a reviewable stack",
-      "link": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
-      "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests. The post Turn one giant AI-generated pull request to a reviewable sta...",
-      "image": "https://github.blog/wp-content/uploads/2026/08/pr-size-counter.gif?resize=1024%2C260",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-04T16:47:18.000Z"
-    },
-    {
-      "id": "hugging-face-blog-deploy-local-agents-everywhere-with-lfm2-5-2-6b-2026-08-04t13-58-29-000z",
-      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-08-04T13:58:29.000Z"
-    },
-    {
-      "id": "spring-blog-this-week-in-spring-august-4th-2026-2026-08-04t00-00-00-000z",
-      "title": "This Week in Spring - August 4th, 2026",
-      "link": "https://spring.io/blog/2026/08/04/this-week-in-spring-august-4-2026",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-08-04T00:00:00.000Z"
     }
   ]
 }
