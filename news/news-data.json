@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T09:47:14.059Z",
+  "updatedAt": "2026-08-13T10:45:25.156Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -63,6 +63,17 @@
     }
   ],
   "items": [
+    {
+      "id": "infoq-anthropic-s-claude-breaches-sandbox-during-model-security-evaluations-2026-08-13t10",
+      "title": "Anthropic's Claude Breaches Sandbox During Model Security Evaluations",
+      "link": "https://www.infoq.com/news/2026/08/claude-sandox-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Anthropic conducted an audit of 141006 evaluation runs after OpenAI's sandbox escape disclosure. The review identified three incidents where Claude models accessed the internet due to misconfigurations. These incidents...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-13T10:10:00.000Z"
+    },
     {
       "id": "infoq-presentation-migrating-uber-eats-feeds-to-webview-2026-08-13t09-26-00-000z",
       "title": "Presentation: Migrating Uber Eats Feeds to Webview",
@@ -350,17 +361,6 @@
       "publishedAt": "2026-08-12T11:00:00.000Z"
     },
     {
-      "id": "infoq-mcp-goes-stateless-and-developers-ask-whether-that-just-makes-it-an-api-again-2026-0",
-      "title": "MCP Goes Stateless, and Developers Ask Whether That Just Makes It an API Again",
-      "link": "https://www.infoq.com/news/2026/08/mcp-stateless-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "The MCP 2026-07-28 specification removes the initialize handshake and session header, and adds required method and tool-name headers so gateways can route agent traffic without parsing JSON. Reaction split between devel...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-12T09:48:00.000Z"
-    },
-    {
       "id": "openai-news-from-assistance-to-execution-how-enterprises-put-ai-to-work-2026-08-12t06-00-0",
       "title": "From assistance to execution: How enterprises put AI to work",
       "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
@@ -438,22 +438,22 @@
       "publishedAt": "2026-08-11T16:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-accelerate-postgresql-migrations-using-gemini-in-database-migration-serv",
-      "title": "Accelerate PostgreSQL migrations using Gemini in Database Migration Service",
-      "link": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms/",
-      "summary": "Imagine this scenario: Your team decides to migrate a core application from an existing commercial database like Oracle or SQL Server to open source PostgreSQL or a fully managed service such as AlloyDB for PostgreSQL ....",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Hero_Image_KjCoerO.max-600x600.jpg",
+      "id": "google-cloud-blog-looker-s-semantic-layer-governs-gemini-enterprise-data-for-user-trust-20",
+      "title": "Looker’s semantic layer governs Gemini Enterprise data for user trust",
+      "link": "https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/",
+      "summary": "For organizations deploying AI agents at scale, there’s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, and PDFs, they can st...",
+      "image": "",
       "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-11T16:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-looker-s-semantic-layer-governs-gemini-enterprise-data-for-user-trust-20",
-      "title": "Looker’s semantic layer governs Gemini Enterprise data for user trust",
-      "link": "https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/",
-      "summary": "For organizations deploying AI agents at scale, there’s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, and PDFs, they can st...",
-      "image": "",
+      "id": "google-cloud-blog-accelerate-postgresql-migrations-using-gemini-in-database-migration-serv",
+      "title": "Accelerate PostgreSQL migrations using Gemini in Database Migration Service",
+      "link": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms/",
+      "summary": "Imagine this scenario: Your team decides to migrate a core application from an existing commercial database like Oracle or SQL Server to open source PostgreSQL or a fully managed service such as AlloyDB for PostgreSQL ....",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Hero_Image_KjCoerO.max-600x600.jpg",
       "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
@@ -592,10 +592,10 @@
       "publishedAt": "2026-08-10T16:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-clusternetworkpolicy-in-gke-balancing-control-and-autonomy-for-your-micr",
-      "title": "ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices",
-      "link": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
-      "summary": "Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must...",
+      "id": "google-cloud-blog-google-named-a-leader-in-the-forrester-wave-ai-platforms-q3-2026-2026-08",
+      "title": "Google named a Leader in The Forrester Wave™: AI Platforms, Q3 2026",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/",
+      "summary": "At Google Cloud, we help organizations of all sizes build and operationalize complex agentic workflows with total confidence. By combining world-class AI research with an open, fully integrated AI platform, we give cust...",
       "image": "",
       "source": "Google Cloud Blog",
       "topic": "cloud",
@@ -603,10 +603,10 @@
       "publishedAt": "2026-08-10T16:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-google-named-a-leader-in-the-forrester-wave-ai-platforms-q3-2026-2026-08",
-      "title": "Google named a Leader in The Forrester Wave™: AI Platforms, Q3 2026",
-      "link": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/",
-      "summary": "At Google Cloud, we help organizations of all sizes build and operationalize complex agentic workflows with total confidence. By combining world-class AI research with an open, fully integrated AI platform, we give cust...",
+      "id": "google-cloud-blog-clusternetworkpolicy-in-gke-balancing-control-and-autonomy-for-your-micr",
+      "title": "ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices",
+      "link": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
+      "summary": "Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must...",
       "image": "",
       "source": "Google Cloud Blog",
       "topic": "cloud",
