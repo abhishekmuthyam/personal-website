@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T10:55:32.489Z",
+  "updatedAt": "2026-08-15T11:10:10.846Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,6 +64,28 @@
   ],
   "items": [
     {
+      "id": "infoq-presentation-from-models-to-agents-building-context-aware-consumer-ai-at-scale-at-do",
+      "title": "Presentation: From Models to Agents: Building Context-Aware Consumer AI at Scale at DoorDash",
+      "link": "https://www.infoq.com/presentations/ai-agentic-recommendations-semantic-ids/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Sudeep Das shares how DoorDash shifts from legacy one-shot predictions to an agentic recommendation platform. He discusses leveraging language-native consumer memory, RQ-VAE semantic IDs for catalog representation, and...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-15T11:00:00.000Z"
+    },
+    {
+      "id": "infoq-cloudflare-adds-agent-tracing-with-truncation-limits-and-uneven-payload-defaults-202",
+      "title": "Cloudflare Adds Agent Tracing, with Truncation Limits and Uneven Payload Defaults",
+      "link": "https://www.infoq.com/news/2026/08/cloudflare-agent-tracing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare launched agent tracing, adding spans for agent invocations, model calls, tool runs, and approvals to existing Workers traces. Sessions replay turn by turn, though the docs warn traces are not lossless and pay...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-15T10:46:00.000Z"
+    },
+    {
       "id": "hacker-news-using-gcc-s-nested-functions-with-wide-pointers-and-no-trampolines-ii-2026-08",
       "title": "Using GCC's Nested Functions with Wide Pointers and No Trampolines II",
       "link": "https://uecker.codeberg.page/2026-07-14.html",
@@ -84,17 +106,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-15T06:28:00.000Z"
-    },
-    {
-      "id": "hacker-news-show-hn-thoughtdag-an-editable-context-graph-for-llm-conversations-2026-08-15t",
-      "title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
-      "link": "https://chenxiachan.github.io/thoughtdag/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-15T04:42:07.000Z"
     },
     {
       "id": "hacker-news-the-other-sean-byrne-doesn-t-exist-2026-08-15t04-18-44-000z",
@@ -216,28 +227,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-14T09:00:00.000Z"
-    },
-    {
-      "id": "infoq-rx-net-7-0-reduces-deployment-size-by-splitting-windows-ui-support-2026-08-14t08-00",
-      "title": "Rx.NET 7.0 Reduces Deployment Size by Splitting Windows UI Support",
-      "link": "https://www.infoq.com/news/2026/08/rx-net-7/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Rx.NET 7.0 has been released with a narrowly focused change aimed at reducing deployment size for Windows applications. The new version separates WPF, Windows Forms, UWP, and Windows Runtime integration from the main Sy...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-14T08:00:00.000Z"
-    },
-    {
-      "id": "infoq-kubeflow-expands-ai-capabilities-as-cncf-graduation-nears-2026-08-14t08-00-00-000z",
-      "title": "Kubeflow Expands AI Capabilities as CNCF Graduation Nears",
-      "link": "https://www.infoq.com/news/2026/08/kubeflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "The Kubeflow project has unveiled several technical updates to enhance distributed AI and high-performance computing on Kubernetes. These advancements include Kale 2.0, a modernised SDK with native Spark support, and ex...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-14T08:00:00.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-ses-click-tracking-now-supports-custom-url-paths-for-mobile-app-deep",
@@ -608,6 +597,17 @@
       "link": "https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/",
       "summary": "Securing infrastructure and services against a future cryptographically-relevant quantum computer has been a goal for Google for a decade, and we’ve dedicated ourselves to help developers by advancing open standards tha...",
       "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-11T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-accelerate-postgresql-migrations-using-gemini-in-database-migration-serv",
+      "title": "Accelerate PostgreSQL migrations using Gemini in Database Migration Service",
+      "link": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms/",
+      "summary": "Imagine this scenario: Your team decides to migrate a core application from an existing commercial database like Oracle or SQL Server to open source PostgreSQL or a fully managed service such as AlloyDB for PostgreSQL ....",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Hero_Image_KjCoerO.max-600x600.jpg",
       "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
