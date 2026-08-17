@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T22:54:03.645Z",
+  "updatedAt": "2026-08-17T23:11:40.986Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -130,6 +130,17 @@
       "publishedAt": "2026-08-17T19:46:21.000Z"
     },
     {
+      "id": "aws-what-s-new-amazon-ecr-now-supports-25-replication-rules-per-registry-2026-08-17t19-01",
+      "title": "Amazon ECR now supports 25 replication rules per registry",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-increased-replication-rules-limit",
+      "summary": "Amazon Elastic Container Registry (Amazon ECR) has increased the maximum number of replication rules per registry from 10 to 25. Previously, customers with complex multi-region or multi-account architectures were constr...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-17T19:01:00.000Z"
+    },
+    {
       "id": "aws-what-s-new-amazon-ec2-auto-scaling-now-supports-batch-instance-termination-2026-08-17t",
       "title": "Amazon EC2 Auto Scaling now supports batch instance termination",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
@@ -150,6 +161,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-17T18:02:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-msk-now-supports-configuring-custom-domain-names-for-msk-provisioned",
+      "title": "Amazon MSK now supports configuring custom domain names for MSK Provisioned clusters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/17/amazon-msk-custom-domain-names/",
+      "summary": "You can now easily configure custom domain names on Amazon MSK Provisioned clusters, on either ZooKeeper or KRaft mode for metadata management. This capability helps client applications maintain the same connection endp...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-17T18:01:00.000Z"
     },
     {
       "id": "hacker-news-gpu-offload-in-rust-portable-safe-and-fast-2026-08-17t17-54-59-000z",
@@ -229,17 +251,6 @@
       "publishedAt": "2026-08-17T15:41:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-opensearch-service-now-supports-automatic-semantic-enrichment-for-vp",
-      "title": "Amazon OpenSearch Service now supports automatic semantic enrichment for VPC domains",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/",
-      "summary": "Amazon OpenSearch Service now extends automatic semantic enrichment to VPC-enabled domains, allowing customers with private network configurations to leverage AI-powered semantic search without exposing their domains to...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-17T15:39:00.000Z"
-    },
-    {
       "id": "hacker-news-ai-generated-github-copilot-autofix-allowed-compromise-of-snowflake-s-jira-202",
       "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
       "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
@@ -293,17 +304,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-17T13:35:06.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-cloudshell-now-includes-a-built-in-visual-file-editor-2026-08-17t13-00",
-      "title": "AWS CloudShell now includes a built-in visual file editor",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cloudshell-visual-file-editor/",
-      "summary": "AWS CloudShell now includes a built-in visual file editor that you can launch directly from your shell session using a single 'edit' command, no setup required. CloudShell provides a browser-based shell environment that...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-17T13:00:00.000Z"
     },
     {
       "id": "infoq-cloudflare-turns-ci-pipelines-into-typescript-workflows-2026-08-17t13-00-00-000z",
