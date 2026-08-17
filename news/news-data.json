@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T10:44:13.677Z",
+  "updatedAt": "2026-08-17T11:03:20.906Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -46,8 +46,9 @@
     {
       "name": "Hacker News",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "name": "InfoQ",
@@ -59,10 +60,43 @@
       "name": "The Register",
       "topic": "devtools",
       "ok": true,
-      "count": 8
+      "count": 0
     }
   ],
   "items": [
+    {
+      "id": "infoq-shadcn-brings-conversational-primitives-to-shadcn-ui-with-new-chat-components-2026-0",
+      "title": "shadcn Brings Conversational Primitives to shadcn/ui with New Chat Components",
+      "link": "https://www.infoq.com/news/2026/08/shadcn-conversational-primitives/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Shadcn, a design engineer at Vercel, has introduced new components for chat interfaces within the shadcn/ui project. This release includes components like MessageScroller and Message, focusing on conversation functional...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-17T11:01:00.000Z"
+    },
+    {
+      "id": "infoq-article-agentic-fitness-functions-extending-evolutionary-architecture-beyond-determi",
+      "title": "Article: Agentic Fitness Functions: Extending Evolutionary Architecture Beyond Deterministic Rules",
+      "link": "https://www.infoq.com/articles/agentic-fitness-functions-evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Deterministic rules safeguard hard metrics, but what about architectural intent? Discover how agentic fitness functions combine AI agents and versioned rubrics to evaluate complex, judgment-heavy concerns—such as bounda...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-17T11:00:00.000Z"
+    },
+    {
+      "id": "infoq-podcast-will-agentic-ai-bring-fantasia-s-sorcerer-s-apprentice-to-life-a-conversatio",
+      "title": "Podcast: Will Agentic AI Bring Fantasia’s Sorcerer's Apprentice to Life?: A Conversation with Tracy Bannon",
+      "link": "https://www.infoq.com/podcasts/agentic-ai-sorcerers-apprentice/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In this podcast, Michael Stiefel spoke to Tracy Bannon about the role of artificial intelligence in software and the attendant risks in the areas of security, software development, and society at large. While it might b...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-17T11:00:00.000Z"
+    },
     {
       "id": "infoq-grafana-s-gcx-and-mcp-server-reach-ga-for-telemetry-driven-agent-development-2026-08",
       "title": "Grafana's gcx and MCP Server Reach GA for Telemetry-Driven Agent Development",
@@ -86,28 +120,6 @@
       "publishedAt": "2026-08-17T09:06:00.000Z"
     },
     {
-      "id": "hacker-news-hackeurope-2026-a-short-rant-on-ai-and-hackathons-2026-08-17t07-28-43-000z",
-      "title": "HackEurope 2026: A short rant on AI and hackathons",
-      "link": "https://duti.dev/blog/2026/spr/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-17T07:28:43.000Z"
-    },
-    {
-      "id": "the-register-microsoft-blames-ai-for-delayed-exchange-update-can-t-say-when-it-will-arrive",
-      "title": "Microsoft blames AI for delayed Exchange update, can’t say when it will arrive",
-      "link": "https://www.theregister.com/software/2026/08/17/microsoft-blames-ai-for-delayed-exchange-update-cant-say-when-it-will-arrive/5288227",
-      "summary": "Dealing with machine-made bug backlog makes it hard to find a moment to deliver promised subscription service",
-      "image": "https://image.theregister.com/?imageId=225734&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-17T02:31:58.000Z"
-    },
-    {
       "id": "infoq-java-news-roundup-simple-json-api-glassfish-jakarta-ee-jnosql-open-liberty-langchain",
       "title": "Java News Roundup: Simple JSON API, GlassFish, Jakarta EE, JNoSQL, Open Liberty, LangChain4j",
       "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug10-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -117,72 +129,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-17T02:30:00.000Z"
-    },
-    {
-      "id": "hacker-news-on-a-i-regulation-and-messaging-2026-08-17t01-59-56-000z",
-      "title": "On A.I. regulation and messaging",
-      "link": "https://twitter.com/DarioAmodei/status/2088758816376807762",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-17T01:59:56.000Z"
-    },
-    {
-      "id": "hacker-news-reticulum-decentralized-mesh-network-2026-08-16t23-59-10-000z",
-      "title": "Reticulum – Decentralized Mesh Network",
-      "link": "https://reticulum.network/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-16T23:59:10.000Z"
-    },
-    {
-      "id": "hacker-news-qwen-3-8-27b-is-excellent-but-it-defaults-to-overthinking-things-2026-08-16t23",
-      "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
-      "link": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-16T23:45:09.000Z"
-    },
-    {
-      "id": "hacker-news-anthropic-s-watermark-text-adulteration-in-claude-is-a-perversion-of-writing-2",
-      "title": "Anthropic's 'watermark' text adulteration in Claude is a perversion of writing",
-      "link": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-16T21:53:43.000Z"
-    },
-    {
-      "id": "hacker-news-a-third-world-engineer-responds-to-risc-v-they-should-have-known-better-2026-0",
-      "title": "A third world engineer responds to “RISC-V: They should have known better”",
-      "link": "https://rvembedded.com/blog_post/12/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-16T17:01:07.000Z"
-    },
-    {
-      "id": "hacker-news-claude-system-prompts-2026-08-16t12-48-21-000z",
-      "title": "Claude: System Prompts",
-      "link": "https://platform.claude.com/docs/en/release-notes/system-prompts",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-16T12:48:21.000Z"
     },
     {
       "id": "infoq-aws-open-sources-dogwood-extending-cedar-to-govern-sequences-of-agent-tool-calls-202",
@@ -205,39 +151,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-16T07:21:00.000Z"
-    },
-    {
-      "id": "infoq-how-pgsimcity-turns-postgresql-complexity-into-a-virtual-city-3d-simulation-2026-08",
-      "title": "How PGSimCity Turns PostgreSQL Complexity into a Virtual City 3D Simulation",
-      "link": "https://www.infoq.com/news/2026/08/pgsimcity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Nikolay Samokhvalov has developed PGSimCity, an open-source educational tool that visualises PostgreSQL mechanics as a 3D spatial simulation in the browser. It assists backend developers and site reliability engineers i...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-16T05:05:00.000Z"
-    },
-    {
-      "id": "infoq-presentation-from-models-to-agents-building-context-aware-consumer-ai-at-scale-at-do",
-      "title": "Presentation: From Models to Agents: Building Context-Aware Consumer AI at Scale at DoorDash",
-      "link": "https://www.infoq.com/presentations/ai-agentic-recommendations-semantic-ids/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Sudeep Das shares how DoorDash shifts from legacy one-shot predictions to an agentic recommendation platform. He discusses leveraging language-native consumer memory, RQ-VAE semantic IDs for catalog representation, and...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-15T11:00:00.000Z"
-    },
-    {
-      "id": "infoq-cloudflare-adds-agent-tracing-with-truncation-limits-and-uneven-payload-defaults-202",
-      "title": "Cloudflare Adds Agent Tracing, with Truncation Limits and Uneven Payload Defaults",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-agent-tracing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Cloudflare launched agent tracing, adding spans for agent invocations, model calls, tool runs, and approvals to existing Workers traces. Sessions replay turn by turn, though the docs warn traces are not lossless and pay...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-15T10:46:00.000Z"
     },
     {
       "id": "inside-java-episode-66-json-api-valhalla-progress-lts-pqc-ijn-2026-08-15t00-00-00-000z",
@@ -284,17 +197,6 @@
       "publishedAt": "2026-08-14T15:00:00.000Z"
     },
     {
-      "id": "hacker-news-the-continuing-q-collar-scandal-2026-08-14t09-39-21-000z",
-      "title": "The continuing \"Q collar\" scandal",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/13/we-should-probably-be-doing-more-coverage-of-science-adjacent-medical-scams-like-the-q-collar-and-less-on-repulsively-self-promoting-but-ultimately-less-harmful-academic-grifters/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-14T09:39:21.000Z"
-    },
-    {
       "id": "aws-what-s-new-amazon-ses-click-tracking-now-supports-custom-url-paths-for-mobile-app-deep",
       "title": "Amazon SES click tracking now supports custom URL paths for mobile app deep linking",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking",
@@ -304,17 +206,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-14T07:00:00.000Z"
-    },
-    {
-      "id": "the-register-five-years-after-quitting-a-job-developer-s-former-boss-asked-for-rapid-tech",
-      "title": "Five years after quitting a job, developer’s former boss asked for rapid tech support",
-      "link": "https://www.theregister.com/software/2026/08/14/five-years-after-quitting-a-job-developers-former-boss-asked-for-rapid-tech-support/5287229",
-      "summary": "Connecting a single power cord turned into a lucrative all-nighter",
-      "image": "https://image.theregister.com/?imageId=5270351&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-14T06:25:00.000Z"
     },
     {
       "id": "aws-what-s-new-aws-billing-and-cost-management-introduces-managed-dashboards-2026-08-14t02",
@@ -359,17 +250,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-13T20:49:00.000Z"
-    },
-    {
-      "id": "the-register-give-google-the-boot-by-building-your-own-search-engine-2026-08-13t20-48-15-0",
-      "title": "Give Google the boot by building your own search engine",
-      "link": "https://www.theregister.com/software/2026/08/13/give-google-the-boot-by-building-your-own-search-engine/5287535",
-      "summary": "Got $10 and a gig of storage space? Marlin lets you weight your crawl toward the parts of the web you actually care about",
-      "image": "https://image.theregister.com/?imageId=261723&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-13T20:48:15.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-redshift-adds-rg-large-and-rg-12xlarge-instance-sizes-in-aws-govclou",
@@ -526,17 +406,6 @@
       "publishedAt": "2026-08-12T22:17:32.000Z"
     },
     {
-      "id": "the-register-deeply-buried-16-year-old-sqlite-bug-caused-last-year-s-tailscale-outages-202",
-      "title": "Deeply buried 16-year-old SQLite bug caused last year's Tailscale outages",
-      "link": "https://www.theregister.com/databases/2026/08/12/deeply-buried-16-year-old-sqlite-bug-caused-last-years-tailscale-outages/5287004",
-      "summary": "Think your bugs are a pain to track? WAL-Reset took six months of hunting and development of a new logging tool to identify",
-      "image": "https://image.theregister.com/?imageId=5287252&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-12T21:29:09.000Z"
-    },
-    {
       "id": "github-blog-write-your-first-prompt-with-the-github-copilot-app-2026-08-12t19-00-00-000z",
       "title": "Write your first prompt with the GitHub Copilot app",
       "link": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
@@ -557,17 +426,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-12T18:00:08.000Z"
-    },
-    {
-      "id": "the-register-openwaldo-aims-to-blow-the-doors-off-proprietary-ai-training-models-2026-08-1",
-      "title": "OpenWALDO aims to blow the doors off proprietary AI training models",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/12/openwaldo-aims-to-blow-the-doors-off-proprietary-ai-training-models/5286864",
-      "summary": "Contributors wanted: 167B transparent tokens have a long way to go against AI giants' trillions",
-      "image": "https://image.theregister.com/?imageId=5286886&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-12T16:57:33.000Z"
     },
     {
       "id": "hugging-face-blog-introducing-olmoearth-embeddings-custom-embedding-exports-from-olmoearth",
@@ -612,6 +470,149 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "openai-news-how-ringcentral-builds-ai-native-work-from-engineering-to-ops-2026-08-12t00-00",
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "link": "https://openai.com/index/ringcentral",
+      "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "github-blog-from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer-2026-08-11",
+      "title": "From coder to orchestrator: How agents shift the role of a developer",
+      "link": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
+      "summary": "Developers are owning more of the delivery system around code, not just code itself. Join us during GitHub Universe to meet other devs, learn something new, and explore what's next. The post From coder to orchestrator:...",
+      "image": "https://github.blog/wp-content/uploads/2026/08/Screenshot-2026-08-11-at-10.43.51-AM.png?resize=281%2C300",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-11T18:38:17.000Z"
+    },
+    {
+      "id": "google-cloud-blog-pqc-in-plaintext-google-cloud-s-post-quantum-cryptography-roadmap-2026-0",
+      "title": "PQC in Plaintext: Google Cloud’s post-quantum cryptography roadmap",
+      "link": "https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/",
+      "summary": "Securing infrastructure and services against a future cryptographically-relevant quantum computer has been a goal for Google for a decade, and we’ve dedicated ourselves to help developers by advancing open standards tha...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-11T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-accelerate-postgresql-migrations-using-gemini-in-database-migration-serv",
+      "title": "Accelerate PostgreSQL migrations using Gemini in Database Migration Service",
+      "link": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms/",
+      "summary": "Imagine this scenario: Your team decides to migrate a core application from an existing commercial database like Oracle or SQL Server to open source PostgreSQL or a fully managed service such as AlloyDB for PostgreSQL ....",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Hero_Image_KjCoerO.max-600x600.jpg",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-11T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-looker-s-semantic-layer-governs-gemini-enterprise-data-for-user-trust-20",
+      "title": "Looker’s semantic layer governs Gemini Enterprise data for user trust",
+      "link": "https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/",
+      "summary": "For organizations deploying AI agents at scale, there’s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, and PDFs, they can st...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-11T16:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-thinking-of-ace-we-can-do-it-with-fewer-tokens-2026-08-11t13-37-10-000z",
+      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-11T13:37:10.000Z"
+    },
+    {
+      "id": "google-cloud-blog-expanding-connectivity-in-the-americas-introducing-alisios-canoa-and-ola",
+      "title": "Expanding connectivity in the Americas: Introducing Alisios, Canoa, and OlaLuz subsea cables",
+      "link": "https://cloud.google.com/blog/products/infrastructure/introducing-americas-connect/",
+      "summary": "The global digital economy relies on robust, resilient, and highly secure infrastructure to support everything from daily internet use to telehealth and scientific research breakthroughs. Today, Google is announcing a m...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_jORda9l.max-600x600.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "id": "openai-news-testing-ads-in-chatgpt-2026-08-11t10-00-00-000z",
+      "title": "Testing ads in ChatGPT",
+      "link": "https://openai.com/index/testing-ads-in-chatgpt",
+      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "id": "openai-news-daybreak-models-are-now-available-on-aws-2026-08-11t10-00-00-000z",
+      "title": "Daybreak models are now available on AWS",
+      "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "id": "inside-java-the-power-of-jdk-flight-recorder-efficient-profiling-and-troubleshooting-for-j",
+      "title": "The Power of JDK Flight Recorder: Efficient Profiling and Troubleshooting for Java Applications",
+      "link": "https://inside.java/2026/08/11/efficient-java-apps-profiling-troubleshooting/",
+      "summary": "Take a guided tour of the JDK Flight Recorder, the powerful event recording framework for the JVM. We'll cover the basics for getting started, show how to capture and analyze rich telemetry data, and demonstrate real-wo...",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "spring-blog-this-week-in-spring-august-11th-2026-2026-08-11t00-00-00-000z",
+      "title": "This Week in Spring - August 11th, 2026",
+      "link": "https://spring.io/blog/2026/08/11/this-week-in-spring-august-11-2026",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-introducing-the-developer-device-platform-for-agentic-mobile-app-develop",
+      "title": "Introducing the Developer Device Platform for agentic mobile app development",
+      "link": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-developer-device-platform-on-google-cloud/",
+      "summary": "Most enterprises connect with their customers through a device. Whether it’s using a mobile app to order a product, contact customer service, view content, or manage their account, the customer experience depends on how...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_-_Header_image.max-600x600.jpg",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-10T22:00:00.000Z"
+    },
+    {
+      "id": "github-blog-using-the-github-copilot-sdk-for-java-2026-08-10t19-30-00-000z",
+      "title": "Using the GitHub Copilot SDK for Java",
+      "link": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+      "summary": "Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more. The post Using the GitHub Copilot SDK for Java appeared first on The GitHub Blo...",
+      "image": "https://github.blog/wp-content/uploads/2026/08/figure-01-app-flow-diagram.png?resize=1024%2C173",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-10T19:30:00.000Z"
     }
   ]
 }
