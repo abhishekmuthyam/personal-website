@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T20:29:18.132Z",
+  "updatedAt": "2026-08-20T20:56:27.465Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -65,7 +65,7 @@
   "items": [
     {
       "id": "hacker-news-stop-eating-lady-gaga-s-oreos-2026-08-20t19-46-06-000z",
-      "title": "Stop Eating Lady Gaga's Oreos",
+      "title": "Stop eating Lady Gaga's Oreos",
       "link": "https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos",
       "summary": "Comments",
       "image": "",
@@ -73,6 +73,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-20T19:46:06.000Z"
+    },
+    {
+      "id": "hacker-news-the-august-17-outage-and-the-work-ahead-2026-08-20t19-22-24-000z",
+      "title": "The August 17 outage, and the work ahead",
+      "link": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-20T19:22:24.000Z"
     },
     {
       "id": "hacker-news-show-hn-huzzah-a-novel-approach-to-coding-with-ai-2026-08-20t19-05-36-000z",
@@ -86,17 +97,6 @@
       "publishedAt": "2026-08-20T19:05:36.000Z"
     },
     {
-      "id": "hacker-news-scientific-study-reveals-tiktok-videos-deactivate-key-cognitive-brain-regions",
-      "title": "Scientific study reveals TikTok videos deactivate key cognitive brain regions",
-      "link": "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-20T18:54:32.000Z"
-    },
-    {
       "id": "github-blog-the-august-17-outage-and-the-work-ahead-2026-08-20t18-36-11-000z",
       "title": "The August 17 outage, and the work ahead",
       "link": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
@@ -106,6 +106,28 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-20T18:36:11.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-eks-now-supports-certificate-authority-ca-rotation-with-automated-li",
+      "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
+      "summary": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announced certificate authority (CA) rotation, enabling customers to rotate their cluster's CA through a managed lifecycle with automated safeguards. Each Amazon EKS...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-20T18:30:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-cloudfront-now-supports-origin-access-control-oac-for-amazon-s3-mult",
+      "title": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap",
+      "summary": "Starting today, customers can protect their origins using Amazon S3 Multi-Region Access Points (MRAP) by using CloudFront Origin Access Control (OAC) to only allow access from designated CloudFront distributions. Custom...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-20T18:30:00.000Z"
     },
     {
       "id": "hacker-news-consumer-rights-wiki-2026-08-20t18-19-51-000z",
@@ -119,8 +141,19 @@
       "publishedAt": "2026-08-20T18:19:51.000Z"
     },
     {
-      "id": "hacker-news-i-should-have-loved-biology-2026-08-20t17-50-02-000z",
-      "title": "I should have loved biology",
+      "id": "aws-what-s-new-aws-partner-central-agents-mcp-server-now-supports-oauth-with-aws-sign-in-2",
+      "title": "AWS Partner Central agents MCP Server now supports OAuth with AWS Sign-In",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/8/aws-partner-central-mcp/",
+      "summary": "AWS partners can now access AWS Partner Central agents from tools they already use, such as Amazon Quick and Kiro, using OAuth through AWS Sign-In. Partners can authorize agent access with their existing AWS identities,...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-20T18:02:00.000Z"
+    },
+    {
+      "id": "hacker-news-i-should-have-loved-biology-2020-2026-08-20t17-50-02-000z",
+      "title": "I should have loved biology (2020)",
       "link": "https://jsomers.net/i-should-have-loved-biology/",
       "summary": "Comments",
       "image": "",
@@ -414,39 +447,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-19T22:55:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-ec2-enables-ami-creation-with-local-snapshots-from-instances-on-outp",
-      "title": "Amazon EC2 enables AMI creation with local snapshots from instances on Outposts",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-create-image-local-snapshot-outpost",
-      "summary": "Amazon EC2 now supports creating Amazon Machine Images (AMIs) with local snapshots from instances running on AWS Outposts. This capability makes it easier for customers to create AMIs while storing snapshots directly on...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-19T21:30:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-cloudwatch-log-centralization-now-supports-log-group-tag-propagation",
-      "title": "Amazon CloudWatch log Centralization now supports log group tag propagation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-centralization-tag-propogation/",
-      "summary": "Amazon CloudWatch Centralization now copies log group tags from source accounts to the destination log groups created by centralization rules. CloudWatch Centralization aggregates log data from multiple accounts and Reg...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-19T21:06:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-sagemaker-notebooks-now-support-trusted-identity-propagation-2026-08",
-      "title": "Amazon SageMaker notebooks now support trusted identity propagation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker/",
-      "summary": "Amazon SageMaker Notebooks now support Trusted Identity Propagation (TIP) with Amazon Athena, Amazon Redshift, and Amazon EMR Serverless, enabling per-user access control for data analytics. When connected to a TIP-enab...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-19T20:25:00.000Z"
     },
     {
       "id": "openai-news-offering-zero-data-retention-for-frontier-models-2026-08-19t19-00-00-000z",
