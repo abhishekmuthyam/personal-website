@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T15:55:20.283Z",
+  "updatedAt": "2026-08-20T16:21:34.122Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -59,20 +59,86 @@
       "name": "The Register",
       "topic": "devtools",
       "ok": true,
-      "count": 0
+      "count": 8
     }
   ],
   "items": [
     {
-      "id": "hacker-news-hacking-with-claude-on-a-27-smart-watch-2026-08-20t14-08-09-000z",
-      "title": "Hacking with Claude on a $27 Smart Watch",
-      "link": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+      "id": "google-cloud-blog-how-alloydb-scann-scales-vector-search-to-10-billion-vectors-2026-08-20t",
+      "title": "How AlloyDB ScaNN scales vector search to 10 billion vectors",
+      "link": "https://cloud.google.com/blog/products/databases/alloydb-scann-index-four-level-tree-improves-vector-search/",
+      "summary": "To satisfy the demands of enterprise-grade agentic AI applications, underlying vector databases often struggle to scale effectively as modern use cases can scale to billions of vectors. As a fully managed PostgreSQL-com...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-20T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-10-questions-every-startup-should-answer-before-moving-to-production-wit",
+      "title": "10 questions every startup should answer before moving to production with their AI prototype",
+      "link": "https://cloud.google.com/blog/topics/developers-practitioners/10-questions-for-your-startup-developers/",
+      "summary": "It’s never been easier to start an AI-powered startup on Google Cloud. You grab an API key from Google AI Studio at breakfast, paste it into Antigravity, and by lunch you’ll have a nascent prototype of your product. But...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-20T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-announcing-quantum-safe-key-import-in-cloud-kms-2026-08-20t16-00-00-000z",
+      "title": "Announcing quantum-safe key import in Cloud KMS",
+      "link": "https://cloud.google.com/blog/products/identity-security/announcing-quantum-safe-key-import-in-cloud-kms/",
+      "summary": "As enterprises increasingly adopt multicloud architectures, bring your own key (BYOK) has become a fundamental pillar for maintaining data sovereignty and helping protect critical cloud workloads. At the same time, quan...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-20T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-google-is-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-a",
+      "title": "Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
+      "link": "https://cloud.google.com/blog/products/application-development/2026-gartner-mq-for-cloud-native-application-platforms/",
+      "summary": "We are thrilled to announce that Google has been recognized as a Leader for the third year in a row in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms (CNAP) . We believe this placement in the L...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-20T16:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-how-to-compromise-your-system-with-a-job-interview-2026-08-20t15-50-57-000z",
+      "title": "How to compromise your system with a job interview",
+      "link": "https://www.codedge.de/posts/how-to-compromise-your-system-with-a-job-interview",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-20T14:08:09.000Z"
+      "publishedAt": "2026-08-20T15:50:57.000Z"
+    },
+    {
+      "id": "the-register-slack-code-taps-into-collective-vibe-puts-ai-agents-into-the-group-chat-2026",
+      "title": "Slack Code taps into collective vibe, puts AI agents into the group chat",
+      "link": "https://www.theregister.com/saas/2026/08/20/slack-code-taps-into-collective-vibe-puts-ai-agents-into-the-group-chat/5290413",
+      "summary": "Developers can now invite the whole team along for their quality time with the coding bot",
+      "image": "https://image.theregister.com/?imageId=248129&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-20T15:23:00.000Z"
+    },
+    {
+      "id": "the-register-thunderbird-to-flap-twice-as-fast-from-september-2026-08-20t15-03-00-000z",
+      "title": "Thunderbird to flap twice as fast from September",
+      "link": "https://www.theregister.com/software/2026/08/20/thunderbird-to-flap-twice-as-fast-from-september/5290393",
+      "summary": "Email client follows Firefox onto two-week release treadmill",
+      "image": "https://image.theregister.com/?imageId=5290483&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-20T15:03:00.000Z"
     },
     {
       "id": "google-cloud-blog-going-with-the-flow-s-distinct-clusters-target-individuals-of-interest-t",
@@ -229,6 +295,17 @@
       "publishedAt": "2026-08-20T00:15:01.000Z"
     },
     {
+      "id": "aws-what-s-new-aws-marketplace-now-supports-category-based-notifications-and-multi-channel",
+      "title": "AWS Marketplace now supports category-based notifications and multi-channel delivery for partners",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace/",
+      "summary": "AWS partners can now configure category-based notifications and multi-channel delivery for AWS Marketplace notifications through AWS User Notifications. Previously, partners received their AWS Marketplace notifications...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-20T00:06:00.000Z"
+    },
+    {
       "id": "inside-java-episode-67-keeping-up-with-the-java-release-train-i-o-2026-08-20t00-00-00-000z",
       "title": "Episode 67 “Keeping Up With the Java Release Train” [I/O]",
       "link": "https://inside.java/2026/08/20/podcast-067/",
@@ -350,17 +427,6 @@
       "publishedAt": "2026-08-19T17:50:23.000Z"
     },
     {
-      "id": "aws-what-s-new-aws-marketplace-launches-support-for-amazon-lightsail-2026-08-19t17-04-00-0",
-      "title": "AWS Marketplace launches support for Amazon Lightsail",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-launch-ami-amazon-lightsail",
-      "summary": "Today, AWS Marketplace announces support for launching select Amazon Machine Images (AMIs) on Amazon Lightsail. Customers who want simple, predictable pricing and a streamlined instance-creation experience can now easil...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-19T17:04:00.000Z"
-    },
-    {
       "id": "google-cloud-blog-serverless-apache-spark-on-google-cloud-architecture-choices-ai-troubles",
       "title": "Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting",
       "link": "https://cloud.google.com/blog/products/data-analytics/serverless-apache-spark-on-google-cloud-architecture-ai-troubleshooting/",
@@ -403,6 +469,17 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-08-19T13:48:49.000Z"
+    },
+    {
+      "id": "the-register-sap-consultant-job-ads-overshoot-final-offers-by-up-to-12-recruiter-claims-20",
+      "title": "SAP consultant job ads overshoot final offers by up to 12%, recruiter claims",
+      "link": "https://www.theregister.com/software/2026/08/19/sap-consultant-job-ads-overshoot-final-offers-by-up-to-12-recruiter-claims/5289467",
+      "summary": "Both sides apparently start high then price in the inevitable haggle",
+      "image": "https://image.theregister.com/?imageId=255122&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-19T10:10:00.000Z"
     },
     {
       "id": "openai-news-replit-expands-access-to-software-creation-with-gpt-5-6-luna-2026-08-19t07-00",
@@ -460,28 +537,6 @@
       "publishedAt": "2026-08-18T16:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-building-cost-effective-high-throughput-gen-ai-workflows-in-google-dataf",
-      "title": "Building cost-effective, high-throughput gen AI workflows in Google Dataflow",
-      "link": "https://cloud.google.com/blog/products/data-analytics/cost-effective-genai-workflows-in-google-dataflow/",
-      "summary": "Real-time streaming pipelines are the operational backbone of modern enterprises, continuously processing everything from customer support interactions to transaction logs. Traditionally, streaming DAGs are static; once...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-18T16:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-how-box-is-unlocking-multimodal-enterprise-agents-with-gemini-embeddings",
-      "title": "How Box is unlocking multimodal enterprise agents with Gemini Embeddings 2",
-      "link": "https://cloud.google.com/blog/topics/partners/box-ai-agents-gemini-embeddings-multimodal-enterprise-ai/",
-      "summary": "Enterprise content management is experiencing its biggest architectural shift since the cloud migration era. For years, enterprises have stored trillions of gigabytes of critical data in Box: financial models, clinical...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/box-multimodal-agents-gemini-embeddings-head.max-600x600.png",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-18T16:00:00.000Z"
-    },
-    {
       "id": "hacker-news-i-like-em-thick-an-apology-to-my-english-teachers-2026-08-18t15-50-52-000z",
       "title": "I like 'em thick: an apology to my English teachers",
       "link": "https://www.experimental-history.com/p/i-like-em-thick",
@@ -493,26 +548,26 @@
       "publishedAt": "2026-08-18T15:50:52.000Z"
     },
     {
-      "id": "google-cloud-blog-staying-ahead-of-adversarial-ai-through-agentic-source-code-review-2026",
-      "title": "Staying Ahead of Adversarial AI Through Agentic Source Code Review",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/",
-      "summary": "Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to ide...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-18T14:00:00.000Z"
+      "id": "the-register-tim-king-amigados-royalty-dies-aged-70-2026-08-18t14-15-00-000z",
+      "title": "Tim King, AmigaDOS royalty, dies aged 70",
+      "link": "https://www.theregister.com/software/2026/08/18/tim-king-amigados-royalty-dies-aged-70/5289101",
+      "summary": "Parallel computing pioneer went on to found early British ISP UK Online",
+      "image": "https://image.theregister.com/?imageId=254902&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-18T14:15:00.000Z"
     },
     {
-      "id": "google-cloud-blog-building-operational-resilience-with-agentic-ai-in-financial-services-20",
-      "title": "Building operational resilience with agentic AI in financial services",
-      "link": "https://cloud.google.com/blog/topics/financial-services/building-operational-resilience-with-agentic-ai-in-financial-services/",
-      "summary": "For financial institutions, operational resilience has long been embedded in regulatory and supervisory expectations — to say nothing of the high expectations of consumers. With the implementation of the European Union’...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/deutsche-bank-operational-resilience-agentic.max-600x600.png",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-18T14:00:00.000Z"
+      "id": "the-register-government-teams-users-face-another-month-of-filtered-captions-2026-08-18t12",
+      "title": "Government Teams users face another ******* month of filtered captions",
+      "link": "https://www.theregister.com/software/2026/08/18/government-teams-users-face-another-month-of-filtered-captions/5288985",
+      "summary": "Officials must wait a little longer before Live Captions tells it like it is",
+      "image": "https://image.theregister.com/?imageId=254894&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-18T12:05:00.000Z"
     },
     {
       "id": "openai-news-partnering-with-codeai-to-prepare-the-first-ai-generation-2026-08-18t11-00-00",
@@ -548,70 +603,15 @@
       "publishedAt": "2026-08-18T11:00:00.000Z"
     },
     {
-      "id": "spring-blog-this-week-in-spring-august-18th-2026-2026-08-18t00-00-00-000z",
-      "title": "This Week in Spring - August 18th, 2026",
-      "link": "https://spring.io/blog/2026/08/18/this-week-in-spring-august-18-2026",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-08-18T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-multi-vector-late-interaction-embedding-models-with-sentence-transformer",
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "link": "https://huggingface.co/blog/multi-vector-encoder",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-08-18T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-same-cluster-33-points-more-utilization-what-changed-was-the-order-2026",
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "link": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-08-17T19:46:21.000Z"
-    },
-    {
-      "id": "github-blog-how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient-2026",
-      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
-      "summary": "Chat is great for intent, but agent work gets lost in the scroll. Here is how I use canvases with my agentic workflows—and why your workflow also deserves a canvas. The post How canvases make agentic workflows visible,...",
-      "image": "https://github.blog/wp-content/uploads/2026/08/623371402-ddb0772d-e566-4895-b030-6be9b0fe304c.png?resize=1024%2C312",
-      "source": "GitHub Blog",
+      "id": "the-register-sponsor-gives-kde-plasma-6-6-the-lts-treatment-2026-08-18t10-34-00-000z",
+      "title": "Sponsor gives KDE Plasma 6.6 the LTS treatment",
+      "link": "https://www.theregister.com/software/2026/08/18/sponsor-gives-kde-plasma-66-the-lts-treatment/5288531",
+      "summary": "Kubuntu 26.04 gets three years of fixes for the desktop, frameworks, and apps",
+      "image": "https://image.theregister.com/?imageId=5288646&width=800",
+      "source": "The Register",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-17T16:00:00.000Z"
-    },
-    {
-      "id": "spring-blog-spring-office-hours-podcast-s5e20-the-developer-s-guide-to-ai-with-danny-thomp",
-      "title": "Spring Office Hours Podcast: S5E20 - The Developer's Guide to AI with Danny Thompson",
-      "link": "https://spring.io/blog/2026/08/17/spring-office-hours-podcast-S5E20",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-08-17T00:00:00.000Z"
-    },
-    {
-      "id": "inside-java-episode-66-json-api-valhalla-progress-lts-pqc-ijn-2026-08-15t00-00-00-000z",
-      "title": "Episode 66 “JSON API, Valhalla Progress, LTS ❤️ PQC” [IJN]",
-      "link": "https://inside.java/2026/08/15/podcast-066/",
-      "summary": "Work on values progresses, JSON API incubation proposed to target 28, PQC in LTS, and more",
-      "image": "",
-      "source": "Inside Java",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-08-15T00:00:00.000Z"
+      "publishedAt": "2026-08-18T10:34:00.000Z"
     }
   ]
 }
