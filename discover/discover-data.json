@@ -1,11 +1,12 @@
 {
-  "updatedAt": "2026-08-24T19:57:01.248Z",
+  "updatedAt": "2026-08-24T20:36:58.905Z",
   "sources": [
     {
       "name": "Google News Top",
       "category": "general",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "BBC News",
@@ -35,14 +36,16 @@
     {
       "name": "Google Business",
       "category": "business",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "Google Entertainment",
       "category": "entertainment",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "ESPN",
@@ -53,20 +56,23 @@
     {
       "name": "Google Sports",
       "category": "sports",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "Google Technology",
       "category": "tech",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "Google Science",
       "category": "tech",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "The Verge",
@@ -142,7 +148,7 @@
       "label": "S&P 500",
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7655.17,
+      "price": 7652.86,
       "change": 0,
       "changePercent": 0
     },
@@ -150,7 +156,7 @@
       "label": "NASDAQ",
       "symbol": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 25995.02,
+      "price": 25980.19,
       "change": 0,
       "changePercent": 0
     },
@@ -158,7 +164,7 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 78731.7,
+      "price": 78768.48,
       "change": 0,
       "changePercent": 0
     },
@@ -166,7 +172,7 @@
       "label": "VIX",
       "symbol": "^VIX",
       "name": "CBOE Volatility Index",
-      "price": 15.83,
+      "price": 15.85,
       "change": 0,
       "changePercent": 0
     }
@@ -175,421 +181,99 @@
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 208.5,
+      "price": 208.48,
       "change": 0,
       "changePercent": 0
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 488.03,
+      "price": 487.31,
       "change": 0,
       "changePercent": 0
     },
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "price": 310.58,
+      "price": 310.34,
       "change": 0,
       "changePercent": 0
     },
     {
       "symbol": "GOOGL",
       "name": "Alphabet Inc.",
-      "price": 348.44,
+      "price": 348.06,
       "change": 0,
       "changePercent": 0
     },
     {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 262.14,
+      "price": 262.07,
       "change": 0,
       "changePercent": 0
     }
   ],
   "items": [
     {
-      "id": "organised-crime-arrests-as-police-investigate-a66-crash-that-killed-two-officers-general-2026-08-24t",
-      "title": "Organised crime arrests as police investigate A66 crash that killed two officers",
-      "link": "https://www.bbc.co.uk/news/articles/c36d6975dzno?at_medium=RSS&at_campaign=rss",
-      "summary": "Nine men and three women are arrested as police investigate the lead-up to the crash that killed seven people.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/68ab/live/93348dd0-9f24-11f1-b109-879e35c24276.png",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-24T17:53:40.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/c36d6975dzno?at_medium=RSS&at_campaign=rss",
-          "summary": "Nine men and three women are arrested as police investigate the lead-up to the crash that killed seven people.",
-          "publishedAt": "2026-08-24T17:53:40.000Z"
-        },
-        {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQWVZxMi1CVGdpMUw1cU5BcEJaWEhlWklMdlJlRnVnQUNtSnNzLVk4d2lyandYdy1Zbm9lb3J2czNPanduaF9qcmNzNE53bGJ1a0Q3VVc5bkp0TmlCTXFGWUJTd3U4OFlxNHdHYVhWZGRDMHlSc0NMT0NGYU4yOXBTNVVZTm5PWHVLM1lGOFVYbDg0TEpjQWwzUTRrcldRQklaaTY3ZnhIb1AtdXZoREpMVVV0Y1JMNXpIRjdWRDBPd21teHBtdmVTdGlSQ21mNmNaMFgxeFN2VjcwRGlMRFlsWjZMR1kzcWhZcE14NUtyT3JlcWNDX0E?oc=5",
-          "summary": "12 people arrested in connection with UK A66 crash that killed 7, including 2 police officers &nbsp;&nbsp; The Times of India",
-          "publishedAt": "2026-08-24T16:26:00.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9QZU5vaDM0Sm9TNllYQmgwSGhvdEMzT0FtTFFEdDA3M203OVZhSHRhUzNnaVc0azQ0Q2J1WUpTbzBIa2VXNG5lQldxYjRiNUlwMXQ3NmlaWTBwV3NR?oc=5",
-          "summary": "Organised crime arrests as police investigate A66 crash that killed seven &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-08-24T17:53:40.000Z"
-        },
-        {
-          "name": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY3VIZ2ZrRHZIZzdjNEtyeGUzanpoN1FmbHRwcmFuVVpGTlBfYS11clQ4ejVNNGV4Wm4wVDBWWmZwS1pfX0JRTkQ2UmNpajBTSkx6aWlheEFacVplQ1FCNEI2SWQyZEtrTXl0bzFoSjV5aUxZVXFNQmhwRGNXRHg5VC0xN2tfR1RmekZYOGc2dlVRSDRHc01pS1JJY0ExeDFHQUdzcDljeGR6d2Y5aTlDc3cwcHVHaC1EZlV5VElta0RqQV9j?oc=5",
-          "summary": "Twelve people arrested after A66 crash that killed seven including two police officers &nbsp;&nbsp; The Guardian",
-          "publishedAt": "2026-08-24T13:14:00.000Z"
-        },
-        {
-          "name": "Global Banking & Finance Review",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcDZZeXE1eTIzUTRHampON2pDYzdSR0VyYTJscDdRT096YUJ6dGYtelRMY1VEMlcydWM2Q3c5SXRZbGNPcW1ESGxDT3N3cFExZ1RZY0hBWE1tdlJHdFVqQjhIbVBHVnkwaFNPVUFETk11RDZ0cjl4a0YwaWhUX1FhOVJreENqTVotWjA1eXI4cUdfVERMSUlJY2JDckRyQQ?oc=5",
-          "summary": "UK Police Arrest 12 After Fatal Crash Linked to Organised Crime &nbsp;&nbsp; Global Banking & Finance Review",
-          "publishedAt": "2026-08-24T14:00:36.000Z"
-        },
-        {
-          "name": "RTE.ie",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5OWNiVTNHY1VnT1ZNLWtUcTRSUmdQU3dqSnM1SUlQLXc1LXlZY3ZVX2hqcjQ1dFpaUkg1SGF1YUFGRmYxd25LNU5JOWdjZThMeGdYZzI1MFRnNkJDcnpfQjFoalVsVUJVOXZjR2dnZTJVdEQwZ3dB?oc=5",
-          "summary": "UK police arrest 12 after linking crash to organised crime &nbsp;&nbsp; RTE.ie",
-          "publishedAt": "2026-08-24T14:43:06.000Z"
-        },
-        {
-          "name": "ITVX",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVXNpZ1M3Ny16Mlh5S2g1ZlNoM0lKdXRMNThNc2l0UUlwMjNBZUx4VkZvaWlBeUNNVnExa0VpQ00wZ3ZMNFhkeTJXeFhoMkVKOU5jQUVzbUhvTWM4ZmV6X09ucWFqNW42WWdiQm1qNWV6ekdxNU5nTlVTdVVSMWszNEpjN0kwU3VlNHVNYTVsTmo5T09KVmpFYlhvVzNCcm8?oc=5",
-          "summary": "Twelve arrested over crash that killed officers as ‘organised crime link’ probed | ITV News &nbsp;&nbsp; ITVX",
-          "publishedAt": "2026-08-24T18:24:02.000Z"
-        },
-        {
-          "name": "London Evening Standard",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2xzRTREN0tfemVjOEw1dU9zc2lmMVVkVjR0Sm1TamNGdTF1VXlCOS1GNHkzTEpkTTZuOFN1bzBRVFdqSHh6ZzZMQ3NJLTVmZ0YtR0F6TFoxQi1VY0dMYnZaaG9YS0FZNkdPM0Zvckc4TnNkb0E5TnA5QUtpeHBudkoxS1dvSmVPTlFPMmMzendUUTc3TF9XNTQxM2VRSkVkWHIxR01jdHg?oc=5",
-          "summary": "Twelve people arrested in connection with crash that killed two police officers &nbsp;&nbsp; London Evening Standard",
-          "publishedAt": "2026-08-24T19:24:03.000Z"
-        }
-      ],
-      "sourceCount": 8
-    },
-    {
-      "id": "nearly-90-000-told-to-evacuate-as-wildfire-approaches-reno-nevada-general-2026-08-24t17-42-33-000z",
-      "title": "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada",
-      "link": "https://www.bbc.co.uk/news/articles/c4gqlp0yzyjo?at_medium=RSS&at_campaign=rss",
-      "summary": "The fire has burned around 15,000 acres and is completely uncontained, officials say.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5eb/live/ef93f5d0-9fbe-11f1-8648-8d7b77845e6d.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-24T17:42:33.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/c4gqlp0yzyjo?at_medium=RSS&at_campaign=rss",
-          "summary": "The fire has burned around 15,000 acres and is completely uncontained, officials say.",
-          "publishedAt": "2026-08-24T17:42:33.000Z"
-        },
-        {
-          "name": "Saudi Gazette",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zLXRqVENHY2taUGpXcmlwQ2RLRmhYbEpmS2VFYjFaQUZSTHJhdHE1eVR0VjAzWUZBR010d2txRTJzcmRBRFUyeU9HRURXNDJwMkVDZQ?oc=5",
-          "summary": "Nearly 90,000 told to evacuate as wildfire approaches Nevada city &nbsp;&nbsp; Saudi Gazette",
-          "publishedAt": "2026-08-24T09:51:00.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54aVc3Qy1XOWlWbXpWNk9xb25oamJBbFRrNXpRLUhCWmlxM3ZhNzRvcTZlR3lFUWhIWUt0d3J0UWRuTkh5Rnd2RUJ5NnRjeTJXYXJSZ1ctUF9UWTA3?oc=5",
-          "summary": "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-08-24T08:34:26.000Z"
-        },
-        {
-          "name": "the-star.co.ke",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdWVKekhzVjBPVkdfbTV1R3BLdXBqZlZnQWk2THp1UWRwcm9vcVNyUW9xbjZ6eVd6RVVzTEhaN0xVSUxQek0xX19xMmZmZGNHbi1qZE4xYmcybVdfYjNnN3FVQTJ1V1ZidjZJS0NlMk5ZbzdVaEhjbHpqN1Nob0s5N3BUV3o4WFZqLWgtUW91d1hWSEMzVHlValdTOGQ4Q0daeFNURjUxQUhVOEdlRkdvY1NqWQ?oc=5",
-          "summary": "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada &nbsp;&nbsp; the-star.co.ke",
-          "publishedAt": "2026-08-24T09:14:00.000Z"
-        },
-        {
-          "name": "Modern Ghana",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHVEt2NTZkVVZBWnZXOEZiWm9QRm9iel93UThrbGV3cDVwdTlFTlNUemZOUjRrb3ZOZzQzRGxsaDNwQWRmV1lsRXJiR01IaGRVZHlHWGQybTFQdmZrRF930gFcQVVfeXFMTXRGejVCeWhkcVJ1RF9wTVJtQkx3SDRVMno4SGw1WVJya1pma2NaUnJuYWlvVXdnejIyWHMwelN2d2xvTHQwSVZNNndkOEJtTWFrU2NsUTVBSEhXWmw?oc=5",
-          "summary": "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada | BBC News &nbsp;&nbsp; Modern Ghana",
-          "publishedAt": "2026-08-24T12:35:16.000Z"
-        },
-        {
-          "name": "PBS",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVzhMQWd0ZVRfUnMwVW5aa0wyTEdOcktMS1VfRzhvcm4xdVRzRVpBYWtXMnlRQlBXb2E3eDNlSzVUdEprcjlnSGl5ODEwWm8yaC1odlYzdzJ4SUN0cEdOc1pPaUFWSXUxbmktWTV1SzVaZC1OMVczNW1XaVNWVHhKcmVFTldCbm9faXJ6S1Zuc1YyNHJteExzZTl1N2VvMU9iWi1KemVZeU1iTWhzS1NIWm02VQ?oc=5",
-          "summary": "Human-caused wildfire approaches Reno, Nevada, forcing thousands of evacuations &nbsp;&nbsp; PBS",
-          "publishedAt": "2026-08-23T21:16:34.000Z"
-        },
-        {
-          "name": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQUF4MXFjc082Z3dWa2hKT2Q4UkFUYS1vS1kxNzNwU3RxRkhqdDllV1Y2cWZRN3JMUmZua0FSajcyN00xN1hjenB0MHJ2Q3VHVHItZWZ0R2lrcmtvOU5abW1YQVFna0M1Ni1FUlRjUk9vRzkzQS1qcFNUcWNnQUZNQUFlVTA?oc=5",
-          "summary": "Fast-moving wildfire in Reno, Nevada, forces tens of thousands to evacuate homes &nbsp;&nbsp; The Guardian",
-          "publishedAt": "2026-08-23T18:22:00.000Z"
-        }
-      ],
-      "sourceCount": 7
-    },
-    {
-      "id": "snooker-champion-graeme-dott-guilty-of-child-sex-abuse-general-2026-08-24t17-35-35-000z",
-      "title": "Snooker champion Graeme Dott guilty of child sex abuse",
-      "link": "https://www.bbc.co.uk/news/articles/c0lr80rk0dno?at_medium=RSS&at_campaign=rss",
-      "summary": "The former world champion was found guilty of lewd and libidinous behaviour towards a girl and boy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b534/live/65133f90-9fc5-11f1-b3e7-331c6d9a8046.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-24T17:35:35.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/c0lr80rk0dno?at_medium=RSS&at_campaign=rss",
-          "summary": "The former world champion was found guilty of lewd and libidinous behaviour towards a girl and boy.",
-          "publishedAt": "2026-08-24T17:35:35.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfVThRQ3dfSnlxNGltNENET3ZUNXZ4VnYyVFdNM3hhSHBLTi1PclpQZl95VV9LN2o3VmtlZFo4ZjJvWHpiMWZGemtrSlZIWUpDRHVwbGVVbUFKdw?oc=5",
-          "summary": "Snooker champion Graeme Dott guilty of child sex abuse &nbsp;&nbsp; BBC Former world snooker champion Graeme Dott found guilty of sexually abusing children &nbsp;&nbsp; The Guardian Former snooker world champion Graeme Dott convicted of ch...",
-          "publishedAt": "2026-08-24T17:35:35.000Z"
-        },
-        {
-          "name": "Sky Sports",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcEFpRWdjVU5yUEh0Ykx0d3dYczlSMmgyQWhqT2UxTy0zV1hTc1QwWFVscUpvbklTUHc0R3dnMGVjdHFWRkRsMWV5SERBS3R4ZTZqV3czWTlmdXB4eTZhb2dZamxEaGhaOHpMYUNBWGFlNVRuaWtYUG1aaXVGUlZmYzZrSF9USlYxTUNxVVVFSUhUNWk3Q0J3c1F5SWFaSWJQaE5qSTlfbFE5ZXZXblBlTTBjNDN4VEV3ZjdYdlpDTHkyWU0xa2gyX1RzY2tZTnZDeDExQWstN3dSM3M?oc=5",
-          "summary": "Graeme Dott: Former world snooker champion in court accused of child sex abuse &nbsp;&nbsp; Sky Sports",
-          "publishedAt": "2026-08-18T18:31:52.000Z"
-        },
-        {
-          "name": "India Today",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZElyZDcyM05LUnJxeGRHLUNLRnF1ZEgtQmF2eXE5V29lNnVLVG9NbF81eEk1Wjg1dTF6R2g2VWo2REZBUlVMS2p2UVQtX192U3FvNXhSYTNMNkJzQ2VSYmpUdDM1RWtxNkQxd0pvbXlUdG5NTkZLSUgtd25fTnFmS29QTHlOUmMzYTNNaF85Wnh1bmRPNFRseHJTNngxWmVlcmt1U05Ea21QbUZfN2Nub1dBakl1eFFZQjkxaXFoei1UWDZTM3fSAcYBQVVfeXFMTmRJcmQ3MjNOS1JycXhkRy1DS0ZxdWRILUJhdnlxOVdvZTZ1S1RvTWxfNXhJNVo4NXUxekdoNlVqNkRGQVJVTEtqdlFULV9fdlNxbzV4UmEzTDZCc0NlUmJqVHQzNUVrcTZEMXdKb215VHRuTU5GS0lILXduX05xZktvUEx5TlJjM2EzTWhfOVp4dW5kTzRUbHhyUzZ4MVplZXJrdVNORGttUG1GXzdjbm9XQWpJdXhRWUI5MWlxaHotVFg2UzN3?oc=5",
-          "summary": "Former snooker World Champion Graeme Dott convicted of child sex abuse &nbsp;&nbsp; India Today",
-          "publishedAt": "2026-08-24T17:26:08.000Z"
-        },
-        {
-          "name": "Breaking News, Latest News and Videos",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRkc5RVBrMS03WFVJQUdVRnFuTDdRWXF5cUdNVXpWWE1Pb2JEV3ZkemRfWVloYlJNZEJzRHYtaExTdHdYNFRYRVgtTTNjVFBrOXZXTWhEMlRCT1B3QVhfeUI3VWNZS1lnMk1XWXdlZHg5U0V1emd0b0JBUUVNajJUcG9zMDBLU3VqbzdSQk1fX2JoejBxRnQ4b3pjY1NvQzY3cnRGZGVoNUpFeWtmeUJJWTBENmvSAboBQVVfeXFMUGlFNjhZYXhoUVVCOFkyUDQ1WjAzNzROSi04WGZtWDZqb1JRMG9hMXlwWDg0M2lfLUFCOTF2ZjFJaDdIYVprTXI0d3R3bTBhTENZc0FzeTdKanVvLVd4Nk9NYzVEdzE2elNLMW5VZTJWRlZPSkdtRmVIRVRUMXZ3LVZkZW54Z3I2VU4wZURNMkdmRWVxMmxwQkJrVmc2WkxhQ0l0SW9KUVZqMUh5VnU0cldTTmZrRm9sN2N3?oc=5",
-          "summary": "Former world snooker champion Graeme Dott convicted of sexually abusing 2 small children &nbsp;&nbsp; ABC News - Breaking News, Latest News and Videos",
-          "publishedAt": "2026-08-24T16:12:41.000Z"
-        },
-        {
-          "name": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS1p4ZWFSZkRYck00SnNocmRNNTFJNHlnVDVkaVdZTl9Ua3BkYV8zZmN1OTU3MEZ4cnphMGNta1l1V0NoWHI0QXV1TFlBTDlXR2d5RzBhR25TcjdVQ3N1aEpaRmI2bGZpTjBGUHBqSEVNUWZGUlRKZjVSUkt2dlc3YUFaZXppMlNKYzFJLWRjd2xQcDdtOXc?oc=5",
-          "summary": "Former snooker world champion Graeme Dott found guilty of child sex offences &nbsp;&nbsp; The New York Times",
-          "publishedAt": "2026-08-24T16:28:14.000Z"
-        },
-        {
-          "name": "Sky News",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNSN19QRWNYRTZQTHRyajNlQmxRaU9pb0l5SHY4bUJ6OFgxM214bzhJNUZNcjFVNXVERnU5bjhyb0dObzNSbEJpRGtfZEhrYkRTekx3NVIwb1ZudHctTzNCM1RCeEJvX2RuYm13ZEVfMnZibVZmQ1E1clppR2hNcWQ2Qm50NlUxbkt5cjQ0OXV6Wk1kMGxUX2h6ZFRPSG80?oc=5",
-          "summary": "Ex-world snooker champion Graeme Dott guilty of child sex abuse &nbsp;&nbsp; Sky News",
-          "publishedAt": "2026-08-24T16:18:25.000Z"
-        }
-      ],
-      "sourceCount": 7
-    },
-    {
-      "id": "zillow-and-redfin-settle-ftc-antitrust-case-over-their-rental-listings-partnership-tech-2026-08-24t1",
-      "title": "Zillow and Redfin settle FTC antitrust case over their rental listings partnership",
-      "link": "https://www.theverge.com/policy/983864/zillow-redfin-ftc-settlement",
-      "summary": "The FTC and Zillow have announced a settlement that ends the case alleging that a 2025 \"partnership\" between Zillow and Redfin violated antitrust laws. The FTC had alleged Zillow agreed to pay Redfin to syndicate its listings, while Redfin...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STKS500_FTC_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T17:01:05.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/policy/983864/zillow-redfin-ftc-settlement",
-          "summary": "The FTC and Zillow have announced a settlement that ends the case alleging that a 2025 \"partnership\" between Zillow and Redfin violated antitrust laws. The FTC had alleged Zillow agreed to pay Redfin to syndicate its listings, while Redfin...",
-          "publishedAt": "2026-08-24T17:01:05.000Z"
-        },
-        {
-          "name": "PYMNTS.com",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeTNjVmd6NDdwUUREYkUtVlFhSnItYl96cUphZzBOOTBtdi1Mb3R4ZHhncW85NXZpNFNNTDM4cWdZNVhSanM2TXcwVkxHd3lxYTdVVzY0cWNqSTNCQ0VyTzFxUUw1d2ZWY1hFSkNoQUt0UGtMMXYyM3h2U0pBRHY4VGJxdDEzRF9vM0IzM29rVnZTLVZoQkItQ0tMc25DZzVf?oc=5",
-          "summary": "Zillow, Redfin Settle FTC Antitrust Case Over Rental Listings Deal &nbsp;&nbsp; PYMNTS.com",
-          "publishedAt": "2026-08-24T15:15:30.000Z"
-        },
-        {
-          "name": "Bloomberg Law News",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWnRqbHNtSzE5TThZelVHWjNHSExhN2JJOUY4ZlFDWE95bVlZQklSeF9XblBxeDF4cGkxeWs3VWxncGQ4MGJaa01WYTVtNkw0TTFZUlNCOFRCa29OQUpaRUhuTlduQTJiRG01RTZScXBJaG1vSDdOLXNGeFlLV2xXVG0wOG95STFvd0IwTUxTU3hUUEVp?oc=5",
-          "summary": "Zillow, Redfin Settle FTC Case Over Rental Listings &nbsp;&nbsp; Bloomberg Law News",
-          "publishedAt": "2026-08-24T13:42:00.000Z"
-        },
-        {
-          "name": "MLex",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT3VBd0pDUFpmNnluUkI0Uk8yYlBQc2x5TWlrblo3S2locmM2ZG9jVU9WRWlkRjU3bDhKeThJdVMxbzlNa0lnTEtnaWZWM21wQndVemhyZGxlSURrZ3lRbkVfZHR6MWtENEhCcm5ZSnFCNEpQRDhCd3ZTMkVON2E1dl9NeVZwR2Rwb2l2WmRpRkxQd1pWU0szY3l1a2dQNHEtSll0S0NiR0Y5b0hkN1kzX3BDQ3A4SnZERThoS3lwSUszZmQ3NkRBNTBTd1BCUdIBWkFVX3lxTE5BV3NUNHEzNlBMQ2c3OVcycTQtSm05MFpsVGliZHZ1OGREVXhaYThUQ2VBNVloZDNaZUxJcEM5NXNXOTVRbVZ5QnVyNjB3NTB6Zzczc2ZEajF1UQ?oc=5",
-          "summary": "Zillow, Redfin settle US FTC, states’ rental listings antitrust suit ahead of trial &nbsp;&nbsp; MLex",
-          "publishedAt": "2026-08-24T14:29:00.000Z"
-        },
-        {
-          "name": "UA.NEWS",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdkltY2doT0wwRFA3ZG5WalAyUUtKT3JIMDllRUZabzNCYnpXRTk5SG1ZN3dXcHhRUVVVNlN6bmFDM1U4bFhZb3VsdFNzTlNlVDh4STkxZzlqWGhKck04V2twR0Q5R0VXVklQbmZhQkZINC1ITnA4ZlVDTVRvNWZic2dBeHluWEJvbl9yOHJWTlBTSGZTWm94SzNwNXJrWGNDdFc0c2EtNA?oc=5",
-          "summary": "Zillow and Redfin reach deal to settle FTC antitrust case &nbsp;&nbsp; UA.NEWS",
-          "publishedAt": "2026-08-24T17:22:15.000Z"
-        },
-        {
-          "name": "Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUk1LdTM1TTZBZE9SZXRpbVR0UmZ2MFZxOWdSWGVmUlZHX3FUT2VIeFI2dEFDOTFrVWpJT1ZoQURpYkVtdDhTM1M1TWNpaGgtazFqNWRDenE0cUtZX1YwZk8xLUFLMjVlWTNWYkJNakk0STBQNllWcnNpLWVFQ1hwX1M2RzlTaUZESGM2Q0hKaXJNLXBIWkFfMkUtZFRPU2w1Nko4U2Fn?oc=5",
-          "summary": "FTC Says It Reaches Settlement in Zillow-Redfin Case &nbsp;&nbsp; Bloomberg.com",
-          "publishedAt": "2026-08-24T13:42:58.000Z"
-        }
-      ],
-      "sourceCount": 6
-    },
-    {
-      "id": "devendra-mahto-launches-examination-reform-yatra-in-jharkhand-india-2026-08-24t19-48-27-000z",
-      "title": "Devendra Mahto launches examination reform Yatra in Jharkhand",
-      "link": "https://www.thehindu.com/news/national/jharkhand/devendra-mahto-launches-examination-reform-yatra-in-jharkhand/article71385152.ece",
-      "summary": "The motive behind the Yatra is to garner public support for transparency, accountability, and fairness in the recruitment examination",
-      "image": "https://th-i.thgim.com/public/incoming/v9e5dv/article71386171.ece/alternates/LANDSCAPE_1200/Devendra%20Nath%20Mahto%20%2012.JPG",
+      "id": "cjp-calls-for-september-5-march-from-india-gate-accuses-centre-of-reneging-on-promises-india-2026-08",
+      "title": "CJP calls for September 5 march from India Gate, accuses Centre of reneging on promises",
+      "link": "https://www.thehindu.com/news/national/cjp-announces-september-5-march-in-delhi-over-centre-alleged-failure-to-honour-promises-made-during-the-july-agitation/article71384380.ece",
+      "summary": "The police say they have not received any request letter so far; The march is scheduled to start at India Gate and head toward the Delhi Police Headquarters",
+      "image": "https://th-i.thgim.com/public/incoming/n9j9sm/article71384447.ece/alternates/LANDSCAPE_1200/20260724270L.jpg",
       "source": "The Hindu National",
       "category": "india",
       "categoryLabel": "India",
-      "publishedAt": "2026-08-24T19:48:27.000Z",
+      "publishedAt": "2026-08-24T20:20:28.000Z",
       "sources": [
         {
           "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/jharkhand/devendra-mahto-launches-examination-reform-yatra-in-jharkhand/article71385152.ece",
-          "summary": "The motive behind the Yatra is to garner public support for transparency, accountability, and fairness in the recruitment examination",
-          "publishedAt": "2026-08-24T19:48:27.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNEtTOFF1V0JFcDNFU1h0enliXzJtUHR4QzVONFdpRUd5ZGlqZExPY3Rla3NzQVk0SGozdjFocU00LUdpazgzQjR5ZFFYRUItb2hwaHltNnlhQ3Nqa2NuMlR3aURJN2VTOUp1emNjUzROeU4yQWEwOE85TERxdkZNYmpxeXgyckN2Q01RZWVBdzhSTzB4NTRURHl5ay12ZDc2VzYyWFExd2piaWlsdGowaU1ueGRGOWEtRjFCVkFzTzB3S0h2WEdUZ3F30gHQAUFVX3lxTE53M0c1RUZCNjY2bThMMTJ0TmxhdlV2dFRQYkhUT1MxeTVmTXFtN3g2UWVwcU9HbzVxNTByaC00eWpWNThocjhwUHZtVTVwc25abVVyekVUM0dSekV3QjVZVERfcnZmSDNRMGg2VGhwMm1lN2VLZFgxb0ljbndFQkc4R3Mwdkw5bmJNNnVBZGFFWmVqY2QyOXhjTWNlRG9feXhhWmVxeWxBRUdoS2FkVlI2NENlZ3VRVTFUdUZqMFpWeTRFNUpvV2hQWVJ4ZTRUZkg?oc=5",
-          "summary": "Devendra Mahto launches examination reform Yatra in Jharkhand &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-24T19:48:27.000Z"
-        },
-        {
-          "name": "Devdiscourse",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONFd1RzVNN1hyQzRyem9uTzRHandRRkFVVDVDYWwtNlgwV0lZUnFjRUZZSDR5SFBQdUw2Z1k4bjJFYzBnTDJqekJ2ZzBlazlqZFFlcUlROWdnSTNXYXpYZFJNWGpjanlIc19FcnExMGxiNmpON29wckF1cS1UUUQxVGpkSmVCeVF6Y0RmNGM4TVBqMDBqRW4wMzhYRlpzVkVQS1ExLUc5OERtT2JKZTMteGZQYXBMWml3TG8tTWtaaDVIZWNIaGRmSWVXWEZ1eWU0TGpNaFllTUlUUS1jb1owUGRpMNIB4wFBVV95cUxONFd1RzVNN1hyQzRyem9uTzRHandRRkFVVDVDYWwtNlgwV0lZUnFjRUZZSDR5SFBQdUw2Z1k4bjJFYzBnTDJqekJ2ZzBlazlqZFFlcUlROWdnSTNXYXpYZFJNWGpjanlIc19FcnExMGxiNmpON29wckF1cS1UUUQxVGpkSmVCeVF6Y0RmNGM4TVBqMDBqRW4wMzhYRlpzVkVQS1ExLUc5OERtT2JKZTMteGZQYXBMWml3TG8tTWtaaDVIZWNIaGRmSWVXWEZ1eWU0TGpNaFllTUlUUS1jb1owUGRpMA?oc=5",
-          "summary": "Jharkhand: Nemra locals vow to block Devendra Nath Mahto's JPSC-JSSC recruitment reform yatra &nbsp;&nbsp; Devdiscourse",
-          "publishedAt": "2026-08-24T12:07:19.000Z"
-        },
-        {
-          "name": "prameyanews.com",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeHpqVFVsWnJkem8xZEF3dmFqOHMxdTcwWVNLRDhXRklGWVQtRWN5a1J3ZjgycGRDbGM0M0RxdVdhZ1ZJaGczVzMycEozLXUyLXdWZVdaMXFjMG1tTzh0NjJ5eHpaQWxKZ1puellINFVwT3Bpa1AtbDVObUs1Rzk3Y2tDc2xucVdXeDJieG91eVBEbVczeUY0NUluMzlTUUdlVEx0OTVYbXp3dko5OVdwVUUxZ09ZV1lE?oc=5",
-          "summary": "JPSC-JSSC recruitment row: Student leader Devendra Mahto to launch reform yatra from Nemra &nbsp;&nbsp; prameyanews.com",
-          "publishedAt": "2026-08-23T16:20:30.000Z"
+          "link": "https://www.thehindu.com/news/national/cjp-announces-september-5-march-in-delhi-over-centre-alleged-failure-to-honour-promises-made-during-the-july-agitation/article71384380.ece",
+          "summary": "The police say they have not received any request letter so far; The march is scheduled to start at India Gate and head toward the Delhi Police Headquarters",
+          "publishedAt": "2026-08-24T20:20:28.000Z"
         }
       ],
-      "sourceCount": 4
+      "sourceCount": 1
     },
     {
-      "id": "iran-faces-greatest-financial-offensive-ever-says-us-treasury-secretary-world-2026-08-24t19-12-35-00",
-      "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
-      "link": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-      "summary": "Scott Bessent says the US will sever all economic ties with the country and that any nation partnering with Iran financially will also be isolated.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de12/live/09a94a20-9fe6-11f1-8ed1-41aaf1fca4f2.jpg",
-      "source": "BBC World",
-      "category": "world",
-      "categoryLabel": "World",
-      "publishedAt": "2026-08-24T19:12:35.000Z",
+      "id": "uproar-after-allahabad-high-court-refer-divisional-commissioner-s-conduct-for-criminal-contempt-indi",
+      "title": "Uproar after Allahabad High Court refer Divisional Commissioner's conduct for criminal contempt",
+      "link": "https://www.thehindu.com/news/national/uttar-pradesh/uproar-after-allahabad-high-court-refer-divisional-commissioners-conduct-for-criminal-contempt/article71384939.ece",
+      "summary": "in a letter to the District Judge, said she received repeated calls while on leave on July 15, 2026 from a number linked to the Commissioner’s office.",
+      "image": "https://th-i.thgim.com/public/incoming/z11gt6/article71386176.ece/alternates/LANDSCAPE_1200/Prayer-meeting-GEIFPP834.3.jpg.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-08-24T20:13:09.000Z",
       "sources": [
         {
-          "name": "BBC World",
-          "link": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-          "summary": "Scott Bessent says the US will sever all economic ties with the country and that any nation partnering with Iran financially will also be isolated.",
-          "publishedAt": "2026-08-24T19:12:35.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12TGt1ZGswTTBIUElrYUtUWWZoWDUybXVTQXh2M3o4Qm5WQnIwTm9pNnhKLTFmSUswc2NGNFVPWjA2TGswMHV5cXFXYXB2bEFWbFFTelZ5cEdudw?oc=5",
-          "summary": "Iran faces 'greatest financial offensive ever', says US Treasury Secretary Scott Bessent &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-08-24T13:35:07.000Z"
-        },
-        {
-          "name": "Public Radio of Armenia",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbnRodDBJcHJnSTdWNDNFdWJYRlFfRnhpRS1scGtwZWttT1ZmMnZ4UldMZ1g5QmlsRnF1dGpvSFdSa2hoT1hjMFY4NmQxUFJXNTdhLUcwU3ZGdG5sU1FHUHFXRjVYZFRLWHFpak5ZOGs2aG1pckN2THduT20yZ0FIQ012QkVwOFRvSFlDLXFWM0tIM0ZpSHN1RllReTdLdXJwS0xDakUzTE5KQQ?oc=5",
-          "summary": "Iran faces ‘greatest financial offensive ever’, says US treasury secretary &nbsp;&nbsp; Public Radio of Armenia",
-          "publishedAt": "2026-08-24T14:06:31.000Z"
-        },
-        {
-          "name": "New York Post",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNekFseGdCLWVvelBDeGZLTFdpT1RKaHdJb1ZURk0xN0hIMjRLUUU3VW5vdERQbDVyMHg1N3pqalNoNU15N0FmVGFiX2oydUJ3NmxlRWo5Q19OcmN6WHIyenpUMjF5WlRkcmFxMG9peHB3RDlwMk9jTEViLVpVYVVJTGVqOHdrbk10LXlsVUx3NDQ1T2FIdUFOZmFYWGF2NzZscDVMVEFHVWkzcUFoRFN3LWdFQnQ4SWc?oc=5",
-          "summary": "‘Economic D-Day’ sanctions against Iran will be ‘single greatest financial offensive ever’ Bessent says &nbsp;&nbsp; New York Post",
-          "publishedAt": "2026-08-24T10:30:00.000Z"
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/uttar-pradesh/uproar-after-allahabad-high-court-refer-divisional-commissioners-conduct-for-criminal-contempt/article71384939.ece",
+          "summary": "in a letter to the District Judge, said she received repeated calls while on leave on July 15, 2026 from a number linked to the Commissioner’s office.",
+          "publishedAt": "2026-08-24T20:13:09.000Z"
         }
       ],
-      "sourceCount": 4
+      "sourceCount": 1
     },
     {
-      "id": "chinese-hackers-use-deepseek-ai-to-boost-attacks-tech-2026-08-24t18-26-48-000z",
-      "title": "Chinese hackers use DeepSeek AI to boost attacks",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSGg3WTE3TGdhd01MME1ROXYtY2lxbGJuSjJtT3Z2Zi1oZlcwMXg3NFZHSkU5MGE3bHlYSjJZSHJ1Q2Vla0pRcWw4d3dLaEhTV1VlV2g5Ukc2Wk56WHJCN2lBS3Vtd2h6WXF0dm5wckFEUjZveWpwZnYxVW9kM1FvYzBMNnNlX0NaWFVmbU4zTVd0enFwdnFleWJpX0JwUnU1NmdWdWNveFQ?oc=5",
-      "summary": "Chinese hackers use DeepSeek AI to boost attacks &nbsp;&nbsp; Investing.com UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit &nbsp;&nbsp; The Hacker News Chinese Hackers Use DeepSeek to Boost Att...",
-      "image": "",
-      "source": "Investing.com",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T18:26:48.000Z",
-      "sources": [
-        {
-          "name": "Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSGg3WTE3TGdhd01MME1ROXYtY2lxbGJuSjJtT3Z2Zi1oZlcwMXg3NFZHSkU5MGE3bHlYSjJZSHJ1Q2Vla0pRcWw4d3dLaEhTV1VlV2g5Ukc2Wk56WHJCN2lBS3Vtd2h6WXF0dm5wckFEUjZveWpwZnYxVW9kM1FvYzBMNnNlX0NaWFVmbU4zTVd0enFwdnFleWJpX0JwUnU1NmdWdWNveFQ?oc=5",
-          "summary": "Chinese hackers use DeepSeek AI to boost attacks &nbsp;&nbsp; Investing.com UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit &nbsp;&nbsp; The Hacker News Chinese Hackers Use DeepSeek to Boost Att...",
-          "publishedAt": "2026-08-24T18:26:48.000Z"
-        },
-        {
-          "name": "Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUzhVcmx3UnRJMGN0SmJRclJnZTlrWnh2c0t4Nm5kQ1g4YWNvQVJScXVTZjNldm03VmdLdHp2Y1p6d3pJZUZoM01tQlBENlFMRGJQcm9hMEI5LVJtQ29yOGdaUnFxekg5X3BCXzdPNWJxQlpPclNiT3VYaDVqY2dCWDVTbGRHWlpoSTk3c2FPWHZPWmxtNXIzNUNLOC1VWGhtQTlxeEk1YWRxWHZ4dGhkMkJn?oc=5",
-          "summary": "Chinese Hackers Use DeepSeek to Boost Attacks, Researchers Say &nbsp;&nbsp; Bloomberg.com",
-          "publishedAt": "2026-08-24T17:13:49.000Z"
-        },
-        {
-          "name": "Investing.com South Africa",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbk5sRUtNMUE0bW5fSTdCQ2ZiLURYdHZMMEVGVlN0THBZbzRoXzZUQVJfbWdxMC1WeXNYdTFzX0IzNlNyOXZyOEhzNWdBczRzQkdmNHNtVWFSaVlsM25nTUxBYThZQzA3SVl3US1xUlp4TFl3cVVFcmZMclRYaDdWWHJ0bnlDbkwyM2NfQllKaTl1Yzl3b2FqRTVUa0JIdnllaF90WDI1WmVzY0pWaV9YQUZ6OU0waGM?oc=5",
-          "summary": "Chinese hackers use DeepSeek AI to boost attacks By Investing.com &nbsp;&nbsp; Investing.com South Africa",
-          "publishedAt": "2026-08-24T18:21:55.000Z"
-        },
-        {
-          "name": "The Hacker News",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcXp3UXlPVWpiaUsyMGdxOTFnOWNweVBLUDFBek1lak1TUkNUQ201WFJfVGhFZWFJaGNiQnM3ajFRTGJuOFMteFhwTl9EemdyY0tCNWNlbEcwcWRvYTNJUjZsOEFwV0Z5LUNSUnB6WXBWYVI0ZkVCVzdqZU0tMGZ0Tw?oc=5",
-          "summary": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks &nbsp;&nbsp; The Hacker News",
-          "publishedAt": "2026-07-31T07:00:00.000Z"
-        }
-      ],
-      "sourceCount": 4
-    },
-    {
-      "id": "burnham-vows-support-for-ukraine-despite-outrageous-threats-from-russia-general-2026-08-24t17-29-59",
-      "title": "Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
-      "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
-      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/714d/live/73b30ef0-9fce-11f1-b109-879e35c24276.jpg",
+      "id": "dragon-ball-inspired-theme-park-to-be-built-near-paris-general-2026-08-24t19-57-55-000z",
+      "title": "Dragon Ball-inspired theme park to be built near Paris",
+      "link": "https://www.bbc.co.uk/news/articles/c8r6xy3ryndo?at_medium=RSS&at_campaign=rss",
+      "summary": "The construction of three new parks was given the green light after a €6bn investment from Saudi Arabia.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e189/live/13831e40-9ff5-11f1-b150-d3e6f0a6b415.jpg",
       "source": "BBC News",
       "category": "general",
       "categoryLabel": "General",
-      "publishedAt": "2026-08-24T17:29:59.000Z",
+      "publishedAt": "2026-08-24T19:57:55.000Z",
       "sources": [
         {
           "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
-          "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
-          "publishedAt": "2026-08-24T17:29:59.000Z"
-        },
-        {
-          "name": "ABC News & Headlines – Australian Broadcasting Corporation",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMXBBQjJESGlkZENtRGdPaTlvOUl5WkQ2TEZHVVJZRC0wQnpvcVdUXzNyYW5XWFhTalc1cjlJNXcxdm94TDZscEEyVUs0Q1lWZUppdjBodHJodklYaVBPeFJYOHl3U3dRSGt6RFEwSkxONmpGaUQ1T19DVktRU0dkY0N6Q0ZzOTl3?oc=5",
-          "summary": "Ukraine marks Independence Day as UK vows support despite Russia's threats &nbsp;&nbsp; ABC News & Headlines – Australian Broadcasting Corporation",
-          "publishedAt": "2026-08-24T14:31:17.000Z"
-        },
-        {
-          "name": "Firstpost",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVmltTkxUbUxuOThoYWo3UDN5S2Q4Yl81dS1kQ0NjaGZRQzFzekFZQ19ZQUpWaW42YUZXbVFqcXhQVzVvNGl0Tk9pcDhwbk9TU2FHeUlWQmVmckV4WGZ5MzhRNU9ISGlHVEhLdEhUR1c5TkIyLWJEWTBzUXVNQndZSVVlOUtXZ255SW9abjFfbmJXZ0E2dTBfQnBrSENpTUl1NjdRVmg0THcxZWVGWUJ2LWljVXBTTUk4WVlEdE9aT0kzemlUMDJ4Zmt30gHPAUFVX3lxTE5KS29JSURjZGNLTHdUOWpyUzZhXzNSOGkxQklJUS15d3RyX0ZEVnFOam9mVHAtRk9vbllDV05USFVLMFYwdWVYbkRoeVRBSnFuV1hWUGZEVnktdFlSVkl6MnhSZ2NxYmc5NGNxbmpueU43dV9sOUFCQVVwNHYtc1RzWmpFWXNWdWlzdG1PakZTbE5xcE5aZHAxSTNBd0xPQ25yVUFnMDI2aWF4Z0xTZmNvTDJzQVRRV0NGVlAwOXNQN29HcXVuVTlfYnFoT0NnUQ?oc=5",
-          "summary": "Russia warns UK over Ukraine missile support as British PM vows to keep backing Kyiv &nbsp;&nbsp; Firstpost",
-          "publishedAt": "2026-08-24T12:54:40.000Z"
-        },
-        {
-          "name": "WION",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMkJiREdoeVlfOWtpdVFhRG93TW5jNWhhZ0poM3hXNl93VktQYXVXWDVfSGdMSDlpTXF0MF9IVm5FWUJHNzNVRTByVHktMHBrUTlIWjNsdGRkeEJxUWxNaE9fWm9Vc1RqYzBjbmRIX1E3andLM3o0VDd5cGE5UjRNcDk2NnVFbXJHZ044ajI2TngtMjNtbUc4MTFSVFdhUzVIRjZzelRXZV8xUkpQM1ZaZ0ZsQW5RMkw5WXFUeDZxN3RRZXJ6ZjNRTF8wVTTSAdIBQVVfeXFMTzJtby1JNWVvZGo2NzlHOEpHbVJFUThKa3JZTGlCUFdBVGNZV0xManE2Wjc4NEMtRFlPcFo3TUZzN2Q0bzEwbTlvNjc1b2dGeHhZTTRDaU9SLXdCSVZtXzkwYU5ySDdzWTBtbU1peVBfTTY4UmdvYW04WFo3ekNjRE0zNmhFMDF3ZU1CYXBFZGJ2aENDLVAxb0hZcVBvbERWZnVWYUpTU0EzajV4YjVNeHl5d29iNmN3NnBCVlYzZWowSGVlZkhkbmUzUHdVckF5VDR3?oc=5",
-          "summary": "Andy Burnham in Ukraine: UK PM vows continued defence aid to Kyiv despite Russian threats &nbsp;&nbsp; WION",
-          "publishedAt": "2026-08-24T14:35:00.000Z"
-        },
-        {
-          "name": "dailyasianage.com",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT01JVEVVNnczYWVPOXZ4aE93MXR1OU1aTGZzc2RCOTBYdm50T1MxSmQ1M3lfN1h4Qy1CV2dwSkJ3akZRYjNrMk5QZXVURlYxNEZfcjRYbkdKandpM3dUdWtMLUxwY242OWtPbVI4bTliSEFZOGNUUFlFU0NHcS1Bek5IWXdXNnZNMGxSUDVQeHhrME90eXlFd0xiYjBIbVhEV1lwbVpmeFd4bDQ?oc=5",
-          "summary": "UK PM vows support for Ukraine despite outrageous threats from Russia &nbsp;&nbsp; dailyasianage.com",
-          "publishedAt": "2026-08-24T18:11:00.000Z"
+          "link": "https://www.bbc.co.uk/news/articles/c8r6xy3ryndo?at_medium=RSS&at_campaign=rss",
+          "summary": "The construction of three new parks was given the green light after a €6bn investment from Saudi Arabia.",
+          "publishedAt": "2026-08-24T19:57:55.000Z"
         }
       ],
-      "sourceCount": 5
+      "sourceCount": 1
     },
     {
       "id": "row-over-u-p-ias-officer-s-bid-to-influence-civil-judge-deepens-as-hc-takes-serious-exception-india",
@@ -612,6 +296,46 @@
       "sourceCount": 1
     },
     {
+      "id": "the-cat-and-mouse-game-over-3d-printed-guns-has-begun-tech-2026-08-24t19-50-00-000z",
+      "title": "The cat-and-mouse game over 3D-printed guns has begun",
+      "link": "https://www.theverge.com/tech/983244/3d-printed-guns-hashes-hochul",
+      "summary": "The creator of the world's first 3D-printed gun claims he's developed a way to thwart government-mandated software meant to block 3D printers from making firearms. It's an opening volley in what's shaping up to be an evolving battle betwee...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268706_3D-printed_gun_scanning_CVirginia20.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-08-24T19:50:00.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/tech/983244/3d-printed-guns-hashes-hochul",
+          "summary": "The creator of the world's first 3D-printed gun claims he's developed a way to thwart government-mandated software meant to block 3D printers from making firearms. It's an opening volley in what's shaping up to be an evolving battle betwee...",
+          "publishedAt": "2026-08-24T19:50:00.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "devendra-mahto-launches-examination-reform-yatra-in-jharkhand-india-2026-08-24t19-48-27-000z",
+      "title": "Devendra Mahto launches examination reform Yatra in Jharkhand",
+      "link": "https://www.thehindu.com/news/national/jharkhand/devendra-mahto-launches-examination-reform-yatra-in-jharkhand/article71385152.ece",
+      "summary": "The motive behind the Yatra is to garner public support for transparency, accountability, and fairness in the recruitment examination",
+      "image": "https://th-i.thgim.com/public/incoming/v9e5dv/article71386171.ece/alternates/LANDSCAPE_1200/Devendra%20Nath%20Mahto%20%2012.JPG",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-08-24T19:48:27.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/jharkhand/devendra-mahto-launches-examination-reform-yatra-in-jharkhand/article71385152.ece",
+          "summary": "The motive behind the Yatra is to garner public support for transparency, accountability, and fairness in the recruitment examination",
+          "publishedAt": "2026-08-24T19:48:27.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
       "id": "au-degree-supplementary-examinations-postponed-to-august-27-india-2026-08-24t19-44-44-000z",
       "title": "AU degree supplementary examinations postponed to August 27",
       "link": "https://www.thehindu.com/news/national/andhra-pradesh/au-degree-supplementary-examinations-postponed-to-august-27/article71385603.ece",
@@ -627,15 +351,9 @@
           "link": "https://www.thehindu.com/news/national/andhra-pradesh/au-degree-supplementary-examinations-postponed-to-august-27/article71385603.ece",
           "summary": "",
           "publishedAt": "2026-08-24T19:44:44.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRE9kaUtRWllIZDBLZFpLYnU3aXBOTEhHUHdjazFVeVNIQWJQcGpIX2FDaVBLd3JYYjRmNjBRekh0QXJibkRoQnFMLUlmWWhoUzlMZklEQnpNVVlwT1NZS1lDLVJPWFl4N3J1Yy01WHJrUkRnek1zMV9KWDE5cVFOVUY2WlQyX2JTbEtUeTZrVVotdi1oRE04SmZpSmxpTnRobmlxTDhCVmtGUUhudFhFRzRlWk9ZdVZaOGNUQWx1M21nYTNtZHdlWnRYUlBuZ9IB1AFBVV95cUxPQjVBczBEUEQxQVZKM2s4MU9jcldnWFNPN1lzaFM0dWQ4WVByUlVvMTkzZ2haQktqRUZHb19OTFpIZF9PbEtBbXh2dnpvckRwZHprcVgtclNWUFlMNVc4TVNCNkZHbEVEdzdGMXJVeUVtdGJnMVBQcmRJM1hoWmM1QVl0LVM2T0k5UElCbGJHd0pxeGlBODZiaUNYMXJwb3ZUQ1lCVG5GT0hDSlhqZWJ3Sms0N2drQlBKbWExb2V2bXVOZktzOW02ZmhFcXFYamhDSFY1Qg?oc=5",
-          "summary": "AU degree supplementary examinations postponed to August 27 &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-24T19:44:41.000Z"
         }
       ],
-      "sourceCount": 2
+      "sourceCount": 1
     },
     {
       "id": "au-invites-applications-for-mba-mca-admissions-india-2026-08-24t19-43-53-000z",
@@ -653,15 +371,9 @@
           "link": "https://www.thehindu.com/news/national/andhra-pradesh/au-invites-applications-for-mba-mca-admissions/article71385634.ece",
           "summary": "",
           "publishedAt": "2026-08-24T19:43:53.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZlZFajlDNXZZR2JWVENKaXlfRFRRNDFLcGt3dmRuM3B1YlBibnNTa1kzd0Z2YVVEYWM4RW5KZlhsVjd1RVNSN2hWbFF6ZUVSYjhxRWR1dDBvSlpBQkNiT3NzRTdNcmZkNXI3TUlmS0F1UTRiQm1uN3VjQ0d1T3prZTRUV0N6QUxpb0RRekR3U0g5WjhfVEkzUVQyUUd4am5iRXdBM210eVh0YmRvMlRYekpDQmRSaGJlQWkzUdIBwwFBVV95cUxOdWk4U29QMUhCQXdiUnJVTDdpQVF2em9KUGp6T0lLRkpJaGdGYUJTRXhnUXh3QXhqc2RwUnUtT0JIX1RnRU11a2JyUHZ4WmNKR0ZQUXdyZE9wOTlRVWUwVFlTWW9CS2N5LUdnZXl1SV9FMkZmZlNGMXN1cXJtc1EtM2xKZm9ELVRRYnVMSGNTMDVFNHVUcWpnNE4wMWhkX1pWQWN1Nko0Y2dfSFlVRDlOZm9LT1N6S20yZWhDMXg5LWdzd3M?oc=5",
-          "summary": "AU invites applications for MBA, MCA admissions &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-24T19:43:50.000Z"
         }
       ],
-      "sourceCount": 2
+      "sourceCount": 1
     },
     {
       "id": "charity-acting-the-cotswolds-what-will-harry-and-meghan-s-uk-life-look-like-general-2026-08-24t19-43",
@@ -679,21 +391,9 @@
           "link": "https://www.bbc.co.uk/news/articles/c6243glyqv7o?at_medium=RSS&at_campaign=rss",
           "summary": "The couple's return to the UK is imminent - and what they'll be focusing on here is gradually becoming clearer.",
           "publishedAt": "2026-08-24T19:43:51.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wWWtvVnBXTDdhQ1g3TjBjWXZ6aHFWNjNEVnZMdXhxRWZSQkYtaE8tV1B3UU9GOFhBTlpsT3Rqd0JqZkpTYlFkWHgtSXRfYWZ6SzI0czdieGZhM00z?oc=5",
-          "summary": "Charity? Acting? The Cotswolds? What will Harry and Meghan's UK life look like? &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-08-24T19:08:12.000Z"
-        },
-        {
-          "name": "HELLO! Magazine",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMUg5Z0U0aXhkYmxYLURIU2VQQWNUWmQ5WlRPOWtNNEtldUc3WXh4RS1tUkgxYWhTd3p2elFUU3BVTG9rbV9NOEZ2dHhhdHJIR1otMF9FYmtiRmstM2MxYjhoTi1jNkdBekxzdWl2bHpmS3lPWXpCTF9Ya01tRG5HbGMxRjdITkpSWW9zdmVtc2JYWFpiMlUwbFNVQjU?oc=5",
-          "summary": "A potential acting role, private Cotswolds life, and hopes for a royal reconciliation: what's next for Harry and Meghan &nbsp;&nbsp; HELLO! Magazine",
-          "publishedAt": "2026-08-24T05:00:00.000Z"
         }
       ],
-      "sourceCount": 3
+      "sourceCount": 1
     },
     {
       "id": "week-long-onam-celebrations-begin-in-kozhikode-india-2026-08-24t19-43-48-000z",
@@ -711,15 +411,9 @@
           "link": "https://www.thehindu.com/news/national/kerala/week-long-onam-celebrations-begin-in-kozhikode/article71385653.ece",
           "summary": "A dance performance by Lakshmi Gopalaswamy and a comedy show by Hareesh Kanaran and Nirmal Palazhi will be staged on August 25",
           "publishedAt": "2026-08-24T19:43:48.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQVlqVC15REp3Ykg2bUxvZG40dE5LS1dFQjF2WFdDZXhBRFFtdXJTY2tUTEpFWFZqcFlGWk9YbVRGWGpFeDk5aGpiR1J2UkRKZVBDc2t4a0RZYzYtbllWYlRnaS14UlkxMVlFamV0bWJUWnp0RkI4STBzVnpsV0JBX3dna3N1ZHMzc0k0djkxUlk4STFEY05JdzFHQ2RjeGNiZnlQTUxxZDRYd1Nzc0JuY25n0gG4AUFVX3lxTE8yWkt6RXZ6ZmtzejhIenF2Z28yTTI3RnlvUWNqb0VDaTkzZVdRVnZ1ZmtFeXg3QW1oaktnUkYzMzJYRS1obkxuVnJid0pFWDJqUWRLOEpVYjU4MjRsbXRhaFAxam9oaTBVVXQxMnMzYzhWY1k3Q3BCWUpTejNvVTFtOFJvWlVPSWlCUkdWcXY1MURaYm9UNHRZeHJkSlFRVDRHdkZWTlJ5M1BpWlBla2l6ZUxUQjB1ZHk?oc=5",
-          "summary": "Week-long Onam celebrations begin in Kozhikode &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-24T19:43:17.000Z"
         }
       ],
-      "sourceCount": 2
+      "sourceCount": 1
     },
     {
       "id": "araku-gears-up-for-cm-s-visit-on-aug-29-india-2026-08-24t19-42-46-000z",
@@ -737,15 +431,9 @@
           "link": "https://www.thehindu.com/news/national/andhra-pradesh/araku-gears-up-for-cms-visit-on-aug-29/article71385678.ece",
           "summary": "",
           "publishedAt": "2026-08-24T19:42:46.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWnZtQno5dFQzRlBILVdvNmRmMWxhaDM4UHNJbF9vS0ZmeVYzN25xMzB0R1FFX2dSZ0ZiWktJSGxvN0VucG5RUExGcDJBMHpZNkdPUFBpeDRMTTlfTTNWWVVzSDVDZ0pXM19KSEs3WExaOTNFSHZPVVNQODduMjFoQ3lDVDR1LVZKWFp6QmQwS2JxN1huMEhUTU5KNXJJc2JSUTlJdlhEb0xRb3E2dC1mUFp30gG4AUFVX3lxTFBKUnNESVRXNGw4aFpKQkE5NW9ZaEd3czBOUzZfbUFZeWZRWHF1QzdqQmQ3VU1rc1BZUXpaNDBCTHdLOFNmMWdYQVVxbWZTTEdQQWtESFhMY20tc3FXeEIwektDV2RwaEtpSE9aV1dkdGQtd2pxQm14X1pIODRhVUNMd3hSaXplS1l1N0szMDNhX0ZKX2gzdFNJdDNWQUIydTRqdDdaX1RaZDQtTjNtU09CMU5TU1FLV3c?oc=5",
-          "summary": "Araku gears up for CM’s visit on Aug. 29 &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-24T19:42:43.000Z"
         }
       ],
-      "sourceCount": 2
+      "sourceCount": 1
     },
     {
       "id": "action-plan-to-redevelop-ttd-kalyana-mandapam-india-2026-08-24t19-42-05-000z",
@@ -763,21 +451,9 @@
           "link": "https://www.thehindu.com/news/national/andhra-pradesh/action-plan-to-redevelop-ttd-kalyana-mandapam/article71385467.ece",
           "summary": "",
           "publishedAt": "2026-08-24T19:42:05.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT2hkQnhqbjVsM2Y1bllHSWNZVV9qS0N4eGFhdUgxSWhjUFJVREE2YkYzMnBqRkxieUdBcWRKRTN1SEUxcDZzOVIzbXpXNGgzR2ROam1telJhb0FpNkhxVTBxRlE3dU5ldmhzTzhzQ1RlaFgtZ3lSMWdyeGRXRDBURmI3Y2oydktpZzg1Z0ZBYmRoTFYxMU9IbmRQamxjRV9Gd052cnMyX1FIY0RaaHBJODE1YXB4LVhfYXdJ0gHCAUFVX3lxTE5NWDB6b09uNGJtbURWdmtGZW00N0lacVVZcm1USURkZFl3UF9nQURqTEdWcHBhd0VaLXlVbmhNQ1BVUFlpVTgweXJFOGt4ZlV0THlBRDYtOWlPMFlHaEE5WWxyZ2lINkFpeTEzc0hnNEFzdDVNU01GaXI3SFhheExMOVVhU19Cd1Q4UEZZYmNhMjk1Nm5lMEJYWlh0RjY1N2lLbVhJcUhoOEV0emg3VzF0VzEzQ1hKQW5VZjR2Nm9pek13?oc=5",
-          "summary": "Action plan to redevelop TTD Kalyana Mandapam &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-24T19:42:01.000Z"
-        },
-        {
-          "name": "Deccan Chronicle",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYTBiRVhNTnZFY0NMd3VRVkNBZ0NPc0tCcjJiZXBuX3ZZQUpDb1AyYi10U2NqRERxWUhORGM0djRMa3FHT3VZVlB5R1Mxbkh3eEdoS0NBdkpNZzFGdy1hRkc5al9KenF4SVJDYUE0MFpIYWxuc3JnWldfVnRGSzdESU51TVZOd0Q5WElFVlFOQUc2NjRsQ1N4eVhnLWlhelcwQW00NHR4QjRyeVFjOFpTSU1kb1dHM3JfbUVJVnV5VTRJN2hzUlUzVXlVQl9zSFJjNEtkUnpDcDRUeHPSAdsBQVVfeXFMUGEwYkVYTU52RWNDTHd1UVZDQWdDT3NLQnIyYmVwbl92WUFKQ29QMmItdFNjakREcVlITkRjNHY0TGtxR091WVZQeUdTMW5Id3hHaEtDQXZKTWcxRnctYUZHOWpfSnpxeElSQ2FBNDBaSGFsbnNyZ1pXX1Z0Rks3RElOdU1WTndEOVhJRVZRTkFHNjY0bENTeHlYZy1pYXpXMEFtNDR0eEI0cnlRYzhaU0lNZG9XRzNyX21FSVZ1eVU0STdoc1JVM1V5VUJfc0hSYzRLZFJ6Q3A0VHhz?oc=5",
-          "summary": "Visakhapatnam’s TTD Kalyana Mandapam Set For State-of-the-art Upgrade &nbsp;&nbsp; Deccan Chronicle",
-          "publishedAt": "2026-08-24T14:26:50.000Z"
         }
       ],
-      "sourceCount": 3
+      "sourceCount": 1
     },
     {
       "id": "district-collector-directs-officials-on-karmayogi-training-grievance-redress-and-eye-donation-awaren",
@@ -795,67 +471,9 @@
           "link": "https://www.thehindu.com/news/national/andhra-pradesh/district-collector-directs-officials-on-karmayogi-training-grievance-redress-and-eye-donation-awareness/article71385372.ece",
           "summary": "",
           "publishedAt": "2026-08-24T19:41:25.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPQ2VTZXdXczZtMWdRWUNiU2dRN1A4ZkN5OVdHLWRKZmMxWF9qcmZsaVRUX3B0MTBsR3gxZVBKMmFuUEdUN3ZSVEZ1cFBNY3lHeHEzX0tUMUFRUkUyR29PWUh6Y2s2ZzFBOWh1Q1lRZEF2YzMtTC13YzFfa3pmN2RzZ1ZvOXlWeXN0anR2clFaU3VHMXFQQlk1cHZ5aTdUZ1FlcllfOXZ4ZWtzbFdRUldrcG5Ya18zZ0hYOEVfMmJvdUdVQUpMN3lVREtQa08xUjQwWWxuaDNRRVpGT2l5UllNZkFJYmRpejFxU3Q1azNxNU92YlNUdW51WTdBS0dGNTJ2LVduUzZqWWzSAY8CQVVfeXFMTjFkUTk1YUN2dmZvWjA5NVJQcGp6a0NwUTNHY1RNb2N6d3dqOTA3eS0wdGtTdkVvY1FiMDBaR0VTYjJvdEstVWFXcmZhbnNVMzB4QmM2eWdTZWQ3Rkk5RGlSRVZsSjdHcS1oSU5DTlhLQWRQcjNZYTJyUFpad3hJR2dXNHY3dXQzX2tXeTJ6dDR4SDJFVDY2Q2c1V2toX181WG9vcEhXWlV4T0lCRlBGTGRUY0F1NEotUlBoZ2NzdllqYnAtWmtpOTNEUW9nNXg4RmtDWDFZVGZ1bG9qSkZLeGV1TjRvckZacDh4MlRsNGhGeVZZNzlwMFBMVWtyM3pGWU9xTGt3U2tuWEhnVXY3Yw?oc=5",
-          "summary": "District Collector directs officials on Karmayogi training, grievance redress and eye donation awareness &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-24T19:41:20.000Z"
         }
       ],
-      "sourceCount": 2
-    },
-    {
-      "id": "recurring-accidents-at-champakkara-kochi-mayor-to-convene-emergency-meeting-india-2026-08-24t19-39-1",
-      "title": "Recurring accidents at Champakkara: Kochi Mayor to convene emergency meeting",
-      "link": "https://www.thehindu.com/news/national/kerala/recurring-accidents-at-champakkara-kochi-mayor-to-convene-emergency-meeting/article71384837.ece",
-      "summary": "An emergency meeting of traffic police, Kochi Metro Rail Limited and PWD officials will be held in this regard.",
-      "image": "",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-08-24T19:39:16.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/kerala/recurring-accidents-at-champakkara-kochi-mayor-to-convene-emergency-meeting/article71384837.ece",
-          "summary": "An emergency meeting of traffic police, Kochi Metro Rail Limited and PWD officials will be held in this regard.",
-          "publishedAt": "2026-08-24T19:39:16.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbXFrVVlGVGs5MU5ueUZlSmNIbFFMTTItMWYxVUNZWUtyZUJQTi05eVRzZm5iSW5yQlFkT0lHUlZva0d6ajQ0UUp5eFRmTzJwUFJYSWVMb3dJUEhLMGNNZjRnWC1UVmFXeHdBWmhjOXJtbUQ2bVpwN3o3c2xhVEV5ME1xZF9TU25DTG1MN0gwMTZURy1pTXhOMU93aHZCUmwzMWxWLXcyX0VXMHg3djRBdjkzQVRqTUVGbC1EN19rS1pCaXZabXlxMzZiREZ3TFp0R2hIS1VOSlHSAd8BQVVfeXFMTzVvamxpS1Y4TEFvazBBTW5QbUhYblh0MzN1c2xlNzdJVXJWeW44eWdiWl9ua3Nzc1Q1aE12U0NfdndWNXZrOXM3cUUxN2dqYmVNZTM2dWdGUnE5WkFrcGlwSmxPUEdTeWlzS09namNQZllaSC1pVjFGRTF5a3czbklpWTdZS2VGbHFRazNwYVhsQUNwblhxUmZHTFpCQ3AyZXpMYlVPVUxrWjJJejlCSEwwdndodWd2WkVHQUdEWnBRdUREeTZnVUdKVk9PRTkxcUlORGM2QWlaSlptRDU5dw?oc=5",
-          "summary": "Recurring accidents at Champakkara: Kochi Mayor to convene emergency meeting &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-24T19:39:13.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "38-25-lakh-spent-on-karnataka-cm-d-k-shivakumar-s-swearing-in-ceremony-india-2026-08-24t19-38-10-000",
-      "title": "₹38.25 lakh spent on Karnataka CM D.K. Shivakumar’s swearing-in ceremony",
-      "link": "https://www.thehindu.com/news/national/karnataka/3825-lakh-spent-on-karnataka-cm-dk-shivakumars-swearing-in-ceremony/article71385774.ece",
-      "summary": "",
-      "image": "https://th-i.thgim.com/public/incoming/tz9i33/article71386165.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-08-24%20at%2019.13.07.JPEG",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-08-24T19:38:10.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/karnataka/3825-lakh-spent-on-karnataka-cm-dk-shivakumars-swearing-in-ceremony/article71385774.ece",
-          "summary": "",
-          "publishedAt": "2026-08-24T19:38:10.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUkREVkRBcTZOVzFKdGEyclBKaUJGNHZxMmhUVi02dXRHQkR1dF94NF9TY3hGY0k1U0pNTWoxRl9lQzNCQlNVbzh0a0hINGxodHM4U1NQU09majY1MGo5YmFwbFAzOEo3YmxIYjcycFJSb0pCOGJSc0FVb2N5ZGwySFVvUjA3MFJRV3M5cExFaHlDa3ZNUVQwTWV4OWVPcHg3ZkpQM2hLNnY3dlRXdXltUnJSSWNmNzZSWEQyZ05FSVV5WEdsck1IbHZaMmc3a0NlcFHSAdgBQVVfeXFMTXdWOGp1TDZma1VtbFRrRVlOakpGTDdGc0xMUndYRVlBNmc1N3pXSXhMWmRNME9wLVZNdm9KRVd2d1oyZHZGS09za1kwcXVMNXVzdnZLd1JuY0lCYm8wSHp4Y3hVS0lkRzh1aGlyYUV6V2xvdGs5VllvSGV3Sk0yZkZhUlc3RG4tc1BIUDYzRkl5REx0V2hpcHVIbnFHTjNjaF9TNzM5Nk9MaVBmbzdfd19DNm5uYkRMWWNMbFpfR3oxbVNuWnRncG42Z1lYLUk2OXNucXJNWGNx?oc=5",
-          "summary": "₹38.25 lakh spent on Karnataka CM D.K. Shivakumar’s swearing-in ceremony &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-24T19:38:07.000Z"
-        }
-      ],
-      "sourceCount": 2
+      "sourceCount": 1
     },
     {
       "id": "police-pass-mohamed-al-fayed-case-file-to-prosecutors-general-2026-08-24t19-16-10-000z",
@@ -873,79 +491,89 @@
           "link": "https://www.bbc.co.uk/news/articles/cz6zx0njdywo?at_medium=RSS&at_campaign=rss",
           "summary": "The Crown Prosecution Service will review evidence relating to a man in his 80s gathered by police investigating allegations against the late Harrods owner.",
           "publishedAt": "2026-08-24T19:16:10.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Ba0VMRzRHYWpWTzdJeGJYUHYtYldZMFlMQ1ZtVXMxT0luX3lmdjkwbnZDRU05ZmxmZWU0TXhXOG1LOVNVbU14cjhvUnFNTm4tYkh4M3ExMzAwT1N0?oc=5",
-          "summary": "Police pass Mohamed Al Fayed case file to prosecutors &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-08-24T18:20:37.000Z"
         }
       ],
-      "sourceCount": 2
+      "sourceCount": 1
     },
     {
-      "id": "after-exit-will-former-tata-sons-chief-chandrasekaran-get-a-place-in-modi-cabinet-business-2026-08-2",
-      "title": "After exit, will former Tata Sons chief Chandrasekaran get a place in Modi Cabinet?",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZGdacWNMWWI4RElRLXA1aWo3bDBXRGJaLTZJVWxKUWNTTW5UcHpNa2J5dkgtdmoxYjVIeEdVMGZJbmx5aDlvS2RqdFJNTW00Q2dnYUoyaTlKYVBPV1RadnM4NVBwVVdZQmVDX0tybXBMczhJQk11Y3dsWlBhdXpXUVdYX1NQUnk2QnZJWklSRXVDZ0NhdnFzYjdLRHNyMnQ0SmpEWjdONWJMY1hoQl9XQld4V0RBSDdOZS1tVQ?oc=5",
-      "summary": "After exit, will former Tata Sons chief Chandrasekaran get a place in Modi Cabinet? &nbsp;&nbsp; Whispers in the Corridors The formidable challenges facing the next Tata Sons top boss &nbsp;&nbsp; BBC Tata structure shortchanges its invest...",
-      "image": "",
-      "source": "Whispers in the Corridors",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-08-24T17:43:41.000Z",
+      "id": "iran-faces-greatest-financial-offensive-ever-says-us-treasury-secretary-world-2026-08-24t19-12-35-00",
+      "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
+      "link": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+      "summary": "Scott Bessent says the US will sever all economic ties with the country and that any nation partnering with Iran financially will also be isolated.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de12/live/09a94a20-9fe6-11f1-8ed1-41aaf1fca4f2.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-08-24T19:12:35.000Z",
       "sources": [
         {
-          "name": "Whispers in the Corridors",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZGdacWNMWWI4RElRLXA1aWo3bDBXRGJaLTZJVWxKUWNTTW5UcHpNa2J5dkgtdmoxYjVIeEdVMGZJbmx5aDlvS2RqdFJNTW00Q2dnYUoyaTlKYVBPV1RadnM4NVBwVVdZQmVDX0tybXBMczhJQk11Y3dsWlBhdXpXUVdYX1NQUnk2QnZJWklSRXVDZ0NhdnFzYjdLRHNyMnQ0SmpEWjdONWJMY1hoQl9XQld4V0RBSDdOZS1tVQ?oc=5",
-          "summary": "After exit, will former Tata Sons chief Chandrasekaran get a place in Modi Cabinet? &nbsp;&nbsp; Whispers in the Corridors The formidable challenges facing the next Tata Sons top boss &nbsp;&nbsp; BBC Tata structure shortchanges its invest...",
-          "publishedAt": "2026-08-24T17:43:41.000Z"
-        },
-        {
-          "name": "The New Indian Express",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTTF2Sy1rWVRXbnBsaDdzbENhb1hNY0p4Und1RVNDN0dNR2V6cF9jWXEzbTJMNVV2THoybjF1QmlURFhSbmo3SVJQaGNyVXAwYVlsdHNEbENvQlBvaWsxNk5mVWVUWjNMdnJmcmU1N2xYQTZUeUpnbkxKbU9CQlBnbTZNZkdlSGdWNkpvQWRiMHA1alBYZUp2WThob9IBqAFBVV95cUxPRkpxdzNhZzZoN2ZNSDdHRVItdkZjV01SRDJOc0o4S1Nqa1Ffb3hPbVBsYVRhOXgwSFVlTTVXazhVaHRqUHVpdGt5cHR2X01oS0ZfVlUxLWVzTDdna2xJenRKUXEwSlJ5cTNfWnNDMzFtRzg0TlZyOTRUdmhIakNmZUNDajVCU09OenJPTWo3emFHaEtwTExVRTJRajk3ZDJUaDNyNElvMHA?oc=5",
-          "summary": "Why did N Chandrasekaran exit Tata Sons? &nbsp;&nbsp; The New Indian Express",
-          "publishedAt": "2026-08-15T07:00:00.000Z"
-        },
-        {
-          "name": "The News Minute",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb0VEd1lSMmtUZ0xjdDVkVzhJdjZoVEVNcFRMd285ZFBiMTU2ZnF3ZWNEc0p2dVdFQ1hFeHBnQnVkSlhCRTJaVGpJY0ZhbHZqaWphVVFhX2VJV1ZBa1JHX250cmM4TnZhVGZaSHo0RlRGRVlSSFpkVVJxZVhYemZ4Qm41Szl1WFU0X242V0dpeXRjQmlLbzRELTEwUldlbnVMQVotUTBRMnDSAbYBQVVfeXFMTThZR3pRZnhOOG9LOFRWSWJOSmNDa3lYSm1tS2U4MGZRSmxzdHYxREMzS1ZpNXVoMVEtQXplalZ4VzljWXhHeXk2ZGRkMUp5X0ExQXcwcTB5OFVNSGcySmNzRkR3SzhOdGdWel9MODlFRDRTUGVmZmNydVA2ejNIVHQxVVhzZjZpNXBleFFTWlNJY3hWc2cwanp6LVNFZE5wVE1ZemtNY0Q4LW9PWGd0VzlENlJMVEE?oc=5",
-          "summary": "N Chandrasekaran to exit as Tata Sons Chairman, won’t seek reappointment &nbsp;&nbsp; The News Minute",
-          "publishedAt": "2026-08-12T07:00:00.000Z"
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+          "summary": "Scott Bessent says the US will sever all economic ties with the country and that any nation partnering with Iran financially will also be isolated.",
+          "publishedAt": "2026-08-24T19:12:35.000Z"
         }
       ],
-      "sourceCount": 3
+      "sourceCount": 1
     },
     {
-      "id": "stock-market-today-nasdaq-s-p-500-slip-as-chip-stocks-sink-oil-falls-ahead-of-bessent-press-conferen",
-      "title": "Stock Market Today: Nasdaq, S&P 500 Slip as Chip Stocks Sink; Oil Falls Ahead of Bessent Press Conference on Iran Sanctions",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLXd4eU5QWGZRV3Y2ZUtpNUdUZEh1WE9hY0doLTVhVlViZktwZnE2YjFpUDVIenZ5SDlHTy1YTmVOQlM3allHbWM4WmxhNW9xbXBBNGhGdHZLbm9TZ0NkWldwUVpxQXd6dG80SS1lV0dNY19ETzQtZWhXZ2ZMLUR1MkFndFR1cDROWVp6NXRUTnc?oc=5",
-      "summary": "Stock Market Today: Nasdaq, S&P 500 Slip as Chip Stocks Sink; Oil Falls Ahead of Bessent Press Conference on Iran Sanctions &nbsp;&nbsp; Investopedia S&P 500 falls slightly as chip stock slide outweighs yield decline: Live updates &nbsp;&n...",
-      "image": "",
-      "source": "Investopedia",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-08-24T17:36:50.000Z",
+      "id": "organised-crime-arrests-as-police-investigate-a66-crash-that-killed-two-officers-general-2026-08-24t",
+      "title": "Organised crime arrests as police investigate A66 crash that killed two officers",
+      "link": "https://www.bbc.co.uk/news/articles/c36d6975dzno?at_medium=RSS&at_campaign=rss",
+      "summary": "Nine men and three women are arrested as police investigate the lead-up to the crash that killed seven people.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/68ab/live/93348dd0-9f24-11f1-b109-879e35c24276.png",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-08-24T17:53:40.000Z",
       "sources": [
         {
-          "name": "Investopedia",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLXd4eU5QWGZRV3Y2ZUtpNUdUZEh1WE9hY0doLTVhVlViZktwZnE2YjFpUDVIenZ5SDlHTy1YTmVOQlM3allHbWM4WmxhNW9xbXBBNGhGdHZLbm9TZ0NkWldwUVpxQXd6dG80SS1lV0dNY19ETzQtZWhXZ2ZMLUR1MkFndFR1cDROWVp6NXRUTnc?oc=5",
-          "summary": "Stock Market Today: Nasdaq, S&P 500 Slip as Chip Stocks Sink; Oil Falls Ahead of Bessent Press Conference on Iran Sanctions &nbsp;&nbsp; Investopedia S&P 500 falls slightly as chip stock slide outweighs yield decline: Live updates &nbsp;&n...",
-          "publishedAt": "2026-08-24T17:36:50.000Z"
-        },
-        {
-          "name": "NDTV Profit",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNUdFTU9jd2tEWFpPa0NrX2I3MEE3djZiY1IxYWFDWjkwVHRTZGlKeEVXdVRZSnFINzRDSXd5NFpPbUZXYjJpcXI4NDhHSjhnVkVlcnVCbm4tbnd0aHh1NVVkeVV5UFRGQXdKU0NMc19iV2cwU2h5bjMtOGhQWC1nUXh6dlFiVEU1M2wwaXEwZnIzWnJVNXVHbXVQeU9Od0tTM3RZb1dDRmxRY2d2MkZGR0VOWkNCSHZXQkJqeUd4dGkzN1V2RGFHUGtyalZpNlZaS29EWGhpaVVKUmNzSFHSAeYBQVVfeXFMT3ZubjZQbXhyUEhnMFR3aWYxbEpaWHdueDFBalIzc3BoeUJkZ1BSSjJrM0UxN0I0d0VEc3lkNlVFeTlNSERnLUdqR3FxVVhvMTRhbGNSVE1qTGh4dlJrb25lLTgtYUp3LWRMRnJpakoxbnV2NkI0czl1R1EzTk56RHg2LXdjay1LSFpmSy1pdXhNbDBoMTF0RUFBRmdXc3NzNGdWb3pMQklIbjhBWVdMRkJtZVY5Ry1yZTAyVXN4V01fM0xfMjI3MlZaUzljeFRhd3hHMFJBZXdwd0hjTTNFb3ozekVoQ1E?oc=5",
-          "summary": "US Stock Market Today: S&P 500, Dow Slip But Nasdaq Holds Ground As AI Chip Cheer Outweighs Oil Jitters &nbsp;&nbsp; NDTV Profit",
-          "publishedAt": "2026-08-17T13:43:08.000Z"
-        },
-        {
-          "name": "CNBC TV18",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNGVGMWdNaUhVRGpuNmZVYTZyMkhKOVFLRTZPdWx3c2U2cW40ZER5dEhJRTlpN0JTYUJhalVLeDU4Vi1MU1F2bjRucEZKdFlvdmVSWW0xMWpxNm5aMnZxYWdidnBJRm1JcExvQlIyNG1xcld3OHp0NGlwZ001bml3eFhCUWpLUDBHenBVc29Qc2JISy1fQV9QYWRVaWxuSDVKNFhZdlpxOGM1VEwwNEliMUltVTHSAboBQVVfeXFMTWdLblNlUTFhNDlIUDRORi1GX0RzcnZxWlZiLS1sUjVlVVoxWDU0dWhDd1dqZUdNQzVSSElfeGQyWUhUaE9NeHZtcHkyTGN1emhNU1EyaWNyZFBDb3dfS1k2VU5pM0JPVHgwNC1kVms3Y016RmtKcGtYNGFSMzVaR2QwclZPMkQwLUhpekg0WTdzLUR2STFfQ0x2c1NrbERTUW1wZkJVeWJMV3VsUFZ4NkcwaXdXdVFMWE5n?oc=5",
-          "summary": "US stock market today: Dow rises, S&P 500 and Nasdaq slip as semiconductor stocks decline &nbsp;&nbsp; CNBC TV18",
-          "publishedAt": "2026-07-16T07:00:00.000Z"
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/c36d6975dzno?at_medium=RSS&at_campaign=rss",
+          "summary": "Nine men and three women are arrested as police investigate the lead-up to the crash that killed seven people.",
+          "publishedAt": "2026-08-24T17:53:40.000Z"
         }
       ],
-      "sourceCount": 3
+      "sourceCount": 1
+    },
+    {
+      "id": "snooker-champion-graeme-dott-guilty-of-child-sex-abuse-general-2026-08-24t17-35-35-000z",
+      "title": "Snooker champion Graeme Dott guilty of child sex abuse",
+      "link": "https://www.bbc.co.uk/news/articles/c0lr80rk0dno?at_medium=RSS&at_campaign=rss",
+      "summary": "The former world champion was found guilty of lewd and libidinous behaviour towards a girl and boy.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b534/live/65133f90-9fc5-11f1-b3e7-331c6d9a8046.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-08-24T17:35:35.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/c0lr80rk0dno?at_medium=RSS&at_campaign=rss",
+          "summary": "The former world champion was found guilty of lewd and libidinous behaviour towards a girl and boy.",
+          "publishedAt": "2026-08-24T17:35:35.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "burnham-vows-support-for-ukraine-despite-outrageous-threats-from-russia-general-2026-08-24t17-29-59",
+      "title": "Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
+      "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/714d/live/73b30ef0-9fce-11f1-b109-879e35c24276.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-08-24T17:29:59.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+          "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
+          "publishedAt": "2026-08-24T17:29:59.000Z"
+        }
+      ],
+      "sourceCount": 1
     },
     {
       "id": "outrage-in-nepal-over-rape-and-murder-of-three-year-old-girl-world-2026-08-24t17-24-25-000z",
@@ -963,70 +591,26 @@
           "link": "https://www.bbc.co.uk/news/articles/cvgy58ql288o?at_medium=RSS&at_campaign=rss",
           "summary": "There have been protests since the girl was found dead last week, three days after she went missing.",
           "publishedAt": "2026-08-24T17:24:25.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5TnlncVNjM2RkSUJCaFVLamlvTzB6N2Q3ZGNHcGkxVEQya1NqaFpNQ3lKV0tyekN5Tk1IdXdpMGh0SDloNkpUWHprM1BMSW1ra29XcmlVaVpCQThi?oc=5",
-          "summary": "Outrage in Nepal over rape and murder of three-year-old girl &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-08-24T17:24:25.000Z"
-        },
-        {
-          "name": "OnlineKhabar English News",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jLWIwa2pHOERySUtseWNfZ19NaXMtNnhyM3ltOURHdlJYREpwRk1tZnhYeEtFZUhvY1dyN3hNcHlqZVZxQTAtRUNCV05oM1d0eTJRX0NHWGRZQ3Ewa2k4YVc0bkpScXg2RS14aEpfMFg4TXhl?oc=5",
-          "summary": "Three-year-old’s rape and murder case raises questions over police probe, child privacy &nbsp;&nbsp; OnlineKhabar English News",
-          "publishedAt": "2026-08-24T13:32:44.000Z"
         }
       ],
-      "sourceCount": 3
+      "sourceCount": 1
     },
     {
-      "id": "carse-removed-from-england-squad-as-cricket-regulator-investigates-sports-2026-08-24t17-12-41-000z",
-      "title": "Carse removed from England squad as Cricket Regulator investigates",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVkpoYUtFSUlaR0NlYzBVNEdLTGNod1R1YXJCMWk1T3lVUHE2a2Zka1BqMDY3elUxWUlTZG9pWGdxSUhpVzV5UmptZTV5b2NrNlMxbE5WVkhBOEI5UE1ZcnBCUlM4ZUhBYlNyck1CWVhjYzNOMGhqQnhIUGxpczZxcURuTUVIM0Z2Sk45ZmZHbVAyekpVbDZtWTVSNGMtUWtUQWNhdkptc0N3WUw5QzdVMGxyUXlDcmVEY1EzWEZ4UDRrN3fSAdQBQVVfeXFMUHpkRlBvTWJsSU41d0NCYnhPUlh4cnFpZWtBRkRVTzlCemNiaW5ldFMzaVQ3VF82LVBCY0Nqb2JvTjh1VW5rWGFYTGo2REtKSDBLUFg3ZXN0OHRqMUJWWDB5NGR2OHJXdS1hTDdLOXh6bTZaOHpzV2t2MnE0bmR5M0FfbGpWVkllUThYN2hjZzA0dWI4cDFXSnowby1DSEpWTThvMVhtYUpua09CZmJERDlIdFFFekR3UTJCTmQ1bWRPeG9rYU5Nd2FBSTc5dnZOYkI2RnA?oc=5",
-      "summary": "Carse removed from England squad as Cricket Regulator investigates &nbsp;&nbsp; Cricinfo Brydon Carse dropped by England as investigation begins into handcuffs incident &nbsp;&nbsp; The Guardian After handcuff footage, ECB takes big call o...",
-      "image": "",
-      "source": "Cricinfo",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-08-24T17:12:41.000Z",
-      "sources": [
-        {
-          "name": "Cricinfo",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVkpoYUtFSUlaR0NlYzBVNEdLTGNod1R1YXJCMWk1T3lVUHE2a2Zka1BqMDY3elUxWUlTZG9pWGdxSUhpVzV5UmptZTV5b2NrNlMxbE5WVkhBOEI5UE1ZcnBCUlM4ZUhBYlNyck1CWVhjYzNOMGhqQnhIUGxpczZxcURuTUVIM0Z2Sk45ZmZHbVAyekpVbDZtWTVSNGMtUWtUQWNhdkptc0N3WUw5QzdVMGxyUXlDcmVEY1EzWEZ4UDRrN3fSAdQBQVVfeXFMUHpkRlBvTWJsSU41d0NCYnhPUlh4cnFpZWtBRkRVTzlCemNiaW5ldFMzaVQ3VF82LVBCY0Nqb2JvTjh1VW5rWGFYTGo2REtKSDBLUFg3ZXN0OHRqMUJWWDB5NGR2OHJXdS1hTDdLOXh6bTZaOHpzV2t2MnE0bmR5M0FfbGpWVkllUThYN2hjZzA0dWI4cDFXSnowby1DSEpWTThvMVhtYUpua09CZmJERDlIdFFFekR3UTJCTmQ1bWRPeG9rYU5Nd2FBSTc5dnZOYkI2RnA?oc=5",
-          "summary": "Carse removed from England squad as Cricket Regulator investigates &nbsp;&nbsp; Cricinfo Brydon Carse dropped by England as investigation begins into handcuffs incident &nbsp;&nbsp; The Guardian After handcuff footage, ECB takes big call o...",
-          "publishedAt": "2026-08-24T17:12:41.000Z"
-        },
-        {
-          "name": "Cricket World",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc3FoVEdQc0NGSFZEdGd3dnpXWUM0VG5IVmdxc1F2b0pUY0JZbzhsMURybzRLVy1rSkJTQkF0dWY3ZGJFZk8zUjZqc2J2Y2k1UXYtQm1IZnVxS3FmMERrQlhjX2x4TW5KeWVEZlZTQXNNNU1WaFdRd3l4YUFPZ1NoYXlNWjVZNnhIS282UV85YVdfX1RYYkFSZjlJcVIxeHBta0dOWXQwTTUtdnN1dkxyUlVFQmh5dFJIODdQQnBHWjBpRndFc2FHaTFhZmY?oc=5",
-          "summary": "Brydon Carse Dropped from England Squad as Cricket Regulator Investigates Nightclub Incident &nbsp;&nbsp; Cricket World",
-          "publishedAt": "2026-08-24T16:07:39.000Z"
-        },
-        {
-          "name": "Sky Sports",
-          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOc3MyZ0VaTUR5MDIxeVdFMk4wcXhXcmlCbG4tX1hPVFJOTjhCQlRhUUJNa0N3MzJBTUNaQUdGb25zRklHY3dNRGxIdUt5dzJscTdLakprOFdvNmg5OG4wVlRicW1rcExiU1NjdjRYX0c1bVpILXhSM0w0bHJPekNyYWtCWGpscHhrN3BkemlmUmMzQzhLR3lnVHBNSmIxV0NqWWREQTYyTkJ0VjFmQzluX18yMXR4TTNWd2NYazhuUUZqcldUMTlJRFdqN2lONF9yUW9zUmFhbkRWWmNDR0FFTVMxc3JOaXhyU0tYVS1qWnAwRVBVMU1ndTZJSEMwbXNGUEdXbXln?oc=5",
-          "summary": "Brydon Carse to miss England's second Test vs Pakistan as Cricket Regulator conducts investigation into nightclub incident &nbsp;&nbsp; Sky Sports",
-          "publishedAt": "2026-08-24T15:30:30.000Z"
-        }
-      ],
-      "sourceCount": 3
-    },
-    {
-      "id": "gta-6-cyberleek-update-everything-leaked-so-far-what-might-be-next-tech-2026-08-24t17-59-29-000z",
-      "title": "GTA 6 Cyberleek update: Everything leaked so far, what might be next",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY3F4ektQSnl5elZuV3dMVHpSM0lQZ3hmZVRDUHFzVGZ5T1I0QldxZFEyRlF3UHVqLTBMcVhYaUZZQjVxTjBlU3NqNzFCRU1aSTg2Tk5qbmFubUo3V0NfRzRXcHhQdVVHbzZfX2xremNQUGlUX0lXeU9idUVpT2gzbzMwTkVSZm9lYnRFOUZReUswTXEwY0FkYWZn?oc=5",
-      "summary": "GTA 6 Cyberleek update: Everything leaked so far, what might be next &nbsp;&nbsp; Mashable GTA 6 Cyberleek: Fans float leak conspiracy theories about marketing, possible in-game character &nbsp;&nbsp; Mashable Take-Two Subpoenas Microsoft...",
-      "image": "",
-      "source": "Mashable",
+      "id": "zillow-and-redfin-settle-ftc-antitrust-case-over-their-rental-listings-partnership-tech-2026-08-24t1",
+      "title": "Zillow and Redfin settle FTC antitrust case over their rental listings partnership",
+      "link": "https://www.theverge.com/policy/983864/zillow-redfin-ftc-settlement",
+      "summary": "The FTC and Zillow have announced a settlement that ends the case alleging that a 2025 \"partnership\" between Zillow and Redfin violated antitrust laws. The FTC had alleged Zillow agreed to pay Redfin to syndicate its listings, while Redfin...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STKS500_FTC_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
       "category": "tech",
       "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T17:59:29.000Z",
+      "publishedAt": "2026-08-24T17:01:05.000Z",
       "sources": [
         {
-          "name": "Mashable",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY3F4ektQSnl5elZuV3dMVHpSM0lQZ3hmZVRDUHFzVGZ5T1I0QldxZFEyRlF3UHVqLTBMcVhYaUZZQjVxTjBlU3NqNzFCRU1aSTg2Tk5qbmFubUo3V0NfRzRXcHhQdVVHbzZfX2xremNQUGlUX0lXeU9idUVpT2gzbzMwTkVSZm9lYnRFOUZReUswTXEwY0FkYWZn?oc=5",
-          "summary": "GTA 6 Cyberleek update: Everything leaked so far, what might be next &nbsp;&nbsp; Mashable GTA 6 Cyberleek: Fans float leak conspiracy theories about marketing, possible in-game character &nbsp;&nbsp; Mashable Take-Two Subpoenas Microsoft...",
-          "publishedAt": "2026-08-24T17:59:29.000Z"
+          "name": "The Verge",
+          "link": "https://www.theverge.com/policy/983864/zillow-redfin-ftc-settlement",
+          "summary": "The FTC and Zillow have announced a settlement that ends the case alleging that a 2025 \"partnership\" between Zillow and Redfin violated antitrust laws. The FTC had alleged Zillow agreed to pay Redfin to syndicate its listings, while Redfin...",
+          "publishedAt": "2026-08-24T17:01:05.000Z"
         }
       ],
       "sourceCount": 1
@@ -1067,26 +651,6 @@
           "link": "https://www.theverge.com/transportation/983765/robotaxi-waymo-zoox-tesla-rules-pushback-nhtsa",
           "summary": "Robotaxis are expanding. So is the fight over the rules governing them. In New York, Gov. Kathy Hochul withdrew a proposal earlier this year that would have opened the door to driverless robotaxis outside New York City after taxi drivers,...",
           "publishedAt": "2026-08-24T16:42:37.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "if-humans-visit-the-lunar-south-pole-microbes-we-leave-behind-may-survive-there-surprisingly-well-te",
-      "title": "If Humans Visit The Lunar South Pole, Microbes We Leave Behind May Survive There Surprisingly Well",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTFY3MWVZVDdjS0JQNkZmU3R1UUprZ0RjYkVXWHJOcDN2bzBobDBTdHJCWFV2R09NcFlMUlplT1RnQTRSaV9jZjBqcHRFeTUzN09VSWdaeURRRXl6ZFNLNDl6ZWF1RVRwRHl4RnU3bXVncnM3cElHbVhqOW44ZjdyV3JtNnhaNnh5WGd1dFdLdHJKRTkxdWY3bF9QNVhWd1hidk43eERIMk5KXzJBeUI0SkhhVkk2alF3OXRYdmc3Y2J6eGNCTlJNV2l3?oc=5",
-      "summary": "If Humans Visit The Lunar South Pole, Microbes We Leave Behind May Survive There Surprisingly Well &nbsp;&nbsp; IFLScience Human-Related Microbes May Survive Moon’s South Pole, NASA Finds &nbsp;&nbsp; NASA Science (.gov) Nasa maps Moon's s...",
-      "image": "",
-      "source": "IFLScience",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T16:30:17.000Z",
-      "sources": [
-        {
-          "name": "IFLScience",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTFY3MWVZVDdjS0JQNkZmU3R1UUprZ0RjYkVXWHJOcDN2bzBobDBTdHJCWFV2R09NcFlMUlplT1RnQTRSaV9jZjBqcHRFeTUzN09VSWdaeURRRXl6ZFNLNDl6ZWF1RVRwRHl4RnU3bXVncnM3cElHbVhqOW44ZjdyV3JtNnhaNnh5WGd1dFdLdHJKRTkxdWY3bF9QNVhWd1hidk43eERIMk5KXzJBeUI0SkhhVkk2alF3OXRYdmc3Y2J6eGNCTlJNV2l3?oc=5",
-          "summary": "If Humans Visit The Lunar South Pole, Microbes We Leave Behind May Survive There Surprisingly Well &nbsp;&nbsp; IFLScience Human-Related Microbes May Survive Moon’s South Pole, NASA Finds &nbsp;&nbsp; NASA Science (.gov) Nasa maps Moon's s...",
-          "publishedAt": "2026-08-24T16:30:17.000Z"
         }
       ],
       "sourceCount": 1
@@ -1152,26 +716,6 @@
       "sourceCount": 1
     },
     {
-      "id": "softbank-sells-rs-2-888-crore-worth-shares-in-lenskart-societe-generale-goldman-sachs-motilal-oswal",
-      "title": "SoftBank sells Rs 2,888 crore worth shares in Lenskart; Societe Generale, Goldman Sachs, Motilal Oswal...",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPdURCSjlLaU5jWmlCdXpxM0pSTGZyenBOSkVxWGJKclBqYzQ0WkpyWEYyVXFzY3lyYVNXY2Y1MGFQRTBVR0pkRDFvY1JsUzNHcW0tMXQzSHlhU2NoRDE4em5Nb3pZZmV5dFB5RzQ2R01ZV0NiVXNZSGtJVi1VT2ZUdWxOWEVqNk90eUVSS094MXRyMHBmX0ZZUU9NYnhjc3Z4SV9FUEFpaWpkd181WW5QWmthLXV6QzFHX0kzYVhXa3JMNHQ4TnZtTXdOMUM1YjNxa0Jmcnh4aGtpMmI5dFdSRW01ZmJ3ajdvdGhCTjRSLUpLR09oRUh4bC1UNlM5dWh2WDNMUkFnSjBJTDNB0gGSAkFVX3lxTE1ZbTZpd1RhSElCREFGaW9tS0M1Y19hN3Q0Qm5YSVJHdXV4Q1Q3dW9URm1BUlpjbjB6MUs2ZG5rZG9QdUgxal81bW9wWVB3WDZ6c2sxdlFKMUVSZTEyaXltQ3JpRVdESmtGVHk2THFBLVRJQXV6V184NlVNQktSX0pwVTlUZFpwZmhNYno5eFRDaENhckYzWm5uVHptQzBMNWZlc1lTTnIzLU4yUHhrY3hPNFVWbUlnLWR3T3NPODBObDV1aGlDSGlVN3pRZjk0amVWelhsT0Vvb19FOHJ5RkN0a21NbHZtRV9nck9kYUZubWdzcU5DYkM2ZlBpOXhRZFN1Q1cwUEkwMVBqR1N1ZVpJV0E?oc=5",
-      "summary": "SoftBank sells Rs 2,888 crore worth shares in Lenskart; Societe Generale, Goldman Sachs, Motilal Oswal... &nbsp;&nbsp; Moneycontrol.com SoftBank sells Lenskart shares worth Rs 2,888 crore, aggregate returns at 5.7x &nbsp;&nbsp; The Economi...",
-      "image": "",
-      "source": "Moneycontrol.com",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-08-24T15:23:03.000Z",
-      "sources": [
-        {
-          "name": "Moneycontrol.com",
-          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPdURCSjlLaU5jWmlCdXpxM0pSTGZyenBOSkVxWGJKclBqYzQ0WkpyWEYyVXFzY3lyYVNXY2Y1MGFQRTBVR0pkRDFvY1JsUzNHcW0tMXQzSHlhU2NoRDE4em5Nb3pZZmV5dFB5RzQ2R01ZV0NiVXNZSGtJVi1VT2ZUdWxOWEVqNk90eUVSS094MXRyMHBmX0ZZUU9NYnhjc3Z4SV9FUEFpaWpkd181WW5QWmthLXV6QzFHX0kzYVhXa3JMNHQ4TnZtTXdOMUM1YjNxa0Jmcnh4aGtpMmI5dFdSRW01ZmJ3ajdvdGhCTjRSLUpLR09oRUh4bC1UNlM5dWh2WDNMUkFnSjBJTDNB0gGSAkFVX3lxTE1ZbTZpd1RhSElCREFGaW9tS0M1Y19hN3Q0Qm5YSVJHdXV4Q1Q3dW9URm1BUlpjbjB6MUs2ZG5rZG9QdUgxal81bW9wWVB3WDZ6c2sxdlFKMUVSZTEyaXltQ3JpRVdESmtGVHk2THFBLVRJQXV6V184NlVNQktSX0pwVTlUZFpwZmhNYno5eFRDaENhckYzWm5uVHptQzBMNWZlc1lTTnIzLU4yUHhrY3hPNFVWbUlnLWR3T3NPODBObDV1aGlDSGlVN3pRZjk0amVWelhsT0Vvb19FOHJ5RkN0a21NbHZtRV9nck9kYUZubWdzcU5DYkM2ZlBpOXhRZFN1Q1cwUEkwMVBqR1N1ZVpJV0E?oc=5",
-          "summary": "SoftBank sells Rs 2,888 crore worth shares in Lenskart; Societe Generale, Goldman Sachs, Motilal Oswal... &nbsp;&nbsp; Moneycontrol.com SoftBank sells Lenskart shares worth Rs 2,888 crore, aggregate returns at 5.7x &nbsp;&nbsp; The Economi...",
-          "publishedAt": "2026-08-24T15:23:03.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "is-uk-s-storm-shadow-missile-a-game-changer-for-ukraine-general-2026-08-24t15-14-14-000z",
       "title": "Is UK's Storm Shadow missile a game changer for Ukraine?",
       "link": "https://www.bbc.co.uk/news/videos/cx2znjly4dno?at_medium=RSS&at_campaign=rss",
@@ -1232,66 +776,6 @@
       "sourceCount": 1
     },
     {
-      "id": "india-vs-argentina-highlights-men-s-hockey-world-cup-2026-ind-3-5-arg-harmanpreet-and-co-knocked-out",
-      "title": "India vs Argentina Highlights, Men's Hockey World Cup 2026: IND 3-5 ARG; Harmanpreet and Co. knocked out",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTkxSdFZXcTNqQW5mbkxWUHBEVmFLUkdFamNnVV9jQnVkUXY0dndfN042TEFVQW83bjQ2cUljajIxMnZsUjhQZ3BnTjA3b1BkME0zMnpSSXVnUDg5bUlGQkhBaUJvdnhUTHgwR0EtUjF6XzRBOU41UmxNTWlYdV82ZDh1YWh3NklDYllqTzVzbEttUVlsSnF3NkFDRXBOM1pWd1piLWljeE5SLUYzbEN3a3phUXFWNllEUGxFNVc1LVctMUhXN29WLXdhWlY3dWlmeGNoZmRn0gHcAUFVX3lxTFBqbk1yTTllTndZVk1sbUlMekpEU3hIdTl0YjZ3b1F2ZC1qLVNoUEx0d25IYjRkZThYQ1RlaTU1OGtHaDlfdjVHRXpvb080RlY0VGZkLWVrMGpyWHBRRDhMOTdqZkxFVVBlcW1vRWprVjhtR3l3amdrV05TTWNybUZHN205NE9ibjNzSDhwX2tFaHNad2NnYkx0ejZGVlhVSkoyd2lJbGx5OVNGaUZrcWVoQlpvcllZWGZDMFJCMVliT1l2Vzl5QjU1N2hrNDRoVUZRTTExRzhMZHgySE4?oc=5",
-      "summary": "India vs Argentina Highlights, Men's Hockey World Cup 2026: IND 3-5 ARG; Harmanpreet and Co. knocked out &nbsp;&nbsp; Sportstar India vs Argentina LIVE in FIH Men's World Cup: Scores, updates, commentary, news &nbsp;&nbsp; espn.in India's...",
-      "image": "",
-      "source": "Sportstar",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-08-24T14:31:49.000Z",
-      "sources": [
-        {
-          "name": "Sportstar",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTkxSdFZXcTNqQW5mbkxWUHBEVmFLUkdFamNnVV9jQnVkUXY0dndfN042TEFVQW83bjQ2cUljajIxMnZsUjhQZ3BnTjA3b1BkME0zMnpSSXVnUDg5bUlGQkhBaUJvdnhUTHgwR0EtUjF6XzRBOU41UmxNTWlYdV82ZDh1YWh3NklDYllqTzVzbEttUVlsSnF3NkFDRXBOM1pWd1piLWljeE5SLUYzbEN3a3phUXFWNllEUGxFNVc1LVctMUhXN29WLXdhWlY3dWlmeGNoZmRn0gHcAUFVX3lxTFBqbk1yTTllTndZVk1sbUlMekpEU3hIdTl0YjZ3b1F2ZC1qLVNoUEx0d25IYjRkZThYQ1RlaTU1OGtHaDlfdjVHRXpvb080RlY0VGZkLWVrMGpyWHBRRDhMOTdqZkxFVVBlcW1vRWprVjhtR3l3amdrV05TTWNybUZHN205NE9ibjNzSDhwX2tFaHNad2NnYkx0ejZGVlhVSkoyd2lJbGx5OVNGaUZrcWVoQlpvcllZWGZDMFJCMVliT1l2Vzl5QjU1N2hrNDRoVUZRTTExRzhMZHgySE4?oc=5",
-          "summary": "India vs Argentina Highlights, Men's Hockey World Cup 2026: IND 3-5 ARG; Harmanpreet and Co. knocked out &nbsp;&nbsp; Sportstar India vs Argentina LIVE in FIH Men's World Cup: Scores, updates, commentary, news &nbsp;&nbsp; espn.in India's...",
-          "publishedAt": "2026-08-24T14:31:49.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "hindustan-copper-govt-to-sell-up-to-6-stake-via-ofs-check-floor-price-details-business-2026-08-24t14",
-      "title": "Hindustan Copper: Govt to sell up to 6% stake via OFS; check floor price details",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMW9qWmFxS2N1dktwV0Z2ZW5zbnZlNEFpTzN1b1FXR0h5TXJnSDJ4YXZPdW5zcGtKLW9WNHJ3c2tudmJ1R0NCWlB3cUItcWVqeFJRSmlLU1c4NVAtRWowQlAwSldETzFTSnoxQTZkNWh1dXB5MDFlRWV0b2VtMHd6clJSOG9waWs2NTFsZFV1Q1RlSlRSNG05b0ZkeHNqb3pHanpHU01yRVN2Tkx3UHhSSGtsNmdHWnZQODlHY3Y0U1F1T0FrSzlLUkV4SDNwTXFDTlJ4VWhQUVlHMkhIbERVV3dvNU4wOG5Hb1k4?oc=5",
-      "summary": "Hindustan Copper: Govt to sell up to 6% stake via OFS; check floor price details &nbsp;&nbsp; Upstox India to sell up to 6% stake in Hindustan Copper via OFS &nbsp;&nbsp; Reuters Govt to sell up to 6% stake in Hindustan Copper via OFS; flo...",
-      "image": "",
-      "source": "Upstox",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-08-24T14:24:25.000Z",
-      "sources": [
-        {
-          "name": "Upstox",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMW9qWmFxS2N1dktwV0Z2ZW5zbnZlNEFpTzN1b1FXR0h5TXJnSDJ4YXZPdW5zcGtKLW9WNHJ3c2tudmJ1R0NCWlB3cUItcWVqeFJRSmlLU1c4NVAtRWowQlAwSldETzFTSnoxQTZkNWh1dXB5MDFlRWV0b2VtMHd6clJSOG9waWs2NTFsZFV1Q1RlSlRSNG05b0ZkeHNqb3pHanpHU01yRVN2Tkx3UHhSSGtsNmdHWnZQODlHY3Y0U1F1T0FrSzlLUkV4SDNwTXFDTlJ4VWhQUVlHMkhIbERVV3dvNU4wOG5Hb1k4?oc=5",
-          "summary": "Hindustan Copper: Govt to sell up to 6% stake via OFS; check floor price details &nbsp;&nbsp; Upstox India to sell up to 6% stake in Hindustan Copper via OFS &nbsp;&nbsp; Reuters Govt to sell up to 6% stake in Hindustan Copper via OFS; flo...",
-          "publishedAt": "2026-08-24T14:24:25.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "lava-virat-v1-pro-5g-launches-with-120hz-screen-6-000-mah-battery-low-price-gsmarena-com-news-tech-2",
-      "title": "Lava Virat V1 Pro 5G launches with 120Hz screen, 6,000 mAh battery, low price - GSMArena.com news",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTUZGSUNjS2FzSWN5NmdIOUdSRDFXNDBTSEQ1QXFZZ2NMd1EyNDR6RDBQVjlYUUVaZklSUWl1U0lENGI4NGJEazRnS3RIcW1Za0NWSHlpdGpXWUtfamVxR0FqaGFsVUZFc1N4Vk8wZ1A4SWRrMU9WelZORktnb1g2U3hmTjlFM21BQ1Zwekh5YTkzb25wMUxyZnFuUmg0NTExMjNzY2FBMmhCSy1tZDEyRVBoeTfSAbABQVVfeXFMT2Z6Z1Q4a25COUI4VlVQNnFkRzlVWU5vTWx3bUZfRFdvc0J6YU9CRDlmTGFxUWtYUG5hMlhoOFJreFA2eEg1Q3Nmb2NUTjNvdnNOYVdCQVU2RExwdlpGdWQwbVZla011MjRTb2YtbG9nUTJrNzh2QUdNTDFyeGtycEE1djFIMDBUY3l3MzA5UmxGal9Ib1c3WXlPdE5qOTdUampUUlE1eUp5ZjhhYmtFdTY?oc=5",
-      "summary": "Lava Virat V1 Pro 5G launches with 120Hz screen, 6,000 mAh battery, low price - GSMArena.com news &nbsp;&nbsp; GSMArena.com Lava Virat V1 Pro smartphone with 6000 mAh battery, 50MP camera launched in India: Price, specs and more &nbsp;&nbs...",
-      "image": "",
-      "source": "GSMArena.com",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T14:06:02.000Z",
-      "sources": [
-        {
-          "name": "GSMArena.com",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTUZGSUNjS2FzSWN5NmdIOUdSRDFXNDBTSEQ1QXFZZ2NMd1EyNDR6RDBQVjlYUUVaZklSUWl1U0lENGI4NGJEazRnS3RIcW1Za0NWSHlpdGpXWUtfamVxR0FqaGFsVUZFc1N4Vk8wZ1A4SWRrMU9WelZORktnb1g2U3hmTjlFM21BQ1Zwekh5YTkzb25wMUxyZnFuUmg0NTExMjNzY2FBMmhCSy1tZDEyRVBoeTfSAbABQVVfeXFMT2Z6Z1Q4a25COUI4VlVQNnFkRzlVWU5vTWx3bUZfRFdvc0J6YU9CRDlmTGFxUWtYUG5hMlhoOFJreFA2eEg1Q3Nmb2NUTjNvdnNOYVdCQVU2RExwdlpGdWQwbVZla011MjRTb2YtbG9nUTJrNzh2QUdNTDFyeGtycEE1djFIMDBUY3l3MzA5UmxGal9Ib1c3WXlPdE5qOTdUampUUlE1eUp5ZjhhYmtFdTY?oc=5",
-          "summary": "Lava Virat V1 Pro 5G launches with 120Hz screen, 6,000 mAh battery, low price - GSMArena.com news &nbsp;&nbsp; GSMArena.com Lava Virat V1 Pro smartphone with 6000 mAh battery, 50MP camera launched in India: Price, specs and more &nbsp;&nbs...",
-          "publishedAt": "2026-08-24T14:06:02.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "apple-s-four-pack-of-second-gen-airtags-is-20-off-tech-2026-08-24t14-04-04-000z",
       "title": "Apple’s four-pack of second-gen AirTags is $20 off",
       "link": "https://www.theverge.com/gadgets/983726/apple-airtags-second-gen-four-pack-elgato-stream-deck-switch-2-deal-sale",
@@ -1327,46 +811,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cgrvjn88rxqo?at_medium=RSS&at_campaign=rss",
           "summary": "Preparations for President Hakainde Hichilema's second inauguration appear to be continuing.",
           "publishedAt": "2026-08-24T14:02:17.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "on-this-day-in-space-aug-24-2006-pluto-loses-its-planet-status-tech-2026-08-24t14-00-00-000z",
-      "title": "On this day in space! Aug. 24, 2006: Pluto loses its planet status",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVDczVGxVLUp6aW9xdW9ZZWktc1ZqU1VBcnhJS2N5QmRSdDVhcS1PenR3LUc5aThqdFJ5aDI4eE9EOHRNWV81eEtUN2tzMk1nQXp0Z3BkcE1RQTZGdHV3bWcxNm9WeFBhQk5MMkJ0dFB0YjdHRDZCR3BENFU2VVJoNFFBazlLaFhNc1o5bnVHdUhpVTNzYWh6anp6MG8yMWdia3c?oc=5",
-      "summary": "On this day in space! Aug. 24, 2006: Pluto loses its planet status &nbsp;&nbsp; Space It's been 20 years since Pluto lost planet status. Will it ever get its title back? &nbsp;&nbsp; Space Twenty Years After Pluto’s Demotion, the Story of...",
-      "image": "",
-      "source": "Space",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T14:00:00.000Z",
-      "sources": [
-        {
-          "name": "Space",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVDczVGxVLUp6aW9xdW9ZZWktc1ZqU1VBcnhJS2N5QmRSdDVhcS1PenR3LUc5aThqdFJ5aDI4eE9EOHRNWV81eEtUN2tzMk1nQXp0Z3BkcE1RQTZGdHV3bWcxNm9WeFBhQk5MMkJ0dFB0YjdHRDZCR3BENFU2VVJoNFFBazlLaFhNc1o5bnVHdUhpVTNzYWh6anp6MG8yMWdia3c?oc=5",
-          "summary": "On this day in space! Aug. 24, 2006: Pluto loses its planet status &nbsp;&nbsp; Space It's been 20 years since Pluto lost planet status. Will it ever get its title back? &nbsp;&nbsp; Space Twenty Years After Pluto’s Demotion, the Story of...",
-          "publishedAt": "2026-08-24T14:00:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "satellite-sees-greenland-s-most-significant-floating-ice-loss-in-over-a-decade-space-photo-of-the-da",
-      "title": "Satellite sees Greenland's most significant floating ice loss in over a decade | Space photo of the day for Aug. 24, 2026",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaE9hV2FKLXFVOWdLemNhdGNhaW1vbXRGeVNoY0lkaG1wZ3VtNkpJNTFqUVlMRW5HNVNMWXNWRC05OFJTamZBbGRUckFXMUhjUWtDeVpGZVU1cmRhU0ZZOGNmZ1NQWlpSbkpRSURwUzlmVWs4a2dVMGpFMXU3Q0Fsa1Z0Wk5kVXFCVTBCc3I1T096alhBS21jR210U1MxenM0ZzNZ?oc=5",
-      "summary": "Satellite sees Greenland's most significant floating ice loss in over a decade | Space photo of the day for Aug. 24, 2026 &nbsp;&nbsp; Yahoo Manhattan-sized iceberg just broke off greenland, marking Petermann glacier’s biggest ice loss sin...",
-      "image": "",
-      "source": "Yahoo",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T14:00:00.000Z",
-      "sources": [
-        {
-          "name": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaE9hV2FKLXFVOWdLemNhdGNhaW1vbXRGeVNoY0lkaG1wZ3VtNkpJNTFqUVlMRW5HNVNMWXNWRC05OFJTamZBbGRUckFXMUhjUWtDeVpGZVU1cmRhU0ZZOGNmZ1NQWlpSbkpRSURwUzlmVWs4a2dVMGpFMXU3Q0Fsa1Z0Wk5kVXFCVTBCc3I1T096alhBS21jR210U1MxenM0ZzNZ?oc=5",
-          "summary": "Satellite sees Greenland's most significant floating ice loss in over a decade | Space photo of the day for Aug. 24, 2026 &nbsp;&nbsp; Yahoo Manhattan-sized iceberg just broke off greenland, marking Petermann glacier’s biggest ice loss sin...",
-          "publishedAt": "2026-08-24T14:00:00.000Z"
         }
       ],
       "sourceCount": 1
@@ -1412,26 +856,6 @@
       "sourceCount": 1
     },
     {
-      "id": "trump-to-award-congressional-space-medal-of-honor-to-artemis-ii-astronauts-tech-2026-08-24t13-48-10",
-      "title": "Trump to award Congressional Space Medal of Honor to Artemis II astronauts",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ubHRVRE9HUnk5blZiOFFBQXlJQTcxYkVtazktSXdyUGl3aHdvdDl6U1J3c3plaTk4bnBBNmZsblI2cjFFRjloM05SemJDTjlwRmxoQzcwTXNodGZjeW1aSmRSQlg2TGUxa3plZGt0cw?oc=5",
-      "summary": "Trump to award Congressional Space Medal of Honor to Artemis II astronauts &nbsp;&nbsp; Science Daily Artemis II crew to receive top US space medal for historic lunar journey &nbsp;&nbsp; The Guardian NASA’s Artemis II Crew Set to Receive...",
-      "image": "",
-      "source": "Science Daily",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T13:48:10.000Z",
-      "sources": [
-        {
-          "name": "Science Daily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ubHRVRE9HUnk5blZiOFFBQXlJQTcxYkVtazktSXdyUGl3aHdvdDl6U1J3c3plaTk4bnBBNmZsblI2cjFFRjloM05SemJDTjlwRmxoQzcwTXNodGZjeW1aSmRSQlg2TGUxa3plZGt0cw?oc=5",
-          "summary": "Trump to award Congressional Space Medal of Honor to Artemis II astronauts &nbsp;&nbsp; Science Daily Artemis II crew to receive top US space medal for historic lunar journey &nbsp;&nbsp; The Guardian NASA’s Artemis II Crew Set to Receive...",
-          "publishedAt": "2026-08-24T13:48:10.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "netflix-reportedly-considers-opening-its-app-to-other-streamers-tech-2026-08-24t13-47-14-000z",
       "title": "Netflix reportedly considers opening its app to other streamers",
       "link": "https://www.theverge.com/streaming/983741/netflix-open-app-peacock-fox-one",
@@ -1447,66 +871,6 @@
           "link": "https://www.theverge.com/streaming/983741/netflix-open-app-peacock-fox-one",
           "summary": "Netflix executives have considered making third-party streaming services available within its app, according to a report from The New York Times. The recent discussions reportedly centered around bringing Peacock and Fox One to Netflix, th...",
           "publishedAt": "2026-08-24T13:47:14.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "india-s-tcs-to-buy-porsche-s-it-unit-bags-5-year-deal-worth-1-46-billion-business-2026-08-24t13-45-3",
-      "title": "India's TCS to buy Porsche's IT unit, bags 5-year deal worth $1.46 billion",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQi1WcUl5Q0FFRlRFVDN5TmtYV3dBUHpvYUhCRDJkSHdJNXotcnNMUjNMS1ljQ0VWMHJTbXQzRlZZUm91Q09oSXozRW5LZmc2V0dSdS01cVRMb3pseW0zNVUyc3RtMXJpckVVVV9yc1FDZngwV2tfaE83UWJKVnlnNHZxYVIzNG9yRzB2M0pfZ3dTa3BuWHc?oc=5",
-      "summary": "India's TCS to buy Porsche's IT unit, bags 5-year deal worth $1.46 billion &nbsp;&nbsp; Reuters TCS and Porsche AG Partner to Accelerate the Future of AI-Powered Mobility &nbsp;&nbsp; Tata Consultancy Services Porsche sells MHP to Tata Con...",
-      "image": "",
-      "source": "Reuters",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-08-24T13:45:32.000Z",
-      "sources": [
-        {
-          "name": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQi1WcUl5Q0FFRlRFVDN5TmtYV3dBUHpvYUhCRDJkSHdJNXotcnNMUjNMS1ljQ0VWMHJTbXQzRlZZUm91Q09oSXozRW5LZmc2V0dSdS01cVRMb3pseW0zNVUyc3RtMXJpckVVVV9yc1FDZngwV2tfaE83UWJKVnlnNHZxYVIzNG9yRzB2M0pfZ3dTa3BuWHc?oc=5",
-          "summary": "India's TCS to buy Porsche's IT unit, bags 5-year deal worth $1.46 billion &nbsp;&nbsp; Reuters TCS and Porsche AG Partner to Accelerate the Future of AI-Powered Mobility &nbsp;&nbsp; Tata Consultancy Services Porsche sells MHP to Tata Con...",
-          "publishedAt": "2026-08-24T13:45:32.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "major-garmin-launch-coming-tomorrow-garmin-fenix-9-expected-tech-2026-08-24t13-43-38-000z",
-      "title": "Major Garmin Launch Coming Tomorrow: Garmin Fenix 9 Expected",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX3VlWk5OclpWMmw4eFBfVGd0eTlFSVJQX0d5VUtjcENGRXA4VDhaNERVR1Qwd09Hbmd0Zlh5MXFoYzQ5eUxnVWVnbjZzbktjeVN4czNmelF4NE1MWldjUEVVb1J2eXVVQnFpQ3o2QlBvbHEtYzlTb0U1Q3ZRcWJkc0JPUEVwQU84UllYY3ZnaDhSNU84RjNnSmNQMHowd1J0d0tsWnl6YkpVZGlsU3liSW5vVWI3QQ?oc=5",
-      "summary": "Major Garmin Launch Coming Tomorrow: Garmin Fenix 9 Expected &nbsp;&nbsp; Forbes Garmin teases August global release for new rugged smartwatches with seawater resistance &nbsp;&nbsp; Notebookcheck Leaked Fenix 9 Product Images Match the SK...",
-      "image": "",
-      "source": "Forbes",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T13:43:38.000Z",
-      "sources": [
-        {
-          "name": "Forbes",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX3VlWk5OclpWMmw4eFBfVGd0eTlFSVJQX0d5VUtjcENGRXA4VDhaNERVR1Qwd09Hbmd0Zlh5MXFoYzQ5eUxnVWVnbjZzbktjeVN4czNmelF4NE1MWldjUEVVb1J2eXVVQnFpQ3o2QlBvbHEtYzlTb0U1Q3ZRcWJkc0JPUEVwQU84UllYY3ZnaDhSNU84RjNnSmNQMHowd1J0d0tsWnl6YkpVZGlsU3liSW5vVWI3QQ?oc=5",
-          "summary": "Major Garmin Launch Coming Tomorrow: Garmin Fenix 9 Expected &nbsp;&nbsp; Forbes Garmin teases August global release for new rugged smartwatches with seawater resistance &nbsp;&nbsp; Notebookcheck Leaked Fenix 9 Product Images Match the SK...",
-          "publishedAt": "2026-08-24T13:43:38.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "us-plans-massive-hike-in-h-1b-visa-fee-indians-brace-for-big-impact-general-2026-08-24t13-26-55-000z",
-      "title": "US Plans Massive Hike In H-1B Visa Fee, Indians Brace For Big Impact",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeVdCZkxJOXMyX1VDVm1nSDVLUjd3bFRtQVgxZThsRnJNZFNKOVhlR3JlZHU3dDVZNmVRb0EtV3E5dmQxMVZfMk0zOWdOb1h3N0tvcXIxN1JCcmtZN2Z1WEJzckZEQ3RNQTRHTlVqQk5KR2tGdk5od0tnVDUxR2xJTl9QNjJvNEFtMTk0N05Ud1AxTXMxSi1vRTJyb1FaT08zMzJ4NFduYVV1UEZ0?oc=5",
-      "summary": "US Plans Massive Hike In H-1B Visa Fee, Indians Brace For Big Impact &nbsp;&nbsp; NDTV Trump administration moves to impose more than $100,000 fee for H-1B worker visas &nbsp;&nbsp; The Hindu US proposes $103,265 H-1B fee: Hiring set to be...",
-      "image": "",
-      "source": "NDTV",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-24T13:26:55.000Z",
-      "sources": [
-        {
-          "name": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeVdCZkxJOXMyX1VDVm1nSDVLUjd3bFRtQVgxZThsRnJNZFNKOVhlR3JlZHU3dDVZNmVRb0EtV3E5dmQxMVZfMk0zOWdOb1h3N0tvcXIxN1JCcmtZN2Z1WEJzckZEQ3RNQTRHTlVqQk5KR2tGdk5od0tnVDUxR2xJTl9QNjJvNEFtMTk0N05Ud1AxTXMxSi1vRTJyb1FaT08zMzJ4NFduYVV1UEZ0?oc=5",
-          "summary": "US Plans Massive Hike In H-1B Visa Fee, Indians Brace For Big Impact &nbsp;&nbsp; NDTV Trump administration moves to impose more than $100,000 fee for H-1B worker visas &nbsp;&nbsp; The Hindu US proposes $103,265 H-1B fee: Hiring set to be...",
-          "publishedAt": "2026-08-24T13:26:55.000Z"
         }
       ],
       "sourceCount": 1
@@ -1532,180 +896,20 @@
       "sourceCount": 1
     },
     {
-      "id": "duleep-trophy-abid-mushtaq-arshdeep-singh-help-north-zone-surge-ahead-sports-2026-08-24t13-07-36-000",
-      "title": "Duleep Trophy: Abid Mushtaq, Arshdeep Singh help North Zone surge ahead",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeThOdDU4QmEweGV0YlU2ajhqSndaZnFlWk55NVFTOWF6VkVGbGFyTFlyR3A0REFyQmYyWGdkRWJ2Z2docGU0TE1QWWl0T3ZCdHlsRE1mM1YxUDZ6anR3Y0k2aThpbnRtYmtCUXJFME1FblNoRTFmdzFOckRDUTZ5cmFDdjVzcmlyVG5HeEZmRFpXaURSX2NxSUJEb0FJWkZ6eUJDZEJkbnUzWFV4aDJIVW5MOTQ?oc=5",
-      "summary": "Duleep Trophy: Abid Mushtaq, Arshdeep Singh help North Zone surge ahead &nbsp;&nbsp; Cricbuzz Duleep Trophy: Kotian, Deshpande bowl North Zone out for 251 &nbsp;&nbsp; Cricbuzz I believe in speed and staying straight: Abid Mushtaq &nbsp;&n...",
+      "id": "advancing-price-performance-for-developers-with-gpt-5-6-in-kiro-ai-2026-08-24t12-00-00-000z",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "link": "https://openai.com/index/gpt-5-6-in-kiro",
+      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
       "image": "",
-      "source": "Cricbuzz",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-08-24T13:07:36.000Z",
-      "sources": [
-        {
-          "name": "Cricbuzz",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeThOdDU4QmEweGV0YlU2ajhqSndaZnFlWk55NVFTOWF6VkVGbGFyTFlyR3A0REFyQmYyWGdkRWJ2Z2docGU0TE1QWWl0T3ZCdHlsRE1mM1YxUDZ6anR3Y0k2aThpbnRtYmtCUXJFME1FblNoRTFmdzFOckRDUTZ5cmFDdjVzcmlyVG5HeEZmRFpXaURSX2NxSUJEb0FJWkZ6eUJDZEJkbnUzWFV4aDJIVW5MOTQ?oc=5",
-          "summary": "Duleep Trophy: Abid Mushtaq, Arshdeep Singh help North Zone surge ahead &nbsp;&nbsp; Cricbuzz Duleep Trophy: Kotian, Deshpande bowl North Zone out for 251 &nbsp;&nbsp; Cricbuzz I believe in speed and staying straight: Abid Mushtaq &nbsp;&n...",
-          "publishedAt": "2026-08-24T13:07:36.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "man-utd-exposed-michael-carrick-s-dodgy-calls-in-awful-hull-defeat-and-problem-position-not-solved-f",
-      "title": "Man Utd Exposed: Michael Carrick's dodgy calls in awful Hull defeat and problem position not solved for 20 years",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWV94aEgzTXFyVlFmUnM3TDJLc1JhVWlSSFNFQ0JRX2FKVVlsM056MmFNNk5KbFFleDdtWlFBVWhVMWFWWXRxdzFETy0zMkltMGxoaXVYc2NjWWkwSDlBdHR1V1dFeUhJby1ucDVCc0ozRWdCVXVtbW9uS2lDQV9Lb29yQWtCenV6TzdMdVlQWFpXYjlCSXo4bW95MWpjQQ?oc=5",
-      "summary": "Man Utd Exposed: Michael Carrick's dodgy calls in awful Hull defeat and problem position not solved for 20 years &nbsp;&nbsp; The Sun Premier League: Manchester United, Tottenham Hotspur suffer shock defeats in season opener &nbsp;&nbsp; T...",
-      "image": "",
-      "source": "The Sun",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-08-24T13:03:00.000Z",
-      "sources": [
-        {
-          "name": "The Sun",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWV94aEgzTXFyVlFmUnM3TDJLc1JhVWlSSFNFQ0JRX2FKVVlsM056MmFNNk5KbFFleDdtWlFBVWhVMWFWWXRxdzFETy0zMkltMGxoaXVYc2NjWWkwSDlBdHR1V1dFeUhJby1ucDVCc0ozRWdCVXVtbW9uS2lDQV9Lb29yQWtCenV6TzdMdVlQWFpXYjlCSXo4bW95MWpjQQ?oc=5",
-          "summary": "Man Utd Exposed: Michael Carrick's dodgy calls in awful Hull defeat and problem position not solved for 20 years &nbsp;&nbsp; The Sun Premier League: Manchester United, Tottenham Hotspur suffer shock defeats in season opener &nbsp;&nbsp; T...",
-          "publishedAt": "2026-08-24T13:03:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "meet-esa-astronaut-sophie-adenot-the-first-french-woman-to-walk-in-space-tech-2026-08-24t13-02-43-00",
-      "title": "Meet ESA Astronaut Sophie Adenot, the First French Woman to Walk in Space",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMnlCZExNSFlPZ2RZOEtreWVfSjVwVTBPWGptc1lsVTJIR3MxNjduOGJaOVNPNWhWczlPM2dDcHVYX3hOZGFNX2dCRTgyOXMwSlo2NXk0VkY5dWQ3T245ZEJYYW95eDQ3cEdkaGdIMUg0NmxqeENPanlVbXo0ejhkaThIdy1IeXk1Y0lxR2szNFU3YzU5MHhYa002R1c0NVIxcEZDbnhhNmtld1nSAbIBQVVfeXFMTTNXcGd5TXFjT1kzM3ZZSVZIV21rM0VNU0ZmVmhxNGlKa0s2dGhzNk54UDdPNDJwVldpT0JiTzBiaFppb2RoUlhvUTg4VWhVb3pzWmoxd3YwYkgzUlhGUTBMMGdYQzhQWkNBUUhlcUdXS3V6cXhYbUcybDdhRnE0dW1uT3dOOEU2UEJUU19NeUdiYUtQODB6cUFmc0hwbnpJVHRndHQ3X2hvcnVRTlhiUHZMUQ?oc=5",
-      "summary": "Meet ESA Astronaut Sophie Adenot, the First French Woman to Walk in Space &nbsp;&nbsp; Jagran Josh Spacewalk Preps Continue to Finish Antenna Installation Job Next Week &nbsp;&nbsp; NASA (.gov) Watch Sophie Adenot’s second spacewalk live &...",
-      "image": "",
-      "source": "Jagran Josh",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T13:02:43.000Z",
-      "sources": [
-        {
-          "name": "Jagran Josh",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMnlCZExNSFlPZ2RZOEtreWVfSjVwVTBPWGptc1lsVTJIR3MxNjduOGJaOVNPNWhWczlPM2dDcHVYX3hOZGFNX2dCRTgyOXMwSlo2NXk0VkY5dWQ3T245ZEJYYW95eDQ3cEdkaGdIMUg0NmxqeENPanlVbXo0ejhkaThIdy1IeXk1Y0lxR2szNFU3YzU5MHhYa002R1c0NVIxcEZDbnhhNmtld1nSAbIBQVVfeXFMTTNXcGd5TXFjT1kzM3ZZSVZIV21rM0VNU0ZmVmhxNGlKa0s2dGhzNk54UDdPNDJwVldpT0JiTzBiaFppb2RoUlhvUTg4VWhVb3pzWmoxd3YwYkgzUlhGUTBMMGdYQzhQWkNBUUhlcUdXS3V6cXhYbUcybDdhRnE0dW1uT3dOOEU2UEJUU19NeUdiYUtQODB6cUFmc0hwbnpJVHRndHQ3X2hvcnVRTlhiUHZMUQ?oc=5",
-          "summary": "Meet ESA Astronaut Sophie Adenot, the First French Woman to Walk in Space &nbsp;&nbsp; Jagran Josh Spacewalk Preps Continue to Finish Antenna Installation Job Next Week &nbsp;&nbsp; NASA (.gov) Watch Sophie Adenot’s second spacewalk live &...",
-          "publishedAt": "2026-08-24T13:02:43.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "jurel-ton-early-sl-wickets-rubber-stamp-india-s-dominance-in-colombo-test-sports-2026-08-24t12-55-33",
-      "title": "Jurel ton, early SL wickets rubber-stamp India's dominance in Colombo Test",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOREVZM0Q0LUgzd1g5VWdPNGpmSTVOTlgtRXVQc2xEVDY2WlpZaklSU29fa1RRWGxrT0RIekpOSWl1ZThkbWRMRHVXaWd5NDY3cmRBM2NMajFKRGJPX2p3aUVyRkNkNVdtV3NDMlFqX0NTT1hpUkpqN0U3eVNCV2IwMGpUbHk1eG5EaE8xZEptQy1ua1RnSExGUTBOWWdZMDhpN1FzQjJfM09lelZycXBsU0VnTV9idVlW?oc=5",
-      "summary": "Jurel ton, early SL wickets rubber-stamp India's dominance in Colombo Test &nbsp;&nbsp; Cricbuzz How Jurel scores unobtrusive runs with old-world charm &nbsp;&nbsp; Cricinfo Sri Lanka vs India, 2nd Test, Day 2 feature: The value of Dhruv J...",
-      "image": "",
-      "source": "Cricbuzz",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-08-24T12:55:33.000Z",
-      "sources": [
-        {
-          "name": "Cricbuzz",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOREVZM0Q0LUgzd1g5VWdPNGpmSTVOTlgtRXVQc2xEVDY2WlpZaklSU29fa1RRWGxrT0RIekpOSWl1ZThkbWRMRHVXaWd5NDY3cmRBM2NMajFKRGJPX2p3aUVyRkNkNVdtV3NDMlFqX0NTT1hpUkpqN0U3eVNCV2IwMGpUbHk1eG5EaE8xZEptQy1ua1RnSExGUTBOWWdZMDhpN1FzQjJfM09lelZycXBsU0VnTV9idVlW?oc=5",
-          "summary": "Jurel ton, early SL wickets rubber-stamp India's dominance in Colombo Test &nbsp;&nbsp; Cricbuzz How Jurel scores unobtrusive runs with old-world charm &nbsp;&nbsp; Cricinfo Sri Lanka vs India, 2nd Test, Day 2 feature: The value of Dhruv J...",
-          "publishedAt": "2026-08-24T12:55:33.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "partial-lunar-eclipse-aug-27-28-live-updates-3-days-to-go-here-s-what-you-need-to-know-tech-2026-08",
-      "title": "Partial lunar eclipse Aug. 27-28 live updates: 3 days to go, here's what you need to know",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcXE5MEdRaXNjRExTQV9VaXRoZnRhb3JIYXE0WW0wa1VXaVR3RjhXbHNnWDZKSXVsdFF2RllPU3N3VWRyZExVTEsyZmJVQ1ozSzI0cngxMXV4bGxJdGVHS0hrY0RlSFZjd1FtWEpqOXplSGkyOUx5WllfOTFpSUtha3JEZTdFS0c1anpVNXlxb3c2c1FrWlRrOUJOYzJVbjkzcndoUE9hYlNGdw?oc=5",
-      "summary": "Partial lunar eclipse Aug. 27-28 live updates: 3 days to go, here's what you need to know &nbsp;&nbsp; Space Near-total lunar eclipse is coming up with the Americas in prime position &nbsp;&nbsp; Phys.org Starwatch: Lunar eclipse to reward...",
-      "image": "",
-      "source": "Space",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T12:45:05.000Z",
-      "sources": [
-        {
-          "name": "Space",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcXE5MEdRaXNjRExTQV9VaXRoZnRhb3JIYXE0WW0wa1VXaVR3RjhXbHNnWDZKSXVsdFF2RllPU3N3VWRyZExVTEsyZmJVQ1ozSzI0cngxMXV4bGxJdGVHS0hrY0RlSFZjd1FtWEpqOXplSGkyOUx5WllfOTFpSUtha3JEZTdFS0c1anpVNXlxb3c2c1FrWlRrOUJOYzJVbjkzcndoUE9hYlNGdw?oc=5",
-          "summary": "Partial lunar eclipse Aug. 27-28 live updates: 3 days to go, here's what you need to know &nbsp;&nbsp; Space Near-total lunar eclipse is coming up with the Americas in prime position &nbsp;&nbsp; Phys.org Starwatch: Lunar eclipse to reward...",
-          "publishedAt": "2026-08-24T12:45:05.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "putin-credits-pm-modi-for-growing-russia-india-trade-in-talks-with-eam-jaishankar-general-2026-08-24",
-      "title": "Putin credits PM Modi for growing Russia-India trade in talks with EAM Jaishankar",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNVnRreE5XYjBQUmVPNWxHM2VoUDlYalBEQk5uOFhkNk5GUXdKX0w1MHVhY1kzUGMyVVpUMXVnQ2FvMHg4TFoyYTZVSHkwckliM0lzZV9iUEtNYkNJVGZvRTVlYjRhN2xTZ2trNWo3bXFRMFRaeGY4Q3RLZlRCRFF6N25iMFlkbHI3VmtZUTJYUU9KelFrYnRaek9KbkJMdlo2NFVXeVV0dzh5cDRDSzExalVNMGs0a0ZmaThyUVBNS3ZQOWJCa0VJZkpWLVBfdkpkQUliWWY1YUMwcThOcXBEU3YzdDNseGI5RnkzRUVqazh4ckg2WkMzOGNRaDFFWmhwQUgtdXgtb1RjNjA?oc=5",
-      "summary": "Putin credits PM Modi for growing Russia-India trade in talks with EAM Jaishankar &nbsp;&nbsp; The Times of India \"Handed Over Personal Message From PM Modi\": S Jaishankar Meets Putin In Moscow &nbsp;&nbsp; NDTV Jaishankar meets Russian Pr...",
-      "image": "",
-      "source": "The Times of India",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-24T12:37:00.000Z",
-      "sources": [
-        {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNVnRreE5XYjBQUmVPNWxHM2VoUDlYalBEQk5uOFhkNk5GUXdKX0w1MHVhY1kzUGMyVVpUMXVnQ2FvMHg4TFoyYTZVSHkwckliM0lzZV9iUEtNYkNJVGZvRTVlYjRhN2xTZ2trNWo3bXFRMFRaeGY4Q3RLZlRCRFF6N25iMFlkbHI3VmtZUTJYUU9KelFrYnRaek9KbkJMdlo2NFVXeVV0dzh5cDRDSzExalVNMGs0a0ZmaThyUVBNS3ZQOWJCa0VJZkpWLVBfdkpkQUliWWY1YUMwcThOcXBEU3YzdDNseGI5RnkzRUVqazh4ckg2WkMzOGNRaDFFWmhwQUgtdXgtb1RjNjA?oc=5",
-          "summary": "Putin credits PM Modi for growing Russia-India trade in talks with EAM Jaishankar &nbsp;&nbsp; The Times of India \"Handed Over Personal Message From PM Modi\": S Jaishankar Meets Putin In Moscow &nbsp;&nbsp; NDTV Jaishankar meets Russian Pr...",
-          "publishedAt": "2026-08-24T12:37:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "bjp-chief-nitin-nabin-delhi-cm-rekha-gupta-get-a-taste-of-waterlogging-at-talkatora-stadium-general",
-      "title": "BJP chief Nitin Nabin, Delhi CM Rekha Gupta get a taste of waterlogging at Talkatora Stadium",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMmpyQ3hVajRxdE5QeVJDSkwwZWVCR1h5b1ZsVTZMdVZVYTNmZUkwNWZkdFA0cjJKa3Y0VWI3bUI4Qk9uZ3E4eHlNNmdXUUlWSjhvRmsyNXNpUUhFTHh1V2FUM2pTbXBHci12Um1sWEQ1NXhDaTdaTlRPS1VsbzBqOUVuaURITHZzNERCQXlIbXYzSHRiOVR0VVBjd1JsekdCeHpmUjB5aG1abGpxTlRqMThyQjNBdnBsSV9NMG9OT1NrLVRIYTNOX1lsY2fSAdABQVVfeXFMUHpnZjVUbnJ5NXQwWmFkZWplZlFZekFITlh1ellna2F5ZlNLSkUyYnJIQ0FVMWt3NUgySzdhdXpaNVVzQzByZlBnMlpGYmRfVjJGOUZXVlgtbmRnNUh6dE0yWXJSdHlJOU41UUMtVG4zVFpFang1WjZVdlZYbEtGTWZkcFVORERsTFlVUDI1NFkxNlFkRklsRnpibFBsXzRfUWZpNDZ5dWpzU1ZHUTBVcUNxUXFTZ3UyVF9lNjhFYlpkWkpDdXhsRU5SWUVnbGxxRg?oc=5",
-      "summary": "BJP chief Nitin Nabin, Delhi CM Rekha Gupta get a taste of waterlogging at Talkatora Stadium &nbsp;&nbsp; The Tribune PM taking forward Sant Ravidas’s ideals of social harmony: BJP president &nbsp;&nbsp; The Hindu Kishan Reddy Invokes Ambe...",
-      "image": "",
-      "source": "The Tribune",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-24T12:31:16.000Z",
-      "sources": [
-        {
-          "name": "The Tribune",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMmpyQ3hVajRxdE5QeVJDSkwwZWVCR1h5b1ZsVTZMdVZVYTNmZUkwNWZkdFA0cjJKa3Y0VWI3bUI4Qk9uZ3E4eHlNNmdXUUlWSjhvRmsyNXNpUUhFTHh1V2FUM2pTbXBHci12Um1sWEQ1NXhDaTdaTlRPS1VsbzBqOUVuaURITHZzNERCQXlIbXYzSHRiOVR0VVBjd1JsekdCeHpmUjB5aG1abGpxTlRqMThyQjNBdnBsSV9NMG9OT1NrLVRIYTNOX1lsY2fSAdABQVVfeXFMUHpnZjVUbnJ5NXQwWmFkZWplZlFZekFITlh1ellna2F5ZlNLSkUyYnJIQ0FVMWt3NUgySzdhdXpaNVVzQzByZlBnMlpGYmRfVjJGOUZXVlgtbmRnNUh6dE0yWXJSdHlJOU41UUMtVG4zVFpFang1WjZVdlZYbEtGTWZkcFVORERsTFlVUDI1NFkxNlFkRklsRnpibFBsXzRfUWZpNDZ5dWpzU1ZHUTBVcUNxUXFTZ3UyVF9lNjhFYlpkWkpDdXhsRU5SWUVnbGxxRg?oc=5",
-          "summary": "BJP chief Nitin Nabin, Delhi CM Rekha Gupta get a taste of waterlogging at Talkatora Stadium &nbsp;&nbsp; The Tribune PM taking forward Sant Ravidas’s ideals of social harmony: BJP president &nbsp;&nbsp; The Hindu Kishan Reddy Invokes Ambe...",
-          "publishedAt": "2026-08-24T12:31:16.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "pacer-returns-to-afghanistan-squad-for-india-series-sports-2026-08-24t12-13-22-000z",
-      "title": "Pacer returns to Afghanistan squad for India series",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS0lmdmpGS3BQNDhneTZyc0N1TGIxUndQc3pLZHlPUW0zeThIa054UG8zWVZkYl9mOF9MS2JxcHBiczI0RWdEQW5Bai1yRkVzNnB3dDlPWWlPNEw1b08zZEctQWVIOFBCbVhnVEpuelo1X2Z1VmhnOUdXdmltRkpHaGdwOXFudVQzdTVfLQ?oc=5",
-      "summary": "Pacer returns to Afghanistan squad for India series &nbsp;&nbsp; ICC Naveen-ul-Haq returns for India T20Is &nbsp;&nbsp; Cricbuzz Naveen-ul-Haq returns to Afghanistan side for India T20I series &nbsp;&nbsp; Cricinfo Afghanistan name new cap...",
-      "image": "",
-      "source": "ICC",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-08-24T12:13:22.000Z",
-      "sources": [
-        {
-          "name": "ICC",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS0lmdmpGS3BQNDhneTZyc0N1TGIxUndQc3pLZHlPUW0zeThIa054UG8zWVZkYl9mOF9MS2JxcHBiczI0RWdEQW5Bai1yRkVzNnB3dDlPWWlPNEw1b08zZEctQWVIOFBCbVhnVEpuelo1X2Z1VmhnOUdXdmltRkpHaGdwOXFudVQzdTVfLQ?oc=5",
-          "summary": "Pacer returns to Afghanistan squad for India series &nbsp;&nbsp; ICC Naveen-ul-Haq returns for India T20Is &nbsp;&nbsp; Cricbuzz Naveen-ul-Haq returns to Afghanistan side for India T20I series &nbsp;&nbsp; Cricinfo Afghanistan name new cap...",
-          "publishedAt": "2026-08-24T12:13:22.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "the-earliest-galaxy-swallowed-by-the-cannibal-milky-way-left-a-scar-at-its-heart-tech-2026-08-24t12",
-      "title": "The earliest galaxy 'swallowed' by the cannibal Milky Way left a scar at its heart",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQWpuSTVRelY1b05Qa0NtWHZoOFFfcUl2VW81N2x0cFpvb05GenltMlMzbG9VNjM3a0FEdjhCWDIzYTBaRkVPcGNFNzlITU1FSjUwV3RKcVVuQm55dkhMc1ROZ2VYSHlHNzYzOWhjWFJBX2FxLU9HbWk2T1VIN2wzM0xodkdGRF9Kano3VlJUODAxTGlGdW5GNzhmVmhHUUl5WGhsY2VEeXFSb01DZ19SVU43SG5BU0JFakFYOEV3?oc=5",
-      "summary": "The earliest galaxy 'swallowed' by the cannibal Milky Way left a scar at its heart &nbsp;&nbsp; Space Astronomers uncover evidence of a galaxy merger 12 billion years ago that helped shape the young Milky Way &nbsp;&nbsp; The Times of Indi...",
-      "image": "",
-      "source": "Space",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
+      "source": "OpenAI",
+      "category": "ai",
+      "categoryLabel": "AI",
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "sources": [
         {
-          "name": "Space",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQWpuSTVRelY1b05Qa0NtWHZoOFFfcUl2VW81N2x0cFpvb05GenltMlMzbG9VNjM3a0FEdjhCWDIzYTBaRkVPcGNFNzlITU1FSjUwV3RKcVVuQm55dkhMc1ROZ2VYSHlHNzYzOWhjWFJBX2FxLU9HbWk2T1VIN2wzM0xodkdGRF9Kano3VlJUODAxTGlGdW5GNzhmVmhHUUl5WGhsY2VEeXFSb01DZ19SVU43SG5BU0JFakFYOEV3?oc=5",
-          "summary": "The earliest galaxy 'swallowed' by the cannibal Milky Way left a scar at its heart &nbsp;&nbsp; Space Astronomers uncover evidence of a galaxy merger 12 billion years ago that helped shape the young Milky Way &nbsp;&nbsp; The Times of Indi...",
+          "name": "OpenAI",
+          "link": "https://openai.com/index/gpt-5-6-in-kiro",
+          "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
           "publishedAt": "2026-08-24T12:00:00.000Z"
         }
       ],
@@ -1732,86 +936,6 @@
       "sourceCount": 1
     },
     {
-      "id": "iran-s-rial-currency-hits-new-record-low-as-u-s-prepares-to-announce-more-sanctions-general-2026-08",
-      "title": "Iran’s rial currency hits new record low as U.S. prepares to announce more sanctions",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYWVsM0Jxa3dEXzFFVGV5elM1NHFWZGVxSmY1NTNxOTJyQjJuR1EzWGZrM010YTlYaFYxekdHSkctVGltY1hUdGUtZTlJbTY0ek1rVHYtQkxLaHQ3b3VtNVRub2M5eC1EcWFaTEI2a3c5aHYyT0VSQXpDSEV3bXo1WWo2aEJJVTJ6cm5uY0NOS0FZT1dYYUhGU05TOEVtSHljQ3NLWlYzbEJ2YkhfckhMVExUWmpGMjJjZlJFcE5LaUh3OUFPNEs2WEl0TUdoMDVqM29HdHdtMVlpaHdSbkHSAeQBQVVfeXFMUDRtNW9FNVdEZ3U4TU1Fb2FVR3BnenpMVXFROXZJdDM2VUpKc2cxZVJncGphNnBSUFBlYTd3YnhsOUxRTHZhUUpsZzhmQ0tmdWxKVjY3SVNTUFdKVVpKUHNfQ3Z4dTNSbnJrUzJsNXhUb2UyQ1kyYkhwYXFmQzFsR1haeFFHWndaeHN1MmdjMER1S2lQemhIZF9kT254czQyeWFMTldLRzVHV0RINWFzc3NuQ3lRaVpaaW8yQ04yRzROUGVra01TbERwanM5aTlFc084QTV4THRSV3RZNTFlSFRkNGg3?oc=5",
-      "summary": "Iran’s rial currency hits new record low as U.S. prepares to announce more sanctions &nbsp;&nbsp; The Hindu Trump admin unveils anti-Iran global sanctions plan, signals China not exempt &nbsp;&nbsp; CNBC 'Sever Every Economic Lifeline': US...",
-      "image": "",
-      "source": "The Hindu",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-24T11:37:10.000Z",
-      "sources": [
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYWVsM0Jxa3dEXzFFVGV5elM1NHFWZGVxSmY1NTNxOTJyQjJuR1EzWGZrM010YTlYaFYxekdHSkctVGltY1hUdGUtZTlJbTY0ek1rVHYtQkxLaHQ3b3VtNVRub2M5eC1EcWFaTEI2a3c5aHYyT0VSQXpDSEV3bXo1WWo2aEJJVTJ6cm5uY0NOS0FZT1dYYUhGU05TOEVtSHljQ3NLWlYzbEJ2YkhfckhMVExUWmpGMjJjZlJFcE5LaUh3OUFPNEs2WEl0TUdoMDVqM29HdHdtMVlpaHdSbkHSAeQBQVVfeXFMUDRtNW9FNVdEZ3U4TU1Fb2FVR3BnenpMVXFROXZJdDM2VUpKc2cxZVJncGphNnBSUFBlYTd3YnhsOUxRTHZhUUpsZzhmQ0tmdWxKVjY3SVNTUFdKVVpKUHNfQ3Z4dTNSbnJrUzJsNXhUb2UyQ1kyYkhwYXFmQzFsR1haeFFHWndaeHN1MmdjMER1S2lQemhIZF9kT254czQyeWFMTldLRzVHV0RINWFzc3NuQ3lRaVpaaW8yQ04yRzROUGVra01TbERwanM5aTlFc084QTV4THRSV3RZNTFlSFRkNGg3?oc=5",
-          "summary": "Iran’s rial currency hits new record low as U.S. prepares to announce more sanctions &nbsp;&nbsp; The Hindu Trump admin unveils anti-Iran global sanctions plan, signals China not exempt &nbsp;&nbsp; CNBC 'Sever Every Economic Lifeline': US...",
-          "publishedAt": "2026-08-24T11:37:10.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "insult-to-telangana-revanth-reddy-on-centre-s-denial-for-us-visit-india-news-general-2026-08-24t11-2",
-      "title": "'Insult to Telangana': Revanth Reddy on Centre's denial for US visit | India News",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObE5GazJveXBFc3U4UnVRV3gxbTh4TjdqQ2pvTUc0Skh3M3doTHd0YlBWd1piVzNvTTJOd0h1SEFrTXJ1V1dJai05cTFvRHV3R1ZOa1dKeWgzUlh3VVo5Z1pSLVoyQ3pOSnhTWEFJZWN6TlJNUXpXYmFrT2xHcDB4dk0yQko2aC1INGI2S2FMSk1xNTZTYTIzWU1CaG5WMEQtNjI4dnI1Zm5yNktOY2FNQXpXNVhuTG51RkFZYnVEOGtQdy1KSy04Mldnbjl0eXFVS25KR2Ffdm9lZ9IB3wFBVV95cUxOYzA1b2lFZHlqVTVKOU55cHRRWmNGMm0yeGVWYUk4bEdONklfTy1GLTdkZHd3TXI3bi1UNWYtaUF3UkFRM2xNaDdRSUxGWC1kNnFXbGxYLVE4bnhMVzFsVkJXWWwyQkRTLVV2bE55aWgtZHcxZWpJaXdHd1Z6RzNNLS1iQjVEdXBCM2RFT3BkNXhpd2RaYjlXcXlJMTM1Z1dkNV9Wck1Cb3BfbjhFZVlSZXpBUXZLR2hZR3M3SEI1ek5IN0JpODQ4SGlUZ3JoYVRyWmpRc21xemVOWkwzY1pR?oc=5",
-      "summary": "'Insult to Telangana': Revanth Reddy on Centre's denial for US visit | India News &nbsp;&nbsp; Hindustan Times CM Revanth calls Centre’s denial of U.S. clearance an ‘insult’ to Telangana, discrimination against it &nbsp;&nbsp; The Hindu 'I...",
-      "image": "",
-      "source": "Hindustan Times",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-24T11:21:20.000Z",
-      "sources": [
-        {
-          "name": "Hindustan Times",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObE5GazJveXBFc3U4UnVRV3gxbTh4TjdqQ2pvTUc0Skh3M3doTHd0YlBWd1piVzNvTTJOd0h1SEFrTXJ1V1dJai05cTFvRHV3R1ZOa1dKeWgzUlh3VVo5Z1pSLVoyQ3pOSnhTWEFJZWN6TlJNUXpXYmFrT2xHcDB4dk0yQko2aC1INGI2S2FMSk1xNTZTYTIzWU1CaG5WMEQtNjI4dnI1Zm5yNktOY2FNQXpXNVhuTG51RkFZYnVEOGtQdy1KSy04Mldnbjl0eXFVS25KR2Ffdm9lZ9IB3wFBVV95cUxOYzA1b2lFZHlqVTVKOU55cHRRWmNGMm0yeGVWYUk4bEdONklfTy1GLTdkZHd3TXI3bi1UNWYtaUF3UkFRM2xNaDdRSUxGWC1kNnFXbGxYLVE4bnhMVzFsVkJXWWwyQkRTLVV2bE55aWgtZHcxZWpJaXdHd1Z6RzNNLS1iQjVEdXBCM2RFT3BkNXhpd2RaYjlXcXlJMTM1Z1dkNV9Wck1Cb3BfbjhFZVlSZXpBUXZLR2hZR3M3SEI1ek5IN0JpODQ4SGlUZ3JoYVRyWmpRc21xemVOWkwzY1pR?oc=5",
-          "summary": "'Insult to Telangana': Revanth Reddy on Centre's denial for US visit | India News &nbsp;&nbsp; Hindustan Times CM Revanth calls Centre’s denial of U.S. clearance an ‘insult’ to Telangana, discrimination against it &nbsp;&nbsp; The Hindu 'I...",
-          "publishedAt": "2026-08-24T11:21:20.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "apple-preparing-to-increase-iphone-prices-tech-2026-08-24t11-17-20-000z",
-      "title": "Apple Preparing to Increase iPhone Prices",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQelJZTUZ4LWd3SWJZOEZ2S2VfWjRnRFVVRFdJSDlISVRTd2RPeEdlTjhHNm9Zc1VMVGg0ZnZjWk8xQktsVXM1anhRTjVSV3plWXduZkp5b1ppOWFxNE45LUlMLXNlbjRUcU9wNVRrV244ajV0TS1ZLUwwTXBIOE84bnBkOFp3QQ?oc=5",
-      "summary": "Apple Preparing to Increase iPhone Prices &nbsp;&nbsp; MacRumors iPhone 18 Pro, 18 Pro Max: Expected Specs, Features and Launch Date &nbsp;&nbsp; Deccan Chronicle Phone 18 Pro Max price in India: Expectations, leaked upgrades and more we k...",
-      "image": "",
-      "source": "MacRumors",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T11:17:20.000Z",
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQelJZTUZ4LWd3SWJZOEZ2S2VfWjRnRFVVRFdJSDlISVRTd2RPeEdlTjhHNm9Zc1VMVGg0ZnZjWk8xQktsVXM1anhRTjVSV3plWXduZkp5b1ppOWFxNE45LUlMLXNlbjRUcU9wNVRrV244ajV0TS1ZLUwwTXBIOE84bnBkOFp3QQ?oc=5",
-          "summary": "Apple Preparing to Increase iPhone Prices &nbsp;&nbsp; MacRumors iPhone 18 Pro, 18 Pro Max: Expected Specs, Features and Launch Date &nbsp;&nbsp; Deccan Chronicle Phone 18 Pro Max price in India: Expectations, leaked upgrades and more we k...",
-          "publishedAt": "2026-08-24T11:17:20.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "hanuman-ansh-box-office-collection-day-17-unbelievable-595-jump-in-3rd-weekend-over-week-2-entertain",
-      "title": "Hanuman Ansh Box Office Collection Day 17: Unbelievable 595% Jump In 3rd Weekend Over Week 2",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZWZfcTVhMnI3ZTl4VkVxSER4Rk1vczM1NWxzWV8zNFU4ZE5peGJEX3dPSkhDd25FZUVMTlUzRHJfOHZRb2xEdjhKSHhhNHF1RGc3cEZCOGd2REFtbHR6aEVELXhaNkZTOHVGTmdrdGdLMjROTVpxYVc4dDlsZngtUF9vakEtR1J4TFV5N19ZZGh2bEs4OXRnSGpJcnRvM01ocDdUdWw1V29UQl9oMFVQMy1zYzZZdWpzeTBIZ2lweVhaM3M?oc=5",
-      "summary": "Hanuman Ansh Box Office Collection Day 17: Unbelievable 595% Jump In 3rd Weekend Over Week 2 &nbsp;&nbsp; Koimoi Hanuman Ansh Box Office Collections: Devotional drama surprises with MIRACULOUS turnaround in 3rd Weekend, nets Rs 4.70 crore...",
-      "image": "",
-      "source": "Koimoi",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-08-24T11:12:04.000Z",
-      "sources": [
-        {
-          "name": "Koimoi",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZWZfcTVhMnI3ZTl4VkVxSER4Rk1vczM1NWxzWV8zNFU4ZE5peGJEX3dPSkhDd25FZUVMTlUzRHJfOHZRb2xEdjhKSHhhNHF1RGc3cEZCOGd2REFtbHR6aEVELXhaNkZTOHVGTmdrdGdLMjROTVpxYVc4dDlsZngtUF9vakEtR1J4TFV5N19ZZGh2bEs4OXRnSGpJcnRvM01ocDdUdWw1V29UQl9oMFVQMy1zYzZZdWpzeTBIZ2lweVhaM3M?oc=5",
-          "summary": "Hanuman Ansh Box Office Collection Day 17: Unbelievable 595% Jump In 3rd Weekend Over Week 2 &nbsp;&nbsp; Koimoi Hanuman Ansh Box Office Collections: Devotional drama surprises with MIRACULOUS turnaround in 3rd Weekend, nets Rs 4.70 crore...",
-          "publishedAt": "2026-08-24T11:12:04.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "four-arrested-over-suspected-poisoning-of-elephants-in-kenya-world-2026-08-24t11-08-27-000z",
       "title": "Four arrested over suspected poisoning of elephants in Kenya",
       "link": "https://www.bbc.co.uk/news/articles/c790w8wxv0do?at_medium=RSS&at_campaign=rss",
@@ -1832,21 +956,61 @@
       "sourceCount": 1
     },
     {
-      "id": "gurman-early-iphone-ultra-testers-praise-its-design-hinge-and-usability-gsmarena-com-news-tech-2026",
-      "title": "Gurman: Early iPhone Ultra testers praise its design, hinge and usability - GSMArena.com news",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX2F3eWlVbHhPd3hfRnF1UEtMNjZpZkZiSjdxOUlsaGNpT0FoTDZGa3A4ZVhXYWFFYXNWdjN4SE1kYnBXU0tFSFRHVEd1bEpscENFSldIenRTUG1xQUl4Z0FyZlgzVXhaRVBUcVMxUnpYZXZfY2tqZTJRSnFra0dkdUNxaHB5cmJLRm5odUk4OWlQNDkwbUl3VmEtVzUxRnNiNWxIYWd1NkVKWHZlRTJFVdIBrAFBVV95cUxOT0U3Q0VZR25pMW1uQXg2SEc1UTlVcmd1c1NueDRKTF94VUZpYTZaeVk1TDB6dXJHVHJfS3p5c3dsQzNuaG8teDB6MjN4TWt3dy14UDYzanVzTF9ESGdtQUNyd2RoUFl3MEI4LXpvN2ptVjV3ajg1ZWQ4MWZMWmhrVEQ2ZjIyT0ZoQkdoVTEyTDlqZTR0cHYyRWxJZkpCUjR5UXoycThiY3JtWWd4?oc=5",
-      "summary": "Gurman: Early iPhone Ultra testers praise its design, hinge and usability - GSMArena.com news &nbsp;&nbsp; GSMArena.com Apple’s Foldable iPhone Will Help Bring Some Magic Back &nbsp;&nbsp; Bloomberg.com Apple iPhone Ultra: Price, Features,...",
-      "image": "",
-      "source": "GSMArena.com",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-24T11:02:02.000Z",
+      "id": "russia-s-second-biggest-online-retailer-targeted-in-ukrainian-strikes-world-2026-08-24t10-40-22-000z",
+      "title": "Russia's second-biggest online retailer targeted in Ukrainian strikes",
+      "link": "https://www.bbc.co.uk/news/articles/cg598yvrzpro?at_medium=RSS&at_campaign=rss",
+      "summary": "Ozon says its warehouses across southern Russia, including in Dagestan and Krasnodar, were hit in the overnight strikes.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f16b/live/039a8ff0-9fa4-11f1-bff6-57f1422ebb0b.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-08-24T10:40:22.000Z",
       "sources": [
         {
-          "name": "GSMArena.com",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX2F3eWlVbHhPd3hfRnF1UEtMNjZpZkZiSjdxOUlsaGNpT0FoTDZGa3A4ZVhXYWFFYXNWdjN4SE1kYnBXU0tFSFRHVEd1bEpscENFSldIenRTUG1xQUl4Z0FyZlgzVXhaRVBUcVMxUnpYZXZfY2tqZTJRSnFra0dkdUNxaHB5cmJLRm5odUk4OWlQNDkwbUl3VmEtVzUxRnNiNWxIYWd1NkVKWHZlRTJFVdIBrAFBVV95cUxOT0U3Q0VZR25pMW1uQXg2SEc1UTlVcmd1c1NueDRKTF94VUZpYTZaeVk1TDB6dXJHVHJfS3p5c3dsQzNuaG8teDB6MjN4TWt3dy14UDYzanVzTF9ESGdtQUNyd2RoUFl3MEI4LXpvN2ptVjV3ajg1ZWQ4MWZMWmhrVEQ2ZjIyT0ZoQkdoVTEyTDlqZTR0cHYyRWxJZkpCUjR5UXoycThiY3JtWWd4?oc=5",
-          "summary": "Gurman: Early iPhone Ultra testers praise its design, hinge and usability - GSMArena.com news &nbsp;&nbsp; GSMArena.com Apple’s Foldable iPhone Will Help Bring Some Magic Back &nbsp;&nbsp; Bloomberg.com Apple iPhone Ultra: Price, Features,...",
-          "publishedAt": "2026-08-24T11:02:02.000Z"
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/cg598yvrzpro?at_medium=RSS&at_campaign=rss",
+          "summary": "Ozon says its warehouses across southern Russia, including in Dagestan and Krasnodar, were hit in the overnight strikes.",
+          "publishedAt": "2026-08-24T10:40:22.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "king-of-norway-s-health-has-worsened-palace-says-world-2026-08-24t08-31-55-000z",
+      "title": "King of Norway's health has worsened, palace says",
+      "link": "https://www.bbc.co.uk/news/articles/c36lnekj659o?at_medium=RSS&at_campaign=rss",
+      "summary": "Norway's King Harald remains in hospital receiving antibiotics for a bloodstream bacterial infection.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3908/live/3388cd30-9f8b-11f1-9fae-bbc7231f436d.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-08-24T08:31:55.000Z",
+      "sources": [
+        {
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/c36lnekj659o?at_medium=RSS&at_campaign=rss",
+          "summary": "Norway's King Harald remains in hospital receiving antibiotics for a bloodstream bacterial infection.",
+          "publishedAt": "2026-08-24T08:31:55.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "nearly-three-million-teslas-recalled-in-china-over-hidden-door-handles-world-2026-08-24t05-01-17-000",
+      "title": "Nearly three million Teslas recalled in China over hidden door handles",
+      "link": "https://www.bbc.co.uk/news/articles/c4g6ggdg030o?at_medium=RSS&at_campaign=rss",
+      "summary": "Other brands affected by the recall include Chinese carmakers XPeng, Xiaomi and Geely.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e700/live/5f2e2b70-9f99-11f1-a83c-33ebef033ca4.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-08-24T05:01:17.000Z",
+      "sources": [
+        {
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/c4g6ggdg030o?at_medium=RSS&at_campaign=rss",
+          "summary": "Other brands affected by the recall include Chinese carmakers XPeng, Xiaomi and Geely.",
+          "publishedAt": "2026-08-24T05:01:17.000Z"
         }
       ],
       "sourceCount": 1
@@ -2127,26 +1291,6 @@
           "link": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
           "summary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of...",
           "publishedAt": "2026-08-19T17:10:09.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "meta-ai-is-getting-a-mac-app-ai-2026-08-19t17-00-00-000z",
-      "title": "Meta AI is getting a Mac app",
-      "link": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
-      "summary": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on yo...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/MacApp_ScreenShare_0818.2.png?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge AI",
-      "category": "ai",
-      "categoryLabel": "AI",
-      "publishedAt": "2026-08-19T17:00:00.000Z",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "link": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
-          "summary": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on yo...",
-          "publishedAt": "2026-08-19T17:00:00.000Z"
         }
       ],
       "sourceCount": 1
