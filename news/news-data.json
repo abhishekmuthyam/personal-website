@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T11:27:57.410Z",
+  "updatedAt": "2026-08-24T11:53:09.197Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -34,8 +34,9 @@
     {
       "name": "Hugging Face Blog",
       "topic": "ai",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 429"
     },
     {
       "name": "GitHub Blog",
@@ -106,6 +107,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-24T09:27:00.000Z"
+    },
+    {
+      "id": "hacker-news-the-future-belongs-to-the-weird-2026-08-24t08-46-19-000z",
+      "title": "The Future Belongs to the Weird",
+      "link": "https://essays.georgestrakhov.com/weird/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-24T08:46:19.000Z"
     },
     {
       "id": "the-register-software-should-work-and-talking-about-it-needn-t-be-boring-2026-08-24t08-31",
@@ -227,17 +239,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-23T20:38:09.000Z"
-    },
-    {
-      "id": "hacker-news-how-i-find-problems-to-solve-as-a-staff-engineer-2026-08-23t19-23-29-000z",
-      "title": "How I find problems to solve as a staff engineer",
-      "link": "https://lalitm.com/post/find-problems-staff-engineer/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-23T19:23:29.000Z"
     },
     {
       "id": "hacker-news-anthropic-s-best-ai-model-struggles-to-attract-users-as-cheaper-tools-thrive-2",
@@ -427,17 +428,6 @@
       "publishedAt": "2026-08-21T00:00:00.000Z"
     },
     {
-      "id": "hugging-face-blog-measuring-benchmark-optimization-in-speech-recognition-2026-08-21t00-00",
-      "title": "Measuring benchmark optimization in speech recognition",
-      "link": "https://huggingface.co/blog/asr-benchmark-optimization",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-08-21T00:00:00.000Z"
-    },
-    {
       "id": "aws-what-s-new-aws-announces-the-general-availability-of-a-new-aws-local-zone-in-las-vegas",
       "title": "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada/",
@@ -480,17 +470,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-20T17:30:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-up-to-3-2x-faster-inference-with-lfm2-5-dspark-2026-08-20t16-52-57-000z",
-      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-08-20T16:52:57.000Z"
     },
     {
       "id": "google-cloud-blog-google-is-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-a",
@@ -612,6 +591,28 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-08-20T00:00:00.000Z"
+    },
+    {
+      "id": "openai-news-stampli-cuts-launch-hours-by-68-using-chatgpt-work-2026-08-20t00-00-00-000z",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "link": "https://openai.com/index/stampli",
+      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-20T00:00:00.000Z"
+    },
+    {
+      "id": "openai-news-offering-zero-data-retention-for-frontier-models-2026-08-19t19-00-00-000z",
+      "title": "Offering Zero Data Retention for frontier models",
+      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-19T19:00:00.000Z"
     }
   ]
 }
