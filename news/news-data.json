@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T22:55:18.927Z",
+  "updatedAt": "2026-08-25T23:15:52.641Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,6 +64,17 @@
   ],
   "items": [
     {
+      "id": "hacker-news-show-hn-texbrain-a-latex-editor-that-runs-pdftex-in-the-browser-via-wasm-2026",
+      "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+      "link": "https://github.com/swimmingbrain/texbrain",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-25T22:08:50.000Z"
+    },
+    {
       "id": "hacker-news-python-s-pre-declared-constants-are-kinda-weird-2026-08-25t21-39-02-000z",
       "title": "Python's pre-declared constants are kinda weird",
       "link": "https://sebsite.pw/w/20260801-pythonconstants.html",
@@ -108,17 +119,6 @@
       "publishedAt": "2026-08-25T19:42:00.000Z"
     },
     {
-      "id": "hacker-news-c2pa-cameras-do-not-survive-contact-with-reality-2026-08-25t19-38-24-000z",
-      "title": "C2PA Cameras Do Not Survive Contact with Reality",
-      "link": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-25T19:38:24.000Z"
-    },
-    {
       "id": "aws-what-s-new-aws-batch-now-supports-amazon-ecs-managed-instances-2026-08-25t19-36-00-000",
       "title": "AWS Batch now supports Amazon ECS Managed Instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/",
@@ -139,6 +139,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-25T19:07:01.000Z"
+    },
+    {
+      "id": "aws-what-s-new-capacity-reservation-resource-groups-now-support-amazon-ec2-capacity-blocks",
+      "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/capacity-reservation-resource-groups-ec2",
+      "summary": "Starting today, you can add Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations to Capacity Reservation Resource Groups. Amazon EC2 offers different reservation offerings such as On-Demand Capacity...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-25T18:00:00.000Z"
     },
     {
       "id": "the-register-mckinsey-says-enterprise-ai-is-finally-on-the-road-to-roi-2026-08-25t17-44-49",
@@ -163,10 +174,21 @@
       "publishedAt": "2026-08-25T17:02:49.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-rds-for-postgresql-supports-minor-versions-18-6-17-11-16-15-15-19-an",
-      "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
-      "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to address Common Vulnerabi...",
+      "id": "aws-what-s-new-aws-lambda-microvms-now-supports-aws-privatelink-2026-08-25t16-34-00-000z",
+      "title": "AWS Lambda MicroVMs now supports AWS PrivateLink",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-supports-privatelink",
+      "summary": "AWS Lambda MicroVMs now supports AWS PrivateLink, enabling private connectivity to Lambda MicroVMs directly from Amazon Virtual Private Cloud (VPC) resources without exposing traffic to the public internet. This launch...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-25T16:34:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-connect-customer-now-lets-you-update-the-customer-profile-on-a-case",
+      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
+      "summary": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
@@ -174,10 +196,10 @@
       "publishedAt": "2026-08-25T16:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-connect-customer-now-lets-you-update-the-customer-profile-on-a-case",
-      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
-      "summary": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate...",
+      "id": "aws-what-s-new-amazon-rds-for-postgresql-supports-minor-versions-18-6-17-11-16-15-15-19-an",
+      "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
+      "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to address Common Vulnerabi...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
@@ -370,28 +392,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-25T08:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-rds-now-supports-the-latest-cu-for-microsoft-sql-server-2026-08-25t0",
-      "title": "Amazon RDS now supports the latest CU for Microsoft SQL Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-supports-latest-cu-microsoft-sql-server/",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2025 CU6 KB5093421 (RDS ver...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-25T07:30:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-rds-for-oracle-now-supports-july-2026-release-update-2026-08-25t07-2",
-      "title": "Amazon RDS for Oracle now supports July 2026 Release Update",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-july-2026-release-update",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Oracle July 2026 Release Update (RU) for Oracle Database versions 19c, 21c and 26ai. We recommend upgrading to the July 2026 RU as it includes...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-25T07:24:00.000Z"
     },
     {
       "id": "openai-news-the-full-stack-behind-abundant-intelligence-2026-08-25t07-05-00-000z",
