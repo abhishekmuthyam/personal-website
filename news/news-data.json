@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T20:47:29.717Z",
+  "updatedAt": "2026-08-25T21:10:20.059Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -63,6 +63,17 @@
     }
   ],
   "items": [
+    {
+      "id": "aws-what-s-new-aws-batch-now-supports-amazon-ecs-managed-instances-2026-08-25t19-36-00-000",
+      "title": "AWS Batch now supports Amazon ECS Managed Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/",
+      "summary": "AWS Batch now supports Amazon ECS Managed Instances (ECS MI) as a new compute option, enabling you to run GPU-accelerated and compute-intensive batch workloads on AWS-managed infrastructure. With AWS Batch on ECS MI you...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-25T19:36:00.000Z"
+    },
     {
       "id": "hacker-news-fda-authorizes-first-wearable-device-that-monitors-ketone-and-blood-sugar-leve",
       "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
@@ -207,6 +218,17 @@
       "publishedAt": "2026-08-25T13:34:00.000Z"
     },
     {
+      "id": "aws-what-s-new-iam-roles-anywhere-now-provides-a-java-plugin-for-the-aws-sdk-2026-08-25t13",
+      "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-roles-anywhere-java/",
+      "summary": "AWS Identity and Access Management (IAM) Roles Anywhere now provides a plugin for the AWS SDK for Java v2 that enables workloads running outside of AWS to obtain temporary AWS credentials directly within the Java applic...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-25T13:18:00.000Z"
+    },
+    {
       "id": "hacker-news-new-mac-mini-featuring-m6-and-m5-pro-2026-08-25t13-13-00-000z",
       "title": "New Mac mini, featuring M6 and M5 Pro",
       "link": "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
@@ -238,6 +260,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-25T13:01:22.000Z"
+    },
+    {
+      "id": "aws-what-s-new-aws-lambda-introduces-managed-runtimes-in-public-preview-for-node-js-26-and",
+      "title": "AWS Lambda introduces managed runtimes in public preview for Node.js 26 and Python 3.15",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-node-js-python-public-preview/",
+      "summary": "Today, AWS Lambda introduces managed runtimes in public preview, starting with Node.js 26 and Python 3.15. This gives customers, partners and upstream language communities the opportunity to try upcoming managed runtime...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-25T13:00:00.000Z"
     },
     {
       "id": "google-cloud-blog-now-introducing-gemini-enterprise-for-legal-2026-08-25t12-00-00-000z",
@@ -427,17 +460,6 @@
       "publishedAt": "2026-08-25T00:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-ecs-now-automatically-detects-and-repairs-container-instances-with-i",
-      "title": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health",
-      "summary": "Amazon Elastic Container Service (Amazon ECS) now&nbsp;automatically detects and repairs container instances, enabling customers to reduce undetected workload failures and improve application availability without manual...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-24T22:42:00.000Z"
-    },
-    {
       "id": "github-blog-your-alt-text-passes-automated-checks-that-doesn-t-mean-it-s-any-good-2026-08",
       "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
       "link": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
@@ -447,28 +469,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-24T20:56:32.000Z"
-    },
-    {
-      "id": "aws-what-s-new-sagemaker-mlflow-now-supports-customer-managed-keys-2026-08-24t19-26-00-000",
-      "title": "SageMaker MLflow now supports customer managed keys",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys",
-      "summary": "SageMaker MLflow now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS). This enhancement allows organizations with strict security and compliance requirem...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-24T19:26:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-eks-now-supports-multiple-external-oidc-identity-providers-per-clust",
-      "title": "Amazon EKS now supports multiple external OIDC identity providers per cluster",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers",
-      "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports multiple external OpenID Connect (OIDC) identity providers per cluster. You can associate up to 10 OIDC identity providers with a single cluster, giving you mo...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-24T18:29:00.000Z"
     },
     {
       "id": "google-cloud-blog-new-ai-powered-quick-assessments-in-migration-center-turbocharge-moderni",
