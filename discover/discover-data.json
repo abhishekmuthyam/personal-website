@@ -1,11 +1,12 @@
 {
-  "updatedAt": "2026-08-26T15:56:11.372Z",
+  "updatedAt": "2026-08-26T16:51:28.205Z",
   "sources": [
     {
       "name": "Google News Top",
       "category": "general",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "BBC News",
@@ -35,14 +36,16 @@
     {
       "name": "Google Business",
       "category": "business",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "Google Entertainment",
       "category": "entertainment",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "ESPN",
@@ -53,20 +56,23 @@
     {
       "name": "Google Sports",
       "category": "sports",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "Google Technology",
       "category": "tech",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "Google Science",
       "category": "tech",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "The Verge",
@@ -142,7 +148,7 @@
       "label": "S&P 500",
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7672.48,
+      "price": 7660.37,
       "change": 0,
       "changePercent": 0
     },
@@ -150,7 +156,7 @@
       "label": "NASDAQ",
       "symbol": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26079.66,
+      "price": 26039.84,
       "change": 0,
       "changePercent": 0
     },
@@ -158,7 +164,7 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 78074.73,
+      "price": 78057.38,
       "change": 0,
       "changePercent": 0
     },
@@ -166,7 +172,7 @@
       "label": "VIX",
       "symbol": "^VIX",
       "name": "CBOE Volatility Index",
-      "price": 15.48,
+      "price": 15.6,
       "change": 0,
       "changePercent": 0
     }
@@ -175,713 +181,339 @@
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 210.96,
+      "price": 209.7,
       "change": 0,
       "changePercent": 0
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 494.46,
+      "price": 494.36,
       "change": 0,
       "changePercent": 0
     },
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "price": 313.05,
+      "price": 312.87,
       "change": 0,
       "changePercent": 0
     },
     {
       "symbol": "GOOGL",
       "name": "Alphabet Inc.",
-      "price": 341.55,
+      "price": 340.59,
       "change": 0,
       "changePercent": 0
     },
     {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 258.9,
+      "price": 258.53,
       "change": 0,
       "changePercent": 0
     }
   ],
   "items": [
     {
-      "id": "rupert-grint-to-return-to-harry-potter-in-broadway-play-general-2026-08-26t15-14-24-000z",
-      "title": "Rupert Grint to return to Harry Potter in Broadway play",
-      "link": "https://www.bbc.co.uk/news/articles/c20vmp1v3rdo?at_medium=RSS&at_campaign=rss",
-      "summary": "Grint, now 38, will play his character as an adult in the Harry Potter spin-off play in New York.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ef1/live/a87f1fd0-a15d-11f1-aaf8-119f176ff4ce.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-26T15:14:24.000Z",
+      "id": "integrated-command-centres-planned-in-border-areas-as-india-upgrades-land-border-management-india-20",
+      "title": "Integrated command centres planned in border areas as India upgrades land-border management",
+      "link": "https://www.thehindu.com/news/national/integrated-command-centres-planned-in-border-areas-as-india-upgrades-land-border-management/article71393397.ece",
+      "summary": "The “smart border” architecture will integrate artificial intelligence, sensors, surveillance systems and unified command-and-control centres to strengthen border security and enable faster responses to threats, says official",
+      "image": "https://th-i.thgim.com/public/incoming/sm5lq9/article71393817.ece/alternates/LANDSCAPE_1200/Screenshot%202169.png",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-08-26T16:41:03.000Z",
       "sources": [
         {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/c20vmp1v3rdo?at_medium=RSS&at_campaign=rss",
-          "summary": "Grint, now 38, will play his character as an adult in the Harry Potter spin-off play in New York.",
-          "publishedAt": "2026-08-26T15:14:24.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FdzJMdl9RU3JNX21Vakx4RjdyMVA5aGlaZXRGamd0T3VzNUZSR0V5OTVXWjlhU3dFUGZhNldzZ29paGdwWVBMemV3QXlETXdCRE9tdEdCa0JUQQ?oc=5",
-          "summary": "Rupert Grint to return to Harry Potter in Broadway play Harry Potter and the Cursed Child &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-08-26T15:14:24.000Z"
-        },
-        {
-          "name": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSUhaVlNrbkhMSHY3YnNfeGxBVDhKejhKM1hrSWM5cHdCSk15WFNNRXF0NDhadS0wRWEyYlJRX1M1bFNwUGJkem9WenIyTW5MeUprRlluS0xOUmxNbDM2WFpHeFNiUTBYRFQzVUhhVjZ2TmRzaG1YUmQzMDlreEFhZnRLeTJKMUtXRUdmYksyYndIa1Vna0VDTUVYV1Z3MFRCSTBCVGxlc0g?oc=5",
-          "summary": "Rupert Grint to reprise role of Ron Weasley in Harry Potter stage show &nbsp;&nbsp; The Guardian",
-          "publishedAt": "2026-08-26T14:51:00.000Z"
-        },
-        {
-          "name": "in.ign.com",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcmNNM2RCMV9EUmlWSFRjVlQwNFdnWEwwaEtKeDFkZHNza2dfaDBSWUdfUFVORkdMd2lzTmw3RHR6eWdBR2RrMDE5OEo1SEtUR3ZsaWF6VVJlVlplMGNZLXpBSzZCOG40MGhBdzBOMkE2dF9WcHh4bkdPN1BtMkZ3SC1OOTN5Z1hmZkktU2plTWc5Nk04dkQyMEJtTi1wSm81NXZJYlA5N2RQaHpCUzRVQ3o2X0ZEVXEtR0RxTUJpdk9nanRRYV9md3ZPSlJqRjdjS3U3X25Ia1pKWUUxTV92MnRCb3JjR0lnM2hsSVFB?oc=5",
-          "summary": "Rupert Grint Returning as Ron Weasley for Harry Potter and The Cursed Child on Broadway &nbsp;&nbsp; in.ign.com",
-          "publishedAt": "2026-08-26T15:01:10.000Z"
-        },
-        {
-          "name": "Broadway Direct",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUThyeHNhUlBaazduM3pQdnh0YVAzQVBNcVNuVy0yMTM5WlN0aUpMMDNWSWxDelRCekdocU45YlhGd1RoVHVMREtKN1l4YVBoRFZuZWZBOU9xWmpabDJfTjROLVVqVnZ6QTJyY05wX05FcGV5YTQyTzctaEpQNlVzX0hSU2piN3A3TjFlZDE3bGluUQ?oc=5",
-          "summary": "Rupert Grint Will Play Ron Weasley in Broadway’s Harry Potter &nbsp;&nbsp; Broadway Direct",
-          "publishedAt": "2026-08-26T14:31:25.000Z"
-        },
-        {
-          "name": "TheWrap",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa1BpaVBuQXRhVVBMSFdLOFBXbFdYUHVQZ2ItM0tOcV9YT1VaNUZHb2pJZVQ5T3hLM2JVM29tTzZUZ1IxdDg2VmM4RDVxSXlEYmVTcWNrLWVPMEdpSFdyMllSck0wbjBGem9fWkJjZlUxNDVIVzctQmh2Y1dlYmREZmNnV0E4OVdOLVEwTGJaejBYMGFWbWE3QS1GSjhWNTlRNlZyYzlnSXUtdFU?oc=5",
-          "summary": "Rupert Grint to Return as Ron Weasley in ‘Harry Potter and the Cursed Child’ on Broadway &nbsp;&nbsp; TheWrap",
-          "publishedAt": "2026-08-26T14:57:19.000Z"
-        },
-        {
-          "name": "Harry Potter",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX2hFVTllVi1nVmpTLTkxUGkyNUxReENvbGtDT1VIa3RiUjY3VWlfRmpTSldYVWFUbElPYzJrY2w0bXo5SDBHMmdXc09BWHh4ZHNyRndSTlNpY3lnYnFrN3ZqeXNhTnVjMFhvSW9seExLQ2huVWRUajNlSUE1aUhrQm1EWFRTV283SjRoWWY4RmQtUnZWTHFDZ2pIZEdtekw2Zk9EZ1lmOTg?oc=5",
-          "summary": "Harry Potter | Rupert Grint returns as Ron Weasley in Harry Potter and the Cursed Child on Broadway &nbsp;&nbsp; Harry Potter",
-          "publishedAt": "2026-08-25T07:00:00.000Z"
-        },
-        {
-          "name": "Playbill",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdnE0SHU3M2c1b2VxSXRTNk9OYWkxU0Fpb2ZnYmNFbFlZWHlZeDBBeVdQbi1YOS1ad2c3bDZNdUM0YTRkNVk4MTYzalRfSjhpeTdVb2ZmLVU2Q2hibUVRS3hXUVc5ZEJTLWQtejVuUG4zanpEZU9LdXhVS2h5bjFMaGw5X3VpZG0wbGxPY0lpdlBrN051VHZSX1NjU1BZQWNsdzYyVGFqaE44RU5WVlVBSzBQWVU3UkZtWU1WSWtxcm9CVEZ4cXBaWm9OVjcxU0NrQmFFS2hzRHNNOU1f?oc=5",
-          "summary": "Harry Potter Film Star Rupert Grint Will Reprise Role of Ron Weasley in Broadway's Harry Potter and the Cursed Child &nbsp;&nbsp; Playbill",
-          "publishedAt": "2026-08-26T14:09:38.000Z"
-        },
-        {
-          "name": "GAMINGbible",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdG1GYXZtcVRYb1NkbGdfZFR1WUQtRDBtQWdKSndMQjdyYTVzaXladFMteGpDU045RzViYnJkb0VxY1hoV0NSOW80WVFfU3NCY0Exb0Rzdk42T2k4emljUmhiTVJBRVlhZlppTm1DdmlqTURkV0plLVMyamhuX05kY0xxdjdXNVlXdnQ5d0JteVRPYnlaYTVxMnFxeWxERzE4NVFGdWUwcGZGdHY3YnE0ckRFTVZjN0tDdW9aVFBHdWpacEZsZ3d1ck5pX29vNDF2REV1dXVR?oc=5",
-          "summary": "Harry Potter star Rupert Grint officially set to return to franchise as Ron Weasley &nbsp;&nbsp; GAMINGbible",
-          "publishedAt": "2026-08-26T15:25:13.000Z"
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/integrated-command-centres-planned-in-border-areas-as-india-upgrades-land-border-management/article71393397.ece",
+          "summary": "The “smart border” architecture will integrate artificial intelligence, sensors, surveillance systems and unified command-and-control centres to strengthen border security and enable faster responses to threats, says official",
+          "publishedAt": "2026-08-26T16:41:03.000Z"
         }
       ],
-      "sourceCount": 9
+      "sourceCount": 1
     },
     {
-      "id": "trump-believes-iran-s-mojtaba-khamenei-is-still-alive-seriously-wounded-but-not-dead-world-news-gene",
-      "title": "Trump believes Iran's Mojtaba Khamenei is still alive: 'Seriously wounded, but not dead' | World News",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMWM1R2lMOG8xUHdlc1kzMENHUXF2MHlkRzY2N1BxRWk5RHdheE9fQklIbTIzTGt5aU5PaVRxbDlnQWR1azl0Vldzdm9IekpGMHdzcDN6NTlkQWZ5YUhYNG1pN0xhVEUzbGdjSjRrYUFyZ01wNGFNRWY4cnVrUTdxVHRtekZ6YlhpUXFZMTUyb0MzeGc5TUYzSU1Da3FhWmNjQmhqSlhlVHNuczJNLVBoREt6WkJNZkNKMGswaHdZMGhCMXpBUFllS0VBdU1nSXdoQm5seVVTZVNCR2hmbndGaW9LOUw4U0VpZmwydkdzT0pTQVZ20gH6AUFVX3lxTE9GMW1VTmgzWWVJbE10ZjdRcmkxUmhyd3Zpck1yVTJyYnhwVndDR3FWN2JhMkM4Zm5uaUdYb210MW56OXFRemxlT3g0aElCSjM5UUp1M3RtR2NvWjFXS1BXcEdaNkVZZ1Y4LTJiU081OUJjb0FwdVpkVHhBaWlmV25MOHRjSGdyWHRSS2VLXzJOWkxDclM0OW5mZHhrT001ajJnbnE0bEktUDJpdEMzQWtiRWcxQ0o0Si0yMjdwaW81NXhEeHlGaDNNVEFxVEM1RzBaRHVoT1NaTTJHYWVCLTdlaDBlenJPdnJWVThncFJWZXFsSWRqb0taM2c?oc=5",
-      "summary": "Trump believes Iran's Mojtaba Khamenei is still alive: 'Seriously wounded, but not dead' | World News &nbsp;&nbsp; Hindustan Times Trump says Iran's leader is wounded, not dead &nbsp;&nbsp; Deccan Herald Mojtaba Khamenei seen, heard in rar...",
-      "image": "",
-      "source": "Hindustan Times",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-26T15:06:19.000Z",
-      "sources": [
-        {
-          "name": "Hindustan Times",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMWM1R2lMOG8xUHdlc1kzMENHUXF2MHlkRzY2N1BxRWk5RHdheE9fQklIbTIzTGt5aU5PaVRxbDlnQWR1azl0Vldzdm9IekpGMHdzcDN6NTlkQWZ5YUhYNG1pN0xhVEUzbGdjSjRrYUFyZ01wNGFNRWY4cnVrUTdxVHRtekZ6YlhpUXFZMTUyb0MzeGc5TUYzSU1Da3FhWmNjQmhqSlhlVHNuczJNLVBoREt6WkJNZkNKMGswaHdZMGhCMXpBUFllS0VBdU1nSXdoQm5seVVTZVNCR2hmbndGaW9LOUw4U0VpZmwydkdzT0pTQVZ20gH6AUFVX3lxTE9GMW1VTmgzWWVJbE10ZjdRcmkxUmhyd3Zpck1yVTJyYnhwVndDR3FWN2JhMkM4Zm5uaUdYb210MW56OXFRemxlT3g0aElCSjM5UUp1M3RtR2NvWjFXS1BXcEdaNkVZZ1Y4LTJiU081OUJjb0FwdVpkVHhBaWlmV25MOHRjSGdyWHRSS2VLXzJOWkxDclM0OW5mZHhrT001ajJnbnE0bEktUDJpdEMzQWtiRWcxQ0o0Si0yMjdwaW81NXhEeHlGaDNNVEFxVEM1RzBaRHVoT1NaTTJHYWVCLTdlaDBlenJPdnJWVThncFJWZXFsSWRqb0taM2c?oc=5",
-          "summary": "Trump believes Iran's Mojtaba Khamenei is still alive: 'Seriously wounded, but not dead' | World News &nbsp;&nbsp; Hindustan Times Trump says Iran's leader is wounded, not dead &nbsp;&nbsp; Deccan Herald Mojtaba Khamenei seen, heard in rar...",
-          "publishedAt": "2026-08-26T15:06:19.000Z"
-        },
-        {
-          "name": "Anadolu Ajansı",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNXVpX2FEanFFYXdnRUx3dW1DaTNVR1UxdmtuSGZrd3hYYWtBT0EtUERPd3BjdDVnRWNJQ21XcVA3VGtORjMtaUVnR1A0ejVtUkdaWHhPZTlzVmZuSDhBcG1PUDZKWVZPZnFLSGgtR1FWTHhNc0xWd0c4Q3NkNTJvTzB3aVdmVjRjXzlLUjdUeFJuSG1JbUV0NHJneDFsMDdxQllvX0FmMlFMM21wZ3N4YW00OEYtVEZhRFpjSHZ2WUc?oc=5",
-          "summary": "Trump says Iran's Supreme Leader Mojtaba Khamenei alive but 'very seriously' wounded &nbsp;&nbsp; Anadolu Ajansı",
-          "publishedAt": "2026-08-26T14:09:12.000Z"
-        },
-        {
-          "name": "Firstpost",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdVVDSDJBdUpYREItay1qSkdXWHZVTl9jOHRJb094cEo1bF9LZnp0aUw4dm9EU3JWNlBvWTFybGhOeHVGRDFQVWtuWWRwcWlOdEhYQmQzeG9uUDVhSnFNV1NyZUtvWEwxZzRCNGhROERpZVZWbGxfMGJ4a3BnUG9IdHo0NzVtSGNPWlo3SW5FbXVySXRxNlNTaGZadHdmYktsN1BtZzktdFB5QQ?oc=5",
-          "summary": "Trump says Iran’s Supreme Leader Mojtaba Khamenei is not dead &nbsp;&nbsp; Firstpost",
-          "publishedAt": "2026-08-26T15:35:07.000Z"
-        },
-        {
-          "name": "arabnews.jp",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GS0V6NVdBajZZTDhjRzdWMXJyV1l4a2UyMldYR2tzdUtyYjBHU3hCY05DZzh0ZkdXTFU5bjhUQjh0Z2ZvRFFYel9vSkxtNE5GUnRvUzNFekdOQXg0TUVtNDg5MTI?oc=5",
-          "summary": "Trump says believes that Iranian leader Khamenei still alive &nbsp;&nbsp; arabnews.jp",
-          "publishedAt": "2026-08-26T15:39:15.000Z"
-        },
-        {
-          "name": "Türkiye Today",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdmlPLVRSQUplUWlDX25vWGtKb1BsMkVlV1dkWkg0SjdFcDdvOWtVdEVWNHNqcXFvdkhFZWxYX0VQX2ZFQlpxWm1Lbms1MzJGdEpsSlNKM0pOOUVJVkEwaUY4a1NjUFp6UWcySnU2ZFFzNl9uOUFreW4zeFNvektKdENJemhQQ0VKTlBDVG1rV1hKaDlaTzBsOWwyc05IMGxPWVByeXEtSQ?oc=5",
-          "summary": "Iran’s Khamenei likely alive but ‘very seriously wounded’: Trump &nbsp;&nbsp; Türkiye Today",
-          "publishedAt": "2026-08-26T14:33:45.000Z"
-        },
-        {
-          "name": "The Times of Israel",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbEt2R05hUVF2cklDbEN3S3lKUDlGWm1vaW9fdERQVlBnTFFKU0plYXl3R2RydHp6eHFwVFlPWVhKTXpmU2NHbTBTY1lBeUdsdFhDbTllclM4dG9FdVl3SFZiMlkzYUhtS2xiN2djQU53YlMxbm95VDFlbDcwRXVOZFhrWmxrRy1VejlhYjlMc1VGSEc5U1ZPTHJCaVFReWhuYXB3Q09LT05yWWZDNk5NRzVMY2huOU0?oc=5",
-          "summary": "Trump says Iran’s supreme leader is ‘very seriously wounded,’ but not dead &nbsp;&nbsp; The Times of Israel",
-          "publishedAt": "2026-08-26T13:41:14.000Z"
-        },
-        {
-          "name": "Arab News",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ocTM1OE1vcnIzYm5rR3YtS0dQLUdFZXhVNTQyNFlleFo4QS1jdmNIaHVhRTZPN0k0X0puT0FrSUJzTjhmcUpuNDlxU1k5TWhWQmdr?oc=5",
-          "summary": "Trump says believes that Iranian leader Khamenei still alive &nbsp;&nbsp; Arab News",
-          "publishedAt": "2026-08-26T13:46:16.000Z"
-        },
-        {
-          "name": "A News",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOTlfcS13YUN2WlZ5bUVTcjRxNTVMUDNrajBWTmpEcExnUFo4VmpGUGF3SkRjM2Q4MDJnNEhlTXJTRzk1NjVDVFA0MkJZWUJVc2ZCNzlYVDdWSUNhd3dRS2hHeERpLUh1TzNTc1B2dFNiLTJVei1kbHM0M1ZKS3hseHNQUGQ3RDVPVHhseXctMF80NlRqSEVmVTd2Z2NkVC1WSjM0ekd1ZWc0R1RLUVdERENJajBwWDV2WnJYYmxYRzVnQjd20gHKAUFVX3lxTE80MjA0Q3lQWEQ0a1k5bG96VWJQN0JOWmYyVDNqMndXMVJZaXVMMWNmRVZqWF9Ob0pITWdndDF5OE9nWWZOT19jcTI2b0NUdU9iRW9RbzhVV3hjNWlfQkN5QkhMVTlNRWV5MmxzYWgyM295VEpLWFBTY0xlLUFQTFYyS2MwY0lzOXBlR1U3Qldrd3FqcGYxX3ktdTY4bjFnNFdNakpMMmdOeXdNbDlrcUtrQk1qY1RMNEp5Nk5RSDFPZmZWN0NpRC0yRGc?oc=5",
-          "summary": "Trump says Iran's Supreme Leader Mojtaba Khamenei alive but 'very seriously' wounded &nbsp;&nbsp; A News",
-          "publishedAt": "2026-08-26T15:00:00.000Z"
-        }
-      ],
-      "sourceCount": 8
-    },
-    {
-      "id": "elden-ring-on-the-switch-2-isn-t-tarnished-tech-2026-08-26t14-00-00-000z",
-      "title": "Elden Ring on the Switch 2 isn’t tarnished",
-      "link": "https://www.theverge.com/entertainment/983307/elden-ring-nintendo-switch-2-review",
-      "summary": "FromSoftware is hoping to make a splash on the Switch 2 later this year when it launches The Duskbloods, a gothic competitive multiplayer game that's unlike anything the studio has made before. But before that, Switch 2 owners have a chanc...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/assets_2026_06_1780581492_Torrent.png?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T14:00:00.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/entertainment/983307/elden-ring-nintendo-switch-2-review",
-          "summary": "FromSoftware is hoping to make a splash on the Switch 2 later this year when it launches The Duskbloods, a gothic competitive multiplayer game that's unlike anything the studio has made before. But before that, Switch 2 owners have a chanc...",
-          "publishedAt": "2026-08-26T14:00:00.000Z"
-        },
-        {
-          "name": "Kotaku",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYXBKczZGT1J2Y243N1pmQ1BoN05VbEtWZG1kSkoxS1RibzBkYlc1dERGS251UXppOGtURF9IMDNCUzhMVWthMHM4V3hoTnl0WEVCVWNmWGRQc3QyLWN2cDgwLUE4OTV0LUdEcUlnSi0tbzFlWFpmX3djcHdGY0hqcXFQUXJOLWM5Qm9z?oc=5",
-          "summary": "I Tested Elden Ring On Switch 2 In A Cozy Cafe And It Ran Just Fine, Which Is Great News For A Remarkable Game &nbsp;&nbsp; Kotaku",
-          "publishedAt": "2026-08-26T14:00:10.000Z"
-        },
-        {
-          "name": "Eurogamer.net",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVW91WWFpMGtpV0lib0pYTS1GWjFaV2tLUlJJejdfTi1kODZ3dzNqMExDWndaUGdaQW5uYUhndFo4elVQaFJCSnN3VlkxTGxvbm9LUERsZXhDc1RtbF9QVFVhZWpES09MbjE0SU05TVlfV1RPUnNHTlhZdVB4czBSU2tKRk9oYjN4dmRtNlVWX2w?oc=5",
-          "summary": "Elden Ring plays much better than I'd expected on Switch 2, but it isn't without its flaws &nbsp;&nbsp; Eurogamer.net",
-          "publishedAt": "2026-08-26T14:00:00.000Z"
-        },
-        {
-          "name": "checkpointgaming.net",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMFVCU2tHbnpzMXJKMlVPS05Sbjl0VzdwMWtENl9CWFdGT0JINEhmV0lGNV9neXFoN2YyVENuQkFBREl1ckdKM3hxdlcwUjRneDlQQmMtWTJTNmFxcGdqR2l2UTdTU1dvbFJBNjhmZmN4akExMnY2WFh4RDRVZmppNnpjcUZRa0FMTE5JV0F5RGUtNmFGZEdHUFNSdzRLTzdrc0k5YWtvcDlNa0toSFctdExTOW1WaHlGTzFyWWdMTHQ0a0JkWnRn?oc=5",
-          "summary": "Elden Ring: Tarnished Edition for Switch 2 means you can now touch grace AND grass &nbsp;&nbsp; checkpointgaming.net",
-          "publishedAt": "2026-08-26T14:03:41.000Z"
-        },
-        {
-          "name": "GameSpew",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tT1oxVG9VUkV4VzRGeGNORFcxekd3aWl5SVZRV0ZsaEx4eDh3U0FSMnMzOGNVaDNVWkZ3cEZVdFRfUmprSUtlQmtDU1Fxa3RHSWtsQ2VXcENrcTV6eVF4TU1PTVVvYVRjOWF0b0FqSFhiR0NObU1wVA?oc=5",
-          "summary": "Elden Ring: Tarnished Edition review – A great port of a phenomenal game &nbsp;&nbsp; GameSpew",
-          "publishedAt": "2026-08-26T14:05:19.000Z"
-        },
-        {
-          "name": "vooks.net",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDQnpQY0k3cVRCSG5JaElETzdmOUcwc3M0ZnRGeEpYa2F4TzZZWnN4MHBOQlRIa0pfVXA5dURpMTdDemV6QlBmdDNHLXY1WmtCNWlUdEtqNy1VcUhIVmhINUU0S0xiOVlaNWhiZkVNd0JQM1JDM1E?oc=5",
-          "summary": "Elden Ring: Tarnished Edition (Switch 2) Review &nbsp;&nbsp; vooks.net",
-          "publishedAt": "2026-08-26T14:02:03.000Z"
-        },
-        {
-          "name": "DualShockers",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ic2Y4SlN2VGNoc1ptenFPVWVfczRRVU14UWRtNFVONjVKaFJQdnBUT1FsUUp1ckU0Qzl2MGVhY1JNTXJGR1NsQzhZNGdDM2g2VVFiQnZMWlhJbWpYcWNMbWxfcWVVZVJTTWhpc3N0ZFd2QjA?oc=5",
-          "summary": "Elden Ring Tarnished Edition Review: Yep, Still Good &nbsp;&nbsp; DualShockers",
-          "publishedAt": "2026-08-26T14:00:11.000Z"
-        },
-        {
-          "name": "Gamereactor UK",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9DRmllc0J5bnFFN0FvWEl5ckdPemdyaTFSQmQwWmRqZE5YLV9lQUhjQmVzanNkdk5CREVpZ0FITU9KNnVXdUZKSjNFelduWGI0QWNmWjdaZ2wzLVhLczl1MUhEdWV1dXpqZ3NiaXEtb01kZw?oc=5",
-          "summary": "Elden Ring: Tarnished Edition Review &nbsp;&nbsp; Gamereactor UK",
-          "publishedAt": "2026-08-26T14:50:58.000Z"
-        }
-      ],
-      "sourceCount": 8
-    },
-    {
-      "id": "murder-probe-as-two-people-dead-in-house-fire-in-middlesbrough-general-2026-08-26t14-34-07-000z",
-      "title": "Murder probe as two people dead in house fire in Middlesbrough",
+      "id": "murder-arrests-after-fire-kills-two-including-child-general-2026-08-26t16-39-37-000z",
+      "title": "Murder arrests after fire kills two including child",
       "link": "https://www.bbc.co.uk/news/articles/c4gmrz8d31mo?at_medium=RSS&at_campaign=rss",
       "summary": "Cleveland Police says it \"cannot rule out any links to wider organised crime\" after the fire near Middlesbrough.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b8f/live/04e1a840-a14c-11f1-9984-79078b996b73.jpg",
       "source": "BBC News",
       "category": "general",
       "categoryLabel": "General",
-      "publishedAt": "2026-08-26T14:34:07.000Z",
+      "publishedAt": "2026-08-26T16:39:37.000Z",
       "sources": [
         {
           "name": "BBC News",
           "link": "https://www.bbc.co.uk/news/articles/c4gmrz8d31mo?at_medium=RSS&at_campaign=rss",
           "summary": "Cleveland Police says it \"cannot rule out any links to wider organised crime\" after the fire near Middlesbrough.",
-          "publishedAt": "2026-08-26T14:34:07.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rbkJFazJTaU9FT1NuRDVuSlVRc0FqLW1Sa01uWGFHTnZqQlVxR0NWdnUtcHJLRU05cVF3WklQZTVRSUl2VV9adnJXNFJTVU1QOUZCTmw2T205UQ?oc=5",
-          "summary": "Murder probe as two people die in house fire &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-08-26T12:53:26.000Z"
-        },
-        {
-          "name": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSXFXblY3elJCSUl4RFZ4ZnRmWFFMdWVjeVpsWHNXV29CR2lyWDRwektDVl9hcV9ubGZUZzBSSnpKbDVYcVpFb0xkcGVXTU5VREV2MnpJT0lZOUpFQmx1UWV6MV81R2luVmdjYkxtRmlJNlN3bTE0NDZweDdLNHJZeXVVanB3YjBpSVl3WkRvWTlFWnp4RXN3Nw?oc=5",
-          "summary": "Police not ruling out links to A66 crash after two killed in Middlesbrough house fire &nbsp;&nbsp; The Guardian",
-          "publishedAt": "2026-08-26T12:09:00.000Z"
-        },
-        {
-          "name": "Yahoo News Canada",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DUUxuSnpuWEllSzZCRUlJLUtWRGZQQzNqTFpxMjRFRmhhR1h2M3VUdTNaNGI4VVVNdEdHaVE2d19sSFNxUERpeFkyR2MwUDJpa0RTdHdVdHpxeHF5QktzU01BTXFWZlUxcGt6QTdhWU96b19ZT3c?oc=5",
-          "summary": "Murder probe as two people dead in house fire &nbsp;&nbsp; Yahoo News Canada",
-          "publishedAt": "2026-08-26T11:14:46.000Z"
-        },
-        {
-          "name": "Sky News",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdkNQMnVvQ3VlQXlMQnFLWUJBY09zVVZjYzFzUUI2VmVhMnItUExHRThJVlp0ZHloQkdlTmNHUnZWdTdqMll4SUYxQ21rWGMtd1FXa0hiXzlOZ2pHNkFpMGhIaGw5UTRlRHBzTGhmNENHeE1UaVlrbTV6Wlk2Z1NYV0RQV1BvUUFFLUNGZDVEWlFIRUJ0WDN0OTBneTZzVm52NU11LURVR19DSEdia0VrZjFTc3M2aTVNUWtV?oc=5",
-          "summary": "Murder investigation launched after two people die in house fire near Middlesbrough &nbsp;&nbsp; Sky News",
-          "publishedAt": "2026-08-26T12:43:40.000Z"
-        },
-        {
-          "name": "Tribune Online",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWEhRZE5EejRzS2xHTS1TYnR2R1BuekZsbkJEMmZvc3lmdlc5MVIwb3hJYVdsSzVwaW82YzVWTjhpUjlKVEZ2T2FndnljbWM2Uk1BdWJ4RC1rNVlfWkl5VjZMOGw2OWg4NFJoVElibWdET2toVUlUTnpVcWltTmJ0ZjgyRE5YWnk2MFF6N0lDbGFnaGPSAZgBQVVfeXFMUDV5YUd2ZUFHaUFHSDdTY0tYQ1hEWU1tMVh1eWJMT19ZOGhaUDN6a3JwX2RvWmxybm1OZUFJcGNkSndJRVkwWWlYTE5NdmpXZExxT2NXajdJcHMzQzM2bm5WWlpaTGZ5MzdaRU9oQS10ZGFXUkNMbzA4azJJeTdiY3FUdkZRQ3JOTXdKdm1YM2lpYy1JN2dVQ00?oc=5",
-          "summary": "Two people killed in UK house fire; Police begin murder probe &nbsp;&nbsp; Tribune Online",
-          "publishedAt": "2026-08-26T13:52:36.000Z"
+          "publishedAt": "2026-08-26T16:39:37.000Z"
         }
       ],
-      "sourceCount": 6
+      "sourceCount": 1
     },
     {
-      "id": "inquest-begins-into-death-of-jason-arday-general-2026-08-26t14-15-48-000z",
-      "title": "Inquest begins into death of Jason Arday",
-      "link": "https://www.bbc.co.uk/news/articles/cjdv5y220keo?at_medium=RSS&at_campaign=rss",
-      "summary": "Dr Julian Morris Morris said he had \"reason to suspect that Professor Arday died an unnatural death\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/27ba/live/bb9c5310-a13c-11f1-b109-879e35c24276.jpg",
+      "id": "rockstar-games-breaks-silence-on-grand-theft-auto-6-leaks-general-2026-08-26t16-34-54-000z",
+      "title": "Rockstar Games breaks silence on Grand Theft Auto 6 leaks",
+      "link": "https://www.bbc.co.uk/news/articles/c62eg71e1z2o?at_medium=RSS&at_campaign=rss",
+      "summary": "The game developer says the unauthorised footage has caused \"heartbreak\" for those working on the title.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/91e8/live/3c295e10-a147-11f1-aed2-8d6da8d75094.jpg",
       "source": "BBC News",
       "category": "general",
       "categoryLabel": "General",
-      "publishedAt": "2026-08-26T14:15:48.000Z",
+      "publishedAt": "2026-08-26T16:34:54.000Z",
       "sources": [
         {
           "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/cjdv5y220keo?at_medium=RSS&at_campaign=rss",
-          "summary": "Dr Julian Morris Morris said he had \"reason to suspect that Professor Arday died an unnatural death\".",
-          "publishedAt": "2026-08-26T14:15:48.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIcVZ1ekoxUG50QnBmWUNnbkZsdG8zaUQ3Nl9NYnZ0WmJYQkZmaGdDZWlybUxjMTFKVE14dnpVWkV0V2w0OWczYlRmeGhmYUtqV042NEtxNnRHQUVf?oc=5",
-          "summary": "Inquest begins into death of Jason Arday &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-08-26T14:15:48.000Z"
-        },
-        {
-          "name": "ITVX",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTFBxcDZ3cUI5REtNN3RxUlBja3F0SEQ5UXZDMDVHaksyWFNZQnl2X2ZMS28zS0FYMng2N2QzY0VnRmhIMlVNbzZLWUFJUXdPeG9ZOTlwclBfd0p0Yjh2VTluSXBjdW1EQnVNWTJCUFhQX3Y5TmNDVHF4NTJVcGFkcGhxZVhhWW9CSGZ4cFNwdEhqWmJlMTZoTU43T0I0Z0M2QjNrdDVZZnBQZWEzNlliMlhn?oc=5",
-          "summary": "Inquest into the death of Jason Arday to open day before memoir is published | ITV News &nbsp;&nbsp; ITVX",
-          "publishedAt": "2026-08-24T20:48:09.000Z"
-        },
-        {
-          "name": "Los Angeles Times",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbXRIc2lRVEVEMUFsTTh0Z3BmMlQ0TDRFV3F3d2JjTGhQZ1FqcnNqcTZ3d3MzcHhMYU5kRkRmeEJmazdtMlJDLXBuNS1uMXF0X19RQTRRcERrTF9vSVI3OWM5eE5CcGlKcUJ3X2FWSjNKRmdRczNTcXMzcWRzQmZocHdDSFNuOFVFdloxMHkzTndsMzdiUW9sUjVJcnU5cDRsVkNYMFljSWNPNjA1bkxPam8yckRNOEJiTTJqdnUzT2xZR0NWbGc?oc=5",
-          "summary": "Inquest opens into death of ex-Cambridge University professor Jason Arday &nbsp;&nbsp; Los Angeles Times",
-          "publishedAt": "2026-08-26T14:01:21.000Z"
-        }
-      ],
-      "sourceCount": 4
-    },
-    {
-      "id": "microsoft-s-25th-anniversary-xbox-will-cost-899-tech-2026-08-26t14-05-38-000z",
-      "title": "Microsoft’s 25th anniversary Xbox will cost $899",
-      "link": "https://www.theverge.com/games/985003/microsoft-xbox-25th-anniversary-console-price",
-      "summary": "The special-edition translucent green Xbox finally has an official price. Preorders for the console start August 27th at 10AM ET / 7AM PT, although Microsoft says \"some of XBOX's most dedicated fans\" will receive early access preorder emai...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/X25-Collection-44fa4f8521aeaf755181.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T14:05:38.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/games/985003/microsoft-xbox-25th-anniversary-console-price",
-          "summary": "The special-edition translucent green Xbox finally has an official price. Preorders for the console start August 27th at 10AM ET / 7AM PT, although Microsoft says \"some of XBOX's most dedicated fans\" will receive early access preorder emai...",
-          "publishedAt": "2026-08-26T14:05:38.000Z"
-        },
-        {
-          "name": "finance.biggo.com",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QcmI3Q2dud0lRRzdqSkFvWWtTY2tvOW9GZTN5XzhvWXdzUjV5RXd5Tng5TEEyTklqUDhNQXlRSlg4enpvRlBCeXRBRGx4UWZkd1c1cWtZQUlPMVpadG9qeEhPS0hNVjljVktzNEUzcGJVc2RNTVE?oc=5",
-          "summary": "Razer, 8BitDo and GameSir Roll Out Translucent Green Gear for Xbox's 25th Anniversary &nbsp;&nbsp; finance.biggo.com",
-          "publishedAt": "2026-08-26T10:25:00.000Z"
-        },
-        {
-          "name": "PCMag Australia",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd0k4Z3M4Z3BrM0d1U1F0eVNUd2VNaWZ4N3l1TzNlRnpLbm5TamFGOFltdU15OFZQT0FNT3pkUWVtZHFoV0w4MWhVWURkT0dQenZORW12dV9fb1AxR3ZyNUR5V3RiNU5hVkFIM0lsa3prTXBhTXR3OEdUa3BzTDFMeFloVEVQSTRWT3RjVVZBOEpqUmhMLWFycmVaLW03WEdZeE5SRHhETDllRS02b3RvUw?oc=5",
-          "summary": "My Eyes! Microsoft to Open Preorders for Translucent Green Anniversary Xbox &nbsp;&nbsp; PCMag Australia",
-          "publishedAt": "2026-08-26T15:27:53.000Z"
-        },
-        {
-          "name": "TechSpot",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRzFuX3pnV0V0UmNzN1hJSW50VlNpX0FvNlhiWXJwbDZxQ3EzRDU0YUR1Z1FFR1FtY21zc29pOGhzNE9sWTIwbzJybWpWZ1ljRmx3S0dwaWdPSE82RTJlNk5FRE0wVm9ta2NscnNKN0FZTGswRW5SXzFlZ3ZoTkZTNldsUkZ4UE5VdGgzWlVsaGZOMVR5b3J5ckpKcHNPTWhXN2t3ZUc0WQ?oc=5",
-          "summary": "Microsoft partners with Razer, 8BitDo, and Backbone on Xbox 25th anniversary collection &nbsp;&nbsp; TechSpot",
-          "publishedAt": "2026-08-26T15:06:14.000Z"
-        },
-        {
-          "name": "KitGuru",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMndHNHRuT09GRU9jZWdRZUlPMklyWkVfMURYcGlNbmMzTFF1eXAyRWlHRE1RU212MmR2WnJROGFuY1NndHNMMFNvNzdrN3lUMFgzRFZOZXFQejZpcDRHejBtRExNd3cwcnNpb2N3RXJuOElUMk5KclZ1a0MyZDFyQU5CYnJJbXZJeUZmeVZjQmNtTng0RG5sSS11RkkyUlpNejZ4bmJsTlZfa2hNalk2dnViUGE?oc=5",
-          "summary": "Microsoft’s 25th anniversary Xbox Series X expected to launch at €899.99 &nbsp;&nbsp; KitGuru",
-          "publishedAt": "2026-08-24T12:00:08.000Z"
-        }
-      ],
-      "sourceCount": 5
-    },
-    {
-      "id": "you-can-now-buy-music-on-soundcloud-tech-2026-08-26t14-00-00-000z",
-      "title": "You can now buy music on SoundCloud",
-      "link": "https://www.theverge.com/entertainment/984926/soundcloud-direct-music-sales-beta-launch",
-      "summary": "SoundCloud has launched a new beta feature that allows artists on the audio streaming platform to sell music directly from their profiles, instead of diverting fans to purchase from third-party services like Bandcamp and Beatport. The feat...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/6a8da72a57472ab559aad907_600400-1.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T14:00:00.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/entertainment/984926/soundcloud-direct-music-sales-beta-launch",
-          "summary": "SoundCloud has launched a new beta feature that allows artists on the audio streaming platform to sell music directly from their profiles, instead of diverting fans to purchase from third-party services like Bandcamp and Beatport. The feat...",
-          "publishedAt": "2026-08-26T14:00:00.000Z"
-        },
-        {
-          "name": "The Music Network",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVk56VXBDbEJZSXJ4Q2pkc2d1aHVsWXRYdDJKR05wUGJPUDZTZ1I3ZEJNOG42SDZUeS04dFRXWWlUMTZuUU1FRzlISWdxd3VoWUh3MVVNM1NvdXFMal9nNkIwNENNMWNZdGFRLUdmeDFscGxnbGE1OHFyTkVWd3R6a0pqMGhaZjItekM3NTN1UmFTYmVFYks5UXVRa25JdkN1SHlBdmpXbXNWaDdadEt3RndNMA?oc=5",
-          "summary": "SoundCloud now lets you distribute your tunes to Spotify, Apple and YouTube Music &nbsp;&nbsp; The Music Network",
-          "publishedAt": "2026-05-11T10:27:27.000Z"
-        },
-        {
-          "name": "MusicTech",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmc3AzZUhad2VMVWYzSkw4UllGbi1hYXFhNmVCSDFsREhwSjRvdDE0UTVWWFdnNjNraXdlR19PaGp3bnJ5S2FoSFpmM25PLW1rdklZaXh3bTBya0x5WENKXzM0X09JTDVCTnFhdFFGNmNEUU43QTk5OE1Gdw?oc=5",
-          "summary": "You can now share legally-safe remixes made with Hook directly to SoundCloud &nbsp;&nbsp; MusicTech",
-          "publishedAt": "2025-07-24T07:00:00.000Z"
-        },
-        {
-          "name": "CDM Create Digital Music",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGRE01czZ0aFFZYVJoRWwxX2pMb285aXl0RGoxRDJZUzhVMmdEVkdMZnhFV0U5RWZuWGFVUDliRWNiRXdidlJRWTZOT2lkODdmWEhV?oc=5",
-          "summary": "SoundCloud will now handle distributing your music – and give you a 100% cut &nbsp;&nbsp; CDM Create Digital Music",
-          "publishedAt": "2019-02-19T08:00:00.000Z"
-        },
-        {
-          "name": "Music Business Worldwide",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZUh3eUlhUEVoX0gyZ2ZJdFZXSmhaNEV1ZnowOXZXZnlweDVtZmpQaG1CYlh5WG9TYUx3NGsyV3V3X09HVFljWVhqekNXOXJLSVByZ1NfN1V6UURUQzRLck00alRtUEdhbnU3LXp3aE5qN3RKVE8wRzc5cldUMXdvMXJrUWViVm0wV0V4LWp4eWUtZmJqY0hiYmJ2alVkOHBYaFJvQzhnZw?oc=5",
-          "summary": "Virtual DJ users can now stream and mix music directly from SoundCloud with new integration &nbsp;&nbsp; Music Business Worldwide",
-          "publishedAt": "2019-04-09T07:00:00.000Z"
-        }
-      ],
-      "sourceCount": 5
-    },
-    {
-      "id": "tension-prevails-at-nagarjunsagar-as-a-p-draws-water-unilaterally-tg-retaliates-india-2026-08-26t15",
-      "title": "Tension prevails at Nagarjunsagar as A.P. draws water unilaterally, TG retaliates",
-      "link": "https://www.thehindu.com/news/national/telangana/tension-prevails-at-nagarjunsagar-as-ap-draws-water-unilaterally-tg-retaliates/article71393550.ece",
-      "summary": "",
-      "image": "",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-08-26T15:50:27.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/telangana/tension-prevails-at-nagarjunsagar-as-ap-draws-water-unilaterally-tg-retaliates/article71393550.ece",
-          "summary": "",
-          "publishedAt": "2026-08-26T15:50:27.000Z"
+          "link": "https://www.bbc.co.uk/news/articles/c62eg71e1z2o?at_medium=RSS&at_campaign=rss",
+          "summary": "The game developer says the unauthorised footage has caused \"heartbreak\" for those working on the title.",
+          "publishedAt": "2026-08-26T16:34:54.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "chidambaram-says-there-has-been-no-corruption-or-virtually-nil-corruption-at-many-govt-offices-in-ta",
-      "title": "Chidambaram says there has been “no corruption or virtually nil corruption” at many govt. offices in Tamil Nadu",
-      "link": "https://www.thehindu.com/news/national/tamil-nadu/chidambaram-says-there-has-been-no-corruption-or-virtually-nil-corruption-at-many-govt-offices-in-tamil-nadu/article71393519.ece",
-      "summary": "Congress MP cites public feedback as the source of his information",
-      "image": "https://th-i.thgim.com/public/incoming/nebm7f/article71393648.ece/alternates/LANDSCAPE_1200/4.JPG",
+      "id": "jairam-ramesh-seeks-kargil-style-review-of-operation-sindoor-after-general-chauhan-remarks-india-202",
+      "title": "Jairam Ramesh seeks Kargil-style review of Operation Sindoor after General Chauhan remarks",
+      "link": "https://www.thehindu.com/news/national/jairam-ramesh-seeks-kargil-style-review-of-operation-sindoor-after-general-chauhan-remarks/article71393308.ece",
+      "summary": "General Chauhan’s latest remarks, coupled with his earlier revelations, had raised understandable concern and warranted a structured review of the operation, says Congress leader Jairam Ramesh",
+      "image": "https://th-i.thgim.com/public/incoming/w1reyw/article71393415.ece/alternates/LANDSCAPE_1200/TH19-Vijaita-CoGSCGDSKIN.3.jpg.jpg",
       "source": "The Hindu National",
       "category": "india",
       "categoryLabel": "India",
-      "publishedAt": "2026-08-26T15:48:33.000Z",
+      "publishedAt": "2026-08-26T16:28:49.000Z",
       "sources": [
         {
           "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/chidambaram-says-there-has-been-no-corruption-or-virtually-nil-corruption-at-many-govt-offices-in-tamil-nadu/article71393519.ece",
-          "summary": "Congress MP cites public feedback as the source of his information",
-          "publishedAt": "2026-08-26T15:48:33.000Z"
+          "link": "https://www.thehindu.com/news/national/jairam-ramesh-seeks-kargil-style-review-of-operation-sindoor-after-general-chauhan-remarks/article71393308.ece",
+          "summary": "General Chauhan’s latest remarks, coupled with his earlier revelations, had raised understandable concern and warranted a structured review of the operation, says Congress leader Jairam Ramesh",
+          "publishedAt": "2026-08-26T16:28:49.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "modi-calls-nepal-pm-promises-all-possible-assistance-after-devastating-flash-flood-india-2026-08-26t",
-      "title": "Modi calls Nepal PM, promises ‘all possible assistance’ after devastating flash flood",
-      "link": "https://www.thehindu.com/news/national/nepal-floods-pm-modi-speaks-to-balendra-shah-offers-humanitarian-assistance/article71392806.ece",
-      "summary": "The Indian Air Force will deploy two aircraft carrying relief material to Nepal, sources said. A C-130 aircraft carrying relief supplies is scheduled to depart from Hindon Air Base late Wednesday night, while a C-17 aircraft carrying addit...",
-      "image": "https://th-i.thgim.com/public/incoming/7w9ao9/article71392866.ece/alternates/LANDSCAPE_1200/20260402010L.jpg",
+      "id": "nepal-flash-flood-what-triggered-the-deadly-himalayan-disaster-india-2026-08-26t16-26-41-000z",
+      "title": "Nepal flash flood: What triggered the deadly Himalayan disaster?",
+      "link": "https://www.thehindu.com/videos/nepal-flash-flood-what-triggered-the-deadly-himalayan-disaster/article71393793.ece",
+      "summary": "A devastating flash flood has struck Nepal’s Rasuwa district near the Tibet border, leaving at least eight people dead and hundreds reported missing. The disaster swept through the Bhote Koshi River basin, causing widespread destruction to...",
+      "image": "https://th-i.thgim.com/public/incoming/oztj85/article71393790.ece/alternates/LANDSCAPE_1200/Pakistan%20%201.png",
       "source": "The Hindu National",
       "category": "india",
       "categoryLabel": "India",
-      "publishedAt": "2026-08-26T15:47:50.000Z",
+      "publishedAt": "2026-08-26T16:26:41.000Z",
       "sources": [
         {
           "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/nepal-floods-pm-modi-speaks-to-balendra-shah-offers-humanitarian-assistance/article71392806.ece",
-          "summary": "The Indian Air Force will deploy two aircraft carrying relief material to Nepal, sources said. A C-130 aircraft carrying relief supplies is scheduled to depart from Hindon Air Base late Wednesday night, while a C-17 aircraft carrying addit...",
-          "publishedAt": "2026-08-26T15:47:50.000Z"
+          "link": "https://www.thehindu.com/videos/nepal-flash-flood-what-triggered-the-deadly-himalayan-disaster/article71393793.ece",
+          "summary": "A devastating flash flood has struck Nepal’s Rasuwa district near the Tibet border, leaving at least eight people dead and hundreds reported missing. The disaster swept through the Bhote Koshi River basin, causing widespread destruction to...",
+          "publishedAt": "2026-08-26T16:26:41.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "karnataka-books-10-237-cases-against-school-vehicles-in-three-years-bengaluru-tops-list-india-2026-0",
-      "title": "Karnataka books 10,237 cases against school vehicles in three years; Bengaluru tops list",
-      "link": "https://www.thehindu.com/news/national/karnataka/karnataka-books-10237-cases-against-school-vehicles-in-three-years-bengaluru-tops-list/article71389251.ece",
-      "summary": "Bengaluru Urban recorded the highest number of cases at 3,244, followed by Hassan with 1,169 cases and Kolar with 674 cases",
-      "image": "https://th-i.thgim.com/public/incoming/2plgq9/article71393543.ece/alternates/LANDSCAPE_1200/_DSC4347.jpg",
+      "id": "bjp-accuses-rahul-gandhi-of-hypocrisy-over-women-s-empowerment-india-2026-08-26t16-26-18-000z",
+      "title": "BJP accuses Rahul Gandhi of hypocrisy over women’s empowerment",
+      "link": "https://www.thehindu.com/news/national/bjp-accuses-rahul-gandhi-of-hypocrisy-over-womens-empowerment/article71393071.ece",
+      "summary": "BJP MP Bansuri Swaraj accuses the Congress leader of “misogyny” and refers to a recent Congress event",
+      "image": "https://th-i.thgim.com/public/incoming/tpzrsz/article71355420.ece/alternates/LANDSCAPE_1200/RAHUL%20GANDHI%20PC%2017.JPG",
       "source": "The Hindu National",
       "category": "india",
       "categoryLabel": "India",
-      "publishedAt": "2026-08-26T15:46:24.000Z",
+      "publishedAt": "2026-08-26T16:26:18.000Z",
       "sources": [
         {
           "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/karnataka/karnataka-books-10237-cases-against-school-vehicles-in-three-years-bengaluru-tops-list/article71389251.ece",
-          "summary": "Bengaluru Urban recorded the highest number of cases at 3,244, followed by Hassan with 1,169 cases and Kolar with 674 cases",
-          "publishedAt": "2026-08-26T15:46:24.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdlkyQkVzYXo4VUh3TGN2NGg4RTgyOThibEl2cHlxel85My1RZVFpN2p2bVFTZmRrM0RmcGJMUFM0QmFJQjBWdFpGVG1oTENheG1PZlNFUXdDTDdORnBSX2Q5Rl9SaDJTUmc2aTRNVGhiMkhWYVNsRE55WGVGTGM2THJuM0VTVWJsUVQ4UXNqbTFtSDIyaHEzSUNCTzZwWlZvNE9NeUZ1cHVWSEZzNWdyTnFBbVlIX3dfZkI3UXBQVmtpbkNrS2ZXY09MMWM2c1h3dzF0XzUzTklpNUpmeFBDSU5vZUhIa29HNFFn0gHyAUFVX3lxTFBJYnJ6c2oxNHgxUFUzeTBwTDlGdE55bGVFU19ha1FEanE0ZkJnTi1HbFE3YXVraF9USnVhaHlqa003b3pDZkxXbnc2bUwxdlp2N1VwVmtwOUhFU3JUSFJ0Sm1aeDBRSTEwcWg0eHdkTGN3UDVBRUQyZllUMGNzc09MYkw5d2d1aUFaaHJHYUNwU2w0WkNSM2ZkMzA0Vk4tQkxuYmM2NWJnZHhJMTRvMnN2V1l1VVh6emlVVFQ3WVI5YWJHSF9CYnBBeU5idlZYMTFCYVNYZnBQWlNqWXRaSWpIbmZSMUg0V1RKdHV0WjJzdWxn?oc=5",
-          "summary": "Karnataka books 10,237 cases against school vehicles in three years; Bengaluru tops list &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-26T15:46:20.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "chittoor-sp-reviews-security-preparedness-ahead-of-local-body-polls-india-2026-08-26t15-45-40-000z",
-      "title": "Chittoor SP reviews security preparedness ahead of local body polls",
-      "link": "https://www.thehindu.com/news/national/andhra-pradesh/chittoor-sp-deploys-drones-boosts-security-ahead-of-local-body-polls/article71392712.ece",
-      "summary": "",
-      "image": "",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-08-26T15:45:40.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/chittoor-sp-deploys-drones-boosts-security-ahead-of-local-body-polls/article71392712.ece",
-          "summary": "",
-          "publishedAt": "2026-08-26T15:45:40.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTmlMUENOZHdjbTYwMWtJUjRjelZxV05sak44ZnBKRnkzMGFJendtanBGX2VHQWo3b3NNcWREM1ZDS2RmX0U3R2dqRlhwOUdiem5Ed1c3TEdReVFZZ0d1UmxVbV9oeUFUdXFBVUdpV1VudTdzTTMwVlI5Znp0ZldkOWQ3VXZfd3ZmT0hIelY3emhKLWQzYWdvM1ItNXV6OWNBOFRlQ2hyMjgxb0lEVUllQ28taFRzeFE3akREM1lUM1NMT01CajNJNEVjUktES2dmS2lhMUhOZy1od9IB4AFBVV95cUxPWGdFb3BudldVOXVqcVZLaFl6Nms0Sm5FV3lmZ1FhMmtXNzdPRURCcVNnek9wYTVBUWxzWmdMem43bDNOc0laTWZaVFpzT3dlSmhmU3FNUU1rY2M0QnhaaDJhQUs4d2tidEE0Ni1PU09xa3NMdjN0R0V1TDJIazBhU1l2SFk1THZlMjZnUlFDTF96SnhVLXZ1ZUZRV2ZRUG5BYlN3b2MyV3dzNGEwQy1ILWRRS0J4cFpQcWtwM3phdzUtQnhKQVM4Si11Z3hBcUFDelVDYWluYWJLbV9wbnI1MQ?oc=5",
-          "summary": "Chittoor SP reviews security preparedness ahead of local body polls &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-26T15:44:13.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "assembly-design-in-amaravati-should-be-future-ready-people-friendly-says-speaker-ayyanna-patrudu-ind",
-      "title": "Assembly design in Amaravati should be future-ready, people-friendly, says Speaker Ayyanna Patrudu",
-      "link": "https://www.thehindu.com/news/national/andhra-pradesh/assembly-design-in-amaravati-should-be-future-ready-people-friendly-says-speaker-ayyanna-patrudu/article71393420.ece",
-      "summary": "During a high-level meeting, the Norman Foster + Partners team explains to the Speaker the arrangements being made for public representatives, officials, media and visitors",
-      "image": "https://th-i.thgim.com/public/incoming/ltv4o3/article71393610.ece/alternates/LANDSCAPE_1200/10745_26_8_2026_20_36_56_1_IMG_20260826_WA0045.JPG",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-08-26T15:44:39.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/assembly-design-in-amaravati-should-be-future-ready-people-friendly-says-speaker-ayyanna-patrudu/article71393420.ece",
-          "summary": "During a high-level meeting, the Norman Foster + Partners team explains to the Speaker the arrangements being made for public representatives, officials, media and visitors",
-          "publishedAt": "2026-08-26T15:44:39.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVjViMXVGWGxOdUhfUDRZLVJKOFN1NktkRG5LY3RaQ0hWZ2hZTjdIS1VZNzJib1lueFExZHE5enRIZ3JYS2JhT0JzQzBWOWJIVlVIcGJFVHJveUdNS1BPSmhCV1dkamstSHhiOXF0bWtuNGh3dGhQbUVuQXd1dDNZLUljWjlGQ1RnakhXaElKdnpaeEk0bkF5Wkh3c3hHR3JNc2M4V29IQkYwcmttbWJqZ3NSTGlqeVo5YWR5dFV0QnZRdjBRZ3RUcDNXZ0VlM1k5aWh3QmdJcFdiaUNlcXE0aXFNVE96akdvVEZKZjFlUS1TeUlZN0VYU0hBV2xkNlXSAYYCQVVfeXFMTmplVUU4dmJKYWo1Y2p1bUU4U24weGpmRGhhOFN3TkpDV0pWNXYyYlFGMnVtejZXWkdiTnhGYTZ5Z1FnUDU0MGJqcU1kTDVibEpjeHhFZ19uTmpMWWlzZW9MTllERWZJUlo3SThrVXllclc5NE54eHNoeWowUEdiRXdkYTFRQV9oVUNRQ1M3cV9nbGx3UDdxV2RlR01zY09TZElPMnBhZXZwdjdYa19DUDBuZzktaEhGUExLX1Z4STZrWWhkLUk4b2V6Ymh6aE10OFVSM3hrOWNPNlFObnVIVGl4ZHV1MFlMNmtDUmV4RkxTT3RMNkFQc3R4Xzh5dEw1TWVjYnFEdw?oc=5",
-          "summary": "Assembly design in Amaravati should be future-ready, people-friendly, says Speaker Ayyanna Patrudu &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-26T15:44:36.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "india-china-to-push-for-early-and-substantial-harvest-of-border-delimitation-india-2026-08-26t15-44",
-      "title": "India, China to push for ‘early and substantial harvest’ of border delimitation",
-      "link": "https://www.thehindu.com/news/national/india-china-to-push-for-early-and-substantial-harvest-of-border-delimitation/article71393272.ece",
-      "summary": "India and China agree to hold the next meeting of an expert-level mechanism on trans-border rivers in September, and to maintain communication on sharing hydrological data",
-      "image": "https://th-i.thgim.com/public/incoming/693z1/article71393545.ece/alternates/LANDSCAPE_1200/PTI08_25_2026_000382B.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-08-26T15:44:38.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/india-china-to-push-for-early-and-substantial-harvest-of-border-delimitation/article71393272.ece",
-          "summary": "India and China agree to hold the next meeting of an expert-level mechanism on trans-border rivers in September, and to maintain communication on sharing hydrological data",
-          "publishedAt": "2026-08-26T15:44:38.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY2RmNUVkUkJ4ektEUlNJcXhyUGd6UlBBM051aTNXeDhVWnZ1MW5nTHgtbkc4ZHVGUVltdl9NMWV2WVRjYUpsN0VEb1dWc1pCNXFMSVhTejQxLVBBUWxha3pMNF9JcUhKb2IyZkQ1eHZnYl9VeUlWcWpsSzJSbThFNmtTeVlNbk5vSjFucm9XeEZWaW5PX0tqTU9sSjNiYno5RkF5SEhkSDRsa2J6d0FlZWlSZ3VDRUg1NURBMVpFWm81dWU1VXUtVlhaWlYzVl9I0gHXAUFVX3lxTFA0MkpWU0kzYzNkMzRMV3ZuRmxRVXNOS0Nzcjh1YUdzdThqMFllX1pIbFhUWTlOLWJNZnVPakhZNXRUaXJYdDNCY0VBRHZ5YTVpaExDUG0wLXRyNE5RTEQzcGZlM01nVG16ZWFSS1NYQUY5U1JaSklxNUtKY1VYd1haUVZ0Ri1FQ3gxRGJuMmljNlY3Um9NaUh1VTB6dGEzLXhpZHRqcGtoSUdOSXNPTHhLeGQ5VjJoa2hxclg2Q2w1TzViWWJrX3I4RktnQU9pTndRdjNHZXJ3?oc=5",
-          "summary": "India, China to push for ‘early and substantial harvest’ of border delimitation &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-26T15:25:27.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "salem-collector-inspects-mettur-dam-ahead-of-water-release-for-delta-irrigation-india-2026-08-26t15",
-      "title": "Salem Collector inspects Mettur Dam ahead of water release for Delta irrigation",
-      "link": "https://www.thehindu.com/news/national/tamil-nadu/mettur-dam-likely-to-be-opened-by-tamil-nadu-cm-vijay-on-august-28-salem-collector-holds-inspection/article71392393.ece",
-      "summary": "This year, Cauvery water could not be released from Mettur Dam for irrigation in Delta districts on the customary date of June 12 due to inadequate storage.",
-      "image": "https://th-i.thgim.com/public/news/national/tamil-nadu/468vmo/article71392539.ece/alternates/LANDSCAPE_1200/Mettur.jpeg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-08-26T15:43:35.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/mettur-dam-likely-to-be-opened-by-tamil-nadu-cm-vijay-on-august-28-salem-collector-holds-inspection/article71392393.ece",
-          "summary": "This year, Cauvery water could not be released from Mettur Dam for irrigation in Delta districts on the customary date of June 12 due to inadequate storage.",
-          "publishedAt": "2026-08-26T15:43:35.000Z"
+          "link": "https://www.thehindu.com/news/national/bjp-accuses-rahul-gandhi-of-hypocrisy-over-womens-empowerment/article71393071.ece",
+          "summary": "BJP MP Bansuri Swaraj accuses the Congress leader of “misogyny” and refers to a recent Congress event",
+          "publishedAt": "2026-08-26T16:26:18.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "bandi-sanjay-marks-upi-s-10th-anniversary-with-digital-payment-in-karimnagar-india-2026-08-26t15-42",
-      "title": "Bandi Sanjay marks UPI’s 10th anniversary with digital payment in Karimnagar",
-      "link": "https://www.thehindu.com/news/national/telangana/bandi-sanjay-marks-upis-10th-anniversary-with-digital-payment-in-karimnagar/article71389933.ece",
-      "summary": "",
-      "image": "https://th-i.thgim.com/public/incoming/ldpzyh/article71390061.ece/alternates/LANDSCAPE_1200/Bandi.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-08-26T15:42:00.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/telangana/bandi-sanjay-marks-upis-10th-anniversary-with-digital-payment-in-karimnagar/article71389933.ece",
-          "summary": "",
-          "publishedAt": "2026-08-26T15:42:00.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUEVCbHdFbHJVSVNQeW5GQl9vTHN5LXVFbnlmUmFwZm4ybkJoUVBaem1NSHBkaXhQX0pYcWJXRk02elNTaTEzOUw2YXpZS0VWQzB5OFE1eDNGOHkySXNVQ2h3Vmx5QncyNm42Ym1oYTlOdnlTM1NjTDQzUlFYUmhab0ZhdDZuZU5CMHFLMEU5bk82N2ptajI4X3FZTjh1em4zb3BJd3RXM3VuTDNndTdVYVJEbHpCbEh0b1ZFdDdhSFFZRFVPd1RtcGNzak9YVDVkcWJSM3g3MkxyUWpF0gHjAUFVX3lxTE4tUlBKVkhaT3pvQUV2RDEwSDZoaVZXczRMRzIwWXNhMFVRZ29ZN0VWbnJXVHcyd3BIaF8yWnpqMzk5TEc1Y3NrSjRreXkxNEktdUdsUld0aW1yRS05SmhCSDhDdWNGZXV0bExPbzRuYmdsVHowLW9xNU1Ic3JLUk41TWd2amVjanBpQ0FaSnUtZk5icjRtbGR1dmFqbFZxcnRlN01wblBJZVdROFZBX0JIT3d5RkF0amlUNXFqa3oxVXlCalp6X3JNOFlCTlFFS0xrcjRjaVlvWU5MWlZRVmVtOWJj?oc=5",
-          "summary": "Bandi Sanjay marks UPI’s 10th anniversary with digital payment in Karimnagar &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-08-25T16:11:41.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "nepal-flash-floods-live-at-least-95-dead-over-350-missing-iaf-to-deploy-two-aircraft-with-relief-mat",
-      "title": "Nepal flash floods LIVE: At least 95 dead, over 350 missing; IAF to deploy two aircraft with relief materials",
+      "id": "nepal-flash-floods-live-at-least-95-dead-over-350-missing-india-sends-first-tranche-of-relief-materi",
+      "title": "Nepal flash floods LIVE: At least 95 dead, over 350 missing; India sends first tranche of relief materials",
       "link": "https://www.thehindu.com/news/international/nepal-floods-live-updates-august-26-2026-several-missing-dead/article71392492.ece",
       "summary": "For assistance and information related to Indian nationals who have been affected by the flash floods in Nepal today, the following emergency numbers may be contacted: +977 985 131 6807, +977 970 910 7500, said a post by the Indian Embassy...",
       "image": "",
       "source": "The Hindu National",
       "category": "india",
       "categoryLabel": "India",
-      "publishedAt": "2026-08-26T15:40:22.000Z",
+      "publishedAt": "2026-08-26T16:26:09.000Z",
       "sources": [
         {
           "name": "The Hindu National",
           "link": "https://www.thehindu.com/news/international/nepal-floods-live-updates-august-26-2026-several-missing-dead/article71392492.ece",
           "summary": "For assistance and information related to Indian nationals who have been affected by the flash floods in Nepal today, the following emergency numbers may be contacted: +977 985 131 6807, +977 970 910 7500, said a post by the Indian Embassy...",
-          "publishedAt": "2026-08-26T15:40:22.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaFR2ZFBYbjhYQlBjTnA1MUM5N1JnbGVWSzRRbzNybHpwVlRqZkR4a3AtUlMtaDBLdi0teFlLdmtRNi1WX2xWeTlRQUtDcW1TbV8yNUxQRTBiVXZRT3k0am4xaUtISExpSHJHRUt0MXZjTFU2S1JMa1B6VWx0ZkRNYWpDSEpMN3BMeFhGOGgwcTR6ZmdMeklwZG1VMVVrS25BMVdvbXVXWWZfTFFmUmxSU2pfdnNTXzZZMGQ2eUxUeGdERXM?oc=5",
-          "summary": "Nepal flash floods LIVE: At least 95 dead, over 350 missing; IAF to deploy two aircraft with relief materials &nbsp;&nbsp; The Hindu Gone in seconds: Devastating footage from Nepal-China border shows doomsday-like scenes &nbsp;&nbsp; The T...",
-          "publishedAt": "2026-08-26T14:23:07.000Z"
-        },
-        {
-          "name": "India.com",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbHlXaE5EaW15ejNsZ3VQQUxocUo5UlR1cEZIeEpqYW5oYkFZQ0FsZk9fSlRZVWlWMlRQQmtrNnRUb2FMTGtYWUdwZURpbWZBYmViZW5pMC02MW5tTDdVaDVLN01oX0FKTFY3cl9IQjB4bElPTVN3MGxTTjBUSkZCZWViYzNtdDRZMlZKX3R6VV84R2taZ3NHcGZCWlNFV204cklrTWRxQ2Npb1BLN1g3T053?oc=5",
-          "summary": "Nepal flood: At least 95 dead, over 350 missing in flash flood | In images &nbsp;&nbsp; India.com",
-          "publishedAt": "2026-08-26T14:39:31.000Z"
+          "publishedAt": "2026-08-26T16:26:09.000Z"
         }
       ],
-      "sourceCount": 3
+      "sourceCount": 1
     },
     {
-      "id": "door-was-locked-at-pakistan-hospital-where-fire-killed-14-babies-witnesses-say-general-2026-08-26t14",
-      "title": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say",
-      "link": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss",
-      "summary": "The hospital tells the BBC the ward door was not locked but manned with security guards, to protect the babies.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/226e/live/30231dc0-a11c-11f1-a291-b542ee92de7c.jpg",
+      "id": "tension-prevails-at-nagarjunasagar-as-a-p-draws-water-unilaterally-tg-retaliates-india-2026-08-26t16",
+      "title": "Tension prevails at Nagarjunasagar as A.P. draws water unilaterally, TG retaliates",
+      "link": "https://www.thehindu.com/news/national/telangana/tension-prevails-at-nagarjunsagar-as-ap-draws-water-unilaterally-tg-retaliates/article71393550.ece",
+      "summary": "",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-08-26T16:23:55.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/telangana/tension-prevails-at-nagarjunsagar-as-ap-draws-water-unilaterally-tg-retaliates/article71393550.ece",
+          "summary": "",
+          "publishedAt": "2026-08-26T16:23:55.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "india-rejects-politically-motivated-highly-malicious-references-in-remarks-by-un-body-against-racial",
+      "title": "India rejects ‘politically motivated, highly malicious references’ in remarks by UN body against racial discrimination",
+      "link": "https://www.thehindu.com/news/national/india-rejects-politically-motivated-highly-malicious-references-in-remarks-by-uncerd/article71392232.ece",
+      "summary": "MEA’s response comes after the United Nations Committee on the Elimination of Racial Discrimination raised concerns regarding reports alleging “large-scale violations” by law enforcement personnel against ethnic and ethno-religious populat...",
+      "image": "https://th-i.thgim.com/public/incoming/ihodb1/article71392263.ece/alternates/LANDSCAPE_1200/PTI08_18_2026_000474B.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-08-26T16:21:35.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/india-rejects-politically-motivated-highly-malicious-references-in-remarks-by-uncerd/article71392232.ece",
+          "summary": "MEA’s response comes after the United Nations Committee on the Elimination of Racial Discrimination raised concerns regarding reports alleging “large-scale violations” by law enforcement personnel against ethnic and ethno-religious populat...",
+          "publishedAt": "2026-08-26T16:21:35.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "cec-gyanesh-kumar-to-chair-regional-conference-on-electoral-literacy-clubs-and-ecinet-in-chennai-ind",
+      "title": "CEC Gyanesh Kumar to chair Regional Conference on Electoral Literacy Clubs and ECINET in Chennai",
+      "link": "https://www.thehindu.com/news/national/tamil-nadu/cec-gyanesh-kumar-to-chair-regional-conference-on-electoral-literacy-clubs-and-ecinet-in-chennai/article71392331.ece",
+      "summary": "The initiative aims to strengthen voter outreach, foster constitutional literacy among future voters and harness digital platforms for electoral operations",
+      "image": "https://th-i.thgim.com/public/incoming/ti86wr/article71393779.ece/alternates/LANDSCAPE_1200/20260817336L.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-08-26T16:20:35.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/cec-gyanesh-kumar-to-chair-regional-conference-on-electoral-literacy-clubs-and-ecinet-in-chennai/article71392331.ece",
+          "summary": "The initiative aims to strengthen voter outreach, foster constitutional literacy among future voters and harness digital platforms for electoral operations",
+          "publishedAt": "2026-08-26T16:20:35.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "rocky-horror-star-tim-curry-dies-at-80-general-2026-08-26t16-17-39-000z",
+      "title": "Rocky Horror star Tim Curry dies at 80",
+      "link": "https://www.bbc.co.uk/news/articles/c5yd92gkk7vo?at_medium=RSS&at_campaign=rss",
+      "summary": "Curry was best known for playing the outlandish Frank-N-Furter in cult film The Rocky Horror Picture Show.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/834e/live/cfbc6d30-a164-11f1-aaf8-119f176ff4ce.jpg",
       "source": "BBC News",
       "category": "general",
       "categoryLabel": "General",
-      "publishedAt": "2026-08-26T14:42:03.000Z",
+      "publishedAt": "2026-08-26T16:17:39.000Z",
       "sources": [
         {
           "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss",
-          "summary": "The hospital tells the BBC the ward door was not locked but manned with security guards, to protect the babies.",
-          "publishedAt": "2026-08-26T14:42:03.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uZFN2SExFZ2w1TTcxazh2RHlQMGlIRFppTWxFeEE0Vm1UY1h6X3BvZVlCZ2Vmbm5tY3ViTFNXeGd6SVhnMENvd1duZUszZm1WZ1lyZFBIYWlTcW8t?oc=5",
-          "summary": "Pakistan PIMS hospital fire: Witnesses say rescue was delayed as Islamabad blaze killed 14 babies &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-08-26T11:55:05.000Z"
-        },
-        {
-          "name": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeUhOa3VORm9ONXE5QmMyeDQzLVBUVVhJaHFoUkF2ZzhuS3dOZDN1UjQ1SHlPemxUcC04dXU2aXNmY3BRM0xmWXV3U1o0NzQyVnBPVlpSTm1wYUFxRG8zVUMwQ25BMVVCVzlGMHpnZjN0VHo2S0JNdm1ya19qYy1VNldNZVdxUnBtRmw0?oc=5",
-          "summary": "14 Newborns Die in Hospital Fire in Pakistan’s Capital &nbsp;&nbsp; The New York Times",
-          "publishedAt": "2026-08-26T06:41:41.000Z"
+          "link": "https://www.bbc.co.uk/news/articles/c5yd92gkk7vo?at_medium=RSS&at_campaign=rss",
+          "summary": "Curry was best known for playing the outlandish Frank-N-Furter in cult film The Rocky Horror Picture Show.",
+          "publishedAt": "2026-08-26T16:17:39.000Z"
         }
       ],
-      "sourceCount": 3
+      "sourceCount": 1
     },
     {
-      "id": "xbox-announces-disc-to-digital-feature-that-digitizes-your-physical-games-tech-2026-08-26t14-30-00-0",
-      "title": "Xbox announces disc-to-digital feature that digitizes your physical games",
-      "link": "https://www.theverge.com/tech/984936/xbox-disc-to-digital-feature-official",
-      "summary": "Microsoft is officially announcing a new Xbox feature that will allow Xbox owners to digitize their existing physical game collections. The disc-to-digital feature, which The Verge exclusively revealed last month, is part of work that Micr...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25485114/STK048_XBOX2__A.png?quality=90&strip=all&crop=0,0,100,100",
+      "id": "tg-eapcet-2026-counselling-schedule-for-b-pharm-and-pharm-d-courses-india-2026-08-26t16-16-01-000z",
+      "title": "TG EAPCET 2026: Counselling schedule for B. Pharm and Pharm D courses",
+      "link": "https://www.thehindu.com/news/national/telangana/tg-eapcet-2026-counselling-schedule-for-b-pharm-and-pharm-d-courses/article71393479.ece",
+      "summary": "",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-08-26T16:16:01.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/telangana/tg-eapcet-2026-counselling-schedule-for-b-pharm-and-pharm-d-courses/article71393479.ece",
+          "summary": "",
+          "publishedAt": "2026-08-26T16:16:01.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "congress-asks-president-to-dismiss-madhya-pradesh-government-for-reportedly-shielding-minister-who-m",
+      "title": "Congress asks President to dismiss Madhya Pradesh government for reportedly shielding Minister who made remarks against Colonel Qureshi",
+      "link": "https://www.thehindu.com/news/national/madhya-pradesh/congress-asks-president-to-dismiss-madhya-pradesh-government-for-reportedly-shielding-minister-who-made-remarks-against-colonel-qureshi/article71393039.ece",
+      "summary": "M.P. Minister Vijay Shah had implied that the Indian army officer was a “sister” of the Pahalgam terrorists; media reports claim M.P. Cabinet decided not to grant sanction for Mr. Shah’s prosecution",
+      "image": "https://th-i.thgim.com/public/incoming/2wwhul/article71393762.ece/alternates/LANDSCAPE_1200/20260207072L.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-08-26T16:15:08.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/madhya-pradesh/congress-asks-president-to-dismiss-madhya-pradesh-government-for-reportedly-shielding-minister-who-made-remarks-against-colonel-qureshi/article71393039.ece",
+          "summary": "M.P. Minister Vijay Shah had implied that the Indian army officer was a “sister” of the Pahalgam terrorists; media reports claim M.P. Cabinet decided not to grant sanction for Mr. Shah’s prosecution",
+          "publishedAt": "2026-08-26T16:15:08.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "apple-announces-september-iphone-launch-event-tech-2026-08-26t16-03-49-000z",
+      "title": "Apple announces September iPhone launch event",
+      "link": "https://www.theverge.com/tech/983407/apple-iphone-launch-event-2026-date",
+      "summary": "Apple's next launch event will take place on September 9th at 1PM ET. Invites to the event, which has a \"Surprise and shine\" tagline, were sent out on Wednesday. The event will take place at the Steve Jobs Theater in Apple Park, but there...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-26-at-9.17.30-AM.png?quality=90&strip=all&crop=0,0,100,94.827045012242",
       "source": "The Verge",
       "category": "tech",
       "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T14:30:00.000Z",
+      "publishedAt": "2026-08-26T16:03:49.000Z",
       "sources": [
         {
           "name": "The Verge",
-          "link": "https://www.theverge.com/tech/984936/xbox-disc-to-digital-feature-official",
-          "summary": "Microsoft is officially announcing a new Xbox feature that will allow Xbox owners to digitize their existing physical game collections. The disc-to-digital feature, which The Verge exclusively revealed last month, is part of work that Micr...",
-          "publishedAt": "2026-08-26T14:30:00.000Z"
-        },
-        {
-          "name": "GosuGamers",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbmdsUl8yWV90Y0xNQjFEajlNclM0VEc5V1IwLW9iQXVsRGQ2Q0FjeEhleDFoeWlza2V5U0N2aW5aR25yUEltUGhqYUY5X0NnUEFHcXpURm11VG55cVZnOUdTcUc4Sk1iSG9WWl9rYWNhLTVoaFAwWVZMeEtpT08zMlZ4RWt4bFB4UnBmbk9abm1LbVVBeVQ1d082ZTVUT3F2NnVqSDVPTThfOVZ2NXB0RnVMaUNVTzdCS2VYLTRsVlBUc3B1bFQ0?oc=5",
-          "summary": "Gamescom: Xbox announces all-new feature that lets users digitise their physical games &nbsp;&nbsp; GosuGamers",
-          "publishedAt": "2026-08-26T15:18:56.000Z"
-        },
-        {
-          "name": "Tom's Hardware",
-          "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQekFVOW1MVUxqZ1h5dElEOEtEbW5Tb1NJTHpyV3dXTnZFSEtTWG94Y0RlRGdBRHY5dzVvcnVOYWxoY3ZvdmdvZ19CcnplQ0I2SVBIbTA4cktFWEMzX0lGc1ljdkVlWHpVbGVCMnFLbV9QT2VaQk1FenhPTUJwaG1RcHk1RWRSalotNk45Mk1VRUF4Y2o4UmJRTFFZSy1DZUk1RHNhSEYyQm16Ym54UjZaTXBpWnVVOXFYcGU5VW05Vjd4VzVrdTB5M1RIbGhhRWF3WWt4VV80dTYteGpTS0lsUTVQVXNzbHVxLTlLYkZ6OUw3VDRseFA4MHVtSm5jZ3gxYWtCNXZoc1QwV1c1andnWi1FX0VQYUlydUlaRURYVjRrTzhWWHB2d1AtNC1HVFNKcHNCQTVVel9SaFJB?oc=5",
-          "summary": "Xbox announces new disc-to-digital feature for physical media — lets players claim digital versions of their games, with support for Play Anywhere and Cloud Gaming &nbsp;&nbsp; Tom's Hardware",
-          "publishedAt": "2026-08-26T15:08:27.000Z"
+          "link": "https://www.theverge.com/tech/983407/apple-iphone-launch-event-2026-date",
+          "summary": "Apple's next launch event will take place on September 9th at 1PM ET. Invites to the event, which has a \"Surprise and shine\" tagline, were sent out on Wednesday. The event will take place at the Steve Jobs Theater in Apple Park, but there...",
+          "publishedAt": "2026-08-26T16:03:49.000Z"
         }
       ],
-      "sourceCount": 3
+      "sourceCount": 1
+    },
+    {
+      "id": "trump-officials-threaten-kennedy-center-demolition-if-court-blocks-renovations-world-2026-08-26t15-4",
+      "title": "Trump officials threaten Kennedy Center demolition if court blocks renovations",
+      "link": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_medium=RSS&at_campaign=rss",
+      "summary": "The justice department has also asked for Trump's name to be put back on the building after it was removed in June following a court order.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/532b/live/81abd680-a164-11f1-81f3-a1eb67c44aaf.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-08-26T15:42:45.000Z",
+      "sources": [
+        {
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_medium=RSS&at_campaign=rss",
+          "summary": "The justice department has also asked for Trump's name to be put back on the building after it was removed in June following a court order.",
+          "publishedAt": "2026-08-26T15:42:45.000Z"
+        }
+      ],
+      "sourceCount": 1
     },
     {
       "id": "stourbridge-fires-that-razed-19-homes-were-accidental-say-investigators-general-2026-08-26t15-34-52",
@@ -924,21 +556,61 @@
       "sourceCount": 1
     },
     {
-      "id": "researchers-get-two-genetic-codes-to-work-at-the-same-time-tech-2026-08-26t15-00-34-000z",
-      "title": "Researchers get two genetic codes to work at the same time",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNlVTVHItSV9NQ2J6WUVVelAxVzhybFdYbURsT09tbE02ekdwdFNib0ZMSnVfaDF4UER5dVNWV3Z6LXNXTUlrWTBEa1E2YVIwcmNXWmJ5U0RNNlloMU91VFJ5dlhUSXdRdTVrMGRZLVNhTDVpaHFYN3JFLWdKR0RUU19WTkk2X0xUN2F4cDhXZ1VyMkRYNWtMVUV4Y2ctSTc5?oc=5",
-      "summary": "Researchers get two genetic codes to work at the same time &nbsp;&nbsp; Ars Technica",
-      "image": "",
-      "source": "Ars Technica",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T15:00:34.000Z",
+      "id": "rupert-grint-to-return-to-harry-potter-in-broadway-play-general-2026-08-26t15-14-24-000z",
+      "title": "Rupert Grint to return to Harry Potter in Broadway play",
+      "link": "https://www.bbc.co.uk/news/articles/c20vmp1v3rdo?at_medium=RSS&at_campaign=rss",
+      "summary": "Grint, now 38, will play his character as an adult in the Harry Potter spin-off play in New York.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ef1/live/a87f1fd0-a15d-11f1-aaf8-119f176ff4ce.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-08-26T15:14:24.000Z",
       "sources": [
         {
-          "name": "Ars Technica",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNlVTVHItSV9NQ2J6WUVVelAxVzhybFdYbURsT09tbE02ekdwdFNib0ZMSnVfaDF4UER5dVNWV3Z6LXNXTUlrWTBEa1E2YVIwcmNXWmJ5U0RNNlloMU91VFJ5dlhUSXdRdTVrMGRZLVNhTDVpaHFYN3JFLWdKR0RUU19WTkk2X0xUN2F4cDhXZ1VyMkRYNWtMVUV4Y2ctSTc5?oc=5",
-          "summary": "Researchers get two genetic codes to work at the same time &nbsp;&nbsp; Ars Technica",
-          "publishedAt": "2026-08-26T15:00:34.000Z"
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/c20vmp1v3rdo?at_medium=RSS&at_campaign=rss",
+          "summary": "Grint, now 38, will play his character as an adult in the Harry Potter spin-off play in New York.",
+          "publishedAt": "2026-08-26T15:14:24.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "door-was-locked-at-pakistan-hospital-where-fire-killed-14-babies-witnesses-say-general-2026-08-26t14",
+      "title": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say",
+      "link": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss",
+      "summary": "The hospital tells the BBC the ward door was not locked but manned with security guards, to protect the babies.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3829/live/3df24620-a166-11f1-a291-b542ee92de7c.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-08-26T14:42:03.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss",
+          "summary": "The hospital tells the BBC the ward door was not locked but manned with security guards, to protect the babies.",
+          "publishedAt": "2026-08-26T14:42:03.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "xbox-announces-disc-to-digital-feature-that-digitizes-your-physical-games-tech-2026-08-26t14-30-00-0",
+      "title": "Xbox announces disc-to-digital feature that digitizes your physical games",
+      "link": "https://www.theverge.com/tech/984936/xbox-disc-to-digital-feature-official",
+      "summary": "Microsoft is officially announcing a new Xbox feature that will allow Xbox owners to digitize their existing physical game collections. The disc-to-digital feature, which The Verge exclusively revealed last month, is part of work that Micr...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25485114/STK048_XBOX2__A.png?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-08-26T14:30:00.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/tech/984936/xbox-disc-to-digital-feature-official",
+          "summary": "Microsoft is officially announcing a new Xbox feature that will allow Xbox owners to digitize their existing physical game collections. The disc-to-digital feature, which The Verge exclusively revealed last month, is part of work that Micr...",
+          "publishedAt": "2026-08-26T14:30:00.000Z"
         }
       ],
       "sourceCount": 1
@@ -959,41 +631,89 @@
           "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
           "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of that deployment has involved attaching c...",
           "publishedAt": "2026-08-26T14:30:00.000Z"
-        },
-        {
-          "name": "VentureBeat",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOWxWdXZ1TGFsdTBSX25jVFAxNFhzSHNyXzRqYlhkTllRNEpWajNMZ1FwV09XX1N3MTBqRU96ZnFUcUNvdWxMclhHNm1DUmxhS0NUZmhGbHA1NUpwMUdERWFiOXBsTFo0N0hvbDVwcjJKQjNWLXZibmdGQUVZRWdydzBHSlBQam5QOUxfcm9IYjQ3UHVGWGp4LVJ4Wjd5dkl1OGZobkhR?oc=5",
-          "summary": "Orchestration is the new challenge for CX in the age of AI agents &nbsp;&nbsp; VentureBeat",
-          "publishedAt": "2026-08-26T14:30:00.000Z"
         }
       ],
-      "sourceCount": 2
+      "sourceCount": 1
     },
     {
-      "id": "watch-how-dolly-became-a-fashion-icon-general-2026-08-26t14-24-43-000z",
-      "title": "Watch: How Dolly became a fashion icon",
-      "link": "https://www.bbc.co.uk/news/videos/cy7z8pz25k8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Culture correspondent Noor Nanji explores how the country legend's signature style helped her take over the world.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2867/live/be773670-a152-11f1-92f3-2381193e5eb4.jpg",
+      "id": "inquest-begins-into-death-of-jason-arday-general-2026-08-26t14-15-48-000z",
+      "title": "Inquest begins into death of Jason Arday",
+      "link": "https://www.bbc.co.uk/news/articles/cjdv5y220keo?at_medium=RSS&at_campaign=rss",
+      "summary": "Dr Julian Morris Morris said he had \"reason to suspect that Professor Arday died an unnatural death\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/27ba/live/bb9c5310-a13c-11f1-b109-879e35c24276.jpg",
       "source": "BBC News",
       "category": "general",
       "categoryLabel": "General",
-      "publishedAt": "2026-08-26T14:24:43.000Z",
+      "publishedAt": "2026-08-26T14:15:48.000Z",
       "sources": [
         {
           "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/videos/cy7z8pz25k8o?at_medium=RSS&at_campaign=rss",
-          "summary": "Culture correspondent Noor Nanji explores how the country legend's signature style helped her take over the world.",
-          "publishedAt": "2026-08-26T14:24:43.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JQXM5ZUJNc19yd1JlVlV6b3NZLXB4Wk5ybXVreThrZ0c4UGlOQWRZVGthSl9lWkFxU05kblhKRUVwVmFwRkdudFFIbWZsUnlwZVdKM3VwVjFXdw?oc=5",
-          "summary": "How Dolly Parton became a fashion icon &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-08-26T14:24:43.000Z"
+          "link": "https://www.bbc.co.uk/news/articles/cjdv5y220keo?at_medium=RSS&at_campaign=rss",
+          "summary": "Dr Julian Morris Morris said he had \"reason to suspect that Professor Arday died an unnatural death\".",
+          "publishedAt": "2026-08-26T14:15:48.000Z"
         }
       ],
-      "sourceCount": 2
+      "sourceCount": 1
+    },
+    {
+      "id": "microsoft-s-25th-anniversary-xbox-will-cost-899-tech-2026-08-26t14-05-38-000z",
+      "title": "Microsoft’s 25th anniversary Xbox will cost $899",
+      "link": "https://www.theverge.com/games/985003/microsoft-xbox-25th-anniversary-console-price",
+      "summary": "The special-edition translucent green Xbox finally has an official price. Preorders for the console start August 27th at 10AM ET / 7AM PT, although Microsoft says \"some of XBOX's most dedicated fans\" will receive early access preorder emai...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/X25-Collection-44fa4f8521aeaf755181.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-08-26T14:05:38.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/games/985003/microsoft-xbox-25th-anniversary-console-price",
+          "summary": "The special-edition translucent green Xbox finally has an official price. Preorders for the console start August 27th at 10AM ET / 7AM PT, although Microsoft says \"some of XBOX's most dedicated fans\" will receive early access preorder emai...",
+          "publishedAt": "2026-08-26T14:05:38.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "elden-ring-on-the-switch-2-isn-t-tarnished-tech-2026-08-26t14-00-00-000z",
+      "title": "Elden Ring on the Switch 2 isn’t tarnished",
+      "link": "https://www.theverge.com/entertainment/983307/elden-ring-nintendo-switch-2-review",
+      "summary": "FromSoftware is hoping to make a splash on the Switch 2 later this year when it launches The Duskbloods, a gothic competitive multiplayer game that's unlike anything the studio has made before. But before that, Switch 2 owners have a chanc...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/assets_2026_06_1780581492_Torrent.png?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-08-26T14:00:00.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/entertainment/983307/elden-ring-nintendo-switch-2-review",
+          "summary": "FromSoftware is hoping to make a splash on the Switch 2 later this year when it launches The Duskbloods, a gothic competitive multiplayer game that's unlike anything the studio has made before. But before that, Switch 2 owners have a chanc...",
+          "publishedAt": "2026-08-26T14:00:00.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "you-can-now-buy-music-on-soundcloud-tech-2026-08-26t14-00-00-000z",
+      "title": "You can now buy music on SoundCloud",
+      "link": "https://www.theverge.com/entertainment/984926/soundcloud-direct-music-sales-beta-launch",
+      "summary": "SoundCloud has launched a new beta feature that allows artists on the audio streaming platform to sell music directly from their profiles, instead of diverting fans to purchase from third-party services like Bandcamp and Beatport. The feat...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/6a8da72a57472ab559aad907_600400-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-08-26T14:00:00.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/entertainment/984926/soundcloud-direct-music-sales-beta-launch",
+          "summary": "SoundCloud has launched a new beta feature that allows artists on the audio streaming platform to sell music directly from their profiles, instead of diverting fans to purchase from third-party services like Bandcamp and Beatport. The feat...",
+          "publishedAt": "2026-08-26T14:00:00.000Z"
+        }
+      ],
+      "sourceCount": 1
     },
     {
       "id": "your-oura-ring-can-t-measure-what-s-going-on-in-your-skull-tech-2026-08-26t14-00-00-000z",
@@ -1036,46 +756,6 @@
       "sourceCount": 1
     },
     {
-      "id": "guinea-s-president-dismisses-173-soldiers-including-coup-ally-for-desertion-world-2026-08-26t13-49-5",
-      "title": "Guinea's president dismisses 173 soldiers, including coup ally, for desertion",
-      "link": "https://www.bbc.co.uk/news/articles/cx2z0j3nyl4o?at_medium=RSS&at_campaign=rss",
-      "summary": "It is thought to be part of efforts to consolidate the former coup leader's control.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/672e/live/fdadf340-a14f-11f1-b109-879e35c24276.jpg",
-      "source": "BBC World",
-      "category": "world",
-      "categoryLabel": "World",
-      "publishedAt": "2026-08-26T13:49:55.000Z",
-      "sources": [
-        {
-          "name": "BBC World",
-          "link": "https://www.bbc.co.uk/news/articles/cx2z0j3nyl4o?at_medium=RSS&at_campaign=rss",
-          "summary": "It is thought to be part of efforts to consolidate the former coup leader's control.",
-          "publishedAt": "2026-08-26T13:49:55.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "nasa-s-pandora-mission-begins-new-study-of-exoplanets-tech-2026-08-26t13-44-05-000z",
-      "title": "NASA’s Pandora mission begins new study of exoplanets",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR2kyZ3VDam5YUDFFSEJTT0tFOUlnZDlzbEFZVF9CQjlzZDI3d0hGTGhMVDVnS3BsS3NsRXJZcmM5UUlYX3pGR0YtcGZldWtjby1xMDFJN05mdFRNa3JfRG9zbC1SRVNGeFduV1VCRWU1aXQxQ01lMnFyOWh1Z3Y2WnkxajZPNWRyeG9rYjVmMnZlMThqSFV2LV9CcHk5dw?oc=5",
-      "summary": "NASA’s Pandora mission begins new study of exoplanets &nbsp;&nbsp; Open Access Government NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars &nbsp;&nbsp; NASA Science (.gov) NASA’s Pandora Mission begins scanning 20 alien worlds...",
-      "image": "",
-      "source": "Open Access Government",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T13:44:05.000Z",
-      "sources": [
-        {
-          "name": "Open Access Government",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR2kyZ3VDam5YUDFFSEJTT0tFOUlnZDlzbEFZVF9CQjlzZDI3d0hGTGhMVDVnS3BsS3NsRXJZcmM5UUlYX3pGR0YtcGZldWtjby1xMDFJN05mdFRNa3JfRG9zbC1SRVNGeFduV1VCRWU1aXQxQ01lMnFyOWh1Z3Y2WnkxajZPNWRyeG9rYjVmMnZlMThqSFV2LV9CcHk5dw?oc=5",
-          "summary": "NASA’s Pandora mission begins new study of exoplanets &nbsp;&nbsp; Open Access Government NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars &nbsp;&nbsp; NASA Science (.gov) NASA’s Pandora Mission begins scanning 20 alien worlds...",
-          "publishedAt": "2026-08-26T13:44:05.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "meta-agrees-to-heavy-restrictions-on-teen-users-in-major-lawsuit-settlement-tech-2026-08-26t13-31-32",
       "title": "Meta agrees to heavy restrictions on teen users in major lawsuit settlement",
       "link": "https://www.theverge.com/policy/985032/meta-state-ag-kids-online-safety-settlement",
@@ -1091,46 +771,6 @@
           "link": "https://www.theverge.com/policy/985032/meta-state-ag-kids-online-safety-settlement",
           "summary": "Meta settled its latest kids online safety trial with a group of 29 state attorneys general, sparing it from the remainder of a trial that could have cost it hundreds of billions of dollars. Under the terms of the settlement, which resolve...",
           "publishedAt": "2026-08-26T13:31:32.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "the-platinum-in-your-jewelry-and-car-exhaust-may-trace-back-to-colliding-dead-stars-forged-before-ea",
-      "title": "The platinum in your jewelry and car exhaust may trace back to colliding dead stars, forged before Earth",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQMDJoYmlLYnpwel95Vk5fbzhleWVWemF6RXdwVXNacmdlZ0tWemlTb3RLN2hkR3UwWXUybEJyVGtjUU51Rm1NcTJRdHlJclI5RkRfNFZJdnlTTHRLODl0UGFxbUZlX2JWT01EVzFzZmROLWFTY3dVR3VYQ2JuZVBwV1RtT09OdVQ3SHJEZWJNLWJxdHJPeEVZWXQ0QV9VYmJWOXc5YjlGQV83a1lIamEwc1VmRVFqdGl3MzBqSXYtTk5iV2NjbUZvclh5ZndseVlBZWJ4blZMdU1iVk1LaHc2TzQtbjVTUXhSMEc3Snp1N1UwdWRCOGRQQUZUM19YMjlrX2FaSFBCTEloSkNnQ19iUUxmUGFfUdIBmwJBVV95cUxPN1NKWXoxaG1KaUpPazZCWGlpWGJCTkF5STVYUXhIYVVLVHg4dEhFU0JrRy1kX204bDFadHI3b1lLMWdSZlFnUDNCS0JjRGJrbW51WHJNNGlSMm5Yc20wUDFtSlh1VjFtV1Y0cnNuWXNTcUl4STlNVmk2dUtscWtIZVdOVjdOM0tVTkc1eU5lcVpKLXFzUUdSd1VHYUpjN1NEZUJiWjAxd1k2ZnROZXBPQm5HRXBIbDg2YWpVVGZGVENtUEJzQ0hrWE54RHNZRzdjQWMyM1J1aUpWa3hGZjFWTUVVeTlzWGpRS2JiR2ZZSGJMWWtPaWwwTG0tOHg2VnNya004dW1aNllsT3BHazV4eGtvdlgzSVZ5NEVj?oc=5",
-      "summary": "The platinum in your jewelry and car exhaust may trace back to colliding dead stars, forged before Earth &nbsp;&nbsp; The Times of India",
-      "image": "",
-      "source": "The Times of India",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T13:20:00.000Z",
-      "sources": [
-        {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQMDJoYmlLYnpwel95Vk5fbzhleWVWemF6RXdwVXNacmdlZ0tWemlTb3RLN2hkR3UwWXUybEJyVGtjUU51Rm1NcTJRdHlJclI5RkRfNFZJdnlTTHRLODl0UGFxbUZlX2JWT01EVzFzZmROLWFTY3dVR3VYQ2JuZVBwV1RtT09OdVQ3SHJEZWJNLWJxdHJPeEVZWXQ0QV9VYmJWOXc5YjlGQV83a1lIamEwc1VmRVFqdGl3MzBqSXYtTk5iV2NjbUZvclh5ZndseVlBZWJ4blZMdU1iVk1LaHc2TzQtbjVTUXhSMEc3Snp1N1UwdWRCOGRQQUZUM19YMjlrX2FaSFBCTEloSkNnQ19iUUxmUGFfUdIBmwJBVV95cUxPN1NKWXoxaG1KaUpPazZCWGlpWGJCTkF5STVYUXhIYVVLVHg4dEhFU0JrRy1kX204bDFadHI3b1lLMWdSZlFnUDNCS0JjRGJrbW51WHJNNGlSMm5Yc20wUDFtSlh1VjFtV1Y0cnNuWXNTcUl4STlNVmk2dUtscWtIZVdOVjdOM0tVTkc1eU5lcVpKLXFzUUdSd1VHYUpjN1NEZUJiWjAxd1k2ZnROZXBPQm5HRXBIbDg2YWpVVGZGVENtUEJzQ0hrWE54RHNZRzdjQWMyM1J1aUpWa3hGZjFWTUVVeTlzWGpRS2JiR2ZZSGJMWWtPaWwwTG0tOHg2VnNya004dW1aNllsT3BHazV4eGtvdlgzSVZ5NEVj?oc=5",
-          "summary": "The platinum in your jewelry and car exhaust may trace back to colliding dead stars, forged before Earth &nbsp;&nbsp; The Times of India",
-          "publishedAt": "2026-08-26T13:20:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "obc-creamy-layer-income-test-what-did-the-supreme-court-rule-and-why-is-the-centre-seeking-clarifica",
-      "title": "OBC creamy-layer income test: What did the Supreme Court rule, and why is the Centre seeking clarification? | Explained",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNb3Bua0tqMGctclhBRzZzTDNxaE9MZXd0SjdidFUwVko5aDE2VnNaaE9DRGY5SGRoSGY0M0xjUEVCX0FPWEtyOUFOWnZlVFVyWXVOMUVJdi1zU240MzZaT2g4dDN4SFMyTHJVZnQzWS0ycDFKakt6Nk5vblVUT3ppNThvMGdHQ19IeGJ4bEdydWphakd5RjZwbWZMR2J6eHJObU1yTFp2Y0RmY3RCTGROZWV5WXFSWTByX3FVS3p2ZGEwV00ycUJiTnotS004MU9xRW1Hd2JaWDVOcS0yMTNzODZLNV9WSFNTZEg3WkFmSF9saWlmWjR5TEplM0VnLWFMNFpB0gGKAkFVX3lxTE91ZHlSQm9PVXNXUTRxUnRycnpOTkJ2OEp0cTljdW83S0hMZkE1U3ZUcmZHOTNmdVZaY2dlWlE4QXYzQVM1a3oxTk9pNTVOcWJCNGZfU0U1UmF4dXZKa1dKellnTkdZVDZBNUpoZkM1UjR4SE9CWGhOMTlGcUp6Ql96Vkw5ajZrOFo3QUp6NHhzaXhveVBjYzZualRhV2J1TEUyVkx4al9LLWc2bVcxZWdHU1BQMHlRSG9PNktPYUhTdlNjLTNmZGhiN1RKU2h0ZGU2VDlheTlTZzNmQ09kYWJKQ01jRHVBOEllUWRRbTRoLVdObmQ5RUpiZ2piYldlUVdJSjc1ano3NlFR?oc=5",
-      "summary": "OBC creamy-layer income test: What did the Supreme Court rule, and why is the Centre seeking clarification? | Explained &nbsp;&nbsp; The Hindu Special bench to hear Centre’s plea on OBC creamy-layer criteria-SC &nbsp;&nbsp; News On AIR Ins...",
-      "image": "",
-      "source": "The Hindu",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-26T13:16:36.000Z",
-      "sources": [
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNb3Bua0tqMGctclhBRzZzTDNxaE9MZXd0SjdidFUwVko5aDE2VnNaaE9DRGY5SGRoSGY0M0xjUEVCX0FPWEtyOUFOWnZlVFVyWXVOMUVJdi1zU240MzZaT2g4dDN4SFMyTHJVZnQzWS0ycDFKakt6Nk5vblVUT3ppNThvMGdHQ19IeGJ4bEdydWphakd5RjZwbWZMR2J6eHJObU1yTFp2Y0RmY3RCTGROZWV5WXFSWTByX3FVS3p2ZGEwV00ycUJiTnotS004MU9xRW1Hd2JaWDVOcS0yMTNzODZLNV9WSFNTZEg3WkFmSF9saWlmWjR5TEplM0VnLWFMNFpB0gGKAkFVX3lxTE91ZHlSQm9PVXNXUTRxUnRycnpOTkJ2OEp0cTljdW83S0hMZkE1U3ZUcmZHOTNmdVZaY2dlWlE4QXYzQVM1a3oxTk9pNTVOcWJCNGZfU0U1UmF4dXZKa1dKellnTkdZVDZBNUpoZkM1UjR4SE9CWGhOMTlGcUp6Ql96Vkw5ajZrOFo3QUp6NHhzaXhveVBjYzZualRhV2J1TEUyVkx4al9LLWc2bVcxZWdHU1BQMHlRSG9PNktPYUhTdlNjLTNmZGhiN1RKU2h0ZGU2VDlheTlTZzNmQ09kYWJKQ01jRHVBOEllUWRRbTRoLVdObmQ5RUpiZ2piYldlUVdJSjc1ano3NlFR?oc=5",
-          "summary": "OBC creamy-layer income test: What did the Supreme Court rule, and why is the Centre seeking clarification? | Explained &nbsp;&nbsp; The Hindu Special bench to hear Centre’s plea on OBC creamy-layer criteria-SC &nbsp;&nbsp; News On AIR Ins...",
-          "publishedAt": "2026-08-26T13:16:36.000Z"
         }
       ],
       "sourceCount": 1
@@ -1176,46 +816,6 @@
       "sourceCount": 1
     },
     {
-      "id": "india-vs-sri-lanka-a-hold-the-choke-and-then-the-frustrating-close-sports-2026-08-26t12-53-00-000z",
-      "title": "India vs Sri Lanka: A hold, the choke and then the frustrating close",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNOFZPTTJ3SlBESm55a0RYeEZzLXBUUVlmVjk2c1k2R05OamhOMHhlTjA0MkhMRlR5UW5tNThQaHhnTHFEcHB5Q3NZTFpqNlBMS1BQSHhLNW9HNTlvSkhxZ3phOTFraE1MUkxwTi1TeWZWa2ZlMExaSWl1T3RQTW14TG14aEdOQ3BOYWViOF9nNTdFSkhqV09uSlZ1dTJLd3ZmbWl2UU8xUVJQdTNheGpodWxzUmsyaTB1OG9TckNDejVmbV9FRlA1U083Rjl3R1FFMjJ1Q3A0SXZldGdTWk1FNlpiMkplWGJZUWJrRDUzUUpySThK?oc=5",
-      "summary": "India vs Sri Lanka: A hold, the choke and then the frustrating close &nbsp;&nbsp; The Times of India India close in despite Sooriyabandara, Kamindu fifties &nbsp;&nbsp; Cricinfo Colombo Test, Day 4: India close in on win even after Mendis-...",
-      "image": "",
-      "source": "The Times of India",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-08-26T12:53:00.000Z",
-      "sources": [
-        {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNOFZPTTJ3SlBESm55a0RYeEZzLXBUUVlmVjk2c1k2R05OamhOMHhlTjA0MkhMRlR5UW5tNThQaHhnTHFEcHB5Q3NZTFpqNlBMS1BQSHhLNW9HNTlvSkhxZ3phOTFraE1MUkxwTi1TeWZWa2ZlMExaSWl1T3RQTW14TG14aEdOQ3BOYWViOF9nNTdFSkhqV09uSlZ1dTJLd3ZmbWl2UU8xUVJQdTNheGpodWxzUmsyaTB1OG9TckNDejVmbV9FRlA1U083Rjl3R1FFMjJ1Q3A0SXZldGdTWk1FNlpiMkplWGJZUWJrRDUzUUpySThK?oc=5",
-          "summary": "India vs Sri Lanka: A hold, the choke and then the frustrating close &nbsp;&nbsp; The Times of India India close in despite Sooriyabandara, Kamindu fifties &nbsp;&nbsp; Cricinfo Colombo Test, Day 4: India close in on win even after Mendis-...",
-          "publishedAt": "2026-08-26T12:53:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "in-1997-university-of-florida-spent-10-years-developing-a-mosquito-diet-pill-today-larvae-fed-the-ho",
-      "title": "In 1997, University of Florida spent 10 years developing a mosquito “diet pill.” Today, larvae fed the hor",
-      "link": "https://news.google.com/rss/articles/CBMimwNBVV95cUxOMXpuR0VJNTR2QjllUjZoMk5SZnJSQ0NLZXptanZKSHJyNWxvdzNCMzN3c3d2QnA2b3JTSjFGMk12MS03bXdnYmlJUHozQnJGZnNjWkxxeWxBUkRjUlFJZi03emEwSmlRSE1USWxrNGZlTkZBcGV6b3FsM0gzOFBuUVNpaXJrcTNrRUY3aHpDRjVvVzVQVzVoRlZYZ0praEt3SHIxa3B2Vk1uTl9vSG1hMDM5WWhXTUcxa0hxZkxuMWxoNFNiNTk2TVhqZ2FQVWpsa3JvQXEwV0d2TWtJcklOZTF2SER5RFRQTU9FdTFKaHpyZUJ6MHJoNFE4TmJ4enlHYWhGZXFZY3ZqekpVNXBMcG1EYzl6VC1VWVJJeHVGRV80SWxULWJCd2ZGc2MyNVBfcHhYQ0VubzJfeV9FSWtLNlU3M1RFb3JFVndqaFd4TzlXR3ZPcW9FXzdNcUVxUzhjdDdnV1YwcFdpMTh3WjZHRTcxSEpkX1AyZGVZYUJ1M3p4OGVZb0VwQVNZVmI1Z2hqRzd3YXJnSFcxRWPSAaADQVVfeXFMTU91dVQ1b0J1bUFCa1ZVeHMtS0Zua2N3djJwVnRJY1dNV1lGZWVhMkF3eGMwckNjQkJHWko1ZjhueEZWajYycFZmcGhVRXBub0tBVUE5d3ZfLVVzdTd3NDl1a095aHpIWW5sRVBNcDgzZ1plZ0tOQVNQamlYMm9JNVV1bzY5eUp6eU1BVXNzTDdSbGlBc1U1TFBlNWxoRVlQMWJJbWRRUjY3dlhIMlROZDFXOEo2ckFZdmxEaFF6V0w3RFN5MmlnQ2ZZOG1GcDdCelo3clJKNC1xeHJLaGJldWRibG5vZWNnbzJnWHh2SEZST3B3dUhJNTdHMURWOS01RU40OGprWmpCNTF3Q2NyYWRwckk0WWx0d1FWUVBYa0w4RDlKQ05USEJpUWo3SlhfRTJYR3ZJaXhEb3BuOGtIYzI1SEx5WTRqblN0anBJaVhTWTQtU2ZoeUpSRkxwNEpCOXA4ZUNvREhBMXpPNG8wWXpJZWZfazdUYWFjcTVHN0FIa3dpNmZJb1cxLUFPN3pqMWVFNC0wS2ZCcjVfckRTa2o?oc=5",
-      "summary": "In 1997, University of Florida spent 10 years developing a mosquito “diet pill.” Today, larvae fed the hor &nbsp;&nbsp; The Economic Times",
-      "image": "",
-      "source": "The Economic Times",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T12:41:43.000Z",
-      "sources": [
-        {
-          "name": "The Economic Times",
-          "link": "https://news.google.com/rss/articles/CBMimwNBVV95cUxOMXpuR0VJNTR2QjllUjZoMk5SZnJSQ0NLZXptanZKSHJyNWxvdzNCMzN3c3d2QnA2b3JTSjFGMk12MS03bXdnYmlJUHozQnJGZnNjWkxxeWxBUkRjUlFJZi03emEwSmlRSE1USWxrNGZlTkZBcGV6b3FsM0gzOFBuUVNpaXJrcTNrRUY3aHpDRjVvVzVQVzVoRlZYZ0praEt3SHIxa3B2Vk1uTl9vSG1hMDM5WWhXTUcxa0hxZkxuMWxoNFNiNTk2TVhqZ2FQVWpsa3JvQXEwV0d2TWtJcklOZTF2SER5RFRQTU9FdTFKaHpyZUJ6MHJoNFE4TmJ4enlHYWhGZXFZY3ZqekpVNXBMcG1EYzl6VC1VWVJJeHVGRV80SWxULWJCd2ZGc2MyNVBfcHhYQ0VubzJfeV9FSWtLNlU3M1RFb3JFVndqaFd4TzlXR3ZPcW9FXzdNcUVxUzhjdDdnV1YwcFdpMTh3WjZHRTcxSEpkX1AyZGVZYUJ1M3p4OGVZb0VwQVNZVmI1Z2hqRzd3YXJnSFcxRWPSAaADQVVfeXFMTU91dVQ1b0J1bUFCa1ZVeHMtS0Zua2N3djJwVnRJY1dNV1lGZWVhMkF3eGMwckNjQkJHWko1ZjhueEZWajYycFZmcGhVRXBub0tBVUE5d3ZfLVVzdTd3NDl1a095aHpIWW5sRVBNcDgzZ1plZ0tOQVNQamlYMm9JNVV1bzY5eUp6eU1BVXNzTDdSbGlBc1U1TFBlNWxoRVlQMWJJbWRRUjY3dlhIMlROZDFXOEo2ckFZdmxEaFF6V0w3RFN5MmlnQ2ZZOG1GcDdCelo3clJKNC1xeHJLaGJldWRibG5vZWNnbzJnWHh2SEZST3B3dUhJNTdHMURWOS01RU40OGprWmpCNTF3Q2NyYWRwckk0WWx0d1FWUVBYa0w4RDlKQ05USEJpUWo3SlhfRTJYR3ZJaXhEb3BuOGtIYzI1SEx5WTRqblN0anBJaVhTWTQtU2ZoeUpSRkxwNEpCOXA4ZUNvREhBMXpPNG8wWXpJZWZfazdUYWFjcTVHN0FIa3dpNmZJb1cxLUFPN3pqMWVFNC0wS2ZCcjVfckRTa2o?oc=5",
-          "summary": "In 1997, University of Florida spent 10 years developing a mosquito “diet pill.” Today, larvae fed the hor &nbsp;&nbsp; The Economic Times",
-          "publishedAt": "2026-08-26T12:41:43.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "video-shows-scale-of-flash-flood-hitting-nepal-tibet-border-general-2026-08-26t12-36-04-000z",
       "title": "Video shows scale of flash flood hitting Nepal-Tibet border",
       "link": "https://www.bbc.co.uk/news/videos/c62jmlgev3po?at_medium=RSS&at_campaign=rss",
@@ -1231,46 +831,6 @@
           "link": "https://www.bbc.co.uk/news/videos/c62jmlgev3po?at_medium=RSS&at_campaign=rss",
           "summary": "This video has been edited by the BBC with white flashes, due to the distressing content.",
           "publishedAt": "2026-08-26T12:36:04.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "rockstar-games-breaks-silence-on-grand-theft-auto-6-leaks-general-2026-08-26t12-25-28-000z",
-      "title": "Rockstar Games breaks silence on Grand Theft Auto 6 leaks",
-      "link": "https://www.bbc.co.uk/news/articles/c62eg71e1z2o?at_medium=RSS&at_campaign=rss",
-      "summary": "The game developer says the unauthorised footage has caused \"heartbreak\" for those working on the title.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/91e8/live/3c295e10-a147-11f1-aed2-8d6da8d75094.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-26T12:25:28.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/c62eg71e1z2o?at_medium=RSS&at_campaign=rss",
-          "summary": "The game developer says the unauthorised footage has caused \"heartbreak\" for those working on the title.",
-          "publishedAt": "2026-08-26T12:25:28.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "gta-6-leaks-rockstar-issues-statement-over-online-clips-tech-2026-08-26t12-25-28-000z",
-      "title": "GTA 6 leaks: Rockstar issues statement over online clips",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aUGRJV3djVXlpR1RRVDhFMUFISEU1TGRIdDVZUlZnV3RRWFdVOE5KWWJCcXYtYTgwY3l3RXFyVHlOMHJ5WUJjcXRhVDMtRWtWakdFNGJVVXliUQ?oc=5",
-      "summary": "GTA 6 leaks: Rockstar issues statement over online clips &nbsp;&nbsp; BBC GTA 6 leaks - a nightmare or a blip for the biggest video game of the year? &nbsp;&nbsp; BBC Rockstar finally responds to ‘heartbreaking’ GTA 6 leaks &nbsp;&nbsp; Th...",
-      "image": "",
-      "source": "BBC",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T12:25:28.000Z",
-      "sources": [
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aUGRJV3djVXlpR1RRVDhFMUFISEU1TGRIdDVZUlZnV3RRWFdVOE5KWWJCcXYtYTgwY3l3RXFyVHlOMHJ5WUJjcXRhVDMtRWtWakdFNGJVVXliUQ?oc=5",
-          "summary": "GTA 6 leaks: Rockstar issues statement over online clips &nbsp;&nbsp; BBC GTA 6 leaks - a nightmare or a blip for the biggest video game of the year? &nbsp;&nbsp; BBC Rockstar finally responds to ‘heartbreaking’ GTA 6 leaks &nbsp;&nbsp; Th...",
-          "publishedAt": "2026-08-26T12:25:28.000Z"
         }
       ],
       "sourceCount": 1
@@ -1296,26 +856,6 @@
       "sourceCount": 1
     },
     {
-      "id": "toxic-movie-review-yash-and-geetu-mohandas-clash-of-visions-is-an-ambitious-misfire-entertainment-20",
-      "title": "'Toxic' movie review: Yash and Geetu Mohandas' clash of visions is an ambitious misfire",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPZlRvNXRSVC11U0Z3TkJjUVVRMDBuY1JsaFVQTnA1eHYyRzdSbTBOVDRaYWVBN3pZNlBhUDMxYkhjeTFXSk1ELWF2OU1oYWRNOF9lb05YQjFmLXEzRjA2cEJXbVJ4a0NFLWwzdTYtZGo1UmxxdXl6QzdRNVBSRWo3aG9GYTBFbkU2TWVwRlNfTWNvZ3NnVmpvUGFOTGJDQkU2ckNBamU3dld3VFJqdEs2U1BQaTY0VkRYNEtMNDVaVHlHbHYtWmh6WkhKX0JJUGljdWF4Z3dmWFRPam1kLTJoX1E4VGtLR05rLWtqRXpwQkhkWFBUZEZMR2NYSndvQdIBhAJBVV95cUxPa1pZTkNEcEE3ZW4zY1dCX2hZSTA2NU9xaFlRZjZGS3dBMk9mUWpnRkd3ZldzZm42bjktbVpUeGZ5elNxYnlPZXBockp6dnktN3FXbmRlX0xJVTNMaWtVTlE0bVd4OGtFZ21sUC1QTWY3NlRhdDRjT2E1Vlo2V1ZJNzdRUk1BcG1VSEhTcVBjZGlybjVyLWF1UXlyZExkXzRHb013czFoeVdGNk9JYXNaNWpSOFliYlRSdkFPZ0h4TjNHWHd4bXh1cmRFN2dLSFFGaFNHN1phUFdBWUg2SmNMVGl5emE0MVRYcHpaWXlmM1FPTUhWWlllanRUbF9KVzBsUXBBdg?oc=5",
-      "summary": "'Toxic' movie review: Yash and Geetu Mohandas' clash of visions is an ambitious misfire &nbsp;&nbsp; The Hindu Toxic: Yash film is an interesting experiment that doesn’t quite pull off a subversion &nbsp;&nbsp; The News Minute Toxic movie...",
-      "image": "",
-      "source": "The Hindu",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-08-26T12:16:14.000Z",
-      "sources": [
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPZlRvNXRSVC11U0Z3TkJjUVVRMDBuY1JsaFVQTnA1eHYyRzdSbTBOVDRaYWVBN3pZNlBhUDMxYkhjeTFXSk1ELWF2OU1oYWRNOF9lb05YQjFmLXEzRjA2cEJXbVJ4a0NFLWwzdTYtZGo1UmxxdXl6QzdRNVBSRWo3aG9GYTBFbkU2TWVwRlNfTWNvZ3NnVmpvUGFOTGJDQkU2ckNBamU3dld3VFJqdEs2U1BQaTY0VkRYNEtMNDVaVHlHbHYtWmh6WkhKX0JJUGljdWF4Z3dmWFRPam1kLTJoX1E4VGtLR05rLWtqRXpwQkhkWFBUZEZMR2NYSndvQdIBhAJBVV95cUxPa1pZTkNEcEE3ZW4zY1dCX2hZSTA2NU9xaFlRZjZGS3dBMk9mUWpnRkd3ZldzZm42bjktbVpUeGZ5elNxYnlPZXBockp6dnktN3FXbmRlX0xJVTNMaWtVTlE0bVd4OGtFZ21sUC1QTWY3NlRhdDRjT2E1Vlo2V1ZJNzdRUk1BcG1VSEhTcVBjZGlybjVyLWF1UXlyZExkXzRHb013czFoeVdGNk9JYXNaNWpSOFliYlRSdkFPZ0h4TjNHWHd4bXh1cmRFN2dLSFFGaFNHN1phUFdBWUg2SmNMVGl5emE0MVRYcHpaWXlmM1FPTUhWWlllanRUbF9KVzBsUXBBdg?oc=5",
-          "summary": "'Toxic' movie review: Yash and Geetu Mohandas' clash of visions is an ambitious misfire &nbsp;&nbsp; The Hindu Toxic: Yash film is an interesting experiment that doesn’t quite pull off a subversion &nbsp;&nbsp; The News Minute Toxic movie...",
-          "publishedAt": "2026-08-26T12:16:14.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "rockstar-finally-responds-to-heartbreaking-gta-6-leaks-tech-2026-08-26t12-04-15-000z",
       "title": "Rockstar finally responds to ‘heartbreaking’ GTA 6 leaks",
       "link": "https://www.theverge.com/games/984959/gta-vi-leaks-rockstar-games-official-statement-heartbreaking",
@@ -1331,26 +871,6 @@
           "link": "https://www.theverge.com/games/984959/gta-vi-leaks-rockstar-games-official-statement-heartbreaking",
           "summary": "Rockstar Games has released its first official statement following days of sustained leaks of footage from Grand Theft Auto VI, calling the period \"heartbreaking for our team.\" Not long after Rockstar posted, another leaked video appeared,...",
           "publishedAt": "2026-08-26T12:04:15.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "the-second-generation-bose-quietcomfort-headphones-are-good-but-don-t-stand-out-tech-2026-08-26t12-0",
-      "title": "The second-generation Bose QuietComfort Headphones are good, but don’t stand out",
-      "link": "https://www.theverge.com/tech/984764/bose-quietcomfort-headphones-gen-2-review",
-      "summary": "Bose QuietComfort headphones used to be innovative. Bose's noise-canceling research is the reason the technology is where it is today, and its headphones set the standard. They were the ubiquitous traveler's accessory. But over the past fe...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268702_Bose_QuietComfort_Headphones_Gen_2_review_JHIGGINS_716A9403.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T12:00:00.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/tech/984764/bose-quietcomfort-headphones-gen-2-review",
-          "summary": "Bose QuietComfort headphones used to be innovative. Bose's noise-canceling research is the reason the technology is where it is today, and its headphones set the standard. They were the ubiquitous traveler's accessory. But over the past fe...",
-          "publishedAt": "2026-08-26T12:00:00.000Z"
         }
       ],
       "sourceCount": 1
@@ -1376,46 +896,6 @@
       "sourceCount": 1
     },
     {
-      "id": "nasa-reveals-stunning-new-x-ray-views-of-distant-galaxies-tech-2026-08-26t11-16-35-000z",
-      "title": "NASA reveals stunning new X-Ray views of distant galaxies",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUS0taEJ1dU12LXNJYU9mX1QtXzYzeThlUGRxS1VHeG5JMEtqaHFzQjBLd283LVJjenhtWm1oS3B1VTlpOUlvZnVHR0xjVDB5SDRoTzhxX0ZJWG55Q09HUEUtcXR0WTEtcTRUWmtnTzJsYzRkU0x5bGtTb2J4OGdsdDFXUkVTZw?oc=5",
-      "summary": "NASA reveals stunning new X-Ray views of distant galaxies &nbsp;&nbsp; Tech Explorist New gallery of galaxies from NASA's Chandra X-ray Observatory released &nbsp;&nbsp; Phys.org Galaxy Gallery: Galactic Gems Glisten in New Gallery From NA...",
-      "image": "",
-      "source": "Tech Explorist",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T11:16:35.000Z",
-      "sources": [
-        {
-          "name": "Tech Explorist",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUS0taEJ1dU12LXNJYU9mX1QtXzYzeThlUGRxS1VHeG5JMEtqaHFzQjBLd283LVJjenhtWm1oS3B1VTlpOUlvZnVHR0xjVDB5SDRoTzhxX0ZJWG55Q09HUEUtcXR0WTEtcTRUWmtnTzJsYzRkU0x5bGtTb2J4OGdsdDFXUkVTZw?oc=5",
-          "summary": "NASA reveals stunning new X-Ray views of distant galaxies &nbsp;&nbsp; Tech Explorist New gallery of galaxies from NASA's Chandra X-ray Observatory released &nbsp;&nbsp; Phys.org Galaxy Gallery: Galactic Gems Glisten in New Gallery From NA...",
-          "publishedAt": "2026-08-26T11:16:35.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "2026-mg-hector-tomahawk-ev-suv-launched-at-rs-19-49-lakh-it-can-even-give-power-to-your-home-busines",
-      "title": "2026 MG Hector Tomahawk EV SUV Launched At Rs 19.49 Lakh! It Can Even Give Power To Your Home...",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDNQbDBxN1V2RkVLYm1nV2N5dTBnZUt4ek14LWlBVEJ6dVFmVVlpaks3YlNleGlmUXY4bUdOYU1iZkxOV3NfYm8zQlMtYndTRXJoeHNyUVdSejZBQXNXN0ppR2NPZmtLQnBsZmJ6NFJBX0NZMTZRVDRjRnJYMDhCMnl3MFdhVmU0bldlNUZhV2FlWWgxUVNzZTZzcmtaQjBJZnNkSi1WM0VWWmVZcWFNNXFwWFZ6cXNtN2JlN0NoREwzUVhnaGM0UlNIbm5SY3doRmVhWHVZOXTSAeABQVVfeXFMTnprWS1odzE0T20tM1BuN0trbGhzNmRTVVlxY1VBeXV6ZkdaWDNqdk9ucHQzakhWZkY4MERzTFZaS1MzWmxYXzdqaVlvaUYwX3BhVVdLZndWd0FEdEVTakl2M0h6M0l4TE9RVWhfSEJIdVBTeENVdzhfb1dMTW9lUkwwbUMwbW1WTmxUOTJXcHBpLVkxWDJUbmJadGd4ZnZGa0lrN1ZPTGU0QWN0RnIwSDBoSlFaOUVKMi1hU2VSdll0aGhVc00wR2dXNG9PWmttOTh3Zjc0QnJRX0RBMFpzR3M?oc=5",
-      "summary": "2026 MG Hector Tomahawk EV SUV Launched At Rs 19.49 Lakh! It Can Even Give Power To Your Home... &nbsp;&nbsp; CarDekho MG Hector Tomahawk PHEV launched at Rs 25.70 lakh &nbsp;&nbsp; Autocar India Hector Tomahawk EV Bootspace Image, Hector...",
-      "image": "",
-      "source": "CarDekho",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-08-26T11:08:00.000Z",
-      "sources": [
-        {
-          "name": "CarDekho",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDNQbDBxN1V2RkVLYm1nV2N5dTBnZUt4ek14LWlBVEJ6dVFmVVlpaks3YlNleGlmUXY4bUdOYU1iZkxOV3NfYm8zQlMtYndTRXJoeHNyUVdSejZBQXNXN0ppR2NPZmtLQnBsZmJ6NFJBX0NZMTZRVDRjRnJYMDhCMnl3MFdhVmU0bldlNUZhV2FlWWgxUVNzZTZzcmtaQjBJZnNkSi1WM0VWWmVZcWFNNXFwWFZ6cXNtN2JlN0NoREwzUVhnaGM0UlNIbm5SY3doRmVhWHVZOXTSAeABQVVfeXFMTnprWS1odzE0T20tM1BuN0trbGhzNmRTVVlxY1VBeXV6ZkdaWDNqdk9ucHQzakhWZkY4MERzTFZaS1MzWmxYXzdqaVlvaUYwX3BhVVdLZndWd0FEdEVTakl2M0h6M0l4TE9RVWhfSEJIdVBTeENVdzhfb1dMTW9lUkwwbUMwbW1WTmxUOTJXcHBpLVkxWDJUbmJadGd4ZnZGa0lrN1ZPTGU0QWN0RnIwSDBoSlFaOUVKMi1hU2VSdll0aGhVc00wR2dXNG9PWmttOTh3Zjc0QnJRX0RBMFpzR3M?oc=5",
-          "summary": "2026 MG Hector Tomahawk EV SUV Launched At Rs 19.49 Lakh! It Can Even Give Power To Your Home... &nbsp;&nbsp; CarDekho MG Hector Tomahawk PHEV launched at Rs 25.70 lakh &nbsp;&nbsp; Autocar India Hector Tomahawk EV Bootspace Image, Hector...",
-          "publishedAt": "2026-08-26T11:08:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "bill-gates-is-deeply-worried-about-ai-and-he-s-no-longer-staying-quiet-ai-2026-08-26t11-07-40-000z",
       "title": "Bill Gates is deeply worried about AI, and he’s no longer staying quiet",
       "link": "https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet",
@@ -1431,66 +911,6 @@
           "link": "https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet",
           "summary": "Bill Gates has been reflecting a lot on AI lately, and the process has triggered a stark awakening. Once a staunch AI optimist, the Microsoft cofounder is now deeply pessimistic about what AI means for our collective future. Having been co...",
           "publishedAt": "2026-08-26T11:07:40.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "nasa-s-new-telescope-has-field-of-view-100-times-bigger-than-hubble-set-to-launch-sunday-tech-2026-0",
-      "title": "NASA’s new telescope has field of view 100 times bigger than Hubble—set to launch Sunday",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUVY3a1FlRmVUaGJJTWxHWndteUppbmJjZnFQX3ZNeUxkWnhkcDRCdTJmaFpfb1dmQzZuY1ZtZnQ2REgwZEVrOE8wSjBWQzNSYWR1cFVucmJ2U1p2UXdCa2Z3dXRpd1U0UzctM3BaMnRzZzBHVVk1TV96aEFKUFA0OdIBhgFBVV95cUxQTjN6b2lVTFJ0Q1VuLW1SdkdGTDhRemFtRTlTeHBLRlZtYnd1aVJWSWdkWVM2WExLNWR4NlZ6SlhVUEVDRWdzbTViSTdvb2ZJY2E2UFJpTURudEZnV0hPbElzREhwb00tbmUxaHdWUFI2ZW05Z244RE9MQnFkaDJBZTZJX1Fzdw?oc=5",
-      "summary": "NASA’s new telescope has field of view 100 times bigger than Hubble—set to launch Sunday &nbsp;&nbsp; ThePrint NASA Sets Coverage for Roman Space Telescope Launch from Florida &nbsp;&nbsp; NASA (.gov) NASA's $4 Billion 'Roman Telescope' To...",
-      "image": "",
-      "source": "ThePrint",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T11:02:14.000Z",
-      "sources": [
-        {
-          "name": "ThePrint",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUVY3a1FlRmVUaGJJTWxHWndteUppbmJjZnFQX3ZNeUxkWnhkcDRCdTJmaFpfb1dmQzZuY1ZtZnQ2REgwZEVrOE8wSjBWQzNSYWR1cFVucmJ2U1p2UXdCa2Z3dXRpd1U0UzctM3BaMnRzZzBHVVk1TV96aEFKUFA0OdIBhgFBVV95cUxQTjN6b2lVTFJ0Q1VuLW1SdkdGTDhRemFtRTlTeHBLRlZtYnd1aVJWSWdkWVM2WExLNWR4NlZ6SlhVUEVDRWdzbTViSTdvb2ZJY2E2UFJpTURudEZnV0hPbElzREhwb00tbmUxaHdWUFI2ZW05Z244RE9MQnFkaDJBZTZJX1Fzdw?oc=5",
-          "summary": "NASA’s new telescope has field of view 100 times bigger than Hubble—set to launch Sunday &nbsp;&nbsp; ThePrint NASA Sets Coverage for Roman Space Telescope Launch from Florida &nbsp;&nbsp; NASA (.gov) NASA's $4 Billion 'Roman Telescope' To...",
-          "publishedAt": "2026-08-26T11:02:14.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "first-french-woman-to-walk-in-space-returns-to-finish-iss-repair-tech-2026-08-26t10-56-33-000z",
-      "title": "First French woman to walk in space returns to finish ISS repair",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeTRRc2JoU1Z0TDVqcEFRMDFyRmVoSFQyMnZ1UmswR2ZXRjRKelZ4U1pjZE10QlVIVFFTRlhGenBkd083SU1UM0tZekJPcEZXeDBheXY2Sl9WUE9CSGtjc0FuZHBTTy1mLVVzc1VwUUoxODg4NS1OQmtJdXlkUURocDZHQ2xtTnhUVDVVQg?oc=5",
-      "summary": "First French woman to walk in space returns to finish ISS repair &nbsp;&nbsp; Straight Arrow NASA, ESA Spacewalkers Finish Installing High-Speed Antenna &nbsp;&nbsp; NASA (.gov) Astronauts make history repairing the ISS photo of the day fo...",
-      "image": "",
-      "source": "Straight Arrow",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T10:56:33.000Z",
-      "sources": [
-        {
-          "name": "Straight Arrow",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeTRRc2JoU1Z0TDVqcEFRMDFyRmVoSFQyMnZ1UmswR2ZXRjRKelZ4U1pjZE10QlVIVFFTRlhGenBkd083SU1UM0tZekJPcEZXeDBheXY2Sl9WUE9CSGtjc0FuZHBTTy1mLVVzc1VwUUoxODg4NS1OQmtJdXlkUURocDZHQ2xtTnhUVDVVQg?oc=5",
-          "summary": "First French woman to walk in space returns to finish ISS repair &nbsp;&nbsp; Straight Arrow NASA, ESA Spacewalkers Finish Installing High-Speed Antenna &nbsp;&nbsp; NASA (.gov) Astronauts make history repairing the ISS photo of the day fo...",
-          "publishedAt": "2026-08-26T10:56:33.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "realme-p4s-arrives-with-a-144hz-display-dual-chip-and-an-8-000-mah-battery-gsmarena-com-news-tech-20",
-      "title": "Realme P4s arrives with a 144Hz display, dual chip, and an 8,000 mAh battery - GSMArena.com news",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeHNLc0lqbEktOUtQNmc0QmY1VDNhSG5tWXJjcHR1NTdFZVNoQ29teThUSFpwNXhNYUtxcFNzbExQZDdBSF9aS3praUFDUTd1amIyNzlPbWE5c1ZRTklZeEk1eGx1VkFYZDB0ZF9aRzRfWWd1WERuSWN3UXQ5bl85M9IBfEFVX3lxTE9Va2RaSFNhVDdxV1ltOVRyRERPN3o2R3pnN2M2MFhXXzhqSGlTRXcxQjNWSW9laVQzTVlxSXhOaDZnN3o0V0lkaU8ycFdEa2RheWVOZl9pSHZidk5PeHdFV2RINzRROHFPNy1wd2ZKOURxRUUyR1ZlOHZxdjY?oc=5",
-      "summary": "Realme P4s arrives with a 144Hz display, dual chip, and an 8,000 mAh battery - GSMArena.com news &nbsp;&nbsp; GSMArena.com Realme P4s 5G Review: A Mid-Ranger With a Flagship-Grade Display &nbsp;&nbsp; Gadgets 360 Realme P4s review: Big bat...",
-      "image": "",
-      "source": "GSMArena.com",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T10:48:02.000Z",
-      "sources": [
-        {
-          "name": "GSMArena.com",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeHNLc0lqbEktOUtQNmc0QmY1VDNhSG5tWXJjcHR1NTdFZVNoQ29teThUSFpwNXhNYUtxcFNzbExQZDdBSF9aS3praUFDUTd1amIyNzlPbWE5c1ZRTklZeEk1eGx1VkFYZDB0ZF9aRzRfWWd1WERuSWN3UXQ5bl85M9IBfEFVX3lxTE9Va2RaSFNhVDdxV1ltOVRyRERPN3o2R3pnN2M2MFhXXzhqSGlTRXcxQjNWSW9laVQzTVlxSXhOaDZnN3o0V0lkaU8ycFdEa2RheWVOZl9pSHZidk5PeHdFV2RINzRROHFPNy1wd2ZKOURxRUUyR1ZlOHZxdjY?oc=5",
-          "summary": "Realme P4s arrives with a 144Hz display, dual chip, and an 8,000 mAh battery - GSMArena.com news &nbsp;&nbsp; GSMArena.com Realme P4s 5G Review: A Mid-Ranger With a Flagship-Grade Display &nbsp;&nbsp; Gadgets 360 Realme P4s review: Big bat...",
-          "publishedAt": "2026-08-26T10:48:02.000Z"
         }
       ],
       "sourceCount": 1
@@ -1516,266 +936,6 @@
       "sourceCount": 1
     },
     {
-      "id": "irumudi-worldwide-box-office-day-5-ravi-teja-s-first-solo-100-crore-grosser-enters-top-4-tollywood-g",
-      "title": "Irumudi Worldwide Box Office Day 5: Ravi Teja’s First Solo 100 Crore Grosser; Enters Top 4 Tollywood Grossers Of 2026",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPeFltT09JOWY2LWY5NTFjTTgzdjhTckNhcE05UHM0dG55ODNUaW5wZEQ1MHB4cTBkS3ZwMVdWbVJEa0pPWjVyRzhVUkd1UzM1U3ZzNW94Y0RpaFFvOFgtZERBeGNqV2E2WHdFT0JUOWVMRllNNjVPUGVzSnFvQ1F3cjh3ZUFwTjI2WG9HTER1X3A0Tmw5SEVPYkZrYjBqeFBnejlMWS1GZGd0NVByVmtWaTctalhXbW92TFh5MWE4MkxNeUhmaXl3WHVqYV8yNzNLUFFhWklSQXlFczB4NC1VRENsbw?oc=5",
-      "summary": "Irumudi Worldwide Box Office Day 5: Ravi Teja’s First Solo 100 Crore Grosser; Enters Top 4 Tollywood Grossers Of 2026 &nbsp;&nbsp; Koimoi 'It Hit Me In Ways I Didn't See Coming': Rashmika Mandanna Reviews Ravi Teja's Irumudi &nbsp;&nbsp; N...",
-      "image": "",
-      "source": "Koimoi",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-08-26T10:18:35.000Z",
-      "sources": [
-        {
-          "name": "Koimoi",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPeFltT09JOWY2LWY5NTFjTTgzdjhTckNhcE05UHM0dG55ODNUaW5wZEQ1MHB4cTBkS3ZwMVdWbVJEa0pPWjVyRzhVUkd1UzM1U3ZzNW94Y0RpaFFvOFgtZERBeGNqV2E2WHdFT0JUOWVMRllNNjVPUGVzSnFvQ1F3cjh3ZUFwTjI2WG9HTER1X3A0Tmw5SEVPYkZrYjBqeFBnejlMWS1GZGd0NVByVmtWaTctalhXbW92TFh5MWE4MkxNeUhmaXl3WHVqYV8yNzNLUFFhWklSQXlFczB4NC1VRENsbw?oc=5",
-          "summary": "Irumudi Worldwide Box Office Day 5: Ravi Teja’s First Solo 100 Crore Grosser; Enters Top 4 Tollywood Grossers Of 2026 &nbsp;&nbsp; Koimoi 'It Hit Me In Ways I Didn't See Coming': Rashmika Mandanna Reviews Ravi Teja's Irumudi &nbsp;&nbsp; N...",
-          "publishedAt": "2026-08-26T10:18:35.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "video-shows-6-year-old-removed-by-bihar-cops-from-protest-site-dipke-reacts-general-2026-08-26t10-17",
-      "title": "Video shows 6-year-old removed by Bihar cops from protest site, Dipke reacts",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbVVwMTk5WlhnQ2tvVXhOb0MzWGhrY0lRXy1FWW5UZnhnVnpBX05MVEVGZXg2LUw1ZjhKQWQwMTJUN0F4cUhaYlA3bEthTFQtS3NSVl9pNW85OVVQZVJmVi0tdU92X0xJTU5fTG5WajBnb3BYSmh1U3Zza3diRkk0WWI3czhlZjV4VlBtZVRsajQzMGhJelZqLTVaUGVQSUIwQ092cHI0UF9uTTFHUGFTZGVJTzhPUl81RzNhU3dUZTg1OFpFT2fSAcsBQVVfeXFMUFBsQjFwOXhUX3M2X2VkaHdDaVRDQlhKWXNlYjAwOU5mSXBva0hxOExsSTFUNUxfaDNNVU1KQW9DcnFQdUhjaEhWc09Obks3X3FiRG8xUkdJVjRxVkxDYXpXaGpOaXFZMGtuV2hySFY5ZDBJM3AzaHBtcUNpY2pYU1BNMk9Kc1BacmEtN3NiNWtQU1E0R0g4eUxIeFU2OE94d0ozSkE3TUpyVk9tekdzZndfU0dYWGhnS0I4Qm1za0pQT0lUMzZhc0hnanM?oc=5",
-      "summary": "Video shows 6-year-old removed by Bihar cops from protest site, Dipke reacts &nbsp;&nbsp; India Today Bihar government using police to evade accountability, says Rahul Gandhi &nbsp;&nbsp; The Hindu 6-Year-Old Protester Taken Away By Cops I...",
-      "image": "",
-      "source": "India Today",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-26T10:17:40.000Z",
-      "sources": [
-        {
-          "name": "India Today",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbVVwMTk5WlhnQ2tvVXhOb0MzWGhrY0lRXy1FWW5UZnhnVnpBX05MVEVGZXg2LUw1ZjhKQWQwMTJUN0F4cUhaYlA3bEthTFQtS3NSVl9pNW85OVVQZVJmVi0tdU92X0xJTU5fTG5WajBnb3BYSmh1U3Zza3diRkk0WWI3czhlZjV4VlBtZVRsajQzMGhJelZqLTVaUGVQSUIwQ092cHI0UF9uTTFHUGFTZGVJTzhPUl81RzNhU3dUZTg1OFpFT2fSAcsBQVVfeXFMUFBsQjFwOXhUX3M2X2VkaHdDaVRDQlhKWXNlYjAwOU5mSXBva0hxOExsSTFUNUxfaDNNVU1KQW9DcnFQdUhjaEhWc09Obks3X3FiRG8xUkdJVjRxVkxDYXpXaGpOaXFZMGtuV2hySFY5ZDBJM3AzaHBtcUNpY2pYU1BNMk9Kc1BacmEtN3NiNWtQU1E0R0g4eUxIeFU2OE94d0ozSkE3TUpyVk9tekdzZndfU0dYWGhnS0I4Qm1za0pQT0lUMzZhc0hnanM?oc=5",
-          "summary": "Video shows 6-year-old removed by Bihar cops from protest site, Dipke reacts &nbsp;&nbsp; India Today Bihar government using police to evade accountability, says Rahul Gandhi &nbsp;&nbsp; The Hindu 6-Year-Old Protester Taken Away By Cops I...",
-          "publishedAt": "2026-08-26T10:17:40.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "sl-vs-ind-2nd-test-india-tour-of-sri-lanka-2026-commentary-sports-2026-08-26t10-17-39-000z",
-      "title": "SL vs IND, 2nd Test, India tour of Sri Lanka 2026 - Commentary",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOWFyTmZNRFZrOS1wQlRfajdlZTVZeGduZXVyMVlUZjhTWUwxTmh6bnE3WmR2Wmx2NklGZjBqXzVnejJXTUUyOEw1Y2ZKc2N2eXdNT0F6OG92VUVHNVE3SzBDOWUtYktGVklaSnc1dkk4alduczZ3Y2tuMmhHVF9uM1hYX2hGQTdLbmowdVFTenR2dC1IQ2hrT1NTQ21RQQ?oc=5",
-      "summary": "SL vs IND, 2nd Test, India tour of Sri Lanka 2026 - Commentary &nbsp;&nbsp; Cricbuzz Sri Lanka vs India 2nd Test: Sooriyabandara, Mendis fight on after India enforces follow-on &nbsp;&nbsp; The Hindu Watch: Rishabh Pant's Advice, Manav Sut...",
-      "image": "",
-      "source": "Cricbuzz",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-08-26T10:17:39.000Z",
-      "sources": [
-        {
-          "name": "Cricbuzz",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOWFyTmZNRFZrOS1wQlRfajdlZTVZeGduZXVyMVlUZjhTWUwxTmh6bnE3WmR2Wmx2NklGZjBqXzVnejJXTUUyOEw1Y2ZKc2N2eXdNT0F6OG92VUVHNVE3SzBDOWUtYktGVklaSnc1dkk4alduczZ3Y2tuMmhHVF9uM1hYX2hGQTdLbmowdVFTenR2dC1IQ2hrT1NTQ21RQQ?oc=5",
-          "summary": "SL vs IND, 2nd Test, India tour of Sri Lanka 2026 - Commentary &nbsp;&nbsp; Cricbuzz Sri Lanka vs India 2nd Test: Sooriyabandara, Mendis fight on after India enforces follow-on &nbsp;&nbsp; The Hindu Watch: Rishabh Pant's Advice, Manav Sut...",
-          "publishedAt": "2026-08-26T10:17:39.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "one-us-dollar-now-costs-2-million-rials-in-iran-and-here-s-what-it-can-buy-general-2026-08-26t10-14",
-      "title": "One US dollar now costs 2 million rials in Iran, and here’s what it can buy",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOXzNicy1XM1BQN1hMbnpRWlJTS0F2ZU1qczQ5dnVaMzF2aERydzc3SHJjRFpIcmZVTG8yalZHeEh5YUZkUVNKamxLZUk2SUJsVTRKRnNkOXJWWHFPMG9vaVQwS3VPV2xrWTVvRXdEQm5NRExJTHIwdVYzY2htTGV0ZGJtQ1A3clFBYW0tbFEtVVQ1LU5QQ3BZQTRHU1pUbTNZaUhVQlFieDdBTU5CSUdzQmxhUzlzUFBM0gG-AUFVX3lxTE5KN3BWWkFmTGpCUFE0VVpTZkg1VVNxdmY1VHFPRkNwellkUU1TTXBEMGJGajlTQnREMTdyUzFxb3l3eFFVdDZ0ZVdkVmtPTFhiTUtRUGtJWl9fYkV1RUNTNHo4b1FTXy1GQjBQdEpCYnVwY3owM05xNGFhSGtjYW9MajM0cmFHbVFWTUU4TnhBZkstTC0tS0VtRzFSaGh4TjR5QVpCcFdzS2djdldPN2N3Z1R4cjhraGZEaXB3ZGc?oc=5",
-      "summary": "One US dollar now costs 2 million rials in Iran, and here’s what it can buy &nbsp;&nbsp; Al Jazeera US Sanctions 4 India-Based Firms, 3 Indians To Punish Iran &nbsp;&nbsp; NDTV Prepare for crude prices above $100 &nbsp;&nbsp; The Hindu The...",
-      "image": "",
-      "source": "Al Jazeera",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-26T10:14:10.000Z",
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOXzNicy1XM1BQN1hMbnpRWlJTS0F2ZU1qczQ5dnVaMzF2aERydzc3SHJjRFpIcmZVTG8yalZHeEh5YUZkUVNKamxLZUk2SUJsVTRKRnNkOXJWWHFPMG9vaVQwS3VPV2xrWTVvRXdEQm5NRExJTHIwdVYzY2htTGV0ZGJtQ1A3clFBYW0tbFEtVVQ1LU5QQ3BZQTRHU1pUbTNZaUhVQlFieDdBTU5CSUdzQmxhUzlzUFBM0gG-AUFVX3lxTE5KN3BWWkFmTGpCUFE0VVpTZkg1VVNxdmY1VHFPRkNwellkUU1TTXBEMGJGajlTQnREMTdyUzFxb3l3eFFVdDZ0ZVdkVmtPTFhiTUtRUGtJWl9fYkV1RUNTNHo4b1FTXy1GQjBQdEpCYnVwY3owM05xNGFhSGtjYW9MajM0cmFHbVFWTUU4TnhBZkstTC0tS0VtRzFSaGh4TjR5QVpCcFdzS2djdldPN2N3Z1R4cjhraGZEaXB3ZGc?oc=5",
-          "summary": "One US dollar now costs 2 million rials in Iran, and here’s what it can buy &nbsp;&nbsp; Al Jazeera US Sanctions 4 India-Based Firms, 3 Indians To Punish Iran &nbsp;&nbsp; NDTV Prepare for crude prices above $100 &nbsp;&nbsp; The Hindu The...",
-          "publishedAt": "2026-08-26T10:14:10.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "manchester-city-to-make-100m-transfer-offer-to-chelsea-for-enzo-fernandez-sports-2026-08-26t10-04-17",
-      "title": "Manchester City to make £100m transfer offer to Chelsea for Enzo Fernandez",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSE1lZ2JRVUN1c0YyZ2piTXFZOGMzSFlrNXlmcjZMOXdhZzdpZ1dqc2ZlMmkwUTZfWGVUU19hTVc5RWppSS1JQVdvcHN1ZFpIbVhSazF6Sk1FUWpGWkN4cVJiMUNkUmlkSHpvTTJVN2dXM0VESzUzTnNmbnJ2RjdYNllFUWFyX1g2a0dZWlhTZDE3N1RZTWJtX3NqRmF5YWZka1N5VDlVNk1mb3V3dGpOVzVR?oc=5",
-      "summary": "Manchester City to make £100m transfer offer to Chelsea for Enzo Fernandez &nbsp;&nbsp; Manchester Evening News Man City to make offer for £120m-rated Fernandez &nbsp;&nbsp; BBC Enzo Fernandez transfer news: Man City considering bid for Ch...",
-      "image": "",
-      "source": "Manchester Evening News",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-08-26T10:04:17.000Z",
-      "sources": [
-        {
-          "name": "Manchester Evening News",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSE1lZ2JRVUN1c0YyZ2piTXFZOGMzSFlrNXlmcjZMOXdhZzdpZ1dqc2ZlMmkwUTZfWGVUU19hTVc5RWppSS1JQVdvcHN1ZFpIbVhSazF6Sk1FUWpGWkN4cVJiMUNkUmlkSHpvTTJVN2dXM0VESzUzTnNmbnJ2RjdYNllFUWFyX1g2a0dZWlhTZDE3N1RZTWJtX3NqRmF5YWZka1N5VDlVNk1mb3V3dGpOVzVR?oc=5",
-          "summary": "Manchester City to make £100m transfer offer to Chelsea for Enzo Fernandez &nbsp;&nbsp; Manchester Evening News Man City to make offer for £120m-rated Fernandez &nbsp;&nbsp; BBC Enzo Fernandez transfer news: Man City considering bid for Ch...",
-          "publishedAt": "2026-08-26T10:04:17.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "google-s-900-pixel-11-killed-the-cheap-android-dream-we-all-believed-in-tech-2026-08-26t10-00-10-000",
-      "title": "Google's $900 Pixel 11 killed the cheap Android dream we all believed in",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hVXA4YUJ5WllrV05URDhWdkdiVmVETmlfOWVFZFkzUGZISEIxeFFGRUN0Tk9DR19WXzhEX2lQeFQ5YnE4NjhpZTA4Rks0MTVoQjczWUROYWh2QS1iYjFkM1pMSFlIajdPVEtHTFZB?oc=5",
-      "summary": "Google's $900 Pixel 11 killed the cheap Android dream we all believed in &nbsp;&nbsp; Android Police Pixel 11 Pro Fold vs. Galaxy Z Fold8: Which $1,900 Foldable Is Better for Work? &nbsp;&nbsp; TechRepublic You can officially buy the Pixel...",
-      "image": "",
-      "source": "Android Police",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T10:00:10.000Z",
-      "sources": [
-        {
-          "name": "Android Police",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hVXA4YUJ5WllrV05URDhWdkdiVmVETmlfOWVFZFkzUGZISEIxeFFGRUN0Tk9DR19WXzhEX2lQeFQ5YnE4NjhpZTA4Rks0MTVoQjczWUROYWh2QS1iYjFkM1pMSFlIajdPVEtHTFZB?oc=5",
-          "summary": "Google's $900 Pixel 11 killed the cheap Android dream we all believed in &nbsp;&nbsp; Android Police Pixel 11 Pro Fold vs. Galaxy Z Fold8: Which $1,900 Foldable Is Better for Work? &nbsp;&nbsp; TechRepublic You can officially buy the Pixel...",
-          "publishedAt": "2026-08-26T10:00:10.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "3-students-from-telangana-killed-in-florida-road-accident-general-2026-08-26t09-54-24-000z",
-      "title": "3 students from Telangana killed in Florida road accident",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNelpja1R5ZFlBcmF5OTBsWF9yS2xhSTBObEFJaUs3WE4xb1RSZlkyejNNaEM2UWMxSVVLbXpNQWUtMV9yR0t4Vy1WV2d0NWNkT3dQWXgydzJERUtBSnRDY0RqOXhrZkQzVVl0YzN6X29VTHBULUx3R2hmRFBSY3dfSWlqTEQ1RW1ZSFczUDc3QnRodmRHU251aG9R0gGgAUFVX3lxTE5lYkt3a1ktVk85QlhYZ2lFYzQwaTBvOG9VSHVJbE1yWktUdC1TRmk0NU1zNGxNSVhQY3VubEtMWlYxWDdfWmVoRGxqdEZPX19MWlBQaFhqTk1MYVRLWFp1aEluUnF3dU14OFZ2cjhrTjJEUW9YMnBXRHZ2azJheVlSd2JSR2EtNzBBWGExT2YxMzdoemN4aGloMnduNEE3Tng?oc=5",
-      "summary": "3 students from Telangana killed in Florida road accident &nbsp;&nbsp; The Indian Express Three Telangana Students Died In Road Accident In US &nbsp;&nbsp; INDToday 3 dead in single-vehicle crash in Brevard County, troopers say &nbsp;&nbsp...",
-      "image": "",
-      "source": "The Indian Express",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-26T09:54:24.000Z",
-      "sources": [
-        {
-          "name": "The Indian Express",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNelpja1R5ZFlBcmF5OTBsWF9yS2xhSTBObEFJaUs3WE4xb1RSZlkyejNNaEM2UWMxSVVLbXpNQWUtMV9yR0t4Vy1WV2d0NWNkT3dQWXgydzJERUtBSnRDY0RqOXhrZkQzVVl0YzN6X29VTHBULUx3R2hmRFBSY3dfSWlqTEQ1RW1ZSFczUDc3QnRodmRHU251aG9R0gGgAUFVX3lxTE5lYkt3a1ktVk85QlhYZ2lFYzQwaTBvOG9VSHVJbE1yWktUdC1TRmk0NU1zNGxNSVhQY3VubEtMWlYxWDdfWmVoRGxqdEZPX19MWlBQaFhqTk1MYVRLWFp1aEluUnF3dU14OFZ2cjhrTjJEUW9YMnBXRHZ2azJheVlSd2JSR2EtNzBBWGExT2YxMzdoemN4aGloMnduNEE3Tng?oc=5",
-          "summary": "3 students from Telangana killed in Florida road accident &nbsp;&nbsp; The Indian Express Three Telangana Students Died In Road Accident In US &nbsp;&nbsp; INDToday 3 dead in single-vehicle crash in Brevard County, troopers say &nbsp;&nbsp...",
-          "publishedAt": "2026-08-26T09:54:24.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "kangana-ranaut-s-bro-wait-post-to-rahul-gandhi-s-smash-patriarchy-call-entertainment-2026-08-26t09-5",
-      "title": "Kangana Ranaut's \"Bro, Wait\" Post To Rahul Gandhi's \"Smash Patriarchy\" Call",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSWN4SGlpdGxaNlVDUVhmVTJQbm9pMXdNUEwxSlhIU2MxbHMzUXI5QzRKMGNNZzZDcmcyVjhQcGpIRmRlanpwY3gtZDBSaGpaYkVIUFljaEN3Szc2aEZZMEN2ZWx1US1JN1FBTzU5Z1EwM3RZeU1wTEpRc1pjREczYkxzY3pfTkcwRzBmNFBYMTFiRXlXdnFETEJOSHUtaWROZzItQ0ctSlZJRW9DLXfSAbYBQVVfeXFMTU1XcWlySC1VTnRFOXhRc25pX1lKNTgwSllXWDdTN2lWQ0lkWFZxTFZJUjZnQlplTzVhMEx0YmxQWU1NNW93M21xeGI4a2F5VV9YY0tmVC1WX0hvWVU5amNiaERRbFY1ZnF0azc4OG5ZQUJZclRxMk5VWURudDJSUkQ5SW5QTTZBZk45U3psMlBEbDcyMUR0T0wzaDBaYXo1ODh2R1laZUxDQ3NIa29FQ2ItVDRuQlE?oc=5",
-      "summary": "Kangana Ranaut's \"Bro, Wait\" Post To Rahul Gandhi's \"Smash Patriarchy\" Call &nbsp;&nbsp; NDTV ‘Stop trolling women for exercising freedom’: Rahul amid Kriti Sanon ad row &nbsp;&nbsp; ThePrint Kriti Sanon's Raksha Bandhan ad pulled down by...",
-      "image": "",
-      "source": "NDTV",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-08-26T09:50:44.000Z",
-      "sources": [
-        {
-          "name": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSWN4SGlpdGxaNlVDUVhmVTJQbm9pMXdNUEwxSlhIU2MxbHMzUXI5QzRKMGNNZzZDcmcyVjhQcGpIRmRlanpwY3gtZDBSaGpaYkVIUFljaEN3Szc2aEZZMEN2ZWx1US1JN1FBTzU5Z1EwM3RZeU1wTEpRc1pjREczYkxzY3pfTkcwRzBmNFBYMTFiRXlXdnFETEJOSHUtaWROZzItQ0ctSlZJRW9DLXfSAbYBQVVfeXFMTU1XcWlySC1VTnRFOXhRc25pX1lKNTgwSllXWDdTN2lWQ0lkWFZxTFZJUjZnQlplTzVhMEx0YmxQWU1NNW93M21xeGI4a2F5VV9YY0tmVC1WX0hvWVU5amNiaERRbFY1ZnF0azc4OG5ZQUJZclRxMk5VWURudDJSUkQ5SW5QTTZBZk45U3psMlBEbDcyMUR0T0wzaDBaYXo1ODh2R1laZUxDQ3NIa29FQ2ItVDRuQlE?oc=5",
-          "summary": "Kangana Ranaut's \"Bro, Wait\" Post To Rahul Gandhi's \"Smash Patriarchy\" Call &nbsp;&nbsp; NDTV ‘Stop trolling women for exercising freedom’: Rahul amid Kriti Sanon ad row &nbsp;&nbsp; ThePrint Kriti Sanon's Raksha Bandhan ad pulled down by...",
-          "publishedAt": "2026-08-26T09:50:44.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "starc-goes-past-bumrah-to-top-test-bowling-rankings-for-the-first-time-sports-2026-08-26t09-49-20-00",
-      "title": "Starc goes past Bumrah to top Test bowling rankings for the first time",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMUZ0VnluRl8tcXV1NlNxQ0hyYW9HMVlEOGdQX0I3YUtob2NSbGstVkxIUkdISDZFNXJraHpzUk5xdk5KOVhPLU4tdTNNbTRBQWItNnZUMXFPRUhiaml2MEdVdVNrS1FfdFE3LXpBdTVYSWt2c3RhcUFnNG9PQmo3Rjd1RExyT3h4andaaGJNa2dNQ21HNFhxMldyQ2dXd1JhYTV5aENHYzJDWlJla0V6eVVGb2s1cF9PVS0tZmpFSWVGMEtyV1g0cVNVNzBvVGN0UTJIMUZoaDNJdFpmLXllV2dB0gHzAUFVX3lxTFBrU1FtcXgxSGxnRkJtUUdZRGNab0JUdkppbVhlZnoyTnAxdUlsVFNiZDhvZzZRcXBoSVFKYmRiekFtUFhrWWZpbjdtNVluNFZ1S1RmWFNjZlNVVm9mUHdFQnVualdDVDMyVGNUb2tjY29CQTBEaXNPSkFXVk5XNjduX3FRZFBhSHNHajBlSXg0NFNmZVRRZndudHNXcU8tTjY0bk9SMVQwei1aSXR1NWh0LTVGSmVqUC1HQndqd25Gd3lwbm9NclRCVllrSWc2cTJ5OF81MlhuQkZmSjRqT2p5LU9RZEhqeUtmR3BDdGlCUnVySQ?oc=5",
-      "summary": "Starc goes past Bumrah to top Test bowling rankings for the first time &nbsp;&nbsp; Cricinfo Bumrah's reign over as Australia bowler claims No.1 ranking &nbsp;&nbsp; ICC Superstar Starc earns top Test ranking for the first time &nbsp;&nbsp...",
-      "image": "",
-      "source": "Cricinfo",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-08-26T09:49:20.000Z",
-      "sources": [
-        {
-          "name": "Cricinfo",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMUZ0VnluRl8tcXV1NlNxQ0hyYW9HMVlEOGdQX0I3YUtob2NSbGstVkxIUkdISDZFNXJraHpzUk5xdk5KOVhPLU4tdTNNbTRBQWItNnZUMXFPRUhiaml2MEdVdVNrS1FfdFE3LXpBdTVYSWt2c3RhcUFnNG9PQmo3Rjd1RExyT3h4andaaGJNa2dNQ21HNFhxMldyQ2dXd1JhYTV5aENHYzJDWlJla0V6eVVGb2s1cF9PVS0tZmpFSWVGMEtyV1g0cVNVNzBvVGN0UTJIMUZoaDNJdFpmLXllV2dB0gHzAUFVX3lxTFBrU1FtcXgxSGxnRkJtUUdZRGNab0JUdkppbVhlZnoyTnAxdUlsVFNiZDhvZzZRcXBoSVFKYmRiekFtUFhrWWZpbjdtNVluNFZ1S1RmWFNjZlNVVm9mUHdFQnVualdDVDMyVGNUb2tjY29CQTBEaXNPSkFXVk5XNjduX3FRZFBhSHNHajBlSXg0NFNmZVRRZndudHNXcU8tTjY0bk9SMVQwei1aSXR1NWh0LTVGSmVqUC1HQndqd25Gd3lwbm9NclRCVllrSWc2cTJ5OF81MlhuQkZmSjRqT2p5LU9RZEhqeUtmR3BDdGlCUnVySQ?oc=5",
-          "summary": "Starc goes past Bumrah to top Test bowling rankings for the first time &nbsp;&nbsp; Cricinfo Bumrah's reign over as Australia bowler claims No.1 ranking &nbsp;&nbsp; ICC Superstar Starc earns top Test ranking for the first time &nbsp;&nbsp...",
-          "publishedAt": "2026-08-26T09:49:20.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "etpl-who-are-the-belfast-wolves-and-dublin-guardians-in-new-european-t20-league-sports-2026-08-26t09",
-      "title": "ETPL: Who are the Belfast Wolves and Dublin Guardians in new European T20 league?",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCQTVqRlVpb25jTkdsMmh1ZU9WZHlTVXpHQW9Jb2RIc3JoNjF2UXlDNkh0ZVotZDdFZXE1RHJiUFF2Rm1YZzJpcWtIX1B5OGIxM2QteVpGQUVZV2g0WDNJWDVyMEtSdw?oc=5",
-      "summary": "ETPL: Who are the Belfast Wolves and Dublin Guardians in new European T20 league? &nbsp;&nbsp; BBC Who, when, where - All you need to know about the European T20 Premier League &nbsp;&nbsp; Cricinfo 1st Match, European T20 Premier League a...",
-      "image": "",
-      "source": "BBC",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-08-26T09:38:46.000Z",
-      "sources": [
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCQTVqRlVpb25jTkdsMmh1ZU9WZHlTVXpHQW9Jb2RIc3JoNjF2UXlDNkh0ZVotZDdFZXE1RHJiUFF2Rm1YZzJpcWtIX1B5OGIxM2QteVpGQUVZV2g0WDNJWDVyMEtSdw?oc=5",
-          "summary": "ETPL: Who are the Belfast Wolves and Dublin Guardians in new European T20 league? &nbsp;&nbsp; BBC Who, when, where - All you need to know about the European T20 Premier League &nbsp;&nbsp; Cricinfo 1st Match, European T20 Premier League a...",
-          "publishedAt": "2026-08-26T09:38:46.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "body-is-sore-arshdeep-revels-in-rare-red-ball-opportunity-sports-2026-08-26t09-14-44-000z",
-      "title": "'Body is sore' - Arshdeep revels in rare red-ball opportunity",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTHN3b0ozQldEYUhaajVfcEpseDkyazU1cFQ1anFqTkhWRWJtRVI4YmdfWkxYMV9BYXFSWF9PX1NGY01WNHE4VzRXdmVSV2d2Q0JNY2lnU0l5VGZuakI3WHo3SWVSRjZpUUc0WTh3XzAtN1Y3WWlieThfaTNOZ3I2Q2EyRGs1dHhTUGJjYWk1Zjh4dmxYLURUb2NQSkJzaW9rMjE5aVIxb9IBuAFBVV95cUxPcjJ6Q0I1SkxnSUs3RDlaWU9BUGd3bHhETUVQeUxUNnZUVnlhd2haZmF0ZXlqS1YxQ05oVTV2X0c0VERTZ0pjT09RdmZ4N21sVTEweEZXT1FmTlZOSzlZZjd5X0IycWQxd1M2SUFXLWJGeTRhdTFON2hHb2QzMWpiMFlzeTVDT2JMdG04U3pHbTlVUGxWZjFhUzEtQ1VBTXNVUjljNFo4Nk9QQ2tzZnJoM2R1U0ZqZXFq?oc=5",
-      "summary": "'Body is sore' - Arshdeep revels in rare red-ball opportunity &nbsp;&nbsp; Cricinfo 'Very rarely do I get the chance to play red-ball cricket': Arshdeep Singh after North Zone’s 52-run win in Duleep Trophy &nbsp;&nbsp; The Times of India D...",
-      "image": "",
-      "source": "Cricinfo",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-08-26T09:14:44.000Z",
-      "sources": [
-        {
-          "name": "Cricinfo",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTHN3b0ozQldEYUhaajVfcEpseDkyazU1cFQ1anFqTkhWRWJtRVI4YmdfWkxYMV9BYXFSWF9PX1NGY01WNHE4VzRXdmVSV2d2Q0JNY2lnU0l5VGZuakI3WHo3SWVSRjZpUUc0WTh3XzAtN1Y3WWlieThfaTNOZ3I2Q2EyRGs1dHhTUGJjYWk1Zjh4dmxYLURUb2NQSkJzaW9rMjE5aVIxb9IBuAFBVV95cUxPcjJ6Q0I1SkxnSUs3RDlaWU9BUGd3bHhETUVQeUxUNnZUVnlhd2haZmF0ZXlqS1YxQ05oVTV2X0c0VERTZ0pjT09RdmZ4N21sVTEweEZXT1FmTlZOSzlZZjd5X0IycWQxd1M2SUFXLWJGeTRhdTFON2hHb2QzMWpiMFlzeTVDT2JMdG04U3pHbTlVUGxWZjFhUzEtQ1VBTXNVUjljNFo4Nk9QQ2tzZnJoM2R1U0ZqZXFq?oc=5",
-          "summary": "'Body is sore' - Arshdeep revels in rare red-ball opportunity &nbsp;&nbsp; Cricinfo 'Very rarely do I get the chance to play red-ball cricket': Arshdeep Singh after North Zone’s 52-run win in Duleep Trophy &nbsp;&nbsp; The Times of India D...",
-          "publishedAt": "2026-08-26T09:14:44.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "bihar-fisherman-catches-dolphin-from-kosi-river-to-take-home-arrested-after-3-days-general-2026-08-2",
-      "title": "Bihar fisherman catches dolphin from Kosi river to take home, arrested after 3 days",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaXNNdURscW05SzNUZHUtNGlEUm9fYkh6dUFFbEdvOFJNbzYwdlRka3JGVVlRV3dxa00tTzNOTnZHVUdtNEItaVE5Tnp6NmpDNWZKYnpXRGd6THFLN3o1U0RVcGFPM1NmNkJzSlpHNVZQOEVEVHgzNmNzcHBoeDVCVjBWbWlFaFlmTlpoOElFUW9RVXppTWxXNmlqenFUc3Y3c0pRQWpkeG9IN3NEV1Q4NkkweGU2MVd1a1ZyVXc1RENFQkNZREN6Yk00V2RVOXdoLXZCbExUY0thaEQ3NW5YQdIB5gFBVV95cUxQdjVCZVkyaEZzbGtibWwyMTNRdTh3S1liTXB1N0I1cGxaeW43c3FIUS1xUnlpR0l1VnhKYWJJMDc2bkxOLXRCa3FHejRfUlhLazZfd3NOUGkxYjQyZGo1VXZJUUVTTHBYOUhoRElGZkNUMUh5WlVtRllyYzA2aVNHbno5ZG5HSkpFNERSZ0kzbUZvdWxBVVIxeEMxYTJKRlBwY2xWcWNISV9PUnBncXlJbU1USDFCSnlIWDkwSnh5R2l2RkU2aXIyc3l5cGpHc1BCMjVKWVZ5cG1fdzhVVTRMQ0pPeFY5dw?oc=5",
-      "summary": "Bihar fisherman catches dolphin from Kosi river to take home, arrested after 3 days &nbsp;&nbsp; India Today Fisherman Booked For Hunting Gangetic Dolphin in Bihar's Kosi River, Planned to Extract Oil &nbsp;&nbsp; NDTV Man kills rare Gange...",
-      "image": "",
-      "source": "India Today",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-08-26T08:50:19.000Z",
-      "sources": [
-        {
-          "name": "India Today",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaXNNdURscW05SzNUZHUtNGlEUm9fYkh6dUFFbEdvOFJNbzYwdlRka3JGVVlRV3dxa00tTzNOTnZHVUdtNEItaVE5Tnp6NmpDNWZKYnpXRGd6THFLN3o1U0RVcGFPM1NmNkJzSlpHNVZQOEVEVHgzNmNzcHBoeDVCVjBWbWlFaFlmTlpoOElFUW9RVXppTWxXNmlqenFUc3Y3c0pRQWpkeG9IN3NEV1Q4NkkweGU2MVd1a1ZyVXc1RENFQkNZREN6Yk00V2RVOXdoLXZCbExUY0thaEQ3NW5YQdIB5gFBVV95cUxQdjVCZVkyaEZzbGtibWwyMTNRdTh3S1liTXB1N0I1cGxaeW43c3FIUS1xUnlpR0l1VnhKYWJJMDc2bkxOLXRCa3FHejRfUlhLazZfd3NOUGkxYjQyZGo1VXZJUUVTTHBYOUhoRElGZkNUMUh5WlVtRllyYzA2aVNHbno5ZG5HSkpFNERSZ0kzbUZvdWxBVVIxeEMxYTJKRlBwY2xWcWNISV9PUnBncXlJbU1USDFCSnlIWDkwSnh5R2l2RkU2aXIyc3l5cGpHc1BCMjVKWVZ5cG1fdzhVVTRMQ0pPeFY5dw?oc=5",
-          "summary": "Bihar fisherman catches dolphin from Kosi river to take home, arrested after 3 days &nbsp;&nbsp; India Today Fisherman Booked For Hunting Gangetic Dolphin in Bihar's Kosi River, Planned to Extract Oil &nbsp;&nbsp; NDTV Man kills rare Gange...",
-          "publishedAt": "2026-08-26T08:50:19.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "the-human-brain-usually-decays-first-after-death-so-how-have-thousands-survived-for-12-000-years-sci",
-      "title": "The human brain usually decays first after death, so how have thousands survived for 12,000 years? Scient",
-      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOZlB4dUhtMnAxUkJienVnX2RzbVRtaVZXYzhFZjNZZndsSzNFN2FSTXc0VWY4aktWamZNeEZLaS0zeU40d1drbHpFcE55OGQ0dFRCQ20xaF9QeC13dVpPazdvVHZRR1I0Ti1Ba3c5QV81YnRVY0tQU2g0MVhPQXdUY1E1WUw3VzA0bjk4WUx3Z0g0U0s5OGwxSldHQVprY2t6Vl9WRWtxZDBvZXBIZjJXUVBFdVhxSkFScHBmUFRyRUtaVEp1cGhLMmNNVDdaX1JTbGZZdC1ud19qUkZXX1Y4amU5LS12cTNEVFpLWndZN3ZTWkZjb3htYUNsSno1c0VNS3dHbDVpMTdRSTJkODB0MVVPa0xfNUJ6MDNMYS1sZmtFZlkyU3VIdEpma0tFaDdZYWRkcHQ1ZmZrOTJXLWfSAcMCQVVfeXFMT19LTHJfel9iX0pEMVZ0RUc2Z050aFh4bkN6N0s0TktWd3VJb1p3akkwcVhwMklOcC1LYW5uYWFneXpaSFM5MHVvYWExM1F6ZGdmSGJkWHBHSS1lRWlpQ3JoSXIwTmdxSk1aQ2xIcmFmSGNsSTAtejJObFNHZldjekI4elJ4NVcxUWJFMTZFSk9Fdm9nMGZMZ3BjbGh6XzZKNUM4OHBQYjBTczNRR2hHRHRHYmpwV3FCY0tzTWl6RkVIYkJtWmctaWwtdDY0MVY0c3lIeHpic2V4dGd2MF8wSDEwTmplTjhITFpHSlAxaVZUR3VVdjNiWURBNUplTHF2bUZIWWYtNXBkRVBPMHVKcmNPTnZPcWxfbllUTEM1UmxBZG1NSEN3a1h6TUF4ZzVzczRBNnEzSUJGd3dMV0pMZ2JiMmc?oc=5",
-      "summary": "The human brain usually decays first after death, so how have thousands survived for 12,000 years? Scient &nbsp;&nbsp; The Times of India",
-      "image": "",
-      "source": "The Times of India",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-08-26T08:29:00.000Z",
-      "sources": [
-        {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOZlB4dUhtMnAxUkJienVnX2RzbVRtaVZXYzhFZjNZZndsSzNFN2FSTXc0VWY4aktWamZNeEZLaS0zeU40d1drbHpFcE55OGQ0dFRCQ20xaF9QeC13dVpPazdvVHZRR1I0Ti1Ba3c5QV81YnRVY0tQU2g0MVhPQXdUY1E1WUw3VzA0bjk4WUx3Z0g0U0s5OGwxSldHQVprY2t6Vl9WRWtxZDBvZXBIZjJXUVBFdVhxSkFScHBmUFRyRUtaVEp1cGhLMmNNVDdaX1JTbGZZdC1ud19qUkZXX1Y4amU5LS12cTNEVFpLWndZN3ZTWkZjb3htYUNsSno1c0VNS3dHbDVpMTdRSTJkODB0MVVPa0xfNUJ6MDNMYS1sZmtFZlkyU3VIdEpma0tFaDdZYWRkcHQ1ZmZrOTJXLWfSAcMCQVVfeXFMT19LTHJfel9iX0pEMVZ0RUc2Z050aFh4bkN6N0s0TktWd3VJb1p3akkwcVhwMklOcC1LYW5uYWFneXpaSFM5MHVvYWExM1F6ZGdmSGJkWHBHSS1lRWlpQ3JoSXIwTmdxSk1aQ2xIcmFmSGNsSTAtejJObFNHZldjekI4elJ4NVcxUWJFMTZFSk9Fdm9nMGZMZ3BjbGh6XzZKNUM4OHBQYjBTczNRR2hHRHRHYmpwV3FCY0tzTWl6RkVIYkJtWmctaWwtdDY0MVY0c3lIeHpic2V4dGd2MF8wSDEwTmplTjhITFpHSlAxaVZUR3VVdjNiWURBNUplTHF2bUZIWWYtNXBkRVBPMHVKcmNPTnZPcWxfbllUTEM1UmxBZG1NSEN3a1h6TUF4ZzVzczRBNnEzSUJGd3dMV0pMZ2JiMmc?oc=5",
-          "summary": "The human brain usually decays first after death, so how have thousands survived for 12,000 years? Scient &nbsp;&nbsp; The Times of India",
-          "publishedAt": "2026-08-26T08:29:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "far-right-israeli-lawmaker-damages-palestinian-memorial-with-sledgehammer-world-2026-08-26t08-17-45",
       "title": "Far-right Israeli lawmaker damages Palestinian memorial with sledgehammer",
       "link": "https://www.bbc.co.uk/news/articles/c0lrw8325pzo?at_medium=RSS&at_campaign=rss",
@@ -1796,61 +956,41 @@
       "sourceCount": 1
     },
     {
-      "id": "fed-s-inflation-problem-remained-stubborn-in-july-business-2026-08-26t08-16-00-000z",
-      "title": "Fed’s Inflation Problem Remained Stubborn in July",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQY2ZEbzNkS0ptN2R4blVqbTVKZ2MtcFVRMEs0X2h4TEpkMlI0Zk5sdE1MdmdWdFVxQ2V2cGsyT0JRRWZNclY3cWNES2lucl9rTXZIdndUZEZlUVZ0d0x2SXZtMXJJTUNQUEpaTkFlNWU5XzRVUjVIR09Hdko2X3M0TE4yUzhWcEljVG5rU2VFTy1ySDBSc3E2UUFOLUpsVkE3cjU0NVhxaHlrLU5taVhJbVVDSnJ1bEdWazF5TUhiaVZRclB0Uk1ocmRqXzAwZ3NVSnFrcVBLcXhXamU3cTgzb1JTaFl4MWFiU2c?oc=5",
-      "summary": "Fed’s Inflation Problem Remained Stubborn in July &nbsp;&nbsp; WSJ Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July &nbsp;&nbsp; CNBC Wall St muted ahead of Nvidia results, hot inflation fuels rate-hike bets &nb...",
-      "image": "",
-      "source": "WSJ",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-08-26T08:16:00.000Z",
+      "id": "libyan-who-was-cleared-after-lockerbie-bombing-trial-dies-aged-70-world-2026-08-26t08-01-56-000z",
+      "title": "Libyan who was cleared after Lockerbie bombing trial dies aged 70",
+      "link": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_medium=RSS&at_campaign=rss",
+      "summary": "A Facebook post by Libyan Airlines announced the death of Al Amin Khalifah Fhimah and expressed the company's condolences to his family.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ba0/live/fcd691c0-a11d-11f1-92eb-a9b3bbcf6f4a.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-08-26T08:01:56.000Z",
       "sources": [
         {
-          "name": "WSJ",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQY2ZEbzNkS0ptN2R4blVqbTVKZ2MtcFVRMEs0X2h4TEpkMlI0Zk5sdE1MdmdWdFVxQ2V2cGsyT0JRRWZNclY3cWNES2lucl9rTXZIdndUZEZlUVZ0d0x2SXZtMXJJTUNQUEpaTkFlNWU5XzRVUjVIR09Hdko2X3M0TE4yUzhWcEljVG5rU2VFTy1ySDBSc3E2UUFOLUpsVkE3cjU0NVhxaHlrLU5taVhJbVVDSnJ1bEdWazF5TUhiaVZRclB0Uk1ocmRqXzAwZ3NVSnFrcVBLcXhXamU3cTgzb1JTaFl4MWFiU2c?oc=5",
-          "summary": "Fed’s Inflation Problem Remained Stubborn in July &nbsp;&nbsp; WSJ Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July &nbsp;&nbsp; CNBC Wall St muted ahead of Nvidia results, hot inflation fuels rate-hike bets &nb...",
-          "publishedAt": "2026-08-26T08:16:00.000Z"
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_medium=RSS&at_campaign=rss",
+          "summary": "A Facebook post by Libyan Airlines announced the death of Al Amin Khalifah Fhimah and expressed the company's condolences to his family.",
+          "publishedAt": "2026-08-26T08:01:56.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "dolly-parton-died-of-cancer-she-didn-t-pay-attention-to-while-caring-for-late-husband-entertainment",
-      "title": "Dolly Parton died of cancer she ‘didn’t pay attention to’ while caring for late husband",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTVA5TVJDN2RsbHRYT25Oc1lsVm53RjZrcnpkSmtlcFEtM0l3dElhWlZjQ1ZKeUIyVmg2cmJvVUloalFzM2hSYldSTk5Gd2JybTdhYjloOUtUMW10bUZzYmx0RXBwUUtJUzQ1N2J4cURzYmFGYWlQdW9PSi1ycEhDQXlaTUstYTVvUHRad05YUnBfa1pHMmZEbnFOazNKVE50Sk5RZkRiLTVIV18zSjlvOEhuOGw4RzNCd2JUbXFjZ3FkZjJzS2pHWElGU3kzSEZaT0FpRXYxcFFxWm02TXoxelpuRkN6blXSAe4BQVVfeXFMT1BxbGRKRmNSb1RRcjh1MVQ3SXhsZ000Q2JmQVdRMGQwamd1a0RLTlJTQlExV3FhY2dwSVlaUjNWSC1IOWJZWGYxbUJtVWU3cnlDSHhUR2htS0xmVE53cGRwZTB1MnU3ZHZTV1B5TUhUbzVwOVBUTUxHLXBHNXJJak1UYmtNNmRSSFB2ai1pVnd0blpoUUx0WHZ2MTFKVlhWX0tFbmxFOU1KOV82TDBFSHFRUThQdTdxQ0dDTngtUk5TUnBGNmh3ZWcxQ1NJU0h2TXRLei03NmRURnYtOUlSb1puNnkwTkdaVVVhdVY5UQ?oc=5",
-      "summary": "Dolly Parton died of cancer she ‘didn’t pay attention to’ while caring for late husband &nbsp;&nbsp; The Indian Express Remembering Dolly Parton, who gave away everything but her songs &nbsp;&nbsp; The Hindu Dolly Parton fans pay tribute t...",
-      "image": "",
-      "source": "The Indian Express",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-08-26T08:12:57.000Z",
+      "id": "indian-jewellery-ad-pulled-after-backlash-over-actor-s-outfit-world-2026-08-26t07-26-03-000z",
+      "title": "Indian jewellery ad pulled after backlash over actor's outfit",
+      "link": "https://www.bbc.co.uk/news/articles/cy9z4dwx172o?at_medium=RSS&at_campaign=rss",
+      "summary": "Kriti Sanon has defended the ad in which she was seen celebrating the upcoming Hindu festival of Rakhi.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d179/live/672f5df0-a127-11f1-aed2-8d6da8d75094.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-08-26T07:26:03.000Z",
       "sources": [
         {
-          "name": "The Indian Express",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTVA5TVJDN2RsbHRYT25Oc1lsVm53RjZrcnpkSmtlcFEtM0l3dElhWlZjQ1ZKeUIyVmg2cmJvVUloalFzM2hSYldSTk5Gd2JybTdhYjloOUtUMW10bUZzYmx0RXBwUUtJUzQ1N2J4cURzYmFGYWlQdW9PSi1ycEhDQXlaTUstYTVvUHRad05YUnBfa1pHMmZEbnFOazNKVE50Sk5RZkRiLTVIV18zSjlvOEhuOGw4RzNCd2JUbXFjZ3FkZjJzS2pHWElGU3kzSEZaT0FpRXYxcFFxWm02TXoxelpuRkN6blXSAe4BQVVfeXFMT1BxbGRKRmNSb1RRcjh1MVQ3SXhsZ000Q2JmQVdRMGQwamd1a0RLTlJTQlExV3FhY2dwSVlaUjNWSC1IOWJZWGYxbUJtVWU3cnlDSHhUR2htS0xmVE53cGRwZTB1MnU3ZHZTV1B5TUhUbzVwOVBUTUxHLXBHNXJJak1UYmtNNmRSSFB2ai1pVnd0blpoUUx0WHZ2MTFKVlhWX0tFbmxFOU1KOV82TDBFSHFRUThQdTdxQ0dDTngtUk5TUnBGNmh3ZWcxQ1NJU0h2TXRLei03NmRURnYtOUlSb1puNnkwTkdaVVVhdVY5UQ?oc=5",
-          "summary": "Dolly Parton died of cancer she ‘didn’t pay attention to’ while caring for late husband &nbsp;&nbsp; The Indian Express Remembering Dolly Parton, who gave away everything but her songs &nbsp;&nbsp; The Hindu Dolly Parton fans pay tribute t...",
-          "publishedAt": "2026-08-26T08:12:57.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "nvidia-to-report-pce-ahead-what-s-moving-markets-business-2026-08-26t08-05-44-000z",
-      "title": "Nvidia to report; PCE ahead - what’s moving markets",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaS1CYmNuUUtDMEd3VWVvTEZ1SGh2QksxcWczckNGZlFtX05GVVRmNWJKclA5X2xKZGhaUVNRb2FSNEM0MWRQU0I2OVpBd2t3UTNHSTVCVEx3Y19naTZXNHBMV3V6clp0WVR0OWxWa1VrZXBaWVdxZnRsa0pxLUh3eXlTbUVRY1djMkp4MnNtVi1lY2xGZUx0akI3cWtuWGRmM2c?oc=5",
-      "summary": "Nvidia to report; PCE ahead - what’s moving markets &nbsp;&nbsp; Investing.com See more headlines and perspectives on Google News",
-      "image": "",
-      "source": "Investing.com",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-08-26T08:05:44.000Z",
-      "sources": [
-        {
-          "name": "Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaS1CYmNuUUtDMEd3VWVvTEZ1SGh2QksxcWczckNGZlFtX05GVVRmNWJKclA5X2xKZGhaUVNRb2FSNEM0MWRQU0I2OVpBd2t3UTNHSTVCVEx3Y19naTZXNHBMV3V6clp0WVR0OWxWa1VrZXBaWVdxZnRsa0pxLUh3eXlTbUVRY1djMkp4MnNtVi1lY2xGZUx0akI3cWtuWGRmM2c?oc=5",
-          "summary": "Nvidia to report; PCE ahead - what’s moving markets &nbsp;&nbsp; Investing.com See more headlines and perspectives on Google News",
-          "publishedAt": "2026-08-26T08:05:44.000Z"
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/cy9z4dwx172o?at_medium=RSS&at_campaign=rss",
+          "summary": "Kriti Sanon has defended the ad in which she was seen celebrating the upcoming Hindu festival of Rakhi.",
+          "publishedAt": "2026-08-26T07:26:03.000Z"
         }
       ],
       "sourceCount": 1
@@ -1891,6 +1031,26 @@
           "link": "https://huggingface.co/blog/train-multi-vector-encoder",
           "summary": "",
           "publishedAt": "2026-08-26T00:00:00.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "canada-announces-dollar-for-dollar-retaliatory-tariffs-on-us-as-high-as-50-world-2026-08-25t19-50-57",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "link": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
+      "summary": "The latest escalation in an ongoing trade war between the US and Canada will see new levies on goods from steel to furniture, fresh tuna and makeup.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e708/live/0a3afb60-a0ad-11f1-a54e-272d756c341e.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-08-25T19:50:57.000Z",
+      "sources": [
+        {
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
+          "summary": "The latest escalation in an ongoing trade war between the US and Canada will see new levies on goods from steel to furniture, fresh tuna and makeup.",
+          "publishedAt": "2026-08-25T19:50:57.000Z"
         }
       ],
       "sourceCount": 1
