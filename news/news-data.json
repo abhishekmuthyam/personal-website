@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T05:22:46.276Z",
+  "updatedAt": "2026-08-26T05:56:29.675Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,21 +58,22 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
     {
-      "id": "the-register-self-hosted-email-is-in-steep-decline-microsoft-and-google-are-taking-over-20",
-      "title": "Self-hosted email is in steep decline, Microsoft and Google are taking over",
-      "link": "https://www.theregister.com/software/2026/08/26/self-hosted-email-is-in-steep-decline-microsoft-and-google-are-taking-over/5292471",
-      "summary": "Oh great, Big Tech is now in prime position to decide which messages get through",
-      "image": "https://image.theregister.com/?imageId=1681267&width=800",
-      "source": "The Register",
+      "id": "hacker-news-students-prefer-gemini-over-chatgpt-and-claude-for-ai-essays-in-blind-tests-20",
+      "title": "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
+      "link": "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-26T02:40:14.000Z"
+      "publishedAt": "2026-08-26T03:23:50.000Z"
     },
     {
       "id": "hacker-news-queryable-executables-2026-08-26t00-20-49-000z",
@@ -84,17 +85,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-26T00:20:49.000Z"
-    },
-    {
-      "id": "hacker-news-maiao-gerrit-style-code-review-workflow-for-github-gitlab-gitea-others-2026-08",
-      "title": "Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others",
-      "link": "https://github.com/runetes/maiao",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-25T22:40:07.000Z"
     },
     {
       "id": "github-blog-how-to-evaluate-llms-before-production-2026-08-25t21-35-11-000z",
@@ -152,17 +142,6 @@
       "publishedAt": "2026-08-25T18:00:00.000Z"
     },
     {
-      "id": "the-register-mckinsey-says-enterprise-ai-is-finally-on-the-road-to-roi-2026-08-25t17-44-49",
-      "title": "McKinsey says enterprise AI is finally 'on the road to ROI'",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/25/mckinsey-says-enterprise-ai-is-finally-on-the-road-to-roi/5292388",
-      "summary": "Fasten your seatbelt and empty that bladder: AI investment is rising, but reported enterprise earnings impact remains stubbornly flat",
-      "image": "https://image.theregister.com/?imageId=234929&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-25T17:44:49.000Z"
-    },
-    {
       "id": "hacker-news-black-hole-singularity-is-a-surface-not-a-point-2026-08-25t17-02-49-000z",
       "title": "Black hole singularity is a surface not a point",
       "link": "https://arxiv.org/abs/2608.21590",
@@ -216,17 +195,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-25T16:00:00.000Z"
-    },
-    {
-      "id": "the-register-microsoft-warns-that-transitioning-excel-workbooks-to-new-exchange-connectors",
-      "title": "Microsoft warns that transitioning Excel workbooks to new Exchange connectors might not be smooth sailing",
-      "link": "https://www.theregister.com/software/2026/08/25/microsoft-warns-that-transitioning-excel-workbooks-to-new-exchange-connectors-might-not-be-smooth-sailing/5292316",
-      "summary": "Current Exchange connector is retiring - and new ones won't work if you don't upgrade",
-      "image": "https://image.theregister.com/?imageId=254628&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-25T15:53:00.000Z"
     },
     {
       "id": "infoq-java-news-roundup-jdk-27-rc1-openjdk-jeps-jakarta-ee-bellsoft-helidon-micrometer-tik",
@@ -383,17 +351,6 @@
       "publishedAt": "2026-08-25T11:36:00.000Z"
     },
     {
-      "id": "the-register-hmrc-dangles-500m-carrot-for-national-insurance-system-revamp-2026-08-25t08-3",
-      "title": "HMRC dangles £500M carrot for National Insurance system revamp",
-      "link": "https://www.theregister.com/software/2026/08/25/hmrc-dangles-500m-carrot-for-national-insurance-system-revamp/5291869",
-      "summary": "Taxman wants to drag creaky NPS into agile era",
-      "image": "https://image.theregister.com/?imageId=209285&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-25T08:30:00.000Z"
-    },
-    {
       "id": "infoq-cursor-releases-origin-as-an-agent-native-alternative-to-github-2026-08-25t08-00-00",
       "title": "Cursor Releases Origin as an Agent-Native Alternative to GitHub",
       "link": "https://www.infoq.com/news/2026/08/cursor-origin-alternative-github/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -537,17 +494,6 @@
       "publishedAt": "2026-08-24T13:49:00.000Z"
     },
     {
-      "id": "the-register-i-picked-task-manager-to-see-how-ready-ai-is-for-primetime-or-if-it-would-jus",
-      "title": "I picked Task Manager 'to see how ready AI is for primetime… or if it would just degrade to slop' – OG dev talks to The Reg",
-      "link": "https://www.theregister.com/applications/2026/08/24/i-picked-task-manager-to-see-how-ready-ai-is-for-primetime-or-if-it-would-just-degrade-to-slop-og-dev-talks-to-the-reg/5291639",
-      "summary": "Original author of legendary 1996 system utility tries to answer the question: 'How would I do it today?'",
-      "image": "https://image.theregister.com/?imageId=5291651&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-24T13:03:00.000Z"
-    },
-    {
       "id": "openai-news-advancing-price-performance-for-developers-with-gpt-5-6-in-kiro-2026-08-24t12",
       "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
       "link": "https://openai.com/index/gpt-5-6-in-kiro",
@@ -570,39 +516,6 @@
       "publishedAt": "2026-08-24T11:00:00.000Z"
     },
     {
-      "id": "the-register-canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai-2026",
-      "title": "Canonical backs quest to translate mountains of C into safe Rust with AI",
-      "link": "https://www.theregister.com/software/2026/08/24/canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai/5290959",
-      "summary": "Bungs banknotes at Bristol boffins to find out if mature code survives the machine",
-      "image": "https://image.theregister.com/?imageId=1618337&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-24T09:27:00.000Z"
-    },
-    {
-      "id": "the-register-software-should-work-and-talking-about-it-needn-t-be-boring-2026-08-24t08-31",
-      "title": "Software should work, and talking about it needn't be boring",
-      "link": "https://www.theregister.com/columnists/2026/08/24/software-should-work-and-talking-about-it-neednt-be-boring/5290862",
-      "summary": "Bingeing the boxed set of binary bafflement",
-      "image": "https://image.theregister.com/?imageId=5266492&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-24T08:31:00.000Z"
-    },
-    {
-      "id": "the-register-batch-file-automated-a-clean-up-job-then-fouled-itself-by-deleting-the-wrong",
-      "title": "Batch file automated a clean-up job, then fouled itself by deleting the wrong directory",
-      "link": "https://www.theregister.com/software/2026/08/24/batch-file-automated-a-clean-up-job-then-fouled-itself-by-deleting-the-wrong-directory/5290873",
-      "summary": "It survived testing and the boss signed off, so who was really to blame?",
-      "image": "https://image.theregister.com/?imageId=255816&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-24T06:31:00.000Z"
-    },
-    {
       "id": "inside-java-value-classes-still-need-compiler-sympathy-2026-08-24t00-00-00-000z",
       "title": "Value Classes Still Need Compiler Sympathy",
       "link": "https://inside.java/2026/08/24/value-classes-compiler-sympathy/",
@@ -612,6 +525,94 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-08-24T00:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-08-21t16-00-00-000z",
+      "title": "What’s new with Google Cloud",
+      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_2026_CfhxFWX.max-600x600.jpg",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-21T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-cloud-ciso-perspectives-sticking-to-security-fundamentals-in-the-ai-era",
+      "title": "Cloud CISO Perspectives: Sticking to security fundamentals in the AI era",
+      "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-sticking-to-security-fundamentals-in-the-ai-era/",
+      "summary": "Welcome to the first Cloud CISO Perspectives for August 2026. Today, Chris Betz explains why the AI era makes it more important than ever to lean into security fundamentals. As with all Cloud CISO Perspectives, the cont...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Cloud_CISO_Perspectives_header_4_Blue.max-600x600.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-21T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-how-agents-can-delegate-better-2026-08-21t16-00-00-000z",
+      "title": "How agents can delegate better",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/how-agents-can-delegate-better/",
+      "summary": "In any organizational behavior class, students will learn that effective delegation is among the most important skills for a seasoned leader. Getting meaningful work done involves careful coordination, starting with a s...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-08-21T16:00:00.000Z"
+    },
+    {
+      "id": "inside-java-quality-outreach-heads-up-jdk-28-named-group-information-captured-in-the-tlsha",
+      "title": "Quality Outreach Heads-up - JDK 28: Named Group Information Captured in the TLSHandshake JFR Event",
+      "link": "https://inside.java/2026/08/21/quality-heads-up/",
+      "summary": "This Heads-Up is part of the regular communication sent to the projects involved; it covers that the named group information is included in the jdk.TLSHandshake JFR event.",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "spring-blog-spring-ai-2-0-1-available-now-2026-08-21t00-00-00-000z",
+      "title": "Spring AI 2.0.1 Available Now",
+      "link": "https://spring.io/blog/2026/08/21/spring-ai-2-0-1-available-now",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-how-hugging-face-inference-endpoints-jobs-and-buckets-power-search-on-pa",
+      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "link": "https://huggingface.co/blog/pwc-search",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-measuring-benchmark-optimization-in-speech-recognition-2026-08-21t00-00",
+      "title": "Measuring benchmark optimization in speech recognition",
+      "link": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "github-blog-the-august-17-outage-and-the-work-ahead-2026-08-20t18-36-11-000z",
+      "title": "The August 17 outage, and the work ahead",
+      "link": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "summary": "An update on the August 17 outage and the steps we're taking to improve reliability. The post The August 17 outage, and the work ahead appeared first on The GitHub Blog .",
+      "image": "https://github.blog/wp-content/uploads/2026/08/blog-post-aug-17-outage-1.png?resize=1024%2C576",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-20T18:36:11.000Z"
     }
   ]
 }
