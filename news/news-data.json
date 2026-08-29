@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T19:43:00.277Z",
+  "updatedAt": "2026-08-29T21:58:11.768Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -24,7 +24,7 @@
       "topic": "cloud",
       "ok": false,
       "count": 0,
-      "error": "This operation was aborted"
+      "error": "HTTP 500"
     },
     {
       "name": "OpenAI News",
@@ -65,37 +65,48 @@
   ],
   "items": [
     {
-      "id": "hacker-news-warp-builds-self-improving-agents-on-claude-2026-08-29t19-09-33-000z",
-      "title": "Warp builds self-improving agents on Claude",
-      "link": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "id": "hacker-news-44m-solar-powered-ev-production-deal-struck-2026-08-29t21-37-07-000z",
+      "title": "$44M Solar-Powered EV Production Deal Struck",
+      "link": "https://frequal.com/aptera/ProductionDealAug2026.html",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-29T19:09:33.000Z"
+      "publishedAt": "2026-08-29T21:37:07.000Z"
     },
     {
-      "id": "hacker-news-dhs-is-using-obscure-law-to-snoop-on-journalists-non-profits-unions-2026-08-29",
-      "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
-      "link": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+      "id": "hacker-news-what-we-want-is-a-hunter-gatherer-lifestyle-with-space-age-tools-2026-08-29t20",
+      "title": "What we want is a hunter gatherer lifestyle with space age tools",
+      "link": "https://www.strangeloopcanon.com/p/what-we-want-is-a-hunter-gatherer",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-29T18:44:37.000Z"
+      "publishedAt": "2026-08-29T20:53:56.000Z"
     },
     {
-      "id": "hacker-news-the-internet-is-kind-of-a-predatory-cesspit-now-2026-08-29t18-40-56-000z",
-      "title": "The Internet Is Kind of a Predatory Cesspit Now",
-      "link": "https://www.stephendiehl.com/posts/internet_predatory_cesspit/",
+      "id": "hacker-news-tencent-releases-and-open-sources-tencent-hy4-preview-2026-08-29t19-33-23-000z",
+      "title": "Tencent Releases and Open-Sources Tencent Hy4 Preview",
+      "link": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-29T18:40:56.000Z"
+      "publishedAt": "2026-08-29T19:33:23.000Z"
+    },
+    {
+      "id": "hacker-news-vllm-v0-28-0-2026-08-29t18-22-00-000z",
+      "title": "vLLM v0.28.0",
+      "link": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-29T18:22:00.000Z"
     },
     {
       "id": "hacker-news-calibrate-before-you-accelerate-bias-toward-action-in-a-new-role-2026-08-29t17",
@@ -107,17 +118,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-29T17:39:18.000Z"
-    },
-    {
-      "id": "hacker-news-indirect-calling-of-nested-functions-on-gcc-without-executable-stack-2026-08-2",
-      "title": "Indirect Calling of Nested Functions on GCC Without Executable Stack",
-      "link": "https://uecker.codeberg.page/2026-08-29.html",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-29T14:20:33.000Z"
     },
     {
       "id": "infoq-presentation-architecting-the-data-layer-for-ai-agents-from-transactional-systems-to",
@@ -197,6 +197,17 @@
       "publishedAt": "2026-08-28T19:45:00.000Z"
     },
     {
+      "id": "hacker-news-nancy-grace-roman-space-telescope-launches-this-sunday-2026-08-28t18-53-48-000",
+      "title": "Nancy Grace Roman Space Telescope Launches this Sunday",
+      "link": "https://www.npr.org/2026/08/28/nx-s1-5905370/nasa-nancy-grace-roman-space-telescope-dark-energy-supernova",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-28T18:53:48.000Z"
+    },
+    {
       "id": "aws-what-s-new-amazon-ec2-p6-b300-instances-are-now-available-in-additional-aws-regions-20",
       "title": "Amazon EC2 P6-B300 instances are now available in additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300-instances-available-additional-regions",
@@ -208,10 +219,10 @@
       "publishedAt": "2026-08-28T17:34:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-cloudwatch-agent-adds-support-for-journald-logs-2026-08-28t16-00-00",
-      "title": "Amazon CloudWatch agent adds support for journald logs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
-      "summary": "AWS announces support for collecting systemd journal (journald) logs with the Amazon CloudWatch agent. You can now configure the CloudWatch agent to read log entries directly from the systemd journal on Linux instances...",
+      "id": "aws-what-s-new-amazon-aurora-mysql-3-13-compatible-with-mysql-8-0-45-is-generally-availabl",
+      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+      "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
@@ -219,10 +230,10 @@
       "publishedAt": "2026-08-28T16:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-aurora-mysql-3-13-compatible-with-mysql-8-0-45-is-generally-availabl",
-      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
-      "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release...",
+      "id": "aws-what-s-new-amazon-cloudwatch-agent-adds-support-for-journald-logs-2026-08-28t16-00-00",
+      "title": "Amazon CloudWatch agent adds support for journald logs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
+      "summary": "AWS announces support for collecting systemd journal (journald) logs with the Amazon CloudWatch agent. You can now configure the CloudWatch agent to read log entries directly from the systemd journal on Linux instances...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
@@ -580,17 +591,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-08-25T11:39:24.000Z"
-    },
-    {
-      "id": "hacker-news-sleepwalker-passive-backdoor-with-its-own-command-language-2026-08-25t03-26-09",
-      "title": "Sleepwalker: Passive Backdoor with Its Own Command Language",
-      "link": "https://r136a1.dev/2026/08/24/sleepwalker-a-passive-backdoor-with-its-own-command-language/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-25T03:26:09.000Z"
     },
     {
       "id": "inside-java-announcing-oracle-jipher-10-37-fips-140-3-cryptography-for-java-2026-08-25t00",
