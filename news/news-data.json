@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T17:09:18.506Z",
+  "updatedAt": "2026-08-29T19:43:00.277Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -22,8 +22,9 @@
     {
       "name": "Google Cloud Blog",
       "topic": "cloud",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "This operation was aborted"
     },
     {
       "name": "OpenAI News",
@@ -64,6 +65,50 @@
   ],
   "items": [
     {
+      "id": "hacker-news-warp-builds-self-improving-agents-on-claude-2026-08-29t19-09-33-000z",
+      "title": "Warp builds self-improving agents on Claude",
+      "link": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-29T19:09:33.000Z"
+    },
+    {
+      "id": "hacker-news-dhs-is-using-obscure-law-to-snoop-on-journalists-non-profits-unions-2026-08-29",
+      "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
+      "link": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-29T18:44:37.000Z"
+    },
+    {
+      "id": "hacker-news-the-internet-is-kind-of-a-predatory-cesspit-now-2026-08-29t18-40-56-000z",
+      "title": "The Internet Is Kind of a Predatory Cesspit Now",
+      "link": "https://www.stephendiehl.com/posts/internet_predatory_cesspit/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-29T18:40:56.000Z"
+    },
+    {
+      "id": "hacker-news-calibrate-before-you-accelerate-bias-toward-action-in-a-new-role-2026-08-29t17",
+      "title": "Calibrate Before You Accelerate: Bias Toward Action in a New Role",
+      "link": "https://tucker.wales/writing/bias-towards-action/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-29T17:39:18.000Z"
+    },
+    {
       "id": "hacker-news-indirect-calling-of-nested-functions-on-gcc-without-executable-stack-2026-08-2",
       "title": "Indirect Calling of Nested Functions on GCC Without Executable Stack",
       "link": "https://uecker.codeberg.page/2026-08-29.html",
@@ -73,17 +118,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-29T14:20:33.000Z"
-    },
-    {
-      "id": "hacker-news-debian-votes-to-allow-responsible-use-of-generative-ai-2026-08-29t14-02-10-000",
-      "title": "Debian votes to allow \"responsible use of generative AI\"",
-      "link": "https://lwn.net/Articles/1091231/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-29T14:02:10.000Z"
     },
     {
       "id": "infoq-presentation-architecting-the-data-layer-for-ai-agents-from-transactional-systems-to",
@@ -106,17 +140,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-29T09:55:00.000Z"
-    },
-    {
-      "id": "hacker-news-samsung-s-processing-in-memory-pim-2026-08-29t06-06-51-000z",
-      "title": "Samsung's Processing-in-Memory (PIM)",
-      "link": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-29T06:06:51.000Z"
     },
     {
       "id": "infoq-freetoken-unlocks-frontier-moe-inference-on-consumer-hardware-via-dynamic-co-executi",
@@ -185,17 +208,6 @@
       "publishedAt": "2026-08-28T17:34:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-aurora-mysql-3-13-compatible-with-mysql-8-0-45-is-generally-availabl",
-      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
-      "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-28T16:00:00.000Z"
-    },
-    {
       "id": "aws-what-s-new-amazon-cloudwatch-agent-adds-support-for-journald-logs-2026-08-28t16-00-00",
       "title": "Amazon CloudWatch agent adds support for journald logs",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
@@ -207,26 +219,15 @@
       "publishedAt": "2026-08-28T16:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-08-28t16-00-00-000z",
-      "title": "What’s new with Google Cloud",
-      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_2026_CfhxFWX.max-600x600.jpg",
-      "source": "Google Cloud Blog",
+      "id": "aws-what-s-new-amazon-aurora-mysql-3-13-compatible-with-mysql-8-0-45-is-generally-availabl",
+      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+      "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release...",
+      "image": "",
+      "source": "AWS What's New",
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-08-28T16:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-creating-the-aetheryte-radio-2026-08-28t14-59-15-000z",
-      "title": "Creating the Aetheryte Radio",
-      "link": "https://haz.ee/posts/aetheryte-radio.html",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-28T14:59:15.000Z"
     },
     {
       "id": "infoq-uber-builds-gitfarm-to-run-git-operations-as-a-service-for-large-scale-monorepos-202",
@@ -372,28 +373,6 @@
       "publishedAt": "2026-08-27T19:07:58.000Z"
     },
     {
-      "id": "google-cloud-blog-reimagining-work-how-pythian-s-internal-ai-playbook-delivers-customer-ro",
-      "title": "Reimagining work: How Pythian’s internal AI playbook delivers customer ROI",
-      "link": "https://cloud.google.com/blog/topics/startups/how-pythians-internal-ai-playbook-delivers-customer-roi/",
-      "summary": "When Pythian rolled out Google Cloud’s Gemini Enterprise across our 500-person company in 27 countries, the goal was simple: use our own company as a proving ground to discover how enterprise AI actually delivers ROI. W...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/pythian-ai-framework-blog-header.max-600x600.png",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-27T16:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-deploy-personal-ai-agents-with-cloud-run-instances-2026-08-27t16-00-00-0",
-      "title": "Deploy personal AI agents with Cloud Run instances",
-      "link": "https://cloud.google.com/blog/products/serverless/introducing-cloud-run-instances/",
-      "summary": "Need a low-cost, high-performance way to run long-lived, stateful workloads such as AI agents? Today, we introduced Cloud Run instances, which let you do just that. Consider AI agents such as OpenClaw or Hermes , which...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/cloud_run_instances_blog_hero.max-600x600.jpg",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-27T16:00:00.000Z"
-    },
-    {
       "id": "github-blog-openclaw-went-viral-meet-the-maintainers-building-and-securing-it-2026-08-27t1",
       "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
       "link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
@@ -493,39 +472,6 @@
       "publishedAt": "2026-08-26T20:12:53.000Z"
     },
     {
-      "id": "google-cloud-blog-how-uber-improves-network-reliability-while-unblocking-cloud-migration-2",
-      "title": "How Uber improves network reliability while unblocking cloud migration",
-      "link": "https://cloud.google.com/blog/products/networking/uber-de-risks-hybrid-ai-with-cloud-interconnect/",
-      "summary": "Uber has a lot in common with the cities it serves. Both are always changing and growing, both must carefully manage the resulting traffic to prevent congestion and sprawl. Uber has continuously evolved its technical st...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_fsLq9RR.max-600x600.png",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-26T16:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-simplify-your-resilience-testing-strategy-with-fault-injection-testing-2",
-      "title": "Simplify your resilience testing strategy with Fault Injection Testing",
-      "link": "https://cloud.google.com/blog/products/networking/introducing-google-cloud-fault-injection-testing-in-preview/",
-      "summary": "When databases fail and network paths falter, you still need your mission-critical cloud services to stay online. Yet guaranteeing high availability has become increasingly difficult because of the complexity of modern...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-26T16:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-using-okf-with-knowledge-catalog-to-serve-context-for-agents-2026-08-26t",
-      "title": "Using OKF with Knowledge Catalog to serve context for agents",
-      "link": "https://cloud.google.com/blog/products/data-analytics/scale-okf-bundles-across-an-organization-with-knowledge-catalog/",
-      "summary": "We continue to iterate on the Open Knowledge Format (OKF), an open specification that formalizes the LLM-wiki pattern into a portable, interoperable format. But a big question remains: How can you share and govern acces...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-26T16:00:00.000Z"
-    },
-    {
       "id": "the-register-aws-buys-ducklabs-the-people-behind-the-popular-in-process-olap-database-2026",
       "title": "AWS buys DuckLabs, the people behind the popular in-process OLAP database",
       "link": "https://www.theregister.com/databases/2026/08/26/aws-buys-ducklabs-the-people-behind-the-popular-in-process-olap-database/5292590",
@@ -535,39 +481,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-08-26T13:31:14.000Z"
-    },
-    {
-      "id": "google-cloud-blog-dynamic-capacity-management-for-ai-infrastructure-2026-08-26t13-30-00-00",
-      "title": "Dynamic capacity management for AI infrastructure",
-      "link": "https://cloud.google.com/blog/topics/ai-infrastructure/best-practices-for-dynamic-capacity-management/",
-      "summary": "The internet connected billions of people and mobile devices, putting computers in every hand. Now, we’re in the middle of the next big technology shift, deploying millions of autonomous AI agents to work alongside empl...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-26T13:30:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-finops-for-the-ai-era-new-flexible-billing-and-cost-controls-for-agents",
-      "title": "FinOps for the AI era: New flexible billing and cost controls for agents",
-      "link": "https://cloud.google.com/blog/products/ai-machine-learning/flexible-billing-and-cost-controls-for-agents-on-google-cloud/",
-      "summary": "Editor's note: A product image was updated after initial publication. As AI takes on more complex work, business leaders face a new challenge: enabling rapid innovation using agents while protecting their margins and bu...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/FinOps_for_the_AI_era_.max-600x600.jpg",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-08-26T13:30:00.000Z"
-    },
-    {
-      "id": "hacker-news-show-hn-typebase-a-single-folder-back-end-you-write-in-typescript-2026-08-26t1",
-      "title": "Show HN: Typebase – A single-folder back end you write in TypeScript",
-      "link": "https://typebase.io",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-08-26T11:33:31.000Z"
     },
     {
       "id": "openai-news-learning-never-stops-how-ai-makes-learning-continuous-2026-08-26t10-00-00-000z",
@@ -612,6 +525,94 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "id": "openai-news-how-loveholidays-is-making-everyone-a-builder-with-codex-2026-08-26t00-00-00-0",
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "link": "https://openai.com/index/loveholidays",
+      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-training-and-finetuning-multi-vector-embedding-models-with-sentence-tran",
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "id": "github-blog-how-to-evaluate-llms-before-production-2026-08-25t21-35-11-000z",
+      "title": "How to evaluate LLMs before production",
+      "link": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+      "summary": "These are the lessons we learned evaluating LLMs for real-world secret scanning. The post How to evaluate LLMs before production appeared first on The GitHub Blog .",
+      "image": "https://github.blog/wp-content/uploads/2026/08/633085615-8fa1a231-a731-4c36-b53d-007d212d811d-1.png?resize=1024%2C441",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-25T21:35:11.000Z"
+    },
+    {
+      "id": "hugging-face-blog-granite-4-2-llms-how-they-re-built-2026-08-25t15-14-14-000z",
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-25T15:14:14.000Z"
+    },
+    {
+      "id": "hugging-face-blog-quantization-aware-healing-a-compressed-4-bit-model-that-outperforms-its",
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-08-25T11:39:24.000Z"
+    },
+    {
+      "id": "hacker-news-sleepwalker-passive-backdoor-with-its-own-command-language-2026-08-25t03-26-09",
+      "title": "Sleepwalker: Passive Backdoor with Its Own Command Language",
+      "link": "https://r136a1.dev/2026/08/24/sleepwalker-a-passive-backdoor-with-its-own-command-language/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-25T03:26:09.000Z"
+    },
+    {
+      "id": "inside-java-announcing-oracle-jipher-10-37-fips-140-3-cryptography-for-java-2026-08-25t00",
+      "title": "Announcing Oracle Jipher 10.37: FIPS 140-3 Cryptography for Java",
+      "link": "https://inside.java/2026/08/25/jipher-cryptography-for-java/",
+      "summary": "Oracle Jipher 10 packages a FIPS 140-3 validated OpenSSL cryptographic module, making cryptographic services available through the standard Java Cryptography Architecture (JCA) framework.",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "id": "spring-blog-this-week-in-spring-august-25th-2026-2026-08-25t00-00-00-000z",
+      "title": "This Week in Spring - August 25th, 2026",
+      "link": "https://spring.io/blog/2026/08/25/this-week-in-spring-august-25",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-08-25T00:00:00.000Z"
     }
   ]
 }
