@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T18:41:12.082Z",
+  "updatedAt": "2026-09-03T21:22:11.770Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -59,13 +59,57 @@
       "name": "The Register",
       "topic": "devtools",
       "ok": true,
-      "count": 0
+      "count": 8
     }
   ],
   "items": [
     {
-      "id": "hacker-news-qwen-3-8-27b-available-on-cerebras-at-1500-tok-sec-2026-09-03t18-32-13-000z",
-      "title": "Qwen 3.8 27B available on Cerebras at 1500 tok/SEC",
+      "id": "hacker-news-tasklet-yc-p26-is-hiring-a-customer-success-engineer-2026-09-03t21-01-10-000z",
+      "title": "Tasklet (YC P26) Is Hiring a Customer Success Engineer",
+      "link": "https://tasklet.ai/careers/customer-success-engineer",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-03T21:01:10.000Z"
+    },
+    {
+      "id": "infoq-shopify-introduces-gisting-compressing-llm-system-prompts-into-learned-tokens-2026-0",
+      "title": "Shopify Introduces Gisting: Compressing LLM System Prompts into Learned Tokens",
+      "link": "https://www.infoq.com/news/2026/09/spotify-gisting-llm-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Shopify's engineering introduced gisting, a novel technique for compressing long LLM prompts into a smaller set of learned \"gist\" tokens, improving throughput and reducing inference cost. By Sergio De Simone",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-03T20:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-the-death-of-san-francisco-s-market-street-2026-09-03t19-33-17-000z",
+      "title": "The death of San Francisco's Market Street",
+      "link": "https://www.noahpinion.blog/p/the-death-of-market-street",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-03T19:33:17.000Z"
+    },
+    {
+      "id": "hacker-news-gpt-6-astra-2026-09-03t18-41-05-000z",
+      "title": "GPT-6 Astra",
+      "link": "https://openai.com/index/gpt-6-astra/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-03T18:41:05.000Z"
+    },
+    {
+      "id": "hacker-news-qwen-3-8-27b-available-on-cerebras-at-1500-tokens-s-2026-09-03t18-32-13-000z",
+      "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
       "link": "https://inference-docs.cerebras.ai/models/overview",
       "summary": "Comments",
       "image": "",
@@ -75,15 +119,15 @@
       "publishedAt": "2026-09-03T18:32:13.000Z"
     },
     {
-      "id": "hacker-news-openai-begins-rolling-out-gpt-6-astra-2026-09-03t18-18-22-000z",
-      "title": "OpenAI begins rolling out GPT-6 Astra",
-      "link": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
-      "summary": "Comments",
+      "id": "aws-what-s-new-amazon-cloudfront-announces-api-support-for-flat-rate-pricing-plans-2026-09",
+      "title": "Amazon CloudFront announces API support for flat-rate pricing plans",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudfront-flat-rate-pricing-plans-api/",
+      "summary": "Starting today, customers can subscribe and manage flat-rate pricing plans programmatically using the AWS CLI, AWS SDKs, CloudFormation, CDK, or the PricingPlanManager API. CloudFront flat-rate plans give you one monthl...",
       "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-03T18:18:22.000Z"
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-03T18:00:00.000Z"
     },
     {
       "id": "aws-what-s-new-introducing-amazon-quick-max-5x-the-usage-for-power-users-who-want-the-most",
@@ -95,6 +139,61 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-09-03T17:17:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-aws-gateway-load-balancer-now-supports-tcp-reset-for-faster-failure-recover",
+      "title": "AWS Gateway Load Balancer now supports TCP Reset for faster failure recovery",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/",
+      "summary": "A WS Gateway Load Balancer (GWLB) now supports sending TCP Reset (RST) packets when a target becomes unhealthy, is deregistered, or when a flow's idle timeout expires. This feature helps reduce traffic interruptions fro...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-03T17:00:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-workspaces-applications-adds-support-for-nvidia-blackwell-gpu-instan",
+      "title": "Amazon WorkSpaces Applications adds support for NVIDIA Blackwell GPU instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-nvidia-blackwell-gpu-instances/",
+      "summary": "Amazon WorkSpaces Applications now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon Scalable (6th Gen) processors. G7 instances deliver up to 2.1× better perfor...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-03T17:00:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-redshift-rg-large-instances-now-support-single-node-clusters-2026-09",
+      "title": "Amazon Redshift rg.large instances now support single-node clusters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-rg-large-single-node",
+      "summary": "Amazon Redshift rg.large instances, powered by AWS Graviton processors, now support single-node clusters. Single-node support for rg.large clusters is available on P204 or later patch versions. Customers can now create...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-03T16:03:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-aurora-mysql-now-supports-multi-source-replication-and-delayed-repli",
+      "title": "Amazon Aurora MySQL now supports multi-source replication and delayed replication",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-multisourcerep-delayedrep/",
+      "summary": "Starting today, Amazon Aurora MySQL supports two new replication capabilities: multi-source replication and delayed replication. Multi-source replication lets a single Aurora MySQL cluster replicate from multiple source...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-03T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-what-s-new-with-google-data-cloud-2026-09-03t16-00-00-000z",
+      "title": "What’s new with Google Data Cloud",
+      "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+      "summary": "August 31 - September 4 Stateful processing is available in BigQuery continuous queries in Preview Stateful operations significantly expand what’s possible with BigQuery continuous queries. This feature allows users to...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/original_images/whats_new_data_cloud_fWg4bKK.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-03T16:00:00.000Z"
     },
     {
       "id": "github-blog-github-copilot-app-for-beginners-run-several-agents-at-once-2026-09-03t16-00-0",
@@ -117,6 +216,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-03T15:36:43.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-sagemaker-unified-studio-workflows-support-python-and-bash-operators",
+      "title": "Amazon SageMaker Unified Studio Workflows support Python and Bash operators",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/",
+      "summary": "Amazon SageMaker Unified Studio Workflows now supports PythonOperator and BashOperator, enabling you to run custom Python functions and shell commands directly in your serverless workflows without provisioning separate...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-03T15:00:00.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-mwaa-adds-built-in-monitoring-with-amazon-cloudwatch-2026-09-03t15-0",
@@ -152,15 +262,15 @@
       "publishedAt": "2026-09-03T14:51:10.000Z"
     },
     {
-      "id": "hacker-news-porting-my-1993-amiga-game-to-godot-with-an-llm-reading-the-68000-assembly-202",
-      "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
-      "link": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
-      "summary": "Comments",
+      "id": "openai-news-daybreak-for-frontline-defenders-1b-to-protect-essential-services-2026-09-03t1",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
       "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-03T14:28:18.000Z"
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-09-03T13:15:00.000Z"
     },
     {
       "id": "hugging-face-blog-neomme-an-efficient-multimodal-native-and-multilingual-encoder-2026-09-0",
@@ -172,6 +282,28 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-09-03T13:13:48.000Z"
+    },
+    {
+      "id": "openai-news-legora-reviewed-41-documents-in-minutes-with-gpt-6-astra-2026-09-03t12-00-00-0",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-09-03T12:00:00.000Z"
+    },
+    {
+      "id": "openai-news-playco-cut-manual-fixes-50-prototyping-games-with-gpt-6-astra-2026-09-03t12-00",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-09-03T12:00:00.000Z"
     },
     {
       "id": "infoq-rigorous-yet-sustainable-human-reviews-in-the-ai-era-2026-09-03t11-57-00-000z",
@@ -207,17 +339,6 @@
       "publishedAt": "2026-09-03T09:28:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-linux-2027-is-now-available-in-public-preview-2026-09-03t08-00-00-00",
-      "title": "Amazon Linux 2027 is now available in public preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/announcing-amazon-linux-2027/",
-      "summary": "Today, AWS announces the public preview of Amazon Linux 2027 (AL2027), the next version of the Amazon Linux operating system, purpose-built for cloud-native workloads on AWS with performance, scale, and security in mind...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-03T08:00:00.000Z"
-    },
-    {
       "id": "google-cloud-blog-google-named-a-leader-in-2026-gartner-magic-quadrant-for-strategic-cloud",
       "title": "Google named a Leader in 2026 Gartner® Magic Quadrant™ for Strategic Cloud Platform Services",
       "link": "https://cloud.google.com/blog/products/compute/google-named-a-leader-in-2026-gartner-magic-quadrant-for-scps/",
@@ -240,17 +361,6 @@
       "publishedAt": "2026-09-03T06:06:00.000Z"
     },
     {
-      "id": "aws-what-s-new-aws-transform-announces-general-availability-of-amazon-fsx-for-netapp-ontap",
-      "title": "AWS Transform announces general availability of Amazon FSx for NetApp ONTAP support",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-fsx-netapp-ontap-support/",
-      "summary": "AWS Transform for migrations adds Amazon FSx for NetApp ONTAP as a generally available storage target for block storage workloads, alongside Amazon EBS. With AWS Transform, you can now migrate block storage directly to...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-03T03:00:00.000Z"
-    },
-    {
       "id": "spring-blog-a-bootiful-podcast-bellsoft-s-catherine-edelveis-on-hardened-runtime-images-co",
       "title": "A Bootiful Podcast: BellSoft's Catherine Edelveis on hardened runtime images, container security, and more",
       "link": "https://spring.io/blog/2026/09/03/a-bootiful-podcast-catherine-edelvais",
@@ -270,6 +380,17 @@
       "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
+      "publishedAt": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "id": "openai-news-safety-overview-gpt-6-astra-2026-09-03t00-00-00-000z",
+      "title": "Safety overview: GPT-6 Astra",
+      "link": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
       "publishedAt": "2026-09-03T00:00:00.000Z"
     },
     {
@@ -317,6 +438,17 @@
       "publishedAt": "2026-09-02T21:00:00.000Z"
     },
     {
+      "id": "the-register-ai-assisted-mushroom-hunting-is-a-recipe-for-a-bad-trip-2026-09-02t20-34-41-0",
+      "title": "AI-assisted mushroom hunting is a recipe for a bad trip",
+      "link": "https://www.theregister.com/offbeat/2026/09/02/ai-assisted-mushroom-hunting-is-a-recipe-for-a-bad-trip/5294060",
+      "summary": "Even the best model gets fungus identification right just 65% of the time - talk about a false friend",
+      "image": "https://image.theregister.com/?imageId=241049&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-02T20:34:41.000Z"
+    },
+    {
       "id": "github-blog-how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality-202",
       "title": "How we make AI coding more cost efficient without sacrificing task quality",
       "link": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
@@ -326,61 +458,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-02T18:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-web-search-on-amazon-bedrock-is-now-available-in-aws-govcloud-us-west-2026",
-      "title": "Web Search on Amazon Bedrock is now available in AWS GovCloud (US-West)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
-      "summary": "The Web Search built-in server-side tool on Amazon Bedrock is now available in AWS GovCloud (US-West), helping bring grounded web results to compliance-sensitive government and public-sector workloads. Web Search helps...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-02T17:52:00.000Z"
-    },
-    {
-      "id": "hacker-news-static-allocation-constant-work-2026-09-02t17-30-55-000z",
-      "title": "Static Allocation, Constant Work",
-      "link": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-02T17:30:55.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-connect-customer-expands-automated-performance-evaluations-to-malay",
-      "title": "Amazon Connect Customer expands automated performance evaluations to Malay",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay/",
-      "summary": "Amazon Connect Customer now automates evaluations of human and AI agents in Malay using generative AI. Managers define custom evaluation criteria in natural language and receive AI-generated evaluations with justificati...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-02T17:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-quick-adds-new-tool-settings-and-model-context-protocol-mcp-sync-sup",
-      "title": "Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/",
-      "summary": "Amazon Quick connectors let users leverage tools and services such as Outlook, Slack, Salesforce, Jira, and homegrown MCP servers directly into their workflows across chat, agents, apps, flows, and deep research. Today,...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-02T16:54:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-connect-customer-announces-general-availability-of-agentic-cx-design",
-      "title": "Amazon Connect Customer announces general availability of agentic CX designer",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
-      "summary": "Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experie...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-02T16:00:00.000Z"
     },
     {
       "id": "google-cloud-blog-getting-started-with-mantis-our-open-source-bug-finding-and-fixing-harne",
@@ -403,6 +480,17 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-09-02T16:00:00.000Z"
+    },
+    {
+      "id": "the-register-firefox-and-thunderbird-hit-the-fortnightly-release-treadmill-2026-09-02t14-5",
+      "title": "Firefox and Thunderbird hit the fortnightly release treadmill",
+      "link": "https://www.theregister.com/software/2026/09/02/firefox-and-thunderbird-hit-the-fortnightly-release-treadmill/5293953",
+      "summary": "Don't disable automatic updates if the pace is too much – that's what ESR is for",
+      "image": "https://image.theregister.com/?imageId=5293976&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-02T14:53:46.000Z"
     },
     {
       "id": "infoq-swiggy-uses-350-features-and-multi-task-mlp-to-predict-customer-lifetime-value-2026",
@@ -460,17 +548,6 @@
       "publishedAt": "2026-09-02T11:00:00.000Z"
     },
     {
-      "id": "infoq-cloudflare-adds-optional-oauth-scopes-letting-developers-mark-what-users-may-decline",
-      "title": "Cloudflare Adds Optional OAuth Scopes, Letting Developers Mark What Users May Decline",
-      "link": "https://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Cloudflare has added optional OAuth scopes, letting client owners mark which permissions users may deselect at consent. The company names MCP servers as the motivating case, since agents request the union of everything...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-02T09:07:00.000Z"
-    },
-    {
       "id": "hugging-face-blog-benchmirt-what-are-llm-benchmarks-actually-measuring-2026-09-01t21-39-07",
       "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
       "link": "https://huggingface.co/blog/allenai/benchmirt",
@@ -480,6 +557,17 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-09-01T21:39:07.000Z"
+    },
+    {
+      "id": "hacker-news-the-largest-electric-aircraft-just-flew-video-2026-09-01t19-02-34-000z",
+      "title": "The largest electric aircraft just flew [video]",
+      "link": "https://www.youtube.com/watch?v=nM86DBOqgPM",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-01T19:02:34.000Z"
     },
     {
       "id": "openai-news-how-ai-native-companies-turn-workflows-into-operating-capability-2026-09-01t17",
@@ -524,94 +612,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-09-01T16:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-financially-motivated-threat-actor-breeze-comet-targets-brazil-2026-09-0",
-      "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
-      "summary": "Introduction Beginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) tracks this activity as B...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-01T14:00:00.000Z"
-    },
-    {
-      "id": "openai-news-path-to-astra-critical-capabilities-and-frontier-safeguards-2026-09-01t13-00-0",
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "link": "https://openai.com/index/path-to-astra",
-      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-09-01T13:00:00.000Z"
-    },
-    {
-      "id": "openai-news-healthcare-organizations-can-now-connect-ehr-and-additional-industry-data-to-c",
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-09-01T12:00:00.000Z"
-    },
-    {
-      "id": "openai-news-how-law-firm-gilbert-tobin-governs-and-scales-ai-with-openai-2026-09-01t01-00",
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "link": "https://openai.com/index/gilbert-tobin",
-      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-09-01T01:00:00.000Z"
-    },
-    {
-      "id": "spring-blog-this-week-in-spring-september-1st-2026-2026-09-01t00-00-00-000z",
-      "title": "This Week in Spring - September 1st, 2026",
-      "link": "https://spring.io/blog/2026/09/01/this-week-in-spring-september-1-2026",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-09-01T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-introducing-huggingface-kernels-200-webgpu-kernels-for-local-ai-2026-09",
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "link": "https://huggingface.co/blog/webgpu-kernels",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-09-01T00:00:00.000Z"
-    },
-    {
-      "id": "openai-news-openai-supports-california-s-bill-to-advance-youth-ai-safety-2026-08-31t07-00",
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-08-31T07:00:00.000Z"
-    },
-    {
-      "id": "openai-news-polimill-builds-japan-s-next-generation-public-ai-infrastructure-2026-08-31t07",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "link": "https://openai.com/index/polimill",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-08-31T07:00:00.000Z"
     }
   ]
 }
