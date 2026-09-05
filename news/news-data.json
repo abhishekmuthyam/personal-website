@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T23:31:56.438Z",
+  "updatedAt": "2026-09-05T01:20:38.649Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,6 +64,17 @@
   ],
   "items": [
     {
+      "id": "hacker-news-artificial-analysis-intelligence-index-v4-2-2026-09-05t00-04-14-000z",
+      "title": "Artificial Analysis Intelligence Index v4.2",
+      "link": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-05T00:04:14.000Z"
+    },
+    {
       "id": "hacker-news-actively-exploited-sandbox-rce-in-all-chromium-versions-2026-09-04t21-52-01-00",
       "title": "Actively exploited sandbox RCE in all Chromium versions",
       "link": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
@@ -86,6 +97,39 @@
       "publishedAt": "2026-09-04T21:39:19.000Z"
     },
     {
+      "id": "aws-what-s-new-amazon-bedrock-managed-knowledge-base-introduces-user-managed-setup-for-sha",
+      "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data sources",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
+      "summary": "AWS announces user-managed setup (3LO) for SharePoint, OneDrive, and Confluence data sources in Amazon Bedrock Managed Knowledge Base. Previously, configuring these data sources required generating 2LO credentials on th...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-04T21:29:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-bedrock-managed-knowledge-base-now-supports-servicenow-as-a-native-d",
+      "title": "Amazon Bedrock Managed Knowledge Base now supports ServiceNow as a native data source connector",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/",
+      "summary": "AWS announces the ServiceNow data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now connect their ServiceNow instance to crawl kn...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-04T21:14:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-bedrock-managed-knowledge-base-now-supports-automatic-sync-schedulin",
+      "title": "Amazon Bedrock Managed Knowledge Base now supports automatic sync scheduling for data source connectors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors/",
+      "summary": "AWS announces automatic sync scheduling for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service that handles data ingestion, storage optimization, and advanced retrieval w...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-04T21:01:00.000Z"
+    },
+    {
       "id": "hacker-news-statichost-eu-european-static-site-hosting-2026-09-04t20-34-49-000z",
       "title": "Statichost.eu – European static site hosting",
       "link": "https://www.statichost.eu/",
@@ -95,17 +139,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-04T20:34:49.000Z"
-    },
-    {
-      "id": "hacker-news-an-open-dns-recursive-service-for-free-security-and-high-privacy-2026-09-04t20",
-      "title": "An open DNS recursive service for free security and high privacy",
-      "link": "https://quad9.net/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-04T20:13:08.000Z"
     },
     {
       "id": "hacker-news-can-ai-design-circuit-boards-yet-2026-09-04t19-48-29-000z",
@@ -317,17 +350,6 @@
       "publishedAt": "2026-09-04T08:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-sagemaker-ai-batch-transform-now-supports-g6e-instances-2026-09-04t0",
-      "title": "Amazon SageMaker AI Batch Transform now supports G6e instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
-      "summary": "Amazon SageMaker AI now supports Amazon EC2 G6e instances for batch transform. Batch Transform enables you to run predictions on datasets stored in Amazon S3 and is suited for large datasets that do not require a persis...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-04T08:00:00.000Z"
-    },
-    {
       "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-09-04t07-00-00-000z",
       "title": "What’s new with Google Cloud",
       "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
@@ -381,28 +403,6 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-09-04T00:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-ec2-c9g-and-c9gd-instances-are-now-available-in-asia-pacific-tokyo-r",
-      "title": "Amazon EC2 C9g and C9gd instances are now available in Asia Pacific (Tokyo) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-c9g-c9gd-asia-pacific-tokyo/",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances, powered by AWS Graviton5 processors, are available in the Asia Pacific (Tokyo) region. AWS Graviton5 processors are the fifth generation...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-03T23:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-ecs-managed-daemons-now-support-non-critical-daemons-2026-09-03t22-0",
-      "title": "Amazon ECS Managed Daemons now support non-critical daemons",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
-      "summary": "Amazon Elastic Container Service (Amazon ECS) now support non-critical Managed Daemons for ECS Managed Instances . You can configure a daemon as non-critical so that your mission-critical application tasks continue runn...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-03T22:01:00.000Z"
     },
     {
       "id": "google-cloud-blog-what-s-new-with-google-data-cloud-2026-09-03t16-00-00-000z",
