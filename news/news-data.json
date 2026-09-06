@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T16:18:25.472Z",
+  "updatedAt": "2026-09-06T18:22:50.059Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -16,8 +16,9 @@
     {
       "name": "AWS What's New",
       "topic": "cloud",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "name": "Google Cloud Blog",
@@ -34,8 +35,9 @@
     {
       "name": "Hugging Face Blog",
       "topic": "ai",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "name": "GitHub Blog",
@@ -64,37 +66,59 @@
   ],
   "items": [
     {
-      "id": "hacker-news-i-feel-about-ai-2026-09-06t15-00-19-000z",
-      "title": "I Feel about AI",
-      "link": "https://beza1e1.tuxen.de/ai_feelings.html",
+      "id": "hacker-news-following-legal-advice-the-nitter-project-will-continue-2026-09-06t17-51-23-00",
+      "title": "Following legal advice, the Nitter project will continue",
+      "link": "https://github.com/zedeus/nitter",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-06T15:00:19.000Z"
+      "publishedAt": "2026-09-06T17:51:23.000Z"
     },
     {
-      "id": "hacker-news-a-i-shuts-down-stay-human-2026-09-06t14-34-34-000z",
-      "title": "A/I shuts down – Stay human",
-      "link": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
+      "id": "hacker-news-we-monitor-internal-coding-agents-for-misalignment-2026-09-06t16-37-55-000z",
+      "title": "We monitor internal coding agents for misalignment",
+      "link": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-06T14:34:34.000Z"
+      "publishedAt": "2026-09-06T16:37:55.000Z"
     },
     {
-      "id": "hacker-news-the-many-mysteries-and-lessons-of-the-bayeux-tapestry-2026-09-06t13-38-07-000z",
-      "title": "The many mysteries and lessons of the Bayeux tapestry",
-      "link": "https://economist.com/interactive/culture/2026/09/03/the-many-mysteries-and-lessons-of-the-bayeux-tapestry",
+      "id": "hacker-news-an-alien-mind-2026-09-06t16-27-05-000z",
+      "title": "An Alien Mind",
+      "link": "https://openai.com/index/an-alien-mind/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-06T13:38:07.000Z"
+      "publishedAt": "2026-09-06T16:27:05.000Z"
+    },
+    {
+      "id": "hacker-news-research-carried-out-using-netbsd-2026-09-06t16-10-05-000z",
+      "title": "Research carried out using NetBSD",
+      "link": "https://www.netbsd.org/gallery/research.html",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-06T16:10:05.000Z"
+    },
+    {
+      "id": "hacker-news-netbsd-9-5-released-and-eol-for-netbsd-9-2026-09-06t15-44-24-000z",
+      "title": "NetBSD 9.5 released and EOL for NetBSD-9",
+      "link": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-06T15:44:24.000Z"
     },
     {
       "id": "hacker-news-qbittorrent-breaks-out-of-sandbox-to-commit-crimes-2026-09-06t13-02-41-000z",
@@ -119,8 +143,8 @@
       "publishedAt": "2026-09-06T12:00:00.000Z"
     },
     {
-      "id": "hacker-news-intellectual-fly-is-open-2025-2026-09-06t11-56-43-000z",
-      "title": "Intellectual Fly Is Open (2025)",
+      "id": "hacker-news-your-intellectual-fly-is-open-2025-2026-09-06t11-56-43-000z",
+      "title": "Your intellectual fly is open (2025)",
       "link": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
       "summary": "Comments",
       "image": "",
@@ -130,15 +154,15 @@
       "publishedAt": "2026-09-06T11:56:43.000Z"
     },
     {
-      "id": "hacker-news-doomscrolling-ourselves-to-death-2026-09-06t11-53-40-000z",
-      "title": "Doomscrolling Ourselves to Death",
-      "link": "https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death",
-      "summary": "Comments",
+      "id": "openai-news-an-alien-mind-2026-09-06t09-00-00-000z",
+      "title": "An Alien Mind",
+      "link": "https://openai.com/index/an-alien-mind",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
       "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-06T11:53:40.000Z"
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-09-06T09:00:00.000Z"
     },
     {
       "id": "openai-news-research-acceleration-the-view-inside-openai-2026-09-06t08-00-00-000z",
@@ -229,72 +253,6 @@
       "publishedAt": "2026-09-05T05:05:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-bedrock-managed-knowledge-base-introduces-user-managed-setup-for-sha",
-      "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data sources",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
-      "summary": "AWS announces user-managed setup (3LO) for SharePoint, OneDrive, and Confluence data sources in Amazon Bedrock Managed Knowledge Base. Previously, configuring these data sources required generating 2LO credentials on th...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-04T21:29:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-bedrock-managed-knowledge-base-now-supports-servicenow-as-a-native-d",
-      "title": "Amazon Bedrock Managed Knowledge Base now supports ServiceNow as a native data source connector",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/",
-      "summary": "AWS announces the ServiceNow data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now connect their ServiceNow instance to crawl kn...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-04T21:14:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-bedrock-managed-knowledge-base-now-supports-automatic-sync-schedulin",
-      "title": "Amazon Bedrock Managed Knowledge Base now supports automatic sync scheduling for data source connectors",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors/",
-      "summary": "AWS announces automatic sync scheduling for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service that handles data ingestion, storage optimization, and advanced retrieval w...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-04T21:01:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-ec2-now-supports-specifying-compatible-instance-types-on-amis-2026-0",
-      "title": "Amazon EC2 now supports specifying compatible instance types on AMIs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
-      "summary": "Amazon EC2 now enables AMI owners to define which instance types are compatible with their AMIs. Owners can specify supported instance types, unsupported instance types, or both — and any launch attempt on a non-permitt...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-04T19:26:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-ecs-introduces-early-success-criteria-for-service-deployments-2026-0",
-      "title": "Amazon ECS introduces Early Success Criteria for service deployments",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
-      "summary": "Amazon Elastic Container Service (Amazon ECS)&nbsp;now supports Early Success Criteria for rolling service deployments, giving you the flexibility to define when a deployment is considered successful based on your confi...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-04T17:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-mcp-server-adds-a-serverless-capability-for-aws-lambda-functions-2026-0",
-      "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
-      "summary": "Today, AWS Model Context Protocol Server (AWS MCP Server) added a serverless capability so that coding agents such as Claude Code and Kiro can efficiently diagnose issues with your Lambda functions. The serverless capab...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-04T16:31:00.000Z"
-    },
-    {
       "id": "github-blog-project-hydrafusion-frontier-quality-via-multi-model-orchestration-2026-09-04t",
       "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
       "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
@@ -348,28 +306,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-04T14:30:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-ec2-c8g-instances-now-available-in-additional-regions-2026-09-04t14",
-      "title": "Amazon EC2 C8g instances now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Asia Pacific (Taipei, New Zealand), and&nbsp;AWS GovCloud (US-East) regions. These instances are powered by AWS Graviton4 proc...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-04T14:06:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-transfer-family-sftp-connectors-now-support-continuing-file-transfers-d",
-      "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
-      "summary": "AWS Transfer Family SFTP Connectors now continue running file transfers while you rotate the credentials used to authenticate with remote SFTP servers. You no longer need to update the connector to point to a new secret...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-04T08:00:00.000Z"
     },
     {
       "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-09-04t07-00-00-000z",
@@ -438,21 +374,10 @@
       "publishedAt": "2026-09-03T13:15:00.000Z"
     },
     {
-      "id": "hugging-face-blog-neomme-an-efficient-multimodal-native-and-multilingual-encoder-2026-09-0",
-      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-      "link": "https://huggingface.co/blog/Hcompany/neomme",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-09-03T13:13:48.000Z"
-    },
-    {
-      "id": "openai-news-playco-cut-manual-fixes-50-prototyping-games-with-gpt-6-astra-2026-09-03t12-00",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "id": "openai-news-legora-reviewed-41-documents-in-minutes-with-gpt-6-astra-2026-09-03t12-00-00-0",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
       "image": "",
       "source": "OpenAI News",
       "topic": "ai",
@@ -460,10 +385,10 @@
       "publishedAt": "2026-09-03T12:00:00.000Z"
     },
     {
-      "id": "openai-news-legora-reviewed-41-documents-in-minutes-with-gpt-6-astra-2026-09-03t12-00-00-0",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "id": "openai-news-playco-cut-manual-fixes-50-prototyping-games-with-gpt-6-astra-2026-09-03t12-00",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
       "image": "",
       "source": "OpenAI News",
       "topic": "ai",
@@ -537,39 +462,6 @@
       "publishedAt": "2026-09-03T00:00:00.000Z"
     },
     {
-      "id": "hugging-face-blog-fine-tuning-a-350m-model-for-better-structured-outputs-in-100-grpo-steps",
-      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-      "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-09-03T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-give-your-coding-agents-a-memory-you-own-2026-09-03t00-00-00-000z",
-      "title": "Give Your Coding Agents a Memory You Own",
-      "link": "https://huggingface.co/blog/funes",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-09-03T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-training-a-coding-model-to-paint-watercolours-with-trl-and-openenv-2026",
-      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "link": "https://huggingface.co/blog/train-to-paint-with-code",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-09-03T00:00:00.000Z"
-    },
-    {
       "id": "github-blog-decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my-2026-09-0",
       "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
       "link": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
@@ -579,17 +471,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-02T21:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-is-there-i-o-after-death-what-happens-to-io-uring-when-a-process-dies-2026-09",
-      "title": "Is There I/O After Death? What Happens to Io_uring When a Process Dies",
-      "link": "https://blog.ydb.tech/is-there-i-o-after-death-what-happens-to-io-uring-when-a-process-dies-92c65354873f?postPublishedType=repub",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-02T20:58:45.000Z"
     },
     {
       "id": "the-register-ai-assisted-mushroom-hunting-is-a-recipe-for-a-bad-trip-2026-09-02t20-34-41-0",
@@ -612,6 +493,127 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-02T18:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-getting-started-with-mantis-our-open-source-bug-finding-and-fixing-harne",
+      "title": "Getting started with Mantis, our open-source bug finding-and-fixing harness",
+      "link": "https://cloud.google.com/blog/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs/",
+      "summary": "AI models have clearly proven their ability to discover and exploit vulnerabilities without much, if any, human assistance. To help defenders gain the advantage with AI, we built the Mantis harness to automate the disco...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Mantis.max-600x600.jpg",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-02T16:00:00.000Z"
+    },
+    {
+      "id": "the-register-firefox-and-thunderbird-hit-the-fortnightly-release-treadmill-2026-09-02t14-5",
+      "title": "Firefox and Thunderbird hit the fortnightly release treadmill",
+      "link": "https://www.theregister.com/software/2026/09/02/firefox-and-thunderbird-hit-the-fortnightly-release-treadmill/5293953",
+      "summary": "Don't disable automatic updates if the pace is too much – that's what ESR is for",
+      "image": "https://image.theregister.com/?imageId=5293976&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-02T14:53:46.000Z"
+    },
+    {
+      "id": "openai-news-atv-big-air-tour-turned-3-days-of-work-into-3-hours-with-chatgpt-2026-09-02t12",
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "link": "https://openai.com/index/atv-big-air-tour",
+      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-09-02T12:00:00.000Z"
+    },
+    {
+      "id": "spring-blog-this-week-in-spring-september-1st-2026-2026-09-01t00-00-00-000z",
+      "title": "This Week in Spring - September 1st, 2026",
+      "link": "https://spring.io/blog/2026/09/01/this-week-in-spring-september-1-2026",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "the-register-orbify-eu-pitches-warped-inception-style-3d-maps-for-navigation-2026-08-31t19",
+      "title": "Orbify.eu pitches warped Inception-style 3D maps for navigation",
+      "link": "https://www.theregister.com/software/2026/08/31/orbifyeu-pitches-warped-inception-style-3d-maps-for-navigation/5293496",
+      "summary": "'You mustn't be afraid to dream a little bigger, darling'",
+      "image": "https://image.theregister.com/?imageId=5293508&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-31T19:52:56.000Z"
+    },
+    {
+      "id": "the-register-openclaw-2-0-pours-glitter-on-slow-burning-security-dumpster-fire-2026-08-31t",
+      "title": "OpenClaw 2.0 pours glitter on slow-burning security dumpster fire",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
+      "summary": "Making installation easier and putting a new wrapper on the interface while leaving most of the security to users is a recipe for more trouble with the popular agent harness",
+      "image": "https://image.theregister.com/?imageId=4094099&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-31T19:13:31.000Z"
+    },
+    {
+      "id": "spring-blog-spring-office-hours-podcast-s5e21-pro-spring-boot-4-with-felipe-gutierrez-2026",
+      "title": "Spring Office Hours Podcast: S5E21 - Pro Spring Boot 4 with Felipe Gutierrez",
+      "link": "https://spring.io/blog/2026/08/31/spring-office-hours-podcast-S5E21",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-08-31T00:00:00.000Z"
+    },
+    {
+      "id": "the-register-word-97-s-ghost-in-the-machine-the-crash-that-vanished-the-moment-anyone-look",
+      "title": "Word 97's ghost in the machine: The crash that vanished the moment anyone looked at it",
+      "link": "https://www.theregister.com/software/2026/08/28/word-97s-ghost-in-the-machine-the-crash-that-vanished-the-moment-anyone-looked-at-it/5293263",
+      "summary": "Microsoft veteran recalls how a CPU errata, a mythical ICE, and a single sneaky NOP saved Clippy's big debut",
+      "image": "https://image.theregister.com/?imageId=262468&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-28T13:34:00.000Z"
+    },
+    {
+      "id": "the-register-microsoft-s-virtual-intern-teams-facilitator-will-be-late-for-the-meeting-202",
+      "title": "Microsoft's virtual intern Teams Facilitator will be late for the meeting",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/28/microsofts-virtual-intern-teams-facilitator-will-be-late-for-the-meeting/5293045",
+      "summary": "Teams question detection bot postpones debut, will get 2-month extension to practice interrupting you",
+      "image": "https://image.theregister.com/?imageId=5287779&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-28T10:29:00.000Z"
+    },
+    {
+      "id": "the-register-print-management-outfit-papercut-is-under-0-day-attack-and-it-s-drawing-custo",
+      "title": "Print management outfit PaperCut is under 0-day attack, and it’s drawing customers’ blood",
+      "link": "https://www.theregister.com/security/2026/08/28/print-management-outfit-papercut-is-under-0-day-attack-and-its-drawing-customers-blood/5293168",
+      "summary": "The fix is either an unvalidated and unofficial emergency patch or taking the server offline",
+      "image": "https://image.theregister.com/?imageId=5293173&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-28T05:29:53.000Z"
+    },
+    {
+      "id": "github-blog-openclaw-went-viral-meet-the-maintainers-building-and-securing-it-2026-08-27t1",
+      "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
+      "link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
+      "summary": "OpenClaw is the fastest-growing project in GitHub history. Peter Steinberger and several maintainers share what they learned in the project's first six months. The post OpenClaw went viral. Meet the maintainers building...",
+      "image": "https://github.blog/wp-content/uploads/2026/02/header.jpg?resize=1024%2C538",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-08-27T16:00:00.000Z"
     }
   ]
 }
