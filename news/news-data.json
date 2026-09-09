@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T06:09:48.952Z",
+  "updatedAt": "2026-09-09T11:16:20.179Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,6 +64,94 @@
   ],
   "items": [
     {
+      "id": "infoq-presentation-fixing-the-ai-infra-scale-problem-by-stuffing-1m-sandboxes-in-a-single",
+      "title": "Presentation: Fixing the AI Infra Scale Problem by Stuffing 1M Sandboxes in a Single Server",
+      "link": "https://www.infoq.com/presentations/unikraft-microvm-sandboxes-cloud-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Felipe Huici explains how Unikraft achieves millisecond cold boots, stateful scale-to-zero, and extreme density for sandboxing AI workloads. He discusses isolation primitives, Linux kernel optimizations, and snapshottin...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-09T11:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-how-an-ai-math-breakthrough-ignited-a-controversy-2026-09-09t10-25-41-000z",
+      "title": "How An AI math breakthrough ignited a controversy",
+      "link": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-09T10:25:41.000Z"
+    },
+    {
+      "id": "hacker-news-lotus-notes-and-the-dangers-of-starting-from-scratch-2026-09-09t10-01-15-000z",
+      "title": "Lotus Notes and the dangers of starting from scratch",
+      "link": "https://buttondown.com/blog/lotus-notes-email",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-09T10:01:15.000Z"
+    },
+    {
+      "id": "infoq-azure-virtual-desktop-hybrid-reaches-ga-with-licensing-details-unpublished-2026-09-0",
+      "title": "Azure Virtual Desktop Hybrid Reaches GA with Licensing Details Unpublished",
+      "link": "https://www.infoq.com/news/2026/09/avd-hybrid-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft has made Azure Virtual Desktop Hybrid generally available. Session hosts run on customer hardware through Azure Arc while brokering stays in Azure. The Hybrid service license is unpriced, Windows Server suppor...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-09T08:54:00.000Z"
+    },
+    {
+      "id": "hacker-news-how-gpt-5-6-sol-helps-run-quantum-computing-experiments-2026-09-09t07-22-46-00",
+      "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
+      "link": "https://openai.com/index/codex-quantum-computing-experiments/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-09T07:22:46.000Z"
+    },
+    {
+      "id": "hacker-news-on-really-trying-2009-2026-09-09t06-58-44-000z",
+      "title": "On Really Trying (2009)",
+      "link": "https://gwern.net/on-really-trying",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-09T06:58:44.000Z"
+    },
+    {
+      "id": "the-register-another-microsoft-team-admits-it-s-struggling-to-handle-flood-of-ai-generated",
+      "title": "Another Microsoft team admits it’s struggling to handle flood of AI-generated code",
+      "link": "https://www.theregister.com/software/2026/09/09/another-microsoft-team-admits-its-struggling-to-handle-flood-of-ai-generated-code/5295185",
+      "summary": "Increase in vibe-coded browser extensions sees Edge team automate quality assessments",
+      "image": "https://image.theregister.com/?imageId=5271891&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-09T06:34:21.000Z"
+    },
+    {
+      "id": "infoq-vim-async-s-addition-modernizes-neovim-s-async-architecture-for-better-stability-202",
+      "title": "vim.async's Addition Modernizes Neovim’s Async Architecture for Better Stability",
+      "link": "https://www.infoq.com/news/2026/09/async-lua-neovim/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Neovim has introduced a structured concurrency library in its Lua standard library via the vim.async namespace. This framework provides a standardized method for managing async workflows, addressing issues related to ta...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-09T06:06:00.000Z"
+    },
+    {
       "id": "aws-what-s-new-openai-gpt-6-astra-is-now-generally-available-on-amazon-bedrock-2026-09-08t",
       "title": "OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/",
@@ -84,17 +172,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-09-08T21:58:00.000Z"
-    },
-    {
-      "id": "hacker-news-large-language-models-develop-novel-social-biases-through-adaptive-exploration",
-      "title": "Large language models develop novel social biases through adaptive exploration",
-      "link": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-08T21:47:38.000Z"
     },
     {
       "id": "hacker-news-how-to-build-a-printer-2026-09-08t21-22-11-000z",
@@ -128,17 +205,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-09-08T21:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-mercury-2-5-2026-09-08t20-14-52-000z",
-      "title": "Mercury 2.5",
-      "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-08T20:14:52.000Z"
     },
     {
       "id": "hacker-news-muse-meta-s-personal-ai-agent-2026-09-08t19-25-00-000z",
@@ -238,17 +304,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-09-08T16:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-alphagenome-atlas-a-high-resolution-map-of-human-dna-2026-09-08t14-55-45-000z",
-      "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-08T14:55:45.000Z"
     },
     {
       "id": "hugging-face-blog-safety-for-whom-refusing-the-right-subset-of-a-topic-not-the-whole-topic",
@@ -372,17 +427,6 @@
       "publishedAt": "2026-09-08T09:00:00.000Z"
     },
     {
-      "id": "infoq-does-icann-open-the-door-on-identity-theft-by-dropping-3rd-level-name-domains-regist",
-      "title": "Does ICANN Open the Door on Identity Theft by Dropping 3rd Level .name Domains Registrations?",
-      "link": "https://www.infoq.com/news/2026/09/name-domain-drop/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Neil Fraser's disclosure highlights a regulatory change affecting the .name top-level domain. Following ICANN's approval, Verisign will eliminate third-level registrations due to declining usage. This affects about 22,0...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-08T08:08:00.000Z"
-    },
-    {
       "id": "hacker-news-navier-stokes-tristan-buckmaster-pdf-2026-09-08t05-42-28-000z",
       "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
       "link": "https://cims.nyu.edu/~tristanb/statement.pdf",
@@ -427,17 +471,6 @@
       "publishedAt": "2026-09-08T00:00:00.000Z"
     },
     {
-      "id": "infoq-netflix-moves-toward-open-source-flink-autoscaler-for-30-000-streaming-jobs-2026-09",
-      "title": "Netflix Moves toward Open Source Flink Autoscaler for 30,000+ Streaming Jobs",
-      "link": "https://www.infoq.com/news/2026/09/netflix-flink-autoscaler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Netflix is moving toward the open-source Apache Flink Autoscaler for more than 30,000 streaming jobs across multiple AWS regions. The operator-level approach addresses limitations of Netflix’s cluster level autoscaler f...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-07T14:06:00.000Z"
-    },
-    {
       "id": "the-register-oracle-may-be-next-in-eu-software-licensing-hot-seat-following-sap-deal-2026",
       "title": "Oracle may be next in EU software licensing hot seat following SAP deal",
       "link": "https://www.theregister.com/software/2026/09/07/oracle-may-be-next-in-eu-software-licensing-hot-seat-following-sap-deal/5294805",
@@ -449,17 +482,6 @@
       "publishedAt": "2026-09-07T13:56:51.000Z"
     },
     {
-      "id": "infoq-presentation-from-ai-agent-demo-to-production-automated-testing-and-evaluation-2026",
-      "title": "Presentation: From AI Agent Demo to Production: Automated Testing and Evaluation",
-      "link": "https://www.infoq.com/presentations/ai-agent-testing-evaluation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Zhou Yu discusses why AI agents stall in demo phase and shares how simulation-driven testing solves compliance and reliability bottlenecks. Learn how Columbia and Arklex AI use synthetic user personas, trajectory entrop...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-07T11:00:00.000Z"
-    },
-    {
       "id": "openai-news-supporting-independent-journalism-in-ukraine-2026-09-07t00-00-00-000z",
       "title": "Supporting independent journalism in Ukraine",
       "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
@@ -469,17 +491,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-09-07T00:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-researchers-spot-fake-ancient-pottery-using-the-earth-s-magnetic-field-2026-09",
-      "title": "Researchers Spot Fake Ancient Pottery Using the Earth's Magnetic Field",
-      "link": "https://www.smithsonianmag.com/smart-news/researchers-determine-how-to-spot-fake-ancient-pottery-using-the-earths-magnetic-field-180989441/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-05T21:14:18.000Z"
     },
     {
       "id": "github-blog-project-hydrafusion-frontier-quality-via-multi-model-orchestration-2026-09-04t",
@@ -598,17 +609,6 @@
       "summary": "Find out about the improved Curve25519 field performance in JDK 27 and JDK 28.",
       "image": "",
       "source": "Inside Java",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-09-03T00:00:00.000Z"
-    },
-    {
-      "id": "spring-blog-a-bootiful-podcast-bellsoft-s-catherine-edelveis-on-hardened-runtime-images-co",
-      "title": "A Bootiful Podcast: BellSoft's Catherine Edelveis on hardened runtime images, container security, and more",
-      "link": "https://spring.io/blog/2026/09/03/a-bootiful-podcast-catherine-edelvais",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-09-03T00:00:00.000Z"
