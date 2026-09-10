@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T17:46:14.456Z",
+  "updatedAt": "2026-09-10T20:03:30.962Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,8 +58,9 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
@@ -75,8 +76,52 @@
       "publishedAt": "2026-09-10T19:53:00.000Z"
     },
     {
-      "id": "hacker-news-software-drives-people-insane-2026-09-10t16-13-42-000z",
-      "title": "Software Drives People Insane",
+      "id": "hacker-news-genuine-creativity-is-your-new-moat-2026-2026-09-10t19-03-34-000z",
+      "title": "Genuine Creativity Is Your New Moat (2026)",
+      "link": "https://www.inventbuild.studio/blog/genuine-creativity-is-your-new-moat",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-10T19:03:34.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-mq-now-supports-rabbitmq-4-3-2026-09-10t18-08-00-000z",
+      "title": "Amazon MQ now supports RabbitMQ 4.3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mq-rabbitmq-43/",
+      "summary": "Amazon MQ now supports RabbitMQ version 4.3 which adds quorum queue feature enhancements such as compaction, increased priority levels, native delayed retries, and graceful consumer timeouts.&nbsp;RabbitMQ 4.3 also incl...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-10T18:08:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-announcing-second-generation-single-rack-aws-outposts-2026-09-10t17-58-00-0",
+      "title": "Announcing second-generation single-rack AWS Outposts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/",
+      "summary": "Today, AWS announces the general availability of second-generation single-rack AWS Outposts, a self-contained 42U rack that integrates compute, storage and networking into a single compact unit purpose-built for workloa...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-10T17:58:00.000Z"
+    },
+    {
+      "id": "infoq-openai-releases-gpt-6-astra-for-coding-and-computer-use-2026-09-10t17-49-00-000z",
+      "title": "OpenAI Releases GPT-6 Astra for Coding and Computer Use",
+      "link": "https://www.infoq.com/news/2026/09/openai-gpt6-astra/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenAI has released GPT-6 Astra, a new model focused on coding, computer use, long-running agentic tasks, and cybersecurity, with availability across ChatGPT, Codex, and the OpenAI API. By Daniel Dominguez",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-10T17:49:00.000Z"
+    },
+    {
+      "id": "hacker-news-i-have-a-theory-that-software-drives-people-insane-2026-09-10t16-13-42-000z",
+      "title": "I have a theory that software drives people insane",
       "link": "https://graybeard.ing/software-drives-people-insane/",
       "summary": "Comments",
       "image": "",
@@ -84,6 +129,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-10T16:13:42.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-redshift-rg-instances-now-available-in-europe-zurich-region-2026-09",
+      "title": "Amazon Redshift RG instances now available in Europe (Zurich) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
+      "summary": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS Europe (Zurich) Region. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x a...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-10T16:00:00.000Z"
     },
     {
       "id": "google-cloud-blog-what-s-new-with-google-data-cloud-2026-09-10t16-00-00-000z",
@@ -119,26 +175,15 @@
       "publishedAt": "2026-09-10T16:00:00.000Z"
     },
     {
-      "id": "hacker-news-forgejo-16-0-3-critical-rce-2026-09-10t15-57-40-000z",
-      "title": "Forgejo <=16.0.3 Critical RCE",
-      "link": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+      "id": "hacker-news-neki-2026-09-10t15-43-49-000z",
+      "title": "Neki",
+      "link": "https://planetscale.com/blog/introducing-neki",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-10T15:57:40.000Z"
-    },
-    {
-      "id": "hacker-news-silicon-valley-is-transforming-the-military-industrial-complex-2026-09-10t15-4",
-      "title": "Silicon Valley Is Transforming the Military-Industrial Complex",
-      "link": "https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-10T15:47:50.000Z"
+      "publishedAt": "2026-09-10T15:43:49.000Z"
     },
     {
       "id": "hacker-news-cognition-launches-new-swe-2-model-rivaling-fable-5-1-and-gpt-astra-2026-09-10",
@@ -186,7 +231,7 @@
     },
     {
       "id": "hacker-news-rust-is-tier-1-language-at-microsoft-2026-09-10t13-39-16-000z",
-      "title": "Rust Is Tier-1 Language at Microsoft",
+      "title": "Rust is tier-1 language at Microsoft",
       "link": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
       "summary": "Comments",
       "image": "",
@@ -194,6 +239,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-10T13:39:16.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-cloudwatch-now-supports-network-health-indicator-for-tgw-inter-regio",
+      "title": "Amazon CloudWatch now supports network health indicator for TGW inter-Region peering using synthetic monitors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-network-monitoring-tgw-support/",
+      "summary": "With synthetic monitors in Amazon CloudWatch Network Monitoring, you can now determine whether a network performance issue on a path that crosses an AWS Transit Gateway inter-Region peering connection is caused by the A...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-10T11:00:00.000Z"
     },
     {
       "id": "infoq-beyond-autonomous-teams-in-software-product-development-2026-09-10t10-29-00-000z",
@@ -205,28 +261,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-10T10:29:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-cloudwatch-network-monitor-now-provides-nhi-for-transit-gateway-peering-202",
-      "title": "CloudWatch Network Monitor now provides NHI for Transit Gateway peering",
-      "link": "https://aws.amazon.com/amazon-cloudwatch-network-monitor-nhi-transit-gateway-peering",
-      "summary": "Today, AWS announces that Amazon CloudWatch Network Monitor synthetic monitoring now provides its network health indicator (NHI) for paths that reach a destination across an AWS Transit Gateway inter-Region peering conn...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-10T10:28:00.000Z"
-    },
-    {
-      "id": "the-register-german-optics-giant-ditches-greenfield-sap-migration-2026-09-10t09-45-00-000z",
-      "title": "German optics giant ditches greenfield SAP migration",
-      "link": "https://www.theregister.com/software/2026/09/10/german-optics-giant-ditches-greenfield-sap-migration/5295251",
-      "summary": "'Realigned' project plan aims to move existing landscape to new platform to 'achieve faster progress'",
-      "image": "https://image.theregister.com/?imageId=256250&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-10T09:45:00.000Z"
     },
     {
       "id": "infoq-presentation-accelerating-performance-by-incrementally-integrating-rust-into-existin",
@@ -251,10 +285,10 @@
       "publishedAt": "2026-09-10T09:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-aws-elemental-medialive-adds-support-for-a-b-forensic-watermarking-2026-09",
-      "title": "AWS Elemental MediaLive adds support for A/B forensic watermarking",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-ab-forensic-watermarking/",
-      "summary": "AWS Elemental MediaLive now supports A/B forensic watermarking, enabling content owners to trace the source of unauthorized redistribution of live video content. A single MediaLive channel produces two synchronized outp...",
+      "id": "aws-what-s-new-aws-elemental-inference-now-generates-contextual-metadata-from-live-video-i",
+      "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
+      "summary": "AWS Elemental Inference now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new capability analyzes li...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
@@ -273,21 +307,10 @@
       "publishedAt": "2026-09-10T08:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-aws-elemental-inference-now-generates-contextual-metadata-from-live-video-i",
-      "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
-      "summary": "AWS Elemental Inference now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new capability analyzes li...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-10T08:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-elemental-introduces-dynamic-multiview-for-live-video-2026-09-10t08-00",
-      "title": "AWS Elemental introduces Dynamic Multiview for live video",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
-      "summary": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-...",
+      "id": "aws-what-s-new-aws-elemental-medialive-adds-support-for-a-b-forensic-watermarking-2026-09",
+      "title": "AWS Elemental MediaLive adds support for A/B forensic watermarking",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-ab-forensic-watermarking/",
+      "summary": "AWS Elemental MediaLive now supports A/B forensic watermarking, enabling content owners to trace the source of unauthorized redistribution of live video content. A single MediaLive channel produces two synchronized outp...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
@@ -304,6 +327,17 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-09-10T08:00:00.000Z"
+    },
+    {
+      "id": "openai-news-introducing-chatgpt-for-financial-services-2026-09-10t07-00-00-000z",
+      "title": "Introducing ChatGPT for Financial Services",
+      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-09-10T07:00:00.000Z"
     },
     {
       "id": "openai-news-expanding-ai-access-and-cyber-defense-for-federal-state-local-and-tribal-gover",
@@ -350,17 +384,6 @@
       "publishedAt": "2026-09-10T05:05:00.000Z"
     },
     {
-      "id": "the-register-microsoft-goes-after-salesforce-and-erp-users-with-ai-powered-converter-2026",
-      "title": "Microsoft goes after Salesforce and ERP users with AI-powered converter",
-      "link": "https://www.theregister.com/software/2026/09/10/microsoft-goes-after-salesforce-and-erp-users-with-ai-powered-converter/5295428",
-      "summary": "Ironically, this idea lands as Salesforce is struggling to sell its own AI",
-      "image": "https://image.theregister.com/?imageId=5295433&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-10T04:53:32.000Z"
-    },
-    {
       "id": "github-blog-github-availability-report-august-2026-2026-09-10t02-05-17-000z",
       "title": "GitHub availability report: August 2026",
       "link": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
@@ -378,6 +401,17 @@
       "summary": "Java 27 is set to be released on September 15th, let's review what's coming!",
       "image": "",
       "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "spring-blog-a-bootiful-podcast-netflix-s-paul-bakker-2026-09-10t00-00-00-000z",
+      "title": "A Bootiful Podcast: Netflix's Paul Bakker",
+      "link": "https://spring.io/blog/2026/09/10/a-bootiful-podcast-paul-bakker",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-09-10T00:00:00.000Z"
@@ -403,28 +437,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-09-10T00:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-connect-customer-now-lets-you-set-specific-capacity-limits-for-diffe",
-      "title": "Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/",
-      "summary": "Amazon Connect Customer now gives contact center managers the ability to set specific capacity limits for different kinds of work. Previously, concurrency settings were applied at the channel level so all contacts withi...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-09T21:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-transform-for-net-modernization-is-now-generally-available-via-cli-2026",
-      "title": "AWS Transform for .NET modernization is now generally available via CLI",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli",
-      "summary": "Today, AWS announced the general availability of an AWS-managed transformation for .NET modernization in AWS Transform custom that you can trigger with a single one-line CLI command. You can run this transformation inte...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-09T20:00:00.000Z"
     },
     {
       "id": "google-cloud-blog-enterprise-grade-postgresql-with-alloydb-omni-rpm-orchestrator-is-genera",
@@ -526,17 +538,6 @@
       "publishedAt": "2026-09-09T13:00:00.000Z"
     },
     {
-      "id": "the-register-microsoft-closes-the-book-on-publisher-and-unplugs-project-online-2026-09-09t",
-      "title": "Microsoft closes the book on Publisher and unplugs Project Online",
-      "link": "https://www.theregister.com/software/2026/09/09/microsoft-closes-the-book-on-publisher-and-unplugs-project-online/5295205",
-      "summary": "Office 2021 joins the October retirement list as customers weigh pricier alternatives",
-      "image": "https://image.theregister.com/?imageId=5242280&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-09T12:03:00.000Z"
-    },
-    {
       "id": "openai-news-gpt-6-astra-the-next-generation-in-intelligence-for-work-2026-09-09t11-00-00-0",
       "title": "GPT-6 Astra: The next generation in intelligence for work",
       "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
@@ -559,28 +560,6 @@
       "publishedAt": "2026-09-09T11:00:00.000Z"
     },
     {
-      "id": "infoq-azure-virtual-desktop-hybrid-reaches-ga-with-licensing-details-unpublished-2026-09-0",
-      "title": "Azure Virtual Desktop Hybrid Reaches GA with Licensing Details Unpublished",
-      "link": "https://www.infoq.com/news/2026/09/avd-hybrid-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Microsoft has made Azure Virtual Desktop Hybrid generally available. Session hosts run on customer hardware through Azure Arc while brokering stays in Azure. The Hybrid service license is unpriced, Windows Server suppor...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-09T08:54:00.000Z"
-    },
-    {
-      "id": "the-register-another-microsoft-team-admits-it-s-struggling-to-handle-flood-of-ai-generated",
-      "title": "Another Microsoft team admits it’s struggling to handle flood of AI-generated code",
-      "link": "https://www.theregister.com/software/2026/09/09/another-microsoft-team-admits-its-struggling-to-handle-flood-of-ai-generated-code/5295185",
-      "summary": "Increase in vibe-coded browser extensions sees Edge team automate quality assessments",
-      "image": "https://image.theregister.com/?imageId=5271891&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-09T06:34:21.000Z"
-    },
-    {
       "id": "spring-blog-spring-tools-5-4-0-released-2026-09-09t00-00-00-000z",
       "title": "Spring Tools 5.4.0 released",
       "link": "https://spring.io/blog/2026/09/09/spring-tools-5-4-0-released",
@@ -592,17 +571,6 @@
       "publishedAt": "2026-09-09T00:00:00.000Z"
     },
     {
-      "id": "openai-news-how-gpt-5-6-sol-helps-run-quantum-computing-experiments-2026-09-08t17-00-00-00",
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "link": "https://openai.com/index/codex-quantum-computing-experiments",
-      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-09-08T17:00:00.000Z"
-    },
-    {
       "id": "hugging-face-blog-safety-for-whom-refusing-the-right-subset-of-a-topic-not-the-whole-topic",
       "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
       "link": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
@@ -612,6 +580,39 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-09-08T14:23:07.000Z"
+    },
+    {
+      "id": "spring-blog-this-week-in-spring-september-8th-2026-2026-09-08t00-00-00-000z",
+      "title": "This Week in Spring - September 8th, 2026",
+      "link": "https://spring.io/blog/2026/09/08/this-week-in-spring-september-8th-2026",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": "github-blog-project-hydrafusion-frontier-quality-via-multi-model-orchestration-2026-09-04t",
+      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "summary": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot...",
+      "image": "https://github.blog/wp-content/uploads/2026/09/HydraFusion_architecture_02.png?resize=1024%2C334",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-04T16:04:14.000Z"
+    },
+    {
+      "id": "inside-java-principles-of-memory-management-in-java-2026-09-04t00-00-00-000z",
+      "title": "Principles of Memory Management in Java",
+      "link": "https://inside.java/2026/09/04/memory-management-principles-java/",
+      "summary": "In this talk, we’ll explore why the JDK’s garbage collectors work the way they do and how Java memory management affects application performance. We’ll look at the sometimes non-obvious relationship between RAM and CPU,...",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-09-04T00:00:00.000Z"
     }
   ]
 }
