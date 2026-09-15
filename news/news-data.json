@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:38:48.376Z",
+  "updatedAt": "2026-09-15T05:17:34.553Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,21 +58,22 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
     {
-      "id": "hacker-news-i-m-not-addicted-to-the-internet-or-my-smartphone-i-m-addicted-to-information",
-      "title": "I'm not addicted to the internet or my smartphone. I'm addicted to information",
-      "link": "https://explorator.dev/addiction/",
-      "summary": "Comments",
+      "id": "infoq-amazon-linux-2027-enters-public-preview-with-selinux-enforcing-by-default-2026-09-15",
+      "title": "Amazon Linux 2027 Enters Public Preview with SELinux Enforcing by Default",
+      "link": "https://www.infoq.com/news/2026/09/amazon-linux-2027-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has released Amazon Linux 2027 in public preview, built on the AL2023 baseline with kernel 7.1 and SELinux in enforcing mode by default. Applications that pass on AL2023's permissive mode may fail under enforcing. T...",
       "image": "",
-      "source": "Hacker News",
+      "source": "InfoQ",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-14T23:52:14.000Z"
+      "publishedAt": "2026-09-15T03:40:00.000Z"
     },
     {
       "id": "hacker-news-show-hn-macros-with-a-behringer-fcb1010-midi-pedalboard-in-macos-2026-09-14t23",
@@ -174,17 +175,6 @@
       "publishedAt": "2026-09-14T17:16:06.000Z"
     },
     {
-      "id": "hacker-news-distributed-systems-classics-2017-2026-09-14t16-02-01-000z",
-      "title": "Distributed Systems Classics (2017)",
-      "link": "https://nvartolomei.com/dist-sys-classics/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-14T16:02:01.000Z"
-    },
-    {
       "id": "google-cloud-blog-agent-ready-analytics-unlocking-insights-with-bigquery-augmented-analyti",
       "title": "Agent-ready analytics: Unlocking insights with BigQuery augmented analytics",
       "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-augmented-analytics-tvfs/",
@@ -218,6 +208,17 @@
       "publishedAt": "2026-09-14T16:00:00.000Z"
     },
     {
+      "id": "hacker-news-dropping-ebpf-cpu-cost-by-about-90-with-memoization-not-ai-gen-2026-09-14t14-2",
+      "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+      "link": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-14T14:29:23.000Z"
+    },
+    {
       "id": "infoq-agoda-replaces-72-shard-sql-server-price-cache-with-dragonflydb-2026-09-14t13-48-00",
       "title": "Agoda Replaces 72-Shard SQL Server Price Cache with DragonflyDB",
       "link": "https://www.infoq.com/news/2026/09/agoda-price-cache-dragonflydb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -227,17 +228,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-14T13:48:00.000Z"
-    },
-    {
-      "id": "hacker-news-openai-bots-knew-about-the-rubygems-caching-vulnerability-2026-09-14t12-40-57",
-      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
-      "link": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-14T12:40:57.000Z"
     },
     {
       "id": "openai-news-how-fyxer-built-an-ai-executive-assistant-people-trust-2026-09-14t12-00-00-000",
@@ -284,6 +274,17 @@
       "publishedAt": "2026-09-14T11:00:00.000Z"
     },
     {
+      "id": "hacker-news-xcancel-service-is-suspended-until-further-notice-2026-09-14t09-51-50-000z",
+      "title": "XCancel service is suspended until further notice",
+      "link": "https://xcancel.com/#",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-14T09:51:50.000Z"
+    },
+    {
       "id": "infoq-independent-investigation-of-hugging-face-incident-reveals-how-agents-collaborated-a",
       "title": "Independent Investigation of Hugging Face Incident Reveals How Agents Collaborated and Behaved",
       "link": "https://www.infoq.com/news/2026/09/metr-hugging-face-hack-report/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -293,6 +294,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-14T09:00:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-aws-glue-zero-etl-adds-target-table-property-ownership-and-conflict-detecti",
+      "title": "AWS Glue zero-ETL adds target table property ownership and conflict detection",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-ownership-conflicts/",
+      "summary": "AWS Glue zero-ETL integrations now detect table property conflicts and track integration ownership. When you configure a source table and target catalog, Glue associates the resulting table properties with the owning in...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-14T08:00:00.000Z"
     },
     {
       "id": "aws-what-s-new-aws-end-user-messaging-now-supports-dynamic-flows-in-whatsapp-2026-09-14t07",
@@ -328,17 +340,6 @@
       "publishedAt": "2026-09-14T06:46:00.000Z"
     },
     {
-      "id": "infoq-esp32-bit-pirate-bridging-modern-microcontrollers-and-browser-based-hardware-debuggi",
-      "title": "ESP32 Bit Pirate: Bridging Modern Microcontrollers and Browser-Based Hardware Debugging",
-      "link": "https://www.infoq.com/news/2026/09/esp32-bitpirate-web/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "ESP32 Bit Pirate project integrates multi-protocol debugging within a browser environment using HTML5 APIs. It enables users to install firmware and interact with microcontrollers like the ESP32-S3 directly from the bro...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-14T06:06:00.000Z"
-    },
-    {
       "id": "openai-news-perplexity-trusts-gpt-6-astra-with-end-to-end-systems-2026-09-14t00-00-00-000z",
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
@@ -350,15 +351,15 @@
       "publishedAt": "2026-09-14T00:00:00.000Z"
     },
     {
-      "id": "the-register-how-to-make-xfce-look-like-almost-any-desktop-you-want-2026-09-13t09-09-00-00",
-      "title": "How to make Xfce look like almost any desktop you want",
-      "link": "https://www.theregister.com/software/2026/09/13/how-to-make-xfce-look-like-almost-any-desktop-you-want/5295775",
-      "summary": "Panel Profiles handles the heavy lifting, once you've installed the plugins it expects",
-      "image": "https://image.theregister.com/?imageId=5295794&width=800",
-      "source": "The Register",
+      "id": "hacker-news-every-invoice-in-brazil-s-economy-runs-on-soap-1-2-we-mapped-it-all-2026-09-13",
+      "title": "Every invoice in Brazil's economy runs on SOAP 1.2. We mapped it all",
+      "link": "https://github.com/stoix-dev/sefaz-webservices-postman",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-13T09:09:00.000Z"
+      "publishedAt": "2026-09-13T03:19:54.000Z"
     },
     {
       "id": "inside-java-java-27-technically-within-2-minutes-2026-09-13t00-00-00-000z",
@@ -372,15 +373,15 @@
       "publishedAt": "2026-09-13T00:00:00.000Z"
     },
     {
-      "id": "hacker-news-compressing-a-flag-to-11-bits-2026-09-12t15-57-43-000z",
-      "title": "Compressing a Flag to 11 Bits",
-      "link": "https://read.vantezzen.io/miniflags",
+      "id": "hacker-news-4-400-year-old-tomb-of-egyptian-judge-found-at-saqqara-with-colors-on-walls-20",
+      "title": "4,400-Year-Old Tomb of Egyptian Judge Found at Saqqara with Colors on Walls",
+      "link": "https://arkeonews.net/4400-year-old-tomb-of-an-egyptian-judge-found-at-saqqara-with-colors-still-on-the-walls/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-12T15:57:43.000Z"
+      "publishedAt": "2026-09-12T18:51:40.000Z"
     },
     {
       "id": "aws-what-s-new-aws-elemental-medialive-enables-frame-accurate-pipeline-locking-for-streams",
@@ -403,17 +404,6 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-09-12T00:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-ec2-x2idn-instances-are-now-available-in-asia-pacific-hong-kong-2026",
-      "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
-      "summary": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable Processors and built with A...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-11T18:35:00.000Z"
     },
     {
       "id": "github-blog-marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github-2",
@@ -449,17 +439,6 @@
       "publishedAt": "2026-09-11T10:00:00.000Z"
     },
     {
-      "id": "the-register-digital-research-s-gem-opens-a-new-window-on-linux-2026-09-11t09-16-00-000z",
-      "title": "Digital Research's GEM opens a new window on Linux",
-      "link": "https://www.theregister.com/software/2026/09/11/digital-researchs-gem-opens-a-new-window-on-linux/5295546",
-      "summary": "A radical new way to resolve the Gordian knot of X11 versus Wayland",
-      "image": "https://image.theregister.com/?imageId=5295554&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-11T09:16:00.000Z"
-    },
-    {
       "id": "google-cloud-blog-3-highlights-from-thomas-kurian-s-keynote-at-the-goldman-sachs-communico",
       "title": "3 Highlights from Thomas Kurian’s Keynote at the Goldman Sachs Communicopia & Technology Conference",
       "link": "https://cloud.google.com/blog/topics/inside-google-cloud/highlights-from-the-goldman-sachs-communicopia-and-technology-conference/",
@@ -469,17 +448,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-09-11T09:00:00.000Z"
-    },
-    {
-      "id": "the-register-oracle-says-ai-will-save-it-from-the-saaspocalypse-not-bring-it-on-2026-09-11",
-      "title": "Oracle says AI will save it from the SaaSpocalypse, not bring it on",
-      "link": "https://www.theregister.com/software/2026/09/11/oracle-says-ai-will-save-it-from-the-saaspocalypse-not-bring-it-on/5295736",
-      "summary": "It’s a better interface, can speed installations, and drives IaaS sales too",
-      "image": "https://image.theregister.com/?imageId=5295741&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-11T02:43:10.000Z"
     },
     {
       "id": "github-blog-github-copilot-app-for-beginners-using-the-diff-terminal-and-browser-2026-09-1",
@@ -548,17 +516,6 @@
       "publishedAt": "2026-09-10T15:00:00.000Z"
     },
     {
-      "id": "the-register-german-optics-giant-ditches-greenfield-sap-migration-2026-09-10t09-45-00-000z",
-      "title": "German optics giant ditches greenfield SAP migration",
-      "link": "https://www.theregister.com/software/2026/09/10/german-optics-giant-ditches-greenfield-sap-migration/5295251",
-      "summary": "'Realigned' project plan aims to move existing landscape to new platform to 'achieve faster progress'",
-      "image": "https://image.theregister.com/?imageId=256250&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-10T09:45:00.000Z"
-    },
-    {
       "id": "openai-news-introducing-chatgpt-for-financial-services-2026-09-10t07-00-00-000z",
       "title": "Introducing ChatGPT for Financial Services",
       "link": "https://openai.com/index/introducing-chatgpt-financial-services",
@@ -581,17 +538,6 @@
       "publishedAt": "2026-09-10T07:00:00.000Z"
     },
     {
-      "id": "the-register-microsoft-goes-after-salesforce-and-erp-users-with-ai-powered-converter-2026",
-      "title": "Microsoft goes after Salesforce and ERP users with AI-powered converter",
-      "link": "https://www.theregister.com/software/2026/09/10/microsoft-goes-after-salesforce-and-erp-users-with-ai-powered-converter/5295428",
-      "summary": "Ironically, this idea lands as Salesforce is struggling to sell its own AI",
-      "image": "https://image.theregister.com/?imageId=5295433&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-10T04:53:32.000Z"
-    },
-    {
       "id": "github-blog-github-availability-report-august-2026-2026-09-10t02-05-17-000z",
       "title": "GitHub availability report: August 2026",
       "link": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
@@ -612,6 +558,61 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "spring-blog-a-bootiful-podcast-netflix-s-paul-bakker-2026-09-10t00-00-00-000z",
+      "title": "A Bootiful Podcast: Netflix's Paul Bakker",
+      "link": "https://spring.io/blog/2026/09/10/a-bootiful-podcast-paul-bakker",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-async-grpo-with-lora-across-hf-jobs-a-bucket-a-proxy-and-no-nccl-2026-09",
+      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-rebuilding-automatic1111-with-gradio-workflow-2026-09-10t00-00-00-000z",
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "link": "https://huggingface.co/blog/gradio-workflow-1111",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-enterprise-grade-postgresql-with-alloydb-omni-rpm-orchestrator-is-genera",
+      "title": "Enterprise-grade PostgreSQL with AlloyDB Omni RPM Orchestrator is generally available",
+      "link": "https://cloud.google.com/blog/products/databases/alloydb-omni-rpm-orchestrator-is-generally-available/",
+      "summary": "We are thrilled to announce the general availability of the AlloyDB Omni Red Hat RPM orchestrator , that brings production-ready security, resiliency, and low-downtime operations to PostgreSQL workloads in your enterpri...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-09T19:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-ibm-releases-sota-granite-time-series-patchtst-fm-r2-model-with-commerci",
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "link": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-09-09T15:36:24.000Z"
     }
   ]
 }
