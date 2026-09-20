@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T06:05:27.267Z",
+  "updatedAt": "2026-09-20T11:13:22.788Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -65,15 +65,37 @@
   ],
   "items": [
     {
-      "id": "hacker-news-byd-slashes-price-of-electric-car-and-becomes-cheapest-in-australia-video-2026",
-      "title": "BYD Slashes Price of Electric Car and Becomes Cheapest in Australia [video]",
-      "link": "https://www.youtube.com/watch?v=IQrnGK5FZXI",
+      "id": "infoq-google-agent-development-kit-for-kotlin-reaches-feature-parity-with-python-supports",
+      "title": "Google Agent Development Kit for Kotlin Reaches Feature Parity with Python, Supports On-Device AI",
+      "link": "https://www.infoq.com/news/2026/09/google-adk-1-0-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has released the Agent Development Kit (ADK) for Kotlin 1.0, a production-ready framework for building AI agents across Kotlin, Android, and JVM/server applications. It brings Kotlin to feature parity with Google...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-20T10:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-don-t-be-nice-2026-09-20t09-01-42-000z",
+      "title": "Don't Be Nice",
+      "link": "https://roe.dev/blog/dont-be-nice",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-20T04:46:34.000Z"
+      "publishedAt": "2026-09-20T09:01:42.000Z"
+    },
+    {
+      "id": "infoq-cloudflare-measures-origin-tls-preferences-cutting-handshake-retries-from-52-to-3-7",
+      "title": "Cloudflare Measures Origin TLS Preferences, Cutting Handshake Retries from 52% to 3.7%",
+      "link": "https://www.infoq.com/news/2026/09/cloudflare-automatic-key-exchang/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has replaced its static X25519 guess for origin TLS handshakes with per-origin measurement. HelloRetryRequests on scanned origins fell from roughly 52% to 3.7%, removing over 150 ms from p90 latency. Post-qua...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-20T08:15:00.000Z"
     },
     {
       "id": "hacker-news-step-5-preview-advancing-the-pareto-frontier-2026-09-20t04-35-59-000z",
@@ -118,17 +140,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-19T20:41:26.000Z"
-    },
-    {
-      "id": "hacker-news-measure-internet-censorship-2026-09-19t20-00-59-000z",
-      "title": "Measure internet censorship",
-      "link": "https://ooni.org/install",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-19T20:00:59.000Z"
     },
     {
       "id": "infoq-presentation-context-engineering-at-linkedin-how-we-built-an-organizational-context",
@@ -195,6 +206,17 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-09-18T17:27:00.000Z"
+    },
+    {
+      "id": "hacker-news-a-model-for-winning-survivor-2026-09-18t17-25-55-000z",
+      "title": "A Model for Winning Survivor",
+      "link": "https://victoriaritvo.com/blog/predicting-survivor/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-18T17:25:55.000Z"
     },
     {
       "id": "aws-what-s-new-aws-resilience-hub-adds-three-new-capabilities-2026-09-18t16-49-00-000z",
@@ -382,28 +404,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-18T12:00:00.000Z"
-    },
-    {
-      "id": "infoq-presentation-complexity-and-creativity-in-software-engineering-2026-09-18t11-00-00-0",
-      "title": "Presentation: Complexity and Creativity in Software Engineering",
-      "link": "https://www.infoq.com/presentations/ai-software-engineering-complexity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Phillip Mortimer discusses the shift toward write-only software driven by AI code generation. He explains why traditional pull requests are broken and shares how engineering leaders can manage complexity by decoupling i...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-18T11:00:00.000Z"
-    },
-    {
-      "id": "infoq-htmx-4-0-a-fetch-based-rewrite-built-in-morphing-swaps-and-explicit-attribute-inheri",
-      "title": "htmx 4.0: a Fetch-Based Rewrite, Built-In Morphing Swaps, and Explicit Attribute Inheritance",
-      "link": "https://www.infoq.com/news/2026/09/htmx-4-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "htmx 4 has been released, featuring a transition from XMLHttpRequest to the fetch() API, enhancing streaming capabilities. Key updates include built-in morphing swaps for DOM state preservation and an hx-partial tag for...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-18T09:32:00.000Z"
     },
     {
       "id": "aws-what-s-new-aws-privatelink-announces-tunnel-endpoints-to-access-network-segments-2026",
