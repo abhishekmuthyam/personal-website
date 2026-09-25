@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T02:20:55.783Z",
+  "updatedAt": "2026-09-25T08:00:37.879Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -63,6 +63,72 @@
     }
   ],
   "items": [
+    {
+      "id": "hacker-news-cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2-2026-0",
+      "title": "CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2",
+      "link": "https://www.safateam.com/intelligence-hub/research/technical-articles/cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-25T07:03:46.000Z"
+    },
+    {
+      "id": "hacker-news-the-efficiency-throughput-gap-with-github-copilot-2026-09-25t07-02-09-000z",
+      "title": "The Efficiency-Throughput Gap with GitHub Copilot",
+      "link": "https://cacm.acm.org/research/beyond-the-hype-the-efficiency-throughput-gap-with-github-copilot/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-25T07:02:09.000Z"
+    },
+    {
+      "id": "infoq-vercel-labs-ships-scriptc-a-typescript-to-native-compiler-that-leaves-the-javascript",
+      "title": "Vercel Labs Ships scriptc, a TypeScript-to-Native Compiler That Leaves the JavaScript Engine Behind",
+      "link": "https://www.infoq.com/news/2026/09/vercel-scriptc-node/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel Labs has introduced scriptc, an experimental compiler that converts TypeScript into small native executables without relying on Node, V8, or a JavaScript engine. It uses the TypeScript compiler for type checking...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-25T05:49:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-aws-billing-and-cost-management-now-provides-billing-context-for-your-accou",
+      "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/",
+      "summary": "AWS Billing and Cost Management now offers the ListBillingViewSegments API, which returns the billing context of your account over a time period you specify. You can use the API to retrieve information about how your ac...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-25T00:58:00.000Z"
+    },
+    {
+      "id": "inside-java-the-limitations-of-running-a-workload-generator-in-the-same-jvm-as-the-system",
+      "title": "The Limitations of Running a Workload Generator In the Same JVM as the System-Under-Test",
+      "link": "https://inside.java/2026/09/25/limitations-of-running-a-workload-generator-in-the-same-jvm/",
+      "summary": "When you evaluate a system with a garbage collector and want to understand its tail latency, you often see SPECjbb2015 or DaCapo used. While both offer corrective measures for coordinated omission, only SPECjbb2015 can...",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "spring-blog-spring-ai-2-1-0-m1-available-now-2026-09-25t00-00-00-000z",
+      "title": "Spring AI 2.1.0-M1 Available Now",
+      "link": "https://spring.io/blog/2026/09/25/spring-ai-2-1-0-M1-available-now",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-09-25T00:00:00.000Z"
+    },
     {
       "id": "google-cloud-blog-agent-factory-recap-agent-harnesses-shifting-left-and-autonomous-coding",
       "title": "Agent Factory recap: Agent harnesses, shifting left, and autonomous coding",
@@ -383,17 +449,6 @@
       "publishedAt": "2026-09-24T08:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-run-interactive-workloads-on-amazon-emr-on-eks-with-spark-connect-2026-09-2",
-      "title": "Run interactive workloads on Amazon EMR on EKS with Spark Connect",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-eks-spark-connect-interactive/",
-      "summary": "Amazon EMR on EKS now supports interactive Apache Spark sessions with Spark Connect. Data engineers and data scientists can develop and debug Apache Spark applications interactively from managed notebooks in Amazon Sage...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-24T08:00:00.000Z"
-    },
-    {
       "id": "infoq-canvas-ui-ships-35-html-in-canvas-components-that-run-webgl-and-webgpu-effects-over",
       "title": "Canvas UI Ships 35 HTML-in-Canvas Components That Run WebGL and WebGPU Effects Over Live DOM",
       "link": "https://www.infoq.com/news/2026/09/canvas-ui-webgl/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -460,17 +515,6 @@
       "publishedAt": "2026-09-24T00:00:00.000Z"
     },
     {
-      "id": "spring-blog-spring-web-services-5-1-0-m1-available-now-2026-09-24t00-00-00-000z",
-      "title": "Spring Web Services 5.1.0-M1 available now",
-      "link": "https://spring.io/blog/2026/09/24/spring-ws-5-1-0-M1-available-now",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-09-24T00:00:00.000Z"
-    },
-    {
       "id": "hacker-news-show-hn-make-cursed-fonts-like-times-new-bastard-2026-09-23t22-53-28-000z",
       "title": "Show HN: Make cursed fonts like Times New Bastard",
       "link": "https://bastardica.mitpit.com",
@@ -480,17 +524,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-09-23T22:53:28.000Z"
-    },
-    {
-      "id": "hacker-news-toyota-is-taking-the-corolla-electric-2026-09-23t22-37-28-000z",
-      "title": "Toyota is taking the Corolla electric",
-      "link": "https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-23T22:37:28.000Z"
     },
     {
       "id": "hugging-face-blog-how-to-use-nvidia-warp-and-mjwarp-to-accelerate-robotics-simulation-and",
@@ -537,17 +570,6 @@
       "publishedAt": "2026-09-23T15:33:33.000Z"
     },
     {
-      "id": "infoq-graphify-unifying-codebase-context-to-streamline-agentic-software-engineering-2026-0",
-      "title": "Graphify: Unifying Codebase Context to Streamline Agentic Software Engineering",
-      "link": "https://www.infoq.com/news/2026/09/graphify-codebase-exploration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Graphify is an open-source tool designed to convert codebases and unstructured data into queryable knowledge graphs. Launched in April 2026, it addresses challenges of multi-file reasoning for AI coding assistants. Rece...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-23T14:14:00.000Z"
-    },
-    {
       "id": "openai-news-openai-extends-cyber-access-to-ukraine-for-civilian-defense-2026-09-23t13-00-0",
       "title": "OpenAI extends cyber access to Ukraine for civilian defense",
       "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
@@ -585,28 +607,6 @@
       "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
       "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-09-23T12:00:00.000Z"
-    },
-    {
-      "id": "openai-news-how-invideo-improves-color-grading-3x-with-gpt-6-astra-2026-09-23t12-00-00-000",
-      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-      "link": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-09-23T12:00:00.000Z"
-    },
-    {
-      "id": "openai-news-ringg-s-ai-agents-resolve-up-to-65-of-customer-calls-with-openai-2026-09-23t12",
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "link": "https://openai.com/index/ringg",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "image": "",
       "source": "OpenAI News",
       "topic": "ai",
