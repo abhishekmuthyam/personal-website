@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T13:46:02.098Z",
+  "updatedAt": "2026-09-26T17:23:30.812Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,32 +58,33 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     }
   ],
   "items": [
     {
-      "id": "hacker-news-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior-2026-09-26t1",
-      "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-      "link": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
-      "summary": "Comments",
+      "id": "infoq-docker-cloud-sandboxes-provide-a-consistent-sandbox-abstraction-across-laptop-and-cl",
+      "title": "Docker Cloud Sandboxes Provide a Consistent Sandbox Abstraction Across Laptop and Cloud",
+      "link": "https://www.infoq.com/news/2026/09/docker-cloud-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Docker Cloud Sandboxes provide secure, hosted execution environments for running AI coding agents on Docker-managed infrastructure. Built on hardware-enforced microVM isolation, the platform provides a consistent execut...",
       "image": "",
-      "source": "Hacker News",
+      "source": "InfoQ",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-26T13:05:36.000Z"
+      "publishedAt": "2026-09-26T17:00:00.000Z"
     },
     {
-      "id": "hacker-news-ceo-of-mistral-ai-is-software-it-can-be-controlled-2026-09-26t12-52-04-000z",
-      "title": "CEO of Mistral: AI is software. It can be controlled",
-      "link": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+      "id": "hacker-news-show-hn-a-claude-code-skill-to-analyze-your-chess-games-2026-09-26t15-34-53-00",
+      "title": "Show HN: A Claude Code skill to analyze your chess games",
+      "link": "https://github.com/brumar/chess-postmortem-skills",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-26T12:52:04.000Z"
+      "publishedAt": "2026-09-26T15:34:53.000Z"
     },
     {
       "id": "infoq-presentation-adaptive-recommenders-in-the-real-world-inference-evals-and-system-desi",
@@ -130,28 +131,6 @@
       "publishedAt": "2026-09-26T09:13:41.000Z"
     },
     {
-      "id": "hacker-news-floci-locally-emulating-any-cloud-service-2026-09-26t08-31-02-000z",
-      "title": "Floci: Locally emulating any cloud service",
-      "link": "https://floci.io",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-26T08:31:02.000Z"
-    },
-    {
-      "id": "hacker-news-we-re-gonna-need-a-lot-more-mathematicians-2026-09-26t02-46-54-000z",
-      "title": "We're gonna need a lot more mathematicians",
-      "link": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-26T02:46:54.000Z"
-    },
-    {
       "id": "inside-java-jep-targeted-to-jdk-28-539-strict-field-initialization-in-the-jvm-preview-2026",
       "title": "JEP targeted to JDK 28: 539: Strict Field Initialization in the JVM (Preview)",
       "link": "https://inside.java/2026/09/26/jep539-target-jdk28/",
@@ -194,17 +173,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-09-25T19:00:00.000Z"
-    },
-    {
-      "id": "the-register-new-software-dependency-validation-process-increases-speeds-by-54x-2026-09-25",
-      "title": "New software dependency validation process increases speeds by 54x",
-      "link": "https://www.theregister.com/software/2026/09/25/new-software-dependency-validation-process-increases-speeds-by-54x/5299256",
-      "summary": "Overhead reduced by as much as 99.7%",
-      "image": "https://image.theregister.com/?imageId=5299270&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-25T18:57:10.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-ec2-m8i-and-m8i-flex-instances-are-now-available-in-additional-regio",
@@ -262,17 +230,6 @@
       "publishedAt": "2026-09-25T17:54:00.000Z"
     },
     {
-      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-09-25t16-00-00-000z",
-      "title": "What’s new with Google Cloud",
-      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_2026_CfhxFWX.max-600x600.jpg",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-09-25T16:00:00.000Z"
-    },
-    {
       "id": "google-cloud-blog-unlock-3x-qps-and-microsecond-latency-with-memorystore-for-valkey-9-1-20",
       "title": "Unlock 3x QPS and microsecond latency with Memorystore for Valkey 9.1",
       "link": "https://cloud.google.com/blog/products/databases/memorystore-for-valkey-9-1-3x-qps-caching/",
@@ -306,6 +263,17 @@
       "publishedAt": "2026-09-25T16:00:00.000Z"
     },
     {
+      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-09-25t16-00-00-000z",
+      "title": "What’s new with Google Cloud",
+      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_2026_CfhxFWX.max-600x600.jpg",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-09-25T16:00:00.000Z"
+    },
+    {
       "id": "aws-what-s-new-aws-datasync-launches-a-monitoring-dashboard-for-tracking-task-executions-a",
       "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
@@ -315,17 +283,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-09-25T15:24:00.000Z"
-    },
-    {
-      "id": "the-register-office-2016-and-2019-holdouts-blame-update-for-license-deactivation-bug-2026",
-      "title": "Office 2016 and 2019 holdouts blame update for license deactivation bug",
-      "link": "https://www.theregister.com/software/2026/09/25/office-2016-and-2019-holdouts-blame-update-for-license-deactivation-bug/5299186",
-      "summary": "But was the update at fault? Microsoft isn't saying",
-      "image": "https://image.theregister.com/?imageId=255845&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-25T15:01:00.000Z"
     },
     {
       "id": "github-blog-improving-site-performance-by-shipping-more-css-2026-09-25t15-00-00-000z",
@@ -405,15 +362,15 @@
       "publishedAt": "2026-09-25T11:00:00.000Z"
     },
     {
-      "id": "infoq-presentation-spritely-infrastructure-for-the-future-of-the-internet-2026-09-25t11-00",
-      "title": "Presentation: Spritely: Infrastructure for the Future of the Internet",
-      "link": "https://www.infoq.com/presentations/spritely-decentralized-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Christine Lemmer-Webber and David Thompson explain how Spritely's architecture solves core decentralization challenges. They share insights on capability-based access control with Goblins, actor-model communication via...",
+      "id": "hacker-news-pipepipe-newpipe-hard-fork-implementing-sponsorblock-2026-09-25t10-55-40-000z",
+      "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+      "link": "https://github.com/InfinityLoop1308/PipePipe",
+      "summary": "Comments",
       "image": "",
-      "source": "InfoQ",
+      "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-25T11:00:00.000Z"
+      "publishedAt": "2026-09-25T10:55:40.000Z"
     },
     {
       "id": "aws-what-s-new-aws-elastic-disaster-recovery-now-supports-aws-graviton-based-source-server",
@@ -526,17 +483,6 @@
       "publishedAt": "2026-09-24T16:00:00.000Z"
     },
     {
-      "id": "the-register-talk-of-ai-in-kde-sets-the-community-ablaze-2026-09-24t14-32-00-000z",
-      "title": "Talk of AI in KDE sets the community ablaze",
-      "link": "https://www.theregister.com/software/2026/09/24/talk-of-ai-in-kde-sets-the-community-ablaze/5298854",
-      "summary": "A desktop pitch and an attempt to curb LLM slop descended into very human mayhem",
-      "image": "https://image.theregister.com/?imageId=225978&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-24T14:32:00.000Z"
-    },
-    {
       "id": "hugging-face-blog-accelerating-vision-language-models-with-lfm2-5-vl-dspark-2026-09-24t14",
       "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
       "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
@@ -548,26 +494,26 @@
       "publishedAt": "2026-09-24T14:08:57.000Z"
     },
     {
-      "id": "the-register-doj-uncle-sam-bought-forensics-software-from-same-russian-operation-supplying",
-      "title": "DoJ: Uncle Sam bought forensics software from same Russian operation supplying FSB",
-      "link": "https://www.theregister.com/software/2026/09/24/doj-uncle-sam-bought-forensics-software-from-same-russian-operation-supplying-fsb/5298774",
-      "summary": "Russian devs alleged to have built tools for US agencies as software from same op was sold to Moscow's security services",
-      "image": "https://image.theregister.com/?imageId=225422&width=800",
-      "source": "The Register",
+      "id": "hacker-news-modern-object-pascal-introduction-for-programmers-castle-game-engine-2026-09-2",
+      "title": "Modern Object Pascal Introduction for Programmers – Castle Game Engine",
+      "link": "https://castle-engine.io/modern_pascal",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-24T13:43:00.000Z"
+      "publishedAt": "2026-09-24T11:33:56.000Z"
     },
     {
-      "id": "the-register-experts-question-whether-salesforce-demo-breaches-sap-api-policy-2026-09-24t0",
-      "title": "Experts question whether Salesforce demo breaches SAP API policy",
-      "link": "https://www.theregister.com/saas/2026/09/24/experts-question-whether-salesforce-demo-breaches-sap-api-policy/5298606",
-      "summary": "For the German vendor, greater challenges may lie ahead, as rivals seek to control the user experience",
-      "image": "https://image.theregister.com/?imageId=5240704&width=800",
-      "source": "The Register",
+      "id": "hacker-news-the-lost-atomic-update-on-loongson-cpu-2026-09-24t08-36-40-000z",
+      "title": "The Lost Atomic Update on Loongson CPU",
+      "link": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-24T09:15:00.000Z"
+      "publishedAt": "2026-09-24T08:36:40.000Z"
     },
     {
       "id": "inside-java-episode-71-security-in-java-ata-2026-09-24t00-00-00-000z",
@@ -603,15 +549,70 @@
       "publishedAt": "2026-09-24T00:00:00.000Z"
     },
     {
-      "id": "hacker-news-asml-currently-sells-no-chipmaking-machines-in-europe-executive-says-2026-09-2",
-      "title": "ASML currently sells no chipmaking machines in Europe, executive says",
-      "link": "https://nltimes.nl/2026/09/22/asml-currently-sells-chipmaking-machines-europe-executive-says",
+      "id": "hugging-face-blog-how-to-use-nvidia-warp-and-mjwarp-to-accelerate-robotics-simulation-and",
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-09-23T18:41:40.000Z"
+    },
+    {
+      "id": "github-blog-rendering-huge-pull-requests-in-the-github-copilot-app-2026-09-23t18-29-49-000",
+      "title": "Rendering huge pull requests in the GitHub Copilot app",
+      "link": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+      "summary": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments. The post Rendering huge pull requests in the GitHub Copilot app appeared first on Th...",
+      "image": "",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-23T18:29:49.000Z"
+    },
+    {
+      "id": "openai-news-two-years-of-openai-academy-2026-09-23t16-00-00-000z",
+      "title": "Two years of OpenAI Academy",
+      "link": "https://openai.com/index/two-years-of-openai-academy",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-09-23T16:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-reflections-on-1-000-days-of-math-2026-09-23t14-40-34-000z",
+      "title": "Reflections on 1,000 Days of Math",
+      "link": "https://gmays.com/reflections-on-1000-days-of-math/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-09-23T22:42:13.000Z"
+      "publishedAt": "2026-09-23T14:40:34.000Z"
+    },
+    {
+      "id": "openai-news-openai-extends-cyber-access-to-ukraine-for-civilian-defense-2026-09-23t13-00-0",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-09-23T13:00:00.000Z"
+    },
+    {
+      "id": "github-blog-developers-want-more-efficient-software-here-s-what-over-1-000-github-users-to",
+      "title": "Developers want more efficient software. Here’s what over 1,000 GitHub users told us they need.",
+      "link": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/",
+      "summary": "New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute. The post Developers want more...",
+      "image": "https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-22-at-6.34.24-PM.png?resize=1024%2C623",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-09-23T13:00:00.000Z"
     }
   ]
 }
