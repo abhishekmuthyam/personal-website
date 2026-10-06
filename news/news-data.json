@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:18:39.553Z",
+  "updatedAt": "2026-10-06T09:04:30.847Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,19 +64,63 @@
   ],
   "items": [
     {
-      "id": "hacker-news-ai-tutoring-with-khanmigo-in-a-two-year-school-experiment-2026-10-06t00-00-45",
-      "title": "AI Tutoring with Khanmigo in a Two-Year School Experiment",
-      "link": "https://edworkingpapers.com/ai26-1551",
+      "id": "hugging-face-blog-falcon-emirati-when-an-llm-learns-the-dialect-the-culture-and-the-nuance",
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "link": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-10-06T06:44:39.000Z"
+    },
+    {
+      "id": "infoq-flagged-by-the-machine-how-google-ads-suspended-an-open-source-macos-term-as-malicio",
+      "title": "Flagged by the Machine: How Google Ads Suspended an Open-Source macOS Term as Malicious",
+      "link": "https://www.infoq.com/news/2026/10/google-wrong-flagging/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Przemyslaw Alexander Kaminski created RACE, a Rust terminal multiplexer on an infinite canvas that detaches child shells into background processes. When he launched an ad campaign, automated scanners suspended his accou...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-06T05:05:00.000Z"
+    },
+    {
+      "id": "infoq-cloudflare-introduces-cli-for-ai-agents-sunsetting-wrangler-2026-10-06t04-59-00-000z",
+      "title": "Cloudflare Introduces CLI for AI Agents, Sunsetting Wrangler",
+      "link": "https://www.infoq.com/news/2026/10/cloudflare-cf-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare recently launched the open beta of cf, a new open-source, agent-focused command-line interface for interacting with Cloudflare services through a unified CLI. Written in TypeScript, it provides structured out...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-06T04:59:00.000Z"
+    },
+    {
+      "id": "hacker-news-resurrecting-ichat-audio-and-video-conferencing-2026-10-06t03-39-01-000z",
+      "title": "Resurrecting iChat Audio and Video Conferencing",
+      "link": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-06T00:00:45.000Z"
+      "publishedAt": "2026-10-06T03:39:01.000Z"
+    },
+    {
+      "id": "inside-java-jep-targeted-to-jdk-28-542-pem-encodings-of-cryptographic-objects-2026-10-06t0",
+      "title": "JEP targeted to JDK 28: 542: PEM Encodings of Cryptographic Objects",
+      "link": "https://inside.java/2026/10/06/jep542-target-jdk28/",
+      "summary": "The following JEP is targeted to JDK 28: 542: PEM Encodings of Cryptographic Objects",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-10-06T00:00:00.000Z"
     },
     {
       "id": "hacker-news-example-com-just-launched-the-biggest-redesign-in-decades-2026-10-05t22-55-11",
-      "title": "Example.com Just Launched the Biggest Redesign in Decades",
+      "title": "Example.com just launched the biggest redesign in decades",
       "link": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
       "summary": "Comments",
       "image": "",
@@ -84,17 +128,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-10-05T22:55:11.000Z"
-    },
-    {
-      "id": "hacker-news-chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons-2026",
-      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
-      "link": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-05T22:46:45.000Z"
     },
     {
       "id": "hacker-news-friendship-ended-with-deno-now-node-is-my-best-friend-2026-10-05t22-30-02-000z",
@@ -361,28 +394,6 @@
       "publishedAt": "2026-10-05T09:00:00.000Z"
     },
     {
-      "id": "infoq-cloudflare-fixes-cross-tenant-data-exposure-in-containers-2026-10-05t08-48-00-000z",
-      "title": "Cloudflare Fixes Cross-Tenant Data Exposure in Containers",
-      "link": "https://www.infoq.com/news/2026/10/cloudflare-cross-tenant-exposure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Cloudflare has disclosed a cross-tenant data exposure vulnerability in Containers and Sandboxes, caused by thin-provisioned storage pools configured to skip zeroing reused blocks. Researchers recovered directory structu...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-05T08:48:00.000Z"
-    },
-    {
-      "id": "infoq-cloudflare-plans-public-certificate-authority-to-issue-quantum-safe-tls-certificates",
-      "title": "Cloudflare Plans Public Certificate Authority to Issue Quantum-Safe TLS Certificates",
-      "link": "https://www.infoq.com/news/2026/10/postquatam-certificates/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Cloudflare will operate a free public Certificate Authority to issue quantum-safe Transport Layer Security certificates. This initiative addresses challenges in migrating from classical public key cryptography to post-q...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-05T05:05:00.000Z"
-    },
-    {
       "id": "inside-java-making-arena-ofconfined-even-cheaper-in-jdk-28-2026-10-05t00-00-00-000z",
       "title": "Making Arena.ofConfined() Even Cheaper in JDK 28",
       "link": "https://inside.java/2026/10/05/confined-pools/",
@@ -414,6 +425,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-10-04T10:30:00.000Z"
+    },
+    {
+      "id": "hacker-news-accountability-mechanisms-can-be-joyful-2024-2026-10-04t06-15-17-000z",
+      "title": "Accountability mechanisms can be joyful (2024)",
+      "link": "https://liquidbrain.net/blog/accountability-and-joy/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-04T06:15:17.000Z"
     },
     {
       "id": "hugging-face-blog-the-agent-said-it-was-done-the-database-disagreed-2026-10-03t22-56-48-00",
@@ -590,28 +612,6 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-10-02T00:00:00.000Z"
-    },
-    {
-      "id": "openai-news-chatham-scales-its-capital-markets-expertise-with-openai-2026-10-02t00-00-00-0",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "link": "https://openai.com/index/chatham-financial",
-      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-10-02T00:00:00.000Z"
-    },
-    {
-      "id": "openai-news-the-eternal-complement-2026-10-01t17-00-00-000z",
-      "title": "The eternal complement",
-      "link": "https://openai.com/index/the-eternal-complement",
-      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-10-01T17:00:00.000Z"
     }
   ]
 }
