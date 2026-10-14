@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T22:46:14.224Z",
+  "updatedAt": "2026-10-14T01:25:01.590Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,15 +64,26 @@
   ],
   "items": [
     {
-      "id": "hacker-news-running-qwen3-8-at-255-tok-s-on-a-single-5090-2026-10-13t22-31-48-000z",
-      "title": "Running Qwen3.8 at 255 tok/s on a single 5090",
-      "link": "https://meshapplied.com",
+      "id": "hacker-news-show-hn-pulse-local-a-mac-budgeting-app-whose-ai-models-run-on-your-machine-20",
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "link": "https://pulseos.finance",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-13T22:31:48.000Z"
+      "publishedAt": "2026-10-13T23:13:23.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-ecs-adds-livetaskcount-and-removes-the-charge-for-runningtaskcount-m",
+      "title": "Amazon ECS adds LiveTaskCount and removes the charge for RunningTaskCount metric",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-service-metrics/",
+      "summary": "Today, Amazon Elastic Container Service (Amazon ECS) announces LiveTaskCount, a new ECS service metric that reports how many tasks are actively running in your service, available to all customers at no additional charge...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-13T22:00:00.000Z"
     },
     {
       "id": "aws-what-s-new-aws-agent-registry-now-supports-custom-metadata-for-registry-records-2026-1",
@@ -84,17 +95,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-10-13T21:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-openai-engineer-arrested-in-bugging-of-executive-conference-room-2026-10-13t20",
-      "title": "OpenAI engineer arrested in bugging of executive conference room",
-      "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-13T20:23:55.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-dcv-releases-version-2026-0-with-rhel-10-support-and-new-clients-202",
@@ -128,6 +128,17 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-10-13T18:54:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-location-service-launches-an-interactive-api-playground-featuring-pl",
+      "title": "Amazon Location Service launches an interactive API Playground featuring Places, Routes and Maps APIs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-location-service-api-playground",
+      "summary": "Amazon Location Service now offers a complete, interactive API Playground that lets developers explore and test every Places, Routes, and Maps API visually without writing code. With this release, all 14 Amazon Location...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-13T18:46:00.000Z"
     },
     {
       "id": "github-blog-github-s-model-for-secret-detection-finding-more-secrets-with-less-noise-2026",
@@ -328,19 +339,8 @@
       "publishedAt": "2026-10-13T08:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-rds-now-supports-the-latest-cu-for-microsoft-sql-server-2026-10-13t0",
-      "title": "Amazon RDS now supports the latest CU for Microsoft SQL Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-supports-latest-cu-microsoft-sql-server/",
-      "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2025 CU8 KB5104822 (RDS ver...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-13T07:30:00.000Z"
-    },
-    {
       "id": "infoq-cloudflare-s-ohttp-gateway-refuses-to-decrypt-requests-that-arrive-through-cloudflar",
-      "title": "Cloudflare’s OHTTP Gateway Refuses to Decrypt Requests That Arrive Through Cloudflare",
+      "title": "Cloudflare’s OHTTP Gateway Refuses to Decrypt Requests That Arrive through Cloudflare",
       "link": "https://www.infoq.com/news/2026/10/cloudflare-ohttp-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "summary": "Cloudflare has opened a closed beta of its OHTTP Gateway, a managed endpoint that decrypts Oblivious HTTP requests for an origin. The design choice drawing attention is a refusal: the Gateway will not decrypt requests a...",
       "image": "",
@@ -348,17 +348,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-10-13T06:44:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-cloudfront-now-supports-aws-lambda-web-functions-as-an-origin-2026-1",
-      "title": "Amazon CloudFront now supports AWS Lambda Web Functions as an origin",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/",
-      "summary": "Starting today, you can deliver web applications built on AWS Lambda Web Functions through CloudFront's global edge network. &nbsp; With CloudFront in front of a Lambda Web Function, you get TLS termination at the edge...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-12T23:10:00.000Z"
     },
     {
       "id": "github-blog-github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase-2026",
@@ -370,17 +359,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-10-12T17:43:59.000Z"
-    },
-    {
-      "id": "google-cloud-blog-introducing-timesfm-3-0-with-multivariate-time-series-forecasting-in-big",
-      "title": "Introducing TimesFM 3.0 with multivariate time-series forecasting in BigQuery",
-      "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting/",
-      "summary": "Overview Since introducing zero-shot time-series forecasting in BigQuery with AI.FORECAST — initially powered by TimesFM 2.0 and later upgraded to TimesFM 2.5 — you have been able to generate forecasts directly in SQL w...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-12T16:00:00.000Z"
     },
     {
       "id": "google-cloud-blog-agentic-data-science-with-the-data-agent-kit-2026-10-12t16-00-00-000z",
@@ -409,6 +387,17 @@
       "title": "Trusted Data Apps for the Agentic Data Cloud, powered by Looker",
       "link": "https://cloud.google.com/blog/products/business-intelligence/introducing-looker-data-apps/",
       "summary": "As a business intelligence user, this probably sounds familiar: Most dashboards only provide you with a standardized canvas and a fixed library of charts, and the “analysis” consists of a CSV export that takes you to an...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-12T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-introducing-timesfm-3-0-with-multivariate-time-series-forecasting-in-big",
+      "title": "Introducing TimesFM 3.0 with multivariate time-series forecasting in BigQuery",
+      "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting/",
+      "summary": "Overview Since introducing zero-shot time-series forecasting in BigQuery with AI.FORECAST — initially powered by TimesFM 2.0 and later upgraded to TimesFM 2.5 — you have been able to generate forecasts directly in SQL w...",
       "image": "",
       "source": "Google Cloud Blog",
       "topic": "cloud",
@@ -447,6 +436,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-10-12T10:09:37.000Z"
+    },
+    {
+      "id": "hacker-news-900-page-pre-pantone-guide-to-color-from-1692-with-complete-high-res-scan-2026",
+      "title": "900-Page Pre-Pantone Guide to Color from 1692 (With Complete High-Res Scan)",
+      "link": "https://www.openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-12T09:05:02.000Z"
     },
     {
       "id": "inside-java-structured-concurrency-looms-2026-10-12t00-00-00-000z",
