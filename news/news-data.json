@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T15:45:10.581Z",
+  "updatedAt": "2026-10-15T19:23:56.791Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,6 +64,182 @@
   ],
   "items": [
     {
+      "id": "aws-what-s-new-amazon-dynamodb-streams-now-supports-timestamp-based-stream-processing-2026",
+      "title": "Amazon DynamoDB Streams now supports timestamp-based stream processing",
+      "link": "https://aws.amazon.com/amazon-dynamodb-streams-timestamp-processing",
+      "summary": "Amazon DynamoDB Streams now supports timestamp-based stream processing, enabling you to begin reading stream records from a specific point in time. Previously, you could only start from the oldest retained record (up to...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-15T18:30:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-muse-spark-open-model-now-available-on-amazon-sagemaker-jumpstart-2026-10-1",
+      "title": "Muse Spark Open model now available on Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-spark-open-on-sagemaker-jumpstart/",
+      "summary": "Meta's Muse Spark Open is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This coding-optimized open-weight model from Meta is purpose-built for agen...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-15T18:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-muse-spark-open-2026-10-15t17-47-39-000z",
+      "title": "Muse Spark Open",
+      "link": "https://research.meta.ai/blog/muse-spark-open",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-15T17:47:39.000Z"
+    },
+    {
+      "id": "aws-what-s-new-aws-healthomics-now-supports-shared-vpcs-2026-10-15t17-42-00-000z",
+      "title": "AWS HealthOmics now supports shared VPCs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/omics-workflows-shared-vpcs/",
+      "summary": "AWS HealthOmics now supports sharing VPCs across accounts, enabling your workflows to access resources in Amazon Virtual Private Clouds (VPCs) managed by other AWS accounts with AWS Resource Access Manager (RAM).&nbsp;...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-15T17:42:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-aws-transform-for-full-stack-windows-modernization-now-supports-aurora-post",
+      "title": "AWS Transform for full-stack Windows modernization now supports Aurora PostgreSQL cross-region deployment in 7 more Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-full-stack-aurora-cross-region",
+      "summary": "Today, AWS Transform for full-stack Windows modernization adds support for cross-region deployment of converted Amazon Aurora PostgreSQL databases and is available in seven additional AWS Regions. Together these changes...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-15T17:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-krea-3-an-image-model-built-for-editing-at-scale-2026-10-15t16-04-05-000z",
+      "title": "Krea 3 – An image model built for editing at scale",
+      "link": "https://www.krea.ai/krea-3",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-15T16:04:05.000Z"
+    },
+    {
+      "id": "hacker-news-neural-networks-are-clean-2026-10-15t16-04-01-000z",
+      "title": "Neural networks are clean",
+      "link": "https://already-clean.goodfire.com/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-15T16:04:01.000Z"
+    },
+    {
+      "id": "aws-what-s-new-postgresql-19-rc1-is-now-available-in-amazon-rds-database-preview-environme",
+      "title": "PostgreSQL 19 RC1 is now available in Amazon RDS Database Preview Environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/postgresql-19-rc1-amazon-rds-database-preview-environment/",
+      "summary": "Starting today, Amazon RDS for PostgreSQL 19 Release Candidate 1 (RC1) is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-cloudfront-announces-dual-stack-support-for-vpc-origins-2026-10-15t1",
+      "title": "Amazon CloudFront announces dual-stack support for VPC origins",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/",
+      "summary": "Amazon CloudFront now supports end-to-end IPv6 delivery to origins inside your Amazon Virtual Private Cloud (Amazon VPC), with the new dual-stack VPC origins. With VPC origins, customers keep their Application Load Bala...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-how-visko-streams-real-time-world-models-on-google-cloud-tpus-2026-10-15",
+      "title": "How Visko streams real-time world models on Google Cloud TPUs",
+      "link": "https://cloud.google.com/blog/products/media-entertainment/how-visko-streams-real-time-world-models-on-google-cloud-tpus/",
+      "summary": "Editor's note: Generative AI startups are moving rapidly beyond static clip generation to build interactive, real-time worlds. In this technical deep dive, we explore how AI startup Visko collaborated with Google Cloud...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Visko-header.max-600x600.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-temporal-serverless-workers-on-cloud-run-scale-workers-ahead-of-demand-2",
+      "title": "Temporal Serverless Workers on Cloud Run: Scale workers ahead of demand",
+      "link": "https://cloud.google.com/blog/products/serverless/temporal-serverless-workers-on-cloud-run-worker-pools/",
+      "summary": "The open-source Temporal execution platform is rapidly becoming a foundational layer of modern software infrastructure — especially for orchestration in distributed systems and AI agent workloads. However, deploying and...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-what-the-gemini-agent-means-for-startups-2026-10-15t16-00-00-000z",
+      "title": "What the Gemini agent means for startups",
+      "link": "https://cloud.google.com/blog/topics/startups/what-the-gemini-agent-means-for-startups/",
+      "summary": "Small teams, short runway, and constant pressure to ship faster — it’s the reality we see every day among the founders we work with at Google for Startups. When you are building a company from the ground up, every hour...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/startups-gemini-agent-header2.max-600x600.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-modernizing-perimeter-security-scalable-perimeters-with-vpc-service-cont",
+      "title": "Modernizing perimeter security: Scalable perimeters with VPC Service Controls",
+      "link": "https://cloud.google.com/blog/products/identity-security/introducing-new-scalable-perimeter-options-with-vpc-service-controls/",
+      "summary": "Agents represent a fundamental shift in cloud operations. They can act on behalf of users or autonomously, make non-deterministic decisions, and request data across projects at unprecedented speed and scale. Because age...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-bringing-the-borderless-lakehouse-into-the-agentic-era-with-innovations",
+      "title": "Bringing the borderless Lakehouse into the agentic era with innovations for Gemini",
+      "link": "https://cloud.google.com/blog/products/data-analytics/borderless-lakehouse-integrates-with-gemini/",
+      "summary": "As enterprises shift their AI usage from experimental chatbots to autonomous agents, teams are hitting a critical bottleneck: accessing and reasoning over data scattered across multiple clouds, SaaS platforms, and on-pr...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "id": "infoq-instagram-modernized-its-ui-with-an-ai-native-architecture-cutting-token-costs-by-33",
+      "title": "Instagram Modernized Its UI with an AI-Native Architecture, Cutting Token Costs by 33%",
+      "link": "https://www.infoq.com/news/2026/10/instagram-compose-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Instagram Direct migrated its Android UI from the legacy Android View system to Jetpack Compose, creating an AI-native UI codebase that is easier for AI coding agents to understand, modify, and maintain. According to In...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "id": "the-register-tinylittleoffice-where-the-link-is-the-document-2026-10-15t15-45-00-000z",
+      "title": "TinyLittleOffice, where the link is the document",
+      "link": "https://www.theregister.com/software/2026/10/15/tinylittleoffice-where-the-link-is-the-document/5303328",
+      "summary": "For those times when a full-fat editor is overkill",
+      "image": "https://image.theregister.com/?imageId=5303352&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-15T15:45:00.000Z"
+    },
+    {
       "id": "the-register-kde-hits-30-decides-it-s-time-to-move-out-of-the-x11-era-2026-10-15t15-13-00",
       "title": "KDE hits 30, decides it's time to move out of the X11 era",
       "link": "https://www.theregister.com/software/2026/10/15/kde-hits-30-decides-its-time-to-move-out-of-the-x11-era/5303293",
@@ -86,26 +262,15 @@
       "publishedAt": "2026-10-15T15:03:17.000Z"
     },
     {
-      "id": "hacker-news-simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era-2",
-      "title": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era",
-      "link": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-      "summary": "Comments",
+      "id": "aws-what-s-new-amazon-redshift-long-term-system-table-retention-with-amazon-s3-tables-is-n",
+      "title": "Amazon Redshift long-term system table retention with Amazon S3 Tables is now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-long-term-system-table-retention-expansion/",
+      "summary": "Amazon Redshift long-term retention for system table data through native integration with Amazon S3 Tables is now available in additional AWS Regions. With this feature, you can configure your Redshift system table data...",
       "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-15T14:58:48.000Z"
-    },
-    {
-      "id": "hacker-news-i-know-why-mathematicians-weep-2026-10-15t13-44-32-000z",
-      "title": "I know why Mathematicians weep",
-      "link": "https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-15T13:44:32.000Z"
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-15T15:00:00.000Z"
     },
     {
       "id": "hacker-news-wayland-desktop-for-linux-with-skeuomorphic-design-2026-10-15t13-23-44-000z",
@@ -117,17 +282,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-10-15T13:23:44.000Z"
-    },
-    {
-      "id": "hacker-news-c-26-contracts-introduction-to-preconditions-and-postconditions-2026-10-15t13",
-      "title": "C++26 Contracts: Introduction to Preconditions and Postconditions",
-      "link": "https://www.cppstories.com/2026/cpp26_contracts/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-15T13:11:26.000Z"
     },
     {
       "id": "openai-news-teaching-students-to-think-and-learn-through-questions-2026-10-15t13-00-00-000",
@@ -152,17 +306,6 @@
       "publishedAt": "2026-10-15T12:52:16.000Z"
     },
     {
-      "id": "hacker-news-show-hn-unfenced-land-for-sale-that-borders-public-land-2026-10-15t11-38-57-00",
-      "title": "Show HN: Unfenced – Land for sale that borders public land",
-      "link": "https://unfenced.land/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-15T11:38:57.000Z"
-    },
-    {
       "id": "infoq-optimizing-software-workflow-exploring-fundamental-impacts-in-technology-2026-10-15t",
       "title": "Optimizing Software Workflow: Exploring Fundamental Impacts in Technology",
       "link": "https://www.infoq.com/news/2026/10/optimize-software-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -183,17 +326,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-10-15T11:00:00.000Z"
-    },
-    {
-      "id": "hacker-news-zero-click-spyware-delivered-via-targeted-ads-adfection-2026-10-15t10-43-36-00",
-      "title": "Zero-Click Spyware Delivered via Targeted Ads: AdFection",
-      "link": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-15T10:43:36.000Z"
     },
     {
       "id": "infoq-grafana-tempo-3-1-adds-query-based-trace-redaction-and-sampling-aware-traceql-metric",
@@ -232,12 +364,23 @@
       "id": "aws-what-s-new-aws-security-hub-cspm-now-supports-the-cyber-risk-institute-profile-version",
       "title": "AWS Security Hub CSPM now supports the Cyber Risk Institute profile version 2.2",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-cspm-cri-profile-v22/",
-      "summary": "AWS Security Hub CSPM ( https://aws.amazon.com/security-hub/ ) now supports automated security checks that align with the Cyber Risk Institute (CRI) profile. The CRI Profile is a cybersecurity framework developed by the...",
+      "summary": "AWS Security Hub CSPM now supports automated security checks that align with the Cyber Risk Institute (CRI) profile. The CRI Profile is a cybersecurity framework developed by the Cyber Risk Institute, a non-profit coali...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-10-15T08:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-the-engineering-that-allows-articulated-buses-to-bend-2026-10-15t01-02-05-000z",
+      "title": "The engineering that allows articulated buses to bend",
+      "link": "https://www.theautopian.com/you-wont-believe-the-incredible-engineering-that-allows-articulated-buses-to-bend/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-15T01:02:05.000Z"
     },
     {
       "id": "inside-java-how-does-java-fit-into-the-world-of-ai-and-how-can-it-become-an-even-better-fi",
@@ -251,6 +394,17 @@
       "publishedAt": "2026-10-15T00:00:00.000Z"
     },
     {
+      "id": "hugging-face-blog-welcome-muse-spark-open-open-weight-frontier-multimodal-mixture-of-exper",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "link": "https://huggingface.co/blog/meta-muse-spark-open",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-10-15T00:00:00.000Z"
+    },
+    {
       "id": "hugging-face-blog-welcome-flux-3-image-klein-in-diffusers-2026-10-15t00-00-00-000z",
       "title": "Welcome FLUX.3 Image Klein in Diffusers",
       "link": "https://huggingface.co/blog/flux-3",
@@ -260,28 +414,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-10-15T00:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-cloudwatch-announces-log-routing-and-chained-log-parsers-2026-10-14t",
-      "title": "Amazon CloudWatch announces log routing and chained log parsers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
-      "summary": "Amazon CloudWatch now supports conditional log routing and chained parsers via pipelines, giving you more control over how log data is transformed and which CloudWatch log group it's sent to. CloudWatch pipelines is a f...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-14T22:14:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-sagemaker-studio-simplifies-getting-started-for-new-ai-ml-builders-w",
-      "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in/",
-      "summary": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no credit card, and no con...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-14T22:00:00.000Z"
     },
     {
       "id": "github-blog-github-availability-report-september-2026-2026-10-14t20-01-35-000z",
@@ -306,28 +438,6 @@
       "publishedAt": "2026-10-14T19:11:33.000Z"
     },
     {
-      "id": "aws-what-s-new-arc-region-switch-adds-four-new-capabilities-2026-10-14t17-38-00-000z",
-      "title": "ARC Region switch adds four new capabilities",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/region-switch-target-health-ssm-lambda/",
-      "summary": "Amazon Application Recovery Controller (ARC) Region switch helps you orchestrate the failover of multi-Region applications to achieve a bounded recovery time during a Regional impairment. Today, Region switch adds four...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-14T17:38:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-license-manager-now-supports-license-type-conversions-for-ubuntu-pro-pu",
-      "title": "AWS License Manager now supports license type conversions for Ubuntu Pro purchased through AWS Marketplace",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-license-manager-conversions-ubuntu-pro-marketplace/",
-      "summary": "AWS License Manager&nbsp; now supports in-place upgrades for EC2 Ubuntu LTS (Long Term Support) instances to Ubuntu Pro available on AWS Marketplace. This allows customers to strengthen their security posture and meet c...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-14T17:04:00.000Z"
-    },
-    {
       "id": "hugging-face-blog-hiro-acev2-simulating-extreme-weather-at-3-km-resolution-for-a-fraction",
       "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
       "link": "https://huggingface.co/blog/allenai/hiro-acev2",
@@ -337,17 +447,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-10-14T16:12:42.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-healthomics-introduces-resource-fallback-order-for-nextflow-workflows-2",
-      "title": "AWS HealthOmics introduces resource fallback order for Nextflow workflows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-resource-fallback-for-Nextflow/",
-      "summary": "Today, AWS HealthOmics introduces the resource fallback directive for tasks in your Nextflow workflows, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU insta...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-14T16:00:00.000Z"
     },
     {
       "id": "google-cloud-blog-cloud-ciso-perspectives-new-gemini-notebook-can-help-cisos-and-policymak",
@@ -460,39 +559,6 @@
       "publishedAt": "2026-10-14T09:00:00.000Z"
     },
     {
-      "id": "infoq-google-antigravity-sdk-adds-local-model-support-for-greater-token-efficiency-and-cod",
-      "title": "Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy",
-      "link": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Google has introduced support for local models in the Antigravity SDK, enabling developers to build and execute agentic workflows directly on their own machines, while retaining the flexibility to mix in cloud-based mod...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-14T09:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-backup-now-supports-amazon-fsx-file-systems-in-the-asia-pacific-new-zea",
-      "title": "AWS Backup now supports Amazon FSx file systems in the Asia Pacific (New Zealand) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-fsx-asia-pacific-new-zealand/",
-      "summary": "AWS Backup now supports Amazon FSx for Lustre, Amazon FSx for NetApp ONTAP, Amazon FSx for OpenZFS, and Amazon FSx for Windows File Server in the Asia Pacific (New Zealand) Region. With this launch, you can use AWS Back...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-14T08:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-announcing-blockchain-snapshots-on-aws-for-node-bootstrapping-2026-10-14t08",
-      "title": "Announcing Blockchain Snapshots on AWS for node bootstrapping",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/blockchain-snapshots-node-bootstrapping/",
-      "summary": "For blockchain node operators running Ethereum or Solana, AWS is announcing Blockchain Snapshots on AWS, an initiative that publishes pre-synced public blockchain node chain data in Amazon Simple Storage Service (Amazon...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-14T08:00:00.000Z"
-    },
-    {
       "id": "openai-news-how-third-moment-research-runs-10-000-agents-for-36-hours-2026-10-14t07-00-00",
       "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
       "link": "https://openai.com/index/third-moment-research",
@@ -537,81 +603,15 @@
       "publishedAt": "2026-10-14T00:00:00.000Z"
     },
     {
-      "id": "github-blog-github-s-model-for-secret-detection-finding-more-secrets-with-less-noise-2026",
-      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
-      "link": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
-      "summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets...",
+      "id": "hacker-news-delta-s-biscoff-cookies-were-supposed-to-be-temporary-2026-10-13t23-00-46-000z",
+      "title": "Delta’s Biscoff cookies were supposed to be temporary",
+      "link": "https://www.seriouseats.com/biscoff-history-12168161",
+      "summary": "Comments",
       "image": "",
-      "source": "GitHub Blog",
+      "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-13T17:56:33.000Z"
-    },
-    {
-      "id": "hugging-face-blog-run-fast-private-agents-on-device-with-lfm2-5-24b-a2b-2026-10-13t17-05-4",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-10-13T17:05:48.000Z"
-    },
-    {
-      "id": "google-cloud-blog-cross-cloud-conversational-analytics-made-simple-with-open-standards-202",
-      "title": "Cross-cloud conversational analytics made simple with open standards",
-      "link": "https://cloud.google.com/blog/products/data-analytics/cross-cloud-conversational-analytics-with-borderless-lakehouse/",
-      "summary": "The reality for most organizations is that data lives everywhere. As engineering teams expand and adopt specialized platforms for their workloads, enterprise data naturally disperses across multiple clouds and operation...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-13T16:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-gemini-4-argon-available-on-google-cloud-built-to-help-solve-your-busine",
-      "title": "Gemini 4 Argon available on Google Cloud, built to help solve your business’ hardest problems",
-      "link": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud/",
-      "summary": "Last week we announced that Gemini Enterprise has evolved to make it even simpler to get work done, and introduced the Gemini agent , your new universal agent for work. It's always on and ready to answer your questions....",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Gemini_4_argon.max-600x600.jpg",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-13T16:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-one-agent-development-kit-five-languages-2026-10-13t12-22-00-000z",
-      "title": "One Agent Development Kit, five languages",
-      "link": "https://cloud.google.com/blog/topics/developers-practitioners/one-agent-development-kit-five-languages/",
-      "summary": "When we talk about agents, that doesn't necessarily mean we're talking about Python. In today's modern ecosystem, an agent might run as a high-concurrency Go microservice on Cloud Run , or live inside a browser tab call...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/one-agent-development-kit-five-languages-her.max-600x600.jpg",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-13T12:22:00.000Z"
-    },
-    {
-      "id": "openai-news-higgsfield-takes-ai-video-from-1-minute-to-over-10-2026-10-13t12-00-00-000z",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "link": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-10-13T12:00:00.000Z"
-    },
-    {
-      "id": "spring-blog-this-week-in-spring-october-13th-2026-2026-10-13t00-00-00-000z",
-      "title": "This Week in Spring - October 13th, 2026",
-      "link": "https://spring.io/blog/2026/10/13/this-week-in-spring-october-13th-2026",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-10-13T00:00:00.000Z"
+      "publishedAt": "2026-10-13T23:00:46.000Z"
     }
   ]
 }
