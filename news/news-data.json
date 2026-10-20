@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T06:05:38.661Z",
+  "updatedAt": "2026-10-20T11:24:53.590Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -58,32 +58,99 @@
     {
       "name": "The Register",
       "topic": "devtools",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 500"
     }
   ],
   "items": [
     {
-      "id": "hacker-news-show-hn-death-plan-switch-a-self-hosted-dead-man-s-switch-for-solo-devs-2026-1",
-      "title": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
-      "link": "https://deathplanswitch.com/",
-      "summary": "Comments",
+      "id": "infoq-presentation-beyond-the-prototype-scaling-framework-agnostic-ai-agent-infrastructure",
+      "title": "Presentation: Beyond the Prototype: Scaling Framework Agnostic AI Agent Infrastructure with Ray",
+      "link": "https://www.infoq.com/presentations/scale-llm-agents-production-ray/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The speakers discuss transitioning AI agents from local FastAPI prototypes to resilient production systems on Kubernetes using Ray. They share operational insights on RayCluster topology, stateful memory handling, auto-...",
       "image": "",
-      "source": "Hacker News",
+      "source": "InfoQ",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-20T04:37:43.000Z"
+      "publishedAt": "2026-10-20T11:00:00.000Z"
     },
     {
-      "id": "hacker-news-go-will-reject-certificate-chains-containing-eight-distrusted-spkis-2026-10-20",
-      "title": "Go will reject certificate chains containing eight distrusted SPKIs",
-      "link": "https://github.com/golang/go/issues/82345",
+      "id": "google-cloud-blog-introducing-gemini-for-government-services-2026-10-20t10-00-00-000z",
+      "title": "Introducing Gemini for government services",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services/",
+      "summary": "Earlier this month at Gemini at Work, we introduced the Gemini agent: a single, universal agent for work. It answers your questions, handles your knowledge work, creates your images and media, and writes and runs code....",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Industry_headers_2.max-600x600.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-announcements-and-highlights-from-google-public-sector-summit-2026-2026",
+      "title": "Announcements and highlights from Google Public Sector Summit 2026",
+      "link": "https://cloud.google.com/blog/topics/public-sector/announcements-and-highlights-from-google-public-sector-summit-2026/",
+      "summary": "Today we are bringing together mission leaders and builders from across the public sector at the Google Public Sector Summit in Washington D.C. to explore a critical intersection: Where mission meets moonshot. Through o...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/GPS_Blog_Image_Header_2436x1200.max-600x600.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-managed-rag-search-inside-the-sovereign-perimeter-gemini-on-gdc-enterpri",
+      "title": "Managed RAG search inside the sovereign perimeter: Gemini on GDC enterprise search",
+      "link": "https://cloud.google.com/blog/topics/hybrid-cloud/managed-rag-search-inside-the-sovereign-perimeter-gemini-on-gdc-enterprise-search/",
+      "summary": "National security agencies and other sovereign and highly regulated organizations handle incredibly sensitive data such as classified reports, field manuals, and sensitive multi-modal datasets. Search and multimodal int...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-enabling-the-next-era-of-sovereign-ai-the-latest-google-distributed-clou",
+      "title": "Enabling the next era of sovereign AI: The latest Google Distributed Cloud innovations",
+      "link": "https://cloud.google.com/blog/topics/hybrid-cloud/new-innovations-in-google-distributed-cloud/",
+      "summary": "Agentic systems are quickly moving from pilots to production in the enterprise. But if your organization operates under stringent data sovereignty, defense, intelligence, or critical infrastructure mandates, sending sen...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-deepseek-just-open-sourced-its-inference-engine-2026-10-20t09-08-54-000z",
+      "title": "DeepSeek just open-sourced its inference engine",
+      "link": "https://github.com/deepseek-ai/DeepInfer",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-20T03:05:07.000Z"
+      "publishedAt": "2026-10-20T09:08:54.000Z"
+    },
+    {
+      "id": "hacker-news-there-is-no-official-xscreensaver-github-repository-2026-10-20t08-51-31-000z",
+      "title": "There is no official XScreenSaver GitHub repository",
+      "link": "https://github.com/xscreensaver-official/xscreensaver",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-20T08:51:31.000Z"
+    },
+    {
+      "id": "hacker-news-microg-free-libre-re-implementation-of-google-s-proprietary-android-user-space",
+      "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "link": "https://github.com/microg/GmsCore/wiki",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-20T06:37:07.000Z"
     },
     {
       "id": "hacker-news-openbsd-8-0-2026-10-20t02-06-40-000z",
@@ -97,15 +164,15 @@
       "publishedAt": "2026-10-20T02:06:40.000Z"
     },
     {
-      "id": "hacker-news-france-s-supermarket-fridges-were-vulnerable-online-for-months-2026-10-20t00-0",
-      "title": "France's supermarket fridges were vulnerable online for months",
-      "link": "https://ipinfo.io/blog/france-fridges-hack",
-      "summary": "Comments",
+      "id": "hugging-face-blog-mps-in-pytorch-2-15-2026-10-20t00-00-00-000z",
+      "title": "MPS in PyTorch 2.15",
+      "link": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "summary": "",
       "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-20T00:00:49.000Z"
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-10-20T00:00:00.000Z"
     },
     {
       "id": "hacker-news-whatsapp-s-help-pages-hid-llm-instructions-dont-recommend-a-regulator-2026-10",
@@ -174,15 +241,15 @@
       "publishedAt": "2026-10-19T17:30:00.000Z"
     },
     {
-      "id": "hacker-news-minimax-m3-1-flash-2026-10-19t16-39-09-000z",
-      "title": "MiniMax M3.1 Flash",
-      "link": "https://www.minimax.io/blog/minimax-m31f",
+      "id": "hacker-news-deepseek-banned-from-u-s-federal-civilian-agencies-under-new-dhs-order-2026-10",
+      "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+      "link": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-19T16:39:09.000Z"
+      "publishedAt": "2026-10-19T16:16:46.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-guardduty-adds-optional-threat-detection-rules-for-runtime-monitorin",
@@ -273,17 +340,6 @@
       "publishedAt": "2026-10-19T13:00:00.000Z"
     },
     {
-      "id": "the-register-admin-i-spent-all-weekend-on-my-servers-after-microsoft-breaks-exchange-serve",
-      "title": "Admin: 'I spent all weekend on my servers' after Microsoft breaks Exchange Server with October updates",
-      "link": "https://www.theregister.com/software/2026/10/19/admin-i-spent-all-weekend-on-my-servers-after-microsoft-breaks-exchange-server-with-october-updates/5303724",
-      "summary": "OWA borked and lengthy email queues reported on busy servers after Microsoft tweaks a Server default",
-      "image": "https://image.theregister.com/?imageId=1682463&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-19T13:00:00.000Z"
-    },
-    {
       "id": "openai-news-advancing-coding-in-low-resource-programming-languages-2026-10-19t12-00-00-000",
       "title": "Advancing coding in low‑resource programming languages",
       "link": "https://openai.com/index/low-resource-programming-languages",
@@ -328,17 +384,6 @@
       "publishedAt": "2026-10-19T10:00:00.000Z"
     },
     {
-      "id": "hacker-news-i-built-a-drone-with-only-one-motor-video-2026-10-19t09-05-07-000z",
-      "title": "I built a drone with only one motor [video]",
-      "link": "https://www.youtube.com/watch?v=Ndftcft6XhU",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-19T09:05:07.000Z"
-    },
-    {
       "id": "infoq-buildkite-adds-scoped-secrets-and-new-agentic-ci-tools-2026-10-19t09-00-00-000z",
       "title": "Buildkite Adds Scoped Secrets and New Agentic CI Tools",
       "link": "https://www.infoq.com/news/2026/10/buildkite-ci-secrets-agentic/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -372,17 +417,6 @@
       "publishedAt": "2026-10-19T08:00:00.000Z"
     },
     {
-      "id": "infoq-net-11-release-candidate-2-go-live-license-and-updates-across-libraries-f-maui-and-w",
-      "title": ".NET 11 Release Candidate 2: Go-Live License and Updates across Libraries, F#, MAUI, and WinForms",
-      "link": "https://www.infoq.com/news/2026/10/dotnet-11-rc-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Microsoft has released .NET 11 Release Candidate 2 under a go-live license, supported in Visual Studio 2026 Insiders. The release adds incremental CBOR reading, experimental post-quantum cryptography APIs, file-based ap...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-19T08:00:00.000Z"
-    },
-    {
       "id": "aws-what-s-new-amazon-rds-custom-now-supports-the-latest-cumulative-update-and-gdr-updates",
       "title": "Amazon RDS Custom now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-custom-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
@@ -392,28 +426,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-10-19T07:30:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-google-named-a-leader-in-the-2026-idc-marketscape-for-agentic-ai-platfor",
-      "title": "Google named a Leader in the 2026 IDC MarketScape for Agentic AI Platforms",
-      "link": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-leader-in-2026-idc-marketscape-for-agentic-ai-platforms/",
-      "summary": "As organizations work to leverage AI to transform their businesses, it is clear that the raw model intelligence is not the key challenge. Consistently, we hear that the challenges lie in how the agents can be deployed a...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-19T07:00:00.000Z"
-    },
-    {
-      "id": "the-register-engineer-was-so-sick-of-office-pranks-he-wiped-his-antagonist-s-disk-2026-10",
-      "title": "Engineer was so sick of office pranks, he 'wiped' his antagonist's disk",
-      "link": "https://www.theregister.com/software/2026/10/19/engineer-was-so-sick-of-office-pranks-he-wiped-his-antagonists-disk/5302162",
-      "summary": "Revenge is a dish best served by autoexec.bat",
-      "image": "https://image.theregister.com/?imageId=5302167&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-19T05:30:00.000Z"
     },
     {
       "id": "inside-java-jep-targeted-to-jdk-28-546-adaptive-heap-sizing-for-zgc-2026-10-19t00-00-00-00",
@@ -438,15 +450,26 @@
       "publishedAt": "2026-10-19T00:00:00.000Z"
     },
     {
-      "id": "hacker-news-weball-play-katamari-on-websites-2026-10-18t12-39-56-000z",
-      "title": "Weball: Play Katamari on Websites",
-      "link": "https://www.funwithcomputervision.com/weball/",
+      "id": "hacker-news-nordwand-mono-a-monospace-font-for-coders-and-adventurers-2026-10-18t14-48-01",
+      "title": "Nordwand Mono – A monospace font for coders and adventurers",
+      "link": "https://github.com/tywr/Nordwand-Mono",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-18T12:39:56.000Z"
+      "publishedAt": "2026-10-18T14:48:01.000Z"
+    },
+    {
+      "id": "hacker-news-restoration-of-retinal-regenerative-potential-2025-2026-10-18t11-32-38-000z",
+      "title": "Restoration of Retinal Regenerative Potential (2025)",
+      "link": "https://www.nature.com/articles/s41467-025-58290-8",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-18T11:32:38.000Z"
     },
     {
       "id": "inside-java-episode-72-openjdk-bug-fixing-javaone-and-jdk-28-ijn-2026-10-17t00-00-00-000z",
@@ -469,61 +492,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-10-16T19:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-day-0-support-for-reflection-s-beam-on-google-cloud-5x-faster-perf-with",
-      "title": "Day 0 support for Reflection’s Beam on Google Cloud: 5x faster perf with llm-d and NVIDIA Dynamo",
-      "link": "https://cloud.google.com/blog/topics/ai-infrastructure/day-0-support-with-5x-perf-for-reflection-beam-on-google-cloud/",
-      "summary": "Today, Reflection released Beam , its first open-weight model built to give developers, researchers, and enterprises open control and customization for frontier software engineering and long-horizon agentic tasks. Relea...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-16T17:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-architecting-autonomy-a-design-pattern-for-high-compute-governed-agents",
-      "title": "Architecting autonomy: A design pattern for high-compute, governed agents in biotech",
-      "link": "https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/",
-      "summary": "In production systems today, most AI agents operate as lightweight dispatchers. They parse a prompt, make an API call, retrieve a record, and hand back control. Their execution is fast, stateless and cheap. Biotechnolog...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-16T16:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-announcing-wiz-runtime-sensor-add-on-for-gke-turnkey-threat-detection-fo",
-      "title": "Announcing Wiz Runtime Sensor add-on for GKE: Turnkey threat detection for Kubernetes",
-      "link": "https://cloud.google.com/blog/products/identity-security/wiz-sensor-for-gke-turnkey-threat-detection-for-kubernetes/",
-      "summary": "Everything is moving faster in the age of AI, and that includes security threats. What used to take attackers weeks to exploit can now happen in just a few minutes. Standard vulnerability scans that run on artifacts at...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-16T16:00:00.000Z"
-    },
-    {
-      "id": "the-register-british-watchdog-seeks-tougher-terms-around-microsoft-s-dominance-of-business",
-      "title": "British watchdog seeks tougher terms around Microsoft's dominance of business software",
-      "link": "https://www.theregister.com/software/2026/10/16/british-watchdog-seeks-tougher-terms-around-microsofts-dominance-of-business-software/5303520",
-      "summary": "Another reason for Donald Trump to hate British regulation",
-      "image": "https://image.theregister.com/?imageId=5303558&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-16T12:44:16.000Z"
-    },
-    {
-      "id": "the-register-open-source-sovereignty-gets-down-to-the-boring-business-of-making-it-work-20",
-      "title": "Open source sovereignty gets down to the boring business of making it work",
-      "link": "https://www.theregister.com/software/2026/10/16/open-source-sovereignty-gets-down-to-the-boring-business-of-making-it-work/5303206",
-      "summary": "Migration targets, security rules, and management metrics take center stage at this year's event",
-      "image": "https://image.theregister.com/?imageId=5234572&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-16T08:30:00.000Z"
     },
     {
       "id": "hugging-face-blog-scaling-indic-pretraining-2-8-trillion-tokens-and-an-open-data-generatio",
@@ -612,6 +580,39 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-10-15T19:00:00.000Z"
+    },
+    {
+      "id": "github-blog-staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared",
+      "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
+      "link": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
+      "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The...",
+      "image": "https://github.blog/wp-content/uploads/2026/10/674986199-ee305d10-3419-4270-a829-41ed3da29fae.png?resize=528%2C221",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-15T18:00:00.000Z"
+    },
+    {
+      "id": "openai-news-teaching-students-to-think-and-learn-through-questions-2026-10-15t13-00-00-000",
+      "title": "Teaching students to think and learn through questions",
+      "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-10-15T13:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-apertus-1-5-release-notes-2026-10-15t09-08-45-000z",
+      "title": "Apertus 1.5 Release Notes",
+      "link": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-10-15T09:08:45.000Z"
     }
   ]
 }
