@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T19:19:40.756Z",
+  "updatedAt": "2026-10-23T22:19:44.895Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -22,8 +22,9 @@
     {
       "name": "Google Cloud Blog",
       "topic": "cloud",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 500"
     },
     {
       "name": "OpenAI News",
@@ -64,26 +65,48 @@
   ],
   "items": [
     {
-      "id": "hacker-news-kimi-k3-1-scores-55-on-artificial-analysis-placed-on-the-pareto-line-2026-10-2",
-      "title": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
-      "link": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
+      "id": "hacker-news-openai-securing-our-frontier-model-training-environment-2026-10-23t19-50-56-00",
+      "title": "OpenAI: Securing our frontier model training environment",
+      "link": "https://openai.com/index/securing-our-frontier-model-training-environment/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-23T18:24:54.000Z"
+      "publishedAt": "2026-10-23T19:50:56.000Z"
     },
     {
-      "id": "hacker-news-i-turned-my-tv-into-a-game-boy-color-with-a-pokemon-town-as-my-home-screen-202",
-      "title": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen",
-      "link": "https://twitter.com/robbietilton/status/2111936458923851923",
+      "id": "hacker-news-we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970-2026-10-23t19-41",
+      "title": "We are all living inside of an obscure sci-fi film from 1970",
+      "link": "https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-23T17:40:22.000Z"
+      "publishedAt": "2026-10-23T19:41:59.000Z"
+    },
+    {
+      "id": "hacker-news-dessa-the-most-authentic-full-duplex-speech-model-ever-built-2026-10-23t19-09",
+      "title": "Dessa: the most authentic full-duplex speech model ever built",
+      "link": "https://block.xyz/dessa",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-23T19:09:54.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-connect-customer-global-resiliency-now-supports-persistent-chat-acro",
+      "title": "Amazon Connect Customer Global Resiliency now supports persistent chat across linked AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-persistent-chat",
+      "summary": "Amazon Connect Customer Global Resiliency now provides customers a mechanism to deliver long, persistent chat experiences across linked AWS Regions. With this capability, end users can resume previous conversations with...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-23T17:00:00.000Z"
     },
     {
       "id": "openai-news-rapidly-scaling-online-storage-to-serve-over-1-billion-chatgpt-users-part-ii-2",
@@ -106,17 +129,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-10-23T16:59:08.000Z"
-    },
-    {
-      "id": "hacker-news-uuidv7-doesn-t-have-the-properties-you-think-it-does-2026-10-23t16-39-45-000z",
-      "title": "UUIDv7 doesn't have the properties you think it does",
-      "link": "https://alexsci.com/blog/uuidv7-is-weird/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-23T16:39:45.000Z"
     },
     {
       "id": "hacker-news-today-we-hacked-what-we-d-set-out-to-hack-the-iphone-2026-10-23t16-21-50-000z",
@@ -174,6 +186,17 @@
       "publishedAt": "2026-10-23T14:30:00.000Z"
     },
     {
+      "id": "aws-what-s-new-amazon-corretto-october-2026-quarterly-updates-2026-10-23t14-00-00-000z",
+      "title": "Amazon Corretto October 2026 Quarterly Updates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-october-2026-quarterly-updates",
+      "summary": "On October 22, 2026 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 27.0.1.0.10, 25.0.5.0.9, 21.0.13.0.10, 17.0.21.0.10, 11.0.33.0.9,...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-23T14:00:00.000Z"
+    },
+    {
       "id": "infoq-aws-introduces-lambda-web-functions-for-node-js-applications-2026-10-23t12-49-00-000",
       "title": "AWS Introduces Lambda Web Functions for Node.js Applications",
       "link": "https://www.infoq.com/news/2026/10/aws-lambda-web-functions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -227,6 +250,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-10-23T11:00:00.000Z"
+    },
+    {
+      "id": "openai-news-securing-our-frontier-model-training-environment-2026-10-23t10-00-00-000z",
+      "title": "Securing our frontier model training environment",
+      "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-10-23T10:00:00.000Z"
     },
     {
       "id": "infoq-anthropic-adds-opt-in-security-scanning-for-critical-open-source-projects-2026-10-23",
@@ -394,17 +428,6 @@
       "publishedAt": "2026-10-22T21:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-expanding-claude-availability-and-deployment-choice-on-google-cloud-2026",
-      "title": "Expanding Claude availability and deployment choice on Google Cloud",
-      "link": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/",
-      "summary": "Every organization has unique requirements for building and scaling generative AI. At Google Cloud, we are committed to giving developers model choice and architectural flexibility to run workloads however they need. To...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Blog_Headers_-_Cloudstyle_3.0_11.max-600x600.png",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-22T21:00:00.000Z"
-    },
-    {
       "id": "aws-what-s-new-amazon-opensearch-service-introduces-intelligent-ingestion-for-logs-and-doc",
       "title": "Amazon OpenSearch Service introduces intelligent ingestion for logs and documents in Amazon S3",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-intelligent-ingestion-logs-documents-s3",
@@ -427,28 +450,6 @@
       "publishedAt": "2026-10-22T19:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-opensearch-serverless-now-supports-a-5-second-default-refresh-interv",
-      "title": "Amazon OpenSearch Serverless now supports a 5-second default refresh interval",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-serverless-supports-5-second-refresh-interval/",
-      "summary": "Starting today, Amazon OpenSearch Serverless reduces the default refresh interval to 5 seconds for both search and vector collections. The refresh interval controls how quickly newly ingested documents become available...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-22T18:34:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-cloudformation-now-simplifies-stack-update-rollback-operations-2026-10",
-      "title": "AWS CloudFormation now simplifies stack update rollback operations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-cloudformation-cdk/",
-      "summary": "AWS CloudFormation &nbsp;now makes it simpler to complete an update rollback and get back to deploying. An update rollback returns your stack to a known good state. Starting today, if some resources cannot roll back aut...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-22T17:30:00.000Z"
-    },
-    {
       "id": "github-blog-how-bug-bounty-sharpens-one-researcher-s-security-skills-2026-10-22t17-21-30-0",
       "title": "How bug bounty sharpens one researcher’s security skills",
       "link": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
@@ -458,17 +459,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-10-22T17:21:30.000Z"
-    },
-    {
-      "id": "google-cloud-blog-introducing-new-self-learning-context-enrichment-in-knowledge-catalog-20",
-      "title": "Introducing new self-learning context enrichment in Knowledge Catalog",
-      "link": "https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents/",
-      "summary": "Today, we’re launching self-learning context enrichment (preview) and a reimagined Knowledge Studio experience (preview) in Knowledge Catalog , Google Cloud’s context engine for agents. Building on Knowledge Catalog's e...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-22T16:00:00.000Z"
     },
     {
       "id": "the-register-apple-app-store-review-process-hits-a-traffic-jam-2026-10-22t15-02-00-000z",
@@ -493,17 +483,6 @@
       "publishedAt": "2026-10-22T14:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-inside-agent-compute-engine-building-the-compute-foundation-for-the-agen",
-      "title": "Inside Agent Compute Engine: Building the compute foundation for the agentic era",
-      "link": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive/",
-      "summary": "Every decade or so, a shift in software forces us to rethink computer architecture from first principles. After the first boom of web-scale traffic, Google pioneered warehouse-scale computing and Linux containers on Bor...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-22T13:00:00.000Z"
-    },
-    {
       "id": "hugging-face-blog-ensemble-forecasting-with-ibm-granite-time-series-models-2026-10-22t07-5",
       "title": "Ensemble forecasting with IBM Granite time-series models",
       "link": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
@@ -524,17 +503,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-10-22T06:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-introducing-agent-compute-engine-and-expanded-agent-governance-2026-10-2",
-      "title": "Introducing Agent Compute Engine and expanded agent governance",
-      "link": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance/",
-      "summary": "Blog authors: Nirav Mehta, VP Product Management; Michael Bachman, VP/GM; Kevin Hutchins, VP Product Management Scaling Gemini to planet scale taught us firsthand that securely running autonomous agents is fundamentally...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/ACE_hero.max-600x600.png",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-10-22T04:00:00.000Z"
     },
     {
       "id": "inside-java-what-s-going-wrong-with-my-jvm-a-guide-to-first-time-failure-diagnosis-2026-10",
@@ -612,6 +580,39 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-10-21T17:00:58.000Z"
+    },
+    {
+      "id": "openai-news-how-at-t-is-rethinking-in-house-legal-work-with-openai-2026-10-21t17-00-00-000",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "link": "https://openai.com/index/att-legal",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-10-21T17:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-profiling-torchneuron-part-1-system-level-profiling-on-aws-trainium-2026",
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "link": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-10-21T16:04:43.000Z"
+    },
+    {
+      "id": "github-blog-the-bridge-to-agent-scale-git-infrastructure-2026-10-21t16-00-00-000z",
+      "title": "The bridge to agent-scale Git infrastructure",
+      "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git in...",
+      "image": "",
+      "source": "GitHub Blog",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-10-21T16:00:00.000Z"
     }
   ]
 }
