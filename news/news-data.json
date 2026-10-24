@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T22:19:44.895Z",
+  "updatedAt": "2026-10-24T00:47:12.872Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -22,9 +22,8 @@
     {
       "name": "Google Cloud Blog",
       "topic": "cloud",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 500"
+      "ok": true,
+      "count": 8
     },
     {
       "name": "OpenAI News",
@@ -65,26 +64,37 @@
   ],
   "items": [
     {
-      "id": "hacker-news-openai-securing-our-frontier-model-training-environment-2026-10-23t19-50-56-00",
-      "title": "OpenAI: Securing our frontier model training environment",
-      "link": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "id": "hacker-news-evolving-threat-http2shell-is-an-rce-in-node-python-and-more-2026-10-23t23-30",
+      "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
+      "link": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-23T19:50:56.000Z"
+      "publishedAt": "2026-10-23T23:30:17.000Z"
     },
     {
-      "id": "hacker-news-we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970-2026-10-23t19-41",
-      "title": "We are all living inside of an obscure sci-fi film from 1970",
-      "link": "https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970/",
+      "id": "hacker-news-cve-tracker-2026-10-23t21-21-47-000z",
+      "title": "CVE Tracker",
+      "link": "https://cve.0xosprey.com/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-23T19:41:59.000Z"
+      "publishedAt": "2026-10-23T21:21:47.000Z"
+    },
+    {
+      "id": "aws-what-s-new-web-search-on-aws-bedrock-now-supports-domain-filtering-and-user-location-c",
+      "title": "Web Search on AWS Bedrock now supports domain filtering and user location controls",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
+      "summary": "Web Search on AWS Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search to...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-23T21:04:00.000Z"
     },
     {
       "id": "hacker-news-dessa-the-most-authentic-full-duplex-speech-model-ever-built-2026-10-23t19-09",
@@ -285,10 +295,10 @@
       "publishedAt": "2026-10-23T08:08:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-emr-on-eks-reduces-emr-charge-by-30-percent-2026-10-23t08-00-00-000z",
-      "title": "Amazon EMR on EKS reduces EMR charge by 30 percent",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-eks-reduces-emr-charge-30-percent/",
-      "summary": "Amazon EMR announces a reduction of 30 percent in the EMR charge added to EKS when running EMR on EKS. This price decrease applies to both the per-vCPU-hour charge and the per-GB-hour charge, while the underlying Amazon...",
+      "id": "aws-what-s-new-amazon-mwaa-now-available-in-mexico-central-region-2026-10-23t08-00-00-000z",
+      "title": "Amazon MWAA now available in Mexico (Central) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-mexico-central/",
+      "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Provisioned environments are now available in the Mexico (Central) Region (mx-central-1). Amazon MWAA Serverless was already available in this Region, and custom...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
@@ -296,10 +306,10 @@
       "publishedAt": "2026-10-23T08:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-mwaa-now-available-in-mexico-central-region-2026-10-23t08-00-00-000z",
-      "title": "Amazon MWAA now available in Mexico (Central) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-mexico-central/",
-      "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Provisioned environments are now available in the Mexico (Central) Region (mx-central-1). Amazon MWAA Serverless was already available in this Region, and custom...",
+      "id": "aws-what-s-new-amazon-emr-on-eks-reduces-emr-charge-by-30-percent-2026-10-23t08-00-00-000z",
+      "title": "Amazon EMR on EKS reduces EMR charge by 30 percent",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-eks-reduces-emr-charge-30-percent/",
+      "summary": "Amazon EMR announces a reduction of 30 percent in the EMR charge added to EKS when running EMR on EKS. This price decrease applies to both the per-vCPU-hour charge and the per-GB-hour charge, while the underlying Amazon...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
@@ -329,20 +339,9 @@
       "publishedAt": "2026-10-23T00:00:00.000Z"
     },
     {
-      "id": "spring-blog-spring-cloud-2025-1-4-aka-northfields-has-been-released-2026-10-23t00-00-00-00",
-      "title": "Spring Cloud 2025.1.4 (aka Northfields) Has Been Released",
-      "link": "https://spring.io/blog/2026/10/23/spring-cloud-2025-1-4-has-been-released",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-10-23T00:00:00.000Z"
-    },
-    {
-      "id": "spring-blog-spring-boot-4-2-0-rc1-available-now-2026-10-23t00-00-00-000z",
-      "title": "Spring Boot 4.2.0-RC1 available now",
-      "link": "https://spring.io/blog/2026/10/23/spring-boot-4-2-0-RC1-available-now",
+      "id": "spring-blog-spring-boot-4-0-9-available-now-2026-10-23t00-00-00-000z",
+      "title": "Spring Boot 4.0.9 available now",
+      "link": "https://spring.io/blog/2026/10/23/spring-boot-4-0-9-available-now",
       "summary": "",
       "image": "",
       "source": "Spring Blog",
@@ -354,6 +353,17 @@
       "id": "spring-blog-spring-boot-4-1-2-available-now-2026-10-23t00-00-00-000z",
       "title": "Spring Boot 4.1.2 available now",
       "link": "https://spring.io/blog/2026/10/23/spring-boot-4-1-2-available-now",
+      "summary": "",
+      "image": "",
+      "source": "Spring Blog",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-10-23T00:00:00.000Z"
+    },
+    {
+      "id": "spring-blog-spring-boot-4-2-0-rc1-available-now-2026-10-23t00-00-00-000z",
+      "title": "Spring Boot 4.2.0-RC1 available now",
+      "link": "https://spring.io/blog/2026/10/23/spring-boot-4-2-0-RC1-available-now",
       "summary": "",
       "image": "",
       "source": "Spring Blog",
@@ -428,15 +438,15 @@
       "publishedAt": "2026-10-22T21:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-opensearch-service-introduces-intelligent-ingestion-for-logs-and-doc",
-      "title": "Amazon OpenSearch Service introduces intelligent ingestion for logs and documents in Amazon S3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-intelligent-ingestion-logs-documents-s3",
-      "summary": "Amazon OpenSearch Serverless now offers intelligent ingestion, a fully managed feature that turns logs and documents stored in Amazon S3 into searchable content in Amazon OpenSearch Serverless (NextGen) collections . Wi...",
-      "image": "",
-      "source": "AWS What's New",
+      "id": "google-cloud-blog-expanding-claude-availability-and-deployment-choice-on-google-cloud-2026",
+      "title": "Expanding Claude availability and deployment choice on Google Cloud",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/",
+      "summary": "Every organization has unique requirements for building and scaling generative AI. At Google Cloud, we are committed to giving developers model choice and architectural flexibility to run workloads however they need. To...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Blog_Headers_-_Cloudstyle_3.0_11.max-600x600.png",
+      "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
-      "publishedAt": "2026-10-22T20:54:00.000Z"
+      "publishedAt": "2026-10-22T21:00:00.000Z"
     },
     {
       "id": "openai-news-build-more-responsive-apps-with-the-decisions-api-2026-10-22t19-00-00-000z",
@@ -461,6 +471,17 @@
       "publishedAt": "2026-10-22T17:21:30.000Z"
     },
     {
+      "id": "google-cloud-blog-introducing-new-self-learning-context-enrichment-in-knowledge-catalog-20",
+      "title": "Introducing new self-learning context enrichment in Knowledge Catalog",
+      "link": "https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents/",
+      "summary": "Today, we’re launching self-learning context enrichment (preview) and a reimagined Knowledge Studio experience (preview) in Knowledge Catalog , Google Cloud’s context engine for agents. Building on Knowledge Catalog's e...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-22T16:00:00.000Z"
+    },
+    {
       "id": "the-register-apple-app-store-review-process-hits-a-traffic-jam-2026-10-22t15-02-00-000z",
       "title": "Apple App Store review process hits a traffic jam",
       "link": "https://www.theregister.com/applications/2026/10/22/apple-app-store-review-process-hits-a-traffic-jam/5304802",
@@ -483,6 +504,17 @@
       "publishedAt": "2026-10-22T14:00:00.000Z"
     },
     {
+      "id": "google-cloud-blog-inside-agent-compute-engine-building-the-compute-foundation-for-the-agen",
+      "title": "Inside Agent Compute Engine: Building the compute foundation for the agentic era",
+      "link": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive/",
+      "summary": "Every decade or so, a shift in software forces us to rethink computer architecture from first principles. After the first boom of web-scale traffic, Google pioneered warehouse-scale computing and Linux containers on Bor...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-22T13:00:00.000Z"
+    },
+    {
       "id": "hugging-face-blog-ensemble-forecasting-with-ibm-granite-time-series-models-2026-10-22t07-5",
       "title": "Ensemble forecasting with IBM Granite time-series models",
       "link": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
@@ -503,6 +535,17 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-10-22T06:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-introducing-agent-compute-engine-and-expanded-agent-governance-2026-10-2",
+      "title": "Introducing Agent Compute Engine and expanded agent governance",
+      "link": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance/",
+      "summary": "Blog authors: Nirav Mehta, VP Product Management; Michael Bachman, VP/GM; Kevin Hutchins, VP Product Management Scaling Gemini to planet scale taught us firsthand that securely running autonomous agents is fundamentally...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/ACE_hero.max-600x600.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-10-22T04:00:00.000Z"
     },
     {
       "id": "inside-java-what-s-going-wrong-with-my-jvm-a-guide-to-first-time-failure-diagnosis-2026-10",
@@ -569,50 +612,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-10-21T17:35:36.000Z"
-    },
-    {
-      "id": "the-register-signal-bug-could-keep-your-mic-and-camera-on-after-hangup-2026-10-21t17-00-58",
-      "title": "Signal bug could keep your mic - and camera - on after hangup",
-      "link": "https://www.theregister.com/security/2026/10/21/signal-bug-could-keep-your-mic-and-camera-on-after-hangup/5304528",
-      "summary": "Careful what you say after goodbye, or better yet, update your messaging app",
-      "image": "https://image.theregister.com/?imageId=5304543&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-21T17:00:58.000Z"
-    },
-    {
-      "id": "openai-news-how-at-t-is-rethinking-in-house-legal-work-with-openai-2026-10-21t17-00-00-000",
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "link": "https://openai.com/index/att-legal",
-      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-10-21T17:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-profiling-torchneuron-part-1-system-level-profiling-on-aws-trainium-2026",
-      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-      "link": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-10-21T16:04:43.000Z"
-    },
-    {
-      "id": "github-blog-the-bridge-to-agent-scale-git-infrastructure-2026-10-21t16-00-00-000z",
-      "title": "The bridge to agent-scale Git infrastructure",
-      "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
-      "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git in...",
-      "image": "",
-      "source": "GitHub Blog",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-10-21T16:00:00.000Z"
     }
   ]
 }
