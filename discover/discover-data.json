@@ -1,11 +1,12 @@
 {
-  "updatedAt": "2026-11-04T22:54:55.394Z",
+  "updatedAt": "2026-11-05T03:14:47.645Z",
   "sources": [
     {
       "name": "Google News Top",
       "category": "general",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "BBC News",
@@ -35,14 +36,16 @@
     {
       "name": "Google Business",
       "category": "business",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "Google Entertainment",
       "category": "entertainment",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "ESPN",
@@ -53,20 +56,23 @@
     {
       "name": "Google Sports",
       "category": "sports",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "Google Technology",
       "category": "tech",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "Google Science",
       "category": "tech",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 503"
     },
     {
       "name": "The Verge",
@@ -108,7 +114,7 @@
   ],
   "weather": {
     "location": "Hyderabad",
-    "temperature": 22,
+    "temperature": 24,
     "condition": "Partly sunny",
     "daily": [
       {
@@ -128,7 +134,7 @@
       },
       {
         "date": "2026-11-08",
-        "high": 31,
+        "high": 30,
         "low": 21
       },
       {
@@ -159,7 +165,7 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 80693.78,
+      "price": 80466.76,
       "change": 0,
       "changePercent": 0
     },
@@ -211,92 +217,424 @@
   ],
   "items": [
     {
-      "id": "ukraine-says-bodycam-video-shows-deadly-russian-double-tap-bombing-general-2026-11-04t22-48-43-000z",
-      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-      "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
-      "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f23/live/c9877cb0-d8a1-11f1-93e1-3b657b665bcf.png",
+      "id": "more-asbestos-found-in-parliament-as-mps-urged-to-get-on-with-revamp-general-2026-11-05t03-05-34-000",
+      "title": "More asbestos found in Parliament, as MPs urged to get on with revamp",
+      "link": "https://www.bbc.co.uk/news/articles/cqly0k8l5mdvo?at_medium=RSS&at_campaign=rss",
+      "summary": "MPs told it's crunch time for a decision on refurbishment amid warnings of a Notre Dame-style fire.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40af/live/3897ab80-d860-11f1-94f3-cf7d1e52bb8c.png",
       "source": "BBC News",
       "category": "general",
       "categoryLabel": "General",
-      "publishedAt": "2026-11-04T22:48:43.000Z",
+      "publishedAt": "2026-11-05T03:05:34.000Z",
       "sources": [
         {
           "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
-          "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
-          "publishedAt": "2026-11-04T22:48:43.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XQlF4Tmh5OFJ2bWJrT0F2dmRyS3lJa2NUcUNWWGdsdnJNWWJsQ2cxNzVRZTBlbDhiWjB3V3RVbU9DUEx3YlRfTnZOY2FMZnJtWFZlYWVQQUo5V253SEE?oc=5",
-          "summary": "Ukraine says bodycam video shows deadly Russian double-tap bombing &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-11-04T17:45:58.000Z"
-        },
-        {
-          "name": "AOL.com",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWl9HbDEybFdfM0psVmlnVG93LUVPTmtpR0xDLUk3a3k0TV92Q3JyS2Q0bmxTU3RvUDBUZC1HTVA2ZkJIT3JxSlZCcVk1SHljY25wNTFfT2VHakI3WWpKMFlNQTNJWE1WRVVsTzRqbUdPaXVaWWNuclhWMWdNc0x4ZmhoM04?oc=5",
-          "summary": "Ukraine says bodycam video shows deadly Russian double-tap bombing &nbsp;&nbsp; AOL.com",
-          "publishedAt": "2026-11-04T17:46:03.000Z"
-        },
-        {
-          "name": "NewsCord",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRGhGZFE5T0R0WDZVR1g4NXlXVEt5YmZzdzR4cDJjX2Jvc2dVNm5zaUo3T3BNM2FYWjEyQjRueS1IalVDdHFaM0x6Vzl4RUVYTmVDZk01SFg5VVROUmVkUFRwdEg1Q3Jua3hNQW9aWXdwM0VSd251VXRhX2RHdV9zaXlaZ3NBbEhZT19zd1ZEWWROVHZHcS1ZbEpDVENxNzJUVC1jQTlDWFoxeVhhS0cxR0V4TW1HTTNFRk4wLWl3UERUTlJuUVU5cVE3RDZFZDZkTzZKdTRpLU9pUVFsclJ3bEVTWHVDRmtBaHc?oc=5",
-          "summary": "Ukraine Police Release Bodycam Showing Russian Double-Tap Bombing of Kamyshuvakha Aid Centre &nbsp;&nbsp; NewsCord",
-          "publishedAt": "2026-11-04T20:37:40.000Z"
-        },
-        {
-          "name": "Operativ Məlumat Mərkəzi",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUljVmVZT3lNcjFKTDlXMmVzdXdKTW9jb1pRQTJTbkRRdFBpMTlldkU5MG5QSjN5SmduRl9wbTgtcm9mMjc4MlFFOWJ2Y2xHVktBSWRvZ1M1cmY2X0hiMWZBQ21aVTY2Y1R4c21YT2xEa2VhbHhyUjJrdUs4VzZYVTIzOVBPTGU4MzNuWEZCc0N5RTFjZ3QwTF9fcUR3a3hwdVotag?oc=5",
-          "summary": "Ukraine says bodycam video shows deadly Russian double-tap bombing &nbsp;&nbsp; Operativ Məlumat Mərkəzi",
-          "publishedAt": "2026-11-04T17:51:24.000Z"
+          "link": "https://www.bbc.co.uk/news/articles/cqly0k8l5mdvo?at_medium=RSS&at_campaign=rss",
+          "summary": "MPs told it's crunch time for a decision on refurbishment amid warnings of a Notre Dame-style fire.",
+          "publishedAt": "2026-11-05T03:05:34.000Z"
         }
       ],
-      "sourceCount": 5
+      "sourceCount": 1
     },
     {
-      "id": "recruitment-for-more-than-11-000-posts-in-bihar-s-health-department-to-begin-soon-india-2026-11-04t2",
-      "title": "Recruitment for more than 11,000 posts in Bihar’s health department to begin soon",
-      "link": "https://www.thehindu.com/news/national/bihar/recruitment-for-more-than-11000-posts-in-bihars-health-department-to-begin-soon/article71666903.ece",
-      "summary": "Currently, updated details of vacant positions have been sought from all 38 districts of the state. All recruitments will be conducted at the State Health Society level",
+      "id": "bengal-congress-writes-to-poll-authorities-over-discrepancies-in-kolkata-civic-body-s-delimitation-b",
+      "title": "Bengal Congress writes to poll authorities over ‘discrepancies’ in Kolkata civic body’s delimitation, booth maps",
+      "link": "https://www.thehindu.com/news/cities/kolkata/bengal-congress-writes-to-poll-authorities-over-discrepancies-in-kolkata-civic-bodys-delimitation-booth-maps/article71666001.ece",
+      "summary": "Party writes to electoral authorities and KMC Commissioner, alleging that changes to maps and booth details deprived it of an opportunity to file objections and appeals",
+      "image": "https://th-i.thgim.com/public/incoming/pzlba7/article71668497.ece/alternates/LANDSCAPE_1200/HWNCnaYboAA14V7.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-05T03:05:28.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/cities/kolkata/bengal-congress-writes-to-poll-authorities-over-discrepancies-in-kolkata-civic-bodys-delimitation-booth-maps/article71666001.ece",
+          "summary": "Party writes to electoral authorities and KMC Commissioner, alleging that changes to maps and booth details deprived it of an opportunity to file objections and appeals",
+          "publishedAt": "2026-11-05T03:05:28.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "vance-walks-trump-tightrope-with-scathing-election-critique-blaming-iran-war-general-2026-11-05t03-0",
+      "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+      "link": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
+      "summary": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a90/live/459aef00-d8c3-11f1-ab60-f74c593b560a.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-05T03:04:18.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
+          "summary": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory.",
+          "publishedAt": "2026-11-05T03:04:18.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "private-sector-participation-in-nuclear-energy-aerb-will-provide-enabling-environment-without-compro",
+      "title": "Private sector participation in nuclear energy: AERB will provide enabling environment without compromising safety, says Chairperson",
+      "link": "https://www.thehindu.com/news/national/kerala/private-sector-participation-in-nuclear-energy-aerb-will-provide-enabling-environment-without-compromising-safety-says-chairperson/article71668479.ece",
+      "summary": "The AERB chairperson’s remarks gain significance in the context of SHANTI Act and the Union government’s policy decision to welcome private players",
+      "image": "https://th-i.thgim.com/public/news/national/kerala/gj8vme/article71668477.ece/alternates/LANDSCAPE_1200/ak.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-05T03:03:51.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/kerala/private-sector-participation-in-nuclear-energy-aerb-will-provide-enabling-environment-without-compromising-safety-says-chairperson/article71668479.ece",
+          "summary": "The AERB chairperson’s remarks gain significance in the context of SHANTI Act and the Union government’s policy decision to welcome private players",
+          "publishedAt": "2026-11-05T03:03:51.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "27-shops-on-borivali-plot-meant-for-best-bus-station-demolished-after-supreme-court-orders-bmc-commi",
+      "title": "27 shops on Borivali plot meant for BEST bus station demolished after Supreme Court orders BMC Commissioner’s salary freeze",
+      "link": "https://www.thehindu.com/news/national/maharashtra/bmc-completes-demolition-drive-in-mumbais-borivali-removes-27-structures/article71664634.ece",
+      "summary": "CJI-led Bench ordered that Ashwini Bhide’s salary and that of her personal staff be withheld over non-compliance with earlier directions to clear the land",
+      "image": "https://th-i.thgim.com/public/news/international/rsvg7u/article71664664.ece/alternates/LANDSCAPE_1200/BMC.JPG",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-05T02:48:37.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/maharashtra/bmc-completes-demolition-drive-in-mumbais-borivali-removes-27-structures/article71664634.ece",
+          "summary": "CJI-led Bench ordered that Ashwini Bhide’s salary and that of her personal staff be withheld over non-compliance with earlier directions to clear the land",
+          "publishedAt": "2026-11-05T02:48:37.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "mumbai-s-byculla-zoo-closer-to-getting-four-asiatic-lions-from-gujarat-india-2026-11-05t02-33-10-000",
+      "title": "Mumbai’s Byculla Zoo closer to getting four Asiatic lions from Gujarat",
+      "link": "https://www.thehindu.com/news/cities/mumbai/mumbais-byculla-zoo-closer-to-getting-four-asiatic-lions-from-gujarat/article71667153.ece",
+      "summary": "Under the proposed exchange, the Mumbai zoo will transfer three pairs of tufted capuchin monkeys to Sakkarbaug. Both zoos have already agreed to the exchange, the BMC said",
+      "image": "https://th-i.thgim.com/public/incoming/s3re6w/article71668461.ece/alternates/LANDSCAPE_1200/05TH_OPED1_GDPGG5NG763HV.3.jpg.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-05T02:33:10.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/cities/mumbai/mumbais-byculla-zoo-closer-to-getting-four-asiatic-lions-from-gujarat/article71667153.ece",
+          "summary": "Under the proposed exchange, the Mumbai zoo will transfer three pairs of tufted capuchin monkeys to Sakkarbaug. Both zoos have already agreed to the exchange, the BMC said",
+          "publishedAt": "2026-11-05T02:33:10.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "helping-hand-on-cyclones-arnab-and-murasu-india-2026-11-05t02-32-40-000z",
+      "title": "Helping hand: On Cyclones Arnab and Murasu",
+      "link": "https://www.thehindu.com/opinion/editorial/helping-hand-on-cyclones-arnab-and-murasu/article71666118.ece",
+      "summary": "States need help to rebuild public infrastructure after damage in cyclones",
       "image": "",
       "source": "The Hindu National",
       "category": "india",
       "categoryLabel": "India",
-      "publishedAt": "2026-11-04T20:54:06.000Z",
+      "publishedAt": "2026-11-05T02:32:40.000Z",
       "sources": [
         {
           "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/bihar/recruitment-for-more-than-11000-posts-in-bihars-health-department-to-begin-soon/article71666903.ece",
-          "summary": "Currently, updated details of vacant positions have been sought from all 38 districts of the state. All recruitments will be conducted at the State Health Society level",
-          "publishedAt": "2026-11-04T20:54:06.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdXNzMTJFWDFnZzZGWWlKU3YtWERrbjJjRWxGdEw3eDRfbmhMSnBteVJMOUxWZF9tV09wLXYtTDdVSmt0LW84dXV2ZFlxVDRSSUcxVnhOSDl6eEE4Q3F6Q19PaHFhbl9zUDUtSVRwd2dqOXp1a2VjUnU1d05NblBOVU9HUllNZGtQU2R4eS1GamtQVEhVVl9ubzdUbE5aTEJxOHd5QUpzRFRBSkZqc0dmaXY0NVh2ZU96SS0wbHE5T3JWZVlsZURTMnVZZzBQQlBjbklQNGcxeklyWktT0gHjAUFVX3lxTE1wYlFBRi1JY1JXQlF2dTR4S19uTzQ0RWtmMVJXdlF0QTUwWFVSWE01T0Eta3RSYzA4V0ZINDNjaDY2WFl6aElYMm51WWlFY1J0akV4d2NYM0x3WVh5WXhHbEp6NXJaUWw3dnh0SmEzZ1dxR0Z2dUN0ZTNDVU1MY0tDdVEtOEZSSkh3c3djWksyZ0Q3bFRkaFFMa2xOSFJfRURmQVZVbHZQS05VNnBSeFZnU214ZnVMQllDUTNMUjZiWFM3YVFHV09paHFzZmVGTTJ2ZmthMUh5YUhkVUttRmJfNnc4?oc=5",
-          "summary": "Recruitment for more than 11,000 posts in Bihar’s health department to begin soon &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-11-04T20:54:02.000Z"
-        },
-        {
-          "name": "urbanacres.in",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMDZCR3NWVllGbmwyRFJzT1k5dS1seW45ck0yd2pIQzVqU2h6X1NQRHFJY1VrY0NlN1JuOTk0XzBCRXdaaXFsQ21vdjQ3RUk1alhTWk04aWRiMWRnc3F3VkVtYmxiN0hwTEs1aFI4UGVGYU5YWUhVbWk5Q0wzNGdsY1VoRQ?oc=5",
-          "summary": "Bihar Health Department Recruitment to Add 11,000 Staff &nbsp;&nbsp; urbanacres.in",
-          "publishedAt": "2026-11-04T17:23:40.000Z"
-        },
-        {
-          "name": "Indian Masterminds",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNemJ1LVpiNWNsSzZZNkgwdlJBNzBISFBUVWVETVUycVlXci1ZcENFckRTd18zRkYxTUdmSnpYRjF6RkNSVDVFcDRKTGE3V1FwaEYxcjB4Q243eHVNNEN1VkJxQnRnUHRmY0phM1NiVDBad2VoR2lpWHMweGNWWjNwallMdVNGUzAtN0otTzBPYTJzTlhILUFwWEdFS1hKd3FCa0dv?oc=5",
-          "summary": "Bihar Health Department Recruitment 2026: Over 11,000 Vacancies to Be Filled, Notification Expected in November &nbsp;&nbsp; Indian Masterminds",
-          "publishedAt": "2026-11-04T13:28:04.000Z"
-        },
-        {
-          "name": "Patna Press",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSTdEaTFfcUhuOHl0UjNHY0otRmVRMzBiQWVNZmRfNVpoUksyeS13ekdwZ0RkdUs2NmFEcDhSQkVNYnpGbXZOcTNhVUlXMkZDVk1FTDhhTm9ROGtiMkVjTjRiX01TQndVSEtTQjg3V2dXaEVjczVKdElyY2E5TlZPU3lKZ3FUR0diaERUcTRLNWRXb0YxSW9sWGpBczE5dFU?oc=5",
-          "summary": "Bihar Health Department to Begin Recruitment for Over 11,000 Posts This Month &nbsp;&nbsp; Patna Press",
-          "publishedAt": "2026-11-04T15:53:10.000Z"
+          "link": "https://www.thehindu.com/opinion/editorial/helping-hand-on-cyclones-arnab-and-murasu/article71666118.ece",
+          "summary": "States need help to rebuild public infrastructure after damage in cyclones",
+          "publishedAt": "2026-11-05T02:32:40.000Z"
         }
       ],
-      "sourceCount": 5
+      "sourceCount": 1
+    },
+    {
+      "id": "u-s-midterm-results-may-matter-less-for-india-u-s-ties-than-for-india-s-room-to-manoeuvre-in-geopoli",
+      "title": "U.S. midterm results may matter less for India-U.S. ties than for India’s room to manoeuvre in geopolitics",
+      "link": "https://www.thehindu.com/news/national/us-midterm-results-may-matter-less-for-india-us-ties-than-for-indias-room-to-manoeuvre-in-geopolitics/article71665475.ece",
+      "summary": "With U.S. President Donald Trump’s Republicans facing a major loss, the results could affect India’s position on the Iran war, Russian oil, the trade deal, immigration and China policy",
+      "image": "https://th-i.thgim.com/public/incoming/cp36wa/article71668453.ece/alternates/LANDSCAPE_1200/2026-10-20T104003Z_383491964_RC2Y6OAPAWBY_RTRMADP_3_USA-RUBIO-INDIA.JPG",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-05T02:18:26.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/us-midterm-results-may-matter-less-for-india-us-ties-than-for-indias-room-to-manoeuvre-in-geopolitics/article71665475.ece",
+          "summary": "With U.S. President Donald Trump’s Republicans facing a major loss, the results could affect India’s position on the Iran war, Russian oil, the trade deal, immigration and China policy",
+          "publishedAt": "2026-11-05T02:18:26.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "uk-commits-to-time-bound-talks-on-slavery-apology-general-2026-11-05t02-17-18-000z",
+      "title": "UK commits to 'time-bound' talks on slavery apology",
+      "link": "https://www.bbc.co.uk/news/articles/cqdr872jkk7vo?at_medium=RSS&at_campaign=rss",
+      "summary": "Andy Burnham signed up to a broader process to address \"historical harms\" of the transatlantic slave trade, Chris Mason writes.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d167/live/fa72efc0-d8b6-11f1-aa81-e1435663d61c.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-05T02:17:18.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cqdr872jkk7vo?at_medium=RSS&at_campaign=rss",
+          "summary": "Andy Burnham signed up to a broader process to address \"historical harms\" of the transatlantic slave trade, Chris Mason writes.",
+          "publishedAt": "2026-11-05T02:17:18.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "three-govts-three-cms-in-telangana-failed-to-complete-35-crore-700-metre-bridge-in-15-years-india-20",
+      "title": "Three Govts., three CMs in Telangana failed to complete ₹35 crore 700-metre bridge in 15 years",
+      "link": "https://www.thehindu.com/news/national/telangana/three-govts-three-cms-failed-to-complete-35-crore-700-metre-road-bridge-in-15-years/article71664827.ece",
+      "summary": "The 700-metre Ghatkesar rail-cum-road bridge has divided a village on the city’s outskirts; residents travel four km to cover a distance of barely 50 metres",
+      "image": "https://th-i.thgim.com/public/news/national/telangana/3uzssg/article71664845.ece/alternates/LANDSCAPE_1200/Ghatkesar%201.jpeg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-05T02:01:21.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/telangana/three-govts-three-cms-failed-to-complete-35-crore-700-metre-road-bridge-in-15-years/article71664827.ece",
+          "summary": "The 700-metre Ghatkesar rail-cum-road bridge has divided a village on the city’s outskirts; residents travel four km to cover a distance of barely 50 metres",
+          "publishedAt": "2026-11-05T02:01:21.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "nine-rescue-personnel-feared-missing-as-boats-capsize-in-telangana-s-swollen-peddacheruvu-india-2026",
+      "title": "Nine rescue personnel feared missing as boats capsize in Telangana’s swollen Peddacheruvu",
+      "link": "https://www.thehindu.com/news/national/telangana/nine-rescue-personnel-feared-missing-as-boats-capsize-in-swollen-peddacheruvu-in-khammam-district/article71667132.ece",
+      "summary": "According to sources, the incident occurred when the rescue teams, comprising SDRF and Fire Services personnel, ventured into the swollen rivulet to rescue the stranded fishermen",
+      "image": "https://th-i.thgim.com/public/news/cities/Hyderabad/wbhabn/article71667236.ece/alternates/LANDSCAPE_1200/Image%2021.jpeg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-05T01:55:16.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/telangana/nine-rescue-personnel-feared-missing-as-boats-capsize-in-swollen-peddacheruvu-in-khammam-district/article71667132.ece",
+          "summary": "According to sources, the incident occurred when the rescue teams, comprising SDRF and Fire Services personnel, ventured into the swollen rivulet to rescue the stranded fishermen",
+          "publishedAt": "2026-11-05T01:55:16.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "mahadev-app-co-promoter-ravi-uppal-arrested-in-uae-india-moves-for-his-extradition-india-2026-11-05t",
+      "title": "Mahadev app co-promoter Ravi Uppal arrested in UAE, India moves for his extradition",
+      "link": "https://www.thehindu.com/news/national/mahadev-app-co-promoter-ravi-uppal-arrested-in-uae-india-moves-for-his-extradition/article71668416.ece",
+      "summary": "Authorities in Dubai arrested a 46-year-old Ravi Uppal based on an Interpol Red Notice issued by Indian probe agencies, officials told PTI",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-05T01:54:13.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/mahadev-app-co-promoter-ravi-uppal-arrested-in-uae-india-moves-for-his-extradition/article71668416.ece",
+          "summary": "Authorities in Dubai arrested a 46-year-old Ravi Uppal based on an Interpol Red Notice issued by Indian probe agencies, officials told PTI",
+          "publishedAt": "2026-11-05T01:54:13.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "falling-fertility-rate-makes-two-child-penalties-outdated-in-india-says-supreme-court-india-2026-11",
+      "title": "Falling fertility rate makes two-child penalties outdated in India, says Supreme Court",
+      "link": "https://www.thehindu.com/news/national/rolling-effect-of-decelerating-population-growth-very-hard-to-reverse-supreme-court/article71666136.ece",
+      "summary": "‘The foundation of such laws, that is, the fear of overpopulation, has crumbled due to demographic changes in the past few decades’, says Bench",
+      "image": "https://th-i.thgim.com/public/incoming/a8e6as/article71666177.ece/alternates/LANDSCAPE_1200/2026-10-27T064334Z_26851738_RC260X96BHOI_RTRMADP_3_INDIA-MEDIA-PRIVACY-LAW.JPG",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-05T01:39:57.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/rolling-effect-of-decelerating-population-growth-very-hard-to-reverse-supreme-court/article71666136.ece",
+          "summary": "‘The foundation of such laws, that is, the fear of overpopulation, has crumbled due to demographic changes in the past few decades’, says Bench",
+          "publishedAt": "2026-11-05T01:39:57.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "why-a-us-funded-vaccine-trial-on-babies-was-cancelled-in-guinea-bissau-general-2026-11-05t00-30-37-0",
+      "title": "Why a US-funded vaccine trial on babies was cancelled in Guinea-Bissau",
+      "link": "https://www.bbc.co.uk/news/articles/cm0rlxq08ejko?at_medium=RSS&at_campaign=rss",
+      "summary": "The trial was condemned as \"unethical\" and \"neocolonial\" because half of the babies would not be given the vaccine.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4bf/live/d304fb40-d848-11f1-b870-55415e6a9944.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-05T00:30:37.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cm0rlxq08ejko?at_medium=RSS&at_campaign=rss",
+          "summary": "The trial was condemned as \"unethical\" and \"neocolonial\" because half of the babies would not be given the vaccine.",
+          "publishedAt": "2026-11-05T00:30:37.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "x-says-its-updated-web-app-is-way-faster-tech-2026-11-05t00-25-12-000z",
+      "title": "X says its updated web app is way faster",
+      "link": "https://www.theverge.com/tech/1027113/x-says-its-updated-web-app-is-way-faster",
+      "summary": "X is introducing a new version of its web app that it says is much faster than before, and it's now rolling out the updated app \"one country at a time\" for signed-in users. \"Open a profile on X.com over a slow connection,\" principal engine...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/STK160_X_TWITTER_2__A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-05T00:25:12.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/tech/1027113/x-says-its-updated-web-app-is-way-faster",
+          "summary": "X is introducing a new version of its web app that it says is much faster than before, and it's now rolling out the updated app \"one country at a time\" for signed-in users. \"Open a profile on X.com over a slow connection,\" principal engine...",
+          "publishedAt": "2026-11-05T00:25:12.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "the-nhs-is-relying-more-on-charities-and-that-might-be-creating-problems-for-patients-general-2026-1",
+      "title": "The NHS is relying more on charities - and that might be creating problems for patients",
+      "link": "https://www.bbc.co.uk/news/articles/c65yn75g9d18o?at_medium=RSS&at_campaign=rss",
+      "summary": "Is it symptom a health service at breaking point - or a positive way of involving the public?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2be5/live/eed75af0-d845-11f1-b441-2b33b063138f.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-05T00:12:30.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/c65yn75g9d18o?at_medium=RSS&at_campaign=rss",
+          "summary": "Is it symptom a health service at breaking point - or a positive way of involving the public?",
+          "publishedAt": "2026-11-05T00:12:30.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "interest-rates-expected-to-rise-for-first-time-in-over-three-years-general-2026-11-05t00-00-09-000z",
+      "title": "Interest rates expected to rise for first time in over three years",
+      "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e8c/live/91074120-d849-11f1-b870-55415e6a9944.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-05T00:00:09.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+          "summary": "Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.",
+          "publishedAt": "2026-11-05T00:00:09.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "pound-rises-to-its-highest-level-since-the-brexit-referendum-general-2026-11-04t23-30-28-000z",
+      "title": "Pound rises to its highest level since the Brexit referendum",
+      "link": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
+      "summary": "Pound reaches highest level against a basket of currencies since the Brexit referendum a decade ago",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d226/live/51085d40-d897-11f1-bffe-b94c467713ac.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-04T23:30:28.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
+          "summary": "Pound reaches highest level against a basket of currencies since the Brexit referendum a decade ago",
+          "publishedAt": "2026-11-04T23:30:28.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "typhoons-batter-east-asia-as-el-ni-o-makes-pacific-burn-with-fever-general-2026-11-04t23-12-47-000z",
+      "title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
+      "link": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss",
+      "summary": "Even for countries where typhoons are a way of life, the last few months have brought unusually wild weather.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30ea/live/eaa602a0-d75b-11f1-8f6b-d71817972456.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-04T23:12:47.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss",
+          "summary": "Even for countries where typhoons are a way of life, the last few months have brought unusually wild weather.",
+          "publishedAt": "2026-11-04T23:12:47.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "police-in-scotland-to-escort-fire-crews-in-latest-crackdown-on-bonfire-night-disorder-general-2026-1",
+      "title": "Police in Scotland to escort fire crews in latest crackdown on Bonfire Night disorder",
+      "link": "https://www.bbc.co.uk/news/articles/cj93zv4dv9rro?at_medium=RSS&at_campaign=rss",
+      "summary": "As many as 1,700 officers could be deployed in the biggest Police Scotland operation since last year's visit by President Trump.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cf9/live/b4ad07b0-d883-11f1-a364-a1fce50dd192.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-04T22:53:26.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cj93zv4dv9rro?at_medium=RSS&at_campaign=rss",
+          "summary": "As many as 1,700 officers could be deployed in the biggest Police Scotland operation since last year's visit by President Trump.",
+          "publishedAt": "2026-11-04T22:53:26.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "ukraine-says-bodycam-video-shows-deadly-russian-double-tap-bombing-world-2026-11-04t22-48-43-000z",
+      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+      "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+      "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f23/live/c9877cb0-d8a1-11f1-93e1-3b657b665bcf.png",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-11-04T22:48:43.000Z",
+      "sources": [
+        {
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+          "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
+          "publishedAt": "2026-11-04T22:48:43.000Z"
+        }
+      ],
+      "sourceCount": 1
     },
     {
       "id": "qualcomm-is-betting-big-on-data-centers-as-smartphone-sales-sink-tech-2026-11-04t22-42-15-000z",
@@ -314,259 +652,29 @@
           "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
           "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center...",
           "publishedAt": "2026-11-04T22:42:15.000Z"
-        },
-        {
-          "name": "Barron's",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBRNzE3OVVYaXprajYzcFJQdVExTFRqMUxpdTJ6QzFwQ3JKb195T2FFV0ZYYnZUdG9SdEJYcDU0LXVXZDc0OEszNjRrcnlXNHAzamVoMmI1enlFamUzSGI1d3RkbHEtSTNHTUstNEpRVE5SNUpRQzIyUDJQWQ?oc=5",
-          "summary": "Qualcomm Earnings Come as Smartphone Sales Slump and Data Center Ambitions Grow &nbsp;&nbsp; Barron's",
-          "publishedAt": "2026-11-04T11:00:00.000Z"
-        },
-        {
-          "name": "Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVDRMeHg0c29IZXhMQTBiaTRCdjBvSGd2MkFqQ1JTQlNXd2JwcWI4ZXNTcVl5UmpwS3RGOV9XSVpHakNsb09vV1BCbnBYcXJ0SUhaeGRMaWZRX0lHRFhqRzcyUmdYZWFDT1lVMUJQRFMtZHdmcTVWSjNjYWRsU2I3SE1uS0tPc1k2T1NHaHBDUUFwbzdlWEIzRmc5N0E0VDR0SnhMcVM5NHFyUjFha0Z1R3JibWQ3djQtZXd6ckxtX1Q?oc=5",
-          "summary": "Qualcomm to report Q4 earnings amid slowing smartphone, PC sales &nbsp;&nbsp; Yahoo Finance",
-          "publishedAt": "2026-11-04T17:33:20.000Z"
-        }
-      ],
-      "sourceCount": 3
-    },
-    {
-      "id": "bose-s-quietcomfort-headphones-are-more-than-half-off-tech-2026-11-04t21-13-11-000z",
-      "title": "Bose’s QuietComfort Headphones are more than half off",
-      "link": "https://www.theverge.com/gadgets/1026807/bose-quietcomfort-headphones-wireless-deal-sale",
-      "summary": "It’s not often that some of the best noise-canceling headphones you can buy are over half off. But right now, the first-gen Bose QuietComfort Headphones are on sale for $169.99 ($190 off) at Amazon, Best Buy, and Bose, matching its best pr...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/Bose-QuietComfort-Headphones-lifestyle.png?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T21:13:11.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/gadgets/1026807/bose-quietcomfort-headphones-wireless-deal-sale",
-          "summary": "It’s not often that some of the best noise-canceling headphones you can buy are over half off. But right now, the first-gen Bose QuietComfort Headphones are on sale for $169.99 ($190 off) at Amazon, Best Buy, and Bose, matching its best pr...",
-          "publishedAt": "2026-11-04T21:13:11.000Z"
-        },
-        {
-          "name": "PC Guide",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObUFZTTNlY2lKdkJWbFRUYU53bThYSC1rNnladk42NVI1OFFqM19xNXFIWXk2LVVNNVpTS0dGYW90M1VjS3R4QmlENXRfZ1dJUG8zY0V2SjF2ZUxuMGVvdU1wNnEyTHd0WmRrTHF6R2FrdmhVT2RvVFl0M3FsSGUtQmhyVjlVRkx1UkZRNnN5OUMzM2Z1M2RhWmxSSmNxcElfNzhFQWE5ZWxTY3cwdWR0OUJZSklEMEU0QjlpcVhsTDBjSjVuQ0l3MXV4NVg?oc=5",
-          "summary": "Bose QuietComfort 2nd Gen headphones are available at almost half price, as Amazon deal shaves $140 off &nbsp;&nbsp; PC Guide",
-          "publishedAt": "2026-11-02T02:57:17.000Z"
-        },
-        {
-          "name": "WIRED",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKWUhBUXlGMm1yRk1vLXRqbjVoU2dHU3owaXBIbHpvdUJFNXdVQ05aX1p4a0lqbGNpakpENWJRZzhRN2pTN0VGc09SenRlQjRvVkNPWWJTWWhZRkJmTGE0SzNB?oc=5",
-          "summary": "Get Bose QC Headphones for Less Than $200 &nbsp;&nbsp; WIRED",
-          "publishedAt": "2026-10-31T10:00:00.000Z"
-        },
-        {
-          "name": "Variety",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRDlzemlHUDdFMHQ1YlhxUklUZXM1RWJ5SGdNTEZFUmFnNVJ4ckRhSEg0ZmQ1cy1nMkg2RlVjSENjb0t6WFAycGlKMzFweTktZkpfQVc0aWx3RnJWSmpGUFQ2M0hBOTRLMWJxSFNwbE1abVlaandHV3JXRl9pMzkwZDNodl9GcWlhSW1yRllMX21SUXNkS2tLNU1aU0E4cTlDUHE0dFdn?oc=5",
-          "summary": "Bose’s Bestselling QuietComfort Headphones Are More Than Half Off for Amazon Prime Big Deals Day &nbsp;&nbsp; Variety",
-          "publishedAt": "2026-10-06T07:00:00.000Z"
-        }
-      ],
-      "sourceCount": 4
-    },
-    {
-      "id": "today-s-nyt-strands-hints-spangram-and-answers-for-thursday-nov-5-977-tech-2026-11-04t21-00-05-000z",
-      "title": "Today’s NYT Strands Hints, Spangram and Answers for Thursday, Nov. 5, #977",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX0RQdHJpcjRGZUE3X1pmUlI0UG5MOXYwZm9QVXdoQk84cVRubFR3cVhZQzJ5b2RWM1lPa0c1Y29nZEt5N1Y4a1NrZHdBZXRQeUJXTktvMmRIYWNURVpUQllZdl9ndk1qRm9HMG5pdmlvazVMcHlwbWhKZ2dYTHFlMDljdEd1THZVcWQ0OGhCY1lYT0dQ?oc=5",
-      "summary": "Today’s NYT Strands Hints, Spangram and Answers for Thursday, Nov. 5, #977 &nbsp;&nbsp; CNET NYT Strands hints, answers for November 4, 2026 &nbsp;&nbsp; Mashable NYT Strands Hints And Daily Guide For Puzzle #976 November 04 2026 Tips Them...",
-      "image": "",
-      "source": "CNET",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T21:00:05.000Z",
-      "sources": [
-        {
-          "name": "CNET",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX0RQdHJpcjRGZUE3X1pmUlI0UG5MOXYwZm9QVXdoQk84cVRubFR3cVhZQzJ5b2RWM1lPa0c1Y29nZEt5N1Y4a1NrZHdBZXRQeUJXTktvMmRIYWNURVpUQllZdl9ndk1qRm9HMG5pdmlvazVMcHlwbWhKZ2dYTHFlMDljdEd1THZVcWQ0OGhCY1lYT0dQ?oc=5",
-          "summary": "Today’s NYT Strands Hints, Spangram and Answers for Thursday, Nov. 5, #977 &nbsp;&nbsp; CNET NYT Strands hints, answers for November 4, 2026 &nbsp;&nbsp; Mashable NYT Strands Hints And Daily Guide For Puzzle #976 November 04 2026 Tips Them...",
-          "publishedAt": "2026-11-04T21:00:05.000Z"
-        },
-        {
-          "name": "PC Guide",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWlRKNmU2RWk4UUJVSFFPcTJ2TGZxQjYyYTVqb25kWlR4TGJ1QVcyQlBmN2l6M3Q2NFFmRUpSNUh1ckkwSnBId2JwMUJyaGdYZ3lrT0VsQ0dpS21GSGxTR05FaUhBSUhMbTAxTjZ5ZEtUeVVfempFbVk0cFB6MUJTUmd4ZGN0MzZNYlRhQjQ2MDd0Y2EteWVDVEpRWE9mQQ?oc=5",
-          "summary": "Today’s NYT Strands answers, clues, and hints on November 4 (puzzle #976) &nbsp;&nbsp; PC Guide",
-          "publishedAt": "2026-11-04T10:07:56.000Z"
-        },
-        {
-          "name": "TechRadar",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2F3S2VaVWV3dlU2azlEVHc4cnpHQ3NhMzhYUzV5OE1zOU5ZdU9KQkJvdnlWLTk4VzFLQWljWGxLb0hIbW9ILTl4d1NJMmczcjQ5RnpJSWpHSzNIendzUFltS0hDY05iTl9id0pUR2JYNDBCblRLXzFOU2RhcG9USGpwYkNSMWxyN3lWUnlJN0ZNV1JoT0txMDdiWkpKUQ?oc=5",
-          "summary": "NYT Strands hints and answers for Tuesday, November 3 (game #975) &nbsp;&nbsp; TechRadar",
-          "publishedAt": "2026-11-03T00:00:00.000Z"
-        }
-      ],
-      "sourceCount": 3
-    },
-    {
-      "id": "explosion-damages-railway-track-in-northern-rajasthan-district-india-2026-11-04t20-32-00-000z",
-      "title": "Explosion damages railway track in northern Rajasthan district",
-      "link": "https://www.thehindu.com/news/national/rajasthan/explosion-damages-railway-track-in-northern-rajasthan-district/article71666135.ece",
-      "summary": "The blast, which occurred near 50 GB village, shattered two concrete railway sleepers beneath the tracks, dislodged the track clips and created a two-foot-deep crater at the site",
-      "image": "https://th-i.thgim.com/public/incoming/lv34kl/article71667414.ece/alternates/LANDSCAPE_1200/20261104114L.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-04T20:32:00.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/rajasthan/explosion-damages-railway-track-in-northern-rajasthan-district/article71666135.ece",
-          "summary": "The blast, which occurred near 50 GB village, shattered two concrete railway sleepers beneath the tracks, dislodged the track clips and created a two-foot-deep crater at the site",
-          "publishedAt": "2026-11-04T20:32:00.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcHNGVkl2WWZBRTJFQ0g4ZW1OaXZRVGoybW9SVlJmYVhxMm4tR3NZQTMwVUN4dnkwRjN4ejF2NXNqekpNRF9JRU9zcGR3Q0tLS0xOUVlpekdCczZwNjJtUUJrLVMwdUc0VW5RdENKNUJORV9wODRFUTFtVlV3clFhVDU5TDJWZnJwQ3MxRkRGcWh4dzM4bTJ5c181ODJEQmRRVGhmb3Rwb0ZhWFdwSlVUcGdYb19USHJacUJtUDZGNnJudkVmcEZoWHlwWdIB0gFBVV95cUxPQXJaU1lTMHZmMmMybjRzd09VSU9FX2RXVENJU0diNVBTdWIzZHVSNTFQWjIyRS04bDRkaDlIbjA3UmdsclgtOGFIT3lSRjhwV2lIajhORHhjLVBxM0Fsa095RXQyWXU0MTd2UmJyUkpYaENPUk5tRGV0UGtwRUQtN05sSkNsSHRfSzRjVk5GWmFJSldrVTJPbnRJa3dLOU4ydzMxemtvMzRsZkZpZFgwVUxDNXB1TnV4SkFHeDVtVDJVb3lBT0NmX1FkbDAwRVVPVWc?oc=5",
-          "summary": "Explosion damages railway track in northern Rajasthan district &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-11-04T20:31:54.000Z"
-        },
-        {
-          "name": "ThePrint",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNkdENFZTd1A3OXMyc25TNVpoSUlieVNoLUk4ald2b2JBT0ExbHM0aG9BVkk5VG1RMkZ5YnBIbks1TlZnaGxqS0sySU5wak1PX2lYbHJaRFQzZnNXMUh6cXVzSWw5RWZZcVdhODlUS20tdEd5MHlWN1VGNXJRWldvUlljT2lsVk0yT3ZWTDJTM0kxVTlSaFcyUkczeW5LZGUyaTRYcdIBpAFBVV95cUxNNkdENFZTd1A3OXMyc25TNVpoSUlieVNoLUk4ald2b2JBT0ExbHM0aG9BVkk5VG1RMkZ5YnBIbks1TlZnaGxqS0sySU5wak1PX2lYbHJaRFQzZnNXMUh6cXVzSWw5RWZZcVdhODlUS20tdEd5MHlWN1VGNXJRWldvUlljT2lsVk0yT3ZWTDJTM0kxVTlSaFcyUkczeW5LZGUyaTRYcQ?oc=5",
-          "summary": "Explosion damages rail track in Rajasthan; NIA team reaches site &nbsp;&nbsp; ThePrint",
-          "publishedAt": "2026-11-04T07:51:21.000Z"
-        },
-        {
-          "name": "Daijiworld",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FNzJOUUFwTTllRTVEZnNTRzZCc2ZTeVNYdGNKbWg2SzdhallpTExVamxLX3dMdzgtaDMyWDN1SWxJblZuSmliSU5QQ1Z6QV9sSXoxV2RmeHZ3MFpKbUppYmc0Z2I?oc=5",
-          "summary": "Blast damages railway track near India-Pakistan border in Rajasthan, security alert issued &nbsp;&nbsp; Daijiworld",
-          "publishedAt": "2026-11-04T02:58:44.000Z"
-        }
-      ],
-      "sourceCount": 4
-    },
-    {
-      "id": "ramayana-part-1-movie-review-live-updates-ranbir-kapoor-film-expected-to-earn-rs-125-cr-on-opening-d",
-      "title": "Ramayana Part 1 Movie Review LIVE Updates: Ranbir Kapoor film expected to earn Rs 125 cr on opening day, makes Rs 112 cr in advance booking",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUm5vY18zQ3J5S1FCTlpoMGpaZW5WSF9tak9hR2pRVkZwMXVjSC1VYnVzallBYVpVSDNiX1E0NGJ6b3F4ZDlFc01DMkgtQ0xLb0NxdWZ5S05lQll2bWNKYm9MUG90MWI4QXB3QVQ1MHRLdFo5dkpkeVo3TjRCZEVvTmdGcWd2aDB5YUs0MkdvNm1VWEtnWC1HZ2R3VC05bnFGQk5UTXZDdm9CbENYUUIzdnQ2TjJtU1VzVU5vZUdEV1ZkcFc3bE1tT2lNdmtuTkZLTHFmY1FR0gHcAUFVX3lxTE1JcE9wc2Z1WWp0ZGg0VEs3aHB6b0RUUzhjMG82YlFaYU5vMEg3SHNVTDlYUjNGS0JoNTNxRkNoNGJjY2UyY0FCaGRCOW1MQVU0MU5iNm5hVmxBcVpQVFBuQUpKU0NpNk9xRDBITVRlNDFSeEpCdHpfMk5kMzJDbTdzdU9KSVQ1OEVIQkdSOXlidTFZbHlvTjdXY2RESHdBd0VldE1Pc0ZkZ0lNeU5WTEtBbWxKMXBSMlU1QUpiTWFib2w5Ynd3bTAzQzN4OUlyNUZyMXFyRHhxX1FYdmY?oc=5",
-      "summary": "Ramayana Part 1 Movie Review LIVE Updates: Ranbir Kapoor film expected to earn Rs 125 cr on opening day, makes Rs 112 cr in advance booking &nbsp;&nbsp; The Indian Express ‘Ramayana: Rise of a Legend’ Review: India’s National Epic Gets a F...",
-      "image": "",
-      "source": "The Indian Express",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-11-04T22:30:19.000Z",
-      "sources": [
-        {
-          "name": "The Indian Express",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUm5vY18zQ3J5S1FCTlpoMGpaZW5WSF9tak9hR2pRVkZwMXVjSC1VYnVzallBYVpVSDNiX1E0NGJ6b3F4ZDlFc01DMkgtQ0xLb0NxdWZ5S05lQll2bWNKYm9MUG90MWI4QXB3QVQ1MHRLdFo5dkpkeVo3TjRCZEVvTmdGcWd2aDB5YUs0MkdvNm1VWEtnWC1HZ2R3VC05bnFGQk5UTXZDdm9CbENYUUIzdnQ2TjJtU1VzVU5vZUdEV1ZkcFc3bE1tT2lNdmtuTkZLTHFmY1FR0gHcAUFVX3lxTE1JcE9wc2Z1WWp0ZGg0VEs3aHB6b0RUUzhjMG82YlFaYU5vMEg3SHNVTDlYUjNGS0JoNTNxRkNoNGJjY2UyY0FCaGRCOW1MQVU0MU5iNm5hVmxBcVpQVFBuQUpKU0NpNk9xRDBITVRlNDFSeEpCdHpfMk5kMzJDbTdzdU9KSVQ1OEVIQkdSOXlidTFZbHlvTjdXY2RESHdBd0VldE1Pc0ZkZ0lNeU5WTEtBbWxKMXBSMlU1QUpiTWFib2w5Ynd3bTAzQzN4OUlyNUZyMXFyRHhxX1FYdmY?oc=5",
-          "summary": "Ramayana Part 1 Movie Review LIVE Updates: Ranbir Kapoor film expected to earn Rs 125 cr on opening day, makes Rs 112 cr in advance booking &nbsp;&nbsp; The Indian Express ‘Ramayana: Rise of a Legend’ Review: India’s National Epic Gets a F...",
-          "publishedAt": "2026-11-04T22:30:19.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "schools-must-address-bullying-based-on-gender-identity-sexual-orientation-high-court-india-2026-11-0",
-      "title": "Schools must address bullying based on gender identity, sexual orientation: High Court",
-      "link": "https://www.thehindu.com/news/national/haryana/schools-must-address-bullying-based-on-gender-identity-sexual-orientation-high-court/article71666482.ece",
-      "summary": "The court gave directions after hearing a petition by the mother of a 16-year-old boy, a student of a prominent school in Faridabad, who died on February 24, 2022, accusing the school authorities and the headmistress of it",
-      "image": "https://th-i.thgim.com/public/incoming/x5i54l/article71667589.ece/alternates/LANDSCAPE_1200/PTI05_22_2025_000245B.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-04T22:03:44.000Z",
+      "id": "qualcomm-is-betting-big-on-data-centers-as-smartphone-sales-sink-ai-2026-11-04t22-42-15-000z",
+      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+      "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24007992/acastro_STK082_qualcomm_02.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge AI",
+      "category": "ai",
+      "categoryLabel": "AI",
+      "publishedAt": "2026-11-04T22:42:15.000Z",
       "sources": [
         {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/haryana/schools-must-address-bullying-based-on-gender-identity-sexual-orientation-high-court/article71666482.ece",
-          "summary": "The court gave directions after hearing a petition by the mother of a 16-year-old boy, a student of a prominent school in Faridabad, who died on February 24, 2022, accusing the school authorities and the headmistress of it",
-          "publishedAt": "2026-11-04T22:03:44.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRWdPVENMdDZvaGlxM29YbFRSS1Etc09EajRwUlFUTmwyeDg4UHJhY2RpVUxVVEVHeFhfYWZ0MWZnZXNMVHc3S29adXBFamNZbktlZHZQY01Da1JBQ2piaEhrcElUVUlxN09rWGhPTy16UkdNYzA4c3EyWjNydnRMT21vODNycjR0TnR3X0NrRWQ5VG95aEYxNXVZajhKc20yal85bjNrMlJ3QlJnWVY3TE52NEtwSXBrRHFQY1RWcXFkaURBMlYxcXc0TUtybWtiOV8tV0dVUkMtaUNGSnBCU29XUks0d9IB7AFBVV95cUxPRTRzd3ZiS2pRN05TRUVhZDJFcGNuYzBSdXdETHdrSzZtYXRMUmxFOWtyWklEdnNwRTRCNUl4aU1xV1RObW1NYkhqTzlUYzF1Z09Tcl81UVRhMl9mN2xBTlVjanBVRG5CS1JEQURvcjZJZFRuSTdEODFXNEJRUUdnN2FOYzhEazl2VkIyV1NiaGFPR1NERW84VHdQYWcyM2t0VWtINTBCLXJBY0YyZ1VjTHg2Xzllb1lhSjhSZmdTRTQ4U3h3NDcxZXUxRjBDaW9oLVhxRkhDXzZIdTVHQ3EyVlNvZl9DMGIzLXhheQ?oc=5",
-          "summary": "Schools must address bullying based on gender identity, sexual orientation: High Court &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-11-04T22:03:44.000Z"
+          "name": "The Verge AI",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+          "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center...",
+          "publishedAt": "2026-11-04T22:42:15.000Z"
         }
       ],
-      "sourceCount": 2
-    },
-    {
-      "id": "eleven-tribals-arrested-for-seeking-rehabilitation-for-a-proposed-land-port-project-in-west-bengal-i",
-      "title": "Eleven tribals arrested for seeking rehabilitation for a proposed land port project in West Bengal",
-      "link": "https://www.thehindu.com/news/national/west-bengal/eleven-tribals-arrested-for-seeking-rehabilitation-for-a-proposed-land-port-project-in-west-bengal/article71666902.ece",
-      "summary": "Construction at the Land Ports Authority of India (LPAI) site in Gotabari, Torsa Tea Garden, had been going on for nearly five months and during the period, the locals maintained a peaceful, indefinite dharna beside the project site for ov...",
-      "image": "https://th-i.thgim.com/public/news/national/bwm0w2/article71667588.ece/alternates/LANDSCAPE_1200/iStock-611631070%207.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-04T21:56:27.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/west-bengal/eleven-tribals-arrested-for-seeking-rehabilitation-for-a-proposed-land-port-project-in-west-bengal/article71666902.ece",
-          "summary": "Construction at the Land Ports Authority of India (LPAI) site in Gotabari, Torsa Tea Garden, had been going on for nearly five months and during the period, the locals maintained a peaceful, indefinite dharna beside the project site for ov...",
-          "publishedAt": "2026-11-04T21:56:27.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNV1VOdGpHMnZiRjg4YkR4SXJDY25ZRFBPZkNmMDdtV3BtX3VQai1Hd0wtNkpGWWxpcjBFakt5ZVg1TTA3UHpSc05SQlJ2QUJYNWhqaW9vQlhDZWpfYzE2WWpXX1pMQ3I2REJ5SHZkQ1haZHRzMmpWRHJJNkk2MERzeEYyVVVzbklfQ0ljU0VFUXAtRnRyRUVaSlVjdkIzZnJwcDdWN0Q5ZDBDeGxncHI2c2hOQkZsbXl2QmJ1dGtIVlRONThnTXJnM053dk5RVjBuMlR1blBxTmN2THFjT0dfaWVVS0dNbnZDU25oTU1rbi1mX29mWDRRSzUxcUVnd9IBhAJBVV95cUxPbDNKUWdTaGtDcHN6Z1lScFJxdGl5X1BjYktvUnlEcVUwNU15d1g2VWNqSnJIVi0wMUZnNEZfMFl2eVVUQ0FJLS1DWGk5SUpCSDVGTUpYb0ZSakI3cEIzanlBNUZhbFRSbkRCeWYxcnY1TGxsX1hQLUxVUWlPejhWSDE1bnFxQ1VlZXpCQTNrUXJ6clc3V0o2alVGNHVpTVFGbldkZ0s2RFZuejZFdnBOZW1HVXdqamRmeVF3S3NqM05KemhnSXZaV1lzWENrTXhnakE5ZzlPaVhYZjlpbVJRUFhlMllsOU15ZE1VOTdjMTN4VmZnSGJubjFURjNuSnlIZlFMUw?oc=5",
-          "summary": "Eleven tribals arrested for seeking rehabilitation for a proposed land port project in West Bengal &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-11-04T21:56:14.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "ladakh-bureaucrats-worse-than-britishers-says-activist-wancghuk-s-wife-angmo-on-stalling-of-kinderga",
-      "title": "Ladakh bureaucrats worse than Britishers, says activist Wancghuk’s wife Angmo on stalling of kindergarten",
-      "link": "https://www.thehindu.com/news/national/ladakh/ladakh-bureaucrats-worse-than-britishers-says-activist-wancghuks-wife-angmo-on-stalling-of-kindergarten/article71666904.ece",
-      "summary": "Ladakh administration said the Himalayan Institute of Alternatives, Ladakh’s (HIAL) Desert Flower School commenced functioning “without necessary approvals from the competent authority”",
-      "image": "https://th-i.thgim.com/public/incoming/z5nw6i/article71667587.ece/alternates/LANDSCAPE_1200/Ladakh-administGGVGOKI61.3.jpg.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-04T21:50:17.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/ladakh/ladakh-bureaucrats-worse-than-britishers-says-activist-wancghuks-wife-angmo-on-stalling-of-kindergarten/article71666904.ece",
-          "summary": "Ladakh administration said the Himalayan Institute of Alternatives, Ladakh’s (HIAL) Desert Flower School commenced functioning “without necessary approvals from the competent authority”",
-          "publishedAt": "2026-11-04T21:50:17.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNczktRmctZmt1dndtUGJOU3RpVFpvZmlBekV1eGszVkN1c05QcTFOWTRyeHJaSkNlQlJYMDc0dlljSDBTQnJiMTd2MlF4bUtFUFEwdnRvenNDNy1GWHpzNzlEYWZiQUlyU2ktZFdsRFRNNHRKQzlueTA1bU83LWpkOGNPMjd0OXdabm96WUM0bkV6SWtXSEtwMmNlNGdqdFdJUlBMVjdEbU1wbVpIUWdYNTdHb3BiNnltZ2QtNFkyeUM1a0JvQmQ1M3RuSDc1VTFOd1Z2RHRjb3pLc0h3ZFpzbEY1bzc2TkJsd1J0bVgzNkFKaVRvekRyYzZGWE5JZ9IBhAJBVV95cUxNZTc3MXlXQTJYT09KdU5oV3N2SWMybXFCdHh3QTNxY0xzSWZSQ0c1OEE5Zk1VUThJNGZaNFJiRVhKYjRYaEg3MkNSZV96a3J4TF9jVUZBUGgtOGNKMVZPdmo3QTdDWVdmalpyMnpjMDJUTTJGWlFCSUZHVUFCVWFldGNBUnVqTUl4VWpCS01GYmtVNVBvd3ZBaGVmdGNCNDVHbHp4S2dlSEdWZmhjSHVvQ3FFeWxWZ1prUzZzckxLMW4zc002WUpCSjJSVkh1RndZRmVqYnFLWnNMMll6R2NEbGJKTHJVbTlpWGxKLW1pdHFNZGRkRVBvZEIzSkNocVF2cEo2cg?oc=5",
-          "summary": "Ladakh bureaucrats worse than Britishers, says activist Wancghuk’s wife Angmo on stalling of kindergarten &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-11-04T21:50:17.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "gemini-for-home-now-plugs-into-at-t-s-smart-security-system-tech-2026-11-04t20-23-24-000z",
-      "title": "Gemini for Home now plugs into AT&T’s smart security system",
-      "link": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
-      "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/att-connected-life.webp?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T20:23:24.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
-          "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that...",
-          "publishedAt": "2026-11-04T20:23:24.000Z"
-        },
-        {
-          "name": "Mezha.net",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wS2Y2bmIzaVdLSnBIeU1SZFJSbHQ2Tks2VFBXOUpOQTFFM2xtY1NDeTFJajJzN1MxV19nd2Q2RmJ6OXRxOWpLcmhjMVBkUlhDZDFsX3p5OVhRX2ZUaVVZU2xJdjZ3amcteUdlNk9SbDdnSGR5QmRJekcwRXNoeHM?oc=5",
-          "summary": "Gemini for Home adds AI features to AT&T’s smart security system &nbsp;&nbsp; Mezha.net",
-          "publishedAt": "2026-11-04T20:38:24.000Z"
-        },
-        {
-          "name": "AT&T Newsroom",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCOHdJZGUxdF84NlB4XzNvYjNsNFlKMVl4Q1dmU2h2ZVk2eWFPdEFUWGk4TGJqSE5sUmtRS1JxaVhxZGx6S0x2VDNKVm1qVlMxMFNYSTlTNGVYVEhTWW9hTzViQnAtMnhHa1FiT2JpQ3YzNjM3?oc=5",
-          "summary": "AT&T Puts Google Gemini AI to Work for Smarter Home Security &nbsp;&nbsp; AT&T Newsroom",
-          "publishedAt": "2026-11-04T17:39:12.000Z"
-        }
-      ],
-      "sourceCount": 3
+      "sourceCount": 1
     },
     {
       "id": "17-better-ways-elon-musk-could-have-wasted-446-million-tech-2026-11-04t21-45-00-000z",
@@ -604,111 +712,9 @@
           "link": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
           "summary": "One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it...",
           "publishedAt": "2026-11-04T21:45:00.000Z"
-        },
-        {
-          "name": "The Verge",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRGxlcWZZTzVWMkZUeDYzM3VWb0hIaVpwT3JuLXIxWGdxaFJueXpxekk1TzAwLW5ZVkVuRDd1cHl2UXhIZDMxN19DaGN6UXBxN24xMV9iMFhqelJEQ09LMGstYUV3cnBPUlNmQmFnZUM5eGZ2WTE0dEpBdmkzSU5PNzJYeFVaNW9aTlVKUVhEV1Q?oc=5",
-          "summary": "17 better ways Elon Musk could have wasted $446 million &nbsp;&nbsp; The Verge",
-          "publishedAt": "2026-11-04T21:45:00.000Z"
         }
       ],
-      "sourceCount": 2
-    },
-    {
-      "id": "spend-more-time-in-india-rijiju-takes-jibe-at-rahul-list-conditions-for-congress-to-win-more-mps-ind",
-      "title": "Spend more time in India: Rijiju takes jibe at Rahul, list conditions for Congress to ‘win more MPs’",
-      "link": "https://www.thehindu.com/news/national/spend-more-time-in-india-rijiju-takes-jibe-at-rahul-list-conditions-for-congress-to-win-more-mps/article71667420.ece",
-      "summary": "Kiren Rijiju has been taking on Rahul Gandhi and other Congress leaders for demanding an open debate with the Prime Minister",
-      "image": "https://th-i.thgim.com/public/incoming/2rmyhl/article71667586.ece/alternates/LANDSCAPE_1200/20260918234L.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-04T21:37:22.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/spend-more-time-in-india-rijiju-takes-jibe-at-rahul-list-conditions-for-congress-to-win-more-mps/article71667420.ece",
-          "summary": "Kiren Rijiju has been taking on Rahul Gandhi and other Congress leaders for demanding an open debate with the Prime Minister",
-          "publishedAt": "2026-11-04T21:37:22.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPLTJ0Q0pVa2Q2RFNwdkxGOUQ0LTZCVjJxbFA2Nl9zSlBjZlZpWFlRdGxpREQyc1JKVDdadS02MmZ5QWV4Tnd2cG5ySnhockctNWVrQ2xkWXVuZFVfaVN1SXNyNTBWMTlfbE1JOVg2b1BaTlNyRzlJV2RzMktPZXZaZFk1Z1U0QWcySDRMdkhvbm10eTBMN3hnNTZHTG41cHRoNUEwUzRvU09kVUpuTERsRFZjU0F2S2JIbTBWcmxiWTZFSHlGYXFDa1d4c3dmUG5NYUd1TGY1bWxpSm5YWGk4Q0NobkhyU2JYQXpr0gHyAUFVX3lxTFA5RjVoQUdPakFkdmFWeExJRmNYcUg1R2hEOW56X3lCcDZ4c3NhaEhxal9QNHZ0ZWtCNWpER3daN1A2S2VxUmZkejVoMlJXMkFTUTdhNVdPdjN0SUNmaEJZRldaeEpZcTJsTk1TaXNRN3JzQnhhYnl4S0UwcGJzbWxZbWlQdGljVWJpRXpBNGJwM0RlajBuTHZyYUEwclJuREZXTmZDdFZDUElQN3V0b09VUU5heThOcGhYOFlCamdCS2xCbGowSDExYksyaUtxcUYycGJhU3lQSmxjYlB5RDRqd1lRUGYtQndCZFl5ZU93R1ZR?oc=5",
-          "summary": "Spend more time in India: Rijiju takes jibe at Rahul, list conditions for Congress to ‘win more MPs’ &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-11-04T21:37:08.000Z"
-        },
-        {
-          "name": "ETV Bharat",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZzgwU0o0Z0Rhb2RmQ0E0NEw3MXdFUG5lWDBiVko0VGJQT1k4VHZVM0VkLWNrNktmQUl0WExBNVd1b1hHWVo2LTBpTm5MWnpRbkdCQnJvSkMxbkhMd3FmLU00UGpKYkdTTzBxWGpZcmxpbWlSdXF2MXB0d2JMYXhPLVBfc1ItWUVnRW83Ri1FTVNZMmhYSEp2SGx3ZV9JVExveGk0Z1pwZUp1X0VQXzNyTGVNNWg2UGlQQ3VHRXdVNGd1Q0NOTV9yUy1SdVE5eUhjamtqelRHbnhHM0nSAeABQVVfeXFMTUVkTzJURU1oc2RwcGs3NmhrVEh0TVdRVnpucFZMRVpteE9vdTdyWGJXZzZkeEJ0YUtPajhqYTljb2N6U21GX2RVOC11MEtpblNMQ2p0WF8xbVpTT04tdzYyWDUxa3M3cExiTHBGZ3JXQmNqOWpxLWxqVFAxY3ZOcmhGR0xIZ1FHYThiRExSWGxRZ2Q4QVNrYkdPZEItbVNIQXNGSXpTVGFWbm4tVVpVbDVmYkp3YWs5b1BTa3h4d19uejVKQXdndF8wcGFySl8xSWI0UzRVaHo5ZXR0Z1UtTnc?oc=5",
-          "summary": "'Spend More Time In India': Rijiju Takes Jibe At Rahul, Lists Conditions For Congress To 'Win More MPs' &nbsp;&nbsp; ETV Bharat",
-          "publishedAt": "2026-11-04T20:54:46.000Z"
-        }
-      ],
-      "sourceCount": 3
-    },
-    {
-      "id": "gemini-for-home-now-plugs-into-at-t-s-smart-security-system-ai-2026-11-04t20-23-24-000z",
-      "title": "Gemini for Home now plugs into AT&T’s smart security system",
-      "link": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
-      "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/att-connected-life.webp?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge AI",
-      "category": "ai",
-      "categoryLabel": "AI",
-      "publishedAt": "2026-11-04T20:23:24.000Z",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "link": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
-          "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that...",
-          "publishedAt": "2026-11-04T20:23:24.000Z"
-        },
-        {
-          "name": "The Verge",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQenhUZDROek4zN19FZThzeUZUMW9UVzNLdUpNbF9OQVE2MHRlMDV5WUZyNzR3TzlXcDJxWENCV040Nnp2emNkWklvem4yRnhNM0pYUDdoR0Q4UlBOSkNUNG9zc3ZoQzMzQlZ0V1JlTTlIck0zQW5JMHNONzQ5dWJFZXB1a25hcGV3bzdQQkt6NXhhQQ?oc=5",
-          "summary": "Gemini for Home now plugs into AT&T’s smart security system &nbsp;&nbsp; The Verge",
-          "publishedAt": "2026-11-04T20:23:24.000Z"
-        },
-        {
-          "name": "Mezha.net",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wS2Y2bmIzaVdLSnBIeU1SZFJSbHQ2Tks2VFBXOUpOQTFFM2xtY1NDeTFJajJzN1MxV19nd2Q2RmJ6OXRxOWpLcmhjMVBkUlhDZDFsX3p5OVhRX2ZUaVVZU2xJdjZ3amcteUdlNk9SbDdnSGR5QmRJekcwRXNoeHM?oc=5",
-          "summary": "Gemini for Home adds AI features to AT&T’s smart security system &nbsp;&nbsp; Mezha.net",
-          "publishedAt": "2026-11-04T20:38:24.000Z"
-        },
-        {
-          "name": "AT&T Newsroom",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCOHdJZGUxdF84NlB4XzNvYjNsNFlKMVl4Q1dmU2h2ZVk2eWFPdEFUWGk4TGJqSE5sUmtRS1JxaVhxZGx6S0x2VDNKVm1qVlMxMFNYSTlTNGVYVEhTWW9hTzViQnAtMnhHa1FiT2JpQ3YzNjM3?oc=5",
-          "summary": "AT&T Puts Google Gemini AI to Work for Smarter Home Security &nbsp;&nbsp; AT&T Newsroom",
-          "publishedAt": "2026-11-04T17:39:12.000Z"
-        }
-      ],
-      "sourceCount": 4
-    },
-    {
-      "id": "pound-rises-to-its-highest-level-since-the-brexit-referendum-general-2026-11-04t21-35-50-000z",
-      "title": "Pound rises to its highest level since the Brexit referendum",
-      "link": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Pound reaches highest level against a basket of currencies since the Brexit referendum a decade ago",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d226/live/51085d40-d897-11f1-bffe-b94c467713ac.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T21:35:50.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
-          "summary": "Pound reaches highest level against a basket of currencies since the Brexit referendum a decade ago",
-          "publishedAt": "2026-11-04T21:35:50.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45blgtR1oyUDhXR0d1OFJPaVBRT3k2ZmkyMlU1VnlLbGFQdk94b2c2NEVxaTQ4aEZYcXdXYWJWbmJDSU9uLTJESlR3dWJmMktOSXJQRTR6N1UxdVhueXc?oc=5",
-          "summary": "Pound rises to its highest level since the Brexit referendum &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-11-04T21:35:50.000Z"
-        }
-      ],
-      "sourceCount": 2
+      "sourceCount": 1
     },
     {
       "id": "how-i-learned-to-love-an-obnoxious-phone-grip-tech-2026-11-04t21-30-00-000z",
@@ -731,217 +737,61 @@
       "sourceCount": 1
     },
     {
-      "id": "cyclone-murasu-impact-on-telangana-extremely-heavy-rains-lash-bhadradri-on-november-4-india-2026-11",
-      "title": "Cyclone Murasu impact on Telangana | Extremely heavy rains lash Bhadradri on November 4",
-      "link": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-impact-on-telangana-extremely-heavy-overnight-rain-in-bhadradri-and-khammam/article71664340.ece",
-      "summary": "",
-      "image": "https://th-i.thgim.com/public/news/cities/Hyderabad/xlkj05/article71664389.ece/alternates/LANDSCAPE_1200/Image%2019.jpeg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-04T21:16:30.000Z",
+      "id": "bose-s-quietcomfort-headphones-are-more-than-half-off-tech-2026-11-04t21-13-11-000z",
+      "title": "Bose’s QuietComfort Headphones are more than half off",
+      "link": "https://www.theverge.com/gadgets/1026807/bose-quietcomfort-headphones-wireless-deal-sale",
+      "summary": "It’s not often that some of the best noise-canceling headphones you can buy are over half off. But right now, the first-gen Bose QuietComfort Headphones are on sale for $169.99 ($190 off) at Amazon, Best Buy, and Bose, matching its best pr...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/Bose-QuietComfort-Headphones-lifestyle.png?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-04T21:13:11.000Z",
       "sources": [
         {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-impact-on-telangana-extremely-heavy-overnight-rain-in-bhadradri-and-khammam/article71664340.ece",
-          "summary": "",
-          "publishedAt": "2026-11-04T21:16:30.000Z"
-        },
-        {
-          "name": "The New Indian Express",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVUp6TDJhOVdSM0FkRkJzQWVYLWJMcFZaMUxvNjNqTmMwVTJQWjJSWnE2UGNCa0JvWnAxbHVyNTA2aHoxazlxVlRudURkeXd6b1RrN2E3cHFCM041TVZqcGpIa0VBdHBPbnd1MjhWUjVJUjFnZWZzM20yZElIZmdtbUZyYzJVRWlkbkJ1N1dNREJBSkxILXF3bmJhUjNlS0NIamJUaVU0NHR0Z9IBtwFBVV95cUxQWTVCLWdxMVNtSDdrUUNXak5VU3JuSWEyaXRRZVZoRi1OMnZEc2dnbXhFbzBnbDB6QU9JSVVVQ19WcDgwdWd0emFzeEJBNjJqbk54YV9YQWJuSm5OVjE1M0daUjlGVVdWQm9wMzVwS01uVlFKT3ZDREpidU10QVdadEdTLUY4d0pNaXlob1A4SUZPZmZibkROdldJUDhva181d2o2UXZmUTUxd0xzTVd4anNZT3BjZzQ?oc=5",
-          "summary": "Murasu-induced rains lash parts of Telangana &nbsp;&nbsp; The New Indian Express",
-          "publishedAt": "2026-11-04T03:06:43.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "chris-mason-the-us-elections-will-change-trump-how-will-burnham-react-general-2026-11-04t21-02-58-00",
-      "title": "Chris Mason: The US elections will change Trump – how will Burnham react?",
-      "link": "https://www.bbc.co.uk/news/articles/c615j8pw1y81o?at_medium=RSS&at_campaign=rss",
-      "summary": "The big question for the British government is does defeat at home make it more likely that President Trump gets angrier abroad?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e43/live/52316300-d88e-11f1-a97c-0fc6527f3052.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T21:02:58.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/c615j8pw1y81o?at_medium=RSS&at_campaign=rss",
-          "summary": "The big question for the British government is does defeat at home make it more likely that President Trump gets angrier abroad?",
-          "publishedAt": "2026-11-04T21:02:58.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZNjJKWl9JT3YxblBtMDYxRF9Fclcwd1ZWeER3R1pUNER1aVBiY1dtN2YweEpzTlRPRkNuSFVZdXBmc3dTSFQ5UHEzUXRETEZvcUdxaUN4SWZjaFhWMWc?oc=5",
-          "summary": "Chris Mason: The US elections will change Trump – how will Burnham react? &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-11-04T21:02:58.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "more-than-43-lakh-pucca-houses-completed-in-bihar-for-poor-families-india-2026-11-04t20-45-59-000z",
-      "title": "More than 43 lakh pucca houses completed in Bihar for poor families",
-      "link": "https://www.thehindu.com/news/national/bihar/more-than-43-lakh-pucca-houses-completed-in-bihar-for-poor-families/article71666913.ece",
-      "summary": "₹56,743.40 crore spent under PMAY-G so far in the State; of the 43 lakh houses, 36.63 lakh pucca houses built in just yearrs between FY 2016-17 & 2021-22",
-      "image": "",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-04T20:45:59.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/bihar/more-than-43-lakh-pucca-houses-completed-in-bihar-for-poor-families/article71666913.ece",
-          "summary": "₹56,743.40 crore spent under PMAY-G so far in the State; of the 43 lakh houses, 36.63 lakh pucca houses built in just yearrs between FY 2016-17 & 2021-22",
-          "publishedAt": "2026-11-04T20:45:59.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbkVUNGJJcTJOSFNOUTctYmV3djQxVmtKVmFsY3JXTWJ1M0lGMGVVVXhRS2VWbjJhcTAxZ1hDaE5SYVhmSy1Va2Ytbmg5ZHRUUmpvYk85dFYtUlBSN2Y1bVpxZHdCMjNacGRyNUlzaVZ0RHV5UzJGTEhrNE9ubndBSzhSYXNiY25SeThYSjJZc0s0OGk5dnA5NENheHNMZi13eXM1Rkw2QjlTY2pTaGxwTDRPRTVVNzltQnBQVmZ3N1FSVkdiN2QwaWdYWFbSAdMBQVVfeXFMUFNSSWl5SkIzNWYzNlR0dG5mR2RQX19TVVdfOHFUWlNidDkwQzFteUZxVkpyTHFMSzhtWWh1bENQNzYzMDBzelFuUVY0cm1BMjQ2YkJaN2phdmY5OXlTNnJoa1VfeEZYT2gzRXRSaDlKRTdUU0pDWFNWczYzTUVXc21tY09vRTNTUEFDSVlMY045MlltaW9qN0ZtU3BIUXhJS0hJaXUtTkVCUGQzRmxwRGFjYTV3R0RhLTBMWllJQ3M0STItX1pERHZsSWtXOUFndDM2UQ?oc=5",
-          "summary": "More than 43 lakh pucca houses completed in Bihar for poor families &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-11-04T20:44:12.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "wall-street-surges-dow-up-3-as-investors-cheer-removal-of-midterms-uncertainty-by-investing-com-busi",
-      "title": "Wall Street surges, Dow up 3% as investors cheer removal of midterms uncertainty By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPS0xuclEtVlJjcmdQRkRUQzE0eVRyR04xLTlyTzNFMy1GQVRyX0ZSS1pJaHZuRFR6eE93Mm5sRnZHZ0F4N1RtOVZBZEI3M2xTN290Vk5aa211ZXY5RHZPUXNjZTd3WGUtSm5xa19SWFExYzNKaktuN3lSSHJkN1Vlak1XXzF0RU9MQVZncks4bHVzYVJZczgxWHhyOXpCQXphMHJrR3dzR1lVaVBMX2wtNkRCa09PYzlfTTVUWWEwUzRPR3p0dGN1bHhOT2RUdw?oc=5",
-      "summary": "Wall Street surges, Dow up 3% as investors cheer removal of midterms uncertainty By Investing.com &nbsp;&nbsp; Investing.com India Why the stock market is unexpectedly rallying in the wake of the Democratic blue wave &nbsp;&nbsp; Yahoo Fin...",
-      "image": "",
-      "source": "Investing.com India",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-11-04T20:29:29.000Z",
-      "sources": [
-        {
-          "name": "Investing.com India",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPS0xuclEtVlJjcmdQRkRUQzE0eVRyR04xLTlyTzNFMy1GQVRyX0ZSS1pJaHZuRFR6eE93Mm5sRnZHZ0F4N1RtOVZBZEI3M2xTN290Vk5aa211ZXY5RHZPUXNjZTd3WGUtSm5xa19SWFExYzNKaktuN3lSSHJkN1Vlak1XXzF0RU9MQVZncks4bHVzYVJZczgxWHhyOXpCQXphMHJrR3dzR1lVaVBMX2wtNkRCa09PYzlfTTVUWWEwUzRPR3p0dGN1bHhOT2RUdw?oc=5",
-          "summary": "Wall Street surges, Dow up 3% as investors cheer removal of midterms uncertainty By Investing.com &nbsp;&nbsp; Investing.com India Why the stock market is unexpectedly rallying in the wake of the Democratic blue wave &nbsp;&nbsp; Yahoo Fin...",
-          "publishedAt": "2026-11-04T20:29:29.000Z"
+          "name": "The Verge",
+          "link": "https://www.theverge.com/gadgets/1026807/bose-quietcomfort-headphones-wireless-deal-sale",
+          "summary": "It’s not often that some of the best noise-canceling headphones you can buy are over half off. But right now, the first-gen Bose QuietComfort Headphones are on sale for $169.99 ($190 off) at Amazon, Best Buy, and Bose, matching its best pr...",
+          "publishedAt": "2026-11-04T21:13:11.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "u-p-to-match-assembly-voter-lists-with-panchayat-and-urban-local-body-rolls-to-find-missing-voters-i",
-      "title": "U.P. to match Assembly voter lists with Panchayat and Urban local body rolls to find missing voters",
-      "link": "https://www.thehindu.com/news/national/uttar-pradesh/up-to-match-assembly-voter-lists-with-panchayat-and-urban-local-body-rolls-to-find-missing-voters/article71667160.ece",
-      "summary": "U.P. CEO office said that guidelines have been sent to all District Election Officers (DEOs), who have been told to carry out the matching thoroughly",
-      "image": "https://th-i.thgim.com/public/incoming/gs655i/article71667409.ece/alternates/LANDSCAPE_1200/DSC_1622.JPG",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-04T20:23:51.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/uttar-pradesh/up-to-match-assembly-voter-lists-with-panchayat-and-urban-local-body-rolls-to-find-missing-voters/article71667160.ece",
-          "summary": "U.P. CEO office said that guidelines have been sent to all District Election Officers (DEOs), who have been told to carry out the matching thoroughly",
-          "publishedAt": "2026-11-04T20:23:51.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPV2FRUG5XRGVqdHBRRG55Z3dmSUNsd21Xb1N1TWtPNU4wMU9nR3drbzJUNExHYXJHek5td2U3UmNwR1lkMFJEYjgyU0tyWVN6a2U5WDdsRmVWVVF4dDlWWWt3Z0hqNlZsTW80VTFRaXljTFhMQ254MHhhbzhMZ3B3V3h1OTFlVWtuN2llWDNSa0UyOGNzU0JfVEFRN3VpVzdURl95UndMaVB2aXZUUWYwOTM2cklDTjl5S054U3dWQWsteTh0NW1YbVFsZlRLNUlaS1p5S0R2b01pQ1lIM0tnRmFYNG1QX3paYmtTcXF6SUpCWXY3MUJIS3RuMTVnd00?oc=5",
-          "summary": "U.P. to match Assembly voter lists with Panchayat and Urban local body rolls to find missing voters &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-11-04T20:23:42.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "how-voter-shifts-in-texas-helped-elect-a-democratic-senator-and-governor-general-2026-11-04t20-21-14",
-      "title": "How voter shifts in Texas helped elect a Democratic senator and governor",
-      "link": "https://www.bbc.co.uk/news/videos/cmy4xz081kxyo?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC's Ros Atkins looks at the state's long track record of voting Republican and what was different in this year's election.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f49/live/c7c73110-d88b-11f1-b441-2b33b063138f.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T20:21:14.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/videos/cmy4xz081kxyo?at_medium=RSS&at_campaign=rss",
-          "summary": "The BBC's Ros Atkins looks at the state's long track record of voting Republican and what was different in this year's election.",
-          "publishedAt": "2026-11-04T20:21:14.000Z"
-        },
-        {
-          "name": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Ya1lFTzVLbGE2NWExS05PLS00UlhCQ3R4Y0NXWmptMldqNTN1cENwWVQ2cEd3NVlYMjZzTWRGM1ljVHBSc08yckZHdi1ENHVTVjFHN3RjYnRwODQ?oc=5",
-          "summary": "How voter shifts in Texas helped elect a Democratic senator and governor &nbsp;&nbsp; BBC",
-          "publishedAt": "2026-11-04T20:21:14.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "helping-hand-on-cyclones-arnab-and-murasu-india-2026-11-04t20-17-28-000z",
-      "title": "Helping hand: On Cyclones Arnab and Murasu",
-      "link": "https://www.thehindu.com/opinion/editorial/helping-hand-on-cyclones-arnab-and-murasu/article71666118.ece",
-      "summary": "States need help to rebuild public infrastructure after damage in cyclones",
-      "image": "",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-04T20:17:28.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/opinion/editorial/helping-hand-on-cyclones-arnab-and-murasu/article71666118.ece",
-          "summary": "States need help to rebuild public infrastructure after damage in cyclones",
-          "publishedAt": "2026-11-04T20:17:28.000Z"
-        },
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNk1jcVNMa0NtQWR4QUZNdHAxbmhtcTczS2ViSFA3QjBJZGl3ZVctSUxhbG1XYl9mNk9BbjhxVjd2NHBkMTl4cVBRSDdXWmthc3lPVFpSRG94X0FWcVcxVlByMHY1TEc4NmhDTWpnMkJuQV9FX21FaGNjRkM5d0ZVdnM3TWY0bjZTMDV3ZWhuUmt2QmZCOEQ0bmRkY0ZRWTkxZy1MdmRwUdIBrgFBVV95cUxOemgtUE5SazQzaEthNzFDYXNDd0ZqRmVMbWNRSDh5c1JGQ0VpRWJmdVBTSmMxWFc2LTZqcmk2WEtnNDRabkM5dC00djNsaW9uZDNNcU52dXZmRUtJbEd3c0hSa1hqTTV4dEg4V3lVVDZuUHppbTZ0MGwtbWVpRHplMVRicHR1UE01Y3NMV2t0M25yR0NLQ2I2d2hBTEhrZmQzSW84UnlndFlfVWVQR1E?oc=5",
-          "summary": "Helping hand: On Cyclones Arnab and Murasu &nbsp;&nbsp; The Hindu",
-          "publishedAt": "2026-11-04T18:50:00.000Z"
-        }
-      ],
-      "sourceCount": 2
-    },
-    {
-      "id": "india-s-aditya-l1-mission-reveals-new-details-about-solar-eruptions-that-could-improve-space-weather",
-      "title": "India’s Aditya-L1 Mission Reveals New Details About Solar Eruptions That Could Improve Space Weather Forecasting",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaURXZ0F4RWtrMTFTemhlTU9rUGFvZmNsdkJuS0o5ZzJtbE9qSlBDOFpSTmQzWktMem5MVVEwUEpKQkg3bHV4UURJOUxRUHVfLVlPbkxJYzEtU0JTMld1aUNwWmg0SkQycHNQcVRkRFhpUEVsTWZiQ1Zjdll3V2ZKTWtONy1lbGdmMk9LWWdCZ1MtQmFWRk1WT0lKLWt3MmhDREFuSk5faWJGdkVuWDdsdm1BdHhXSUk5eTBhaW9YNnFZeDFNNkI4MzdGaGpzQmJSU01QNlZzRQ?oc=5",
-      "summary": "India’s Aditya-L1 Mission Reveals New Details About Solar Eruptions That Could Improve Space Weather Forecasting &nbsp;&nbsp; INDIA New England News Aditya-L1 Uncovers Asymmetric Expansion of Solar Eruption, Offers New Insights into Space...",
-      "image": "",
-      "source": "INDIA New England News",
+      "id": "gemini-for-home-now-plugs-into-at-t-s-smart-security-system-tech-2026-11-04t20-23-24-000z",
+      "title": "Gemini for Home now plugs into AT&T’s smart security system",
+      "link": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/att-connected-life.webp?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
       "category": "tech",
       "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T19:43:52.000Z",
+      "publishedAt": "2026-11-04T20:23:24.000Z",
       "sources": [
         {
-          "name": "INDIA New England News",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaURXZ0F4RWtrMTFTemhlTU9rUGFvZmNsdkJuS0o5ZzJtbE9qSlBDOFpSTmQzWktMem5MVVEwUEpKQkg3bHV4UURJOUxRUHVfLVlPbkxJYzEtU0JTMld1aUNwWmg0SkQycHNQcVRkRFhpUEVsTWZiQ1Zjdll3V2ZKTWtONy1lbGdmMk9LWWdCZ1MtQmFWRk1WT0lKLWt3MmhDREFuSk5faWJGdkVuWDdsdm1BdHhXSUk5eTBhaW9YNnFZeDFNNkI4MzdGaGpzQmJSU01QNlZzRQ?oc=5",
-          "summary": "India’s Aditya-L1 Mission Reveals New Details About Solar Eruptions That Could Improve Space Weather Forecasting &nbsp;&nbsp; INDIA New England News Aditya-L1 Uncovers Asymmetric Expansion of Solar Eruption, Offers New Insights into Space...",
-          "publishedAt": "2026-11-04T19:43:52.000Z"
+          "name": "The Verge",
+          "link": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+          "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that...",
+          "publishedAt": "2026-11-04T20:23:24.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "playstation-s-early-black-friday-sale-is-here-with-up-to-70-off-games-plus-deals-on-ps5-accessories",
-      "title": "PlayStation's Early Black Friday Sale Is Here With Up to 70% Off Games, Plus Deals on PS5 Accessories",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSMzZHVmZaQXJEX0NzRzI2ZFllX2Z6bTUzU01JZ09DSHlkajdEZ2lnaGNfMFZ6NkhuX0VOc1Z5M0tBQWRNN0t4ekJNR2J6c3ZzLUtNUzhiUEhqYWpmUnl3QjlraWtvWkxPVE1OSDVudUphQVFFM3VhZg?oc=5",
-      "summary": "PlayStation's Early Black Friday Sale Is Here With Up to 70% Off Games, Plus Deals on PS5 Accessories &nbsp;&nbsp; CNET PlayStation Store’s Black Friday Deals 2026 &nbsp;&nbsp; PlayStation.Blog Playstation Black Friday Sale 2026 deals: Ful...",
-      "image": "",
-      "source": "CNET",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T19:23:43.000Z",
+      "id": "gemini-for-home-now-plugs-into-at-t-s-smart-security-system-ai-2026-11-04t20-23-24-000z",
+      "title": "Gemini for Home now plugs into AT&T’s smart security system",
+      "link": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/att-connected-life.webp?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge AI",
+      "category": "ai",
+      "categoryLabel": "AI",
+      "publishedAt": "2026-11-04T20:23:24.000Z",
       "sources": [
         {
-          "name": "CNET",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSMzZHVmZaQXJEX0NzRzI2ZFllX2Z6bTUzU01JZ09DSHlkajdEZ2lnaGNfMFZ6NkhuX0VOc1Z5M0tBQWRNN0t4ekJNR2J6c3ZzLUtNUzhiUEhqYWpmUnl3QjlraWtvWkxPVE1OSDVudUphQVFFM3VhZg?oc=5",
-          "summary": "PlayStation's Early Black Friday Sale Is Here With Up to 70% Off Games, Plus Deals on PS5 Accessories &nbsp;&nbsp; CNET PlayStation Store’s Black Friday Deals 2026 &nbsp;&nbsp; PlayStation.Blog Playstation Black Friday Sale 2026 deals: Ful...",
-          "publishedAt": "2026-11-04T19:23:43.000Z"
+          "name": "The Verge AI",
+          "link": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+          "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that...",
+          "publishedAt": "2026-11-04T20:23:24.000Z"
         }
       ],
       "sourceCount": 1
@@ -982,26 +832,6 @@
           "link": "https://www.theverge.com/news/1026455/xbox-nano-direct-cloud-wifi-connection-xbox-cloud-gaming-phone-controller",
           "summary": "I revealed yesterday that the new Xbox Nano controller supports a Wi-Fi connection directly to Xbox Cloud Gaming, and now Microsoft is making it official today. Two new Xbox previews will let players try out using a phone as a controller o...",
           "publishedAt": "2026-11-04T19:00:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "bowen-trump-s-loss-limits-powers-at-home-but-it-will-likely-be-different-abroad-general-2026-11-04t1",
-      "title": "Bowen: Trump's loss limits powers at home, but it will likely be different abroad",
-      "link": "https://www.bbc.co.uk/news/articles/crkg7wj8g201o?at_medium=RSS&at_campaign=rss",
-      "summary": "After bruising midterm results, President Trump will want to show he can still shake the world, the BBC's international editor writes.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b1c3/live/ed878090-d880-11f1-a701-fddedf244c16.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T18:35:07.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/crkg7wj8g201o?at_medium=RSS&at_campaign=rss",
-          "summary": "After bruising midterm results, President Trump will want to show he can still shake the world, the BBC's international editor writes.",
-          "publishedAt": "2026-11-04T18:35:07.000Z"
         }
       ],
       "sourceCount": 1
@@ -1107,46 +937,6 @@
       "sourceCount": 1
     },
     {
-      "id": "what-democrats-can-and-can-t-do-with-their-new-power-after-taking-congress-general-2026-11-04t18-01",
-      "title": "What Democrats can and can't do with their new power after taking Congress",
-      "link": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Democrats can vote legislation through. But Trump still has veto power.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f375/live/faf00870-d889-11f1-b441-2b33b063138f.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T18:01:27.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss",
-          "summary": "Democrats can vote legislation through. But Trump still has veto power.",
-          "publishedAt": "2026-11-04T18:01:27.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "my-therapist-thinks-i-should-chuck-the-amazon-bee-frontier-out-a-window-tech-2026-11-04t18-00-00-000",
-      "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
-      "link": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
-      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268817_Bee_Frontier_AKrales_0098.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T18:00:00.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
-          "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you...",
-          "publishedAt": "2026-11-04T18:00:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "my-therapist-thinks-i-should-chuck-the-amazon-bee-frontier-out-a-window-ai-2026-11-04t18-00-00-000z",
       "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
       "link": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
@@ -1187,26 +977,6 @@
       "sourceCount": 1
     },
     {
-      "id": "trade-setup-for-november-5-top-15-things-to-know-before-the-opening-bell-as-oil-prices-fall-below-10",
-      "title": "Trade Setup for November 5: Top 15 things to know before the opening bell as oil prices fall below $100 a...",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxObnlHWnJQYUZOeV9rXzRFVlNOZE5NYjI4MFNDQ3pYRjB2MHZ1UjhUTHRnc0dkRmxKT2M5bTNueVNGdlFWdVk5dWhnV19rTWoxN2FKN2pnaDNSQWpPeUhSR0pNQ1ZncV9McTJSWmstaWN5Y1RCejNUMjNXazREWVJBOTdMZVh4S1pZd0dvZEktbW9IZG9jYTIwNlNLVGxwS2trMU0tb0ZLNTNqS2NnbTctanBfcFFzSzhkenY4Y0FJMU1pc0pEenZUb2QxcDg4elZLMG9YQlBqaExwbW5fSkpmN0VWNjdZSlJ2LWlaRG5Nb1ladWs0SnRObjRWRF9TQlJwYWhMam530gGLAkFVX3lxTE9PTkhEMDZ6dGpYMGhqZWEtSGhnQ0FEOGhsd283R0NKUlZ5aV9TeXUtWDRtTmh6Z3c2OVF3ZHpOZDBfT3BGVVZUcGxNdThxVklSWVZKOVlLclZPMnE5Q2gtSEc5TG52M0VQRmh1dHBRbWt2ZXhxQkJOcXExT1BTcVlhZlNiZXY1Y3pkV2t6WXdrNzROZno0Ylo4SEZsTVdQdXZaZkk4QV9YZjRWTHhhUy1YcktMU1ZyaWtzYWNWSmpoT3c3dFNlVXFGRURZZFdFM2NyOTQxWjg1WEd3Mk40bGt2SEhUZ2VEeWY3bk1WRnBmeEFrTFQ3QW5obmoxemdsNkE5NmdNdUhYbjBkSQ?oc=5",
-      "summary": "Trade Setup for November 5: Top 15 things to know before the opening bell as oil prices fall below $100 a... &nbsp;&nbsp; Moneycontrol.com US optimism fuels Nifty’s strongest 5-day rally in seven months &nbsp;&nbsp; TradingView Trade Setup...",
-      "image": "",
-      "source": "Moneycontrol.com",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-11-04T17:55:10.000Z",
-      "sources": [
-        {
-          "name": "Moneycontrol.com",
-          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxObnlHWnJQYUZOeV9rXzRFVlNOZE5NYjI4MFNDQ3pYRjB2MHZ1UjhUTHRnc0dkRmxKT2M5bTNueVNGdlFWdVk5dWhnV19rTWoxN2FKN2pnaDNSQWpPeUhSR0pNQ1ZncV9McTJSWmstaWN5Y1RCejNUMjNXazREWVJBOTdMZVh4S1pZd0dvZEktbW9IZG9jYTIwNlNLVGxwS2trMU0tb0ZLNTNqS2NnbTctanBfcFFzSzhkenY4Y0FJMU1pc0pEenZUb2QxcDg4elZLMG9YQlBqaExwbW5fSkpmN0VWNjdZSlJ2LWlaRG5Nb1ladWs0SnRObjRWRF9TQlJwYWhMam530gGLAkFVX3lxTE9PTkhEMDZ6dGpYMGhqZWEtSGhnQ0FEOGhsd283R0NKUlZ5aV9TeXUtWDRtTmh6Z3c2OVF3ZHpOZDBfT3BGVVZUcGxNdThxVklSWVZKOVlLclZPMnE5Q2gtSEc5TG52M0VQRmh1dHBRbWt2ZXhxQkJOcXExT1BTcVlhZlNiZXY1Y3pkV2t6WXdrNzROZno0Ylo4SEZsTVdQdXZaZkk4QV9YZjRWTHhhUy1YcktMU1ZyaWtzYWNWSmpoT3c3dFNlVXFGRURZZFdFM2NyOTQxWjg1WEd3Mk40bGt2SEhUZ2VEeWY3bk1WRnBmeEFrTFQ3QW5obmoxemdsNkE5NmdNdUhYbjBkSQ?oc=5",
-          "summary": "Trade Setup for November 5: Top 15 things to know before the opening bell as oil prices fall below $100 a... &nbsp;&nbsp; Moneycontrol.com US optimism fuels Nifty’s strongest 5-day rally in seven months &nbsp;&nbsp; TradingView Trade Setup...",
-          "publishedAt": "2026-11-04T17:55:10.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "dharma-field-extractor-any-document-in-structured-fields-in-json-out-ai-2026-11-04t17-50-10-000z",
       "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
       "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
@@ -1222,26 +992,6 @@
           "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
           "summary": "",
           "publishedAt": "2026-11-04T17:50:10.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "11-sdrf-fire-services-personnel-missing-after-rescue-boats-capsize-in-telangana-floodwaters-india-ne",
-      "title": "11 SDRF, fire services personnel missing after rescue boats capsize in Telangana floodwaters | India News",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNC1SUEVVSG5tUG9ORW1CTnpkemY0OVdVY2Z4bDYxMkdaLU5uRTh4d1J0ZEVQVWdnc0lvSEswN19Vd1JBVUdrdzhhZWMySzFka1lwMWtUclVpbG5ZdTV1NjROSTZnczhwcTdVSng5eWpJRzI3eC1rVWd3M0hjZDEwR3lOYk41XzNKdXhHSHFtWWxqcE5IbEVNcU9BTF9DN3c2MUFCSTFSdEptVi1EYzVFZGt1b1lmX1ZrdTBERlRQUFZlc1JTWkRtX25QaEEzQ0d6X045RjB1SzdtRjZobThRSUNubXZfRTZnYWfSAe8BQVVfeXFMUFpIOVc2UGU4THByV2FfakNNeUswOVhhaG51YjdCWVUxRTZEZWJqR3pKaGJ5M0ZrYkhpT3VpOVBRcmNhRlh4UVBvbm5hMWItZHZFLUV0amFRMW0wVDBsTHY5d053dTNWbkhoLTktUVpWOE16dDRtal9FSkd1bGNsQ1BnS0hUaVJfV0pUb0FOTnFkSGktMWpaYXNHMFpVc1lpX3BMWERMMzB6WjhMYk8xMEVGV25jM2s4ai1tN3ZhZmNSSkVaVnZobEttclotUGlyaWdUMjgtYl9PZnFJeHBSN1RfZGxoLWtxcVhha2tDWFk?oc=5",
-      "summary": "11 SDRF, fire services personnel missing after rescue boats capsize in Telangana floodwaters | India News &nbsp;&nbsp; Hindustan Times Nine rescue personnel feared missing as boats capsize in swollen Peddacheruvu in Khammam district &nbsp;...",
-      "image": "",
-      "source": "Hindustan Times",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T17:35:29.000Z",
-      "sources": [
-        {
-          "name": "Hindustan Times",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNC1SUEVVSG5tUG9ORW1CTnpkemY0OVdVY2Z4bDYxMkdaLU5uRTh4d1J0ZEVQVWdnc0lvSEswN19Vd1JBVUdrdzhhZWMySzFka1lwMWtUclVpbG5ZdTV1NjROSTZnczhwcTdVSng5eWpJRzI3eC1rVWd3M0hjZDEwR3lOYk41XzNKdXhHSHFtWWxqcE5IbEVNcU9BTF9DN3c2MUFCSTFSdEptVi1EYzVFZGt1b1lmX1ZrdTBERlRQUFZlc1JTWkRtX25QaEEzQ0d6X045RjB1SzdtRjZobThRSUNubXZfRTZnYWfSAe8BQVVfeXFMUFpIOVc2UGU4THByV2FfakNNeUswOVhhaG51YjdCWVUxRTZEZWJqR3pKaGJ5M0ZrYkhpT3VpOVBRcmNhRlh4UVBvbm5hMWItZHZFLUV0amFRMW0wVDBsTHY5d053dTNWbkhoLTktUVpWOE16dDRtal9FSkd1bGNsQ1BnS0hUaVJfV0pUb0FOTnFkSGktMWpaYXNHMFpVc1lpX3BMWERMMzB6WjhMYk8xMEVGV25jM2s4ai1tN3ZhZmNSSkVaVnZobEttclotUGlyaWdUMjgtYl9PZnFJeHBSN1RfZGxoLWtxcVhha2tDWFk?oc=5",
-          "summary": "11 SDRF, fire services personnel missing after rescue boats capsize in Telangana floodwaters | India News &nbsp;&nbsp; Hindustan Times Nine rescue personnel feared missing as boats capsize in swollen Peddacheruvu in Khammam district &nbsp;...",
-          "publishedAt": "2026-11-04T17:35:29.000Z"
         }
       ],
       "sourceCount": 1
@@ -1282,26 +1032,6 @@
           "link": "https://www.bbc.co.uk/sport/football/articles/c6zxjz40l280o?at_medium=RSS&at_campaign=rss",
           "summary": "FC Andorra goalkeeper Jesus Owono puts out a statement through his club, expressing his sorrow and pain after Tenerife forward Jesus de Miguel's death.",
           "publishedAt": "2026-11-04T16:40:38.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "brigitte-bardot-inheritance-row-deepens-after-private-letter-to-partner-leaked-general-2026-11-04t16",
-      "title": "Brigitte Bardot inheritance row deepens after private letter to partner leaked",
-      "link": "https://www.bbc.co.uk/news/articles/ck1ex56e5q8wo?at_medium=RSS&at_campaign=rss",
-      "summary": "In the letter, the late French actress says her partner Bernard de Chiara was \"incapable\" of giving \"support, a tenderness, a presence\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c5a/live/e353adf0-d863-11f1-85ab-b3cc3b5498c6.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T16:31:14.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/ck1ex56e5q8wo?at_medium=RSS&at_campaign=rss",
-          "summary": "In the letter, the late French actress says her partner Bernard de Chiara was \"incapable\" of giving \"support, a tenderness, a presence\".",
-          "publishedAt": "2026-11-04T16:31:14.000Z"
         }
       ],
       "sourceCount": 1
@@ -1367,26 +1097,6 @@
       "sourceCount": 1
     },
     {
-      "id": "jd-vance-says-iran-war-reason-why-republicans-lost-us-midterm-elections-general-2026-11-04t16-02-21",
-      "title": "JD Vance Says Iran War \"Reason\" Why Republicans Lost US Midterm Elections",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTWxwdl8wX3FPZ3otQUFrRlIwd1ZqS25nZTJKbE1fUVp1MEQyV2NvM1ZVWnQtMmJrbVBqXzRocDlYaW05LTVwd1VQcU9oZGZXWkZDWnl5eDNLZ3hFb0V6Y1pYaG5DMEMxdVZRSlRmRlVVTGU1SWRXeTcxZXA0azF2Q21pVFpqSFc4SWRsdTBtYUtXLUlSXy1rN1h4V1N0YmI5cHZWSmZNUGdSbHVCUnBqYXJB?oc=5",
-      "summary": "JD Vance Says Iran War \"Reason\" Why Republicans Lost US Midterm Elections &nbsp;&nbsp; NDTV Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war &nbsp;&nbsp; CNBC 'Republican voters showed up but backed...",
-      "image": "",
-      "source": "NDTV",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T16:02:21.000Z",
-      "sources": [
-        {
-          "name": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTWxwdl8wX3FPZ3otQUFrRlIwd1ZqS25nZTJKbE1fUVp1MEQyV2NvM1ZVWnQtMmJrbVBqXzRocDlYaW05LTVwd1VQcU9oZGZXWkZDWnl5eDNLZ3hFb0V6Y1pYaG5DMEMxdVZRSlRmRlVVTGU1SWRXeTcxZXA0azF2Q21pVFpqSFc4SWRsdTBtYUtXLUlSXy1rN1h4V1N0YmI5cHZWSmZNUGdSbHVCUnBqYXJB?oc=5",
-          "summary": "JD Vance Says Iran War \"Reason\" Why Republicans Lost US Midterm Elections &nbsp;&nbsp; NDTV Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war &nbsp;&nbsp; CNBC 'Republican voters showed up but backed...",
-          "publishedAt": "2026-11-04T16:02:21.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "uber-only-fulfilled-4-rides-from-ai-agents-last-quarter-ai-2026-11-04t15-58-45-000z",
       "title": "Uber only fulfilled 4 rides from AI agents last quarter",
       "link": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
@@ -1407,106 +1117,6 @@
       "sourceCount": 1
     },
     {
-      "id": "could-smell-alcohol-on-him-rahul-gandhi-attacks-bhagwant-mann-aap-reacts-general-2026-11-04t15-52-45",
-      "title": "\"Could Smell Alcohol On Him\": Rahul Gandhi Attacks Bhagwant Mann, AAP Reacts",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUENNMDJqMzV0WTQwSjVvNWtKTERtX0JheVh0VUVqSlhTUVRoWEE4RUlBMkhWdHBqdmhrdnZtRi1mbmRJcXlueXVzYkNnTXYweUJPRVhxbWFYMXhIMFZ2UTNPNDJBTExGZkV4LWdxdDVUQy1yMUpYWUdNaUN3bGNLeUl2U056cFhfbXAtVGpFN1hfRGh3S0k1YWFKa3JBNEh5T1RBMk1VZlpCVWpqckRZWFBJZE5YSkRhbXBvbzVLQ3pSQ3hqZHB4SHhzVdIB0wFBVV95cUxPcTlBQnBvdGwxdGhwbjdQUnJ1VkRIR0VqQVRCMFpjLThyM3NiM3BQMTlZTTBJRjVEdXIxeVlGSjRzS25GQVJkNXV4dEd5UXA1ZUt0LXl3eE16RmVFZldHelpYTWM3eVktTWY0WHZ3bEVKVjJSd2ctMDBhY2NBbElkN0tBem9SUjkxY04ycnBPZm1mbHpleWlsS25ET051dG1XNk9WNTlhOElNaTY3SHR2UGlPRnV0RzVaZXp5UFNFd3F3QnpCVVdfekNrUUFya3lLYVZz?oc=5",
-      "summary": "\"Could Smell Alcohol On Him\": Rahul Gandhi Attacks Bhagwant Mann, AAP Reacts &nbsp;&nbsp; NDTV Rahul Gandhi kicks off election campaign in Punjab, flags gangsterism, drug menace &nbsp;&nbsp; The Hindu 'He walked into room with tattoos': Ra...",
-      "image": "",
-      "source": "NDTV",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T15:52:45.000Z",
-      "sources": [
-        {
-          "name": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUENNMDJqMzV0WTQwSjVvNWtKTERtX0JheVh0VUVqSlhTUVRoWEE4RUlBMkhWdHBqdmhrdnZtRi1mbmRJcXlueXVzYkNnTXYweUJPRVhxbWFYMXhIMFZ2UTNPNDJBTExGZkV4LWdxdDVUQy1yMUpYWUdNaUN3bGNLeUl2U056cFhfbXAtVGpFN1hfRGh3S0k1YWFKa3JBNEh5T1RBMk1VZlpCVWpqckRZWFBJZE5YSkRhbXBvbzVLQ3pSQ3hqZHB4SHhzVdIB0wFBVV95cUxPcTlBQnBvdGwxdGhwbjdQUnJ1VkRIR0VqQVRCMFpjLThyM3NiM3BQMTlZTTBJRjVEdXIxeVlGSjRzS25GQVJkNXV4dEd5UXA1ZUt0LXl3eE16RmVFZldHelpYTWM3eVktTWY0WHZ3bEVKVjJSd2ctMDBhY2NBbElkN0tBem9SUjkxY04ycnBPZm1mbHpleWlsS25ET051dG1XNk9WNTlhOElNaTY3SHR2UGlPRnV0RzVaZXp5UFNFd3F3QnpCVVdfekNrUUFya3lLYVZz?oc=5",
-          "summary": "\"Could Smell Alcohol On Him\": Rahul Gandhi Attacks Bhagwant Mann, AAP Reacts &nbsp;&nbsp; NDTV Rahul Gandhi kicks off election campaign in Punjab, flags gangsterism, drug menace &nbsp;&nbsp; The Hindu 'He walked into room with tattoos': Ra...",
-          "publishedAt": "2026-11-04T15:52:45.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "harmanpreet-shilanand-lead-india-s-goal-fest-as-hosts-thrash-south-korea-8-1-set-act-final-against-j",
-      "title": "Harmanpreet, Shilanand lead India's goal fest as hosts thrash South Korea 8-1, set ACT final against Japa",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNUktfQnJwQkJyVGhiRUVkYWE4WThkd1lvMXgyc3VST2d3U1RjSnI4NUVWUUl2Y3hwS0dtZktJN1BFREFFRWM2cDljQmpvSkJRRHVoS2UzOEQzYnlJN3h4VHlSY0Y1eHA5Um42T2pkUl9makFFRUJhUDhKWlYzVVJLdUlzZnlIaHNlcENMZ2lfclJFMHZKX1lzMC1FSENhMkM0eVNPVnRQOXdGX2pUWHpFaEpIVGpkUnJQdG9tQU5adXJibk15M0Nzd2VrWlVDZHBRVHZoZ0hBd3NoUVZxaktFYVc2MVJwMngwVE44R2JSZnNta09CMjJQZXVwSUNNdGtMSG9wOS1wMHl4Q21XYTRJQllsSVNJRHRNc1o0?oc=5",
-      "summary": "Harmanpreet, Shilanand lead India's goal fest as hosts thrash South Korea 8-1, set ACT final against Japa &nbsp;&nbsp; The Times of India Asian Champions Trophy: India enter final after 8-1 win over South Korea &nbsp;&nbsp; ESPN India Domi...",
-      "image": "",
-      "source": "The Times of India",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-04T15:51:00.000Z",
-      "sources": [
-        {
-          "name": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNUktfQnJwQkJyVGhiRUVkYWE4WThkd1lvMXgyc3VST2d3U1RjSnI4NUVWUUl2Y3hwS0dtZktJN1BFREFFRWM2cDljQmpvSkJRRHVoS2UzOEQzYnlJN3h4VHlSY0Y1eHA5Um42T2pkUl9makFFRUJhUDhKWlYzVVJLdUlzZnlIaHNlcENMZ2lfclJFMHZKX1lzMC1FSENhMkM0eVNPVnRQOXdGX2pUWHpFaEpIVGpkUnJQdG9tQU5adXJibk15M0Nzd2VrWlVDZHBRVHZoZ0hBd3NoUVZxaktFYVc2MVJwMngwVE44R2JSZnNta09CMjJQZXVwSUNNdGtMSG9wOS1wMHl4Q21XYTRJQllsSVNJRHRNc1o0?oc=5",
-          "summary": "Harmanpreet, Shilanand lead India's goal fest as hosts thrash South Korea 8-1, set ACT final against Japa &nbsp;&nbsp; The Times of India Asian Champions Trophy: India enter final after 8-1 win over South Korea &nbsp;&nbsp; ESPN India Domi...",
-          "publishedAt": "2026-11-04T15:51:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "oman-secure-spot-at-2027-men-s-world-cup-qualifiers-sports-2026-11-04t15-46-47-000z",
-      "title": "Oman secure spot at 2027 men's World Cup Qualifiers",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTHZXeDR1U0N6TXpleExxODJtd2RkSzdhZkJwR1UwUUc0bmpEeVhsckRwNFpwSFVjemVibFdaTl9JLXBFejJLMTJ2UHBEU2xnTkEtdEN2OUFjM3RzQzFRVDdLQ2diRmZBVzZLUmRtZmdEUTR2WGx3eDByX3lLcTdrOFIxUTBsQ09OS2JUdGJZcmI5dHU50gGmAUFVX3lxTE54QnBVZExXSWVzMkU1a1l6U2JzR0x2RFNrZTRramlYZ0k4Y3RodnQ0emVkQXQ4U1AwY0Nha0NwVFVGcnd1UF9LTkMxVmRNQ0ZuSHRUS0FERzJFdVFUSWJBYVhKLVExS0NrRmlpX0JhX2ZLY3VLbXU0amFoM2ZlaTJKNndZbmJLMW5BTDJHN2tfSEpNRjJFcGN0Njd5Mlpfd0tfcnpyM1E?oc=5",
-      "summary": "Oman secure spot at 2027 men's World Cup Qualifiers &nbsp;&nbsp; Cricinfo OMAN SECURE SPOT AT ICC MEN’S CRICKET WORLD CUP QUALIFIER 2027 &nbsp;&nbsp; ICC CWC League 2 top-four race reaches tense finish &nbsp;&nbsp; ICC Oman seal ODI World...",
-      "image": "",
-      "source": "Cricinfo",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-04T15:46:47.000Z",
-      "sources": [
-        {
-          "name": "Cricinfo",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTHZXeDR1U0N6TXpleExxODJtd2RkSzdhZkJwR1UwUUc0bmpEeVhsckRwNFpwSFVjemVibFdaTl9JLXBFejJLMTJ2UHBEU2xnTkEtdEN2OUFjM3RzQzFRVDdLQ2diRmZBVzZLUmRtZmdEUTR2WGx3eDByX3lLcTdrOFIxUTBsQ09OS2JUdGJZcmI5dHU50gGmAUFVX3lxTE54QnBVZExXSWVzMkU1a1l6U2JzR0x2RFNrZTRramlYZ0k4Y3RodnQ0emVkQXQ4U1AwY0Nha0NwVFVGcnd1UF9LTkMxVmRNQ0ZuSHRUS0FERzJFdVFUSWJBYVhKLVExS0NrRmlpX0JhX2ZLY3VLbXU0amFoM2ZlaTJKNndZbmJLMW5BTDJHN2tfSEpNRjJFcGN0Njd5Mlpfd0tfcnpyM1E?oc=5",
-          "summary": "Oman secure spot at 2027 men's World Cup Qualifiers &nbsp;&nbsp; Cricinfo OMAN SECURE SPOT AT ICC MEN’S CRICKET WORLD CUP QUALIFIER 2027 &nbsp;&nbsp; ICC CWC League 2 top-four race reaches tense finish &nbsp;&nbsp; ICC Oman seal ODI World...",
-          "publishedAt": "2026-11-04T15:46:47.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "voyager-1-reaches-1-light-day-from-earth-after-49-years-tech-2026-11-04t15-37-54-000z",
-      "title": "Voyager 1 Reaches 1 Light-Day From Earth After 49 Years",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb1h0WktUZmx5T0N5a2g5QjRZWkVwQ1pvVnV0MEdpSGluUTEwZ2lBcHVra292QlRvNWh1ZXNYWW9CdWlYLXA3UVItbS1fQndWTkhEc1VyeU9RWjhqZUtoM1h5bEVsZzlUZ24ySl8xX2FvY3FoVVlzV0pQcnhyVXU2anE0Y0s?oc=5",
-      "summary": "Voyager 1 Reaches 1 Light-Day From Earth After 49 Years &nbsp;&nbsp; 조선일보 NASA’s Voyager 1 is about to reach a historic one-light-day milestone &nbsp;&nbsp; Science Daily November’s Night Sky Notes: Light-Day Away &nbsp;&nbsp; NASA Science...",
-      "image": "",
-      "source": "조선일보",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T15:37:54.000Z",
-      "sources": [
-        {
-          "name": "조선일보",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb1h0WktUZmx5T0N5a2g5QjRZWkVwQ1pvVnV0MEdpSGluUTEwZ2lBcHVra292QlRvNWh1ZXNYWW9CdWlYLXA3UVItbS1fQndWTkhEc1VyeU9RWjhqZUtoM1h5bEVsZzlUZ24ySl8xX2FvY3FoVVlzV0pQcnhyVXU2anE0Y0s?oc=5",
-          "summary": "Voyager 1 Reaches 1 Light-Day From Earth After 49 Years &nbsp;&nbsp; 조선일보 NASA’s Voyager 1 is about to reach a historic one-light-day milestone &nbsp;&nbsp; Science Daily November’s Night Sky Notes: Light-Day Away &nbsp;&nbsp; NASA Science...",
-          "publishedAt": "2026-11-04T15:37:54.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "india-to-build-domestic-lithium-nickel-processing-capacity-with-rs-2-814-crore-incentive-scheme-busi",
-      "title": "India to build domestic lithium, nickel processing capacity with Rs 2,814-crore incentive scheme",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQM0JjYXV3ZGduZnM5eVVxQmZVLUFCMndGSktnS0hkN2lKWU5kV25vVHVoSGc0dXlHdDNFeHBMQ3RLc1p3M3NsdE1yUjBCLU9IaDJJY0ZkMDY4ZjZOWE90UnZ0ems1NnR6ZDE2aXdFSnZMZU5zcVZELV9SeTFVM3VkRGE1RlEzNzZQVU9nRnhicU9MSFVDTEZ1Zjh0YmM3cmV0MkdzRHRPZHZjRmU0ZDBza1ExSzBjemY2TFpMZERSOS0yZ21NeFkzOWludHMyZ1piMlNFSVpwRGczNGdORFBQMnpJY1lLVmvSAewBQVVfeXFMT0UtTWpobzJZU3NHVDVMQ2Mtd0V2UXJwa0tULWRqVTM4UjRnZXhKR3BZS0FMMDI2eFJSU0s1SlVLYzRMOGJqUUcySTcza3N3cF9oNVJ6WndUMjE2Q0tZTkRUX1Z1ZHRKYnRUSkFJUjZGd0RlS1dsS2ZXa0FVVTZOalpkcFRFZFN6X05vVHpkM0Z3a0pMYVJuVnFrZlYxQVkydGVSU1BfMEFReDhKSjRvRm1GSjRNLV9LR2NhNU1ubURET3prVEJIa1BMbFJDMTFUR0ZvUEs0cFEyaGliR0hvSWJJRENSd1RLTlRhTjY?oc=5",
-      "summary": "India to build domestic lithium, nickel processing capacity with Rs 2,814-crore incentive scheme &nbsp;&nbsp; Moneycontrol.com Cabinet approves Rs.14,500 crore Viability Gap Funding Scheme for development of 92 GWh Grid-Scale Energy Storag...",
-      "image": "",
-      "source": "Moneycontrol.com",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-11-04T15:34:27.000Z",
-      "sources": [
-        {
-          "name": "Moneycontrol.com",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQM0JjYXV3ZGduZnM5eVVxQmZVLUFCMndGSktnS0hkN2lKWU5kV25vVHVoSGc0dXlHdDNFeHBMQ3RLc1p3M3NsdE1yUjBCLU9IaDJJY0ZkMDY4ZjZOWE90UnZ0ems1NnR6ZDE2aXdFSnZMZU5zcVZELV9SeTFVM3VkRGE1RlEzNzZQVU9nRnhicU9MSFVDTEZ1Zjh0YmM3cmV0MkdzRHRPZHZjRmU0ZDBza1ExSzBjemY2TFpMZERSOS0yZ21NeFkzOWludHMyZ1piMlNFSVpwRGczNGdORFBQMnpJY1lLVmvSAewBQVVfeXFMT0UtTWpobzJZU3NHVDVMQ2Mtd0V2UXJwa0tULWRqVTM4UjRnZXhKR3BZS0FMMDI2eFJSU0s1SlVLYzRMOGJqUUcySTcza3N3cF9oNVJ6WndUMjE2Q0tZTkRUX1Z1ZHRKYnRUSkFJUjZGd0RlS1dsS2ZXa0FVVTZOalpkcFRFZFN6X05vVHpkM0Z3a0pMYVJuVnFrZlYxQVkydGVSU1BfMEFReDhKSjRvRm1GSjRNLV9LR2NhNU1ubURET3prVEJIa1BMbFJDMTFUR0ZvUEs0cFEyaGliR0hvSWJJRENSd1RLTlRhTjY?oc=5",
-          "summary": "India to build domestic lithium, nickel processing capacity with Rs 2,814-crore incentive scheme &nbsp;&nbsp; Moneycontrol.com Cabinet approves Rs.14,500 crore Viability Gap Funding Scheme for development of 92 GWh Grid-Scale Energy Storag...",
-          "publishedAt": "2026-11-04T15:34:27.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "secret-police-files-released-in-hungary-37-years-after-fall-of-communism-world-2026-11-04t15-28-18-0",
       "title": "Secret police files released in Hungary, 37 years after fall of communism",
       "link": "https://www.bbc.co.uk/news/articles/c977p01kgmmko?at_medium=RSS&at_campaign=rss",
@@ -1522,66 +1132,6 @@
           "link": "https://www.bbc.co.uk/news/articles/c977p01kgmmko?at_medium=RSS&at_campaign=rss",
           "summary": "Critics say the move comes too late, that the files themselves are incomplete, and the move risks sowing division and causing unnecessary anguish.",
           "publishedAt": "2026-11-04T15:28:18.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "look-up-fireballs-from-southern-taurids-could-streak-across-the-sky-tonight-tech-2026-11-04t15-20-30",
-      "title": "Look up! Fireballs from Southern Taurids could streak across the sky tonight",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZGt5YkRGbG9CTVNPSFBLU0xkS2J3SkhJVGQwa2d6TTU0ODBvbHR1OUNwNFlFOFdYOTNSenhxOHJ1TTFPNmdNbm5RQ0hrODNlNU5lVWltWmdGTmMwRW1ad1BYYTZpcTdJYkUxb2FPNGRyY2h6Sk9rQlFwVXlMTzdhMDZJaWdtUGZodmlxT1lPUVFmaklNblZqakNPUHliSmRXbG1nTnBsMA?oc=5",
-      "summary": "Look up! Fireballs from Southern Taurids could streak across the sky tonight &nbsp;&nbsp; USA Today Southern Taurid Meteor Shower 2026: Is it on November 4, 5 or 6? Check exact date, peak time, location and... &nbsp;&nbsp; Moneycontrol.com...",
-      "image": "",
-      "source": "USA Today",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T15:20:30.000Z",
-      "sources": [
-        {
-          "name": "USA Today",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZGt5YkRGbG9CTVNPSFBLU0xkS2J3SkhJVGQwa2d6TTU0ODBvbHR1OUNwNFlFOFdYOTNSenhxOHJ1TTFPNmdNbm5RQ0hrODNlNU5lVWltWmdGTmMwRW1ad1BYYTZpcTdJYkUxb2FPNGRyY2h6Sk9rQlFwVXlMTzdhMDZJaWdtUGZodmlxT1lPUVFmaklNblZqakNPUHliSmRXbG1nTnBsMA?oc=5",
-          "summary": "Look up! Fireballs from Southern Taurids could streak across the sky tonight &nbsp;&nbsp; USA Today Southern Taurid Meteor Shower 2026: Is it on November 4, 5 or 6? Check exact date, peak time, location and... &nbsp;&nbsp; Moneycontrol.com...",
-          "publishedAt": "2026-11-04T15:20:30.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "citing-u-s-midterm-poll-results-opposition-leaders-say-change-is-in-the-air-general-2026-11-04t15-16",
-      "title": "Citing U.S. midterm poll results, Opposition leaders say change is in the air",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWHVBTGw3WHhMYUlMUThOSURDUjNfSktGejZ0NXp4YmdYSk1pNEtWZlE1cnd3WkxmaTR6dkt3V3l5eFk1YW13RmZYeTFtaUZXMGpYcmJYQlhvMU1NVVEzMl9Zd3dta2dTQTByemJ5SS1ZYmx5S1A4TERQaWdWaFA1Zi1LeWNQS2kxbGxoRjdtZEVmeWlrVWd4WkdDYWJDNG4zYlR1RkRuRjBFNmZtY284UG5kSUlQTHRWRDBMVEJkMDNCcmRlMG9VMEpQRVBNQdIB1AFBVV95cUxOQl9obkZRSldCd2JKd0FzN0pmTFhiZ20xRlFDYURNNkw2bVp1SC14NXc4VVhoa0J2cmRxeWpRNnQ3Z1Q5QWI1ZXhONlRFZi1GNWtLTXlidzFqTUlJX2FwclAzT2NNWUlmcnljUURZNWZ3aTNORzBvRnVVTF9lU3ktdVN2WWhUTFlZcmd6dG1DVzF5UDdBVlZaZjFPVmRVUmFZY1JUYm1MT1FhN3hZQ3gzN3BEU2F1eVlSeEpRVWNZaEtWaDFRN055VlVYX0RPMG1ZdkRmTA?oc=5",
-      "summary": "Citing U.S. midterm poll results, Opposition leaders say change is in the air &nbsp;&nbsp; The Hindu ‘India next’: Congress, Cockroach Janta Party see message in US midterms verdict &nbsp;&nbsp; Telegraph India Congress cites US mid-term r...",
-      "image": "",
-      "source": "The Hindu",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T15:16:04.000Z",
-      "sources": [
-        {
-          "name": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWHVBTGw3WHhMYUlMUThOSURDUjNfSktGejZ0NXp4YmdYSk1pNEtWZlE1cnd3WkxmaTR6dkt3V3l5eFk1YW13RmZYeTFtaUZXMGpYcmJYQlhvMU1NVVEzMl9Zd3dta2dTQTByemJ5SS1ZYmx5S1A4TERQaWdWaFA1Zi1LeWNQS2kxbGxoRjdtZEVmeWlrVWd4WkdDYWJDNG4zYlR1RkRuRjBFNmZtY284UG5kSUlQTHRWRDBMVEJkMDNCcmRlMG9VMEpQRVBNQdIB1AFBVV95cUxOQl9obkZRSldCd2JKd0FzN0pmTFhiZ20xRlFDYURNNkw2bVp1SC14NXc4VVhoa0J2cmRxeWpRNnQ3Z1Q5QWI1ZXhONlRFZi1GNWtLTXlidzFqTUlJX2FwclAzT2NNWUlmcnljUURZNWZ3aTNORzBvRnVVTF9lU3ktdVN2WWhUTFlZcmd6dG1DVzF5UDdBVlZaZjFPVmRVUmFZY1JUYm1MT1FhN3hZQ3gzN3BEU2F1eVlSeEpRVWNZaEtWaDFRN055VlVYX0RPMG1ZdkRmTA?oc=5",
-          "summary": "Citing U.S. midterm poll results, Opposition leaders say change is in the air &nbsp;&nbsp; The Hindu ‘India next’: Congress, Cockroach Janta Party see message in US midterms verdict &nbsp;&nbsp; Telegraph India Congress cites US mid-term r...",
-          "publishedAt": "2026-11-04T15:16:04.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "call-me-senator-how-abdul-el-sayed-beat-trump-s-hate-to-create-history-general-2026-11-04t14-50-59-0",
-      "title": "‘Call me senator’: How Abdul El-Sayed beat Trump’s hate to create history",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQlF6NkdldkxEMjY5TFU0U1hCSWJraVlvbUdWcDlleFY4MEJlUGZrQmUxQjB4ekcxVTNMMTg2MWxCUzBybURhSlR2eWRaUzExbjE2M05QbTR2dGRPM3ZDRnB2TnhMUmJQel82LWJEaThmcm9ZREhwRUNwdmpmX0hfa29Hb1BnOUtweWx0Vmotc1BRMTAtTjZqS2h0Yy1uczZFMVJTTV9sc2VCMXdmcG8w0gG0AUFVX3lxTE9XU0kwWXhweldPSmlUa1kzQ0hyUVQ3RGdvNFVNTXgybk9EQWNVVWdWQ3lUZkxUTDkyRUdNazBFaWh2eDM5d3Q4NTNYY3dLTzZtb2NPdExVVjQ5Wk9tVVBBRE15dHJ1ZVI0cXpodGVqelpPS0s2NjBocDlITldkbHRMc1E0eFV5d0ZrR2s3cWtldEhHVU1JX21XdzFjaW9sbWxtZVpZWXhDSV82amVFTG1nOFVkMw?oc=5",
-      "summary": "‘Call me senator’: How Abdul El-Sayed beat Trump’s hate to create history &nbsp;&nbsp; Al Jazeera \"An Abdul Has Won In Michigan\": Asaduddin Owaisi's UP Pitch After US Senate Race &nbsp;&nbsp; NDTV Who is Abdul El-Sayed, first Muslim U.S. S...",
-      "image": "",
-      "source": "Al Jazeera",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T14:50:59.000Z",
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQlF6NkdldkxEMjY5TFU0U1hCSWJraVlvbUdWcDlleFY4MEJlUGZrQmUxQjB4ekcxVTNMMTg2MWxCUzBybURhSlR2eWRaUzExbjE2M05QbTR2dGRPM3ZDRnB2TnhMUmJQel82LWJEaThmcm9ZREhwRUNwdmpmX0hfa29Hb1BnOUtweWx0Vmotc1BRMTAtTjZqS2h0Yy1uczZFMVJTTV9sc2VCMXdmcG8w0gG0AUFVX3lxTE9XU0kwWXhweldPSmlUa1kzQ0hyUVQ3RGdvNFVNTXgybk9EQWNVVWdWQ3lUZkxUTDkyRUdNazBFaWh2eDM5d3Q4NTNYY3dLTzZtb2NPdExVVjQ5Wk9tVVBBRE15dHJ1ZVI0cXpodGVqelpPS0s2NjBocDlITldkbHRMc1E0eFV5d0ZrR2s3cWtldEhHVU1JX21XdzFjaW9sbWxtZVpZWXhDSV82amVFTG1nOFVkMw?oc=5",
-          "summary": "‘Call me senator’: How Abdul El-Sayed beat Trump’s hate to create history &nbsp;&nbsp; Al Jazeera \"An Abdul Has Won In Michigan\": Asaduddin Owaisi's UP Pitch After US Senate Race &nbsp;&nbsp; NDTV Who is Abdul El-Sayed, first Muslim U.S. S...",
-          "publishedAt": "2026-11-04T14:50:59.000Z"
         }
       ],
       "sourceCount": 1
@@ -1627,46 +1177,6 @@
       "sourceCount": 1
     },
     {
-      "id": "everything-you-need-to-know-from-the-us-midterm-elections-general-2026-11-04t14-05-42-000z",
-      "title": "Everything you need to know from the US midterm elections",
-      "link": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
-      "summary": "Democrats secured some big wins - and a few historic firsts - earning congratulations from President Trump.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bcf/live/c31f31d0-d854-11f1-93e1-3b657b665bcf.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T14:05:42.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
-          "summary": "Democrats secured some big wins - and a few historic firsts - earning congratulations from President Trump.",
-          "publishedAt": "2026-11-04T14:05:42.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "women-s-premier-league-2027-full-schedule-rcb-mi-to-kick-off-wpl-2027-in-vadodara-sports-2026-11-04t",
-      "title": "Women's Premier League 2027 full schedule RCB, MI to kick-off WPL 2027 in Vadodara",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObzlCU3VyUlE2ejFva0N0aWlRa3U1MlJkY0t4NVJ6SUV1UzhIUEdNeWVuSS1WMGN5aFVkZE1GbmlwYXRhd3JLWnVnWWxYeGs2blFQTlp5NVU4RkR1X2lVTktWcU5PRFlnVmxKajBUdUljRGcwOVEzLUQyQ1BmY2d0RHRvODBLZVYzQnNvYmcyTldNekwzRkVFMTM4cDY2SWcwbG8yT1hIT0VfcXk3Q1FJT09lNjJfTTlLZ2hJVE8xV3RGU2s?oc=5",
-      "summary": "Women's Premier League 2027 full schedule RCB, MI to kick-off WPL 2027 in Vadodara &nbsp;&nbsp; Cricbuzz See more headlines and perspectives on Google News",
-      "image": "",
-      "source": "Cricbuzz",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-04T13:55:38.000Z",
-      "sources": [
-        {
-          "name": "Cricbuzz",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObzlCU3VyUlE2ejFva0N0aWlRa3U1MlJkY0t4NVJ6SUV1UzhIUEdNeWVuSS1WMGN5aFVkZE1GbmlwYXRhd3JLWnVnWWxYeGs2blFQTlp5NVU4RkR1X2lVTktWcU5PRFlnVmxKajBUdUljRGcwOVEzLUQyQ1BmY2d0RHRvODBLZVYzQnNvYmcyTldNekwzRkVFMTM4cDY2SWcwbG8yT1hIT0VfcXk3Q1FJT09lNjJfTTlLZ2hJVE8xV3RGU2s?oc=5",
-          "summary": "Women's Premier League 2027 full schedule RCB, MI to kick-off WPL 2027 in Vadodara &nbsp;&nbsp; Cricbuzz See more headlines and perspectives on Google News",
-          "publishedAt": "2026-11-04T13:55:38.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "this-is-a-disaster-angry-republicans-blame-trump-for-midterms-defeat-world-2026-11-04t13-33-30-000z",
       "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
       "link": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
@@ -1682,166 +1192,6 @@
           "link": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
           "summary": "Some Republicans tell the BBC the president's focus on his legacy and indifference to voter concerns cost them.",
           "publishedAt": "2026-11-04T13:33:30.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "sandia-scientists-build-model-finding-asteroid-deflections-1-600-times-faster-tech-2026-11-04t13-08",
-      "title": "Sandia scientists build model finding asteroid deflections 1,600 times faster",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeVYxT01fMmlUTkRGRVgzUUNUcDVFWTEyQ3pQd1QwUVN1Qk5faU5HNXk1NV94YTVGZGtTQVg1amhZMFl3cWRneF84cVhkanBCb0FiRk5kYUVTODV3NzgwQVV3NzAzblRQY2xwX0otdVBNREd2bGNCVGNwNTdBYlRsNXJjdTlZWG9xU1BXMkFrMFQ0b25zY2Zqa1VaUUhRVHc0cS04WUZESHBDM3YzSm5vdE05UVVhTFhtWC0xTTljMVg?oc=5",
-      "summary": "Sandia scientists build model finding asteroid deflections 1,600 times faster &nbsp;&nbsp; NewsBytes Asteroid Defence System: Sandia scientists develop 1,600 times faster model to deflect space rocks &nbsp;&nbsp; Moneycontrol.com Sandia Na...",
-      "image": "",
-      "source": "NewsBytes",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T13:08:38.000Z",
-      "sources": [
-        {
-          "name": "NewsBytes",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeVYxT01fMmlUTkRGRVgzUUNUcDVFWTEyQ3pQd1QwUVN1Qk5faU5HNXk1NV94YTVGZGtTQVg1amhZMFl3cWRneF84cVhkanBCb0FiRk5kYUVTODV3NzgwQVV3NzAzblRQY2xwX0otdVBNREd2bGNCVGNwNTdBYlRsNXJjdTlZWG9xU1BXMkFrMFQ0b25zY2Zqa1VaUUhRVHc0cS04WUZESHBDM3YzSm5vdE05UVVhTFhtWC0xTTljMVg?oc=5",
-          "summary": "Sandia scientists build model finding asteroid deflections 1,600 times faster &nbsp;&nbsp; NewsBytes Asteroid Defence System: Sandia scientists develop 1,600 times faster model to deflect space rocks &nbsp;&nbsp; Moneycontrol.com Sandia Na...",
-          "publishedAt": "2026-11-04T13:08:38.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "kamboj-brar-offer-a-glimpse-of-gambhir-s-odi-vision-sports-2026-11-04t13-07-45-000z",
-      "title": "Kamboj, Brar offer a glimpse of Gambhir's ODI vision",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPN1AzSDc1SHotelhDS29ac1htcGxOeTM3V1A3djdCV0k1b2M0eWdWYndhb01XWXhkYk9TZG9SQTZ1dnFkXzdxWEQxcTZ4Wm14bDlfUFgtQmlOUXZGeXJHQkxMUVNzaTZoX09TWngzRWJZNUsxUnl0VkZxUXM5WEdTdy1VSGphTkY3a18xUFJCRm9rTjVZZHRhR08tbw?oc=5",
-      "summary": "Kamboj, Brar offer a glimpse of Gambhir's ODI vision &nbsp;&nbsp; Cricbuzz See more headlines and perspectives on Google News",
-      "image": "",
-      "source": "Cricbuzz",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-04T13:07:45.000Z",
-      "sources": [
-        {
-          "name": "Cricbuzz",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPN1AzSDc1SHotelhDS29ac1htcGxOeTM3V1A3djdCV0k1b2M0eWdWYndhb01XWXhkYk9TZG9SQTZ1dnFkXzdxWEQxcTZ4Wm14bDlfUFgtQmlOUXZGeXJHQkxMUVNzaTZoX09TWngzRWJZNUsxUnl0VkZxUXM5WEdTdy1VSGphTkY3a18xUFJCRm9rTjVZZHRhR08tbw?oc=5",
-          "summary": "Kamboj, Brar offer a glimpse of Gambhir's ODI vision &nbsp;&nbsp; Cricbuzz See more headlines and perspectives on Google News",
-          "publishedAt": "2026-11-04T13:07:45.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "drone-warfare-in-space-swarms-of-autonomous-laser-shooting-cubesats-could-defend-western-satellites",
-      "title": "Drone warfare in space: Swarms of autonomous, laser-shooting cubesats could defend Western satellites in orbit",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNUtROUtpdXEzS0F0UG9GaVpYdlRmd0hZWndBR1JBZUhaSDg5ZTBMakVjcllfSXJINk9PTlVmNEVzbjFxaGpRNmlHVF8xeF85NklPeGJ5OEE2clBNVTMtU3hTQjNLRVU5SmpUemV3UGkzaEdKdjVJQ2VzeWRFckh0aEpXcFJ6M2Q4eTkwY2YxaXVmaUxOTy16cWtzNUR0WmhhYWUzNUUtNWc4YjdvTVBDS0ZIM043NmVNZWRvSlZ2ZTVTT013NURraFliVjlpaEs5azNlQy13S3JaZmN3NzQ5S3NSVmJlR2RyeE12Z0VOTkM?oc=5",
-      "summary": "Drone warfare in space: Swarms of autonomous, laser-shooting cubesats could defend Western satellites in orbit &nbsp;&nbsp; Space",
-      "image": "",
-      "source": "Space",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T13:00:00.000Z",
-      "sources": [
-        {
-          "name": "Space",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNUtROUtpdXEzS0F0UG9GaVpYdlRmd0hZWndBR1JBZUhaSDg5ZTBMakVjcllfSXJINk9PTlVmNEVzbjFxaGpRNmlHVF8xeF85NklPeGJ5OEE2clBNVTMtU3hTQjNLRVU5SmpUemV3UGkzaEdKdjVJQ2VzeWRFckh0aEpXcFJ6M2Q4eTkwY2YxaXVmaUxOTy16cWtzNUR0WmhhYWUzNUUtNWc4YjdvTVBDS0ZIM043NmVNZWRvSlZ2ZTVTT013NURraFliVjlpaEs5azNlQy13S3JaZmN3NzQ5S3NSVmJlR2RyeE12Z0VOTkM?oc=5",
-          "summary": "Drone warfare in space: Swarms of autonomous, laser-shooting cubesats could defend Western satellites in orbit &nbsp;&nbsp; Space",
-          "publishedAt": "2026-11-04T13:00:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "no-ball-drama-hands-renegades-last-ball-win-against-hurricanes-sports-2026-11-04t12-35-01-000z",
-      "title": "No-ball drama hands Renegades last-ball win against Hurricanes",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcWNDTGd1QTU2MUxDaGMwOHZPWVBIWmtKekE5UjE1Q05EajdsLVBnMXR5N0FIMktrZDRvZWF4UG5ES3haUVA5YUxPZk5fcnJ6NkVLcnRfQldtTDZTNE5BLUdRbFVMM1RFOEtBQlBEbENmYXdKdVVDU1JLc205ZjNyZmN2ZExFcW5YZG5DNnNQNUhWeWdPU2hfNllFNThNWHo0elpaZlAtdWtqME5YUUk3NHcxZngzUmR1aWdWb1FLQldNVFFrcWlrYmZEVU1Fa05XZU4yWHd1V3lBUktNUDMzeUh0TFpzb0VJY2JJ?oc=5",
-      "summary": "No-ball drama hands Renegades last-ball win against Hurricanes &nbsp;&nbsp; Cricinfo Rare rule hands Renegades thrilling win over Hurricanes &nbsp;&nbsp; cricket.com.au Heartbreaking defeat! Lizelle Lee's rare wicketkeeping error denies Ho...",
-      "image": "",
-      "source": "Cricinfo",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-04T12:35:01.000Z",
-      "sources": [
-        {
-          "name": "Cricinfo",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcWNDTGd1QTU2MUxDaGMwOHZPWVBIWmtKekE5UjE1Q05EajdsLVBnMXR5N0FIMktrZDRvZWF4UG5ES3haUVA5YUxPZk5fcnJ6NkVLcnRfQldtTDZTNE5BLUdRbFVMM1RFOEtBQlBEbENmYXdKdVVDU1JLc205ZjNyZmN2ZExFcW5YZG5DNnNQNUhWeWdPU2hfNllFNThNWHo0elpaZlAtdWtqME5YUUk3NHcxZngzUmR1aWdWb1FLQldNVFFrcWlrYmZEVU1Fa05XZU4yWHd1V3lBUktNUDMzeUh0TFpzb0VJY2JJ?oc=5",
-          "summary": "No-ball drama hands Renegades last-ball win against Hurricanes &nbsp;&nbsp; Cricinfo Rare rule hands Renegades thrilling win over Hurricanes &nbsp;&nbsp; cricket.com.au Heartbreaking defeat! Lizelle Lee's rare wicketkeeping error denies Ho...",
-          "publishedAt": "2026-11-04T12:35:01.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "i-was-screaming-on-the-road-kareena-kapoor-khan-recalls-saif-ali-khan-s-stabbing-incident-entertainm",
-      "title": "'I Was Screaming On The Road': Kareena Kapoor Khan Recalls Saif Ali Khan's Stabbing Incident",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaGJMY3ExMkZ0N0daTXF6cU01TGhwWGltU2NtdlRjSlMyMlo3TGllNjJOU1V3eHEtTV96VU5rSjV3ZWZJNjRRRWtaUlN1eUZ5eG93d1hCaWNwNUwtVWNaRDZ4RFgxWlVaams4dUhkMjRJZkFVYkw0TUJtTE9oQThrSW54X2FkNG9kZ2RUT2U2TW5hcldBdkg5bmdOT2pyNUZRMmxqUVAwN0Z4Z21BM0tFazNZeDE5YWFKQlBaUHJHeWlaLWRIeWIwLWtzdmbSAdQBQVVfeXFMT2J4M0t6NVNxRzFQbGlUUGRtMHBRVDJBMU1yQW4xVjktbW4tYnJSNlI4WXpMNnh4T3JVQ3dmOFllTXBkME52NUJfZ05VcnJfNE1FU1owQjVMdlFSSmdmdkUyQWZwWUdPZ3IzWklEcjBnaUZDeXoxM3FMekhSM1h4c2Y3eGQ3bl90ZmZzOHpMTEFEMVVlN1AxcllFYTZ5Vjk5MEZSNnZRb0swbEpFU3VDNXF2YWhlWTlaZlR1T2swbUd3bWpNUmNyR3JQNDNncXoxSjJidVY?oc=5",
-      "summary": "'I Was Screaming On The Road': Kareena Kapoor Khan Recalls Saif Ali Khan's Stabbing Incident &nbsp;&nbsp; NDTV Kareena Kapoor, Saif Ali Khan bring banter, witty digs to ‘Koffee With Karan’ Season 9 &nbsp;&nbsp; Telegraph India Kareena Kapo...",
-      "image": "",
-      "source": "NDTV",
-      "category": "entertainment",
-      "categoryLabel": "Entertainment",
-      "publishedAt": "2026-11-04T12:34:24.000Z",
-      "sources": [
-        {
-          "name": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaGJMY3ExMkZ0N0daTXF6cU01TGhwWGltU2NtdlRjSlMyMlo3TGllNjJOU1V3eHEtTV96VU5rSjV3ZWZJNjRRRWtaUlN1eUZ5eG93d1hCaWNwNUwtVWNaRDZ4RFgxWlVaams4dUhkMjRJZkFVYkw0TUJtTE9oQThrSW54X2FkNG9kZ2RUT2U2TW5hcldBdkg5bmdOT2pyNUZRMmxqUVAwN0Z4Z21BM0tFazNZeDE5YWFKQlBaUHJHeWlaLWRIeWIwLWtzdmbSAdQBQVVfeXFMT2J4M0t6NVNxRzFQbGlUUGRtMHBRVDJBMU1yQW4xVjktbW4tYnJSNlI4WXpMNnh4T3JVQ3dmOFllTXBkME52NUJfZ05VcnJfNE1FU1owQjVMdlFSSmdmdkUyQWZwWUdPZ3IzWklEcjBnaUZDeXoxM3FMekhSM1h4c2Y3eGQ3bl90ZmZzOHpMTEFEMVVlN1AxcllFYTZ5Vjk5MEZSNnZRb0swbEpFU3VDNXF2YWhlWTlaZlR1T2swbUd3bWpNUmNyR3JQNDNncXoxSjJidVY?oc=5",
-          "summary": "'I Was Screaming On The Road': Kareena Kapoor Khan Recalls Saif Ali Khan's Stabbing Incident &nbsp;&nbsp; NDTV Kareena Kapoor, Saif Ali Khan bring banter, witty digs to ‘Koffee With Karan’ Season 9 &nbsp;&nbsp; Telegraph India Kareena Kapo...",
-          "publishedAt": "2026-11-04T12:34:24.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "chandumajras-return-to-akali-dal-opens-door-for-wider-nda-unity-in-punjab-comes-close-after-he-met-s",
-      "title": "Chandumajras return to Akali Dal opens door for wider NDA unity in Punjab, comes close after he met Shah",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRUNqdldncGtLS2VockVoQ05tX0U4SUR3dHNkZzZyYW8zdWh4aGxTZGFoQzllWi0tU0tWODh0VUNHYWNGMU83SXR6eG5nNnVHOTJNN3I4VHg2QTJwLWdrUk1Ld0pVdmhIWFozT2N4dEoxampPVTFEM0drUVFGMXFsRklpNDJJdUNsN25FMWY3MXRxcUhYeGlzRmY3U1lBaDZuUk9NZHMzM3dZa09XdWVoMG9rR0VaQ2syLVNqbnFjYl9sNUc2cVZmZkJXN3BvZkxZV3d3NUdMZUdLeHdOT2c?oc=5",
-      "summary": "Chandumajras return to Akali Dal opens door for wider NDA unity in Punjab, comes close after he met Shah &nbsp;&nbsp; The Tribune Chandumajra quits Punar Surjit, may join SAD &nbsp;&nbsp; The Times of India SAD welcomes Prof. Prem Singh Ch...",
-      "image": "",
-      "source": "The Tribune",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-04T12:28:52.000Z",
-      "sources": [
-        {
-          "name": "The Tribune",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRUNqdldncGtLS2VockVoQ05tX0U4SUR3dHNkZzZyYW8zdWh4aGxTZGFoQzllWi0tU0tWODh0VUNHYWNGMU83SXR6eG5nNnVHOTJNN3I4VHg2QTJwLWdrUk1Ld0pVdmhIWFozT2N4dEoxampPVTFEM0drUVFGMXFsRklpNDJJdUNsN25FMWY3MXRxcUhYeGlzRmY3U1lBaDZuUk9NZHMzM3dZa09XdWVoMG9rR0VaQ2syLVNqbnFjYl9sNUc2cVZmZkJXN3BvZkxZV3d3NUdMZUdLeHdOT2c?oc=5",
-          "summary": "Chandumajras return to Akali Dal opens door for wider NDA unity in Punjab, comes close after he met Shah &nbsp;&nbsp; The Tribune Chandumajra quits Punar Surjit, may join SAD &nbsp;&nbsp; The Times of India SAD welcomes Prof. Prem Singh Ch...",
-          "publishedAt": "2026-11-04T12:28:52.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "new-info-reveals-the-samsung-galaxy-s27-pro-won-t-be-powered-by-the-snapdragon-8-elite-extreme-gen-6",
-      "title": "New info reveals the Samsung Galaxy S27 Pro won't be powered by the Snapdragon 8 Elite Extreme Gen 6 - GSMArena.com news",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSXF4dkpRWHAyYThvbVVPNlUzTmFRWlhJcFNpcXIzNWFWUVU0aklqd1RMd1JsQWtVM3lEdUFOd3RjcmI1UFJjSkdSbHdmVFlzSXI4WDJDRUFJendWMFFCYkZEb0tJaEw2LVhUaDZEenhXckZja01RVmF6OEV1UXZvN0lpUlAzVWRo0gGEAUFVX3lxTFBLNDlNVXZpenBweGpSVC1qdk5FX3ZMNXNkVVBOaGZIV1Vuc3hxVjN2eUVXbmVmZEJvbDVqdDdYQ3ZFYV9JSzVITkd2ZU1yX19NbHIwR2tCUk5qUlRFZkV5UmlmbjUzNlc0TVdoSWh1cFlqb05QMjVucWdhdzJxZ0F6akpydg?oc=5",
-      "summary": "New info reveals the Samsung Galaxy S27 Pro won't be powered by the Snapdragon 8 Elite Extreme Gen 6 - GSMArena.com news &nbsp;&nbsp; GSMArena.com Samsung Galaxy S27 Ultra's dummy unit surfaces - GSMArena.com news &nbsp;&nbsp; GSMArena.com...",
-      "image": "",
-      "source": "GSMArena.com",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T12:21:02.000Z",
-      "sources": [
-        {
-          "name": "GSMArena.com",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSXF4dkpRWHAyYThvbVVPNlUzTmFRWlhJcFNpcXIzNWFWUVU0aklqd1RMd1JsQWtVM3lEdUFOd3RjcmI1UFJjSkdSbHdmVFlzSXI4WDJDRUFJendWMFFCYkZEb0tJaEw2LVhUaDZEenhXckZja01RVmF6OEV1UXZvN0lpUlAzVWRo0gGEAUFVX3lxTFBLNDlNVXZpenBweGpSVC1qdk5FX3ZMNXNkVVBOaGZIV1Vuc3hxVjN2eUVXbmVmZEJvbDVqdDdYQ3ZFYV9JSzVITkd2ZU1yX19NbHIwR2tCUk5qUlRFZkV5UmlmbjUzNlc0TVdoSWh1cFlqb05QMjVucWdhdzJxZ0F6akpydg?oc=5",
-          "summary": "New info reveals the Samsung Galaxy S27 Pro won't be powered by the Snapdragon 8 Elite Extreme Gen 6 - GSMArena.com news &nbsp;&nbsp; GSMArena.com Samsung Galaxy S27 Ultra's dummy unit surfaces - GSMArena.com news &nbsp;&nbsp; GSMArena.com...",
-          "publishedAt": "2026-11-04T12:21:02.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "sebi-eases-digital-kyc-rules-for-nris-foreign-nationals-from-december-3-business-2026-11-04t12-07-41",
-      "title": "Sebi eases digital KYC rules for NRIs, foreign nationals from December 3",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTk1pZ3RUMHFzVlNTbExKcWxYY1kxMVFlclNUVzVuR2xwNXE1cGxvMi00RHhYOGhpYko1SXZjOEdnQzl3ZDVfRDhBcXI4alhOeUUwblBoMU4xN3gtdzdFRlBEUHZORHZBZjJKX0NrS2x0TkN6ZmhHQWpuMmxMejVCYUVwSm1saXJnbERsTXd0bkVacE5KZm1tRHRrS1hXU2FDTjFQME5HQ0VDOFVfSHlXYWZsODF4MWlNY2JfQTI5dmZXd3M3ekp1WjgyMEV3bWpOQ28yVdIB2gFBVV95cUxPa3dSeFM3NFU2NDZfM1dzUU9Ib1lZQ2FKNnl4eUF4RWk5RXFJX2RXaE5WZDFoV3JUc0kxc01kRHphNG0zYk1vVkF1a3pjM09kQ0tPZ3F2dHBKZmUtdkt3NUhHaHNESnVNWU9meHhjSjF6bldUYjZEMUNVMTlXSEp6ZkhCdGNIaXktT3l5VkxyaURQVGtHcEd4ZGVTRjFYTEItN1Z6Tjd3UE9RMUk1S2JobWNjTDlyUUtoZ3ZvZ0hmakg1NkEzbnZfTWVoeVVIRWpHc3Y4Ynd2VjFuZw?oc=5",
-      "summary": "Sebi eases digital KYC rules for NRIs, foreign nationals from December 3 &nbsp;&nbsp; Business Standard Sebi eases KYC norms for NRIs, OCIs and foreign nationals, allows digital onboarding from overseas &nbsp;&nbsp; The Economic Times SEBI...",
-      "image": "",
-      "source": "Business Standard",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-11-04T12:07:41.000Z",
-      "sources": [
-        {
-          "name": "Business Standard",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTk1pZ3RUMHFzVlNTbExKcWxYY1kxMVFlclNUVzVuR2xwNXE1cGxvMi00RHhYOGhpYko1SXZjOEdnQzl3ZDVfRDhBcXI4alhOeUUwblBoMU4xN3gtdzdFRlBEUHZORHZBZjJKX0NrS2x0TkN6ZmhHQWpuMmxMejVCYUVwSm1saXJnbERsTXd0bkVacE5KZm1tRHRrS1hXU2FDTjFQME5HQ0VDOFVfSHlXYWZsODF4MWlNY2JfQTI5dmZXd3M3ekp1WjgyMEV3bWpOQ28yVdIB2gFBVV95cUxPa3dSeFM3NFU2NDZfM1dzUU9Ib1lZQ2FKNnl4eUF4RWk5RXFJX2RXaE5WZDFoV3JUc0kxc01kRHphNG0zYk1vVkF1a3pjM09kQ0tPZ3F2dHBKZmUtdkt3NUhHaHNESnVNWU9meHhjSjF6bldUYjZEMUNVMTlXSEp6ZkhCdGNIaXktT3l5VkxyaURQVGtHcEd4ZGVTRjFYTEItN1Z6Tjd3UE9RMUk1S2JobWNjTDlyUUtoZ3ZvZ0hmakg1NkEzbnZfTWVoeVVIRWpHc3Y4Ynd2VjFuZw?oc=5",
-          "summary": "Sebi eases digital KYC rules for NRIs, foreign nationals from December 3 &nbsp;&nbsp; Business Standard Sebi eases KYC norms for NRIs, OCIs and foreign nationals, allows digital onboarding from overseas &nbsp;&nbsp; The Economic Times SEBI...",
-          "publishedAt": "2026-11-04T12:07:41.000Z"
         }
       ],
       "sourceCount": 1
@@ -1887,66 +1237,6 @@
       "sourceCount": 1
     },
     {
-      "id": "webb-finds-27-tiny-icy-bodies-beyond-neptune-tech-2026-11-04t11-06-00-000z",
-      "title": "Webb Finds 27 Tiny Icy Bodies Beyond Neptune",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMml1azFibVgyblRwcDUzT2tSbVJwN2xlUFIxc2U1TzlQTTFuZEJDeFYtN01MRlhxSHkwNk9HQTlvOExoZ0NKZ3M0bnpaT3lEelU0dmFXamk1VzJSN0FWYkdjUVBETC01LW9HQlBNemJOMm5DQ0QtWjB6bnZLcEpOZWZKa1diNXZ5bFFmV2MyVUtSakhBaWxyTA?oc=5",
-      "summary": "Webb Finds 27 Tiny Icy Bodies Beyond Neptune &nbsp;&nbsp; Technology Org NASA’s Hubble and Webb telescopes spot 27 icy relics from solar system’s infancy &nbsp;&nbsp; ThePrint NASA's Hubble and Webb discover ancient worlds that remember th...",
-      "image": "",
-      "source": "Technology Org",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T11:06:00.000Z",
-      "sources": [
-        {
-          "name": "Technology Org",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMml1azFibVgyblRwcDUzT2tSbVJwN2xlUFIxc2U1TzlQTTFuZEJDeFYtN01MRlhxSHkwNk9HQTlvOExoZ0NKZ3M0bnpaT3lEelU0dmFXamk1VzJSN0FWYkdjUVBETC01LW9HQlBNemJOMm5DQ0QtWjB6bnZLcEpOZWZKa1diNXZ5bFFmV2MyVUtSakhBaWxyTA?oc=5",
-          "summary": "Webb Finds 27 Tiny Icy Bodies Beyond Neptune &nbsp;&nbsp; Technology Org NASA’s Hubble and Webb telescopes spot 27 icy relics from solar system’s infancy &nbsp;&nbsp; ThePrint NASA's Hubble and Webb discover ancient worlds that remember th...",
-          "publishedAt": "2026-11-04T11:06:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "slac-scientists-find-conclusive-proof-of-a-mysterious-third-type-of-magnetism-tech-2026-11-04t10-45",
-      "title": "SLAC scientists find conclusive proof of a mysterious third type of magnetism",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xY19pMlJfWVhLV3RwUjZiSlhOUjU5NGxEb1pBb2ZEM3F5aDVwN0xmX1ZhS3FQd1dIUklKOHNWRl9GLVFBTmlySEpoUzl6cHJudWs3OXp5OEhNVUJYbGp0MkRlSmNldFYwQThrcHVGTQ?oc=5",
-      "summary": "SLAC scientists find conclusive proof of a mysterious third type of magnetism &nbsp;&nbsp; Science Daily SLAC team confirms existence of third magnetic phase &nbsp;&nbsp; The New Indian Express Electrical signals reveal hidden magnetic inf...",
-      "image": "",
-      "source": "Science Daily",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-04T10:45:23.000Z",
-      "sources": [
-        {
-          "name": "Science Daily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xY19pMlJfWVhLV3RwUjZiSlhOUjU5NGxEb1pBb2ZEM3F5aDVwN0xmX1ZhS3FQd1dIUklKOHNWRl9GLVFBTmlySEpoUzl6cHJudWs3OXp5OEhNVUJYbGp0MkRlSmNldFYwQThrcHVGTQ?oc=5",
-          "summary": "SLAC scientists find conclusive proof of a mysterious third type of magnetism &nbsp;&nbsp; Science Daily SLAC team confirms existence of third magnetic phase &nbsp;&nbsp; The New Indian Express Electrical signals reveal hidden magnetic inf...",
-          "publishedAt": "2026-11-04T10:45:23.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "stock-market-close-sensex-rises-for-5th-day-gains-384-pts-nifty-at-23-961-it-only-sectoral-loser-bus",
-      "title": "Stock Market Close: Sensex rises for 5th day, gains 384 pts; Nifty at 23,961; IT only sectoral loser",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOVXhWaU9EcWdSOTFWS1hjX3hFLVlnRTU4Z25IckxEaW00MF9tblJ4N3dLOThhc1Zrcm8wb3ZBZGpQdGtUdXRDRk01aDZXQk52ai1VRUdid2MyVnNCU21ScXRDczdhUXFPWkJTemp4SUJnWjV1Z25va3hvZ1RUM0FMWnBnb2dvaEUxazVGZTFtSDc5UzNoRk02akdKOUtPbWsyeGU2cGpOc1BKakhvRVdaZmlwT1dQNG55WXZzTHRrekZHOVpFSGJVaVlzbXVBOWY0a0lXMDhuNzJYeDhISVJGb1ZFS09nOGN0cm1CdWpmRExRMjNjWV96eUhoQWU4ZTdQUjFv0gGIAkFVX3lxTE5ZcUtsc3ZCZkkycjhhNUV6TWVXUWduXzJfQlZPYWxWN2dkNGRfTk1YZUJ4RVc1S0toUVVoYi1DZGNfNERwOGFCVTQ4Y08xem9sdjVHcWhqMGRIdVN5b2FFNEdwblJwdlRxcU5BalU1V1l5VU5fWmdnRkdSS0RSTzJCdXFSSk11dlp5LWJKeXhrbFRIMkQwV3g2clJHV1A5a0liRUtzckxpZ01FSkFiUEJFNVAzMUl6ZTE1S3hNSGstS2RCNDF5Y1VOOVF3VVlMT2pvUy1VaDI3blVqQzJDSWJiQi1rQ095VG05Sk5VemVBeG9iOEhpZWFiSTAzSGUtYUdFSlA2TmdGYw?oc=5",
-      "summary": "Stock Market Close: Sensex rises for 5th day, gains 384 pts; Nifty at 23,961; IT only sectoral loser &nbsp;&nbsp; Business Standard Stock markets rally in early trade on foreign fund inflows, easing crude oil prices &nbsp;&nbsp; The Hindu...",
-      "image": "",
-      "source": "Business Standard",
-      "category": "business",
-      "categoryLabel": "Business",
-      "publishedAt": "2026-11-04T10:30:41.000Z",
-      "sources": [
-        {
-          "name": "Business Standard",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOVXhWaU9EcWdSOTFWS1hjX3hFLVlnRTU4Z25IckxEaW00MF9tblJ4N3dLOThhc1Zrcm8wb3ZBZGpQdGtUdXRDRk01aDZXQk52ai1VRUdid2MyVnNCU21ScXRDczdhUXFPWkJTemp4SUJnWjV1Z25va3hvZ1RUM0FMWnBnb2dvaEUxazVGZTFtSDc5UzNoRk02akdKOUtPbWsyeGU2cGpOc1BKakhvRVdaZmlwT1dQNG55WXZzTHRrekZHOVpFSGJVaVlzbXVBOWY0a0lXMDhuNzJYeDhISVJGb1ZFS09nOGN0cm1CdWpmRExRMjNjWV96eUhoQWU4ZTdQUjFv0gGIAkFVX3lxTE5ZcUtsc3ZCZkkycjhhNUV6TWVXUWduXzJfQlZPYWxWN2dkNGRfTk1YZUJ4RVc1S0toUVVoYi1DZGNfNERwOGFCVTQ4Y08xem9sdjVHcWhqMGRIdVN5b2FFNEdwblJwdlRxcU5BalU1V1l5VU5fWmdnRkdSS0RSTzJCdXFSSk11dlp5LWJKeXhrbFRIMkQwV3g2clJHV1A5a0liRUtzckxpZ01FSkFiUEJFNVAzMUl6ZTE1S3hNSGstS2RCNDF5Y1VOOVF3VVlMT2pvUy1VaDI3blVqQzJDSWJiQi1rQ095VG05Sk5VemVBeG9iOEhpZWFiSTAzSGUtYUdFSlA2TmdGYw?oc=5",
-          "summary": "Stock Market Close: Sensex rises for 5th day, gains 384 pts; Nifty at 23,961; IT only sectoral loser &nbsp;&nbsp; Business Standard Stock markets rally in early trade on foreign fund inflows, easing crude oil prices &nbsp;&nbsp; The Hindu...",
-          "publishedAt": "2026-11-04T10:30:41.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "a-thousand-fewer-paths-to-root-ai-2026-11-04t08-00-00-000z",
       "title": "A thousand fewer paths to root",
       "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
@@ -1962,6 +1252,26 @@
           "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
           "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
           "publishedAt": "2026-11-04T08:00:00.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "delhi-air-quality-worsens-ahead-of-diwali-as-firework-restrictions-enter-force-world-2026-11-04t07-3",
+      "title": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
+      "link": "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss",
+      "summary": "On Wednesday morning, Delhi's air quality index reading stood at 377, in the \"very poor\" category.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f657/live/383e2830-d810-11f1-bc0e-b5a9e0785e4b.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-11-04T07:39:38.000Z",
+      "sources": [
+        {
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss",
+          "summary": "On Wednesday morning, Delhi's air quality index reading stood at 377, in the \"very poor\" category.",
+          "publishedAt": "2026-11-04T07:39:38.000Z"
         }
       ],
       "sourceCount": 1
@@ -1987,30 +1297,10 @@
       "sourceCount": 1
     },
     {
-      "id": "the-biggest-modding-site-in-pc-gaming-is-taking-a-stance-on-ai-ai-2026-11-04t00-42-10-000z",
-      "title": "The biggest modding site in PC gaming is taking a stance on AI",
-      "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
-      "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big po...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_AI_CVIRGINIA_2_C-2.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge AI",
-      "category": "ai",
-      "categoryLabel": "AI",
-      "publishedAt": "2026-11-04T00:42:10.000Z",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
-          "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big po...",
-          "publishedAt": "2026-11-04T00:42:10.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "devrev-delivers-autonomous-self-service-with-gpt-6-1-sol-ai-2026-11-04t00-00-00-000z",
-      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-      "link": "https://openai.com/index/devrev-enterprise-self-service",
-      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "id": "introducing-images-2-6-ai-2026-11-04t00-00-00-000z",
+      "title": "Introducing Images 2.6",
+      "link": "https://openai.com/index/introducing-images-2-6",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
       "image": "",
       "source": "OpenAI",
       "category": "ai",
@@ -2019,8 +1309,8 @@
       "sources": [
         {
           "name": "OpenAI",
-          "link": "https://openai.com/index/devrev-enterprise-self-service",
-          "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+          "link": "https://openai.com/index/introducing-images-2-6",
+          "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
           "publishedAt": "2026-11-04T00:00:00.000Z"
         }
       ],
