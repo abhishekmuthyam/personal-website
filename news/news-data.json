@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T02:27:13.912Z",
+  "updatedAt": "2026-11-14T09:12:34.387Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,30 +64,96 @@
   ],
   "items": [
     {
-      "id": "hacker-news-faa-lifted-national-ground-stop-at-0119z-2026-11-14t01-30-01-000z",
-      "title": "FAA lifted National Ground Stop at 0119Z",
-      "link": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
-      "summary": "Comments",
+      "id": "infoq-node-js-brings-debounce-throttle-and-pkcs-12-parsing-into-core-modules-2026-11-14t08",
+      "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules",
+      "link": "https://www.infoq.com/news/2026/11/nodejs-debounce-throttle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Node.js 26.10.0 adds util.debounce() and util.throttle(), plus util.markPromiseAsHandled(), to the core library. It also introduces crypto.parsePKCS12() for reading .p12 and .pfx bundles, and extends the experimental Vi...",
       "image": "",
-      "source": "Hacker News",
+      "source": "InfoQ",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-14T01:30:01.000Z"
+      "publishedAt": "2026-11-14T08:03:00.000Z"
     },
     {
-      "id": "hacker-news-amtrak-booking-system-experiencing-major-issues-amid-nationwide-faa-ground-sto",
-      "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
-      "link": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+      "id": "infoq-google-cloud-moves-the-compute-engine-api-to-immutable-date-based-versions-2026-11-1",
+      "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
+      "link": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per request with a head...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-14T07:27:00.000Z"
+    },
+    {
+      "id": "infoq-open-source-documentdb-1-0-reaches-general-availability-2026-11-14t06-37-00-000z",
+      "title": "Open Source DocumentDB 1.0 Reaches General Availability",
+      "link": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-14T06:37:00.000Z"
+    },
+    {
+      "id": "hacker-news-monkey-island-all-13-versions-side-by-side-2026-11-14t04-23-30-000z",
+      "title": "Monkey Island: all 13 versions side by side",
+      "link": "https://monkeyisland.pages.dev/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-14T00:52:29.000Z"
+      "publishedAt": "2026-11-14T04:23:30.000Z"
+    },
+    {
+      "id": "hacker-news-nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus-20",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-14T02:52:59.000Z"
+    },
+    {
+      "id": "hacker-news-ggml-v1-0-0-2026-11-14t02-28-29-000z",
+      "title": "Ggml v1.0.0",
+      "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-14T02:28:29.000Z"
+    },
+    {
+      "id": "hacker-news-unsloth-qwen3-8-27b-quantizations-dynamic-v3-1-update-2026-11-14t00-06-04-000z",
+      "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+      "link": "https://unsloth.ai/docs/models/qwen3.8",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-14T00:06:04.000Z"
+    },
+    {
+      "id": "inside-java-adaptive-heap-sizing-numeric-conversion-primitive-patterns-inside-java-newscas",
+      "title": "Adaptive Heap Sizing + Numeric Conversion + Primitive Patterns - Inside Java Newscast #117",
+      "link": "https://inside.java/newscast/117/",
+      "summary": "ZGC gets adaptive heap sizing, value classes complicate numeric conversions, and primitive patterns are withdrawn as JDK 28 takes shape.",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-11-14T00:00:00.000Z"
     },
     {
       "id": "hacker-news-what-happened-to-3com-2026-11-13t23-48-59-000z",
-      "title": "What Happened to 3Com?",
+      "title": "What happened to 3Com?",
       "link": "https://dfarq.homeip.net/what-happened-to-3com/",
       "summary": "Comments",
       "image": "",
@@ -95,6 +161,17 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-11-13T23:48:59.000Z"
+    },
+    {
+      "id": "hacker-news-show-hn-live-map-of-u-s-flights-during-tonight-s-faa-nationwide-ground-stop-20",
+      "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+      "link": "https://grounds.top/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-13T23:17:39.000Z"
     },
     {
       "id": "hacker-news-terminal-borders-that-don-t-cost-a-cell-2026-11-13t23-06-40-000z",
@@ -108,19 +185,8 @@
       "publishedAt": "2026-11-13T23:06:40.000Z"
     },
     {
-      "id": "hacker-news-live-airband-on-all-frequencies-from-kors-victoria-ca-also-ground-stopped-2026",
-      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
-      "link": "https://orcasairband.com/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-13T22:04:24.000Z"
-    },
-    {
-      "id": "hacker-news-faa-issues-national-ground-stop-2026-11-13t21-05-53-000z",
-      "title": "FAA issues national ground stop",
+      "id": "hacker-news-faa-issues-national-ground-stop-lifted-4-5-hours-later-2026-11-13t21-05-53-000",
+      "title": "FAA issues national ground stop – lifted 4.5 hours later",
       "link": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
       "summary": "Comments",
       "image": "",
@@ -128,17 +194,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-11-13T21:05:53.000Z"
-    },
-    {
-      "id": "hacker-news-fm-1-workbench-2026-11-13t19-14-02-000z",
-      "title": "FM-1 Workbench",
-      "link": "https://open.m-vave.com/fm1-workbench",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-13T19:14:02.000Z"
     },
     {
       "id": "hugging-face-blog-build-a-robot-pick-and-place-simulation-with-simready-assets-2026-11-13t",
@@ -350,6 +405,17 @@
       "publishedAt": "2026-11-13T08:00:00.000Z"
     },
     {
+      "id": "aws-what-s-new-aws-batch-on-amazon-eks-adds-linux-capabilities-seccomp-and-pod-level-setti",
+      "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
+      "summary": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings.&nbsp;For EKS clusters that enforce the Kubern...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-13T08:00:00.000Z"
+    },
+    {
       "id": "aws-what-s-new-aws-secrets-manager-now-supports-cross-account-replication-2026-11-13t08-00",
       "title": "AWS Secrets Manager now supports cross-account replication",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
@@ -365,17 +431,6 @@
       "title": "Amazon SageMaker Unified Studio now supports layout customization for designations",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-layout-customization/",
       "summary": "Amazon SageMaker Unified Studio now supports layout customization, a new capability that gives domain administrators control over which tools and left navigation items project members see based on their designation. Org...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-13T08:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-batch-on-amazon-eks-adds-linux-capabilities-seccomp-and-pod-level-setti",
-      "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
-      "summary": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings.&nbsp;For EKS clusters that enforce the Kubern...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
@@ -405,17 +460,6 @@
       "publishedAt": "2026-11-13T06:27:00.000Z"
     },
     {
-      "id": "infoq-dropbox-shares-how-its-in-house-cookie-auditor-tests-consent-behaviour-across-200-we",
-      "title": "Dropbox Shares How Its In-House Cookie Auditor Tests Consent Behaviour Across 200+ Web Surfaces",
-      "link": "https://www.infoq.com/news/2026/11/dropbox-cookie-auditor/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Dropbox engineers described a Playwright-based auditor that checks cookie consent behavior across more than 200 web surfaces. It runs three tests per page: US visitor, EU visitor, and Global Privacy Control signal. Cook...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-13T06:15:00.000Z"
-    },
-    {
       "id": "github-blog-github-availability-report-october-2026-2026-11-13t00-20-16-000z",
       "title": "GitHub availability report: October 2026",
       "link": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
@@ -436,17 +480,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-11-12T22:54:52.000Z"
-    },
-    {
-      "id": "hacker-news-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud-2026-11-12t22-03",
-      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-      "link": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-12T22:03:09.000Z"
     },
     {
       "id": "openai-news-how-amplitude-ships-product-improvements-in-1-2-days-with-openai-2026-11-12t20",
@@ -548,17 +581,6 @@
       "publishedAt": "2026-11-12T12:00:00.000Z"
     },
     {
-      "id": "infoq-technical-debt-is-social-it-is-the-price-of-learning-by-doing-2026-11-12t11-05-00-00",
-      "title": "Technical Debt is Social; it is the Price of Learning by Doing",
-      "link": "https://www.infoq.com/news/2026/11/tech-debt-learning-doing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Technical debt is not necessarily a sign of poor engineering. It can be the price of learning through software in use. As AI accelerates code production beyond our capacity to understand code and context, technical debt...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-12T11:05:00.000Z"
-    },
-    {
       "id": "the-register-rockstar-workers-vote-on-union-recognition-as-gta-vi-launch-looms-2026-11-12t",
       "title": "Rockstar workers vote on union recognition as GTA VI launch looms",
       "link": "https://www.theregister.com/software/2026/11/12/rockstar-workers-vote-on-union-recognition-as-gta-vi-launch-looms/5309319",
@@ -568,17 +590,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-11-12T11:01:00.000Z"
-    },
-    {
-      "id": "infoq-presentation-opening-the-black-box-critical-explainability-for-ai-agent-tool-selecti",
-      "title": "Presentation: Opening the Black Box: Critical Explainability for AI Agent Tool Selection with Kiji Inspector",
-      "link": "https://www.infoq.com/presentations/explainable-ai-llm-agent-decisions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial chain-of-thought narratives,...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-12T11:00:00.000Z"
     },
     {
       "id": "openai-news-holiday-extras-is-rethinking-what-it-can-build-with-codex-2026-11-12t09-30-00",
@@ -600,17 +611,6 @@
       "source": "Spring Blog",
       "topic": "java",
       "topicLabel": "Java",
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "id": "openai-news-supporting-research-on-ai-and-children-s-safety-2026-11-12t00-00-00-000z",
-      "title": "Supporting research on AI and children’s safety",
-      "link": "https://openai.com/index/children-first-declaration",
-      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
       "publishedAt": "2026-11-12T00:00:00.000Z"
     }
   ]
