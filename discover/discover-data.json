@@ -1,12 +1,11 @@
 {
-  "updatedAt": "2026-11-15T14:39:43.933Z",
+  "updatedAt": "2026-11-15T19:56:34.274Z",
   "sources": [
     {
       "name": "Google News Top",
       "category": "general",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 10
     },
     {
       "name": "BBC News",
@@ -17,8 +16,9 @@
     {
       "name": "Indian Express Politics",
       "category": "politics",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "name": "The Hindu National",
@@ -35,43 +35,38 @@
     {
       "name": "Google Business",
       "category": "business",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 10
     },
     {
       "name": "Google Entertainment",
       "category": "entertainment",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 10
     },
     {
       "name": "ESPN",
       "category": "sports",
       "ok": true,
-      "count": 10
+      "count": 0
     },
     {
       "name": "Google Sports",
       "category": "sports",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 10
     },
     {
       "name": "Google Technology",
       "category": "tech",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 10
     },
     {
       "name": "Google Science",
       "category": "tech",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 10
     },
     {
       "name": "The Verge",
@@ -113,14 +108,9 @@
   ],
   "weather": {
     "location": "Hyderabad",
-    "temperature": 26,
+    "temperature": 23,
     "condition": "Partly sunny",
     "daily": [
-      {
-        "date": "2026-11-15",
-        "high": 30,
-        "low": 21
-      },
       {
         "date": "2026-11-16",
         "high": 30,
@@ -128,17 +118,22 @@
       },
       {
         "date": "2026-11-17",
-        "high": 30,
-        "low": 21
+        "high": 31,
+        "low": 20
       },
       {
         "date": "2026-11-18",
         "high": 30,
-        "low": 20
+        "low": 21
       },
       {
         "date": "2026-11-19",
         "high": 30,
+        "low": 21
+      },
+      {
+        "date": "2026-11-20",
+        "high": 24,
         "low": 21
       }
     ]
@@ -164,7 +159,7 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 64875.74,
+      "price": 64928.72,
       "change": 0,
       "changePercent": 0
     },
@@ -216,241 +211,1089 @@
   ],
   "items": [
     {
-      "id": "new-orleans-port-files-1m-lawsuit-over-miracle-on-the-mississippi-tanker-collision-world-2026-11-15t",
-      "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
-      "link": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
-      "summary": "The lawsuit filed by New Orleans officials also requests that the tanker involved in the collision with the cruise ship be seized and sold to pay for damages.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6592/live/907a90a0-e090-11f1-a701-fddedf244c16.jpg",
+      "id": "czechs-rally-against-plan-to-switch-funding-of-public-media-world-2026-11-15t17-23-40-000z",
+      "title": "Czechs rally against plan to switch funding of public media",
+      "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
+      "summary": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
       "source": "BBC World",
       "category": "world",
       "categoryLabel": "World",
-      "publishedAt": "2026-11-15T14:33:59.000Z",
+      "publishedAt": "2026-11-15T17:23:40.000Z",
       "sources": [
         {
           "name": "BBC World",
-          "link": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
-          "summary": "The lawsuit filed by New Orleans officials also requests that the tanker involved in the collision with the cruise ship be seized and sold to pay for damages.",
-          "publishedAt": "2026-11-15T14:33:59.000Z"
+          "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
+          "summary": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
+          "publishedAt": "2026-11-15T17:23:40.000Z"
+        },
+        {
+          "name": "Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSWdWSEdvS01Fb0ZxNWhFMnViZXJITzZsMW1KRnRmMW1kTzhoSkJ4NlV3SEVBd3Q1bnoycVZNdXhDYmcyX2p3dmtIeVRkYUhDUHduVWxuREpLZElWVzRjdlB3bkwxVHRvdzVCOWhVMHdENDUyVlQ1VndZTHhocE9aS3hrQm95TFAwT1ctYXF3TC1SamZBcDV2Sm9SVW12cl9oeUhpUGo0ZEdQVk1SSWZEZNIBtgFBVV95cUxPenB6NkFJNUdVcElpM0FCMFZMcEp2SEZGc3AtdUVqcThqU3lZQTN6cUJKOXMxRUxUMGZfQjY1cWhPVURVZmVTczRNUjVFUF80Wk1EOGhXUkpveEtxc19kbjk1ajdBaHBIVUpvWndROGZtQzhFOEVTQ3EtaXlfQm9BV0M5SFRBRERiS24td1ViYlJFbnIxS3oySjBDeVppUXUwa1lFRWp3cjh3R183bWFsUE5EWDFBQQ?oc=5",
+          "summary": "Thousands rally in Czech Republic against state media funding changes &nbsp;&nbsp; Al Jazeera",
+          "publishedAt": "2026-11-15T17:05:19.000Z"
+        },
+        {
+          "name": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV0pRaS1YQ3ZuYW42YldaYWdvWTBoN19GMFBGaXJBbGtSLWNtc3ZRRGoydDRzM3EyV0pPNjhEODV5Q3dRSXVtaTNwVzlBa2huUGR1SHNBUER4Z2RQaFlORENfUkdRMHFvcVRCWngxUTJiTnVXZGVRQzc1Tm9SQjNIQk5YYkFHZFdHbUtwa3czQ1YxVTA3QWdMd1BYNHY0cVpqZ1c2LXc4ODNrWFpRbVhUX2RpUkV6NTdJWVFDeW9idW9xUQ?oc=5",
+          "summary": "Tens of thousands of Czechs rally against government media funding plan &nbsp;&nbsp; Reuters",
+          "publishedAt": "2026-11-15T19:14:27.000Z"
+        },
+        {
+          "name": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWGt6Q1djZXQ1NWk4cDk0eFNYdXdxN0tWQ1NoV0ttQmpSTHlldWszeDlPYk5zbzJPSFRGc3kzMGtnTEpkRjR5SEFqcGV0aXYzNnlocVN3YlM0US1RTnc?oc=5",
+          "summary": "Czechs rally against plan to switch funding of public media &nbsp;&nbsp; BBC",
+          "publishedAt": "2026-11-15T16:36:42.000Z"
+        },
+        {
+          "name": "RFI",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUS1aeEt5MzNqQUt0WlRnUFFhWDl6di10RXJvdVY4cTFsX3RkeHVYanNuRzBTU1NKVXY0TG5Cd0RyWFZEZTlIazB4ZGlCaFZJY0Y4OHotQkpmdnprQ3pIdWoxNUMzVWhUZ2M4R2RnMTBDNWw3dzBwVmV1aVdwQi1wNUFvRmk2NlI1UXRndTBxeHFDSjdyaWl2c3c4elE3blRmZ0pwdkdvNU1rYmh2ZVJVdA?oc=5",
+          "summary": "Czechs stage huge rally against public-media funding overhaul &nbsp;&nbsp; RFI",
+          "publishedAt": "2026-11-15T15:49:36.000Z"
+        },
+        {
+          "name": "Yahoo News Singapore",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNW5RMU9ibHB0b0xPdEpMZ3I4cFZzR3JtWEZXTDVQcUNxWUNMakRZeFVzWEk2aEVVRDlLSkNNMUdyNmFBVUxKUlMxdDlfSE1DVnpvdHNORVRiRlBEdGx4dDBYdUNtdjg1TmlxWkFNdnhKZ0JzbVRlTTI4NnJYbHVXSnlB?oc=5",
+          "summary": "Tens of thousands of Czechs rally against government media funding plan &nbsp;&nbsp; Yahoo News Singapore",
+          "publishedAt": "2026-11-15T13:38:29.000Z"
+        },
+        {
+          "name": "Mezha.net",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaU8weGxGU0VhazZLT1dZTjE1NmtCWGZOUm10VWEtQVJhQVV5WVVBTzN4YTA4TjBKcHFDcEpkVi0xOTRkQUxJYzFVY3BpdGI1bXc2SzUyUUZadGctMTJ3aFhFSlVmenNITm1kT1dSVm15ems0dDlJbVVZNlNmcnBvcFFB?oc=5",
+          "summary": "Tens of thousands of Czechs rally against government media funding plan &nbsp;&nbsp; Mezha.net",
+          "publishedAt": "2026-11-15T15:11:29.000Z"
+        },
+        {
+          "name": "RTL Today",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMUZEQlJUNnpLdGVhbFBPQzQxUTAwbGQ4eDBmY2pTeUY3RWd3ZWZSdlVHbkFPaENTb1pQSzBIRjB2UnFwT2cwS3dOUXlXY2kyOUhjdjdmTFh2ZHlXM3h5WFIwa1VoWU5qVDBPcDNxX05QUVU2bzVLRk9TRVV3M293WHlvVkhFdkVVbWdpQTBiTkZFSC0tNk11VDhhM2o?oc=5",
+          "summary": "Hundreds of thousands expected: Czechs to rally against public-media funding overhaul &nbsp;&nbsp; RTL Today",
+          "publishedAt": "2026-11-15T13:37:52.000Z"
         }
       ],
-      "sourceCount": 1
+      "sourceCount": 8
     },
     {
-      "id": "bjp-confident-of-nda-continuing-its-winning-streak-in-forthcoming-a-p-local-body-polls-says-p-v-n-ma",
-      "title": "BJP confident of NDA continuing its winning streak in forthcoming A.P. local body polls, says P.V.N. Madhav",
-      "link": "https://www.thehindu.com/news/national/andhra-pradesh/bjp-confident-of-nda-continuing-its-winning-streak-in-forthcoming-ap-local-body-polls-says-pvn-madhav/article71704929.ece",
-      "summary": "TDP, JSP and BJP have had held discussions on candidate selection and seat-sharing for elections to 23 ULBs in State, says BJP Andhra Pradesh unit president",
-      "image": "https://th-i.thgim.com/public/incoming/4j366k/article71705194.ece/alternates/LANDSCAPE_1200/vjkvg-bjp%202.JPG",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-15T14:32:36.000Z",
+      "id": "staggered-age-of-consent-to-be-discussed-after-brand-case-minister-says-general-2026-11-15t17-15-46",
+      "title": "Staggered age of consent to be discussed after Brand case, minister says",
+      "link": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
+      "summary": "A woman who alleges she was raped by the jailed comedian when she was 16 is campaigning to see relationships between 16-and 17-year-olds and adults made illegal.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/786b/live/57899d60-e0f2-11f1-a701-fddedf244c16.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T17:15:46.000Z",
       "sources": [
         {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/bjp-confident-of-nda-continuing-its-winning-streak-in-forthcoming-ap-local-body-polls-says-pvn-madhav/article71704929.ece",
-          "summary": "TDP, JSP and BJP have had held discussions on candidate selection and seat-sharing for elections to 23 ULBs in State, says BJP Andhra Pradesh unit president",
-          "publishedAt": "2026-11-15T14:32:36.000Z"
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
+          "summary": "A woman who alleges she was raped by the jailed comedian when she was 16 is campaigning to see relationships between 16-and 17-year-olds and adults made illegal.",
+          "publishedAt": "2026-11-15T17:15:46.000Z"
+        },
+        {
+          "name": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MamNEV3JvVjh0Z0lmd1hLU0FKM3hvUWFCX1BpTVZ4dW5MQzNKSmhEaTY3Z1lPQ0taYURBN2hYd0xzcGluZ0dpeVB3SHVDeGlQV1l2dnZiamg4amhzQUE?oc=5",
+          "summary": "Age of consent: Pat McFadden says changes to law will be discussed after Brand allegations &nbsp;&nbsp; BBC",
+          "publishedAt": "2026-11-15T12:31:20.000Z"
+        },
+        {
+          "name": "The Telegraph",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQREpmSEs0aFlHQ1ViYzNtSXBFWVNtNDBQcFhlMVRISl9qSWdvUEprSjJDd2NaOEc2UXBBWl9sMlN0UWwyVWNQVFN2WEZrMENVbHVoT2Y5TkZqU2gxZEV3UG5DOTc2NjhwVkFTQ0g3Zm1oYzdKZnliTzAtTlZLV2kzVXBsdlRScXctMDJOdnZVQ2I2aWR3VDNLcFVyeHhTNXVwRmc?oc=5",
+          "summary": "Burnham ‘will consider’ staggered age of consent after Brand case &nbsp;&nbsp; The Telegraph",
+          "publishedAt": "2026-11-15T11:08:00.000Z"
+        },
+        {
+          "name": "The Times",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV2paN2FiQnlMSmpNdVBMUlQ1WjFtQ2g3NjIzVDZZY3VjQ1hBaGJqcS1WZ1Z5M1IxSGtGRHBjc2xaeU90R3lXZy1aLTVPMVo4V1NtNXoxbjdPSDF5dno3UWZVWkw1Vjk2Mlo0UGxzdjRYVzgzV2h0UGFrTHl5QjBLRHY3MHdqcGg5?oc=5",
+          "summary": "Age of consent could be staggered after Russell Brand outcry &nbsp;&nbsp; The Times",
+          "publishedAt": "2026-11-15T11:26:57.000Z"
+        },
+        {
+          "name": "SMH.com.au",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd1FyUG5TTk83NkdoUmY1Q3lpX2YzYVpVdWR3Unh6U2hLN2lEdjk1R0FMeXd1T0dxNmJuby12aXhtaXBEU3dtaGo4Wkpsb2RUZFZCamp3cVRZcUg1MUk3WFZ5aDE1MEt4RHNKd1pmZm5TZVRnV2M5MXlwazBqcWctZFhpMnpUcGVfc1VvWHc5UnJQRkU0Qm5JU1RRSktBRVc3SmEwN2lHeEVmVGxyb1FRclRtUkVKSDBnRHZvdW5BdF9XVHlFWXpR?oc=5",
+          "summary": "UK to consider changing age of consent after Brand case, Walliams claims &nbsp;&nbsp; SMH.com.au",
+          "publishedAt": "2026-11-15T19:01:08.000Z"
+        },
+        {
+          "name": "The Star, Kenya",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbUtjTjVlV2NhTkFsSi1saV8tb3hENV9qZmZUYU4zcGVvbERHbU1Sbl9GcGlwVzlZM21iQWRObUY1NXVTTEhkTjZBUEg3RWhwRmZ3NDJOckdyY0drbExYSUFKTmFwc3pNVWFROEFZcHIyVnYwVGRRQmltUmgzUWZBWUhsZHR6d1lPY29keUhBRXlwamhwSGRTWUE1LWRLWGJLQnMzTi1heWFkSW00dUozaExuUW44ZFgxaHUw?oc=5",
+          "summary": "Staggered age of consent to be discussed after Brand case, minister says &nbsp;&nbsp; The Star, Kenya",
+          "publishedAt": "2026-11-15T13:45:00.000Z"
+        },
+        {
+          "name": "Metro.co.uk",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbUVPRHkwc0FXclhOU0xtc21vNFVjWTBlWUhaOTQwWVB4ZnJKMlowQU9aZXpPOUc3cmdrYlJsZkdfeFIxZ1AxMkhoSmNkdUdvWlRhbGY1QmFKNmU4ZnZhMkRLWGQ4T3c1Z1F2azBPUnprbEU3ODgyQUxRZnAxM2FNNER3VjRTakduMldrYV9ZN1JfQkVnRXZOUHFId0pmYXMyaVlF0gGoAUFVX3lxTFAyNWFKOElUSV9WQnNOZ1RETnZlWUpJUkU5NjM1Q3RKOTZiMUlER2ZsYXF3LTNzeWlXSW9Da1ZMUVZ6LURPUGFidS1mTng1M2NhbWowUjhZSTJrWDh3VnBHRTJaRGFfTkYxM25mX1FRekMyb1NhOENOZ3c3Wm1aeUtYWGEtRE5CejhzOVYzWjZNTm5vYVU5NXcwaElrX20wY2swUDluNFIwMA?oc=5",
+          "summary": "Staggered age of consent explained after Russell Brand accuser speaks out &nbsp;&nbsp; Metro.co.uk",
+          "publishedAt": "2026-11-15T13:27:00.000Z"
         }
       ],
-      "sourceCount": 1
+      "sourceCount": 7
     },
     {
-      "id": "rajnath-singh-calls-for-ai-robotics-in-non-destructive-testing-to-strengthen-defence-sector-india-20",
-      "title": "Rajnath Singh calls for AI, robotics in non-destructive testing to strengthen defence sector",
-      "link": "https://www.thehindu.com/news/cities/Hyderabad/rajnath-singh-calls-for-ai-robotics-in-non-destructive-testing-to-strengthen-defence-sector/article71704991.ece",
-      "summary": "",
-      "image": "https://th-i.thgim.com/public/incoming/uyje7q/article71705185.ece/alternates/LANDSCAPE_1200/_DSC5073.JPG",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-15T14:30:38.000Z",
+      "id": "apple-s-first-smart-glasses-are-coming-together-tech-2026-11-15t16-59-16-000z",
+      "title": "Apple’s first smart glasses are coming together",
+      "link": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+      "summary": "Apple's smart glasses are among the worst-kept secrets in the tech world. Bloomberg's Mark Gurman says the company's first model, which will lack augmented reality features, will be announced at June's WWDC next year. They likely won't shi...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268640_RayBan_Meta_Gen2_AKrales_0038.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T16:59:16.000Z",
       "sources": [
         {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/cities/Hyderabad/rajnath-singh-calls-for-ai-robotics-in-non-destructive-testing-to-strengthen-defence-sector/article71704991.ece",
-          "summary": "",
-          "publishedAt": "2026-11-15T14:30:38.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "speakers-say-archaeological-evidence-is-key-to-restoration-of-ancient-temples-india-2026-11-15t14-26",
-      "title": "Speakers say archaeological evidence is key to restoration of ancient temples",
-      "link": "https://www.thehindu.com/news/national/andhra-pradesh/speakers-say-archaeological-evidence-is-key-to-restoration-of-ancient-temples/article71704980.ece",
-      "summary": "",
-      "image": "https://th-i.thgim.com/public/incoming/3yeswf/article71705181.ece/alternates/LANDSCAPE_1200/2.jpeg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-15T14:26:46.000Z",
-      "sources": [
+          "name": "The Verge",
+          "link": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+          "summary": "Apple's smart glasses are among the worst-kept secrets in the tech world. Bloomberg's Mark Gurman says the company's first model, which will lack augmented reality features, will be announced at June's WWDC next year. They likely won't shi...",
+          "publishedAt": "2026-11-15T16:59:16.000Z"
+        },
         {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/speakers-say-archaeological-evidence-is-key-to-restoration-of-ancient-temples/article71704980.ece",
-          "summary": "",
-          "publishedAt": "2026-11-15T14:26:46.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "minister-vanni-arasu-faces-flak-for-pursuing-tiger-in-mudumalai-tiger-reserve-india-2026-11-15t14-25",
-      "title": "Minister Vanni Arasu faces flak for pursuing tiger in Mudumalai Tiger Reserve",
-      "link": "https://www.thehindu.com/news/national/tamil-nadu/minister-vanni-arasu-faces-flak-for-pursuing-tiger-in-mudumalai-tiger-reserve/article71704393.ece",
-      "summary": "",
-      "image": "https://th-i.thgim.com/public/news/national/wyp9bu/article71705190.ece/alternates/LANDSCAPE_1200/tiger%20drama.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-15T14:25:37.000Z",
-      "sources": [
+          "name": "MLQ.ai",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU3RiVHQxV1ZKSkg0WDV4MVhya0dHS0k1OVdwbm14ZXNmVHdTR3QtNjZtS2dsY3VzUVZ1SHJxbVowU0ZXQzc1dmVjcHdNN2x2MUJxY1JQT3g5OUJPT2ZCOGxPamxSbElLSVFrc3pzZFlMMmxVMzBUNEIwU3FrSFhyYnR1SFVWRm53aHVRYlhRdm9RU1Uyb2xoendJVkxheFZ2MFBRNWIzWXE0QQ?oc=5",
+          "summary": "Apple's first smart glasses will have Wi-Fi and a Tic Tac-sized charger, Gurman reports &nbsp;&nbsp; MLQ.ai",
+          "publishedAt": "2026-11-15T19:44:17.000Z"
+        },
         {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/minister-vanni-arasu-faces-flak-for-pursuing-tiger-in-mudumalai-tiger-reserve/article71704393.ece",
-          "summary": "",
-          "publishedAt": "2026-11-15T14:25:37.000Z"
+          "name": "Business Standard",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYUV3aGQtY1JmdmZNZVM4NVVxLTVUV0xjNm4wbHJaZEJoUXFWQ2ctU193blZqQ0RSWjBRY1dFcWZLSzAtNkEyWWZCLXNrQlYtYjU5cHMyM1lwRHowRm03TEhZZXVJdlFEM1B3blVicWlSTF8xWHlsNzdoQkdneDVHNWwybXNxNk9UX0hOTll2Z2EwbUNGd1ViLUEyM3MtZVg0eW51UmpfOFZSTjl5VVpiYXZzd1hjT2NPMjMxVFFjQmhwMEhjU2NuMjRlcUhBUE5keGpkeNIB2gFBVV95cUxQMVVkdzQ1dUNzaUhqcTAta0pEcGxteHJkZm11V19QeGt2OWZJRGZGaUgxTXgyNHVsVWJfR3ZDMmxvYUJPR0NjLXV5QlBsM1R1T3YtUy1JWU1yQXlzYnFsem9jVm1qbFRhZ2hlcE55cjA4SEdMVjRrZWg3aTJIOUFjS3hEWVBnSHRIMGxUaFFWa09sZlkwOUhDWEE3Z1ZXbmNPN0otalZRVXV1SnIwNzI2WkFOSjNnT3ZYc3hCeHR1OHJlOVVJcndOWkllM3p6NjB0VHQxRllMRFpwQQ?oc=5",
+          "summary": "Apple's new CEO may bet big on Siri-powered smart glasses by 2027: Report &nbsp;&nbsp; Business Standard",
+          "publishedAt": "2026-08-31T07:00:00.000Z"
+        },
+        {
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVkRmY1ZIcThwVFBNdHRmdlJoZHZUMDdwaTdpMVRMS0xSXy1DSEpZc2hRclF6NFd4M01JTm1ucHFZdHI4RG1sZFNBbGlQc1FERzVpWnVQZWViNHFuNGtFUWg0SUMzRVNJNTJPU182MjI3OU1yaXZZckkwdnJJdVlmd1RMZFY4ZVlncU1mS2VvQ00zRVY5endTWEFtT1pwMm1qUjAwcDhUVFc4cU0wYlZkSk9CYnhMSE1LY21vYzBhMkt5YjViLTRvek4wSXFFTTAtTGRsdW9Ral9zUTZtWGQtVUNVbUViaEnSAewBQVVfeXFMT2pYVzRRX25rTzdhSjZRZEc4ci11aGFISk83S2s2ZjY0Y19pdml5NUVZTUJiMktJcDVzdGJOQmFmWUt4ZFh5MXd5X2h5My1KQzh3OTExUjFVV29QZV9uWERNLVliX0FBZmlzWG42SDY2dkpiMjB3WlpoempqZTFHc3EyMXlrR0xpM2Y2N2Q3a3AyMHBDbVdPdHE3VHVTbzdLMV9rbWd5Q1hxLWw1ckpXZExKWGRFMTNKcTF2ODZDTlAxSXkwWkI5MFNQblN6VlFCaFF5Ym5jbTNQZGhtOVpEUUNBWGgyblBYd1Y0X3A?oc=5",
+          "summary": "Apple may launch AI-powered smart glasses in 202: Here’s what to expect &nbsp;&nbsp; The Times of India",
+          "publishedAt": "2026-08-30T07:00:00.000Z"
+        },
+        {
+          "name": "Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYVlVaXc1cnFqdHQ3bmlBUjVlRkhaa3pGRFhiYUpBRVZuV3QxNVNGR1FpcWJBbUVpcGlFRHFwWjhRQ1RUc0ZNazJPODFNRGlnWW1aa3F2eGxDdHlEQnJIUkRzY19lc2pPbUc0UThtalZ0MEd3U25ZOXZ6ZURxbEM5NU5iNzU1Z0c3LV9zdXZyb2xIUEgxakJ4UFBJbHVUVnZHQkd6cWJYcUJOTzBYZmpKanFVRFFLZkVGTnBYRHFuYUJ0amQ5ZEx4VEJpN0xNcFU2?oc=5",
+          "summary": "Apple’s Smart Glasses Will Need to Overcome Meta’s Privacy Reputation &nbsp;&nbsp; Bloomberg",
+          "publishedAt": "2026-07-26T07:00:00.000Z"
+        },
+        {
+          "name": "Mashable",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzODlmSld2el9xcHg1STB1bU8zYW9aa2EyVVVEZHE5V08zX0g3azN5UzZjdjBzbnBaZEl5Y1dVak1wME5RU1puaG5yOXIxSjc4S2ZuV041UUdWaF9Ba1pzcXU1LTI4UXpQTkp6N1NMM1dIdGI0?oc=5",
+          "summary": "Apple said to delay smart glasses launch after Meta backlash &nbsp;&nbsp; Mashable",
+          "publishedAt": "2026-07-29T07:00:00.000Z"
+        },
+        {
+          "name": "MacRumors",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UQVhIUEVMdkFFUmZHNTJWeFRwbmdhVjBGTDU1Zi04ZEY4ejIyVzg3aUlocUIxTlNKWVZKTFh6UTQwT1NEY1ZHcV9LYmFFbFlBUXRmYWRVRGVYQQ?oc=5",
+          "summary": "Apple Smart Glasses: Everything We Know About Apple's Answer to Meta Ray-Bans &nbsp;&nbsp; MacRumors",
+          "publishedAt": "2026-08-06T07:00:00.000Z"
         }
       ],
-      "sourceCount": 1
+      "sourceCount": 7
     },
     {
-      "id": "bapatla-police-arrest-four-in-jewellery-shop-theft-case-india-2026-11-15t14-25-33-000z",
-      "title": "Bapatla Police arrest four in jewellery shop theft case",
-      "link": "https://www.thehindu.com/news/national/andhra-pradesh/bapatla-police-arrest-four-in-jewellery-shop-theft-case/article71705140.ece",
+      "id": "m-p-cm-announces-crop-loss-survey-financial-aid-for-farmers-in-rain-deficit-alirajpur-district-india",
+      "title": "M.P. CM announces crop loss survey, financial aid for farmers in rain deficit Alirajpur district",
+      "link": "https://www.thehindu.com/news/national/madhya-pradesh/mp-cm-announces-crop-loss-survey-financial-aid-for-farmers-in-rain-deficit-alirajpur-district/article71705207.ece",
       "summary": "",
       "image": "",
       "source": "The Hindu National",
       "category": "india",
       "categoryLabel": "India",
-      "publishedAt": "2026-11-15T14:25:33.000Z",
+      "publishedAt": "2026-11-15T19:51:13.000Z",
       "sources": [
         {
           "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/bapatla-police-arrest-four-in-jewellery-shop-theft-case/article71705140.ece",
+          "link": "https://www.thehindu.com/news/national/madhya-pradesh/mp-cm-announces-crop-loss-survey-financial-aid-for-farmers-in-rain-deficit-alirajpur-district/article71705207.ece",
           "summary": "",
-          "publishedAt": "2026-11-15T14:25:33.000Z"
+          "publishedAt": "2026-11-15T19:51:13.000Z"
+        },
+        {
+          "name": "ET Government",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNY2g4dTRkMWo0cVVMQ2ZGeDlMdS1lZ1JyaWVfZjZ0RDFSdzN3cU1VckdDOUQ5QUF0bGVST2FPeE9kNXZrbFZjUXBhdGJrOFVWQWZJWGVqUUJxaEY3eUVqRE1mUGdodU1GOWVqU18tcy0tNUd4OHlDSHNLcmkwdmtRSUNLdmZBdzlZbG1pVXNyOG5pcXpRUFJQa2JGc0F1N1pTWEpxQjJBeklDZWxnZUl0U3hpcG5FZWRDS2d2eGFsdmhqMXdoU0RNaWg2ZDVoZlNJTGM0bmFNMnRsUTFueUHSAeIBQVVfeXFMT2tlUlA4MnpjdHhfYjJYMExaTDBHYXN3ZkNyQzI3MF92aTJxZ2YyMzU5LWxlcXdnUGVKLWo0a0tfa2RwSGc5cnV3dnlwdTlzVXlKWkdiby02c1R5cWY4NlpzZ0RNcGtJNmNZUjB6NnNHU2dXQi03UElZbnFkRUFXLXdvaDFNSDE3MTAyRDUzVTUyVkhoZlViWTVpR2FDaXU2MGdkaDBnNnlTX01ZQ2IxUnV4bW1fRHdlbTlSX1FWVFNZWDdhV1ZiVDRnQmMwWDFDYnJYeG02Q0tVejNReE81dXVRZw?oc=5",
+          "summary": "MP CM announces crop loss survey, financial aid for farmers in Alirajpur &nbsp;&nbsp; ET Government",
+          "publishedAt": "2026-11-15T14:46:21.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPc0hXdHVONmgycENyRFRnM0wyaVFHQUhUaEdUYmFpdEpyV3NpcGZIOEZVN2x2ejZRY1c0Z3lycmtBeVAycFpQS0RmdjZVbnRCZEpvcmVnYXRZaFlleEduVk04bGpMVzZuYkxITHRFTVExeFJraHRjSXdfeGpvMmRfWkIzcndzMGdHdUFXejQ1ckJDNHM0YWVMOVU3T3p5S1ZDUENvcXB5NlR4aXlFeHBZaFlSV19rT1NYMmZHdnlxUTFTejREQXJTVVh2QnVqNDBGcmt1dWN1M19Yak92UmJnZWtqR0ZXV3lRRzgwdnlUSkd3RGhMNy1VVVBwNNIBggJBVV95cUxOakRVTXlOU2tOYXlibnZyMDFjYW95SnJPNzFKa2FOR0VBSWEyWkZqSE5ocmRtVl9pQ2swWE40NEY1MU1xUmxuSnVhLThHYzhXMkZpWDNxTWxnOC1zV1I5NTNOMTd3a1djYXF5VkNBaERSbHljeU92RG5VSHFMZm5jRk1KSWwyTWRYZktRYUZYbUZXWWcwUzBpSW92SS1XSkhJU1RNMWNvcmEwa05SNjNJSVFMbDhPYU5fajQwRmszdnB3dDJ5RGktaVZUSVBOYVYxNjNwSmVRbnFjbUR4R3c2VFZOYl9oNGlsam9aSk54NlhmMEloVjVCT21aNG5GZTZtR0E?oc=5",
+          "summary": "M.P. CM announces crop loss survey, financial aid for farmers in rain deficit Alirajpur district &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-11-15T19:51:09.000Z"
+        },
+        {
+          "name": "ThePrint",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZVc3SGFkcTh5UXR0aU1fdGQ5X3hlbnd0M2xxM3VuN05BNV9jTEFEREx6c2tuT21pbU5TSzY3NDZYWVFtS2tOVnFPWERUU1JlU3Q5clJUTGk0SmprX09DdzJsUDNnZnlXeGRwMGFNMTA4T1N6NkxrX0dyT1JDeWwyeWpVUElQSjJWSkN5S0w4ajE3NGkxcVRSR1RfUExBOEdzRUtwUzVlRWxIQdIBrwFBVV95cUxPWG16SG1kSE5aOUh2UG9NUElhT1JiY3lrYThmVjVINURRZklMLWZKOXJ6dzVfd1pXd2dIRkJDT2lwR3BnUE9NdGl1QzJlSzJubks3V1UxZ1pwV1BhSV85bjFuVVpKazg3VTc0elhJNzVJX3dRd04zS3dqV1J3NHUzSXVXYTVsWFpidkh2X3dHRUJQc21vbnJEWk5SeE1KOElOZHZvUm93Smk2Wl93WHpJ?oc=5",
+          "summary": "MP CM announces crop loss survey, financial aid for farmers in Alirajpur &nbsp;&nbsp; ThePrint",
+          "publishedAt": "2026-11-15T12:49:12.000Z"
         }
       ],
-      "sourceCount": 1
+      "sourceCount": 4
     },
     {
-      "id": "india-should-become-innovator-global-leader-in-advanced-tech-rajnath-singh-india-2026-11-15t14-23-34",
-      "title": "India should become innovator, global leader in advanced tech: Rajnath Singh",
-      "link": "https://www.thehindu.com/news/national/india-should-become-innovator-global-leader-in-advanced-tech-rajnath-singh/article71705038.ece",
-      "summary": "Defence Minister calls for strengthening India’s indigenous Non-Destructive Testing (NDT) capabilities",
-      "image": "https://th-i.thgim.com/public/incoming/8pui31/article71705127.ece/alternates/LANDSCAPE_1200/20261115112L.jpg",
+      "id": "diljit-says-attempts-made-to-stop-his-indore-concert-recites-kisi-ke-baap-ka-hindostan-thodi-hai-ind",
+      "title": "Diljit says attempts made to stop his Indore concert, recites ‘kisi ke baap ka Hindostan thodi hai’",
+      "link": "https://www.thehindu.com/entertainment/music/diljit-says-attempts-made-to-stop-his-indore-concert-recites-kisi-ke-baap-ka-hindostan-thodi-hai/article71705785.ece",
+      "summary": "In an aggressive tone, the Punjabi artist appeared to take a dig at the political opposition to his Aura India Tour 2026",
+      "image": "https://th-i.thgim.com/public/incoming/dxu2q2/article71705791.ece/alternates/LANDSCAPE_1200/Screenshot%202026-10-19%20135303.png",
       "source": "The Hindu National",
       "category": "india",
       "categoryLabel": "India",
-      "publishedAt": "2026-11-15T14:23:34.000Z",
+      "publishedAt": "2026-11-15T19:27:28.000Z",
       "sources": [
         {
           "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/india-should-become-innovator-global-leader-in-advanced-tech-rajnath-singh/article71705038.ece",
-          "summary": "Defence Minister calls for strengthening India’s indigenous Non-Destructive Testing (NDT) capabilities",
-          "publishedAt": "2026-11-15T14:23:34.000Z"
+          "link": "https://www.thehindu.com/entertainment/music/diljit-says-attempts-made-to-stop-his-indore-concert-recites-kisi-ke-baap-ka-hindostan-thodi-hai/article71705785.ece",
+          "summary": "In an aggressive tone, the Punjabi artist appeared to take a dig at the political opposition to his Aura India Tour 2026",
+          "publishedAt": "2026-11-15T19:27:28.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSk4zMjFBdjV3YTdNckdjOEY0bUF3RTJiYklKTnJrTXZLb0JhSmV4QVA1RDV5NW5lR3I4UGZiZE02SnlhZF9FN3BNZzRXNFE4b00tVDhkR216dGxUZWtFendWLVZ3Z19HN0N2VlR3emYtR214dlVhcTd6Vm9CX19Vang3UGdPS1RzUlRhT2NBZlktcWNNVkxXM1lQYUN2MHhBNnlqa0ZBSTV5WlBOR1V1dC1vVzZhRDZKMFl1a0VsUmo3R1BDcUxDdHdEUVJBOHp2ZlB2X0libDYzYmNfb2poR2hjLVYzcy15WW85eDdBUVFzSFXSAfoBQVVfeXFMTktOdEdtLXZ3TGsxdjJVSWRoWjluTF94dWpyUU0wVWFDeWk4VElsZ2gwSDFkYk0wUzRuVjVFOXJRRnZ6U3duNm55SS0zUlNjRk5FYzF6YUtYYXlCXzZOM3VCMTBYRng1bFBmRHJzZzdLU2NmdUs3T0dxV1VkeFhWQmlMWDV3ZUNNYmR6ejZfajltSXNDSHhOQ0pnTGxrUFE1bFdtMHlGWkpFdDNwLUUtSG43MUt5cjFVMlQ2Z3dEQlIzZnoyRlF0dFJMeGs1RlBMeU5HUENZU1J4Vi1rd3ZzNndTWFZJcXJONzVrZ3Z3eDFCZjZSZHJGbThPZw?oc=5",
+          "summary": "Diljit says attempts made to stop his Indore concert, recites ‘kisi ke baap ka Hindostan thodi hai’ &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-11-15T18:54:58.000Z"
+        },
+        {
+          "name": "Telangana Today",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNGFJaXZRamdBYzRKUE9HY011dTdxUlpJZWVGVGpiUVdZbWl1RDB1eDRyUmlDS3VXdzEwSXJPRjdzSXpvanpJekJTT0s5VGhIZFNCbWlYV3dhbEVnRG5WdVdvYVFKLXZZYk1Sc0pyUW5OOWQ4VUFnaTZHWnc0cnlIQzVnYnlrVnEtdEFQcG9ldXQwX3dpcC1aQldIUVgxMnppMlpWTTZ5Yi1QTFZBdmpnNlJFc2k4M1FvblFUYzdmb0E?oc=5",
+          "summary": "Diljit says attempts made to stop his Indore concert, recites ‘kisi ke baap ka Hindostan thodi hai’ &nbsp;&nbsp; Telangana Today",
+          "publishedAt": "2026-11-15T19:14:09.000Z"
+        },
+        {
+          "name": "Hindustan Times",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPZ01JUFUxN0dHNDFqb1Aya2o3bm5keWFnSnA5cW5BZXVJOWc4elR1LWliZlY2dDFMc0ZlX3RVRTNoSE1FS2pJVHlxTVp0ai1JMkZpR3VzMFVhT2dnVjVhVFVOYUY2THZWd0h3MjRubjJ3V0l6cGtwN2c0ZURVUjRWR3VQcVB5VVU1b1IxNC13SGMtRG1GbGVPcVp0WW1oTDMzQ25jZTROM0tqSkNuSW1jVFJTVldONXNxclEybHEyNlRHSWE2eW1sdWNwTlFHMFpEUFZsbnYtYlA0bjFzOG9Scm4yV2t2MDBtZGZwb3ZINEpVaDDSAfgBQVVfeXFMT3hXZ28ySnJnRF9hclZMcFVndzlwYUZpWnkxZW5tM3NjWTl6VXp3aTRTSThtRmNEeXB2T1RVSlFpVko2WkE3RzZCQll2U01RaFhHQmVZMzNZUFRVSzY4ZFRkdEJySXJxUmk0bFBDQ1BRRmloMFN5ajdLbUhFVGM0SWRnbXJHazBLRVBzRlRCLWI2Yk1Cb3dzaS1mVXpHNkpmZU5sTlA5MzAxZXFQQnRwclIyeDRVeW15d1J0TC04NThIU0tTdDN6RXVUOHlpRXNEdDJ2SDJiOFRIYkdrR3dWQlR4X3JFYW1rdmU4RzBlQkFlQTMtbFNlOFQ?oc=5",
+          "summary": "Diljit Dosanjh says attempts were made to stop his Indore concert but he did not back out: ‘Nobody can stop us from coming here’ | Hindustan Times &nbsp;&nbsp; Hindustan Times",
+          "publishedAt": "2026-11-15T17:26:25.000Z"
+        },
+        {
+          "name": "hungamaexpress.com",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbHVqNnpNdU1nOHg4OGF5VVo0M2FzMmNESXlVVXdvSHc0RktSUnR5R2NQNVU5VkNWbGdCRE9JX2pqN2NUdFZvWXN3YklHc2RFT0E1em5WbGxGa19iNWtBRU1SOUtQMmU2Y0NiRkRhRHZNdjJPWlpZMVZmZXhPVk1CRXVNMHFvTU9TTXJycWg3MmJPY1pYMl9zbnE1ZVJrcUNqN0szN2VnYmx1a2lvTEZVNmZSWS11eDFmbmdlcVA0NUU3aHkz?oc=5",
+          "summary": "Diljit Dosanjh says ‘Nobody can stop us’ at Indore concert amid attempts to block show &nbsp;&nbsp; hungamaexpress.com",
+          "publishedAt": "2026-11-15T19:16:49.000Z"
+        }
+      ],
+      "sourceCount": 5
+    },
+    {
+      "id": "ramayana-part-1-box-office-collection-day-10-live-updates-ranbir-kapoor-s-film-crosses-rs-1-228-cr-g",
+      "title": "Ramayana Part 1 box office collection Day 10 Live Updates: Ranbir Kapoor’s film crosses Rs 1,228 cr globally; reaches Rs 75 cr mark in India on Sunday",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZjhEMjA4bnp2WFVaM05SbHZoYVR4Q2x1VzVnblJOVFIyWVNLYUt1Y3ptdlFtUkhBRTN5d25id1h6dGo3czhLeTBLaGJKbHRtUWZFenk4UXdTYmtRVVdZbzJ1LThfQ3lYZkhGNkRKTlR5MGhqa0FyaHBmVjl6MVYzNFRGOVczQ3ozSEVZcVBBeTZfdjNvRzhIcGZYYmVyYnluMmxoM1UxNC1SaTNoaW1ST3laenNQYVZVS0gxcFhwX3QxMFFVZFpxdEFrT0J6VmlLTWd0S3ZDUl8tc2hkLTNvVmZJeHlWejJLamdPR1Z2LTY4d9IB-AFBVV95cUxNQ0g4NVpmSU1wYzk2V1dQUkN6bGZGcVIxNWhGbmNSOFZGb3dPbWZZRlA3Z3NlRDM2Y09GVE9iQlA0UHVGT2ZxTlVwckoxMjZ6ejBFbUNVWGE2WnlfVUl3S012b202bjF4cXdXNVY1ZXZDMlliNXMySHBZeWxUZGM1bXBQMGpXcmpwUk5RblB5dWZZa2VUMldMSlpaNDV2Tk50QmdkY3l4R0JLdVlWa2swbTEySnF6RDFPaGZvQ3NPd3lSUjlPN1pGUXNxb2loWVJEMENxa3llY0s2c1E5bm1hMFJTWGJidWxGcWp2M3R6cndlQl9na3VibA?oc=5",
+      "summary": "Ramayana Part 1 box office collection Day 10 Live Updates: Ranbir Kapoor’s film crosses Rs 1,228 cr globally; reaches Rs 75 cr mark in India on Sunday &nbsp;&nbsp; The Indian Express “Ramayana”, India’s biggest film, turns a Hindu god into...",
+      "image": "",
+      "source": "The Indian Express",
+      "category": "entertainment",
+      "categoryLabel": "Entertainment",
+      "publishedAt": "2026-11-15T16:53:21.000Z",
+      "sources": [
+        {
+          "name": "The Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZjhEMjA4bnp2WFVaM05SbHZoYVR4Q2x1VzVnblJOVFIyWVNLYUt1Y3ptdlFtUkhBRTN5d25id1h6dGo3czhLeTBLaGJKbHRtUWZFenk4UXdTYmtRVVdZbzJ1LThfQ3lYZkhGNkRKTlR5MGhqa0FyaHBmVjl6MVYzNFRGOVczQ3ozSEVZcVBBeTZfdjNvRzhIcGZYYmVyYnluMmxoM1UxNC1SaTNoaW1ST3laenNQYVZVS0gxcFhwX3QxMFFVZFpxdEFrT0J6VmlLTWd0S3ZDUl8tc2hkLTNvVmZJeHlWejJLamdPR1Z2LTY4d9IB-AFBVV95cUxNQ0g4NVpmSU1wYzk2V1dQUkN6bGZGcVIxNWhGbmNSOFZGb3dPbWZZRlA3Z3NlRDM2Y09GVE9iQlA0UHVGT2ZxTlVwckoxMjZ6ejBFbUNVWGE2WnlfVUl3S012b202bjF4cXdXNVY1ZXZDMlliNXMySHBZeWxUZGM1bXBQMGpXcmpwUk5RblB5dWZZa2VUMldMSlpaNDV2Tk50QmdkY3l4R0JLdVlWa2swbTEySnF6RDFPaGZvQ3NPd3lSUjlPN1pGUXNxb2loWVJEMENxa3llY0s2c1E5bm1hMFJTWGJidWxGcWp2M3R6cndlQl9na3VibA?oc=5",
+          "summary": "Ramayana Part 1 box office collection Day 10 Live Updates: Ranbir Kapoor’s film crosses Rs 1,228 cr globally; reaches Rs 75 cr mark in India on Sunday &nbsp;&nbsp; The Indian Express “Ramayana”, India’s biggest film, turns a Hindu god into...",
+          "publishedAt": "2026-11-15T16:53:21.000Z"
+        },
+        {
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPeXhORC1kYVktV2YyQm1qZ25WR2hESXlhQmk0ZHdiY3JrQXRsMXJhUGRPcDBtcUdZMjdKUnpJaVBON3BrTkt2bmR2Q1R1a1pkRnpOSjRxaW81UVZ1UFFZREZYZVVIOXdtZFNLRmlfbC1mb3B0Wk9xWVRDX2dlWGQ2T3YwZGNzbTB5X28tTC11VE5pdERVdWMzSVc3WS1ncHhVMDY0YnZVbkF1cXItNHVLSkFraXhGWHBzN0J6S2RJSjVaR2FKUEpKOWlaeEVTYy1DOXZHNVJtX1BPUUsxcEw5Mkx0Rk1MVkIwMmtCOTgyc0J3Nmdlb0hQVkVnbTNvck9fRW50SV9LT1RkdkdpZVA0emVhQjBBNFNFUHp4NE9nSjZTYmhHQ3FsNGhSNWIyZkRSZktqdmhCSDNOYWVEb3R1VkEzS1Q0V2RyUFpJa3lVQnZDYlBjSVZBZXBlRVJNZVQ3WFFHcXJjSmI4UlNHLXNmeVpmY2xqYVB3VjVmVnJFQjVRbnFIaTlxOE0xVGpwNWF1ZFHSAZcDQVVfeXFMUE9BYk1rakFDMFcySjNPLUU4aGRlU1JIR045czhXWjhFZ0JUMWdWb1MzRnZMMERnMGM5RXBBcWdOajlfZUlZYkdtVWxra2x0Ymc1bGVJWktFLVlRTWFfTGdaSG9xNnhnOGVEQWw2RnZ3V290TkMzTlI3ZjA5bjlZbW9XVWkzbWZ3b3BUV1BjaC1rbmhJQmQwbUNab21EU3oxVGs5ZmJLQ21QWHU2X0VObjBMNUw3UVdHMjU0QkJnbF9mQTc4eXVnSlNoTldIRHJLem5rUGEtSmFibjgtWVJsMFFsSGdGdlA0Zm8wZ044TGd6YUlDVUY3NGx5eGFXc2dLdXJkSlhmdDFSbHpNMmUzS2JTbDh6TTZoZ0xUVjNQM2xRTU1BOW53U3dzb21jcE94OTd2bllteV85NEJxWGhfTmlWMXNobHYtOE81YkJjX2k2VVVWMXplcFBvekF0UExacmpsMjFUY0ZId2ZCQ2ljZnU5MmY5TVNJQ1pGalJuWkVIdm1NQ3NFcXBrNHJYQ0lvZGhqdHAzOEk?oc=5",
+          "summary": "'Ramayana' box office collection day 10: Ranbir Kapoor, Yash, Sai Pallavi's film sees 51 percent growth o &nbsp;&nbsp; The Times of India",
+          "publishedAt": "2026-11-15T01:29:00.000Z"
+        },
+        {
+          "name": "The Week",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTUM2TUJra1VpOWFDR2tWYUxlakNLZ21PUGdtQjM2NExILU00SW5HaU1jRnQzYm1WV1ZWdnJucGdYRXlza2ZXMVRHTjNsWGxQdXptRTlPTDlGa1BOd0hvbjh4U3VGQVhtaEZoM0xjQWFndkhqTUdiTE1KNXI0aThnZ0puNWZiVVpabWxwR0xnQXhGcmVCMVFOTnhwdkl1SXl5TkMtRkZ1WXAtY0VGVEN6OGxJaTROd2dna2JxaFFfVzBBTEQ1ZnY4R09NeFUzdkdyVzRpakViZ1d5WlZu0gHiAUFVX3lxTE9YOWRVM1JMdGhuUXU4THNQaUJIb1cxdWJIcFB1X3pHMmtSNXhDXzFxSWd3LWprdTdUdFBOOE85MWF4Mnk5WnJ6a2xUQkV5WV91ckxoeXBkSF8wb0JkczFEallvVUtEbWd5aUMwU1JfVVcwUDJhQWJKWGlOSFRsU3ZJR1l6M0o4TWZTNi1CNmFDbG9jSkgzSHQ4VXVTSGQ5QTVmb1JmUnVPMGlPWGFUQy1NMzJkMElpYzVza2RmdmE1RDZqTEpVRXlFOFlfWWo0M2VObHRKQl92Wi1jdkR1ZHFNeGc?oc=5",
+          "summary": "'Ramayana' Day 10 Box Office Collection: Ranbir Kapoor epic surpasses 'Jawan' in worldwide, domestic gross &nbsp;&nbsp; The Week",
+          "publishedAt": "2026-11-14T12:46:49.000Z"
+        },
+        {
+          "name": "INDToday",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rWG16RC0xN1FfcnF0S2o3VW5RZmJzdXJJblZjUDBhbkJBQlU0UlU2QUtCb25iVnlCWWd3RU5NRE94QnN0YmY1U0FMeUVvQnQ5cTRWRHEtdWtCUU54ekwyd3VieTNkYWRLYlhPY0ZtMkJzYjEyamVWaWoxSjZfUlE?oc=5",
+          "summary": "Ramayana Box Office Collection Crosses Rs. 1,100 Crore &nbsp;&nbsp; INDToday",
+          "publishedAt": "2026-11-14T16:40:21.000Z"
+        },
+        {
+          "name": "The Economic Times",
+          "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNa2ZrRFA0RFBwX3Q0ajMzeVI2T3BITW5KZ25mcER5SldWRmJ6SkdaQ3I1ZXZKZDlBMDBmQUxDNkxoalpqbEZHUWlJTVE4YVNuRm1GTUVObnpHUG5TcW55RkQ1ck5MS0FNWGNjNXJLdEdvSFY1WC1HdE1mQ2ZEazgtM3RXS2t5SjN4endoaHZDUHMzS19DajVNUFhOVWlSeGVTaDJIN3BLOG9PVFRqTlhJS3d1RkwyZ1E5NUZ4bFhiVElyYWlWUEZqNXREcDdfZFRsTi1pMmdHNEZQTWw3bVFZNnRHdkRXNW1LX0lmUm0yTjhLTmd4eWZhSWo1dHdqSjFrNm9qbVJ6bE5CTUVFRmFNS0JqdkJhejVjWXlBT1N0XzNFNXR2dHdkLUNudmpMUdIBpwJBVV95cUxNTTR4ZDBXb3ZmSW1PSzM4SVU5bmhGSTRBWEtwYklRT2JEMWZoWjhxY094OG5TdXFPa1JXNDRteVlSV3VOTzdMU0xORHo3UG5NVy1xNGJDR3BUVDBMNnYxXzB2RHBuRjJtZXdvd2JHNG9JakNNOXY1VzVJeWtRQml1M2Y2Y1VER0hUZEx2S0hYa0FjdEdzclVYUWZ5cGd3RjBLejBYcWFIbnhVQTNCeWVKOGZ0ZlJlNTVDd0NRQ2tDaTd0RmlmZDJqOFp3ZzF3X29MaTZmMXJtbEJ0OThRYU1NS0VtUm01N1NyRkVkdENMVGVKNzJYU1cxbDdfeEI3VXJpXzYzR013eVJGUjZEN2VCOElKZXpuY21oM2JHWHptSDFIU3U2YVFj?oc=5",
+          "summary": "Ramayana box office collection day 10: Ranbir Kapoor, Yash's film beats Stree 2 lifetime collection. Earns &nbsp;&nbsp; The Economic Times",
+          "publishedAt": "2026-11-15T01:43:31.000Z"
+        },
+        {
+          "name": "Sacnilk",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ2RHQ1B0aXZuUDlPdXEwZjNVNkJXcUNqX0xBQUR3N2lWNjZOc3drREk0cXo5LUNiUzhqUUpCa3AtOGtwaTVOYmNQTzZGclBZU2U0cnlFamRZTzZsOVdwN2pzcWtVOVZDV0xFd21KVnI0ZVlnSmR2M2N3RTJtdVJXWURfd3VZQXowdU9F?oc=5",
+          "summary": "Ramayana Box Office Collection Day 11 &nbsp;&nbsp; Sacnilk",
+          "publishedAt": "2026-11-15T12:02:03.000Z"
+        }
+      ],
+      "sourceCount": 6
+    },
+    {
+      "id": "guest-teachers-in-haryana-hold-mock-assembly-demand-regularisation-india-2026-11-15t19-51-50-000z",
+      "title": "Guest teachers in Haryana hold mock Assembly, demand regularisation",
+      "link": "https://www.thehindu.com/news/national/haryana/guest-teachers-in-haryana-hold-mock-assembly-demand-regularisation/article71705467.ece",
+      "summary": "",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-15T19:51:50.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/haryana/guest-teachers-in-haryana-hold-mock-assembly-demand-regularisation/article71705467.ece",
+          "summary": "",
+          "publishedAt": "2026-11-15T19:51:50.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUjZyaThka3lMbm9RX3ZhYTdja0lwM1ZEN3pGdjVaUnJaNVlSaE1SWDhjM2NpY2NZRFIyWHpnZFp1QWczRzhlM2k3RWxuSW4tRGJOSHFkTDktUmJTUWhaenZtSUdRbGRoeHY5WXUwYWt5V240YmhibVZWd0txSFpkem5aT0tWelRxYk1FR1A4MmlFVmFoZ3FDcGI2VlZJNkEzLWkyN0hVRzlER1R0djNONWVoRHdfbmNMbk9rQlJINTNiVlhQbmt6S9IBzwFBVV95cUxQbmRSUzlMYjRwczhGSnFoYlhSdWF4Tk1MQjRMNG5WbXFKQU9WS29TVnVwMThTRk8wOTdDOHFHRlpncnBkaENpb2J1X2p3Z0NWdXgtUWRBS0NvcWcwTjhTd0d1UjVzNTZnUU81MzgyNHM2a0poVnFjX2NTcXA3SVllMGZua29veUswNjVhN2Ntc3EwalFtMFV4QXBMRkNhTW9ZWmJyQTJHSHJlZ0V1YUxDU3VNV3N5VmR6dXIwQlBLZlNfa2lmaDdzSEpncTBnWU0?oc=5",
+          "summary": "Guest teachers in Haryana hold mock Assembly, demand regularisation &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-11-15T17:51:36.000Z"
+        }
+      ],
+      "sourceCount": 2
+    },
+    {
+      "id": "zelensky-urges-us-and-musk-to-lift-starlink-restrictions-and-be-on-right-side-of-history-general-202",
+      "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+      "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Ukrainian president says restrictions are still in place and making it difficult to stop Russian attacks.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bb5/live/938b6e20-e114-11f1-a7db-d90284d21c62.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T19:32:39.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+          "summary": "The Ukrainian president says restrictions are still in place and making it difficult to stop Russian attacks.",
+          "publishedAt": "2026-11-15T19:32:39.000Z"
+        },
+        {
+          "name": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBBWUw2MG5NVUhnUkZqMkZmNzJGQi1xSmtXUHdfenVpLWd3QmJUMHNiNzJMRmp1R2g5bXdvSjI5MVlRblBnWFJ5T2t5cks4US0tNUwzSndiZVluM3YtbXc?oc=5",
+          "summary": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history' &nbsp;&nbsp; BBC",
+          "publishedAt": "2026-11-15T17:57:09.000Z"
+        },
+        {
+          "name": "A News",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZnk0N3p0dGc1amVhSTRrRGtMbklfSE5lZUFEWG5KNFE0QjRycG8zbWVzekY0cHFWUW5kSDFLTEpVakd6RDlzLXVVU19KRmlsNVV1R05lb0RBTFZleWVWejhWeVlPaGZGc3JOWFhpQW1NYnBLd3BFckJHNVFiWFdBSVdjOGIwRWcycU5UWldsTDAzMGNFU0tyc3Z5ek1SclhLcWhjdtIBqgFBVV95cUxPMjBGb0FtTzd6UnJRYlhub0ZBWWwwMzNjWU0wM09GOEVuM1c2NU5PLUwtNjdBVFBjcTdwV0Q2ZnhkaFFfdHRXcjZXZ0FuUXNkV2ZQWFc4RjdfcGtwQ2tnYktPdEwwVjlwemcydEI2UEh2NXJiRVZoSjBIaGJfbERKLXljSjk0OFVoTC1DM2NEelNxSWdYZHhFcG5ENTNURHhIdWg3V05yR2pJZw?oc=5",
+          "summary": "Trump asks Musk to lift Ukraine Starlink restrictions - report &nbsp;&nbsp; A News",
+          "publishedAt": "2026-10-22T07:00:00.000Z"
+        }
+      ],
+      "sourceCount": 3
+    },
+    {
+      "id": "thousands-of-us-flights-still-cancelled-or-delayed-two-days-after-grounding-of-planes-nationwide-gen",
+      "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+      "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The US transport secretary says that normal air-traffic operations may not be restored until Monday.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b00/live/90c0ff50-e11b-11f1-a7a2-7bb21fac8f0b.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T19:20:53.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
+          "summary": "The US transport secretary says that normal air-traffic operations may not be restored until Monday.",
+          "publishedAt": "2026-11-15T19:20:53.000Z"
+        },
+        {
+          "name": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CV3ZLTzdBWS1wM1V0cHRCVFdEM2g5QlVYeVE1RXRxSmVLZHJqc05RNUFlc190d2FvUzJLcHByaDhlZ3c4TnVaVEdvbU50RXVGT1lRaFg1a2RFNVEzM0E?oc=5",
+          "summary": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide &nbsp;&nbsp; BBC",
+          "publishedAt": "2026-11-15T19:20:53.000Z"
+        },
+        {
+          "name": "Gulf Times",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ3N4ZDBhRDhtTFhYZWhzX1luUjFmallhN3VYanZMYW05TjgyWGctTE04RzZuLV9zbXRHZU5YY3hub2t2d2lMYkh3QUFmM29YTjVOSU41a1lWTkZkaUhZUUFjOVNGMFU5azBIeG5DMG1RSmE1RlRfMlBSN3JwOGxXY2Jtc2tZMnBJLXVQWHBZWTg3ZkpFeWdkMVI5RnTSAaIBQVVfeXFMTUtBcEwyc2FJclhuejdycWJQRnN0cFFoNmR6UkN6TE00LVVCNUdyNDR2Y2t0cmpYODdZS2x1eWZtNzJhaFFSMDU3TTN1bVhxZ0xpU1hGSnR0UzlYSUtKaW42RVhTTGpMZDNqcUU1ejYwVnU5WG5lTktQZVlhRmV6WExWNl9rTjhITUlTVGlKdlpHNEZYSlZYZS1Bckc1ak5hSmdB?oc=5",
+          "summary": "Thousands of US flights canceled, delayed | Gulf Times &nbsp;&nbsp; Gulf Times",
+          "publishedAt": "2026-11-13T21:00:00.000Z"
+        }
+      ],
+      "sourceCount": 3
+    },
+    {
+      "id": "congress-wants-to-tighten-export-rules-on-ai-chips-after-nvidia-spy-scandal-ai-2026-11-15t19-15-43-0",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various mea...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge AI",
+      "category": "ai",
+      "categoryLabel": "AI",
+      "publishedAt": "2026-11-15T19:15:43.000Z",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+          "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various mea...",
+          "publishedAt": "2026-11-15T19:15:43.000Z"
+        },
+        {
+          "name": "The Verge",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUdJdF80Q0hNQ1d6di0yZVRpSDNKZm1ZSkxCYVEtNERiVFpwOTROZ2RXZXRrNEd1U2RtR1hVaGJPUXgtS3BUczNCV2EyUGpFRkxqemZWLXBZTHU4WklGcnBRcTVLLW1QcWZUQmNiR21CYjVRQ3VydWg1ZVRHVlJ2UjRpLUprZTg2QjhkVGxrRTdDWDRLV1NUY1JMbW0?oc=5",
+          "summary": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal &nbsp;&nbsp; The Verge",
+          "publishedAt": "2026-11-15T19:15:43.000Z"
+        },
+        {
+          "name": "Startup Fortune",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUXo5NjhRWlBKYml5ZUdxM1lzTW1ZLTU3Uk9mOUZ0YzhJaTdtQXZJUWU5cG01bkJuSHpVM2ZJd0lJMWFjS09nVGFTYVJEaXA0Z2FwcDJLVnFQY3ZndWRCQVZWempzY28zX1VQVUx5TnowTDhKc1gxODNaeVRhSDFIQmJMYmJDbmpyU0U3d2hNY2p2UjE0clFCWU5CVTd0SWg3WjVSU3dzR0xuUQ?oc=5",
+          "summary": "Congress moves to tighten AI chip export rules after Jensen Huang quits Nvidia &nbsp;&nbsp; Startup Fortune",
+          "publishedAt": "2026-11-15T11:25:07.000Z"
+        },
+        {
+          "name": "Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGxvZmxUQ0JxLVJuWmRILTBpbUwwbEMxbDV1bEhkYVdjdnl3WVYzWFBGZFhqckFER1JyYWptWEI3XzAzeEZ1dnZuSUdYVkFCdFZXTjVmMUxtVjJSc0dPZHR2R05TbE1mQzA0OU84TEdXd1I0UkFrS2Z0dDRIUXoxV2Y3b2o?oc=5",
+          "summary": "Congress moves to pass tighter AI chip export rules following Nvidia scandal &nbsp;&nbsp; Financial Times",
+          "publishedAt": "2026-11-15T11:00:04.000Z"
+        }
+      ],
+      "sourceCount": 4
+    },
+    {
+      "id": "cial-sets-up-facilitation-centre-for-sabarimala-pilgrims-india-2026-11-15t19-08-55-000z",
+      "title": "CIAL sets up facilitation centre for Sabarimala pilgrims",
+      "link": "https://www.thehindu.com/news/national/kerala/cial-sets-up-facilitation-centre-for-sabarimala-pilgrims/article71704623.ece",
+      "summary": "Chief Minister V.D. Satheesan to inaugurate the facility on November 17",
+      "image": "https://th-i.thgim.com/public/incoming/egxt5r/article71705796.ece/alternates/LANDSCAPE_1200/cial.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-15T19:08:55.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/kerala/cial-sets-up-facilitation-centre-for-sabarimala-pilgrims/article71704623.ece",
+          "summary": "Chief Minister V.D. Satheesan to inaugurate the facility on November 17",
+          "publishedAt": "2026-11-15T19:08:55.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUEV6V2VMR2FiTUo2VzFkZ1BzSUVMS0FnOUthVlJzWC1PMVU2M1QyM2lybGJhZFA1OEhLcFU5bXFKb1ZHSG5vQ2g5anNXOHkxYTc5T1A3bUFMdHdWQmhYdC13VXJ5SkZ6WHVkSXNCWDI4RTBZTTN0bnppempkMXFWNVhpQjFpR242N1h0Y1pkc3NIRC04eWFFRXZ4QTJLRlhEZWU4QktiUGtmSVI3ZVYwb29OYlVpX1RTaUhRR253QdIBxgFBVV95cUxNYWVweThmRGJQT2lwNklhTU9ZZWhIQVh6ZDVnRXBwQUxIWmYyYllIU0UwRjNNcjNuZHIyN05xLV9OZUtERnFTVzd0aTJzT0NtdkJVQjA1Uk5FbVFORXB4UVlxUWkzMVMxTjktQ2NKR1o2OUQxSjhLcldlUjJrTkxRMTBHUTZPNmxtbnJXMjJ6UlBwcXBxdUFhSS1xUHhTdU50VEQ3eFBDanVPQzR3bUpqOTBpbmJTRFQ0T19ENzlrRVduRmdIWlE?oc=5",
+          "summary": "CIAL sets up facilitation centre for Sabarimala pilgrims &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-11-15T13:19:52.000Z"
+        },
+        {
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVmxHLWVFYnAzTnRIOW5qUXNrdWNBdDNUNm1URUhLaFV4bFk1eGk3YzhBTVRSSnVvMzF2eDYwaTc5akZoWGFfME5lbk1ibl9URk0taF90Wk81TVFTXzZDbnFXaHFMeEhQSUV3MGhEeUxLTWtzR2pwbDZqS3NHVGpGSE1WM2VuQlp0Y3plNENRSXZ1WEhHZ251ZjIzNVNNT1dxODdkY3hBb1F1YnAxR0RsMjRvSml1RjNqR1JVdk1VeDJoc18tQllvMnVMU2g0X2YybWxtXzVaTXdEemVFSTI2WDlSLWxxYkhFSmJLRdIB8gFBVV95cUxNVXRwTjJlVXlUUVZVMXdXVWczbzQxdEtRUk9NcFRXVGwwVGJGM0dSZ2JTS0VwT2I0UmF3cUlKRThvbFlNV1g1VUVEdkZvQXlmTThXYnRvdlZONF95MEQxcnUxdjBJN3NYZ2w4QlV6bWEyN3M3YUZ2ODVId3UzbmJzNGhnTG8zanh6X2JPc3k4eUtjbDFValR3b3dnUUpaX3pxQWk3X09RT0hlLWxOLWM2Zjl5dTJja1NKcEYxTnRxeGtKMzktQ2psV3pQSWdobXJhaTVJcmN6UWNDY0tnN1JESHRwaURQejlSUzBiVFYtVXlkQQ?oc=5",
+          "summary": "Facilitation centre for Sabarimala pilgrims to be opened at Kochi airport on Nov 17 &nbsp;&nbsp; The Times of India",
+          "publishedAt": "2026-11-15T14:49:00.000Z"
+        },
+        {
+          "name": "The Economic Times",
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOTS1JQndNN3htNlVHd0hEeVBjbUR6aUtESndYRDcwUXg2bEVLT0g5ODByZHMyR1ctQzFwWVRvNkNIUGFuNzR5V1ZDUnNLaXZXRUFPLWdEakhmXzQ4cVcyN1lqMXlZeGpKT2N0Y2Q5NDFCeG5kR2NhTmh3ZVYzdHJBSU9vMjd1NDJZNHhOX1BuamV6STM3QXJfVExEckJtNmYybW1WamFoLUJQZGtIZWRIVnMxQmt4Y0ttSDF0R2c2b01xNFNHVHJZb3IyTWlzR3VZUEExZ3V5OXpOSGxSelNpdm1IV1NKVXU2djJTeGlmMXltMHZtYmdGczcwMDZ3SnFxbk10TnRIS3pTR1d4TWfSAYcCQVVfeXFMT1NLdTY0V1F0bDVoZFUxcDgzeXZYeV9DTHRJU3pHR1lGV3RZMXFGbDY3bDhYNEZwUVoyemNpS2pLWGF1SnE5S2pod0Raa3hEVThKNG9tTEJJTHFibzRoV0tFSUxVWUx1d0ZEQzZXSG9QSG9ERzZMS0w3ZjJNVmIzcnc0UW13aUYxQWR0M0dncTkwbVB3QnRVRXRZWHIwTnFHcWRwRFYzdk1TLU00aEJlci1rVlZfZHB0NjVmT01kTjRuWFRJSFh5Ujd0WHhkZTRLZ0JPSllUdzEzdkZ0dTNWVlpvNmRlc3JURVI1a3hzdHJzb3VvUGpwdkRsQVFyMWtBWm9aeExEMW8?oc=5",
+          "summary": "Pilgrim facilitation centre for Sabarimala season set up at Cochin airport &nbsp;&nbsp; The Economic Times",
+          "publishedAt": "2026-11-15T07:41:48.000Z"
+        },
+        {
+          "name": "Mathrubhumi English",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaWY5TEtISFJWc1h2VXBKNEpmQTM3MDZLdGtvVWRwcjFJZ3pCTjRQVDJWXy1HLVpzU3N0dnFweUpzU1RBLVBpLUtjdXRGOUZpNlJFRTltNGJLTE1mVmlKVnNBUklUNWozZHBzUmszZE14RGFacV9WbGVvUUZpWXNmMklzYXVzMGZYOXMwUk1yem1id3dJX0Y0TjlDTGRQclZkYmZvXy1lQmRRMC15Y2fSAbMBQVVfeXFMTUlDX1BXTUpLLVM0SGFsNVJXQk8zQ045RFBPd0xNWGtIUFdvcGlNekt4OWxkZTh4X2hFUWM1TWZhREJmQWlkbGt1bXFTdDF1U0ZQdzNpWkEweHBYMTRhOHJBMTR2M0tPTHZfSlVSUkxXSlpjeDRfcERsdHc1eXppaWhjRHphd01IcEpVc1VwaG9TdndDem8zcU51cmc1bmpkZVBJTS05VHV6WTVmYTRIV1lJeGM?oc=5",
+          "summary": "Pilgrim facilitation centre for Sabarimala season set up at Cochin airport &nbsp;&nbsp; Mathrubhumi English",
+          "publishedAt": "2026-11-15T08:01:02.000Z"
+        }
+      ],
+      "sourceCount": 5
+    },
+    {
+      "id": "state-must-acquire-kodanad-estate-land-for-converting-a-private-road-into-a-public-road-pil-in-hc-in",
+      "title": "State must acquire Kodanad estate land for converting a private road into a public road: PIL in HC",
+      "link": "https://www.thehindu.com/news/national/tamil-nadu/state-must-acquire-kodanad-estate-land-for-converting-a-private-road-into-a-public-road-pil-in-hc/article71704828.ece",
+      "summary": "A local resident has filed the case claiming that the inhabitants of two hamlets were facing hardship because of restrictions imposed on using the private road which was their only access to the outside world",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-15T19:16:30.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/state-must-acquire-kodanad-estate-land-for-converting-a-private-road-into-a-public-road-pil-in-hc/article71704828.ece",
+          "summary": "A local resident has filed the case claiming that the inhabitants of two hamlets were facing hardship because of restrictions imposed on using the private road which was their only access to the outside world",
+          "publishedAt": "2026-11-15T19:16:30.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQcEZFRFhLb2VYMzdEemo1cVk4UDJaQWMxaG01SzJhUVVlMkhhX1U3OG15TWJOM1Q5MnlHbnVBZTYzYVlKZnAtZkpsNFdPM250UXBwY1NCc3pTVkRienRiZUhsV00wajNYSm5aN2pMYjV5d0hOckpWdHl2aTRwOVZhb3BHNG1uN1FjRGlUNzlpUl84ZElyU0Q0c25nYW0yNU5PUW9oQ2ZvTnM0X19IQ0lzMjJDRi1rRkw1YWlqcUhJY3pOdTAwS2FhNEhaeFozWEljeHhIcnZRb2NwVFZKQ2hTTnlyamoteW5YdUoyMWZfWGFSbEtYX2hOME9uNNIBggJBVV95cUxQZnZwMUY5ZENfd2lXQzhUSnFoSFlmbDJUVnlsYlpfTFg4QkhzdFJqZ1BmUU4wRzBPWnR1UDBRcnFYSVZ5T1U4LWNnajkwekNHS1hwR2V2SjdpbFZ4dG9OOVJyS0dDNVJHYkNvenNuaHZjVHZfYkpLdkJ2Z19SSFNDNDk0WkxCNFdhbHdFSDEtcmtWcHhockNiMkhONXI4M0NGd3g1OF9DbXc1b3dFRTlrR3hBdEFOaVlpMExEb0JsbXFNN3FzMlRTLVdsZnZsaV9xRXp0TVIxaUtIaWNHSHVYdE5Zblo4RzFWdVZmVHZsbVhzZXRMWEtsLTlLemhad3hmanc?oc=5",
+          "summary": "State must acquire Kodanad estate land for converting a private road into a public road: PIL in HC &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-11-15T19:16:25.000Z"
+        }
+      ],
+      "sourceCount": 2
+    },
+    {
+      "id": "congress-wants-to-tighten-export-rules-on-ai-chips-after-nvidia-spy-scandal-tech-2026-11-15t19-15-43",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various mea...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T19:15:43.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+          "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various mea...",
+          "publishedAt": "2026-11-15T19:15:43.000Z"
+        },
+        {
+          "name": "Startup Fortune",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUXo5NjhRWlBKYml5ZUdxM1lzTW1ZLTU3Uk9mOUZ0YzhJaTdtQXZJUWU5cG01bkJuSHpVM2ZJd0lJMWFjS09nVGFTYVJEaXA0Z2FwcDJLVnFQY3ZndWRCQVZWempzY28zX1VQVUx5TnowTDhKc1gxODNaeVRhSDFIQmJMYmJDbmpyU0U3d2hNY2p2UjE0clFCWU5CVTd0SWg3WjVSU3dzR0xuUQ?oc=5",
+          "summary": "Congress moves to tighten AI chip export rules after Jensen Huang quits Nvidia &nbsp;&nbsp; Startup Fortune",
+          "publishedAt": "2026-11-15T11:25:07.000Z"
+        },
+        {
+          "name": "Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGxvZmxUQ0JxLVJuWmRILTBpbUwwbEMxbDV1bEhkYVdjdnl3WVYzWFBGZFhqckFER1JyYWptWEI3XzAzeEZ1dnZuSUdYVkFCdFZXTjVmMUxtVjJSc0dPZHR2R05TbE1mQzA0OU84TEdXd1I0UkFrS2Z0dDRIUXoxV2Y3b2o?oc=5",
+          "summary": "Congress moves to pass tighter AI chip export rules following Nvidia scandal &nbsp;&nbsp; Financial Times",
+          "publishedAt": "2026-11-15T11:00:04.000Z"
+        }
+      ],
+      "sourceCount": 3
+    },
+    {
+      "id": "ncw-calls-for-inquiry-seeks-report-from-dgp-over-kallakurichi-issue-india-2026-11-15t19-12-15-000z",
+      "title": "NCW calls for inquiry, seeks report from DGP over Kallakurichi issue",
+      "link": "https://www.thehindu.com/news/national/tamil-nadu/ncw-calls-for-inquiry-seeks-report-from-dgp-over-kallakurichi-issue/article71705800.ece",
+      "summary": "",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-15T19:12:15.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/ncw-calls-for-inquiry-seeks-report-from-dgp-over-kallakurichi-issue/article71705800.ece",
+          "summary": "",
+          "publishedAt": "2026-11-15T19:12:15.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMVVUNlJFQ0FFdHRfWGF1TzNyc0lob3ZWZFFleWJqdjZ1VEx3Q19YTFhEV0N3dmxudC15SHhkTl9lRTlKNGVDRnVjR0tnSm5kVzF0VDZCT0NabUYxNDllQWJTc0QzS1owTC1BWWFaMTZsaE1Ja0pwYTQ5VnQ3QXRackxYN2Y4bEVqMFF0dFQxQ2VvdVprWmVjVDdvN252NHFGYnB4VzdPSFU5SHlIb0ctTGRUc29DTlBjZmpnM25TdHVHYXR2RGFXc0I3dUNzODNWRjA40gHaAUFVX3lxTE1oRGxDNGoxV2NIOU40RllTcTV4T2RrZ2ktNVQwemx5eldJTVd6c1V6U2l5cnVQQ2lxMFBGWFYwcUo4cUJ2SUxTcGtWc1NJX1BZTWNjQkYxU3hNamRVT2dsdXU2eF9hMk1hZUd4a0lDYTlHMFVKaTRmdE5WWTc3VWhJbEtZRlRpS2x6Rks4ZGtvNHU3d3hGWFlMVFk2UFdMb1FmSVZ4ZUktYU1mMS1HTE5VSGRTeW5QdEs1aXRtR21BMG1hVGpKLS1XLVQ1eEpqY2JKQ1RaX1Bna2F3?oc=5",
+          "summary": "NCW calls for inquiry, seeks report from DGP over Kallakurichi issue &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-11-15T19:12:11.000Z"
+        }
+      ],
+      "sourceCount": 2
+    },
+    {
+      "id": "anbumani-seeks-pay-hike-for-guest-lecturers-from-sept-1-india-2026-11-15t19-10-31-000z",
+      "title": "Anbumani seeks pay hike for guest lecturers from Sept. 1",
+      "link": "https://www.thehindu.com/news/national/tamil-nadu/anbumani-seeks-pay-hike-for-guest-lecturers-from-sept-1/article71705798.ece",
+      "summary": "",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-15T19:10:31.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/anbumani-seeks-pay-hike-for-guest-lecturers-from-sept-1/article71705798.ece",
+          "summary": "",
+          "publishedAt": "2026-11-15T19:10:31.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUkJFX09NU1ljR2ZPdFRzVnE1eXQ5QnBBYzBtcEJZeHZtMVRsM01KNkRjZy1MeVVndjNzdEh0aU9zbmtYcHBsUThVNENwS3dSVkZOekZ4R01KZVFPOE9sWnE5VlduTWdMRy1tOF9PeDRmVHM1bzJaMVV4X2JvT0ttXzJ2MktDQnBfcWY4Ql9SQ2NQdWpsaEEtenh0S1FGaHRmMHVhTFVxQ3otMWFlRFIwY1pibDFVTUx3SEQ5VU1UMnNOUmfSAcoBQVVfeXFMTXA5RDRuTnhYMjVIZUZqYjdmTDJlQ2xpWVVPM1RfU0tYUmdwX2hVV081QWJDR0U5X2xOQ0E4Z1RucjZkVlV0ck5lUVRCLVUzVl9SMlU3SGZxZ3lOYlRKY3lvTjVxaUdHM2hnQ3V2bTB6ZHhaSzJvVXhBZkVOeXZhY3RaeDljaUdkR0lkVExVVTduNGpITkJLMkhoOEUwdDJaRElKOHZIQXdJR0MyaHByNHBmMGZObUJFQVJkMzQtSXZyendFbDFROFFzQQ?oc=5",
+          "summary": "Anbumani seeks pay hike for guest lecturers from Sept. 1 &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-11-15T19:10:27.000Z"
+        }
+      ],
+      "sourceCount": 2
+    },
+    {
+      "id": "about-70-km-of-gcc-roads-to-be-handed-over-to-highways-india-2026-11-15t19-02-13-000z",
+      "title": "About 70 km of GCC roads to be handed over to Highways",
+      "link": "https://www.thehindu.com/news/cities/chennai/about-70-km-of-gcc-roads-to-be-handed-over-to-highways/article71705586.ece",
+      "summary": "Arcot Road, Usman Road and Nelson Manickam Road are some of the key roads being transferred. Most of them are bus route roads linked to highways located within the city limits, says a source",
+      "image": "https://th-i.thgim.com/public/incoming/ek0qsm/article71705793.ece/alternates/LANDSCAPE_1200/BVR_8105_01.JPG",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-15T19:02:13.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/cities/chennai/about-70-km-of-gcc-roads-to-be-handed-over-to-highways/article71705586.ece",
+          "summary": "Arcot Road, Usman Road and Nelson Manickam Road are some of the key roads being transferred. Most of them are bus route roads linked to highways located within the city limits, says a source",
+          "publishedAt": "2026-11-15T19:02:13.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUEg0SEpXZzVUOFlTTzRSaHNWUWtfOExQamFHNkgwWjlfMzFfcjFlM2xuV1BjajN2MkNsN2EtWkJCbUNibVpzMk9qdDBGRmx2NWEtTGkycXp5WXV5OGkzLVl0SUd5aW55NGdMTkhEd2tyalNtM2FzZjR4UjYyTlhnaW0wdC1GUUFzWDR1Ukh5UHgyV3kzeUxBRlh4SzRsNDIyeDdBYlRxSjRKTU9zZWV2U0NpakU0aDBZVU5F0gHCAUFVX3lxTE84UzNKbFdtRHEyZVA4MG5WWlNZNHJOaml0SHhybEZueENIV0QwZEFweEFFRFFKa2NLMmRNVzgxWmVKYjI3MUxZaGZ4a0pselptaFM5Q3NJcVZkaTRMa3c4cjljMk1YOWV5NHRtbV84UXlEdm9uMUZld3FqY1c2RW81cC1qVF9VbEhoTXphR1M2TjBzTDFnMUI3Wkc2SVg0U3dYYnpzT0s5UU9Ca1JOVnA5Y2JPZlpKeUNkY2NmWlhrLUxB?oc=5",
+          "summary": "About 70 km of GCC roads to be handed over to Highways &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-11-15T19:02:04.000Z"
+        },
+        {
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeUVrNUd6bEJnck4tVjZQTmppRm1MZFQ4cnBCQ3pnanRuWEd5NFFiUWRSWng1OXhRMDBlYy1wWWF1MVVlenVhOXVhd0RTTDUtT3JtMmVPaXk1VWRqbVVMNmxjR3I5WktxdGtwcTJuR3hpQk84bW9KTWVLSzJnejF0d2VKSVdlaGl6LXpoNklHRlhmSER2VVBiaGFQNnZwb09HN3V2OEhEZUd4V01YT1BXdFpuLTJZc1NqYUh6a0xtNzbSAcYBQVVfeXFMTTRaM3lRTjVfWEZYamFwRjlObnczOTZCU2VJR3hwZUN0QnNNMmpNZzFPY2RDNURtZTdmNndUcUVDNnpUOC1HTTlQQWlCQTUyUWoyQld4ZmRWTnJHbmdzNFhjUEgyX2dvMGRjclQ3TVRpMnV3MVBfUlU3UTdDV3B1eEVvV1lNZ0NOcFRFT0RtejFYTDBGLWxlRmdDN1RwRGNheGNvMVJFZGpqNUtfaGRia1BqRXQ3Rzc2aG92bGZSYUJDSXgzZW1n?oc=5",
+          "summary": "GCC to hand over 100km of roads to highways dept &nbsp;&nbsp; The Times of India",
+          "publishedAt": "2026-11-15T17:20:00.000Z"
+        }
+      ],
+      "sourceCount": 3
+    },
+    {
+      "id": "hyderabad-hospital-performs-combined-heart-valve-procedures-in-single-sitting-india-2026-11-15t18-59",
+      "title": "Hyderabad hospital performs combined heart valve procedures in single sitting",
+      "link": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-hospital-performs-combined-heart-valve-procedures-in-single-sitting/article71705052.ece",
+      "summary": "",
+      "image": "",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-15T18:59:37.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-hospital-performs-combined-heart-valve-procedures-in-single-sitting/article71705052.ece",
+          "summary": "",
+          "publishedAt": "2026-11-15T18:59:37.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZFotZGpGeDRKSFZfcEhwTlZaTzBhazdqOWpaT2NtUGZJTzJvQ1FxQ0xycXJWR2NNVGpLemVHR1lzNk1VSVQyeVdlTThNRFNEbC1IdFNZSUcxMi1fOWNzRUExbkJNQmR3d2VzZGViOGwxd3FXbGcxNFJhU0dLTmJXLXZEVlU1Z21WTTVUZENpN3RZVVh6VWhFX1M2LUxNWDNsU05FN1lBd0hmbmwyZWlPQlVaVDN5NzE0UUZxWGV1eWZBc1lRbjY3eVYtemY0d1ZMZDBsZXc4TUd6QnRq0gHjAUFVX3lxTE9jcl9tc0REREt5N0lNaVNucHpUakYwOUVGblNyMFJBZXBaTFhIS1h6TENWa0FzSkxtQm1VUG9lUW9yTEJmZnpuLTA5M3g2MmNqa29pcWhZYmZJd3BSek1oQ0RCTmd0emc5SFhYZzJZWWNLU1ZTcHVUa0RaRnFuYXIxVVd2Ym5nLVhlOTFEQ3pIbzVzMkpWNmVNUld5Nkp5bUpfLWo5U2ZoWGFMQUtvRXJEOWM1OWJPNVFKM1RCMkNzdFd6R3RCYVZtT29VTDhuQTEtTWt3aHpabGFGMXlaajl5N0Jv?oc=5",
+          "summary": "Hyderabad hospital performs combined heart valve procedures in single sitting &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-11-15T18:59:32.000Z"
+        }
+      ],
+      "sourceCount": 2
+    },
+    {
+      "id": "pope-leo-rides-in-helicopter-cockpit-during-peru-trip-general-2026-11-15t18-38-11-000z",
+      "title": "Pope Leo rides in helicopter cockpit during Peru trip",
+      "link": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Pope took to the skies before arriving in Cusco on the penultimate day of his Latin America tour.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc34/live/e2a8fc70-e11e-11f1-b441-2b33b063138f.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T18:38:11.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss",
+          "summary": "The Pope took to the skies before arriving in Cusco on the penultimate day of his Latin America tour.",
+          "publishedAt": "2026-11-15T18:38:11.000Z"
+        },
+        {
+          "name": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XaUpzQmZ5bUFrN0g3ZVVGVEt6c1VpYm9hZUpYSDBRb0VEVldOVWR6eC01NERUdGltN3ROOVI3UzIwRFcwRm9BMW5ueExYWnF2NjhHUURSdFYwZHc?oc=5",
+          "summary": "Watch: Pope Leo rides in helicopter cockpit during Peru trip &nbsp;&nbsp; BBC",
+          "publishedAt": "2026-11-15T18:38:11.000Z"
+        }
+      ],
+      "sourceCount": 2
+    },
+    {
+      "id": "my-entire-life-has-been-a-struggle-says-bilkis-bano-at-gio-conference-in-kochi-india-2026-11-15t18-2",
+      "title": "‘My entire life has been a struggle,’ says Bilkis Bano at GIO conference in Kochi",
+      "link": "https://www.thehindu.com/news/national/kerala/my-entire-life-has-been-a-struggle-says-bilkis-bano-at-gio-conference-in-kochi/article71704988.ece",
+      "summary": "Her husband, Patel Yakub Rasool, who attended the conference, recollected the long and arduous struggle for justice she had to wage.",
+      "image": "https://th-i.thgim.com/public/incoming/orcbdd/article71705766.ece/alternates/LANDSCAPE_1200/PHOTO-2026-11-15-22-10-21.jpg",
+      "source": "The Hindu National",
+      "category": "india",
+      "categoryLabel": "India",
+      "publishedAt": "2026-11-15T18:21:50.000Z",
+      "sources": [
+        {
+          "name": "The Hindu National",
+          "link": "https://www.thehindu.com/news/national/kerala/my-entire-life-has-been-a-struggle-says-bilkis-bano-at-gio-conference-in-kochi/article71704988.ece",
+          "summary": "Her husband, Patel Yakub Rasool, who attended the conference, recollected the long and arduous struggle for justice she had to wage.",
+          "publishedAt": "2026-11-15T18:21:50.000Z"
+        },
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTmJWV29HR2FxaGE4U1BHNlk5VzJIdVJUdkZib01VeTJkcklsNmh2Q193UlJkWURPN1k4Q1VzRG1jeE5Sci1jZW1PLU1xVGdaR2NRMUZkbVFwT25JcXg5RTdLd3ZxajRsMG5NQUg1cXIxRkEzU3ZXRDBtdWE5MEZkWkxkNlVXdG10NXlNRXJQbWlpa0tnN0xEeDZ2SFh1Zk9jMUs3UXRTTlljVW56dXBVNENxb1ZsSWMwdTFDVGhMU09Qc25hampwbWtRQlh4aGo4RHo5Rms3LVkybFhTOFpUdndDWdIB4wFBVV95cUxNTmJWV29HR2FxaGE4U1BHNlk5VzJIdVJUdkZib01VeTJkcklsNmh2Q193UlJkWURPN1k4Q1VzRG1jeE5Sci1jZW1PLU1xVGdaR2NRMUZkbVFwT25JcXg5RTdLd3ZxajRsMG5NQUg1cXIxRkEzU3ZXRDBtdWE5MEZkWkxkNlVXdG10NXlNRXJQbWlpa0tnN0xEeDZ2SFh1Zk9jMUs3UXRTTlljVW56dXBVNENxb1ZsSWMwdTFDVGhMU09Qc25hampwbWtRQlh4aGo4RHo5Rms3LVkybFhTOFpUdndDWQ?oc=5",
+          "summary": "‘My entire life has been a struggle,’ says Bilkis Bano at GIO conference in Kochi &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-11-15T15:18:35.000Z"
+        },
+        {
+          "name": "Feminism in India",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9TOTBScjVNRW95WUpJZEJ6RzEzTkpCcTBscnFGMk9zYzZTMVYwU1EySlZuTWEtQVY4Zk9MeVpLOGVMUlVLU0hnVk9wSFQzV2JEUXdhdmVhT1VYaE0xWlc1NkRLaUlHVzExU1I0?oc=5",
+          "summary": "Why Bilkis Bano’s Struggle For Victory Matters &nbsp;&nbsp; Feminism in India",
+          "publishedAt": "2019-04-26T07:00:00.000Z"
+        }
+      ],
+      "sourceCount": 3
+    },
+    {
+      "id": "trident-submarine-returns-home-after-record-breaking-undersea-patrol-general-2026-11-15t17-00-50-000",
+      "title": "Trident submarine returns home after record-breaking undersea patrol",
+      "link": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Defence Secretary Wes Streeting was at HM Naval Base Clyde to welcome the crew after the longest deployment at sea for a British vessel.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a00d/live/58f964c0-e118-11f1-a7db-d90284d21c62.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T17:00:50.000Z",
+      "sources": [
+        {
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss",
+          "summary": "Defence Secretary Wes Streeting was at HM Naval Base Clyde to welcome the crew after the longest deployment at sea for a British vessel.",
+          "publishedAt": "2026-11-15T17:00:50.000Z"
+        },
+        {
+          "name": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02RVRVQ1MyWU5mNGh2MmhVQjE2X05vYjNTTFFfSmZyWVE5U2Z1TDhjVERpTVJMMl9tWEl3dGNCX3JIYjJQUVZaMkNkRjM1b0NPQnJTZ1FVNk1GUHdDS3c?oc=5",
+          "summary": "Trident submarine returns home after record-breaking undersea patrol &nbsp;&nbsp; BBC",
+          "publishedAt": "2026-11-15T17:00:50.000Z"
+        },
+        {
+          "name": "Navy Lookout",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPck5qV3RuSDY4YnNfSEltMWZZb1lQajQ5WTRoLVo4WG5SSnlqR0JUeTZLWHVvWl85MFhTMzhxZ3VxRHgyUjFjd3RhM2dkeWxSWElMcVcwc1ZNelZmeGdQbUJoUXJYZ0gzNVNlWUdtXzlySmFXb09XbWNqTnFfbWwtRnBjMTg4VWtwdURlRGtBemtWenc?oc=5",
+          "summary": "Royal Navy Trident submarine completes record 217-day patrol &nbsp;&nbsp; Navy Lookout",
+          "publishedAt": "2026-11-15T13:20:00.000Z"
+        }
+      ],
+      "sourceCount": 3
+    },
+    {
+      "id": "gta-6-codes-reportedly-being-stolen-from-boxed-copies-without-being-opened-tech-2026-11-15t18-00-03",
+      "title": "GTA 6 codes reportedly being stolen from boxed copies without being opened",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPakJwWThIVjN3d2pPU0ZSRS1MZXpCdURDMy03VmJ6eVRIZWFYbEpEWjVSSldlRjlHOTVycmV3blYweE9jZXhzYUZ4S1dOLWZiRWdVeUtlVjZFU2RNRUNDUHFCMjZ2dDg4SDMxZEdCcW1WUHZMbWc?oc=5",
+      "summary": "GTA 6 codes reportedly being stolen from boxed copies without being opened &nbsp;&nbsp; GAMINGbible GTA 6 Launches In India: Here's How People Are Reacting &nbsp;&nbsp; NDTV Reports Say GTA6 Physical Edition Codes Visible Through Packaging...",
+      "image": "",
+      "source": "GAMINGbible",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T18:00:03.000Z",
+      "sources": [
+        {
+          "name": "GAMINGbible",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPakJwWThIVjN3d2pPU0ZSRS1MZXpCdURDMy03VmJ6eVRIZWFYbEpEWjVSSldlRjlHOTVycmV3blYweE9jZXhzYUZ4S1dOLWZiRWdVeUtlVjZFU2RNRUNDUHFCMjZ2dDg4SDMxZEdCcW1WUHZMbWc?oc=5",
+          "summary": "GTA 6 codes reportedly being stolen from boxed copies without being opened &nbsp;&nbsp; GAMINGbible GTA 6 Launches In India: Here's How People Are Reacting &nbsp;&nbsp; NDTV Reports Say GTA6 Physical Edition Codes Visible Through Packaging...",
+          "publishedAt": "2026-11-15T18:00:03.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "follow-live-lions-patriots-face-off-in-munich-sports-2026-11-15t14-22-37-000z",
-      "title": "Follow live: Lions, Patriots face off in Munich",
-      "link": "https://www.espn.com/nfl/game/_/gameId/401873053/patriots-lions",
-      "summary": "null",
+      "id": "icc-rolls-out-roadmap-and-qualification-pathways-for-marquee-events-until-2035-sports-2026-11-15t17",
+      "title": "ICC rolls out roadmap and qualification pathways for marquee events until 2035",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT1ktWXZGT1lpaWhoQmpwc0hSeVRrSDlSNkJvb1NaTU54VnROa3JDcEUwQnNCaXp4ajdHanJBdU9nN3dPUzR4Nl9qVTlTRnlVeUhiQ3cxLUNWUGNVaGt0aGJMUmpCamZSQWhNdkQ1OUJtNkluLVZCc2k0TnRGSDl0VDl3N2tPMFpJLVpfbGFkNjgzVHFnRHNlcG5xejdiaEJSNjdZWG5LeGl0ZHVrakNYTjdMODkyVW81T3hTd0laM2Y?oc=5",
+      "summary": "ICC rolls out roadmap and qualification pathways for marquee events until 2035 &nbsp;&nbsp; Cricbuzz ICC locks in major men’s tournament windows through 2035 &nbsp;&nbsp; ICC World Test Championship set to stay nine-team contest till 2031...",
       "image": "",
-      "source": "ESPN",
+      "source": "Cricbuzz",
       "category": "sports",
       "categoryLabel": "Sports",
-      "publishedAt": "2026-11-15T14:22:37.000Z",
+      "publishedAt": "2026-11-15T17:11:08.000Z",
+      "sources": [
+        {
+          "name": "Cricbuzz",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT1ktWXZGT1lpaWhoQmpwc0hSeVRrSDlSNkJvb1NaTU54VnROa3JDcEUwQnNCaXp4ajdHanJBdU9nN3dPUzR4Nl9qVTlTRnlVeUhiQ3cxLUNWUGNVaGt0aGJMUmpCamZSQWhNdkQ1OUJtNkluLVZCc2k0TnRGSDl0VDl3N2tPMFpJLVpfbGFkNjgzVHFnRHNlcG5xejdiaEJSNjdZWG5LeGl0ZHVrakNYTjdMODkyVW81T3hTd0laM2Y?oc=5",
+          "summary": "ICC rolls out roadmap and qualification pathways for marquee events until 2035 &nbsp;&nbsp; Cricbuzz ICC locks in major men’s tournament windows through 2035 &nbsp;&nbsp; ICC World Test Championship set to stay nine-team contest till 2031...",
+          "publishedAt": "2026-11-15T17:11:08.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "agar-khilaaf-hain-hone-do-kisi-ke-baap-ka-hindustan-thodi-hai-diljit-dosanjh-takes-stage-in-indore-d",
+      "title": "‘Agar khilaaf hain hone do, kisi ke baap ka Hindustan thodi hai’: Diljit Dosanjh takes stage in Indore de",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQaUNPZk41Qloxdm9Sd2lqbi1NWVU5cm4zM0NOWTRjc1Y2YnZJZlZ1TkMyTkhzS01qRU4xUjIwYUFoQ2g4V2NfYWxrZHZzVjg4UlhKMWhsM0V2ckxpaVhDLWVldUk5eG1PeXZaQkkzMjFQY2EtODdmSDhqQUVDMzU2eFU5UXFuclZ4dk15aTlscGxDT01tdzdha3drLVI4VWxQUFRPXzRweXFIek5xejBVQVBIVWVsb1o3eDJaX3U2clI1b2hlMjZzeHJDYlZfSVM5QndnRGNOVnF6TndIYnNtNXpJZmh4ZzBmZVRaSTRrRWdTRlprOVppX0FVTTlqdUFZR1ZTRFB5bzFMUldIVUFFOG8td2Qya3FsOE80S2xicm1faGdrb2c?oc=5",
+      "summary": "‘Agar khilaaf hain hone do, kisi ke baap ka Hindustan thodi hai’: Diljit Dosanjh takes stage in Indore de &nbsp;&nbsp; The Times of India Diljit says attempts made to stop his Indore concert, recites ‘kisi ke baap ka Hindostan thodi hai’ &...",
+      "image": "",
+      "source": "The Times of India",
+      "category": "entertainment",
+      "categoryLabel": "Entertainment",
+      "publishedAt": "2026-11-15T17:02:00.000Z",
+      "sources": [
+        {
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQaUNPZk41Qloxdm9Sd2lqbi1NWVU5cm4zM0NOWTRjc1Y2YnZJZlZ1TkMyTkhzS01qRU4xUjIwYUFoQ2g4V2NfYWxrZHZzVjg4UlhKMWhsM0V2ckxpaVhDLWVldUk5eG1PeXZaQkkzMjFQY2EtODdmSDhqQUVDMzU2eFU5UXFuclZ4dk15aTlscGxDT01tdzdha3drLVI4VWxQUFRPXzRweXFIek5xejBVQVBIVWVsb1o3eDJaX3U2clI1b2hlMjZzeHJDYlZfSVM5QndnRGNOVnF6TndIYnNtNXpJZmh4ZzBmZVRaSTRrRWdTRlprOVppX0FVTTlqdUFZR1ZTRFB5bzFMUldIVUFFOG8td2Qya3FsOE80S2xicm1faGdrb2c?oc=5",
+          "summary": "‘Agar khilaaf hain hone do, kisi ke baap ka Hindustan thodi hai’: Diljit Dosanjh takes stage in Indore de &nbsp;&nbsp; The Times of India Diljit says attempts made to stop his Indore concert, recites ‘kisi ke baap ka Hindostan thodi hai’ &...",
+          "publishedAt": "2026-11-15T17:02:00.000Z"
+        },
+        {
+          "name": "Telangana Today",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanBuMkpYY1Fya0d4cjd4V3NIbkc2aHotNkdLS1l5ejRQQldSVVFkNG9IeXJycEJJeVBTcXhWTW43T2R6amlJWC1odk51TzZkQS1ESE55QVNWU3hVSXRBa3Fxd2RMYjgxNUREcnlhdi1yWnVKdW5JWDczZHV1VFp1aWNuOHU1TXNwZlluZnJwRXpTdUJHNlJTT1huYlU5SzN0UktFamQtb3l1dHo4cEpF?oc=5",
+          "summary": "Abhijeet Bhattacharya slams Diljit Dosanjh over ‘kisi ke baap ka Hindustan’ statement &nbsp;&nbsp; Telangana Today",
+          "publishedAt": "2025-06-29T07:00:00.000Z"
+        }
+      ],
+      "sourceCount": 2
+    },
+    {
+      "id": "fanttik-s-s1-pro-electric-screwdriver-is-40-off-in-the-run-up-to-black-friday-tech-2026-11-15t17-00",
+      "title": "Fanttik’s S1 Pro electric screwdriver is $40 off in the run-up to Black Friday",
+      "link": "https://www.theverge.com/gadgets/1033620/fantikk-s1-pro-electric-screwdriver-black-friday-2026-deal-sale",
+      "summary": "Amazon’s early Black Friday promos are already underway, and we’ll be highlighting some of our favorites over the next few days on our Shopping page. Among them is the Fanttik S1 Pro Cordless Electric Screwdriver, which is currently matchi...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Fanttik-S1-Pro-Cordless-Electric-Screwdriver-Lifestyle-Image.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T17:00:00.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/gadgets/1033620/fantikk-s1-pro-electric-screwdriver-black-friday-2026-deal-sale",
+          "summary": "Amazon’s early Black Friday promos are already underway, and we’ll be highlighting some of our favorites over the next few days on our Shopping page. Among them is the Fanttik S1 Pro Cordless Electric Screwdriver, which is currently matchi...",
+          "publishedAt": "2026-11-15T17:00:00.000Z"
+        },
+        {
+          "name": "9to5Toys",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wYlJ1Q0tydHhOallMM3dZTUUwS0p3bDVUaVNxZ29DVl83VDlzRkhDMU5VSC1XVEhIYUZ0dEQteVpINHBoLXpqZ0xsdHdNa1JfMUJWaGJNOGlNeGZvb1ppSnpaekpoUDA?oc=5",
+          "summary": "Fanttik's pivoting S1 APEX Electric Screwdriver falls to $77, more tools from $30 (Up to 56% off) &nbsp;&nbsp; 9to5Toys",
+          "publishedAt": "2026-03-27T07:00:00.000Z"
+        }
+      ],
+      "sourceCount": 2
+    },
+    {
+      "id": "hridoy-and-litton-s-206-run-stand-powers-bangladesh-after-rabada-s-five-for-sports-2026-11-15t16-29",
+      "title": "Hridoy and Litton's 206-run stand powers Bangladesh after Rabada's five-for",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSW10dXhzeHRObGlodVNQVDB1Wk5NVUhpbEZyb0NOam4zYmR5S3duTU53SGZQR1dZbjktWUpxdkJ1ZmFrOUNvV1RWVlBBb1dSRFBHMEVLSEprZlR6NTFfUjdDc2pLX0RzUDJfSTc3a1RHWFczMGUwVGRER2NHWkV4QTlvOENULXdwbXFKSzN3dmhjU1gzZS1tVlpsbTBybmVQR0hGUTUyRngySWttVWg3cTRIcllKa2oyWUNUWFVwWVBTNy1WSTR2bzhkTQ?oc=5",
+      "summary": "Hridoy and Litton's 206-run stand powers Bangladesh after Rabada's five-for &nbsp;&nbsp; Cricinfo Live Cricket Score, Schedule, Latest News, Stats & Videos &nbsp;&nbsp; Cricbuzz Hridoy, Das lead Bangladesh fightback after Rabada five-for &...",
+      "image": "",
+      "source": "Cricinfo",
+      "category": "sports",
+      "categoryLabel": "Sports",
+      "publishedAt": "2026-11-15T16:29:02.000Z",
+      "sources": [
+        {
+          "name": "Cricinfo",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSW10dXhzeHRObGlodVNQVDB1Wk5NVUhpbEZyb0NOam4zYmR5S3duTU53SGZQR1dZbjktWUpxdkJ1ZmFrOUNvV1RWVlBBb1dSRFBHMEVLSEprZlR6NTFfUjdDc2pLX0RzUDJfSTc3a1RHWFczMGUwVGRER2NHWkV4QTlvOENULXdwbXFKSzN3dmhjU1gzZS1tVlpsbTBybmVQR0hGUTUyRngySWttVWg3cTRIcllKa2oyWUNUWFVwWVBTNy1WSTR2bzhkTQ?oc=5",
+          "summary": "Hridoy and Litton's 206-run stand powers Bangladesh after Rabada's five-for &nbsp;&nbsp; Cricinfo Live Cricket Score, Schedule, Latest News, Stats & Videos &nbsp;&nbsp; Cricbuzz Hridoy, Das lead Bangladesh fightback after Rabada five-for &...",
+          "publishedAt": "2026-11-15T16:29:02.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-business-2026-11-15t16-25-13-000z",
+      "title": "Bessent says Nvidia must 'go outside the company' to find new CEO",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVGladEJOQmtqRldzTHdlQ25Fb3pCREJuYmthQTgzclB5Snl6WWFmaXdtWU1KU1NqVGhTZzIyakttSVpxR0p3MVlGU1pBcjhjRjVkVl9wNGU5OS1kOUJkeXRobzlOSjlMUkVPTWkxbmdib3Bna3ZoRVRoM1RybkQ2NE92ZWZTMjBuNF80a1lhVENxQUhTU2hkY0QzaTU0NGc?oc=5",
+      "summary": "Bessent says Nvidia must 'go outside the company' to find new CEO &nbsp;&nbsp; Reuters Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO &nbsp;&nbsp; CNBC Nvidia approached Arm CEO Haas to succeed Huang, FT reports &nbsp;&n...",
+      "image": "",
+      "source": "Reuters",
+      "category": "business",
+      "categoryLabel": "Business",
+      "publishedAt": "2026-11-15T16:25:13.000Z",
+      "sources": [
+        {
+          "name": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVGladEJOQmtqRldzTHdlQ25Fb3pCREJuYmthQTgzclB5Snl6WWFmaXdtWU1KU1NqVGhTZzIyakttSVpxR0p3MVlGU1pBcjhjRjVkVl9wNGU5OS1kOUJkeXRobzlOSjlMUkVPTWkxbmdib3Bna3ZoRVRoM1RybkQ2NE92ZWZTMjBuNF80a1lhVENxQUhTU2hkY0QzaTU0NGc?oc=5",
+          "summary": "Bessent says Nvidia must 'go outside the company' to find new CEO &nbsp;&nbsp; Reuters Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO &nbsp;&nbsp; CNBC Nvidia approached Arm CEO Haas to succeed Huang, FT reports &nbsp;&n...",
+          "publishedAt": "2026-11-15T16:25:13.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "we-just-endure-staying-indoors-not-an-option-delhi-s-workers-suffer-cruelty-of-smog-general-2026-11",
+      "title": "'We Just Endure': Staying Indoors Not An Option, Delhi's Workers Suffer Cruelty Of Smog",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQemZyMUZDM2ZqZFRfeF8wRGktV1YzeGJqYWlEODNzQ0pRZVRsbW0wazhsd3A4SFNkYU1hX0M0T0hSOXoxNEJwYXVmY1Nid1hhTjNuc0trb05pOGc4bHpUc3d2SEx2THZfaHFBWXkwUEVlOGdOVXpwVkl5M2l5Wk5rUGg4ZEVpMGpaUzg4WTg3MFlHYUtoekJFLVh1ZnEyLWZkSzQtckZBZERvdHZ3dHVwNGtITVc3dFFMM1hPNVk4aw?oc=5",
+      "summary": "'We Just Endure': Staying Indoors Not An Option, Delhi's Workers Suffer Cruelty Of Smog &nbsp;&nbsp; NDTV Air quality very poor in city; IIT Delhi records highest AQI of 428 &nbsp;&nbsp; The Hindu Delhi pollution: 47 monitoring stations re...",
+      "image": "",
+      "source": "NDTV",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T16:16:47.000Z",
+      "sources": [
+        {
+          "name": "NDTV",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQemZyMUZDM2ZqZFRfeF8wRGktV1YzeGJqYWlEODNzQ0pRZVRsbW0wazhsd3A4SFNkYU1hX0M0T0hSOXoxNEJwYXVmY1Nid1hhTjNuc0trb05pOGc4bHpUc3d2SEx2THZfaHFBWXkwUEVlOGdOVXpwVkl5M2l5Wk5rUGg4ZEVpMGpaUzg4WTg3MFlHYUtoekJFLVh1ZnEyLWZkSzQtckZBZERvdHZ3dHVwNGtITVc3dFFMM1hPNVk4aw?oc=5",
+          "summary": "'We Just Endure': Staying Indoors Not An Option, Delhi's Workers Suffer Cruelty Of Smog &nbsp;&nbsp; NDTV Air quality very poor in city; IIT Delhi records highest AQI of 428 &nbsp;&nbsp; The Hindu Delhi pollution: 47 monitoring stations re...",
+          "publishedAt": "2026-11-15T16:16:47.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "rachelle-hampton-won-t-admit-how-long-she-spent-charting-the-use-of-murmur-in-twilight-tech-2026-11",
+      "title": "Rachelle Hampton won’t admit how long she spent charting the use of ‘murmur’ in Twilight",
+      "link": "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview",
+      "summary": "Rachelle Hampton is a writer and co-owner at Defector Media, and the host of Normal Gossip, a podcast of anonymous listener-submitted stories about everyday drama. Whether that's lies about luxury wool in a literal knitting circle, the imp...",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/hampton-headshot-2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T16:00:00.000Z",
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview",
+          "summary": "Rachelle Hampton is a writer and co-owner at Defector Media, and the host of Normal Gossip, a podcast of anonymous listener-submitted stories about everyday drama. Whether that's lies about luxury wool in a literal knitting circle, the imp...",
+          "publishedAt": "2026-11-15T16:00:00.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "judge-blocks-trump-closure-of-trash-island-washington-dc-golf-course-on-sunday-world-2026-11-15t15-5",
+      "title": "Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday",
+      "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
+      "summary": "The temporary order is part of a months-long challenge to the US president's plans to upgrade East Potomac Golf Links into a championship course.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4be0/live/054b94d0-e09e-11f1-a701-fddedf244c16.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-11-15T15:57:03.000Z",
+      "sources": [
+        {
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
+          "summary": "The temporary order is part of a months-long challenge to the US president's plans to upgrade East Potomac Golf Links into a championship course.",
+          "publishedAt": "2026-11-15T15:57:03.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "what-a-short-arshdeep-becomes-most-rounded-version-of-himself-tech-2026-11-15t15-37-52-000z",
+      "title": "What a short! Arshdeep becomes most rounded version of himself",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdW9iaVdZUVQ5QVJISWJJUG9GcVotd0hDblRCR3I0U2tVZ2FNYlJxcFRQODBGbkFXNDcwRFU1b1hjMW03OEpyRDdyNzVqWkFjTVB1U29EbkQ1MlJiZFFFQ2xGQktTVGhhY0ZsSUtKZFd3NFhwTk5uQmJFUjd5VWtDNU9oeDFGRElpTlBKdXBPZ3V4TVNJekhSM3lOaTZraUlvb01iWWp3VTlHMzBTV2dWX3BqOTU1am1y?oc=5",
+      "summary": "What a short! Arshdeep becomes most rounded version of himself &nbsp;&nbsp; ESPN",
+      "image": "",
+      "source": "ESPN",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T15:37:52.000Z",
       "sources": [
         {
           "name": "ESPN",
-          "link": "https://www.espn.com/nfl/game/_/gameId/401873053/patriots-lions",
-          "summary": "null",
-          "publishedAt": "2026-11-15T14:22:37.000Z"
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdW9iaVdZUVQ5QVJISWJJUG9GcVotd0hDblRCR3I0U2tVZ2FNYlJxcFRQODBGbkFXNDcwRFU1b1hjMW03OEpyRDdyNzVqWkFjTVB1U29EbkQ1MlJiZFFFQ2xGQktTVGhhY0ZsSUtKZFd3NFhwTk5uQmJFUjd5VWtDNU9oeDFGRElpTlBKdXBPZ3V4TVNJekhSM3lOaTZraUlvb01iWWp3VTlHMzBTV2dWX3BqOTU1am1y?oc=5",
+          "summary": "What a short! Arshdeep becomes most rounded version of himself &nbsp;&nbsp; ESPN",
+          "publishedAt": "2026-11-15T15:37:52.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "hyderabad-comes-together-for-chhath-puja-as-lakhs-offer-prayers-to-setting-sun-india-2026-11-15t14-2",
-      "title": "Hyderabad comes together for Chhath Puja as lakhs offer prayers to setting sun",
-      "link": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-comes-together-for-chhath-puja-as-lakhs-offer-prayers-to-setting-sun/article71704792.ece",
-      "summary": "",
-      "image": "https://th-i.thgim.com/public/incoming/3pxgsh/article71705102.ece/alternates/LANDSCAPE_1200/_DSC5298.JPG",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-15T14:20:22.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-comes-together-for-chhath-puja-as-lakhs-offer-prayers-to-setting-sun/article71704792.ece",
-          "summary": "",
-          "publishedAt": "2026-11-15T14:20:22.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "land-resurvey-exercise-andhra-pradesh-revenue-staff-want-reduction-in-workload-india-2026-11-15t14-2",
-      "title": "Land resurvey exercise: Andhra Pradesh revenue staff want reduction in workload",
-      "link": "https://www.thehindu.com/news/national/andhra-pradesh/land-resurvey-andhra-pradesh-revenue-staff-want-reduction-in-workload/article71704948.ece",
-      "summary": "Employees say they are facing pressure from local body election duties, SIR of electoral rolls, cyclone-related work, census training, pattadar passbook distribution, festival duties and protocol assignments",
+      "id": "punjab-woman-accomplice-held-in-rajasthan-train-track-blast-police-suspect-isi-s-romance-strategy-to",
+      "title": "Punjab woman, accomplice held in Rajasthan train track blast; police suspect ISI's 'romance' strategy to recruit women | India News",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPQ2hZLUdIbGZydFpwTExYMFk2VnFWZFg3b28zbW9Ea1kxczhyMjkwblRDckltNzFwaXd6bmFTQ3VnM3NoUmJUUWdGWVVZWnFZRzhueW1BZVpIb3hqamowNEJtaUJnQTR0cE4yTVBGS3lEanFqcXlWeU9KaElMMjhMcnAyeFI2Q2Y3MUNoN1RGdm5DTVNoMUswSU1XM3pNdE5CQ2J0bFNQdlRiQUpfRFdycmVUSkIxbS1BUGpKbUlMNVB0ell3T20xVUxaMUF5Z3c5Z0ZNTXNkZEFjY3NYaV9YRnJrR0FMTjZBd1g0TzNlRDN6RlpLeG50MExIOEhNdnNNWnBoM0lMOA?oc=5",
+      "summary": "Punjab woman, accomplice held in Rajasthan train track blast; police suspect ISI's 'romance' strategy to recruit women | India News &nbsp;&nbsp; Hindustan Times Love, Drugs, Pak Link: How Punjab Woman Got Involved In Rajasthan Blast Plot &...",
       "image": "",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-15T14:20:15.000Z",
+      "source": "Hindustan Times",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T15:33:02.000Z",
       "sources": [
         {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/land-resurvey-andhra-pradesh-revenue-staff-want-reduction-in-workload/article71704948.ece",
-          "summary": "Employees say they are facing pressure from local body election duties, SIR of electoral rolls, cyclone-related work, census training, pattadar passbook distribution, festival duties and protocol assignments",
-          "publishedAt": "2026-11-15T14:20:15.000Z"
+          "name": "Hindustan Times",
+          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPQ2hZLUdIbGZydFpwTExYMFk2VnFWZFg3b28zbW9Ea1kxczhyMjkwblRDckltNzFwaXd6bmFTQ3VnM3NoUmJUUWdGWVVZWnFZRzhueW1BZVpIb3hqamowNEJtaUJnQTR0cE4yTVBGS3lEanFqcXlWeU9KaElMMjhMcnAyeFI2Q2Y3MUNoN1RGdm5DTVNoMUswSU1XM3pNdE5CQ2J0bFNQdlRiQUpfRFdycmVUSkIxbS1BUGpKbUlMNVB0ell3T20xVUxaMUF5Z3c5Z0ZNTXNkZEFjY3NYaV9YRnJrR0FMTjZBd1g0TzNlRDN6RlpLeG50MExIOEhNdnNNWnBoM0lMOA?oc=5",
+          "summary": "Punjab woman, accomplice held in Rajasthan train track blast; police suspect ISI's 'romance' strategy to recruit women | India News &nbsp;&nbsp; Hindustan Times Love, Drugs, Pak Link: How Punjab Woman Got Involved In Rajasthan Blast Plot &...",
+          "publishedAt": "2026-11-15T15:33:02.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "award-winning-kadapa-entrepreneur-participates-in-cii-meet-india-2026-11-15t14-19-42-000z",
-      "title": "Award-winning Kadapa entrepreneur participates in CII meet",
-      "link": "https://www.thehindu.com/news/national/andhra-pradesh/award-winning-kadapa-entrepreneur-participates-in-cii-meet/article71704984.ece",
-      "summary": "",
-      "image": "https://th-i.thgim.com/public/incoming/imzocl/article71705172.ece/alternates/LANDSCAPE_1200/00001Startup%20Leader%20of%20the%20Year%202026.jpg",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-15T14:19:42.000Z",
-      "sources": [
-        {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/award-winning-kadapa-entrepreneur-participates-in-cii-meet/article71704984.ece",
-          "summary": "",
-          "publishedAt": "2026-11-15T14:19:42.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "lsgi-secretary-rank-holders-allege-delay-in-reporting-vacancies-to-psc-india-2026-11-15t14-18-27-000",
-      "title": "LSGI Secretary rank holders allege delay in reporting vacancies to PSC",
-      "link": "https://www.thehindu.com/news/national/kerala/lsgi-secretary-rank-holders-allege-delay-in-reporting-vacancies-to-psc/article71704959.ece",
-      "summary": "According to the LSGI rank holders association, no fresh vacancy has been reported to the PSC in the last eight months although vacancies for the secretary posts are available in the department",
+      "id": "watch-forest-staff-chase-lion-on-motorcycles-at-gujarat-safari-park-3-relieved-of-duty-entertainment",
+      "title": "Watch: Forest staff chase lion on motorcycles at Gujarat safari park, 3 relieved of duty",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcFhJQU9FcER2bENTSXRQWnp1cmFDcXZDMUNnMEZ4dk80NHkybGJkRHJLX2xoZ0hmTHFFUTBzMU9ybG5tV2lPVEJybkQ5VHNNU2JBci1HcFFCbGxELUlvM2o3b1hyUElKeDctazViSlVvbHhxV0hPbHVVcnZNUDh4ZUU4LWhhZTBJMzFEbXZhVHh6NGpXc3dzNFlsSS02OU1wZmJkSkcxbTI2YmExeDB2VEJTMURqQjNyeVNsOVdEUWdSeE44UFlQMUo5SUhmeEtUWFBIN2t1Sk9mS2FPeTc4bDhHa1VpMEV0MFBYOEVSY3JRdw?oc=5",
+      "summary": "Watch: Forest staff chase lion on motorcycles at Gujarat safari park, 3 relieved of duty &nbsp;&nbsp; The Times of India Harassment or safety measure? Lion Simba chased on motorcycle at Gujarat safari park &nbsp;&nbsp; India Today Viral Vi...",
       "image": "",
-      "source": "The Hindu National",
-      "category": "india",
-      "categoryLabel": "India",
-      "publishedAt": "2026-11-15T14:18:27.000Z",
+      "source": "The Times of India",
+      "category": "entertainment",
+      "categoryLabel": "Entertainment",
+      "publishedAt": "2026-11-15T15:13:00.000Z",
       "sources": [
         {
-          "name": "The Hindu National",
-          "link": "https://www.thehindu.com/news/national/kerala/lsgi-secretary-rank-holders-allege-delay-in-reporting-vacancies-to-psc/article71704959.ece",
-          "summary": "According to the LSGI rank holders association, no fresh vacancy has been reported to the PSC in the last eight months although vacancies for the secretary posts are available in the department",
-          "publishedAt": "2026-11-15T14:18:27.000Z"
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcFhJQU9FcER2bENTSXRQWnp1cmFDcXZDMUNnMEZ4dk80NHkybGJkRHJLX2xoZ0hmTHFFUTBzMU9ybG5tV2lPVEJybkQ5VHNNU2JBci1HcFFCbGxELUlvM2o3b1hyUElKeDctazViSlVvbHhxV0hPbHVVcnZNUDh4ZUU4LWhhZTBJMzFEbXZhVHh6NGpXc3dzNFlsSS02OU1wZmJkSkcxbTI2YmExeDB2VEJTMURqQjNyeVNsOVdEUWdSeE44UFlQMUo5SUhmeEtUWFBIN2t1Sk9mS2FPeTc4bDhHa1VpMEV0MFBYOEVSY3JRdw?oc=5",
+          "summary": "Watch: Forest staff chase lion on motorcycles at Gujarat safari park, 3 relieved of duty &nbsp;&nbsp; The Times of India Harassment or safety measure? Lion Simba chased on motorcycle at Gujarat safari park &nbsp;&nbsp; India Today Viral Vi...",
+          "publishedAt": "2026-11-15T15:13:00.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "waves-magic-wand-unveiling-vistas-around-children-s-world-tech-2026-11-15t15-09-11-000z",
+      "title": "Waves magic wand unveiling vistas around children’s world",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdmFMRXBpTkRmWUVBQlJUWGZ6aE9PejNFTzRVWTc3X2N2b1JBMHZIUFhZeHd4eDEta2NMdGJOUGdveFdpSVJzbnFjMUl3b1dmRjRhenEwbjYzY1BNekVsaElJSXh2dXdYdzZFZC1UUXJvZWVCM0JRdU1qd1JUSEphMU5mb2ZNYk0?oc=5",
+      "summary": "Waves magic wand unveiling vistas around children’s world &nbsp;&nbsp; Garhwal Post",
+      "image": "",
+      "source": "Garhwal Post",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T15:09:11.000Z",
+      "sources": [
+        {
+          "name": "Garhwal Post",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdmFMRXBpTkRmWUVBQlJUWGZ6aE9PejNFTzRVWTc3X2N2b1JBMHZIUFhZeHd4eDEta2NMdGJOUGdveFdpSVJzbnFjMUl3b1dmRjRhenEwbjYzY1BNekVsaElJSXh2dXdYdzZFZC1UUXJvZWVCM0JRdU1qd1JUSEphMU5mb2ZNYk0?oc=5",
+          "summary": "Waves magic wand unveiling vistas around children’s world &nbsp;&nbsp; Garhwal Post",
+          "publishedAt": "2026-11-15T15:09:11.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "raghav-chadha-other-mps-who-came-from-aap-get-key-bjp-committee-roles-for-punjab-polls-general-2026",
+      "title": "Raghav Chadha, Other MPs Who Came From AAP Get Key BJP Committee Roles For Punjab Polls",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTFM0ZmNjT1h0VGk2dUE5Z1lGTm9DSmlVOC1qdGVzWjdtTmt1QTdtbnY1cS1KMGpzN3FkQ3NUNm43c0ExY091NDN4N0FrQTJyclBKWlotUkVCWWlXRFpFVTlkUy1SdlBOUEYyRWJqYUk2anFBdXlBekh6a2NuSEQ4Slpvelk1N196NHRCdEwzckNnalZfRzBLSlBsVWFHQjRWRGptM3RCY0stLVRUNGxEaTJPdFRHQ1BjZVF2T1FHR1ZCNmxK?oc=5",
+      "summary": "Raghav Chadha, Other MPs Who Came From AAP Get Key BJP Committee Roles For Punjab Polls &nbsp;&nbsp; NDTV BJP forms panels to draft Punjab manifesto, highlight AAP govt’s failures &nbsp;&nbsp; The Times of India Punjab BJP forms manifesto,...",
+      "image": "",
+      "source": "NDTV",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T15:02:26.000Z",
+      "sources": [
+        {
+          "name": "NDTV",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTFM0ZmNjT1h0VGk2dUE5Z1lGTm9DSmlVOC1qdGVzWjdtTmt1QTdtbnY1cS1KMGpzN3FkQ3NUNm43c0ExY091NDN4N0FrQTJyclBKWlotUkVCWWlXRFpFVTlkUy1SdlBOUEYyRWJqYUk2anFBdXlBekh6a2NuSEQ4Slpvelk1N196NHRCdEwzckNnalZfRzBLSlBsVWFHQjRWRGptM3RCY0stLVRUNGxEaTJPdFRHQ1BjZVF2T1FHR1ZCNmxK?oc=5",
+          "summary": "Raghav Chadha, Other MPs Who Came From AAP Get Key BJP Committee Roles For Punjab Polls &nbsp;&nbsp; NDTV BJP forms panels to draft Punjab manifesto, highlight AAP govt’s failures &nbsp;&nbsp; The Times of India Punjab BJP forms manifesto,...",
+          "publishedAt": "2026-11-15T15:02:26.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "suspected-china-spy-linked-to-nvidia-s-ex-boss-left-in-2025-megaspeed-says-world-2026-11-15t14-56-21",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
+      "source": "BBC World",
+      "category": "world",
+      "categoryLabel": "World",
+      "publishedAt": "2026-11-15T14:56:21.000Z",
+      "sources": [
+        {
+          "name": "BBC World",
+          "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+          "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+          "publishedAt": "2026-11-15T14:56:21.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "space-data-centers-could-leave-more-satellites-than-stars-in-the-night-sky-a-columbia-led-report-war",
+      "title": "Space data centers could leave more satellites than stars in the night sky, a Columbia-led report warns",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTVJWZVprMDZsUC0yY19lc0pZalNpWHF2YzNEMEtYZ21jT1FxMzNGNndJaUN3YTRvNHVCN1Y0VDZSNmM1UVJKVlJXRFZUSzZKbUZfWHVkNVprR2tqcklreWRtRE0wZ1l4MEt1aWZtZzhFRVFVMkpHRWU3SmFsT2xDSVI5Q1VWblFMWmUwOHQ5RmlEU0xnUENBN2hJRFdVdXlTc1d2ZkdiOXptaHpaUmQ2NFFnSHpuaGxyVkxyV2x6UVY?oc=5",
+      "summary": "Space data centers could leave more satellites than stars in the night sky, a Columbia-led report warns &nbsp;&nbsp; MLQ.ai New Report Urges Caution in the Race for Space-Based Data Centers &nbsp;&nbsp; Columbia University Space data cente...",
+      "image": "",
+      "source": "MLQ.ai",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T14:54:01.000Z",
+      "sources": [
+        {
+          "name": "MLQ.ai",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTVJWZVprMDZsUC0yY19lc0pZalNpWHF2YzNEMEtYZ21jT1FxMzNGNndJaUN3YTRvNHVCN1Y0VDZSNmM1UVJKVlJXRFZUSzZKbUZfWHVkNVprR2tqcklreWRtRE0wZ1l4MEt1aWZtZzhFRVFVMkpHRWU3SmFsT2xDSVI5Q1VWblFMWmUwOHQ5RmlEU0xnUENBN2hJRFdVdXlTc1d2ZkdiOXptaHpaUmQ2NFFnSHpuaGxyVkxyV2x6UVY?oc=5",
+          "summary": "Space data centers could leave more satellites than stars in the night sky, a Columbia-led report warns &nbsp;&nbsp; MLQ.ai New Report Urges Caution in the Race for Space-Based Data Centers &nbsp;&nbsp; Columbia University Space data cente...",
+          "publishedAt": "2026-11-15T14:54:01.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "astronomers-redefine-star-cluster-in-a-new-study-tech-2026-11-15t14-16-54-000z",
+      "title": "Astronomers redefine star cluster in a new study",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQb0ZHY0NIOHQ1MUdUMXl1dHF6aThhc09CZVJkNlBjb2Y5UVlJWTVQWWxOLWlBTE14NGpsN1loX2FYV0hhbDVCRG1hSmpZS3dhcXUxaXVZTmVDLW5hbmdWVGJZM1BoTV9kNzNWbWRLLVVwNXFTUU5HYUpoYkRjU01JUmEwcF9wTFZaSG1BLWtmUXl2aW5HSXJ3N1ZHOENUNnpDT25kVmp5RlZETzNFSDJzVndZekFZVk1l0gG_AUFVX3lxTE5la19ybHBFbThrcGZGeHR2VlJtLWxDRnFra1I3VTJVeTR3dDdFRmx0MkZTd3YzNjNQWXlFNkxRU21SR2FUX0ZEb0o4OU55bXZyQ0JCb1djUTJablNGZENOb1l5ODZTWGExbXdmZFdoMW5hQmF1Nlkxbk1yVTQ4dk9KS0N6VDgxY1FXNldVc2JlRTJGZlozeHJBSHJuSGlKZWZZeEdqY0FIZ3BpZjRGd3FqSFBBX182Z1lRYUVweXpn?oc=5",
+      "summary": "Astronomers redefine star cluster in a new study &nbsp;&nbsp; The Hindu",
+      "image": "",
+      "source": "The Hindu",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T14:16:54.000Z",
+      "sources": [
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQb0ZHY0NIOHQ1MUdUMXl1dHF6aThhc09CZVJkNlBjb2Y5UVlJWTVQWWxOLWlBTE14NGpsN1loX2FYV0hhbDVCRG1hSmpZS3dhcXUxaXVZTmVDLW5hbmdWVGJZM1BoTV9kNzNWbWRLLVVwNXFTUU5HYUpoYkRjU01JUmEwcF9wTFZaSG1BLWtmUXl2aW5HSXJ3N1ZHOENUNnpDT25kVmp5RlZETzNFSDJzVndZekFZVk1l0gG_AUFVX3lxTE5la19ybHBFbThrcGZGeHR2VlJtLWxDRnFra1I3VTJVeTR3dDdFRmx0MkZTd3YzNjNQWXlFNkxRU21SR2FUX0ZEb0o4OU55bXZyQ0JCb1djUTJablNGZENOb1l5ODZTWGExbXdmZFdoMW5hQmF1Nlkxbk1yVTQ4dk9KS0N6VDgxY1FXNldVc2JlRTJGZlozeHJBSHJuSGlKZWZZeEdqY0FIZ3BpZjRGd3FqSFBBX182Z1lRYUVweXpn?oc=5",
+          "summary": "Astronomers redefine star cluster in a new study &nbsp;&nbsp; The Hindu",
+          "publishedAt": "2026-11-15T14:16:54.000Z"
         }
       ],
       "sourceCount": 1
@@ -476,6 +1319,26 @@
       "sourceCount": 1
     },
     {
+      "id": "soni-razdan-recalls-smoking-100-cigarettes-a-day-when-she-was-pregnant-with-alia-bhatt-during-gumraa",
+      "title": "Soni Razdan recalls smoking 100 cigarettes a day when she was pregnant with Alia Bhatt, during 'Gumraah'",
+      "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQRXZwQXFFRlZOTVMtZW9FQkpwVkVYbi1mdU1tNGdXSmNINEU0U1FWRGxDdWx5U3NQSkdZZHZhVkl6Vy10Nk05eHlqc3IweU8wRE5ZckJHcjN5RzA5eHhZbXFQX1U0RmtmVjA0am9Qd0FZNXNMMksydDZWd1gzNm1pQ1RXbWFWa3dsbTd2c25Jc1dUa2NCUjlyTXBHaHZobENLY0dud1prNmc0cElCNUJQeEpMZUZLZ2o5WGsxTlEyVHJlbURuRVJ0M2RMdGJPUENGWFNaZkNIcnRqcDh1cGU4WHBTUldrQ3JRN3hVcy0tRnZIWFFUZDVXX3RVRWQtSml2R3BwT25QY19FbVQ3Y3V3bVZ3cVJEZkZLZ3dQTWxVdkx1VXkzSXA2Q1ZiaTFIakJZRmF0YXBraGI2VldTRXdSa0xtYmoxWF9BbWFrSFpNN0IzeHVn?oc=5",
+      "summary": "Soni Razdan recalls smoking 100 cigarettes a day when she was pregnant with Alia Bhatt, during 'Gumraah' &nbsp;&nbsp; The Times of India Soni Razdan Recalls Smoking 100 Cigarettes In A Day While Pregnant With Alia Bhatt &nbsp;&nbsp; NDTV B...",
+      "image": "",
+      "source": "The Times of India",
+      "category": "entertainment",
+      "categoryLabel": "Entertainment",
+      "publishedAt": "2026-11-15T13:59:00.000Z",
+      "sources": [
+        {
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQRXZwQXFFRlZOTVMtZW9FQkpwVkVYbi1mdU1tNGdXSmNINEU0U1FWRGxDdWx5U3NQSkdZZHZhVkl6Vy10Nk05eHlqc3IweU8wRE5ZckJHcjN5RzA5eHhZbXFQX1U0RmtmVjA0am9Qd0FZNXNMMksydDZWd1gzNm1pQ1RXbWFWa3dsbTd2c25Jc1dUa2NCUjlyTXBHaHZobENLY0dud1prNmc0cElCNUJQeEpMZUZLZ2o5WGsxTlEyVHJlbURuRVJ0M2RMdGJPUENGWFNaZkNIcnRqcDh1cGU4WHBTUldrQ3JRN3hVcy0tRnZIWFFUZDVXX3RVRWQtSml2R3BwT25QY19FbVQ3Y3V3bVZ3cVJEZkZLZ3dQTWxVdkx1VXkzSXA2Q1ZiaTFIakJZRmF0YXBraGI2VldTRXdSa0xtYmoxWF9BbWFrSFpNN0IzeHVn?oc=5",
+          "summary": "Soni Razdan recalls smoking 100 cigarettes a day when she was pregnant with Alia Bhatt, during 'Gumraah' &nbsp;&nbsp; The Times of India Soni Razdan Recalls Smoking 100 Cigarettes In A Day While Pregnant With Alia Bhatt &nbsp;&nbsp; NDTV B...",
+          "publishedAt": "2026-11-15T13:59:00.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
       "id": "the-sony-aibo-was-a-robot-revolution-dressed-like-a-dog-tech-2026-11-15t13-57-30-000z",
       "title": "The Sony Aibo was a robot revolution dressed like a dog",
       "link": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
@@ -496,11 +1359,31 @@
       "sourceCount": 1
     },
     {
+      "id": "man-accused-of-opening-fire-at-cop-in-bengal-s-santiniketan-killed-in-police-encounter-general-2026",
+      "title": "Man accused of opening fire at cop in Bengal’s Santiniketan killed in police encounter",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMVNZUHF0NHk2UUZrWloxS1p3WXZMS3hIb0pHSEQySGQwMm03RG52cDIwU0FweERiSE1qUjduQ0tHWGNJdVJxdGlBbVZXQ25XSWJiS2gwVXhxQzdPRjEtM3V6Y2NCX3pyRW8zUDFEaXdLdlliWTBFT1hMOWNzZDAzd1hHQjcta1F4aWlULVhWc0dHS0J1akVESzhaTE5KZ0tlS2ZXcW9OcEFZcERZZ0VuN0xHeHNUeGlKdHNHYThuVG9hcnZFd25rU2ZtMEl5azRhWkl2Y3BBVWlUb0d3QlRSaF9TVTN2UjJnRlRfWNIB8wFBVV95cUxQZ2V1U3BIYU1RQllMOFRxRjNJa3NSSjdfeld0cXg5N1hVV25yT3hNNFpDWl9TdUlHSjhaRmZMdHBHdWJ6Zk5JbzlVa3ZyWkRCYTR0SjJMN3RqT3NUblZfV3FHOTVIWWh2YjRJOFhzRlo5S1dmaGNpd2ZYX2ZzdVhNOXRteUZWazRLbUhUeXZWSFE5ZmxpZkRmeXNnRTZBMlhIODNMdDRzUklVWGpyOU1JT3ROcG9IQlVCOHRZNkNjM2JFalBPWkttQmRvWlYzaXM0eEtWNzU1dTlVa1JraWhWWmwzaUhDRGVLaFBpSmVzMWJkeDA?oc=5",
+      "summary": "Man accused of opening fire at cop in Bengal’s Santiniketan killed in police encounter &nbsp;&nbsp; The Hindu 'No place for goons': CM Adhikari's warning to criminals after encounter of Shantiniketan accused &nbsp;&nbsp; The Times of India...",
+      "image": "",
+      "source": "The Hindu",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T13:57:16.000Z",
+      "sources": [
+        {
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMVNZUHF0NHk2UUZrWloxS1p3WXZMS3hIb0pHSEQySGQwMm03RG52cDIwU0FweERiSE1qUjduQ0tHWGNJdVJxdGlBbVZXQ25XSWJiS2gwVXhxQzdPRjEtM3V6Y2NCX3pyRW8zUDFEaXdLdlliWTBFT1hMOWNzZDAzd1hHQjcta1F4aWlULVhWc0dHS0J1akVESzhaTE5KZ0tlS2ZXcW9OcEFZcERZZ0VuN0xHeHNUeGlKdHNHYThuVG9hcnZFd25rU2ZtMEl5azRhWkl2Y3BBVWlUb0d3QlRSaF9TVTN2UjJnRlRfWNIB8wFBVV95cUxQZ2V1U3BIYU1RQllMOFRxRjNJa3NSSjdfeld0cXg5N1hVV25yT3hNNFpDWl9TdUlHSjhaRmZMdHBHdWJ6Zk5JbzlVa3ZyWkRCYTR0SjJMN3RqT3NUblZfV3FHOTVIWWh2YjRJOFhzRlo5S1dmaGNpd2ZYX2ZzdVhNOXRteUZWazRLbUhUeXZWSFE5ZmxpZkRmeXNnRTZBMlhIODNMdDRzUklVWGpyOU1JT3ROcG9IQlVCOHRZNkNjM2JFalBPWkttQmRvWlYzaXM0eEtWNzU1dTlVa1JraWhWWmwzaUhDRGVLaFBpSmVzMWJkeDA?oc=5",
+          "summary": "Man accused of opening fire at cop in Bengal’s Santiniketan killed in police encounter &nbsp;&nbsp; The Hindu 'No place for goons': CM Adhikari's warning to criminals after encounter of Shantiniketan accused &nbsp;&nbsp; The Times of India...",
+          "publishedAt": "2026-11-15T13:57:16.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
       "id": "iran-targets-us-military-base-in-bahrain-with-drone-attack-general-2026-11-15t13-42-58-000z",
       "title": "Iran targets US military base in Bahrain with drone attack",
       "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
       "summary": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/adcc/live/783de3c0-e0f4-11f1-b441-2b33b063138f.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0351/live/2e8de2e0-e106-11f1-93e1-3b657b665bcf.jpg",
       "source": "BBC News",
       "category": "general",
       "categoryLabel": "General",
@@ -511,6 +1394,26 @@
           "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
           "summary": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
           "publishedAt": "2026-11-15T13:42:58.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "banton-believes-he-belongs-at-the-top-after-matchwinning-odi-hundred-sports-2026-11-15t13-40-41-000z",
+      "title": "Banton believes he belongs at the top after matchwinning ODI hundred",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcGotQ2NLUjJwVHY5bk52cHJCYXJjb003c3dHdjN3b3BxOHR6MnUzMVdqWUJTRTVBbm1YbXJtaHQwRzU3VS1URXV5Yl9JN3RBcXhJTUNyOGJKWlZRd2dLNkhlWlZhMkhQcDk4NHplNXlhaUh1R0F1WFc0LXRwVmxNdmNJVGV5MUhUV1NOekIwWDRvdUwtTlN6ekE1YjVBalFUZU40dG9SWHBsa0nSAbwBQVVfeXFMTS1PbktxMnBJUC01OWh1WTdIWG12b2pqNk9GWURWMGM4WWVUZFRWWXJVUVZCX25tazJPSmFpdTJWMmxvNEdUS2Q0Z3RuaEUxUW5yTXNESGZnNHJPZy1fLTYxSGxTNnV3VFV2MEthZE91Tk9IUmEyYTNneVVoV2w3MjBfTkRXRkozOFpvVW1HYUZEbjNidkFaNnctS3ctazdqa2toQXRMSFlubHU5MFZmbzliZFpLN29qY1NUdnc?oc=5",
+      "summary": "Banton believes he belongs at the top after matchwinning ODI hundred &nbsp;&nbsp; Cricinfo Banton, Atkinson star as England hit back to force series decider &nbsp;&nbsp; Cricbuzz Australia vs England LIVE: Second ODI, Adelaide Oval - crick...",
+      "image": "",
+      "source": "Cricinfo",
+      "category": "sports",
+      "categoryLabel": "Sports",
+      "publishedAt": "2026-11-15T13:40:41.000Z",
+      "sources": [
+        {
+          "name": "Cricinfo",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcGotQ2NLUjJwVHY5bk52cHJCYXJjb003c3dHdjN3b3BxOHR6MnUzMVdqWUJTRTVBbm1YbXJtaHQwRzU3VS1URXV5Yl9JN3RBcXhJTUNyOGJKWlZRd2dLNkhlWlZhMkhQcDk4NHplNXlhaUh1R0F1WFc0LXRwVmxNdmNJVGV5MUhUV1NOekIwWDRvdUwtTlN6ekE1YjVBalFUZU40dG9SWHBsa0nSAbwBQVVfeXFMTS1PbktxMnBJUC01OWh1WTdIWG12b2pqNk9GWURWMGM4WWVUZFRWWXJVUVZCX25tazJPSmFpdTJWMmxvNEdUS2Q0Z3RuaEUxUW5yTXNESGZnNHJPZy1fLTYxSGxTNnV3VFV2MEthZE91Tk9IUmEyYTNneVVoV2w3MjBfTkRXRkozOFpvVW1HYUZEbjNidkFaNnctS3ctazdqa2toQXRMSFlubHU5MFZmbzliZFpLN29qY1NUdnc?oc=5",
+          "summary": "Banton believes he belongs at the top after matchwinning ODI hundred &nbsp;&nbsp; Cricinfo Banton, Atkinson star as England hit back to force series decider &nbsp;&nbsp; Cricbuzz Australia vs England LIVE: Second ODI, Adelaide Oval - crick...",
+          "publishedAt": "2026-11-15T13:40:41.000Z"
         }
       ],
       "sourceCount": 1
@@ -536,21 +1439,21 @@
       "sourceCount": 1
     },
     {
-      "id": "staggered-age-of-consent-to-be-discussed-after-brand-case-minister-says-general-2026-11-15t13-31-39",
-      "title": "Staggered age of consent to be discussed after Brand case, minister says",
-      "link": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
-      "summary": "A woman who alleges she was raped by the jailed comedian when she was 16 is campaigning to see relationships between 16-and 17-year-olds and adults made illegal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/786b/live/57899d60-e0f2-11f1-a701-fddedf244c16.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-15T13:31:39.000Z",
+      "id": "iphone-17-pro-max-prices-slashed-worldwide-before-black-friday-tech-2026-11-15t13-29-11-000z",
+      "title": "iPhone 17 Pro Max Prices Slashed Worldwide Before Black Friday",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVVktOGwyVERJb25KVm5QX2xraEhMQjA5TTNVa3Z0eVFrTmktTTMtME13enVDRXFTVHVqU1Atem41c2t2NHI5Wi1kczM5aFRVRHVpalN2bnZzRF9jdFRBYi1ZNHBiVTc3cllPVmhWWkFvUTd0NUVyZmlPY0ZZUTNkcUc4OWVWekRzVWR5MzFpYjNFSlVkUEpJbkV6NGQzMXdwMmZmQ1FFY1VUczlJaU93MG5YVEIyS25IbTVSa1hn?oc=5",
+      "summary": "iPhone 17 Pro Max Prices Slashed Worldwide Before Black Friday &nbsp;&nbsp; Forbes See more headlines and perspectives on Google News",
+      "image": "",
+      "source": "Forbes",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T13:29:11.000Z",
       "sources": [
         {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
-          "summary": "A woman who alleges she was raped by the jailed comedian when she was 16 is campaigning to see relationships between 16-and 17-year-olds and adults made illegal.",
-          "publishedAt": "2026-11-15T13:31:39.000Z"
+          "name": "Forbes",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVVktOGwyVERJb25KVm5QX2xraEhMQjA5TTNVa3Z0eVFrTmktTTMtME13enVDRXFTVHVqU1Atem41c2t2NHI5Wi1kczM5aFRVRHVpalN2bnZzRF9jdFRBYi1ZNHBiVTc3cllPVmhWWkFvUTd0NUVyZmlPY0ZZUTNkcUc4OWVWekRzVWR5MzFpYjNFSlVkUEpJbkV6NGQzMXdwMmZmQ1FFY1VUczlJaU93MG5YVEIyS25IbTVSa1hn?oc=5",
+          "summary": "iPhone 17 Pro Max Prices Slashed Worldwide Before Black Friday &nbsp;&nbsp; Forbes See more headlines and perspectives on Google News",
+          "publishedAt": "2026-11-15T13:29:11.000Z"
         }
       ],
       "sourceCount": 1
@@ -616,6 +1519,26 @@
       "sourceCount": 1
     },
     {
+      "id": "gta-6-why-haven-t-the-game-s-original-creators-been-allowed-to-play-it-before-launch-tech-2026-11-15",
+      "title": "GTA 6: Why haven’t the game’s original creators been allowed to play it before launch?",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYmVYZ00ySGIzTzZnZVRKc1JSenRYaEF3WVFTdWlRX1VMNFFoUzd3bl8zWExBTnpkTXNTUFNXenZYNVhVSG1kaVkxanJaOWtzN2dRMTl5aEVoYnRBUnROYkhXcWFIWEladFNRTHg5TUdGRFBoTTFKUEE5S0luRUtObHQzaEVEWDRId1ZxbW1qUDVFZUpNdUtPblp5SHFEdlR6UmUwRXJuc195X2NfMmNvME1QcTgyOW5ZajdsOXdEc2liR0s2RHptVHVoYk9YREYxTHMtYTNINNIB3AFBVV95cUxPZVJ2a05td2lTeEhoZ3h5dWxoQlVCRFowRDNPQkJ3U0RHQjNUVWMzUl92djAydllHbmYxWDNMUWkzUk16R0dOb3RJcG9xVVhURTZoS0JZSHF5cWtqR2tPcmV5cmJTSE9HZnRQNWhvb1JnR0ptZmNDeWFmUXM3bzFkdm5TQ0FMUmNKYlIwV0F0azNvWjJHcUJSTGVPWWJ3TjRzOF9tOXdlUDBYVGpLRTJhdkczMHBRT2FoN3RqVkxvQk1FMzc4UG01eW9HQlVWbmhUTEJyVTRnc1ZRSmJ0?oc=5",
+      "summary": "GTA 6: Why haven’t the game’s original creators been allowed to play it before launch? &nbsp;&nbsp; Livemint Even Grand Theft Auto's original creators haven't been able to play GTA 6 &nbsp;&nbsp; BBC GTA VI Is Still a Mystery Even to Grand...",
+      "image": "",
+      "source": "Livemint",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T12:56:38.000Z",
+      "sources": [
+        {
+          "name": "Livemint",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYmVYZ00ySGIzTzZnZVRKc1JSenRYaEF3WVFTdWlRX1VMNFFoUzd3bl8zWExBTnpkTXNTUFNXenZYNVhVSG1kaVkxanJaOWtzN2dRMTl5aEVoYnRBUnROYkhXcWFIWEladFNRTHg5TUdGRFBoTTFKUEE5S0luRUtObHQzaEVEWDRId1ZxbW1qUDVFZUpNdUtPblp5SHFEdlR6UmUwRXJuc195X2NfMmNvME1QcTgyOW5ZajdsOXdEc2liR0s2RHptVHVoYk9YREYxTHMtYTNINNIB3AFBVV95cUxPZVJ2a05td2lTeEhoZ3h5dWxoQlVCRFowRDNPQkJ3U0RHQjNUVWMzUl92djAydllHbmYxWDNMUWkzUk16R0dOb3RJcG9xVVhURTZoS0JZSHF5cWtqR2tPcmV5cmJTSE9HZnRQNWhvb1JnR0ptZmNDeWFmUXM3bzFkdm5TQ0FMUmNKYlIwV0F0azNvWjJHcUJSTGVPWWJ3TjRzOF9tOXdlUDBYVGpLRTJhdkczMHBRT2FoN3RqVkxvQk1FMzc4UG01eW9HQlVWbmhUTEJyVTRnc1ZRSmJ0?oc=5",
+          "summary": "GTA 6: Why haven’t the game’s original creators been allowed to play it before launch? &nbsp;&nbsp; Livemint Even Grand Theft Auto's original creators haven't been able to play GTA 6 &nbsp;&nbsp; BBC GTA VI Is Still a Mystery Even to Grand...",
+          "publishedAt": "2026-11-15T12:56:38.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
       "id": "man-and-woman-die-and-four-arrested-after-police-pursuit-crash-in-leeds-general-2026-11-15t12-38-28",
       "title": "Man and woman die and four arrested after police pursuit crash in Leeds",
       "link": "https://www.bbc.co.uk/news/articles/cm3eg8x9zkvno?at_medium=RSS&at_campaign=rss",
@@ -636,181 +1559,81 @@
       "sourceCount": 1
     },
     {
-      "id": "manning-shows-competitive-spirit-shakes-off-3-ints-to-lead-texas-comeback-over-lsu-sports-2026-11-15",
-      "title": "Manning shows 'competitive spirit,' shakes off 3 INTs to lead Texas' comeback over LSU",
-      "link": "https://www.espn.com/college-football/story/_/id/50487515/arch-manning-leads-game-winning-drive-texas-stuns-lsu",
-      "summary": "Arch Manning found Raleek Brown for a 4-yard touchdown pass along the left sideline with 3 seconds left as Texas escaped Tiger Stadium with a victory over LSU",
+      "id": "arshdeep-and-co-help-india-defend-209-for-3-1-series-win-sports-2026-11-15t12-19-25-000z",
+      "title": "Arshdeep and Co help India defend 209 for 3-1 series win",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVVBNU3RYTWw3LWd1MnhlSVpTbUxlMDAzMk9MSFZJQUMwQWpUZ1p4Q2xCendUX3RBTkFsZC0yMUowNl90VUx4NGtXRC1kdGczX19md2YtSzZzaGF4U09OWjRBYmVvYmdrQlB0WU9QWExNWjlwRDdaTEhJR3U5Z2VrUFpWXzBueVlLTnBvbEc2RHE1cTlfMW1kdG5BdW1ZMHFPZEdZYVBUTndGamJEN2N3NFpWd2hiZmNBclE?oc=5",
+      "summary": "Arshdeep and Co help India defend 209 for 3-1 series win &nbsp;&nbsp; Cricinfo Bowlers guide India to ODI series win over New Zealand &nbsp;&nbsp; ICC Yash Thakur joins Sachin Tendulkar, MS Dhoni in unwanted list after ODI debut against Ne...",
       "image": "",
-      "source": "ESPN",
+      "source": "Cricinfo",
       "category": "sports",
       "categoryLabel": "Sports",
-      "publishedAt": "2026-11-15T12:34:05.000Z",
+      "publishedAt": "2026-11-15T12:19:25.000Z",
       "sources": [
         {
-          "name": "ESPN",
-          "link": "https://www.espn.com/college-football/story/_/id/50487515/arch-manning-leads-game-winning-drive-texas-stuns-lsu",
-          "summary": "Arch Manning found Raleek Brown for a 4-yard touchdown pass along the left sideline with 3 seconds left as Texas escaped Tiger Stadium with a victory over LSU",
-          "publishedAt": "2026-11-15T12:34:05.000Z"
+          "name": "Cricinfo",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVVBNU3RYTWw3LWd1MnhlSVpTbUxlMDAzMk9MSFZJQUMwQWpUZ1p4Q2xCendUX3RBTkFsZC0yMUowNl90VUx4NGtXRC1kdGczX19md2YtSzZzaGF4U09OWjRBYmVvYmdrQlB0WU9QWExNWjlwRDdaTEhJR3U5Z2VrUFpWXzBueVlLTnBvbEc2RHE1cTlfMW1kdG5BdW1ZMHFPZEdZYVBUTndGamJEN2N3NFpWd2hiZmNBclE?oc=5",
+          "summary": "Arshdeep and Co help India defend 209 for 3-1 series win &nbsp;&nbsp; Cricinfo Bowlers guide India to ODI series win over New Zealand &nbsp;&nbsp; ICC Yash Thakur joins Sachin Tendulkar, MS Dhoni in unwanted list after ODI debut against Ne...",
+          "publishedAt": "2026-11-15T12:19:25.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "sources-vikings-want-to-keep-cousins-talked-to-qb-about-staying-in-2027-sports-2026-11-15t12-34-05-0",
-      "title": "Sources: Vikings want to keep Cousins, talked to QB about staying in 2027",
-      "link": "https://www.espn.com/nfl/story/_/id/50484865/sources-vikings-want-keep-kirk-cousins-2027-season",
-      "summary": "The Vikings are interested in keeping Kirk Cousins as their QB next season, sources told NFL Network.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-15T12:34:05.000Z",
+      "id": "tearful-mcilroy-dedicates-record-equalling-win-to-ill-dad-general-2026-11-15t12-14-04-000z",
+      "title": "Tearful McIlroy dedicates record-equalling win to ill dad",
+      "link": "https://www.bbc.co.uk/sport/golf/articles/c6kg7rwmz1g8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Rory McIlroy wipes away tears as he dedicates his record-equalling eighth Race to Dubai title to his ill father, Gerry.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b499/live/ac2a73c0-e107-11f1-b3df-4961589d9b68.jpg",
+      "source": "BBC News",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T12:14:04.000Z",
       "sources": [
         {
-          "name": "ESPN",
-          "link": "https://www.espn.com/nfl/story/_/id/50484865/sources-vikings-want-keep-kirk-cousins-2027-season",
-          "summary": "The Vikings are interested in keeping Kirk Cousins as their QB next season, sources told NFL Network.",
-          "publishedAt": "2026-11-15T12:34:05.000Z"
+          "name": "BBC News",
+          "link": "https://www.bbc.co.uk/sport/golf/articles/c6kg7rwmz1g8o?at_medium=RSS&at_campaign=rss",
+          "summary": "Rory McIlroy wipes away tears as he dedicates his record-equalling eighth Race to Dubai title to his ill father, Gerry.",
+          "publishedAt": "2026-11-15T12:14:04.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "sources-raiders-planned-to-start-mendoza-soon-even-if-no-cousins-trade-sports-2026-11-15t12-34-05-00",
-      "title": "Sources: Raiders planned to start Mendoza soon even if no Cousins trade",
-      "link": "https://www.espn.com/nfl/story/_/id/50485164/sources-raiders-had-fernando-mendoza-plan-even-no-cousins-trade",
-      "summary": "The Raiders had a plan to start Fernando Mendoza in Week 12 against the Browns even if they had not traded Kirk Cousins, sources told NFL Network.",
+      "id": "kajal-aggarwal-reveals-she-and-gautam-kitchlu-broke-up-dated-other-people-before-marriage-entertainm",
+      "title": "Kajal Aggarwal Reveals She And Gautam Kitchlu Broke Up, Dated Other People Before Marriage",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQU9LSXNyTE9femRtWThUSDRnbnNWbXh0ZXh6MW1weGJtMTFLYW5SUEo0MnpSTklsb2RvVDdaNTg5T2F2dzJRVkV5MHl6djloOW9CU1RkeHhJdVNmcTNIbmptVEw0LUM3bllFVy1DZmZOUGhQQVF1aUpyOE5nS282UTJNeUJLWkxfQTJvNzN4Q3FNMUdTc2FwWkRpNEZfNkNKQlMySjNvTXRCazJWMUJRSG5jQUc0UHBzeko5ZFZFMTBFd01SclVkZtIB0AFBVV95cUxOV1d2VHFjVksxOVhEQWt3WDlqUWd1NG1fVUxuWW81RF9ienZEOV8zWWNwWFZZbW80UUU5TkdPa01wODh6RW5icGpwSktORGc1MVBIZEFxcFpuSDhyRDVKSGx6bHNoakRlbGE4RVJpcTlSZjBfaGZlSVBGZHNFSGJ1Yjh0Z0NXcXduaFpzWUh5a052Q0pFbjNHalp3T3Y1OVZIZDFjQW1ma0JEZ185WG9TbHhpRURkb0Q4ZTRlSUxocEM5OGhSWncwTEc2VlV0anNQ?oc=5",
+      "summary": "Kajal Aggarwal Reveals She And Gautam Kitchlu Broke Up, Dated Other People Before Marriage &nbsp;&nbsp; NDTV Kajal Aggarwal Reveals How She Reunited with Gautam Kitchlu Before Marriage &nbsp;&nbsp; Deccan Chronicle Kajal Accidentally Revea...",
       "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-15T12:34:05.000Z",
+      "source": "NDTV",
+      "category": "entertainment",
+      "categoryLabel": "Entertainment",
+      "publishedAt": "2026-11-15T11:50:03.000Z",
       "sources": [
         {
-          "name": "ESPN",
-          "link": "https://www.espn.com/nfl/story/_/id/50485164/sources-raiders-had-fernando-mendoza-plan-even-no-cousins-trade",
-          "summary": "The Raiders had a plan to start Fernando Mendoza in Week 12 against the Browns even if they had not traded Kirk Cousins, sources told NFL Network.",
-          "publishedAt": "2026-11-15T12:34:05.000Z"
+          "name": "NDTV",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQU9LSXNyTE9femRtWThUSDRnbnNWbXh0ZXh6MW1weGJtMTFLYW5SUEo0MnpSTklsb2RvVDdaNTg5T2F2dzJRVkV5MHl6djloOW9CU1RkeHhJdVNmcTNIbmptVEw0LUM3bllFVy1DZmZOUGhQQVF1aUpyOE5nS282UTJNeUJLWkxfQTJvNzN4Q3FNMUdTc2FwWkRpNEZfNkNKQlMySjNvTXRCazJWMUJRSG5jQUc0UHBzeko5ZFZFMTBFd01SclVkZtIB0AFBVV95cUxOV1d2VHFjVksxOVhEQWt3WDlqUWd1NG1fVUxuWW81RF9ienZEOV8zWWNwWFZZbW80UUU5TkdPa01wODh6RW5icGpwSktORGc1MVBIZEFxcFpuSDhyRDVKSGx6bHNoakRlbGE4RVJpcTlSZjBfaGZlSVBGZHNFSGJ1Yjh0Z0NXcXduaFpzWUh5a052Q0pFbjNHalp3T3Y1OVZIZDFjQW1ma0JEZ185WG9TbHhpRURkb0Q4ZTRlSUxocEM5OGhSWncwTEc2VlV0anNQ?oc=5",
+          "summary": "Kajal Aggarwal Reveals She And Gautam Kitchlu Broke Up, Dated Other People Before Marriage &nbsp;&nbsp; NDTV Kajal Aggarwal Reveals How She Reunited with Gautam Kitchlu Before Marriage &nbsp;&nbsp; Deccan Chronicle Kajal Accidentally Revea...",
+          "publishedAt": "2026-11-15T11:50:03.000Z"
         }
       ],
       "sourceCount": 1
     },
     {
-      "id": "mcilroy-wins-season-long-race-to-dubai-title-for-record-tying-8th-time-sports-2026-11-15t12-34-05-00",
-      "title": "McIlroy wins season-long Race to Dubai title for record-tying 8th time",
-      "link": "https://www.espn.com/golf/story/_/id/50489716/rory-mcilroy-wins-season-long-race-dubai-title",
-      "summary": "Rory McIlroy captured the seasonlong Race to Dubai golf title for a record-tying eighth time when he secured a top-two finish at the World Tour Championship.",
+      "id": "megaspeed-says-alice-huang-left-company-in-august-2025-business-2026-11-15t11-27-38-000z",
+      "title": "Megaspeed says Alice Huang left company in August 2025",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZFR1eVhIeWFQSUp4LWVBS1c5ek13N1lUc29QYjR2UnVYbE1lZFBsMnBONzRWLVUyNm5rVF9JZVBEakc2M1Rlak84OTVXeHEwalUyTTJ0d29rMWlqM052NU00V1M2WWxuclFHVlNQU1EyVkpsR2NMWDVhWEp1SVl6YkY0YWxrbE4tUDNmMjFsWVc4cXBJemc0cnlrVnBadm0tWEVaUXNnLV9ZcFFQQTUwQ21aemtFTHJBc2fSAcABQVVfeXFMTmFRSlIxa1BreWFLQWtLSW8tSWhqa2EzTXducTN0Qmk0S3ltaHEzSWdlWENrbWNndjl1a21FbGQ0dlJ4eTNMS1JtM21NdnJadjRUN1RqLXRMcVRsWDdEbEUzVldSV24zR05LY3pTbWR1V1NUemJ2YTUwcnI1a2wzdUlsYXZKd3pNeDNyTUhDVlZOaFdjWnZtVDQ2WEt2N0tMSkhLZHA2Y0RWUkhXS1BUbjI0UjhKRVpvU2thRmpKd1Yx?oc=5",
+      "summary": "Megaspeed says Alice Huang left company in August 2025 &nbsp;&nbsp; The Hindu Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says &nbsp;&nbsp; BBC Megaspeed says Alice Huang left the company in August 2025 &nbsp;&nb...",
       "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-15T12:34:05.000Z",
+      "source": "The Hindu",
+      "category": "business",
+      "categoryLabel": "Business",
+      "publishedAt": "2026-11-15T11:27:38.000Z",
       "sources": [
         {
-          "name": "ESPN",
-          "link": "https://www.espn.com/golf/story/_/id/50489716/rory-mcilroy-wins-season-long-race-dubai-title",
-          "summary": "Rory McIlroy captured the seasonlong Race to Dubai golf title for a record-tying eighth time when he secured a top-two finish at the World Tour Championship.",
-          "publishedAt": "2026-11-15T12:34:05.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "sources-chiefs-had-renowned-baseball-doctors-weigh-in-on-mahomes-elbow-sports-2026-11-15t12-34-05-00",
-      "title": "Sources: Chiefs had renowned baseball doctors weigh in on Mahomes' elbow",
-      "link": "https://www.espn.com/nfl/story/_/id/50481210/sources-baseball-doctors-consulted-patrick-mahomes-elbow",
-      "summary": "The Chiefs sought medical opinions from two renowned baseball doctors last week on Patrick Mahomes' injured elbow, sources told ESPN.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-15T12:34:05.000Z",
-      "sources": [
-        {
-          "name": "ESPN",
-          "link": "https://www.espn.com/nfl/story/_/id/50481210/sources-baseball-doctors-consulted-patrick-mahomes-elbow",
-          "summary": "The Chiefs sought medical opinions from two renowned baseball doctors last week on Patrick Mahomes' injured elbow, sources told ESPN.",
-          "publishedAt": "2026-11-15T12:34:05.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "harrison-spoils-nunes-return-submits-ex-champion-to-retain-ufc-crown-sports-2026-11-15t12-34-05-000z",
-      "title": "Harrison spoils Nunes' return, submits ex-champion to retain UFC crown",
-      "link": "https://www.espn.com/mma/story/_/id/50487730/kayla-harrison-submits-amanda-nunes-retain-title-ufc-334",
-      "summary": "Kayla Harrison scored the biggest victory of her career, submitting former champion Amanda Nunes by rear-naked choke in Round 4 to retain her title at UFC 334.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-15T12:34:05.000Z",
-      "sources": [
-        {
-          "name": "ESPN",
-          "link": "https://www.espn.com/mma/story/_/id/50487730/kayla-harrison-submits-amanda-nunes-retain-title-ufc-334",
-          "summary": "Kayla Harrison scored the biggest victory of her career, submitting former champion Amanda Nunes by rear-naked choke in Round 4 to retain her title at UFC 334.",
-          "publishedAt": "2026-11-15T12:34:05.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "louisville-s-win-over-unc-ends-in-brawl-as-belichick-helps-restore-order-on-field-sports-2026-11-15t",
-      "title": "Louisville's win over UNC ends in brawl as Belichick helps restore order on field",
-      "link": "https://www.espn.com/college-football/story/_/id/50486992/louisville-holds-unc-game-ends-brawl",
-      "summary": "Louisville's 16-14 win at North Carolina ended with punches thrown and players spilling onto the field, prompting Bill Belichick to help pull players from the melee.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-15T12:34:05.000Z",
-      "sources": [
-        {
-          "name": "ESPN",
-          "link": "https://www.espn.com/college-football/story/_/id/50486992/louisville-holds-unc-game-ends-brawl",
-          "summary": "Louisville's 16-14 win at North Carolina ended with punches thrown and players spilling onto the field, prompting Bill Belichick to help pull players from the melee.",
-          "publishedAt": "2026-11-15T12:34:05.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "no-2-utah-survives-stays-unbeaten-on-late-70-yard-td-in-thriller-vs-arizona-sports-2026-11-15t12-34",
-      "title": "No. 2 Utah survives, stays unbeaten on late 70-yard TD in thriller vs. Arizona",
-      "link": "https://www.espn.com/college-football/story/_/id/50488650/no-2-utah-survives-late-70-yard-td-thriller-vs-arizona",
-      "summary": "In a back-and-forth thriller, Utah rallied to remain undefeated after Devon Dampier hit Creed Whittemore on a 70-yard score late in a 40-39 win over Arizona.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-15T12:34:05.000Z",
-      "sources": [
-        {
-          "name": "ESPN",
-          "link": "https://www.espn.com/college-football/story/_/id/50488650/no-2-utah-survives-late-70-yard-td-thriller-vs-arizona",
-          "summary": "In a back-and-forth thriller, Utah rallied to remain undefeated after Devon Dampier hit Creed Whittemore on a 70-yard score late in a 40-39 win over Arizona.",
-          "publishedAt": "2026-11-15T12:34:05.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "wake-forest-s-post-blowout-jab-tops-cfb-week-11-trolls-sports-2026-11-15t12-34-05-000z",
-      "title": "😈 Wake Forest's post-blowout jab tops CFB Week 11 trolls",
-      "link": "https://www.espn.com/college-football/story/_/id/50481104/college-football-trolls-week-11",
-      "summary": "Wake Forest dominated SMU on the gridiron Saturday -- and added insult to injury after the game.",
-      "image": "",
-      "source": "ESPN",
-      "category": "sports",
-      "categoryLabel": "Sports",
-      "publishedAt": "2026-11-15T12:34:05.000Z",
-      "sources": [
-        {
-          "name": "ESPN",
-          "link": "https://www.espn.com/college-football/story/_/id/50481104/college-football-trolls-week-11",
-          "summary": "Wake Forest dominated SMU on the gridiron Saturday -- and added insult to injury after the game.",
-          "publishedAt": "2026-11-15T12:34:05.000Z"
+          "name": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZFR1eVhIeWFQSUp4LWVBS1c5ek13N1lUc29QYjR2UnVYbE1lZFBsMnBONzRWLVUyNm5rVF9JZVBEakc2M1Rlak84OTVXeHEwalUyTTJ0d29rMWlqM052NU00V1M2WWxuclFHVlNQU1EyVkpsR2NMWDVhWEp1SVl6YkY0YWxrbE4tUDNmMjFsWVc4cXBJemc0cnlrVnBadm0tWEVaUXNnLV9ZcFFQQTUwQ21aemtFTHJBc2fSAcABQVVfeXFMTmFRSlIxa1BreWFLQWtLSW8tSWhqa2EzTXducTN0Qmk0S3ltaHEzSWdlWENrbWNndjl1a21FbGQ0dlJ4eTNMS1JtM21NdnJadjRUN1RqLXRMcVRsWDdEbEUzVldSV24zR05LY3pTbWR1V1NUemJ2YTUwcnI1a2wzdUlsYXZKd3pNeDNyTUhDVlZOaFdjWnZtVDQ2WEt2N0tMSkhLZHA2Y0RWUkhXS1BUbjI0UjhKRVpvU2thRmpKd1Yx?oc=5",
+          "summary": "Megaspeed says Alice Huang left company in August 2025 &nbsp;&nbsp; The Hindu Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says &nbsp;&nbsp; BBC Megaspeed says Alice Huang left the company in August 2025 &nbsp;&nb...",
+          "publishedAt": "2026-11-15T11:27:38.000Z"
         }
       ],
       "sourceCount": 1
@@ -836,21 +1659,81 @@
       "sourceCount": 1
     },
     {
-      "id": "days-after-his-muslims-can-be-cm-pitch-did-asaduddin-owaisi-make-a-u-turn-politics-2026-11-15t10-45",
-      "title": "Days after his ‘Muslims can be CM’ pitch, did Asaduddin Owaisi make a U-turn?",
-      "link": "https://indianexpress.com/article/political-pulse/asaduddin-owaisi-picked-chandra-shekhar-aazad-cm-face-up-polls-10964087/",
-      "summary": "",
-      "image": "https://images.indianexpress.com/2026/11/Untitled-Design-32-1_20261113183253.jpg",
-      "source": "Indian Express Politics",
-      "category": "politics",
-      "categoryLabel": "Politics",
-      "publishedAt": "2026-11-15T10:45:24.000Z",
+      "id": "what-s-next-for-spacex-s-starship-after-epic-flight-15-chopsticks-catch-tech-2026-11-15t11-00-00-000",
+      "title": "What's next for SpaceX's Starship after epic Flight 15 chopsticks catch?",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeG54TUh4Wm5aVHNOSXVQYV85YUJuaHZ0V29nbWVDZ2JhVUs1a2R4aGhOZjZjS1hGX1JfSGtVcGtYczZDVTFhNEFIY2RRUHpsRWYxT3p6YmdGWlB4S0xIUGxGekdVaEZUd0NCZlFST0lwei1zbUNZa1VDSmZQOTZUQVhteFI0ODdoWXYxTWliNGYxRUZYamQwSkpEQzlta1F5eFVQZ2hVaUl1b0o0Y0NiVWFjcmpRUllQa0dqZmdjS2ltZ3NlM2dtSg?oc=5",
+      "summary": "What's next for SpaceX's Starship after epic Flight 15 chopsticks catch? &nbsp;&nbsp; Space SpaceX completes first-ever spaceship capture &nbsp;&nbsp; DW.com Google CEO Sundar Pichai congratulates Spacex; says: Still feels like science fic...",
+      "image": "",
+      "source": "Space",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T11:00:00.000Z",
       "sources": [
         {
-          "name": "Indian Express Politics",
-          "link": "https://indianexpress.com/article/political-pulse/asaduddin-owaisi-picked-chandra-shekhar-aazad-cm-face-up-polls-10964087/",
-          "summary": "",
-          "publishedAt": "2026-11-15T10:45:24.000Z"
+          "name": "Space",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeG54TUh4Wm5aVHNOSXVQYV85YUJuaHZ0V29nbWVDZ2JhVUs1a2R4aGhOZjZjS1hGX1JfSGtVcGtYczZDVTFhNEFIY2RRUHpsRWYxT3p6YmdGWlB4S0xIUGxGekdVaEZUd0NCZlFST0lwei1zbUNZa1VDSmZQOTZUQVhteFI0ODdoWXYxTWliNGYxRUZYamQwSkpEQzlta1F5eFVQZ2hVaUl1b0o0Y0NiVWFjcmpRUllQa0dqZmdjS2ltZ3NlM2dtSg?oc=5",
+          "summary": "What's next for SpaceX's Starship after epic Flight 15 chopsticks catch? &nbsp;&nbsp; Space SpaceX completes first-ever spaceship capture &nbsp;&nbsp; DW.com Google CEO Sundar Pichai congratulates Spacex; says: Still feels like science fic...",
+          "publishedAt": "2026-11-15T11:00:00.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "india-s-under-19-asia-cup-win-over-pakistan-marred-by-post-match-aggression-sports-2026-11-15t10-58",
+      "title": "India’s Under-19 Asia Cup win over Pakistan marred by post-match aggression",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNGl0V2d1LTB2c0tYWFFsbGZVVUlCc1pmeWI0ZjJzQVd0UXdVblNiSmhVNTJLZE95djFfaVROa2s1aXo3c1Q1eTZBeUNESXVMUG5Ba3o1aUd4WEFiS0pNYWJfMl9Id01FUy1ZQ3d6U3pfZy1MTEVWWW02UVdUNDdXMXMzSkdDVTZHWDJ1cENSVGNIM1czclA5M1l1cVhoTEc5cWozOGlPeVhLcU5sb2w4MzVmTlFnNGtiUHfSAb8BQVVfeXFMT3FRT00xU1I5TGRhNExaTy1MQ2pBbGJjRjZPbTRob0l4Q1RiclJVYlRxS2lmcjk3dlFpd19UcXVPZ0ZocTJ6emVNN0dhRml4YzNSYWJtWjhOUTM4Xy1qSllRZlM1clVmTTBFX1lqTHdPSUNkMWRfcFdqVlg3a2thWWZSY2hhcW9yeXpfUmxjV0ktaWt2eFFrWXo4TXJfSFRPTmt0SHdWYUQ2cmRSQ01YdW1pVGNFRDlka1NFX1JVb2M?oc=5",
+      "summary": "India’s Under-19 Asia Cup win over Pakistan marred by post-match aggression &nbsp;&nbsp; Al Jazeera India U19 clinch Asia Cup after heroic last-ball win over Pakistan &nbsp;&nbsp; BCCI Aaryavir Sehwag, Virender Sehwag’s son, takes first st...",
+      "image": "",
+      "source": "Al Jazeera",
+      "category": "sports",
+      "categoryLabel": "Sports",
+      "publishedAt": "2026-11-15T10:58:44.000Z",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNGl0V2d1LTB2c0tYWFFsbGZVVUlCc1pmeWI0ZjJzQVd0UXdVblNiSmhVNTJLZE95djFfaVROa2s1aXo3c1Q1eTZBeUNESXVMUG5Ba3o1aUd4WEFiS0pNYWJfMl9Id01FUy1ZQ3d6U3pfZy1MTEVWWW02UVdUNDdXMXMzSkdDVTZHWDJ1cENSVGNIM1czclA5M1l1cVhoTEc5cWozOGlPeVhLcU5sb2w4MzVmTlFnNGtiUHfSAb8BQVVfeXFMT3FRT00xU1I5TGRhNExaTy1MQ2pBbGJjRjZPbTRob0l4Q1RiclJVYlRxS2lmcjk3dlFpd19UcXVPZ0ZocTJ6emVNN0dhRml4YzNSYWJtWjhOUTM4Xy1qSllRZlM1clVmTTBFX1lqTHdPSUNkMWRfcFdqVlg3a2thWWZSY2hhcW9yeXpfUmxjV0ktaWt2eFFrWXo4TXJfSFRPTmt0SHdWYUQ2cmRSQ01YdW1pVGNFRDlka1NFX1JVb2M?oc=5",
+          "summary": "India’s Under-19 Asia Cup win over Pakistan marred by post-match aggression &nbsp;&nbsp; Al Jazeera India U19 clinch Asia Cup after heroic last-ball win over Pakistan &nbsp;&nbsp; BCCI Aaryavir Sehwag, Virender Sehwag’s son, takes first st...",
+          "publishedAt": "2026-11-15T10:58:44.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "parliament-winter-session-likely-in-1st-week-of-december-delimitation-bill-to-be-in-focus-general-20",
+      "title": "Parliament winter session likely in 1st week of December; delimitation bill to be in focus",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONURXVG5ZaVFZMEF0cGJVTHlNV1dOSUdreWxOS0dibV9TQlhoNWtONXpBV2hlbjhhaUdqZ1BTMl9Dem5zVWdIR3N0Nnl6ZUZCb1RmVmtJWGx0NnlHcDNINGZhR3hjS0RLNXZVSmdjd3diRGV1QkU2RFpGd0VFSGliQjBzSTIxTk5WdmxoMnZTMXNfdlhNOENoY2hVYTdKYmc0WkVyUFRhc3laM1hwUTRLZHB5eUdUckFkeUxYOHFCSVpYY3dGdmFJeExCSmJoNU5sTVNsSml4TXAyMmFXNWZCSXNHUVEyNjZDTHhoOTgxdXpJOVVlbGdv?oc=5",
+      "summary": "Parliament winter session likely in 1st week of December; delimitation bill to be in focus &nbsp;&nbsp; The Times of India Government eyes winter session in December, with women's quota bill a key priority &nbsp;&nbsp; Telegraph India Oppo...",
+      "image": "",
+      "source": "The Times of India",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T10:18:00.000Z",
+      "sources": [
+        {
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONURXVG5ZaVFZMEF0cGJVTHlNV1dOSUdreWxOS0dibV9TQlhoNWtONXpBV2hlbjhhaUdqZ1BTMl9Dem5zVWdIR3N0Nnl6ZUZCb1RmVmtJWGx0NnlHcDNINGZhR3hjS0RLNXZVSmdjd3diRGV1QkU2RFpGd0VFSGliQjBzSTIxTk5WdmxoMnZTMXNfdlhNOENoY2hVYTdKYmc0WkVyUFRhc3laM1hwUTRLZHB5eUdUckFkeUxYOHFCSVpYY3dGdmFJeExCSmJoNU5sTVNsSml4TXAyMmFXNWZCSXNHUVEyNjZDTHhoOTgxdXpJOVVlbGdv?oc=5",
+          "summary": "Parliament winter session likely in 1st week of December; delimitation bill to be in focus &nbsp;&nbsp; The Times of India Government eyes winter session in December, with women's quota bill a key priority &nbsp;&nbsp; Telegraph India Oppo...",
+          "publishedAt": "2026-11-15T10:18:00.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "galaxy-s27-dummies-xiaomi-18s-land-in-the-office-week-46-in-review-gsmarena-com-news-tech-2026-11-15",
+      "title": "Galaxy S27 dummies, Xiaomi 18s land in the office, Week 46 in review - GSMArena.com news",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWU40WW9EMExqbjVRRldYNFphQUNHWXpnMTNRbjhRRk1BZ09rNVNNX0FSc1Z3bzMzdW5yeWJrazJ1eHJNV205UFZsbnFPSl96MUVJd0R0RHlOZmRwb1VQM1hCdnNKSjgteFI3RHFVeTRvZDNpRGhoZFZGZjYxak9PY2xjM0xnaGJjS3ZkdHEyQ1lQZzd3aVZkMmVFTk9OdUVsYUZFZ3BWVDhKUdIBpgFBVV95cUxOMXcxaFZ1WFFXU0h2R0tsSV9ZeHhZaEhRTFRzQTBDUWE2bEZjbmtmRDRoUGNJMWNEM1FpbmlrOTg2ZTNGeXllV2duamlmT1VBQnlOVjhnWmgyOWxIWENoZG1fM0ZBcnZ4M2xadE14N3JLbmZHUDU1Mnk0VmhFcUxfSjB0WVdHbmlRb3lCUmZHOGVDME9aYlFYMVM3cnlZWVVuRzlTd1Zn?oc=5",
+      "summary": "Galaxy S27 dummies, Xiaomi 18s land in the office, Week 46 in review - GSMArena.com news &nbsp;&nbsp; GSMArena.com Exclusive: Galaxy S27, S27+, S27 Pro, S27 Ultra Camera Sensors Revealed &nbsp;&nbsp; SammyGuru Samsung Galaxy S27 series dum...",
+      "image": "",
+      "source": "GSMArena.com",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T10:01:02.000Z",
+      "sources": [
+        {
+          "name": "GSMArena.com",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWU40WW9EMExqbjVRRldYNFphQUNHWXpnMTNRbjhRRk1BZ09rNVNNX0FSc1Z3bzMzdW5yeWJrazJ1eHJNV205UFZsbnFPSl96MUVJd0R0RHlOZmRwb1VQM1hCdnNKSjgteFI3RHFVeTRvZDNpRGhoZFZGZjYxak9PY2xjM0xnaGJjS3ZkdHEyQ1lQZzd3aVZkMmVFTk9OdUVsYUZFZ3BWVDhKUdIBpgFBVV95cUxOMXcxaFZ1WFFXU0h2R0tsSV9ZeHhZaEhRTFRzQTBDUWE2bEZjbmtmRDRoUGNJMWNEM1FpbmlrOTg2ZTNGeXllV2duamlmT1VBQnlOVjhnWmgyOWxIWENoZG1fM0ZBcnZ4M2xadE14N3JLbmZHUDU1Mnk0VmhFcUxfSjB0WVdHbmlRb3lCUmZHOGVDME9aYlFYMVM3cnlZWVVuRzlTd1Zn?oc=5",
+          "summary": "Galaxy S27 dummies, Xiaomi 18s land in the office, Week 46 in review - GSMArena.com news &nbsp;&nbsp; GSMArena.com Exclusive: Galaxy S27, S27+, S27 Pro, S27 Ultra Camera Sensors Revealed &nbsp;&nbsp; SammyGuru Samsung Galaxy S27 series dum...",
+          "publishedAt": "2026-11-15T10:01:02.000Z"
         }
       ],
       "sourceCount": 1
@@ -876,6 +1759,26 @@
       "sourceCount": 1
     },
     {
+      "id": "you-brought-them-in-dumper-truck-j-k-bjp-mla-s-emotional-outburst-over-handling-of-slain-spos-bodies",
+      "title": "'You brought them in dumper truck': J&K BJP MLA's emotional outburst over handling of slain SPOs' bodies",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNc3ZpNlN3NFhJLUtsTXNXbTZlUzh4QXIzMFdMdDhmeWxUM0NxQTRHcExqc1FrUDI3OU85OGxPTkJ3clE2YzVLbl8zRXhNQXJhejZGZEN0ckhUR0taVHhzQUF3bGcybDdvVFQ2cXVtcF9fRWpacGRPekQ2VWhLb3IzTU0yeVRzWEI3a2Y2REJVQjRGLXhnSHJlN2Z4M1ZtQkRfNkM4SHhnRm42cWhvMFdwNFFDWmpVNDdTblBWd1dwY2QtSWw2YkZnZk5GV1ZsOVRvNjJHQkJ0UVJZZndKQVh3dUpCR0haRWZPWXlBTDRERWR1eWN2YzlOQWNB?oc=5",
+      "summary": "'You brought them in dumper truck': J&K BJP MLA's emotional outburst over handling of slain SPOs' bodies &nbsp;&nbsp; The Times of India Congress demands probe into two SPOs’ death in Kishtwar; BJP claims their remains were ‘dishonoured’ &...",
+      "image": "",
+      "source": "The Times of India",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T09:37:00.000Z",
+      "sources": [
+        {
+          "name": "The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNc3ZpNlN3NFhJLUtsTXNXbTZlUzh4QXIzMFdMdDhmeWxUM0NxQTRHcExqc1FrUDI3OU85OGxPTkJ3clE2YzVLbl8zRXhNQXJhejZGZEN0ckhUR0taVHhzQUF3bGcybDdvVFQ2cXVtcF9fRWpacGRPekQ2VWhLb3IzTU0yeVRzWEI3a2Y2REJVQjRGLXhnSHJlN2Z4M1ZtQkRfNkM4SHhnRm42cWhvMFdwNFFDWmpVNDdTblBWd1dwY2QtSWw2YkZnZk5GV1ZsOVRvNjJHQkJ0UVJZZndKQVh3dUpCR0haRWZPWXlBTDRERWR1eWN2YzlOQWNB?oc=5",
+          "summary": "'You brought them in dumper truck': J&K BJP MLA's emotional outburst over handling of slain SPOs' bodies &nbsp;&nbsp; The Times of India Congress demands probe into two SPOs’ death in Kishtwar; BJP claims their remains were ‘dishonoured’ &...",
+          "publishedAt": "2026-11-15T09:37:00.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
       "id": "fifth-canadian-soldier-dies-from-injuries-caused-by-large-fire-at-military-base-world-2026-11-15t09",
       "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
       "link": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
@@ -896,21 +1799,81 @@
       "sourceCount": 1
     },
     {
-      "id": "dead-fish-dirty-water-a-dip-why-delhi-s-chhath-politics-has-turned-bitter-politics-2026-11-15t08-21",
-      "title": "Dead fish, dirty water, a dip: Why Delhi’s Chhath politics has turned bitter",
-      "link": "https://indianexpress.com/article/political-pulse/delhi-chhath-puja-bjp-aap-10963911/",
-      "summary": "",
-      "image": "https://images.indianexpress.com/2026/11/Chhath-pooja.jpg",
-      "source": "Indian Express Politics",
-      "category": "politics",
-      "categoryLabel": "Politics",
-      "publishedAt": "2026-11-15T08:21:30.000Z",
+      "id": "oneplus-12-starts-receiving-coloros-17-update-based-on-android-17-in-india-what-s-new-tech-2026-11-1",
+      "title": "OnePlus 12 starts receiving ColorOS 17 update based on Android 17 in India: What's new",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYXdZWkRwSHJNQXRGSUgwQ2ZSVGJhMjYySzZ0YmlSTXJPQ20tSUtCM3ktSkc4MzNMZ1haU3BaRFVHUVVYX3B4U0dDWjNnaDMtRDZhbHFSNUh2WktXZHVOWGxLMVZXWTQzSUhVOXRJcC0zZkZveVl4Y0hpSlFsazlzcW9aQ0VhbHZTRWVsOWY5cy1RSW50ODhmRi13QVNGbnQ5SjMtME5KeE5feDdUSXBjeDBWRkwwTDVmUFBzeE8zVWpQMDlFX3VxU0tuNmZTYkxFSE54dUtQTXNUQ2hEWEJRetIB5gFBVV95cUxOZ3JjelZ0NkdCZG9HbXkyWVNGSDI4eWNtTDBkZGh6NkR2MFR1MnBYcnI5M3BnbGNUWGwtN3dRM2NkU3RlNlRJQ3luR0laRk94QW5jTDhseFlEdGJrS2F6VlpqNFp2QXpOZExtMk84ZlJ1VGNpQmVkYzh0UDBybzd1cWpBTWM5Ti1JaTRmN3JYYm4wQUpQUFhFUkxTRW45LVN6dnZQNmVfUTN2bG5UR0daUUdNX29jeWxyR0YwdkMtNlo2QXNoQjBqeHQyT0xqTEk3a3VCV3lmWEhmUklfZG5Ic1IyTFVmdw?oc=5",
+      "summary": "OnePlus 12 starts receiving ColorOS 17 update based on Android 17 in India: What's new &nbsp;&nbsp; Moneycontrol.com Finally, some good news for the owners of at least one older OnePlus phone &nbsp;&nbsp; PhoneArena OnePlus 12 is now recei...",
+      "image": "",
+      "source": "Moneycontrol.com",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T09:07:28.000Z",
       "sources": [
         {
-          "name": "Indian Express Politics",
-          "link": "https://indianexpress.com/article/political-pulse/delhi-chhath-puja-bjp-aap-10963911/",
-          "summary": "",
-          "publishedAt": "2026-11-15T08:21:30.000Z"
+          "name": "Moneycontrol.com",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYXdZWkRwSHJNQXRGSUgwQ2ZSVGJhMjYySzZ0YmlSTXJPQ20tSUtCM3ktSkc4MzNMZ1haU3BaRFVHUVVYX3B4U0dDWjNnaDMtRDZhbHFSNUh2WktXZHVOWGxLMVZXWTQzSUhVOXRJcC0zZkZveVl4Y0hpSlFsazlzcW9aQ0VhbHZTRWVsOWY5cy1RSW50ODhmRi13QVNGbnQ5SjMtME5KeE5feDdUSXBjeDBWRkwwTDVmUFBzeE8zVWpQMDlFX3VxU0tuNmZTYkxFSE54dUtQTXNUQ2hEWEJRetIB5gFBVV95cUxOZ3JjelZ0NkdCZG9HbXkyWVNGSDI4eWNtTDBkZGh6NkR2MFR1MnBYcnI5M3BnbGNUWGwtN3dRM2NkU3RlNlRJQ3luR0laRk94QW5jTDhseFlEdGJrS2F6VlpqNFp2QXpOZExtMk84ZlJ1VGNpQmVkYzh0UDBybzd1cWpBTWM5Ti1JaTRmN3JYYm4wQUpQUFhFUkxTRW45LVN6dnZQNmVfUTN2bG5UR0daUUdNX29jeWxyR0YwdkMtNlo2QXNoQjBqeHQyT0xqTEk3a3VCV3lmWEhmUklfZG5Ic1IyTFVmdw?oc=5",
+          "summary": "OnePlus 12 starts receiving ColorOS 17 update based on Android 17 in India: What's new &nbsp;&nbsp; Moneycontrol.com Finally, some good news for the owners of at least one older OnePlus phone &nbsp;&nbsp; PhoneArena OnePlus 12 is now recei...",
+          "publishedAt": "2026-11-15T09:07:28.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "the-sky-today-on-sunday-november-15-mars-and-jupiter-in-conjunction-tech-2026-11-15t09-00-29-000z",
+      "title": "The Sky Today on Sunday, November 15: Mars and Jupiter in conjunction",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tb0V2VGY4MFJ4RW1UQjU1cFN5LUNBUEZmUUxSU0k3bXEyU1ZnWlRENGZxQUgtU1R2c29jQzFuRWU3WDJKV05NT3RTY0N5QURnTUxfZ2dqRm1zZTk3ZHIydGw0WXhzTW0wSjgxWkZTZGNncENaTTFGUEJSeTdUVkk?oc=5",
+      "summary": "The Sky Today on Sunday, November 15: Mars and Jupiter in conjunction &nbsp;&nbsp; Astronomy.com See Jupiter and Mars make a spectacular close approach overnight Nov. 15-16 &nbsp;&nbsp; Space Meteor Showers and Bright Planets Illuminate Or...",
+      "image": "",
+      "source": "Astronomy.com",
+      "category": "tech",
+      "categoryLabel": "Tech & Science",
+      "publishedAt": "2026-11-15T09:00:29.000Z",
+      "sources": [
+        {
+          "name": "Astronomy.com",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tb0V2VGY4MFJ4RW1UQjU1cFN5LUNBUEZmUUxSU0k3bXEyU1ZnWlRENGZxQUgtU1R2c29jQzFuRWU3WDJKV05NT3RTY0N5QURnTUxfZ2dqRm1zZTk3ZHIydGw0WXhzTW0wSjgxWkZTZGNncENaTTFGUEJSeTdUVkk?oc=5",
+          "summary": "The Sky Today on Sunday, November 15: Mars and Jupiter in conjunction &nbsp;&nbsp; Astronomy.com See Jupiter and Mars make a spectacular close approach overnight Nov. 15-16 &nbsp;&nbsp; Space Meteor Showers and Bright Planets Illuminate Or...",
+          "publishedAt": "2026-11-15T09:00:29.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "everyone-knew-sayers-counters-cummins-stance-on-sandpaper-use-sports-2026-11-15t08-40-18-000z",
+      "title": "‘Everyone knew’: Sayers counters Cummins' stance on sandpaper use",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSnNMbzBiWlR2NXR4V1RKRjZKR2dlWnlJT3VrRE00SkF4M3hDYTFqUDkyVHhfRTQ4RmIxbzloQmptaFhHbHpxNWxWVHM0VjB5UW0xRFZwdzJkd2Q2Z1RYSXEyMzFlMThNVTlQNXkwMlplSW02QThtdUpnN2lHZU1TV1lNZ0xwUnN5QUhBckV0aGYtNTZtODR6Y1lLd21aZGM1cUUxbFFjd1pXdw?oc=5",
+      "summary": "‘Everyone knew’: Sayers counters Cummins' stance on sandpaper use &nbsp;&nbsp; Cricbuzz Usman Khawaja claims fall on deaf ears in South Africa &nbsp;&nbsp; Cricbuzz Sayers backs Khawaja's claims on sandpaper, goes against Cummins &nbsp;&nb...",
+      "image": "",
+      "source": "Cricbuzz",
+      "category": "sports",
+      "categoryLabel": "Sports",
+      "publishedAt": "2026-11-15T08:40:18.000Z",
+      "sources": [
+        {
+          "name": "Cricbuzz",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSnNMbzBiWlR2NXR4V1RKRjZKR2dlWnlJT3VrRE00SkF4M3hDYTFqUDkyVHhfRTQ4RmIxbzloQmptaFhHbHpxNWxWVHM0VjB5UW0xRFZwdzJkd2Q2Z1RYSXEyMzFlMThNVTlQNXkwMlplSW02QThtdUpnN2lHZU1TV1lNZ0xwUnN5QUhBckV0aGYtNTZtODR6Y1lLd21aZGM1cUUxbFFjd1pXdw?oc=5",
+          "summary": "‘Everyone knew’: Sayers counters Cummins' stance on sandpaper use &nbsp;&nbsp; Cricbuzz Usman Khawaja claims fall on deaf ears in South Africa &nbsp;&nbsp; Cricbuzz Sayers backs Khawaja's claims on sandpaper, goes against Cummins &nbsp;&nb...",
+          "publishedAt": "2026-11-15T08:40:18.000Z"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "cyclonic-storm-over-bay-of-bengal-to-bring-heavy-rain-to-bengal-from-november-19-general-2026-11-15t",
+      "title": "Cyclonic storm over Bay of Bengal to bring heavy rain to Bengal from November 19",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUTZhMWs1Nkl5bnZ0ZVlTdkxaSlN0RE02N3hnczRwSG5YT0pxXzVQVHkzYkhpcE1kVkxiYXpaWVZuR2diclJLcEJhSldxMldQSzEtcVV0ckdOZmI4RDYxRDF1ZVN2LVlMTFlORjJ5ZTBVdVR3ajVoUEdvYjVPS0pGU09JYXlRSl9BSE53N3NhdTByY1J6dWo1aGxRLTEwaWpYdGV0RDZJV2l1aDNvQllQNVl2QzV1Z0dlQWZKYWc1RjJIb3dBeEtlOGdsSmlMWFlj0gHWAUFVX3lxTFBlSlBxUFp2LVY1RHowYXZ1aFU2eVBaN2k5YXFzX1d6b0ZBRkZ6ZkJDQkFXTzhsQnVMc0ROWEF4b3gxOEpJTG5fdU5VWTV2QzJ3dGR2bmdXeTByeW9pLXI2V2xMU2lqSDFTRGNldExUbmstYUw4dFdxSmxrMTViNWx0NEpTZDJIa2ZMcDlmNjhaVkdmMjB4UzhBb3ZJWkRLNzFIQlZwdGp3clpBdjRYaHpvUVZJWXp3Z3ZHbGIzRlYyNER1VUlYUFdMcTR6dnpOaTZJUEhoSWc?oc=5",
+      "summary": "Cyclonic storm over Bay of Bengal to bring heavy rain to Bengal from November 19 &nbsp;&nbsp; Telegraph India Depression over Bay of Bengal likely to intensify into severe cyclonic storm tomorrow, says IMD &nbsp;&nbsp; News On AIR Farmers,...",
+      "image": "",
+      "source": "Telegraph India",
+      "category": "general",
+      "categoryLabel": "General",
+      "publishedAt": "2026-11-15T08:18:07.000Z",
+      "sources": [
+        {
+          "name": "Telegraph India",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUTZhMWs1Nkl5bnZ0ZVlTdkxaSlN0RE02N3hnczRwSG5YT0pxXzVQVHkzYkhpcE1kVkxiYXpaWVZuR2diclJLcEJhSldxMldQSzEtcVV0ckdOZmI4RDYxRDF1ZVN2LVlMTFlORjJ5ZTBVdVR3ajVoUEdvYjVPS0pGU09JYXlRSl9BSE53N3NhdTByY1J6dWo1aGxRLTEwaWpYdGV0RDZJV2l1aDNvQllQNVl2QzV1Z0dlQWZKYWc1RjJIb3dBeEtlOGdsSmlMWFlj0gHWAUFVX3lxTFBlSlBxUFp2LVY1RHowYXZ1aFU2eVBaN2k5YXFzX1d6b0ZBRkZ6ZkJDQkFXTzhsQnVMc0ROWEF4b3gxOEpJTG5fdU5VWTV2QzJ3dGR2bmdXeTByeW9pLXI2V2xMU2lqSDFTRGNldExUbmstYUw4dFdxSmxrMTViNWx0NEpTZDJIa2ZMcDlmNjhaVkdmMjB4UzhBb3ZJWkRLNzFIQlZwdGp3clpBdjRYaHpvUVZJWXp3Z3ZHbGIzRlYyNER1VUlYUFdMcTR6dnpOaTZJUEhoSWc?oc=5",
+          "summary": "Cyclonic storm over Bay of Bengal to bring heavy rain to Bengal from November 19 &nbsp;&nbsp; Telegraph India Depression over Bay of Bengal likely to intensify into severe cyclonic storm tomorrow, says IMD &nbsp;&nbsp; News On AIR Farmers,...",
+          "publishedAt": "2026-11-15T08:18:07.000Z"
         }
       ],
       "sourceCount": 1
@@ -936,306 +1899,6 @@
       "sourceCount": 1
     },
     {
-      "id": "copper-wire-upgrade-behind-us-flight-suspension-transport-secretary-says-world-2026-11-15t07-10-31-0",
-      "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
-      "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
-      "summary": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3177/live/2aeb3c20-e0c3-11f1-b441-2b33b063138f.jpg",
-      "source": "BBC World",
-      "category": "world",
-      "categoryLabel": "World",
-      "publishedAt": "2026-11-15T07:10:31.000Z",
-      "sources": [
-        {
-          "name": "BBC World",
-          "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
-          "summary": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
-          "publishedAt": "2026-11-15T07:10:31.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "ex-met-police-inspector-lied-about-wife-s-death-in-barbados-hotel-room-bbc-learns-general-2026-11-15",
-      "title": "Ex-Met Police inspector lied about wife's death in Barbados hotel room, BBC learns",
-      "link": "https://www.bbc.co.uk/news/articles/c6jd7k7g57x5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Warren Arter faced claims of sexually exploiting crime victims - his wife was found in a blood-stained room.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de9b/live/b551c6d0-e010-11f1-a701-fddedf244c16.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-15T06:01:46.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/c6jd7k7g57x5o?at_medium=RSS&at_campaign=rss",
-          "summary": "Warren Arter faced claims of sexually exploiting crime victims - his wife was found in a blood-stained room.",
-          "publishedAt": "2026-11-15T06:01:46.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "judge-temporarily-blocks-trump-from-closing-washington-dc-golf-course-for-renovation-world-2026-11-1",
-      "title": "Judge temporarily blocks Trump from closing Washington DC golf course for renovation",
-      "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
-      "summary": "It is the latest development in a months-long challenge to the US president's plans for East Potomac Golf Links.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4be0/live/054b94d0-e09e-11f1-a701-fddedf244c16.jpg",
-      "source": "BBC World",
-      "category": "world",
-      "categoryLabel": "World",
-      "publishedAt": "2026-11-15T03:21:04.000Z",
-      "sources": [
-        {
-          "name": "BBC World",
-          "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
-          "summary": "It is the latest development in a months-long challenge to the US president's plans for East Potomac Golf Links.",
-          "publishedAt": "2026-11-15T03:21:04.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "gujarat-for-industry-andhra-for-rural-jobs-the-states-shaping-bjp-s-bengal-blueprint-politics-2026-1",
-      "title": "Gujarat for industry, Andhra for rural jobs: The states shaping BJP’s Bengal blueprint",
-      "link": "https://indianexpress.com/article/political-pulse/suvendu-adhikari-bengal-bjp-blueprint-gujarat-andhra-uttar-pradesh-haryana-10963431/",
-      "summary": "",
-      "image": "https://images.indianexpress.com/2026/11/suvendu-adhikari.jpg",
-      "source": "Indian Express Politics",
-      "category": "politics",
-      "categoryLabel": "Politics",
-      "publishedAt": "2026-11-15T01:20:24.000Z",
-      "sources": [
-        {
-          "name": "Indian Express Politics",
-          "link": "https://indianexpress.com/article/political-pulse/suvendu-adhikari-bengal-bjp-blueprint-gujarat-andhra-uttar-pradesh-haryana-10963431/",
-          "summary": "",
-          "publishedAt": "2026-11-15T01:20:24.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "hannah-fry-feels-unbelievably-lucky-after-cervical-cancer-treatment-general-2026-11-15t00-09-29-000z",
-      "title": "Hannah Fry feels 'unbelievably lucky' after cervical cancer treatment",
-      "link": "https://www.bbc.co.uk/news/articles/cw62p4n3n1xyo?at_medium=RSS&at_campaign=rss",
-      "summary": "The presenter says she has received a 'five-year clear' after having a hysterectomy in her thirties.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36ca/live/a5a42090-e06d-11f1-99e6-531f8829f5a3.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-15T00:09:29.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/cw62p4n3n1xyo?at_medium=RSS&at_campaign=rss",
-          "summary": "The presenter says she has received a 'five-year clear' after having a hysterectomy in her thirties.",
-          "publishedAt": "2026-11-15T00:09:29.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "holly-humberstone-people-can-t-connect-to-a-pop-star-who-s-too-polished-general-2026-11-15t00-07-29",
-      "title": "Holly Humberstone: People can't connect to a pop star who's 'too polished'",
-      "link": "https://www.bbc.co.uk/news/articles/cw77p7yj42k5o?at_medium=RSS&at_campaign=rss",
-      "summary": "The singer felt forced to compete with her female peers, until she realised the power of longevity.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c05e/live/272ae280-e0f4-11f1-b441-2b33b063138f.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-15T00:07:29.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/cw77p7yj42k5o?at_medium=RSS&at_campaign=rss",
-          "summary": "The singer felt forced to compete with her female peers, until she realised the power of longevity.",
-          "publishedAt": "2026-11-15T00:07:29.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "judo-champion-shakes-up-french-presidential-race-with-surprise-candidacy-general-2026-11-15t00-06-51",
-      "title": "Judo champion shakes up French presidential race with surprise candidacy",
-      "link": "https://www.bbc.co.uk/news/articles/c6dj1e8wyykmo?at_medium=RSS&at_campaign=rss",
-      "summary": "Teddy Riner is one of the most popular figures in modern-day France, and one in five voters say they could support him.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/829e/live/1bf783c0-e0e3-11f1-a701-fddedf244c16.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-15T00:06:51.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/c6dj1e8wyykmo?at_medium=RSS&at_campaign=rss",
-          "summary": "Teddy Riner is one of the most popular figures in modern-day France, and one in five voters say they could support him.",
-          "publishedAt": "2026-11-15T00:06:51.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "beauty-advent-calendars-can-cost-hundreds-but-are-they-value-for-money-general-2026-11-15t00-01-07-0",
-      "title": "Beauty advent calendars can cost hundreds but are they value for money?",
-      "link": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
-      "summary": "Beauty calendars have become a Christmas staple and have become particularly popular with female shoppers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f97/live/c7be2950-e0ef-11f1-b441-2b33b063138f.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-15T00:01:07.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
-          "summary": "Beauty calendars have become a Christmas staple and have become particularly popular with female shoppers.",
-          "publishedAt": "2026-11-15T00:01:07.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "us-has-floated-ukraine-ceding-donbas-for-nato-membership-zelensky-says-world-2026-11-14t22-37-25-000",
-      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-      "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US has not confirmed the Ukrainian president's comments - a US official told the BBC \"many ideas continue to be discussed\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc82/live/f8afbeb0-e087-11f1-b780-31cc9daf154a.jpg",
-      "source": "BBC World",
-      "category": "world",
-      "categoryLabel": "World",
-      "publishedAt": "2026-11-14T22:37:25.000Z",
-      "sources": [
-        {
-          "name": "BBC World",
-          "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-          "summary": "The US has not confirmed the Ukrainian president's comments - a US official told the BBC \"many ideas continue to be discussed\".",
-          "publishedAt": "2026-11-14T22:37:25.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "watch-spacex-catches-part-of-its-starship-rocket-on-return-to-earth-general-2026-11-14t22-09-40-000z",
-      "title": "Watch: SpaceX catches part of its Starship rocket on return to Earth",
-      "link": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
-      "summary": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aeb5/live/e1baf430-e074-11f1-a701-fddedf244c16.jpg",
-      "source": "BBC News",
-      "category": "general",
-      "categoryLabel": "General",
-      "publishedAt": "2026-11-14T22:09:40.000Z",
-      "sources": [
-        {
-          "name": "BBC News",
-          "link": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
-          "summary": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
-          "publishedAt": "2026-11-14T22:09:40.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "watch-spacex-successfully-execute-the-first-chopstick-catch-of-starship-tech-2026-11-14t21-44-44-000",
-      "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
-      "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
-      "summary": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch and catch tower for the first time. The company has performed 'chopstick' catches of its boosters before, bu...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-14T21:44:44.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
-          "summary": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch and catch tower for the first time. The company has performed 'chopstick' catches of its boosters before, bu...",
-          "publishedAt": "2026-11-14T21:44:44.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "magic-the-gathering-is-getting-a-netflix-animated-series-for-real-this-time-tech-2026-11-14t19-47-40",
-      "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
-      "link": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
-      "summary": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix in 2027. An animate...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/IefaLy5uPLc-HD.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-14T19:47:40.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
-          "summary": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix in 2027. An animate...",
-          "publishedAt": "2026-11-14T19:47:40.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "work-to-replace-old-copper-wire-led-to-the-faa-s-ground-stop-tech-2026-11-14t17-44-28-000z",
-      "title": "Work to replace old copper wire led to the FAA’s ground stop",
-      "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
-      "summary": "At a press conference today, Transportation Secretary Sean Duffy said that Friday's nationwide ground stop ordered by the FAA was related to work replacing outdated copper wire with a fiber optic line at a \"remote FAA facility.\" The secret...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-14T17:44:28.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
-          "summary": "At a press conference today, Transportation Secretary Sean Duffy said that Friday's nationwide ground stop ordered by the FAA was related to work replacing outdated copper wire with a fiber optic line at a \"remote FAA facility.\" The secret...",
-          "publishedAt": "2026-11-14T17:44:28.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "here-are-our-favorite-deals-from-rei-s-giant-holiday-sale-tech-2026-11-14t15-00-00-000z",
-      "title": "Here are our favorite deals from REI’s giant Holiday Sale",
-      "link": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
-      "summary": "Black Friday has become a shopping season of its own, with retailers once again offering discounts well ahead of the actual shopping holiday. We’ve already rounded up some of the best early Black Friday deals we’ve come across, but if you’...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/fenix8Pro3.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-14T15:00:00.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
-          "summary": "Black Friday has become a shopping season of its own, with retailers once again offering discounts well ahead of the actual shopping holiday. We’ve already rounded up some of the best early Black Friday deals we’ve come across, but if you’...",
-          "publishedAt": "2026-11-14T15:00:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "the-openai-board-member-who-fired-sam-altman-says-we-still-can-t-trust-ai-ceos-tech-2026-11-14t15-00",
-      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
-      "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safe...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD-Helen-Toner.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-14T15:00:00.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-          "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safe...",
-          "publishedAt": "2026-11-14T15:00:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "the-openai-board-member-who-fired-sam-altman-says-we-still-can-t-trust-ai-ceos-ai-2026-11-14t15-00-0",
       "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
       "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
@@ -1256,86 +1919,6 @@
       "sourceCount": 1
     },
     {
-      "id": "why-congress-replaced-meenakshi-natarajan-appointed-new-telangana-in-charge-politics-2026-11-14t14-5",
-      "title": "Why Congress replaced Meenakshi Natarajan, appointed new Telangana in-charge",
-      "link": "https://indianexpress.com/article/political-pulse/bm-sandeep-appointed-aicc-in-charge-congress-telangana-10963312/",
-      "summary": "",
-      "image": "https://images.indianexpress.com/2026/11/BM-Sandeep.jpg",
-      "source": "Indian Express Politics",
-      "category": "politics",
-      "categoryLabel": "Politics",
-      "publishedAt": "2026-11-14T14:53:22.000Z",
-      "sources": [
-        {
-          "name": "Indian Express Politics",
-          "link": "https://indianexpress.com/article/political-pulse/bm-sandeep-appointed-aicc-in-charge-congress-telangana-10963312/",
-          "summary": "",
-          "publishedAt": "2026-11-14T14:53:22.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "tesla-is-inviting-some-people-to-buy-a-cybercab-for-personal-use-but-read-the-fine-print-tech-2026-1",
-      "title": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
-      "link": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
-      "summary": "Tesla is doubling, or perhaps tripling down on its bold claims of an autonomous future with the offer to \"select customers\" to purchase a Cybercab for \"personal use.\" But the gilded, steering-wheel-free two-seater will \"only be available i...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25670862/Robotaxi_89.png?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-14T14:18:36.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
-          "summary": "Tesla is doubling, or perhaps tripling down on its bold claims of an autonomous future with the offer to \"select customers\" to purchase a Cybercab for \"personal use.\" But the gilded, steering-wheel-free two-seater will \"only be available i...",
-          "publishedAt": "2026-11-14T14:18:36.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "this-tiny-gamepad-with-dual-analog-thumbsticks-pushes-the-limits-of-portable-controllers-tech-2026-1",
-      "title": "This tiny gamepad with dual analog thumbsticks pushes the limits of portable controllers",
-      "link": "https://www.theverge.com/tech/1013985/crkd-atom-plus-tmr-analog-thumbstick-controller-gamepad-switch-ios-android-hands-on",
-      "summary": "As much as I appreciate the ingenious design of the Nintendo Switch's Joy-Con, my family and I can't stand using them as standalone gamepads. So when we travel with the Switch 2, we always bring at least one full-size gamepad, plus a coupl...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/crkd1_d836b8.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "category": "tech",
-      "categoryLabel": "Tech & Science",
-      "publishedAt": "2026-11-14T14:00:00.000Z",
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/tech/1013985/crkd-atom-plus-tmr-analog-thumbstick-controller-gamepad-switch-ios-android-hands-on",
-          "summary": "As much as I appreciate the ingenious design of the Nintendo Switch's Joy-Con, my family and I can't stand using them as standalone gamepads. So when we travel with the Switch 2, we always bring at least one full-size gamepad, plus a coupl...",
-          "publishedAt": "2026-11-14T14:00:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "punjab-da-crorepati-bhagwant-mann-launches-kbc-style-quiz-to-connect-with-youth-politics-2026-11-14t",
-      "title": "Punjab da Crorepati: Bhagwant Mann launches KBC-style quiz to connect with youth",
-      "link": "https://indianexpress.com/article/political-pulse/punjab-da-crorepati-bhagwant-mann-rs-1-crore-quiz-youth-outreach-2027-elections-10963164/",
-      "summary": "",
-      "image": "https://images.indianexpress.com/2026/08/bhagwant-mann.jpg",
-      "source": "Indian Express Politics",
-      "category": "politics",
-      "categoryLabel": "Politics",
-      "publishedAt": "2026-11-14T12:47:09.000Z",
-      "sources": [
-        {
-          "name": "Indian Express Politics",
-          "link": "https://indianexpress.com/article/political-pulse/punjab-da-crorepati-bhagwant-mann-rs-1-crore-quiz-youth-outreach-2027-elections-10963164/",
-          "summary": "",
-          "publishedAt": "2026-11-14T12:47:09.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
       "id": "jensen-huang-and-the-decline-of-the-visionary-showman-founder-ceo-ai-2026-11-14t12-00-00-000z",
       "title": "Jensen Huang and the decline of the visionary showman founder CEO",
       "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
@@ -1351,86 +1934,6 @@
           "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
           "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their face...",
           "publishedAt": "2026-11-14T12:00:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "babri-bofors-to-anti-sikh-riots-how-sonia-s-memoir-navigates-congress-s-uncomfortable-past-politics",
-      "title": "Babri, Bofors to anti-Sikh riots: How Sonia’s memoir navigates Congress’s uncomfortable past",
-      "link": "https://indianexpress.com/article/political-pulse/sonia-gandhi-memoir-belonging-emergency-1984-riots-babri-bofors-review-10962735/",
-      "summary": "",
-      "image": "https://images.indianexpress.com/2026/11/sonia-gandhi-1600_20261111184422.jpg",
-      "source": "Indian Express Politics",
-      "category": "politics",
-      "categoryLabel": "Politics",
-      "publishedAt": "2026-11-14T06:11:25.000Z",
-      "sources": [
-        {
-          "name": "Indian Express Politics",
-          "link": "https://indianexpress.com/article/political-pulse/sonia-gandhi-memoir-belonging-emergency-1984-riots-babri-bofors-review-10962735/",
-          "summary": "",
-          "publishedAt": "2026-11-14T06:11:25.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "badlav-to-selling-continuity-how-aap-is-fighting-two-elections-in-punjab-politics-2026-11-14t01-30-1",
-      "title": "‘Badlav’ to selling continuity: How AAP is fighting two elections in Punjab",
-      "link": "https://indianexpress.com/article/political-pulse/aap-pitch-punjab-assembly-elections-bhagwant-singh-mann-arvind-kejriwal-10962323/",
-      "summary": "",
-      "image": "https://images.indianexpress.com/2026/11/GS-6-HOARDING2-1.jpg",
-      "source": "Indian Express Politics",
-      "category": "politics",
-      "categoryLabel": "Politics",
-      "publishedAt": "2026-11-14T01:30:17.000Z",
-      "sources": [
-        {
-          "name": "Indian Express Politics",
-          "link": "https://indianexpress.com/article/political-pulse/aap-pitch-punjab-assembly-elections-bhagwant-singh-mann-arvind-kejriwal-10962323/",
-          "summary": "",
-          "publishedAt": "2026-11-14T01:30:17.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "chandra-shekhar-aazad-akhilesh-must-prove-popularity-by-contesting-against-yogi-politics-2026-11-14t",
-      "title": "Chandra Shekhar Aazad: ‘Akhilesh must prove popularity by contesting against Yogi’",
-      "link": "https://indianexpress.com/article/political-pulse/chandra-shekhar-aazad-interview-uttar-pradesh-assembly-elections-asaduddin-owaisi-yogi-adityanath-akhilesh-yadav-10962324/",
-      "summary": "",
-      "image": "https://images.indianexpress.com/2026/11/524615535_1299948754817632_2951425040125298629_n-e1758711367227.jpg",
-      "source": "Indian Express Politics",
-      "category": "politics",
-      "categoryLabel": "Politics",
-      "publishedAt": "2026-11-14T01:10:47.000Z",
-      "sources": [
-        {
-          "name": "Indian Express Politics",
-          "link": "https://indianexpress.com/article/political-pulse/chandra-shekhar-aazad-interview-uttar-pradesh-assembly-elections-asaduddin-owaisi-yogi-adityanath-akhilesh-yadav-10962324/",
-          "summary": "",
-          "publishedAt": "2026-11-14T01:10:47.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "senior-rajasthan-bjp-leader-recites-kalma-in-churu-sparks-row-politics-2026-11-14t00-53-49-000z",
-      "title": "Senior Rajasthan BJP leader recites Kalma in Churu, sparks row",
-      "link": "https://indianexpress.com/article/political-pulse/rajasthan-bjp-veteran-rajendra-rathore-poll-rally-kalma-10962341/",
-      "summary": "",
-      "image": "https://images.indianexpress.com/2026/11/Rajendra-Rathore.jpeg",
-      "source": "Indian Express Politics",
-      "category": "politics",
-      "categoryLabel": "Politics",
-      "publishedAt": "2026-11-14T00:53:49.000Z",
-      "sources": [
-        {
-          "name": "Indian Express Politics",
-          "link": "https://indianexpress.com/article/political-pulse/rajasthan-bjp-veteran-rajendra-rathore-poll-rally-kalma-10962341/",
-          "summary": "",
-          "publishedAt": "2026-11-14T00:53:49.000Z"
         }
       ],
       "sourceCount": 1
@@ -1517,26 +2020,6 @@
           "link": "https://huggingface.co/blog/allenai/xybench",
           "summary": "",
           "publishedAt": "2026-11-13T17:02:35.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "why-missing-1-27-crore-hindu-voters-in-uttar-pradesh-has-unnerved-bjp-politics-2026-11-13t15-04-50-0",
-      "title": "Why ‘missing 1.27 crore Hindu voters’ in Uttar Pradesh has unnerved BJP",
-      "link": "https://indianexpress.com/article/political-pulse/up-bjp-deleted-hindu-voters-restoration-target-10962050/",
-      "summary": "",
-      "image": "https://images.indianexpress.com/2026/11/up-bjp.jpg",
-      "source": "Indian Express Politics",
-      "category": "politics",
-      "categoryLabel": "Politics",
-      "publishedAt": "2026-11-13T15:04:50.000Z",
-      "sources": [
-        {
-          "name": "Indian Express Politics",
-          "link": "https://indianexpress.com/article/political-pulse/up-bjp-deleted-hindu-voters-restoration-target-10962050/",
-          "summary": "",
-          "publishedAt": "2026-11-13T15:04:50.000Z"
         }
       ],
       "sourceCount": 1
@@ -1677,26 +2160,6 @@
           "link": "https://openai.com/business/customer-stories/amplitude",
           "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
           "publishedAt": "2026-11-12T20:00:00.000Z"
-        }
-      ],
-      "sourceCount": 1
-    },
-    {
-      "id": "no-ai-agents-did-not-discover-a-previously-unknown-maya-site-ai-2026-11-12t19-42-40-000z",
-      "title": "No, AI agents did not discover a previously unknown Maya site",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-      "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in...",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/maya-sites.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge AI",
-      "category": "ai",
-      "categoryLabel": "AI",
-      "publishedAt": "2026-11-12T19:42:40.000Z",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-          "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in...",
-          "publishedAt": "2026-11-12T19:42:40.000Z"
         }
       ],
       "sourceCount": 1
