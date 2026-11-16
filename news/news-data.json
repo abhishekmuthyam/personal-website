@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T02:10:04.368Z",
+  "updatedAt": "2026-11-16T09:32:38.939Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,15 +64,92 @@
   ],
   "items": [
     {
-      "id": "hacker-news-coles-hit-by-a-cybersecurity-incident-2026-11-16t01-14-35-000z",
-      "title": "Coles hit by a cybersecurity incident",
-      "link": "https://www.colesgroup.com.au/updates/",
+      "id": "infoq-aws-nitro-sandboxes-put-each-eks-pod-in-its-own-microvm-with-one-runtimeclass-field",
+      "title": "AWS Nitro Sandboxes Put Each EKS Pod in Its Own MicroVM with One RuntimeClass Field",
+      "link": "https://www.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has launched Nitro Sandboxes, running each opted-in EKS pod, ECS task or EC2 workload in its own Firecracker microVM with a separate kernel, enabled by one runtimeClassName field at no extra charge. A confidential m...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-16T09:07:00.000Z"
+    },
+    {
+      "id": "infoq-uno-platform-7-0-adds-webgpu-backend-apple-tv-and-reactor-support-and-retires-native",
+      "title": "Uno Platform 7.0 Adds WebGPU Backend, Apple TV and Reactor Support, and Retires Native Rendering",
+      "link": "https://www.infoq.com/news/2026/11/Uno-Platform-6-7-targets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Uno Platform 7.0 unifies rendering on SkiaSharp 4 with an opt-in WebGPU backend, adds Apple TV as a target and supports .NET 11 from day zero. It also runs third-party .NET MAUI controls and Microsoft.UI.Reactor on all...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-16T09:00:00.000Z"
+    },
+    {
+      "id": "infoq-alpine-linux-users-urged-to-patch-openssh-authentication-flaw-2026-11-16t09-00-00-00",
+      "title": "Alpine Linux Users Urged to Patch OpenSSH Authentication Flaw",
+      "link": "https://www.infoq.com/news/2026/11/alpine-linux-openssh-sshhole/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "A recently disclosed vulnerability in OpenSSH lets an unauthenticated attacker log into accounts that should have no usable password. The issue, named *sshole and tracked as CVE-2026-123158, affects Linux systems runnin...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-16T09:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-how-isvs-are-unlocking-european-workloads-using-google-cloud-dedicated-t",
+      "title": "How ISVs are unlocking European workloads using Google Cloud Dedicated technology",
+      "link": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
+      "summary": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their infrastructure whil...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-16T08:05:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-inside-the-new-google-cloud-data-boundary-experience-2026-11-16t08-05-00",
+      "title": "Inside the new Google Cloud Data Boundary experience",
+      "link": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
+      "summary": "Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign standards (DORA, EHDS, G...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-16T08:05:00.000Z"
+    },
+    {
+      "id": "hacker-news-how-to-make-almost-anything-2026-11-16t05-50-37-000z",
+      "title": "How to make almost anything",
+      "link": "https://pub.cba.mit.edu/863.26/site/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-16T01:14:35.000Z"
+      "publishedAt": "2026-11-16T05:50:37.000Z"
+    },
+    {
+      "id": "hacker-news-qwen4-max-2026-11-16t02-14-44-000z",
+      "title": "Qwen4-Max",
+      "link": "https://qwen.ai/blog?id=qwen4-max",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-16T02:14:44.000Z"
+    },
+    {
+      "id": "hacker-news-universal-xss-in-ublock-origin-from-website-driven-element-picker-2026-11-16t0",
+      "title": "Universal XSS in uBlock Origin from website-driven element picker",
+      "link": "https://iter.ca/post/ubo-uxss/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-16T02:04:48.000Z"
     },
     {
       "id": "hacker-news-tor-project-issues-rapid-response-dos-defense-fix-amid-sustained-ddos-attack-2",
@@ -95,28 +172,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-11-15T23:55:55.000Z"
-    },
-    {
-      "id": "hacker-news-mini-nvim-is-now-on-tangled-2026-11-15t23-55-41-000z",
-      "title": "Mini.nvim Is Now on Tangled",
-      "link": "https://tangled.org/nvim-mini.org/mini.nvim",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-15T23:55:41.000Z"
-    },
-    {
-      "id": "hacker-news-preserving-30-years-of-salon-journalism-2026-11-15t23-00-11-000z",
-      "title": "Preserving 30 years of Salon journalism",
-      "link": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-15T23:00:11.000Z"
     },
     {
       "id": "hacker-news-old-bitly-links-are-being-hijacked-2026-11-15t22-11-43-000z",
@@ -174,17 +229,6 @@
       "publishedAt": "2026-11-15T19:26:22.000Z"
     },
     {
-      "id": "hacker-news-a-short-explainer-on-how-el-ni-o-works-video-2026-11-15t18-23-21-000z",
-      "title": "A short explainer on how El Niño works [video]",
-      "link": "https://www.youtube.com/watch?v=7_JF3etiAv8",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-15T18:23:21.000Z"
-    },
-    {
       "id": "infoq-anthropic-outlines-its-ai-powered-code-review-process-for-claude-code-2026-11-15t09",
       "title": "Anthropic Outlines its AI-Powered Code Review Process for Claude Code",
       "link": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -229,28 +273,6 @@
       "publishedAt": "2026-11-14T08:03:00.000Z"
     },
     {
-      "id": "infoq-google-cloud-moves-the-compute-engine-api-to-immutable-date-based-versions-2026-11-1",
-      "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
-      "link": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per request with a head...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-14T07:27:00.000Z"
-    },
-    {
-      "id": "infoq-open-source-documentdb-1-0-reaches-general-availability-2026-11-14t06-37-00-000z",
-      "title": "Open Source DocumentDB 1.0 Reaches General Availability",
-      "link": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-14T06:37:00.000Z"
-    },
-    {
       "id": "inside-java-adaptive-heap-sizing-numeric-conversion-primitive-patterns-inside-java-newscas",
       "title": "Adaptive Heap Sizing + Numeric Conversion + Primitive Patterns - Inside Java Newscast #117",
       "link": "https://inside.java/newscast/117/",
@@ -273,6 +295,17 @@
       "publishedAt": "2026-11-13T18:00:39.000Z"
     },
     {
+      "id": "hacker-news-researchers-track-whole-body-movement-with-just-a-smartwatch-2026-11-13t17-29",
+      "title": "Researchers track whole body movement with just a smartwatch",
+      "link": "https://news.cornell.edu/stories/2026/11/researchers-track-whole-body-movement-just-smartwatch",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-13T17:29:49.000Z"
+    },
+    {
       "id": "hugging-face-blog-xybench-helping-with-the-problem-behind-the-question-2026-11-13t17-02-35",
       "title": "XYBench: Helping with the problem behind the question",
       "link": "https://huggingface.co/blog/allenai/xybench",
@@ -282,6 +315,17 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-11-13T17:02:35.000Z"
+    },
+    {
+      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-11-13t17-00-00-000z",
+      "title": "What’s new with Google Cloud",
+      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_google_cloud_pill_muted_2436x1200.max-600x600.png",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-13T17:00:00.000Z"
     },
     {
       "id": "google-cloud-blog-new-ai-agent-observability-and-governance-across-bigquery-and-looker-202",
@@ -317,17 +361,6 @@
       "publishedAt": "2026-11-13T17:00:00.000Z"
     },
     {
-      "id": "google-cloud-blog-what-s-new-with-google-cloud-2026-11-13t17-00-00-000z",
-      "title": "What’s new with Google Cloud",
-      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to fin...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_google_cloud_pill_muted_2436x1200.max-600x600.png",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-13T17:00:00.000Z"
-    },
-    {
       "id": "the-register-mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down-2026",
       "title": "Mozilla leaves Solo website owners to go it alone as hosting shuts down",
       "link": "https://www.theregister.com/software/2026/11/13/mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down/5309632",
@@ -347,17 +380,6 @@
       "source": "AWS What's New",
       "topic": "cloud",
       "topicLabel": "Cloud",
-      "publishedAt": "2026-11-13T16:00:00.000Z"
-    },
-    {
-      "id": "infoq-siri-ai-developer-preview-lets-ios-ipados-and-macos-apps-integrate-with-siri-2026-11",
-      "title": "Siri AI Developer Preview Lets iOS, iPadOS, and macOS Apps Integrate with Siri",
-      "link": "https://www.infoq.com/news/2026/11/apple-siri-ai-integration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Apple released the Siri AI Developer Preview in the 27.3 beta releases of its operating systems, enabling developers and apps to integrate with the assistant and hand off actions to it. During the Preview, access to Sir...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
       "publishedAt": "2026-11-13T16:00:00.000Z"
     },
     {
@@ -427,6 +449,17 @@
       "publishedAt": "2026-11-13T08:00:00.000Z"
     },
     {
+      "id": "aws-what-s-new-aws-batch-on-amazon-eks-adds-linux-capabilities-seccomp-and-pod-level-setti",
+      "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
+      "summary": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings.&nbsp;For EKS clusters that enforce the Kubern...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-13T08:00:00.000Z"
+    },
+    {
       "id": "aws-what-s-new-aws-secrets-manager-now-supports-cross-account-replication-2026-11-13t08-00",
       "title": "AWS Secrets Manager now supports cross-account replication",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
@@ -442,17 +475,6 @@
       "title": "Amazon SageMaker Unified Studio now supports layout customization for designations",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-layout-customization/",
       "summary": "Amazon SageMaker Unified Studio now supports layout customization, a new capability that gives domain administrators control over which tools and left navigation items project members see based on their designation. Org...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-13T08:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-aws-batch-on-amazon-eks-adds-linux-capabilities-seccomp-and-pod-level-setti",
-      "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
-      "summary": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings.&nbsp;For EKS clusters that enforce the Kubern...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
@@ -564,28 +586,6 @@
       "link": "https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/",
       "summary": "Even as sophisticated, new zero-day exploits continue to emerge, most cybersecurity incidents still start from the same common sources: an attacker locating and exploiting a fundamental, easily preventable cloud misconf...",
       "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-12T17:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-what-s-new-with-google-data-cloud-2026-11-12t17-00-00-000z",
-      "title": "What’s new with Google Data Cloud",
-      "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
-      "summary": "November 9 - November 13 Bringing conversational analytics to Gemini with Data Cloud connectors : Data Cloud connectors in Gemini are now in preview, enabling knowledge workers to query live enterprise data using natura...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Whats_new_data_cloud.max-600x600.jpg",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-12T17:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-autonomous-defense-at-cloud-speed-with-sentinelone-and-google-security-o",
-      "title": "Autonomous defense at cloud speed with SentinelOne and Google Security Operations",
-      "link": "https://cloud.google.com/blog/topics/partners/autonomous-defense-at-cloud-speed-with-sentinelone-and-google-security-operations/",
-      "summary": "Modern security operations centers (SOCs) face an ongoing pipeline dilemma. While ingesting comprehensive endpoint telemetry is non-negotiable for defense, conventional delivery paths often drive up transfer overhead an...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_smdkA5c.max-600x600.png",
       "source": "Google Cloud Blog",
       "topic": "cloud",
       "topicLabel": "Cloud",
