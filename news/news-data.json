@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T01:52:27.229Z",
+  "updatedAt": "2026-11-18T09:25:47.578Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -64,6 +64,28 @@
   ],
   "items": [
     {
+      "id": "infoq-yelp-migrates-cassandra-to-eks-by-moving-ebs-volumes-2026-11-18t09-00-00-000z",
+      "title": "Yelp Migrates Cassandra to EKS by Moving EBS Volumes",
+      "link": "https://www.infoq.com/news/2026/11/kubernetes-cassandra-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Yelp has moved its Cassandra fleet from legacy self-managed Kubernetes clusters to Amazon EKS by re-pointing existing EBS volumes at new pods, rather than streaming data between nodes. By Claudio Masolo",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T09:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-talos-linux-2026-11-18t08-17-44-000z",
+      "title": "Talos Linux",
+      "link": "https://www.siderolabs.com/talos-linux",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T08:17:44.000Z"
+    },
+    {
       "id": "hacker-news-id-me-terms-required-for-irs-sign-in-2026-11-18t00-51-45-000z",
       "title": "ID.me terms required for IRS sign-in",
       "link": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
@@ -108,15 +130,26 @@
       "publishedAt": "2026-11-18T00:00:00.000Z"
     },
     {
-      "id": "hacker-news-archive-team-is-archiving-the-apple-support-community-closes-november-20-2026",
-      "title": "Archive Team is archiving the Apple Support Community (closes November 20, 2026)",
-      "link": "https://wiki.archiveteam.org/index.php/Apple_Discussions",
-      "summary": "Comments",
+      "id": "openai-news-le-groupe-figaro-and-openai-partner-to-bring-le-figaro-journalism-to-chatgpt-2",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
       "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-17T23:32:58.000Z"
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-11-18T00:00:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-workspaces-applications-adds-support-for-smart-card-redirection-2026",
+      "title": "Amazon WorkSpaces Applications adds support for smart card redirection",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-smart-card-redirection/",
+      "summary": "Amazon WorkSpaces Applications now supports smart card redirection on single-session and multi-session fleets, so users can access the smart card connected to their local device from applications inside their streaming...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-17T23:46:00.000Z"
     },
     {
       "id": "hacker-news-microsoft-s-onnx-runtime-has-disappeared-from-github-2026-11-17t23-18-49-000z",
@@ -229,26 +262,15 @@
       "publishedAt": "2026-11-17T21:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-aws-security-hub-now-infers-resource-criticality-from-installed-software-an",
-      "title": "AWS Security Hub now infers resource criticality from installed software and usage",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-resource-criticality/",
-      "summary": "Today, AWS Security Hub adds installed software and resource usage as signals for resource criticality, which indicates how important a resource is to your business. Security Hub uses criticality to rank exposure findin...",
+      "id": "aws-what-s-new-customize-aws-elemental-inference-with-custom-models-prompts-and-decisions",
+      "title": "Customize AWS Elemental Inference with custom models, prompts, and decisions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/elemental-inference-functions-decisions/",
+      "summary": "AWS Elemental Inference now lets you customize how it analyzes your live video in two ways. You can create functions that ask custom questions of the video using multi-modal foundational models in Amazon Bedrock, or add...",
       "image": "",
       "source": "AWS What's New",
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-11-17T20:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-api-gateway-rest-apis-now-support-jwt-authorizers-2026-11-17t19-22-0",
-      "title": "Amazon API Gateway REST APIs now support JWT authorizers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-api-gateway-rest-authorizers-jwt/",
-      "summary": "Amazon API Gateway now offers a native JWT authorizer for REST APIs, a new authorizer type that validates JSON Web Tokens directly in the gateway. Until now, validating tokens from an OpenID Connect or OAuth 2.0 identit...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-17T19:22:00.000Z"
     },
     {
       "id": "google-cloud-blog-simplifying-multicloud-networking-to-azure-with-partner-cross-cloud-inte",
@@ -557,28 +579,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-11-16T17:00:00.000Z"
-    },
-    {
-      "id": "infoq-java-news-roundup-lazy-constants-spring-for-apache-pulsar-glassfish-hibernate-tomee",
-      "title": "Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J",
-      "link": "https://www.infoq.com/news/2026/11/java-news-roundup-nov09-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of Spring AI and Sprin...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-16T15:25:00.000Z"
-    },
-    {
-      "id": "openai-news-science-at-the-frontier-how-scientists-use-chatgpt-2026-11-16t12-00-00-000z",
-      "title": "Science at the Frontier: How scientists use ChatGPT",
-      "link": "https://openai.com/index/science-at-the-frontier",
-      "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-11-16T12:00:00.000Z"
     },
     {
       "id": "the-register-omaxian-takes-the-omarchy-look-down-a-different-linux-backstreet-2026-11-16t1",
