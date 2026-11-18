@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T09:25:47.578Z",
+  "updatedAt": "2026-11-18T18:15:55.892Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -22,8 +22,9 @@
     {
       "name": "Google Cloud Blog",
       "topic": "cloud",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "This operation was aborted"
     },
     {
       "name": "OpenAI News",
@@ -64,6 +65,182 @@
   ],
   "items": [
     {
+      "id": "hacker-news-launch-hn-maritime-yc-f26-a-managed-cloud-for-production-ai-agents-2026-11-18t",
+      "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
+      "link": "https://news.ycombinator.com/item?id=50549188",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T17:26:28.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-rds-for-mysql-supports-mysql-minor-version-8-4-13-2026-11-18t17-00-0",
+      "title": "Amazon RDS for MySQL supports MySQL minor version 8.4.13",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-mysql-8413-available/",
+      "summary": "Starting today, Amazon Relational Database Service (Amazon RDS) for MySQL supports MySQL minor version 8.4.13, the latest minor released by community MySQL. We recommend upgrading to the newer minor versions to accept f...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-cognito-now-supports-point-in-time-recovery-2026-11-18t17-00-00-000z",
+      "title": "Amazon Cognito now supports point-in-time recovery",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-point-in-time-recovery/",
+      "summary": "Amazon Cognito now supports point-in-time recovery (PITR), so you can restore the user data in a user pool to an earlier time. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, a...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-microsoft-ai-seven-new-world-class-models-at-scalable-price-performance-2026-1",
+      "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
+      "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T16:08:24.000Z"
+    },
+    {
+      "id": "hacker-news-cve-2026-99312-kvm-guest-to-host-escape-2026-11-18t16-06-21-000z",
+      "title": "CVE-2026-99312: KVM Guest-to-Host Escape",
+      "link": "https://www.terra.security/blog/kvm-guest-to-host-escape",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T16:06:21.000Z"
+    },
+    {
+      "id": "aws-what-s-new-amazon-rds-now-supports-fast-storage-volume-initialization-2026-11-18t16-00",
+      "title": "Amazon RDS now supports fast storage volume initialization",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-fast-storage-volume-initialization/",
+      "summary": "Amazon RDS now initializes storage volumes faster when you perform a point-in-time restore (PITR), create a read replica, or convert a Single-AZ instance to Multi-AZ. Each of these operations creates storage volumes fro...",
+      "image": "",
+      "source": "AWS What's New",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-18T16:00:00.000Z"
+    },
+    {
+      "id": "hacker-news-ai-agents-ask-better-questions-than-kpmg-accountants-in-landmark-audit-trial-2",
+      "title": "AI Agents Ask Better Questions Than KPMG Accountants in Landmark Audit Trial",
+      "link": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T15:49:34.000Z"
+    },
+    {
+      "id": "hacker-news-inside-deutsche-bank-2026-11-18t15-38-33-000z",
+      "title": "Inside Deutsche Bank",
+      "link": "https://www.inside-db.com/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T15:38:33.000Z"
+    },
+    {
+      "id": "hacker-news-pre-auth-rce-in-nginx-http-2-handling-2026-11-18t15-19-55-000z",
+      "title": "Pre-auth RCE in Nginx HTTP/2 handling",
+      "link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T15:19:55.000Z"
+    },
+    {
+      "id": "infoq-linkedin-cuts-daily-spark-shuffle-fetch-failures-from-750-to-20-with-apache-celeborn",
+      "title": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
+      "link": "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "LinkedIn deployed Apache Celeborn as a shared remote shuffle platform across most Spark and Flink workloads, reducing daily shuffle fetch failures from approximately 750 to 20. The deployment also lowered compute costs...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T15:05:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-time-series-models-in-the-streamhouse-a-new-frontier-and-use-cases-2026",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-11-18T15:00:23.000Z"
+    },
+    {
+      "id": "hacker-news-human-is-cambridge-dictionary-s-word-of-the-year-2026-2026-11-18t14-43-52-000z",
+      "title": "'Human' Is Cambridge Dictionary's Word of the Year 2026",
+      "link": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T14:43:52.000Z"
+    },
+    {
+      "id": "hacker-news-quad9-is-leaving-france-why-dns-resolvers-are-the-wrong-place-to-fight-piracy",
+      "title": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
+      "link": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T13:18:02.000Z"
+    },
+    {
+      "id": "infoq-presentation-behind-booking-com-s-ai-evolution-the-unpolished-story-2026-11-18t11-00",
+      "title": "Presentation: Behind Booking.com's AI Evolution: The Unpolished Story",
+      "link": "https://www.infoq.com/presentations/bookingcom-ml-data-platform-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built high-throughput model...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T11:00:00.000Z"
+    },
+    {
+      "id": "infoq-vercel-releases-ui-sdk-for-agents-to-compose-ui-from-reusable-behaviors-2026-11-18t1",
+      "title": "Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors",
+      "link": "https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can compose accessible compon...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T10:12:00.000Z"
+    },
+    {
+      "id": "infoq-aws-privatelink-tunnel-endpoints-open-a-whole-cidr-range-to-another-account-2026-11",
+      "title": "AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account",
+      "link": "https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has detailed tunnel endpoints, a PrivateLink endpoint type that gives a consumer VPC access to an entire network segment in another account rather than one resource at a time, over an overlapping address space and w...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T09:29:00.000Z"
+    },
+    {
       "id": "infoq-yelp-migrates-cassandra-to-eks-by-moving-ebs-volumes-2026-11-18t09-00-00-000z",
       "title": "Yelp Migrates Cassandra to EKS by Moving EBS Volumes",
       "link": "https://www.infoq.com/news/2026/11/kubernetes-cassandra-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -75,48 +252,26 @@
       "publishedAt": "2026-11-18T09:00:00.000Z"
     },
     {
-      "id": "hacker-news-talos-linux-2026-11-18t08-17-44-000z",
-      "title": "Talos Linux",
-      "link": "https://www.siderolabs.com/talos-linux",
-      "summary": "Comments",
+      "id": "aws-what-s-new-aws-control-tower-now-supports-existing-amazon-s3-bucket-for-log-delivery-2",
+      "title": "AWS Control Tower now supports existing Amazon S3 bucket for log delivery",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/control-tower-existing-s3-log-bucket/",
+      "summary": "AWS Control Tower now lets you use an existing Amazon S3 bucket in your landing zone to store AWS Config and AWS CloudTrail logs. Previously, AWS Control Tower required you to use the Amazon S3 bucket it creates and man...",
       "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-18T08:17:44.000Z"
-    },
-    {
-      "id": "hacker-news-id-me-terms-required-for-irs-sign-in-2026-11-18t00-51-45-000z",
-      "title": "ID.me terms required for IRS sign-in",
-      "link": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-18T00:51:45.000Z"
-    },
-    {
-      "id": "hacker-news-google-s-ai-answers-reducing-search-traffic-by-40-2026-11-18t00-17-58-000z",
-      "title": "Google's AI answers reducing search traffic by 40%",
-      "link": "https://revscope.co/blog/search-seo-geo-2026/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-18T00:17:58.000Z"
-    },
-    {
-      "id": "google-cloud-blog-how-to-build-durable-agentic-systems-with-google-antigravity-from-instru",
-      "title": "How to Build Durable Agentic Systems with Google Antigravity: From Instructions to Loops",
-      "link": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops/",
-      "summary": "I watched the discussion on agentic loops grow louder over the past few months. But for me, the reality is simpler: prompt engineering has shifted from individual tasks to systems design, and the harness around the mode...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/how-to-build-durable-agentic-systems-with-go.max-600x600.jpg",
-      "source": "Google Cloud Blog",
+      "source": "AWS What's New",
       "topic": "cloud",
       "topicLabel": "Cloud",
-      "publishedAt": "2026-11-18T00:11:00.000Z"
+      "publishedAt": "2026-11-18T08:00:00.000Z"
+    },
+    {
+      "id": "openai-news-inside-the-codex-sandbox-2026-11-18t08-00-00-000z",
+      "title": "Inside the Codex sandbox",
+      "link": "https://openai.com/index/inside-the-codex-sandbox",
+      "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-11-18T08:00:00.000Z"
     },
     {
       "id": "spring-blog-this-week-in-spring-november-18th-2026-2026-11-18t00-00-00-000z",
@@ -127,6 +282,28 @@
       "source": "Spring Blog",
       "topic": "java",
       "topicLabel": "Java",
+      "publishedAt": "2026-11-18T00:00:00.000Z"
+    },
+    {
+      "id": "openai-news-the-silent-consensus-2026-11-18t00-00-00-000z",
+      "title": "The Silent Consensus",
+      "link": "https://openai.com/index/the-silent-consensus",
+      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-11-18T00:00:00.000Z"
+    },
+    {
+      "id": "openai-news-advancing-chip-design-with-openai-models-2026-11-18t00-00-00-000z",
+      "title": "Advancing chip design with OpenAI models",
+      "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "image": "",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "topicLabel": "AI",
       "publishedAt": "2026-11-18T00:00:00.000Z"
     },
     {
@@ -141,6 +318,28 @@
       "publishedAt": "2026-11-18T00:00:00.000Z"
     },
     {
+      "id": "hugging-face-blog-180b-parameters-32gb-of-ram-pushing-moe-inference-to-the-limit-with-tran",
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "link": "https://huggingface.co/blog/moe-expert-streaming",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-11-18T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-rumble-2-flash-an-open-0-5b-speech-model-for-40-languages-2026-11-18t00",
+      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "link": "https://huggingface.co/blog/rumble-2-flash",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-11-18T00:00:00.000Z"
+    },
+    {
       "id": "aws-what-s-new-amazon-workspaces-applications-adds-support-for-smart-card-redirection-2026",
       "title": "Amazon WorkSpaces Applications adds support for smart card redirection",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-smart-card-redirection/",
@@ -150,17 +349,6 @@
       "topic": "cloud",
       "topicLabel": "Cloud",
       "publishedAt": "2026-11-17T23:46:00.000Z"
-    },
-    {
-      "id": "hacker-news-microsoft-s-onnx-runtime-has-disappeared-from-github-2026-11-17t23-18-49-000z",
-      "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
-      "link": "https://github.com/microsoft/onnxruntime",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-17T23:18:49.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-emr-8-2-is-now-available-2026-11-17t22-25-00-000z",
@@ -185,17 +373,6 @@
       "publishedAt": "2026-11-17T22:25:00.000Z"
     },
     {
-      "id": "hacker-news-quad9-s-withdrawal-from-france-a-canary-in-the-coal-mine-2026-11-17t22-13-34-0",
-      "title": "Quad9's withdrawal from France: A canary in the coal mine",
-      "link": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-17T22:13:34.000Z"
-    },
-    {
       "id": "aws-what-s-new-aws-transform-now-accelerates-migration-deals-for-migration-acceleration-pr",
       "title": "AWS Transform now accelerates migration deals for Migration Acceleration Program (MAP) benefits",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/map-integration-with-aws-transform/",
@@ -207,50 +384,6 @@
       "publishedAt": "2026-11-17T22:00:00.000Z"
     },
     {
-      "id": "aws-what-s-new-amazon-ec2-c8gn-instances-are-now-available-in-aws-israel-tel-aviv-region-2",
-      "title": "Amazon EC2 C8gn instances are now available in AWS Israel (Tel Aviv) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c8gn/",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Israel (Tel Aviv) region. The C8gn instances provide up to 30...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-17T22:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-ec2-c8ine-instances-are-now-available-in-aws-europe-ireland-region-2",
-      "title": "Amazon EC2 C8ine instances are now available in AWS Europe (Ireland) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c8ine",
-      "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8ine instances are available in the AWS Europe (Ireland) region. C8ine instances are powered by custom sixth generation Intel Xeon Scalable processors, availabl...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-17T22:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-amazon-ecr-now-supports-global-authentication-tokens-for-private-registries",
-      "title": "Amazon ECR now supports global authentication tokens for private registries",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-authentication-amazon-ecr",
-      "summary": "Amazon Elastic Container Registry (Amazon ECR) now supports global authentication tokens for private registries. Previously, you needed to request a separate authentication token in each AWS Region where you push or pul...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-17T21:37:00.000Z"
-    },
-    {
-      "id": "hacker-news-java4shell-rce-in-openjdk-when-processing-base64-2026-11-17t21-11-28-000z",
-      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
-      "link": "https://calif.io/java4shell/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-17T21:11:28.000Z"
-    },
-    {
       "id": "infoq-how-shopify-orchestrates-ai-powered-mobile-app-development-without-overloading-devel",
       "title": "How Shopify Orchestrates AI-Powered Mobile App Development Without Overloading Developers' Machines",
       "link": "https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -260,28 +393,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-11-17T21:00:00.000Z"
-    },
-    {
-      "id": "aws-what-s-new-customize-aws-elemental-inference-with-custom-models-prompts-and-decisions",
-      "title": "Customize AWS Elemental Inference with custom models, prompts, and decisions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/elemental-inference-functions-decisions/",
-      "summary": "AWS Elemental Inference now lets you customize how it analyzes your live video in two ways. You can create functions that ask custom questions of the video using multi-modal foundational models in Amazon Bedrock, or add...",
-      "image": "",
-      "source": "AWS What's New",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-17T20:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-simplifying-multicloud-networking-to-azure-with-partner-cross-cloud-inte",
-      "title": "Simplifying multicloud networking to Azure with partner Cross-Cloud Interconnect",
-      "link": "https://cloud.google.com/blog/products/networking/cross-cloud-interconnect-for-microsoft-azure/",
-      "summary": "As AI changes how businesses build and run applications, more enterprises are spreading their models, data and applications across multiple clouds. To make that work, they need fast, private connections between those en...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-17T18:35:00.000Z"
     },
     {
       "id": "github-blog-maintainers-don-t-need-more-ai-bug-reports-they-need-fixes-2026-11-17t18-29-29",
@@ -304,17 +415,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-11-17T18:20:40.000Z"
-    },
-    {
-      "id": "hacker-news-gpt-6-2-astra-and-sol-2026-11-17t17-46-43-000z",
-      "title": "GPT‑6.2 Astra and Sol",
-      "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-17T17:46:43.000Z"
     },
     {
       "id": "openai-news-introducing-gpt-6-2-astra-and-sol-2026-11-17t17-45-00-000z",
@@ -350,61 +450,6 @@
       "publishedAt": "2026-11-17T17:13:28.000Z"
     },
     {
-      "id": "hacker-news-nvidia-stopped-disclosing-singapore-sales-as-revenues-hit-104b-2026-11-17t17-1",
-      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
-      "link": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-17T17:12:06.000Z"
-    },
-    {
-      "id": "google-cloud-blog-google-cloud-is-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-appli",
-      "title": "Google Cloud is a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms",
-      "link": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-is-a-leader-in-the-2026-gartner-magic-quadrant/",
-      "summary": "For the third time in a row, Google Cloud is recognized as a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms , positioned highest overall on the Ability to Execute axis. 1 These days,...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-17T17:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-the-visual-evolution-of-looker-modern-design-for-enterprise-data-storyte",
-      "title": "The visual evolution of Looker: Modern design for enterprise data storytelling",
-      "link": "https://cloud.google.com/blog/products/business-intelligence/modern-data-visualizations-and-custom-charts-in-looker/",
-      "summary": "Over the past year, we’ve focused on making Looker easier to use for every business user. We started by redesigning the exploration experience with drag-and-drop workspaces , streamlined field pickers, and conversationa...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-17T17:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-congratulations-to-our-2026-google-cloud-partner-all-stars-2026-11-17t17",
-      "title": "Congratulations to our 2026 Google Cloud Partner All-stars",
-      "link": "https://cloud.google.com/blog/topics/partners/2026-google-cloud-partner-all-stars-winners/",
-      "summary": "The Google Cloud partner ecosystem plays an essential role in driving customer success. As we enter a transformative new era, our partners are instrumental in helping move AI from early pilots into true production-grade...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/blog_2026_partner_allstars.max-600x600.png",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-17T17:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-cold-relic-a-case-study-in-impersonation-and-compromise-2026-11-17t14-00",
-      "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/",
-      "summary": "Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Rus...",
-      "image": "",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-17T14:00:00.000Z"
-    },
-    {
       "id": "infoq-qwik-2-0-rc-replaces-html-comment-markers-for-faster-reactivity-and-out-of-order-str",
       "title": "Qwik 2.0 RC: Replaces HTML Comment Markers for Faster Reactivity and Out-of-Order Streaming",
       "link": "https://www.infoq.com/news/2026/11/quik-2-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -438,72 +483,6 @@
       "publishedAt": "2026-11-17T11:09:31.000Z"
     },
     {
-      "id": "infoq-production-ai-architecture-trade-offs-team-design-infoq-opens-registration-for-6-jan",
-      "title": "Production AI, Architecture Trade-offs & Team Design: InfoQ Opens Registration for 6 January Cohorts",
-      "link": "https://www.infoq.com/news/2026/11/onlinecohort-jan27-certification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "From agent reliability to architecture decisions and delivery bottlenecks, InfoQ’s January 2027 cohorts give senior practitioners five weeks to examine current challenges, test approaches in their own work, and compare...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-17T11:00:00.000Z"
-    },
-    {
-      "id": "infoq-presentation-scaling-llm-based-ranking-systems-for-latency-critical-search-recommend",
-      "title": "Presentation: Scaling LLM-Based Ranking Systems for Latency-Critical Search & Recommendation Workloads",
-      "link": "https://www.infoq.com/presentations/scale-llm-ranking-systems-linkedin/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Sundara Raman Ramachandran shares how LinkedIn productionizes LLM ranking under strict P99 latency SLAs. He discusses distilling a 7B model down to 400M parameters, compressing job contexts into single-token embeddings...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-17T11:00:00.000Z"
-    },
-    {
-      "id": "infoq-microsoft-releases-net-11-c-15-union-types-native-aot-cli-host-and-coreclr-by-defaul",
-      "title": "Microsoft Releases .NET 11: C# 15 Union Types, Native AOT CLI Host, and CoreCLR by Default in MAUI",
-      "link": "https://www.infoq.com/news/2026/11/dotnet-11-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Microsoft has released .NET 11, a Standard Term Support release with two years of support. It ships C# 15 with union types and closed hierarchies, a Native AOT CLI host, a preview of Runtime Async, Zstandard compression...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-17T10:20:00.000Z"
-    },
-    {
-      "id": "infoq-ten-years-on-google-updates-the-sre-book-for-the-ai-era-2026-11-17t09-00-00-000z",
-      "title": "Ten Years On, Google Updates the SRE Book for the AI Era",
-      "link": "https://www.infoq.com/news/2026/11/google-sre-book-ai-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Google has announced a completely rewritten second edition of Site Reliability Engineering: How Google Runs Production Systems, ten years after the original book was published by O'Reilly Media. The update reframes SRE...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-17T09:00:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-building-sovereign-ai-in-europe-with-europe-our-new-startup-accelerator",
-      "title": "Building Sovereign AI in Europe, With Europe: Our New Startup Accelerator",
-      "link": "https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open/",
-      "summary": "Today we’re announcing an open call for applications for the Google for Startups Accelerator: Sovereign AI . Available in Europe and Israel, this initiative supports startups that are building cutting-edge AI solutions...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Copy_of_banner_1920x1080.max-600x600.jpg",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-17T08:30:00.000Z"
-    },
-    {
-      "id": "google-cloud-blog-sovereign-ai-in-europe-new-ways-to-control-your-ai-stack-2026-11-17t08-0",
-      "title": "Sovereign AI in Europe: New ways to control your AI stack",
-      "link": "https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/",
-      "summary": "Today in Brussels, public sector leaders, policymakers and partners are meeting at the Sovereign AI Summit to discuss how to build the next decade of Europe's public services, healthcare, and finance with AI under Europ...",
-      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_-_Hero_-_Sovereign_AI_on_your_terms.max-600x600.jpg",
-      "source": "Google Cloud Blog",
-      "topic": "cloud",
-      "topicLabel": "Cloud",
-      "publishedAt": "2026-11-17T08:00:00.000Z"
-    },
-    {
       "id": "openai-news-introducing-chatgpt-for-sales-2026-11-17t08-00-00-000z",
       "title": "Introducing ChatGPT for Sales",
       "link": "https://openai.com/index/introducing-chatgpt-for-sales",
@@ -519,17 +498,6 @@
       "title": "Strengthening NATO and allied cyber defenses with AI",
       "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
       "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-11-17T00:00:00.000Z"
-    },
-    {
-      "id": "openai-news-astra-for-law-leads-in-legal-intelligence-2026-11-17t00-00-00-000z",
-      "title": "Astra for Law leads in legal intelligence",
-      "link": "https://openai.com/index/astra-law-6-2",
-      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
       "image": "",
       "source": "OpenAI News",
       "topic": "ai",
@@ -557,28 +525,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-11-16T17:27:00.000Z"
-    },
-    {
-      "id": "openai-news-broadening-access-to-ai-for-scientists-2026-11-16t17-00-00-000z",
-      "title": "Broadening access to AI for scientists",
-      "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-11-16T17:00:00.000Z"
-    },
-    {
-      "id": "openai-news-strengthening-the-fight-against-online-child-sexual-abuse-with-new-tools-and-s",
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "link": "https://openai.com/index/strengthening-online-child-safety",
-      "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
-      "image": "",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-11-16T17:00:00.000Z"
     },
     {
       "id": "the-register-omaxian-takes-the-omarchy-look-down-a-different-linux-backstreet-2026-11-16t1",
@@ -612,6 +558,61 @@
       "topic": "java",
       "topicLabel": "Java",
       "publishedAt": "2026-11-16T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-hugging-face-and-openrouter-join-forces-to-make-open-weight-models-easy",
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "link": "https://huggingface.co/blog/openrouter",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-11-16T00:00:00.000Z"
+    },
+    {
+      "id": "inside-java-adaptive-heap-sizing-numeric-conversion-primitive-patterns-inside-java-newscas",
+      "title": "Adaptive Heap Sizing + Numeric Conversion + Primitive Patterns - Inside Java Newscast #117",
+      "link": "https://inside.java/newscast/117/",
+      "summary": "ZGC gets adaptive heap sizing, value classes complicate numeric conversions, and primitive patterns are withdrawn as JDK 28 takes shape.",
+      "image": "",
+      "source": "Inside Java",
+      "topic": "java",
+      "topicLabel": "Java",
+      "publishedAt": "2026-11-14T00:00:00.000Z"
+    },
+    {
+      "id": "hugging-face-blog-build-a-robot-pick-and-place-simulation-with-simready-assets-2026-11-13t",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-11-13T18:00:39.000Z"
+    },
+    {
+      "id": "hugging-face-blog-xybench-helping-with-the-problem-behind-the-question-2026-11-13t17-02-35",
+      "title": "XYBench: Helping with the problem behind the question",
+      "link": "https://huggingface.co/blog/allenai/xybench",
+      "summary": "",
+      "image": "",
+      "source": "Hugging Face Blog",
+      "topic": "ai",
+      "topicLabel": "AI",
+      "publishedAt": "2026-11-13T17:02:35.000Z"
+    },
+    {
+      "id": "the-register-mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down-2026",
+      "title": "Mozilla leaves Solo website owners to go it alone as hosting shuts down",
+      "link": "https://www.theregister.com/software/2026/11/13/mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down/5309632",
+      "summary": "If you have one of these AI-generated homepages, you'd better download and save it quick",
+      "image": "https://image.theregister.com/?imageId=260756&width=800",
+      "source": "The Register",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-13T16:59:00.000Z"
     }
   ]
 }
