@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T00:24:04.134Z",
+  "updatedAt": "2026-11-19T07:41:34.376Z",
   "sources": [
     {
       "name": "Inside Java",
@@ -22,9 +22,8 @@
     {
       "name": "Google Cloud Blog",
       "topic": "cloud",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 500"
+      "ok": true,
+      "count": 8
     },
     {
       "name": "OpenAI News",
@@ -65,26 +64,70 @@
   ],
   "items": [
     {
-      "id": "hacker-news-we-need-smart-people-who-give-a-shit-2026-11-18t23-53-49-000z",
-      "title": "We Need Smart People Who Give a Shit",
-      "link": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
+      "id": "hacker-news-15m-web-servers-on-one-vm-smoltcp-dpdk-af-xdp-2026-11-19t05-56-36-000z",
+      "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
+      "link": "https://kapteko.com/15-million-webservers/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-18T23:53:49.000Z"
+      "publishedAt": "2026-11-19T05:56:36.000Z"
     },
     {
-      "id": "hacker-news-software-companies-are-trying-to-kill-home-computing-2026-11-18t23-49-18-000z",
-      "title": "Software companies are trying to kill home computing",
-      "link": "https://lateblt.livejournal.com/526188.html",
+      "id": "infoq-discord-rewrites-desktop-and-mobile-clients-in-rust-using-zed-s-gpu-accelerated-rend",
+      "title": "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework",
+      "link": "https://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Discord’s CTO Stanislav Vishnevskiy recently announced rewriting its desktop and mobile clients in Rust, moving away from Electron and React Native. The project eliminates layers of abstraction to directly leverage the...",
+      "image": "",
+      "source": "InfoQ",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-19T03:12:00.000Z"
+    },
+    {
+      "id": "hacker-news-multiple-vulnerabilities-in-regexp-and-string-case-conversion-2026-11-18t23-52",
+      "title": "Multiple vulnerabilities in Regexp and String case conversion",
+      "link": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
       "summary": "Comments",
       "image": "",
       "source": "Hacker News",
       "topic": "devtools",
       "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-18T23:49:18.000Z"
+      "publishedAt": "2026-11-18T23:52:50.000Z"
+    },
+    {
+      "id": "hacker-news-anthropic-prices-initial-public-offering-2026-11-18t23-30-09-000z",
+      "title": "Anthropic prices initial public offering",
+      "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T23:30:09.000Z"
+    },
+    {
+      "id": "google-cloud-blog-a-bridge-to-modernization-what-idc-s-market-note-says-about-cameyo-by-go",
+      "title": "A bridge to modernization: What IDC’s Market Note says about Cameyo by Google",
+      "link": "https://cloud.google.com/blog/products/chrome-enterprise/a-bridge-to-modernization-what-idcs-market-note-says-about-cameyo-by-google/",
+      "summary": "Organizations are increasingly adopting generative and agentic AI as they look for ways to unlock more business value. Yet for many IT leaders, business-critical legacy desktop apps stand in the way—too essential to ret...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Gemini_Generated_Image_r3g45xr3g45xr3g4.max-600x600.jpg",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-18T21:36:00.000Z"
+    },
+    {
+      "id": "hacker-news-gemini-4-neon-2026-11-18t21-34-07-000z",
+      "title": "Gemini 4 Neon",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "summary": "Comments",
+      "image": "",
+      "source": "Hacker News",
+      "topic": "devtools",
+      "topicLabel": "Dev Tools",
+      "publishedAt": "2026-11-18T21:34:07.000Z"
     },
     {
       "id": "aws-what-s-new-amazon-opensearch-memory-is-now-generally-available-2026-11-18t21-09-00-000",
@@ -142,17 +185,6 @@
       "publishedAt": "2026-11-18T19:54:56.000Z"
     },
     {
-      "id": "hacker-news-daisyrose-27b-1-200-task-rl-took-qwen3-8-from-5-6-to-12-on-terminal-bench-4-1",
-      "title": "DaisyRose-27B: 1,200-task RL took Qwen3.8 from 5.6% to 12% on Terminal-Bench 4.1",
-      "link": "https://www.radixark.com/blog/daisyrose-27b",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-18T19:39:16.000Z"
-    },
-    {
       "id": "aws-what-s-new-aws-transform-custom-now-supports-cross-account-sharing-of-transformation-d",
       "title": "AWS Transform custom now supports cross-account sharing of transformation definitions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-custom-cross-account-td/",
@@ -208,6 +240,72 @@
       "publishedAt": "2026-11-18T18:00:00.000Z"
     },
     {
+      "id": "google-cloud-blog-emea-startups-building-the-next-generation-of-agents-on-google-cloud-202",
+      "title": "EMEA startups building the next-generation of agents on Google Cloud",
+      "link": "https://cloud.google.com/blog/topics/startups/google-cloud-highlights-emea-startup-momentum-at-slush-2026/",
+      "summary": "As thousands of founders, investors, and technology leaders gather in Helsinki for Slush 2026, the European startup ecosystem is undergoing a profound transformation. The conversation has moved from AI experiments to op...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-18T17:30:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-sashiko-lessons-from-building-an-agentic-code-review-system-for-linux-20",
+      "title": "Sashiko: Lessons from building an agentic code review system for Linux",
+      "link": "https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/",
+      "summary": "The speed of development in large open-source projects has always been limited by code review, not code generation. Even as coding agents get better at writing code, they do not accelerate development on their own. This...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-what-s-new-in-okf-v0-3-enterprise-ready-knowledge-use-cases-and-skills-2",
+      "title": "What’s new in OKF v0.3: enterprise-ready knowledge, use cases, and skills",
+      "link": "https://cloud.google.com/blog/products/data-analytics/introducing-okf-v0-3/",
+      "summary": "In June we introduced the Open Knowledge Format (OKF) , an open specification that provides plain markdown and YAML to give agents the context they need. In July, v0.2 added trust signals: provenance, trust, freshness,...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-building-an-agentic-stack-in-envoy-routing-models-tokens-and-mcp-2026-11",
+      "title": "Building an agentic stack in Envoy: routing models, tokens, and MCP",
+      "link": "https://cloud.google.com/blog/products/networking/the-envoy-agentic-stack-routing-models-tokens-and-mcp/",
+      "summary": "At Google Cloud, we believe the next generation of AI and agentic systems must be built on open, battle-tested foundations. Envoy, an open-source edge and service proxy designed for cloud-native applications, has alread...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-scaling-massive-ai-ml-workloads-with-ipv6-on-google-kubernetes-engine-cl",
+      "title": "Scaling massive AI/ML workloads with IPv6 on Google Kubernetes Engine clusters",
+      "link": "https://cloud.google.com/blog/products/networking/run-aiml-workloads-on-ipv6-only-gke-clusters/",
+      "summary": "TL;DR: Single-stack IPv6 on GKE runs both nodes and pods without having to use private IPv4 addresses. Available in preview for Cloud TPU v6e and CPU node pools, including Axion, it works with DNS64/NAT64 to reach IPv4...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-testing-changes-fast-introducing-agentic-assessments-in-database-center",
+      "title": "Testing changes, fast: Introducing agentic assessments in Database Center",
+      "link": "https://cloud.google.com/blog/products/databases/database-center-assessments-for-cloud-sql-for-postgresql/",
+      "summary": "Applying recommendations to a production database can feel risky if you can’t easily quantify the performance benefit or justify the additional cost. While Database Center flags fleet-level health issues and provides pr...",
+      "image": "",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
       "id": "hacker-news-seven-new-models-at-scalable-price-performance-2026-11-18t16-08-24-000z",
       "title": "Seven new models at scalable price-performance",
       "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
@@ -217,17 +315,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-11-18T16:08:24.000Z"
-    },
-    {
-      "id": "hacker-news-ai-agents-ask-better-questions-than-kpmg-accountants-in-audit-trial-2026-11-18",
-      "title": "AI agents ask better questions than KPMG accountants in audit trial",
-      "link": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-18T15:49:34.000Z"
     },
     {
       "id": "hacker-news-inside-deutsche-bank-2026-11-18t15-38-33-000z",
@@ -272,17 +359,6 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-11-18T15:00:23.000Z"
-    },
-    {
-      "id": "hacker-news-dns-resolvers-are-the-wrong-place-to-fight-piracy-2026-11-18t13-18-02-000z",
-      "title": "DNS resolvers are the wrong place to fight piracy",
-      "link": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-      "summary": "Comments",
-      "image": "",
-      "source": "Hacker News",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-18T13:18:02.000Z"
     },
     {
       "id": "infoq-presentation-behind-booking-com-s-ai-evolution-the-unpolished-story-2026-11-18t11-00",
@@ -382,6 +458,17 @@
       "topic": "ai",
       "topicLabel": "AI",
       "publishedAt": "2026-11-18T06:00:00.000Z"
+    },
+    {
+      "id": "google-cloud-blog-how-to-build-durable-agentic-systems-with-google-antigravity-from-instru",
+      "title": "How to Build Durable Agentic Systems with Google Antigravity: From Instructions to Loops",
+      "link": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops/",
+      "summary": "I watched the discussion on agentic loops grow louder over the past few months. But for me, the reality is simpler: prompt engineering has shifted from individual tasks to systems design, and the harness around the mode...",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/how-to-build-durable-agentic-systems-with-go.max-600x600.jpg",
+      "source": "Google Cloud Blog",
+      "topic": "cloud",
+      "topicLabel": "Cloud",
+      "publishedAt": "2026-11-18T00:11:00.000Z"
     },
     {
       "id": "spring-blog-this-week-in-spring-november-18th-2026-2026-11-18t00-00-00-000z",
@@ -516,17 +603,6 @@
       "publishedAt": "2026-11-17T12:25:00.000Z"
     },
     {
-      "id": "infoq-datadog-brings-production-experimentation-to-ai-agent-observability-2026-11-17t12-00",
-      "title": "Datadog Brings Production Experimentation to AI Agent Observability",
-      "link": "https://www.infoq.com/news/2026/11/datadog-ai-agent-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Datadog is extending its Agent Observability platform with Online Experiments, allowing engineering teams to compare AI agent versions against real production traffic rather than relying exclusively on predefined evalua...",
-      "image": "",
-      "source": "InfoQ",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-17T12:00:00.000Z"
-    },
-    {
       "id": "the-register-up-to-99-of-uk-civil-servants-rely-on-microsoft-for-comms-minister-admits-202",
       "title": "Up to 99% of UK civil servants rely on Microsoft for comms, minister admits",
       "link": "https://www.theregister.com/software/2026/11/17/up-to-99-of-uk-civil-servants-rely-on-microsoft-for-comms-minister-admits/5310385",
@@ -536,83 +612,6 @@
       "topic": "devtools",
       "topicLabel": "Dev Tools",
       "publishedAt": "2026-11-17T11:09:31.000Z"
-    },
-    {
-      "id": "the-register-microsoft-fixes-windows-activation-as-admins-pick-through-exchange-outage-wre",
-      "title": "Microsoft fixes Windows activation as admins pick through Exchange outage wreckage",
-      "link": "https://www.theregister.com/software/2026/11/16/microsoft-fixes-windows-activation-as-admins-pick-through-exchange-outage-wreckage/5310102",
-      "summary": "Another unscheduled patch for IT teams already having quite enough fun with Redmond",
-      "image": "https://image.theregister.com/?imageId=233068&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-16T17:27:00.000Z"
-    },
-    {
-      "id": "the-register-omaxian-takes-the-omarchy-look-down-a-different-linux-backstreet-2026-11-16t1",
-      "title": "Omaxian takes the Omarchy look down a different Linux backstreet",
-      "link": "https://www.theregister.com/os-platforms/2026/11/16/omaxian-takes-the-omarchy-look-down-a-different-linux-backstreet/5309750",
-      "summary": "Devuan-based distro swaps Wayland for XLibre and i3, with Xfce waiting if the tiling gets tiresome",
-      "image": "https://image.theregister.com/?imageId=5309769&width=800",
-      "source": "The Register",
-      "topic": "devtools",
-      "topicLabel": "Dev Tools",
-      "publishedAt": "2026-11-16T10:15:00.000Z"
-    },
-    {
-      "id": "inside-java-why-it-takes-3000-commits-to-bring-valhalla-s-value-objects-to-the-jdk-2026-11",
-      "title": "Why It Takes 3000 Commits to Bring Valhalla’s Value Objects to the JDK",
-      "link": "https://inside.java/2026/11/16/devoxxbelgium-valhalla-value-objects/",
-      "summary": "JEP 401 (Value Objects) arrives in OpenJDK as a preview feature, enabling a new Java type model with minimal code changes. The talk explains what value objects are, JVM benefits, Valhalla history, implementation details...",
-      "image": "",
-      "source": "Inside Java",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-11-16T00:00:00.000Z"
-    },
-    {
-      "id": "spring-blog-spring-office-hours-podcast-s5e30-what-s-new-in-intellij-idea-and-air-with-ant",
-      "title": "Spring Office Hours Podcast: S5E30 - What’s New in IntelliJ IDEA and AIR with Anton Arhipov",
-      "link": "https://spring.io/blog/2026/11/16/spring-office-hours-podcast-S5E30",
-      "summary": "",
-      "image": "",
-      "source": "Spring Blog",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-11-16T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-hugging-face-and-openrouter-join-forces-to-make-open-weight-models-easy",
-      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-      "link": "https://huggingface.co/blog/openrouter",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-11-16T00:00:00.000Z"
-    },
-    {
-      "id": "inside-java-adaptive-heap-sizing-numeric-conversion-primitive-patterns-inside-java-newscas",
-      "title": "Adaptive Heap Sizing + Numeric Conversion + Primitive Patterns - Inside Java Newscast #117",
-      "link": "https://inside.java/newscast/117/",
-      "summary": "ZGC gets adaptive heap sizing, value classes complicate numeric conversions, and primitive patterns are withdrawn as JDK 28 takes shape.",
-      "image": "",
-      "source": "Inside Java",
-      "topic": "java",
-      "topicLabel": "Java",
-      "publishedAt": "2026-11-14T00:00:00.000Z"
-    },
-    {
-      "id": "hugging-face-blog-build-a-robot-pick-and-place-simulation-with-simready-assets-2026-11-13t",
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "summary": "",
-      "image": "",
-      "source": "Hugging Face Blog",
-      "topic": "ai",
-      "topicLabel": "AI",
-      "publishedAt": "2026-11-13T18:00:39.000Z"
     }
   ]
 }
